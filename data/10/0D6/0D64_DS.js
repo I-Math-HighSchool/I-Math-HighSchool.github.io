@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §4. Các số đặc trưng đo mức độ phân tán mẫu số liệu - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/TK10-CD1.6-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D64 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
+// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
 // =========================================================================
 window.dungSai0D64 = [
   {
@@ -326,5 +325,28 @@ window.dungSai0D64 = [
       }
     ],
     "explain": "<br>- Trong mẫu số liệu trên, số lớn nhất là $9$ và số bé nhất là $7 $. Vậy khoảng biến thiên của mầu số liệu trên là  $  R=x_{\\max}-x_{\\min}=9-7=2 .  $   Suy ra mệnh đề đúng.<br>- Điểm kiểm tra trung bình cộng của An là  $  \\begin{aligned}  & \\bar{x}_{A}=\\dfrac{8\\cdot 3+7{,}5+7{,}8+8{,}3+9 \\cdot 2+7+8{,}2+9+8{,}3}{11}\\\\  & \\bar{x}_{A}=8{,}1.  \\end{aligned}  $  Suy ra mệnh đề sai.<br>- Điểm kiểm tra trung bình cộng của Bình là  $  \\begin{aligned}  & \\bar{x}_{B}=\\dfrac{8{,}5\\cdot 3+9{,}5{,}2+9{,}2+5+5{,}5+6+10}{11}\\\\  & \\bar{x}_{B}=\\dfrac{89}{11}\\approx 8{,}1 .  \\end{aligned}  $  Suy ra mệnh đề đúng.<br>- Điểm trung bình cộng của An là $\\bar{A}_x=8{,}1$.  Điếm trung bình cộng của Bình là $\\bar{x}_{B}=\\dfrac{89}{11}\\approx 8{,}1$.  Phương sai của số liệu điểm của bạn An:  $  s_{An}^2=\\dfrac{0{,}1^2+0{,}6^2+0{,}3^2+0{,}2^2+0{,}9^2+1{,}1^2+0{,}1^2+0{,}1^2+0{,}9^2+0{,}1^2+0{,}2^2}{11}=\\dfrac{17}{55}\\approx 0{,}31 .  $  Phương sai của số liệu điểm của bạn Bình:  $  s_B^2=\\dfrac{3 \\cdot 0{,}4^2+1{,}4^2 \\cdot 2+0{,}9^2+3{,}1^2+2{,}6^2+2{,}1^2+1{,}9^2+0{,}9^2}{11}\\approx 2{,}76 .  $  Do $\\bar{x}_{A}=\\bar{x}_B$; $s_{A}^2&lt;s_B^2$ nên bạn An học đều các mọn hơn bạn Bình. Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D642DS15",
+    "question": "Điểm khảo sát chất lượng học sinh giỏi của 15 học sinh khối 10 được thống kê như sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "subQuestions": [
+      {
+        "text": "Khoảng biến thiên của mẫu số liệu là $5$",
+        "answer": true
+      },
+      {
+        "text": "Khoảng tứ phân vị của mẫu số liệu là $1$",
+        "answer": false
+      },
+      {
+        "text": "Số trung vị của bảng số liệu trên là $4$",
+        "answer": false
+      },
+      {
+        "text": "Mẫu số liệu không có giá trị bất thường",
+        "answer": true
+      }
+    ],
+    "explain": "Trước hết, ta sẽ sắp xếp mẫu số liệu theo thứ tự không giảm:  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Trong mẫu số liệu trên, số lớn nhất là 9 và số bé nhất là $4$. Vậy khoảng biến thiên của mẫu số liệu trên là  $  R=x_{\\max}-x_{\\min}=9-4=5.  $  Suy ra mệnh đề đúng.<br>- Từ mẫu số liệu ta tính được $Q_1=6 ; Q_2=7$ và $Q_3=8$.  Do đó, khoảng tứ phân vị là $\\Delta_Q=Q_3-Q_1=8-6=2$. Suy ra mệnh đề sai.<br>- Vì $n=15$ là số lẻ nên số trung vị là số chính giữa .<br>   Số trung vị của bảng số liệu trên là $7 $. Suy ra mệnh đề sai.<br>- Ta có $Q_1-1{,}5\\cdot \\Delta_Q=3$ và $Q_3+1{,}5\\cdot \\Delta_Q=11$  Giá trị được xem là bất thường khi lơn hơn $11$ hoặc bé hơn $3$ nên trong mẫu số liệu không có giá trị được xem là bất thường. Suy ra mệnh đề đúng."
   }
 ];

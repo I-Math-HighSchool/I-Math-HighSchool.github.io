@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Hàm số bậc hai - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D32 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
+// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
 // =========================================================================
 window.dungSai0D32 = [
   {
@@ -188,5 +187,189 @@ window.dungSai0D32 = [
       }
     ],
     "explain": "<br>- Đồ thị hàm số $y=f(x)$ nằm hoàn toàn phía dưới trục hoành  $\\Leftrightarrow -2x^2+(m-1) x-2 lt; 0, \\forall x \\in \\mathbb{R}$<br>$\\Leftrightarrow a=-2 lt;0 \\text{ và } \\Delta=(m-1)^2-16 lt;0$<br>$\\Leftrightarrow -3 lt;m lt;5.$  Vậy mệnh đề ``Tập tất cả các giá trị thực của tham số $m$ để đồ thị hàm số $y=f(x)$ nằm hoàn toàn phía dưới trục hoành là $(-\\infty;-3] \\cup[5;+\\infty)$'' sai.<br>- Phương trình hoành độ giao điểm của đồ thị hàm số $y=f(x)$ và đường thẳng $y=x-1$ là  \\[-2x^2+(m-1) x-2=x-1\\Leftrightarrow 2x^2-(m-2) x+1=0.\\]  Yêu cầu bài toán  $\\Leftrightarrow \\Delta=(m-2)^2-8 gt;0 \\text{ và } \\left(x_1+x_2\\right)^2-2x_1x_2=4$<br>$\\Leftrightarrow (m-2)^2 gt;8 \\text{ và } \\dfrac{(m-2)^2}{4}-2\\cdot \\dfrac{1}{2}=4\\text { (Vi-ét)}$<br>$\\Leftrightarrow (m-2)^2 gt;8 (1) \\text{ và } (m-2)^2=20 \\text{ (thỏa mãn (1))}$<br>$\\Leftrightarrow m^2-4m-16=0.$  Tổng các giá trị thực của tham số $m$ thoả mãn bằng $4$.<br>  Vậy mệnh đề ``Tổng các giá trị thực của tham số $m$ để đồ thị hàm số $y=f(x)$ cắt đường thẳng $y=x-1$ tại $2$ điểm phân biệt có hoành độ $x_1$, $x_2$: $x_1^2+x_2^2=4$ bằng $4$'' đúng.<br>- Hoành độ đỉnh của parabol $y=f(x)$ là $x_I=\\dfrac{m-1}{4}$.<br>  Mà $a=-2&lt;0$ nên hàm số nghịch biến trên khoảng $\\left(\\dfrac{m-1}{4};+\\infty\\right)$.<br>  Khi đó hàm số $y=f(x)$ nghịch biến trên khoảng $(1;+\\infty) \\Leftrightarrow \\dfrac{m-1}{4} \\leq 1 \\Leftrightarrow m \\leq 5$.<br>  Vậy mệnh đề ``Tập tất cả các giá trị thực của tham số $m$ để hàm số $y=f(x)$ nghịch biến trên khoảng $(1;+\\infty)$ là $\\{5\\}$'' sai.<br>- Cách vẽ đồ thị hàm số $y=|f(x)|$ từ đồ thị hàm số $y=f(x)$:  <br>- Giữ nguyên phần đồ thị hàm số $y=f(x)$ ở phía trên trục hoành.<br>- Lấy đối xứng phần đồ thị hàm số $y=f(x)$ ở phía dưới trục hoành qua trục hoành rồi xoá phần đồ thị hàm số $y=f(x)$ ở phía dưới trục hoành.  Vì đồ thị hàm số $y=f(x)$ là parabol hướng bề lõm xuống dưới nên:<br>  Hàm số $y=|f(x)|$ đồng biến trên $(2;+\\infty)$ khi và chỉ khi hàm số $y=f(x)$ nghịch biến trên khoảng $(2;+\\infty)$ và $f(x) \\leq 0,\\, \\forall x \\in[2;+\\infty)$  $\\Leftrightarrow f(2)\\leq 0 \\text{ và } \\dfrac{m-1}{4} \\leq 2$<br>$\\Leftrightarrow 2m-12\\leq 0 \\text{ và } m \\leq 9$<br>$\\Leftrightarrow m \\leq 6.$  Do đó $m \\in(-\\infty;6]$.<br>  Vậy mệnh đề ``Tập tất cả các giá trị thực của tham số $m$ để hàm số $y=|f(x)|$ đồng biến trên $(2;+\\infty)$ là $[3;5] \\cup[6;9)$'' sai."
+  },
+  {
+    "id": "0D324DS1",
+    "question": "Cho hàm số $y=x^2+2m x+4$ có đồ thị $(P)$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Với $m=1$ đồ thị $(P)$ không cắt trục hoành",
+        "answer": true
+      },
+      {
+        "text": "Với $m=-2$ đồ thị $(P)$ tiếp xúc trục hoành",
+        "answer": true
+      },
+      {
+        "text": "Với $m=\\dfrac{7}{2}$ đồ thị $(P)$ cắt trục hoành tại hai điểm phân biệt",
+        "answer": true
+      },
+      {
+        "text": "Với $m=-\\dfrac{5}{2}$ đồ thị $(P)$ cắt trục hoành tại hai điểm phân biệt $A$, $B$. Khi đó độ dài đoạn thẳng $AB=4$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Với $m=1\\Rightarrow y=x^2+2x+4$ ta có đồ thị $(P)\\colon y=x^2+2x+4$ không cắt trục hoành vì phương trình $y=0\\Leftrightarrow x^2+2x+4=0$ vô nghiệm do $\\Delta'=-3&lt;0$.<br>  Vậy mệnh đề ``Với $m=1$ đồ thị $(P)$ không cắt trục hoành'' đúng.<br>- Với $m=-2\\Rightarrow y=x^2-4x+4$ ta có đồ thị $(P)\\colon y=x^2-4x+4$ tiếp xúc trục hoành vì phương trình $y=0\\Leftrightarrow x^2-4x+4=0\\Leftrightarrow(x-2)^2=0$ có nghiệm kép $x=2$.<br>  Vậy mệnh đề ``Với $m=-2$ đồ thị $(P)$ tiếp xúc trục hoành'' đúng.<br>- Với $m=\\dfrac{7}{2} \\Rightarrow y=x^2+7x+4$ ta có đồ thị $(P)\\colon y=x^2+7x+4$ cắt trục hoành tại hai điểm phân biệt vì phương trình $y=0\\Leftrightarrow x^2+7x+4=0$ có hai nghiệm phân biệt do $\\Delta=33&gt;0$.<br>  Vậy mệnh đề ``Với $m=\\dfrac{7}{2}$ đồ thị $(P)$ cắt trục hoành tại hai điểm phân biệt'' đúng.<br>- Với $m=-\\dfrac{5}{2} \\Rightarrow y=x^2-5x+4$ ta có phương trình $y=0\\Leftrightarrow x^2-5x+4=0\\Leftrightarrow x=1 \\text{ hoặc } x=4$ có hai nghiệm phân biệt nên đồ thị $(P)\\colon y=x^2-5x+4$ cắt trục hoành tại hai điểm phân biệt $A(1;0)$ và $B(4;0)$. Khi đó độ dài đoạn thẳng $AB=\\sqrt{(4-1)^2}=3$.<br>  Vậy mệnh đề ``Với $m=-\\dfrac{5}{2}$ đồ thị $(P)$ cắt trục hoành tại hai điểm phân biệt $A$, $B$. Khi đó độ dài đoạn thẳng $AB=4$'' sai."
+  },
+  {
+    "id": "0D323DS1",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị dạng parabol như hình bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Parabol trên là đồ thị của hàm số $y=-x^2+2x$",
+        "answer": true
+      },
+      {
+        "text": "Khoảng nghịch biến của hàm số $f(x)$ là $(-\\infty;2)$",
+        "answer": false
+      },
+      {
+        "text": "Tập nghiệm của bất phương trình $f(x) \\geq 0$ là $S=(0;2)$",
+        "answer": false
+      },
+      {
+        "text": "$f(x)&lt;0,\\,\\forall x \\in(-\\infty;0) \\cup(2;+\\infty)$",
+        "answer": true
+      }
+    ],
+    "explain": "Giả sử $y=f(x)=ax^2+bx+c$ $(a \\neq 0)$.<br>- Dựa vào đồ thị đề bài cho suy ra  $c=0 \\text{ và } a+b+c=1 \\text{ và } 4a+2b+c=0   \\Leftrightarrow  a=-1 \\text{ và } b=2 \\text{ và } c=0.$<br>  Do đó $y=-x^2+2x$.<br>  Vậy mệnh đề ``Parabol trên là đồ thị của hàm số $y=-x^2+2x$'' đúng.<br>- Dựa vào đồ thị ta thấy trên khoảng $(-\\infty;1)$ đồ thị đi lên từ trái sang phải nên hàm số đồng biến trên khoảng $(-\\infty;1)$, trên khoảng $(1;+\\infty)$ đồ thị đi xuống từ trái sang phải nên hàm số nghịch biến trên khoảng $(1;+\\infty)$.<br>  Vậy mệnh đề ``Khoảng nghịch biến của hàm số $f(x)$ là $(-\\infty;2)$'' sai.<br>- Dựa vào đồ thị suy ra tập nghiệm của bất phương trình $f(x) \\geq 0$ là $S=[0;2]$.<br>  Vậy mệnh đề ``Tập nghiệm của bất phương trình $f(x) \\geq 0$ là $S=(0;2)$'' sai.<br>- Trên $(-\\infty;0) \\cup(2;+\\infty)$, đồ thị hàm số $f(x)$ nằm phía dưới trục $Ox$ nên $f(x)&lt;0,\\,\\forall x\\in (-\\infty;0) \\cup(2;+\\infty)$.<br>  Vậy mệnh đề ``$f(x)&lt;0,\\,\\forall x \\in(-\\infty;0) \\cup(2;+\\infty)$'' đúng."
+  },
+  {
+    "id": "0D323DS2",
+    "question": "Cho hàm số bậc hai $y=ax^2+bx+c$ có đồ thị như hình vẽ sau. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "$a&gt;0$",
+        "answer": true
+      },
+      {
+        "text": "$c&gt;0$",
+        "answer": false
+      },
+      {
+        "text": "$a-2b+c=7$",
+        "answer": true
+      },
+      {
+        "text": "$a-b^2+c^3=10$",
+        "answer": false
+      }
+    ],
+    "explain": "Khi $x=1$ thì $y=-2\\Rightarrow a+b+c=-2$.<br>  Khi $x=2$ thì $y=1\\Rightarrow 4a+2b+c=1$.<br>  Đồ thị cắt trục tung tại điểm có tung độ bằng $-1$ nên $c=-1$.<br>  Ta có hệ phương trình $c=-1 \\text{ và } a+b+c=-2 \\text{ và } 4a+2b+c=1 \\Leftrightarrow a=2 \\text{ và } b=-3 \\text{ và } c=-1.$  <br>- Vì bề lõm của parabol quay lên nên $a&gt;0$.  Vậy mệnh đề ``$a&gt;0$'' đúng.<br>- Ta có $c=-1&lt;0$ nên mệnh đề ``$c&gt;0$'' sai.<br>- Ta có $a-2b+c=7$ nên mệnh đề ``$a-2b+c=7$'' đúng.<br>- Ta có $a-b^2+c^3=-8$ nên mệnh đề ``$a-b^2+c^3=10$'' sai."
+  },
+  {
+    "id": "0D322DS1",
+    "question": "Cho hàm số $y=-x^2+2mx+1$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Với $m=1$ hàm số đồng biến trên khoảng $(-\\infty;1)$",
+        "answer": true
+      },
+      {
+        "text": "Với $m=-2$ hàm số nghịch biến trên khoảng $(-\\infty;-2)$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số đồng biến trên $(-\\infty;3)$ khi và chỉ khi $m=3$",
+        "answer": false
+      },
+      {
+        "text": "Có $4$ giá trị nguyên dương của $m$ để hàm số nghịch biến $(5;+\\infty)$",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có $a=-1&lt;0$; $-\\dfrac{b}{2a}=m$ nên hàm số đã cho đồng biến trên khoảng $(-\\infty;m)$, nghịch biến trên khoảng $(m;+\\infty)$.  <br>- Với $m=1$ hàm số đồng biến trên khoảng $(-\\infty;1)$ nên mệnh đề ``Với $m=1$ hàm số đồng biến trên khoảng $(-\\infty;1)$'' đúng.<br>- Với $m=-2$ hàm số đồng biến trên khoảng $(-\\infty;-2)$ nên mệnh đề ``Với $m=-2$ hàm số nghịch biến trên khoảng $(-\\infty;-2)$'' sai.<br>- Hàm số đồng biến trên $(-\\infty;3)$ khi và chỉ khi $(-\\infty;3) \\subset(-\\infty;m) \\Leftrightarrow m \\geq 3$ nên mệnh đề ``Hàm số đồng biến trên $(-\\infty;3)$ khi và chỉ khi $m=3$'' sai.<br>- Hàm số nghịch biến $(5;+\\infty)$ khi và chỉ khi $(5;+\\infty) \\subset(m;+\\infty) \\Leftrightarrow m \\leq 5$ mà do $m$ nguyên dương nên $m \\in\\{1; 2; 3; 4; 5\\}$ nên có $5$ giá trị $m$ thỏa mãn nên mệnh đề ``Có $4$ giá trị nguyên dương của $m$ để hàm số nghịch biến $(5;+\\infty)$'' sai."
+  },
+  {
+    "id": "0D321DS8",
+    "question": "Cho hàm số $y=-x^2+2x+3$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Tập xác định của hàm số là $\\mathscr{D}=\\mathbb{R}$",
+        "answer": true
+      },
+      {
+        "text": "Tọa độ đỉnh $I(1;2)$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số có trục đối xứng là đường thẳng $x=2$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số là Parabol có bề lõm hướng xuống dưới",
+        "answer": true
+      }
+    ],
+    "explain": "Hàm số $y=-x^2+2x+3$ có $a=-1$, $b=2$, $c=3$.  <br>- Tập xác định của hàm số là $\\mathscr{D}=\\mathbb{R}$.<br>- Tọa độ đỉnh $x_I=-\\dfrac{b}{2a}=1$; $y_I=-1^2+2\\cdot 1+3=4\\Rightarrow I(1;4)$.<br>- Đồ thị hàm số có trục đối xứng là đường thẳng $x=1$.<br>- Vì $a=-1&lt;0$ nên đồ thị hàm số là Parabol có bề lõm hướng xuống dưới."
+  },
+  {
+    "id": "0D324DS2",
+    "question": "Trong mặt phẳng tọa độ cho đồ thị $(P)\\colon y=2x^2-3x+2$ và $(d)\\colon y=x+2$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Parabol $(P)$ và đường thẳng $(d)$ không giao nhau",
+        "answer": false
+      },
+      {
+        "text": "Số giao điểm của Parabol $(P)$ và đường thẳng $(d)$ là $2$",
+        "answer": true
+      },
+      {
+        "text": "Hoành độ giao điểm của Parabol $(P)$ và đường thẳng $(d)$ lần lượt là $x=2$ và $x=0$",
+        "answer": true
+      },
+      {
+        "text": "Tọa độ giao điểm của Parabol $(P)$ và đường thẳng $(d)$ lần lượt là $A(0;2)$ và $B(2;0)$",
+        "answer": false
+      }
+    ],
+    "explain": "Phương trình hoành độ giao điểm của Parabol $(P)\\colon y=2x^2-3x+2$ và đường thẳng $(d)\\colon y=x+2$ là  \\[2x^2-3x+2=x+2\\Leftrightarrow 2x^2-4x=0\\Leftrightarrow x=2 \\text{ hoặc } x=0.\\]  Suy ra Parabol $(P)$ và đường thẳng $(d)$ giao nhau tại hai điểm phân biệt có toạ độ lần lượt là $A(0;2)$ và $B(2;4)$."
+  },
+  {
+    "id": "0D321DS2",
+    "question": "Cho hàm số $y=f(x)=x^2$ có đồ thị $(C)$ và hàm số $y=g(x)=-2x+3$ có đồ thị là đường thẳng $(d)$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Điểm $M(-1;1)$ thuộc đồ thị $(C)$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số $y=f(x)$ nghịch biến trên $(1;5)$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số $(C)$ đi qua giao điểm của đường thẳng $(d)$ với trục tung",
+        "answer": false
+      },
+      {
+        "text": "Điểm $A(1;1)$ và $B(-3;9)$ là hai giao điểm của đồ thị $(C)$ và đường thẳng $(d)$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có $f(-1)=1$ nên $M(-1; 1) \\in(C)$.<br>  Vậy mệnh đề ``Điểm $M(-1;1)$ thuộc đồ thị $(C)$'' đúng.<br>- Hàm số $y=f(x)=x^2$ đồng biến trên $(0;+\\infty)$ và nghịch biến trên $(-\\infty;0)$.<br>  Lại có $(1;5) \\subset(0;+\\infty)$ nên hàm số đồng biến trên $(1;5)$.<br>  Vậy mệnh đề ``Hàm số $y=f(x)$ nghịch biến trên $(1;5)$'' sai.<br>- Đường thẳng $(d)$ cắt trục tung tại điểm có $N(0;3)$. Ta có $f(0)=0$ nên điểm $N(0;3)$ không thuộc đồ thị hàm số $(C)$.<br>  Vậy mệnh đề ``Đồ thị hàm số $(C)$ đi qua giao điểm của đường thẳng $(d)$ với trục tung'' sai.<br>- Thay tọa độ điểm $A(1;1)$ và $B(-3;9)$ vào phương trình của $(C)$ và $(d)$ đều thỏa mãn.<br>  Vậy mệnh đề ``Điểm $A(1;1)$ và $B(-3;9)$ là hai giao điểm của đồ thị $(C)$ và đường thẳng $(d)$'' đúng."
+  },
+  {
+    "id": "0D321DS9",
+    "question": "Cho hàm số $y=a x^2+b x+2$ với $a \\neq 0$, có đồ thị là $(P)$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Biết $(P)$ đi qua hai điểm $M(1;0)$ và $N(-1;0)$. Khi đó $a+2024b=-2$",
+        "answer": true
+      },
+      {
+        "text": "Biết $(P)$ đi qua điểm $E(-1;5)$ và có trục đối xứng là $x=1$. Khi đó $2a+b=1$",
+        "answer": false
+      },
+      {
+        "text": "Biết $(P)$ đi qua điểm $F(-1;6)$ và có tung độ đỉnh bằng $-\\dfrac{1}{4}$. Khi đó $ab=-36$",
+        "answer": false
+      },
+      {
+        "text": "Biết $(P)$ có đỉnh là điểm $S\\left(-1;-\\dfrac{3}{2}\\right)$. Khi đó $(2a+b)\\,\\vdots\\, 14$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- $(P)$ đi qua hai điểm $M(1;0)$ và $N(-1;0)$ nên ta có $a+b+2=0 \\text{ và } a-b+2=0\\Leftrightarrow a=-2 \\text{ và } b=0.$<br>  Do đó $a+2024b=-2$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua hai điểm $M(1;0)$ và $N(-1;0)$. Khi đó $a+2024b=-2$'' đúng.<br>- $(P)$ có trục đối xứng là $x=1\\Rightarrow-\\dfrac{b}{2a}=1\\Rightarrow 2a+b=0\\quad (1)$.<br>  Mặt khác $(P)$ đi qua điểm $E(-1;5)$ nên $a-b+2=5\\Leftrightarrow a-b=3\\quad (2)$.<br>  Từ $(1)$, $(2)$ suy ra $a=1$, $b=-2$. Do đó $2a+b=0$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua điểm $E(-1;5)$ và có trục đối xứng là $x=1$. Khi đó $2a+b=1$'' sai.<br>- $(P)$ đi qua điểm $F(-1;6)$ nên $a-b+2=6\\Leftrightarrow a-b=4\\Leftrightarrow a=b+4$ \\quad $(3)$.<br>  Lại có $(P)$ có tung độ đỉnh bằng $-\\dfrac{1}{4}$ nên  $-\\dfrac{\\Delta}{4a}=-\\dfrac{1}{4} \\Rightarrow \\dfrac{b^2-4ac}{4a}=\\dfrac{1}{4} \\Rightarrow b^2-8a=a \\Rightarrow b^2-9a=0\\quad (4)$.<br>  Thay $(3)$ vào $(4)$ được $b^2-9(b+4)=0\\Leftrightarrow b^2-9b-36=0\\Leftrightarrow b=-3\\Rightarrow a=1 \\text{ hoặc } b=12\\Rightarrow a=16.$<br>  Suy ra $ab=-3$ hoặc $ab=192$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua điểm $F(-1;6)$ và có tung độ đỉnh bằng $-\\dfrac{1}{4}$. Khi đó $ab=-36$'' sai.<br>- Vì $(P)$ có đỉnh là điểm $S\\left(-1;-\\dfrac{3}{2}\\right)$ nên hoành độ đỉnh $x=-1=-\\dfrac{b}{2a} \\Rightarrow 2a-b=0\\quad (5)$.<br>  Lại có $(P)$ đi qua $S\\left(-1;-\\dfrac{3}{2}\\right)$ nên $a-b+2=-\\dfrac{3}{2} \\Leftrightarrow a-b=-\\dfrac{7}{2}\\quad (6)$.<br>  Từ $(5)$, $(6)$ ta được $a=\\dfrac{7}{2}$, $b=7$ $\\Rightarrow 2a+b=14$.<br>  Vậy mệnh đề ``Biết $(P)$ có đỉnh là điểm $S\\left(-1;-\\dfrac{3}{2}\\right)$. Khi đó $(2a+b)\\,\\vdots\\, 14$'' đúng."
   }
 ];

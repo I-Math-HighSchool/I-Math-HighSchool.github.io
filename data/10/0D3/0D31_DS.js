@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Hàm số và đồ thị - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D31 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
+// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
 // =========================================================================
 window.dungSai0D31 = [
   {
@@ -303,5 +302,143 @@ window.dungSai0D31 = [
       }
     ],
     "explain": "<br>- Khi $m=-1$, hàm số $g(x)=|x-1|+|x+3|$ trên $(-2025;-5)$ có dạng $g(x)=-x+1-x-3=-2x-2$ nên hàm số nghịch biến trên $(-2025;-5)$.<br>  Vậy mệnh đề ``Khi $m=-1$, hàm số $g(x)=f(x)+|x+3|$ nghịch biến trên $(-2025;-5)$'' đúng.<br>- Khi $m=-1$, hàm số $g(x)=|x-1|+|x+3|=-2x-2,\\,x&lt;-3 \\text{ và } 4,\\,-3\\leq x \\leq 1 \\text{ và } 2x+2,\\,x&gt;1$ đạt giá trị nhỏ nhất là $4$, khi $x \\in[-3;1]$. Vì $x$ nguyên nên có $5$ giá trị của $x$ là $-3$; $-2$; $-1$; $0$; $1$.<br>  Vậy mệnh đề ``Khi $m=-1$, gọi $T$ là tập hợp các giá trị nguyên của $x$ để hàm số $g(x)=f(x)+|x+3|$ đạt giá trị nhỏ nhất. Số phần tử của $T$ là $3$'' sai.<br>- Khi $m=-1$, $f(x)=|x-1|$.<br>  Ta có  $-1\\le x\\le 3,\\,\\forall x \\in [-1;3]$<br>$\\Leftrightarrow -2 \\leq x-1 \\leq 2,\\, \\forall x \\in[-1;3]$<br>$\\Leftrightarrow 0 \\leq|x-1|\\leq 2,\\, \\forall x \\in[-1;3]$<br>$\\Leftrightarrow 2 \\leq|x-1|+2 \\leq 4,\\, \\forall x \\in[-1;3]$<br>$\\Leftrightarrow 2 \\leq h(x) \\leq 4,\\, \\forall x \\in[-1;3].$  Vậy miền giá trị của hàm số trên đoạn $[-1;3]$ là $T=[2;4]$. Suy ra $a+b=6$.<br>  Vậy mệnh đề ``Khi $m=-1$, miền giá trị của hàm số $h(x)=f(x)+2$ trên $[-1;3]$ là $T=[a;b]$, với $a+b=6$'' đúng.<br>- Với $\\forall x \\in[0; 2]$ ta có $m \\leq x+m \\leq 2+m$.<br>  Do đó nếu $m \\in[-2;0]$ thì $|x+m|$ đạt giá trị nhỏ nhất là $0$; nếu $m \\notin[-2;0]$ thì $|x+m|$ đạt giá trị nhỏ nhất là min $\\{|m|;|2+m|\\}$.<br>  Yêu cầu bài toán trở thành tìm $m$ sao cho $\\min \\{|m|;|2+m|\\}=3$.<br>  Trường hợp 1: $|m|=3 \\text{ và } |2+m|\\geq 3 \\Leftrightarrow m=3$ (thỏa mãn).<br>  Trường hợp 2: $|m|\\geq 3 \\text{ và } |2+m|=3 \\Leftrightarrow m=-5$ (thỏa mãn).<br>  Do đó giá trị $m$ thỏa mãn bài toán là $m=3$ và $m=-5$. Vậy tổng các giá trị của $m$ là $3-5=-2$.<br>  Vậy mệnh đề ``Gọi $S$ là tập hợp các giá trị của tham số $m$ để hàm số $f(x)=|x+m|$ đạt giá trị nhỏ nhất trên $[0;2]$ bằng $3$. Tổng tất cả các phần tử của $S$ là $8$'' sai."
+  },
+  {
+    "id": "0D313DS1",
+    "question": "Cho hàm số $y=1+2x$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Đồ thị hàm số không cắt trục hoành",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số cắt tung tại một điểm",
+        "answer": true
+      },
+      {
+        "text": "Hoành độ giao điểm của đồ thị hàm số với trục hoành là một giá trị dương",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số giao với trục tung tại điểm có tung độ bé hơn $1$",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có đồ thị hàm số $y=1+2x$ cắt trục hoành tại điểm có tọa độ là $\\left(-\\dfrac{1}{2}; 0\\right)$ và cắt trục tung tại điểm có tọa độ là $(0;1)$ suy ra  <br>- Mệnh đề ``Đồ thị hàm số không cắt trục hoành'' sai.<br>- Mệnh đề ``Đồ thị hàm số cắt tung tại một điểm'' đúng.<br>- Mệnh đề ``Hoành độ giao điểm của đồ thị hàm số với trục hoành là một giá trị dương'' sai.<br>- Mệnh đề ``Đồ thị hàm số giao với trục tung tại điểm có tung độ bé hơn $1$'' sai."
+  },
+  {
+    "id": "0D312DS5",
+    "question": "Cho hàm số $f(x)=\\dfrac{2x-1}{x^2-6x+5} \\text { khi} x&lt;5 \\text{ và } \\sqrt{x+2} \\text { khi} x \\geq 5 $. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Hàm số xác định tại $x=1$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số không xác định tại $x=5$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số xác định trong nửa khoảng $[-2;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số xác định trong khoảng $(1;3)$",
+        "answer": true
+      }
+    ],
+    "explain": "Hàm số có tập xác định $\\mathbb{R} \\setminus\\{1\\}$ nên  <br>- Mệnh đề ``Hàm số xác định tại $x=1$'' sai.<br>- Mệnh đề ``Hàm số không xác định tại $x=5$'' sai.<br>- Mệnh đề ``Hàm số xác định trong nửa khoảng $[-2;+\\infty)$'' sai.<br>- Mệnh đề ``Hàm số xác định trong khoảng $(1;3)$'' đúng."
+  },
+  {
+    "id": "0D312DS6",
+    "question": "Cho hàm số $f(x)=\\sqrt{3x+1}-1 \\text {khi } x \\geq 5 \\text{ và } 2x-7 \\text {khi }-2\\leq x&lt;5 $. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "$f(8)=4$",
+        "answer": true
+      },
+      {
+        "text": "$f(-3)=-13$",
+        "answer": false
+      },
+      {
+        "text": "Có một giá trị của $x$ để $f(x)=1$",
+        "answer": true
+      },
+      {
+        "text": "$3f(5)+f(0)=15$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Với $x=8$ thì $f(8)=\\sqrt{3\\cdot 8+1}-1=4$.<br>- Vì $-3$ không thuộc tập xác định của hàm số nên không tồn tại $f(-3)$.<br>- $f(x)=1\\Leftrightarrow -2\\leq x&lt;5 \\text{ và } 2x-7=1\\Leftrightarrow-2\\leq x&lt;5 \\text{ và } x=4 \\Leftrightarrow x=4$.<br>  Vậy có một giá trị của $x$ để $f(x)=1$ là mệnh đề đúng.<br>- $3f(5)+f(0)=3\\left(\\sqrt{3\\cdot 5+1}-1\\right)+(2\\cdot 0-7)=2$."
+  },
+  {
+    "id": "0D312DS7",
+    "question": "Cho hàm số $y=\\sqrt{3-2x}$ có tập xác định là $\\mathscr{D}$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "$\\mathscr{D}=\\left[\\dfrac{3}{2};+\\infty\\right)$",
+        "answer": false
+      },
+      {
+        "text": "$x_0=1\\in \\mathscr{D}$",
+        "answer": true
+      },
+      {
+        "text": "$(-3;0) \\subset \\mathscr{D}$",
+        "answer": true
+      },
+      {
+        "text": "$\\left(\\dfrac{3}{2};3\\right) \\cap \\mathscr{D}=\\left\\{\\dfrac{3}{2}\\right\\}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Điều kiện xác định là $3-2x \\geq 0\\Leftrightarrow x \\leq \\dfrac{3}{2}$. Suy ra $\\mathscr{D}=\\left(-\\infty;\\dfrac{3}{2}\\right]$.<br>- $\\mathscr{D}=\\left(-\\infty; \\dfrac{3}{2}\\right]$ nên $x_0=1\\in \\mathscr{D}$.<br>- Vì $(-3;0) \\subset\\left(-\\infty;\\dfrac{3}{2}\\right]$ nên $(-3;0) \\subset\\mathscr{D}$.<br>- $\\left(\\dfrac{3}{2};3\\right) \\cap \\mathscr{D}=\\varnothing$."
+  },
+  {
+    "id": "0D315DS1",
+    "question": "Cho hàm số $y=(m-7) x+2$ có đồ thị là $(d)$ ($m$ là tham số thực). Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Hàm số đã cho là hàm số nhất $\\Leftrightarrow m \\neq 7$",
+        "answer": true
+      },
+      {
+        "text": "$(d)$ luôn đi qua điểm $A(0; 2)$ với mọi $m$",
+        "answer": true
+      },
+      {
+        "text": "Khi $m=6$ thì $(d)$ tạo với hai trục tọa độ $Ox$, $Oy$ một tam giác có diện tích bằng $4$",
+        "answer": false
+      },
+      {
+        "text": "Chỉ có đúng $6$ giá trị nguyên dương của tham số $m$ để hàm số đã cho là hàm số nghịch biến",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Hàm số đã cho là hàm số bậc nhất $\\Leftrightarrow m-7\\neq 0\\Leftrightarrow m \\neq 7$.<br>  Vậy mệnh đề ``Hàm số đã cho là hàm số nhất $\\Leftrightarrow m \\neq 7$'' đúng.<br>- Thay tọa độ điểm $A(0;2)$ vào công thức hàm số ta được $2=(m-7)\\cdot 0+2$ (luôn đúng với mọi $m$).<br>  Vậy mệnh đề ``$(d)$ luôn đi qua điểm $A(0;2)$ với mọi $m$'' là đúng.<br>- Khi $m=6\\Rightarrow(d)\\colon y=-x+2$.<br>  Gọi $A$, $B$ lần lượt là giao điểm của $(d)$ và $Ox$, $Oy$ $\\Rightarrow A(2;0)$, $B(0;2)$.<br>  Nhận xét: $\\triangle OAB$ vuông tại $O \\Rightarrow S_{\\triangle OAB}=\\dfrac{1}{2} OA \\cdot OB=2$.<br>  Vậy mệnh đề ``Khi $m=6$ thì $(d)$ tạo với hai trục tọa độ $Ox$, $Oy$ một tam giác có diện tích bằng $4$'' sai.<br>- Hàm số đã cho là hàm số nghịch biến $\\Leftrightarrow m-7&lt;0\\Leftrightarrow m&lt;7$.<br>  Mà $m$ là số nguyên dương nên $m \\in\\{1;2;3;4;5;6\\}$.  Vậy mệnh đề ``Chỉ có đúng $6$ giá trị nguyên dương của tham số $m$ để hàm số đã cho là hàm số nghịch biến'' đúng."
+  },
+  {
+    "id": "0D311DS1",
+    "question": "Cho hàm số $y=-x+3$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Đồ thị hàm số cắt trục hoành tại điểm $A(-3;0)$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số cắt trục tung tại điểm $B(0;3)$",
+        "answer": true
+      },
+      {
+        "text": "Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác vuông cân",
+        "answer": true
+      },
+      {
+        "text": "Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác có diện tích bằng $9$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Thay tọa độ $A(-3;0)$ vào hàm số $y=-x+3$ ta được $0=6$ (không thoả mãn).<br>  Vậy mệnh đề ``Đồ thị hàm số cắt trục hoành tại điểm $A(-3;0)$'' sai.<br>- Thay tọa độ $B(0;3)$ vào hàm số $y=-x+3$ ta được $3=3$ (thoả mãn).<br>  Vậy mệnh đề ``Đồ thị hàm số cắt trục tung tại điểm $B(0;3)$'' đúng.<br>- Đồ thị hàm số cắt trục hoành, trục tung lần lượt tại điểm điểm $M(3;0)$ và $B(0;3)$ nên $OM=OB=3$. Do đó $\\triangle MOB$ vuông cân tại $O$.<br>  Vậy mệnh đề ``Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác vuông cân'' đúng.<br>- Diện tích tam giác $MOB$ là $S=\\dfrac{1}{2} \\cdot OM\\cdot OB=\\dfrac{1}{2} \\cdot 3\\cdot 3=\\dfrac{9}{2}$.<br>  Vậy mệnh đề ``Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác có diện tích bằng $9$'' sai."
   }
 ];

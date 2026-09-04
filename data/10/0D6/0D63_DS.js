@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §3. Các số đặc trưng đo xu thế trung tâm mẫu số liệu - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/TK10-CD1.6-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D63 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
+// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
 // =========================================================================
 window.dungSai0D63 = [
   {
@@ -280,5 +279,28 @@ window.dungSai0D63 = [
       }
     ],
     "explain": "<br>- Có $16$ học sinh được thống kê chiều cao. Suy ra mệnh đề đúng.<br>- Chiều cao trung bình của nhóm học sinh là  $\\bar{x}=\\dfrac{150+153\\cdot 2+154\\cdot 2+\\ldots+167}{16}=159{,}3125$. Suy ra mệnh đề sai.<br>- Số trung vị của mẫu số liệu là $M_e=\\dfrac{x_8+x_9}{2}=\\dfrac{160+162}{2}=161$. Suy ra mệnh đề sai.<br>- Tứ phân vị thứ nhất của mẫu số liệu trên là  $Q_1=\\dfrac{x_4+x_3}{2}=\\dfrac{154+154}{2}=154$. Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D634DS1",
+    "question": "Cho bảng phân bố tần số khối lượng $30$ quả trứng gà của một rổ trứng gà   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd15_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "subQuestions": [
+      {
+        "text": "Số quá trứng gà có khối lượng $40 \\mathrm{~g}$ trong rổ trứng là $6 $",
+        "answer": true
+      },
+      {
+        "text": "Tổng số trứng trong rổ có khối lượng nhỏ hơn $35 \\mathrm{~g}$ là $18 $",
+        "answer": false
+      },
+      {
+        "text": "Khối lượng trung bình cộng của rổ trứng gà là $36{,}5$",
+        "answer": true
+      },
+      {
+        "text": "Tứ phân vị thứ nhất của bảng số liệu là $30$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Số quả trứng gả có khổi lượng $40 \\mathrm{~g}$ trong rổ trứng là $6 $. Suy ra mệnh đề đúng.<br>- Tổng số trứng trong rổ có khối lượng nhỏ hơn $35 \\mathrm{~g}$ là $8$. Suy ra mệnh đề sai.<br>- Số trung bình cộng của bảng đã cho là  $\\dfrac{25\\cdot 3+30\\cdot 5+35\\cdot 10+40\\cdot 6+45\\cdot 4+50\\cdot 2}{30} =36{,}5$.<br>  Suy ra mệnh đề đúng.<br>- Bảng số liệu có $30$ giá trị nên tứ phân vị thứ nhất $Q_1$ đứng ở vị trí thứ $8 $. Vây $Q_1=30$.<br>  Suy ra mệnh đề đúng."
   }
 ];

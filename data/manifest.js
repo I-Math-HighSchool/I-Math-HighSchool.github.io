@@ -1,5 +1,10 @@
 // Tự động liệt kê các file dữ liệu câu hỏi hiện có (xem js/app.js)
 window.NGAN_HANG_MANIFEST = [
+  "10/0D3/0D31_TN.js",
+  "10/0D3/0D32_TN.js",
+  "10/0D6/0D61_TN.js",
+  "10/0D6/0D63_TN.js",
+  "10/0D6/0D64_TN.js",
   "10/0D1/0D13_TN.js",
   "10/0D1/0D11_TN.js",
   "10/0D2/0D22_TN.js",

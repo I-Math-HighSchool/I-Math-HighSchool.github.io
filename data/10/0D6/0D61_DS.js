@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Số gần đúng. Sai số - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/TK10-CD1.6-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D61 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
+// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
 // =========================================================================
 window.dungSai0D61 = [
   {
@@ -165,5 +164,74 @@ window.dungSai0D61 = [
       }
     ],
     "explain": "<br>- Phép đo của bạn An có sai số tương đối là $\\delta_1 \\leq \\dfrac{0{,}5}{168}$. Suy ra mệnh đề đúng.<br>- Phép đo của bạn Ba có sai số tương đối là $\\delta_2 \\leq \\dfrac{2}{181}$. Suy ra mệnh đề sai .<br>- Phép đo của bạn Na có sai số tương đối là $\\delta_3 \\leq \\dfrac{1}{148}=0{,}0067567568$. Làm tròn đến hàng phần chục ngàn ta được $0{,}0068$. Suy ra mệnh đề đúng.<br>- Ta có $\\delta_1 \\leq \\dfrac{0,5}{168}\\approx 0{,}00298 ; \\delta_2 \\leq \\dfrac{2}{181}=0{,}01105 ; \\delta_3 \\leq \\dfrac{1}{148}=0{,}0067567568$.  Từ đó ta thấy phép đo của bạn An chính xác nhất. Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D612DS1",
+    "question": "Kết quả đo chiểu dài của một thửa đất là $75{,}4 \\mathrm{~m}\\pm 0{,}5 \\mathrm{~m}$ và đo chiều dài của một cây cầu là $466{,}2 \\mathrm{~m} \\pm 0{,}5 \\mathrm{~m}$. Xác định tính đúng sai của các mệnh đề sau",
+    "subQuestions": [
+      {
+        "text": "Đối với phép đo thửa đất, sai số tương đối không vượt quá $0{,}663 \\%$",
+        "answer": true
+      },
+      {
+        "text": "Đối với phép đo thửa đất, có sai số tương đối: $\\dfrac{d}{|a|}=\\dfrac{0{,}5}{75{,}4}=\\dfrac{5}{754}$",
+        "answer": true
+      },
+      {
+        "text": "Đối với phép đo chiều dài cây cầu, có sai số tương đối lớn hơn $\\dfrac{5}{4662}\\approx 0{,}107 \\%$",
+        "answer": false
+      },
+      {
+        "text": "Phép đo cây cầu có độ chính xác cao hơn phép đo chiều dài của một thửa đất",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Đối với phép đo thửa đất, tỉ số $\\dfrac{d}{|a|}=\\dfrac{0{,}5}{75{,}4}=\\dfrac{5}{754}$ (tức là sai số tương đối không vượt quá $\\dfrac{5}{754}\\approx 0{,}663 \\%$ ). Suy ra mệnh đề đúng.<br>- Đối với phép đo thửa đất, có sai số tương đối $\\dfrac{d}{|a|}=\\dfrac{0{,}5}{75{,}4}=\\dfrac{5}{754}$. Suy ra mệnh đề đúng.<br>- Đối với phép đo chiều dài cây cầu, tỉ số $\\dfrac{d}{|a|}=\\dfrac{0{,}5}{466{,}2}=\\dfrac{5}{4662}$ (nghĩa là sai số tương đối không vượt quá $\\left.\\dfrac{5}{4662}\\approx 0{,}107 \\%\\right)$. Suy ra mệnh đề sai.<br>- Ta có $\\dfrac{5}{754}&gt;\\dfrac{5}{4662}$ nên phép đo cây cầu có độ chính xác cao hơn. Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D612DS2",
+    "question": "Một công ty sử dụng dây chuyền $A$ để đóng vào bao với khối lượng mong muốn là $5 \\mathrm{~kg}$. Trên bao bì ghi thông tin khối lượng là $5 \\pm 0{,}2 \\mathrm{~kg}$. Gọi $\\bar{a}$ là khối lượng thực của một bao gạo do đây chuyền $A$ đóng gói. Xác định tính đúng sai của các mệnh đề sau",
+    "subQuestions": [
+      {
+        "text": "Số đúng là $a=0{,}2$",
+        "answer": false
+      },
+      {
+        "text": "Số gần đúng là $\\bar{a}=5{,}2$",
+        "answer": false
+      },
+      {
+        "text": "Độ chính xác là $d=0{,}2$",
+        "answer": true
+      },
+      {
+        "text": "Giá trị của $\\bar{a}$ nằm trong đoạn $[4{,}8 ; 5{,}2]$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Theo định nghĩa số đúng là $a=5$. Suy ra mệnh đề sai.<br>- Số gần đúng là $\\bar{a}=5{,}2$. Suy ra mệnh đề sai. Vì Trong trường hợp này, thông tin trên bao bì ghi khối lượng là $5 \\pm 0{,}2 \\mathrm{~kg}$, điều này có nghĩa là khối lượng của sản phẩm có thể dao động từ $4{,}8 \\mathrm{~kg}$ đến $5{,}2 \\mathrm{~kg}$. Số gần đúng $\\bar{a}$ trong trường hợp này thường được hiểu là giá trị trung bình hoặc giá trị dự kiến của sản phẩm, không phải là giá trị cao nhất hoặc thấp nhất có thể.<br>   Do đó, việc cho rằng $\\bar{a} = 5{,}2$ là sai bởi vì $5{,}2 \\mathrm{~kg}$ không phải là giá trị trung bình, mà là giá trị cao nhất có thể trong khoảng cho phép. Giá trị $\\bar{a}$ hợp lý nhất trong trường hợp này phải là $5 \\mathrm{~kg}$, vì nó chính là giá trị mà người sản xuất dự định làm giá trị trung tâm của khoảng dao động cho phép.<br>- Độ chính xác là $d=0{,}2$. Suy ra mệnh đề đúng.<br>- Giá trị của $\\bar{a}$ nằm trong đoạn $[4{,}8 ; 5{,}2]$. Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D611DS1",
+    "question": "Cho ba giá trị gần đúng của $\\dfrac{3}{7}$ là $0{,}429$; $0{,}4$ và $0{,}42$.   Xác định tính đúng sai của các mệnh đề sau",
+    "subQuestions": [
+      {
+        "text": "Công thức đánh giá sai số tuyệt đối là $\\Delta=|\\bar{a}-a|$",
+        "answer": true
+      },
+      {
+        "text": "Xét số gần đúng $0{,}429$ ta có $\\Delta_1=\\left|\\dfrac{3}{7}-0{,}429\\right|&lt;0{,}0005$",
+        "answer": true
+      },
+      {
+        "text": "Xét số gần đúng $0{,}4$ ta có $\\Delta_2=\\left|\\dfrac{3}{7}-0{,}4\\right|&lt;0{,}03$",
+        "answer": true
+      },
+      {
+        "text": "Xét số gần đúng $0{,}42$ ta có $\\Delta_2=\\left|\\dfrac{3}{7}-0{,}42\\right|&lt;0{,}009$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta sử dụng công thức đánh giá sai số tuyệt đối là $\\Delta=|\\bar{a}-a|$. Suy ra mệnh đề đúng.<br>- Xét số gần đúng $0{,}429$ ta có: $\\Delta_1=\\left|\\dfrac{3}{7}-0{,}429\\right|&lt;0{,}0005$. Suy ra mệnh đề đúng.<br>- Xét số gần đúng $0{,}4$ ta có: $\\Delta_2=\\left|\\dfrac{3}{7}-0{,}4\\right|&lt;0{,}03$. Suy ra mệnh đề đúng.<br>- Xét số gần đúng $0{,}42$ ta có: $\\Delta_2=\\left|\\dfrac{3}{7}-0{,}42\\right|&lt;0{,}009$. Suy ra mệnh đề đúng."
   }
 ];
