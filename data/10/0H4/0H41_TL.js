@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H41 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0H41 = [
   {
