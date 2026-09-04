@@ -1,10 +1,10 @@
 
 // =========================================================================
 // 0. TỰ ĐỘNG NẠP TOÀN BỘ FILE DỮ LIỆU CÂU HỎI (data/manifest.js)
-// Trước đây bank.html chỉ nạp cứng 1 file data/12/2D1/2D1_1.js nên các
+// Trước đây index.html chỉ nạp cứng 1 file data/12/2D1/2D1_1.js nên các
 // chuyên đề khác không có câu hỏi. Giờ danh sách file được liệt kê trong
 // data/manifest.js (nạp bằng <script>, KHÔNG dùng fetch()) nên vẫn mở được
-// bằng cách double-click bank.html như trước, không cần máy chủ HTTP.
+// bằng cách double-click index.html như trước, không cần máy chủ HTTP.
 // =========================================================================
 function napMotFileDuLieu(src) {
     return new Promise((resolve) => {
@@ -22,7 +22,7 @@ async function napToanBoNganHangCauHoi() {
     try {
         const danhSachFile = (window.NGAN_HANG_MANIFEST || []);
         if (danhSachFile.length === 0) {
-            throw new Error('Không tìm thấy data/manifest.js (thiếu thẻ <script src="data/manifest.js"> trong bank.html?)');
+            throw new Error('Không tìm thấy data/manifest.js (thiếu thẻ <script src="data/manifest.js"> trong index.html?)');
         }
         const ketQua = await Promise.all(danhSachFile.map(f => napMotFileDuLieu('data/' + f)));
         const soLoi = ketQua.filter(r => !r.ok).length;
