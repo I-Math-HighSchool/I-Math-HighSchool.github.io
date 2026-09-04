@@ -1,8 +1,9 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Hệ bất phương trình bậc nhất hai ẩn - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD4.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D22 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
+// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
+// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
+// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
 // =========================================================================
 window.dungSai0D22 = [
   {
@@ -349,5 +350,28 @@ window.dungSai0D22 = [
       }
     ],
     "explain": "<br>- Đúng.<br>- Sai. Vì hệ có vô số nghiệm.<br>- Sai. Vì tọa độ $A(1; 1)$ thỏa mãn hệ đã cho. $ 1 \\geq 0 (1) \\text{ và } 3\\cdot 1+2\\cdot 1=5 \\leq 6. (2) $<br>- Đúng vì <br>- Vẽ các đường thẳng $\\left(d_1\\right): y=0$ (trục hoành).<br> Miền nghiệm của (1) gồm phần $y$ nhận giá trị dương là nửa $mp$ nằm phía trên trục hoành(lấy cả trục hoành)<br>- Vẽ đường thẳng $\\left(d_2\\right): 3 x+2 y=6$ (đi qua hai điểm $(0; 3)$ và $(2; 0)$.<br> Lại có $(0; 0)$ thỏa mãn bất phương trình $3 x+2 y \\leq 6$ nên miền nghiệm của(2) là nửa mp có bờ là đường thẳng $\\left(d_2\\right)$ và chứa điểm $O$ (lấy cả bờ). Suy ra miền nghiệm của hệ đã cho là phần không tô đậm như hình vẽ."
+  },
+  {
+    "id": "0D222DS1",
+    "question": "Cho hệ bất phương trình $3-y &lt; 0 \\text{ và } 2x-3y+1 &gt; 0$.<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Hệ đã cho không phải là hệ bất phương trình bậc nhất hai ẩn",
+        "answer": false
+      },
+      {
+        "text": "$B(4; 3)$ là một điểm thuộc miền nghiệm của hệ",
+        "answer": false
+      },
+      {
+        "text": "$C(7; 4)$ là một điểm thuộc miền nghiệm của hệ",
+        "answer": true
+      },
+      {
+        "text": "Miền không bị gạch (không kể bờ) là miền nghiệm của hệ",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Hệ bất phương trình $3-y &lt; 0 \\text{ và } 2x-3y+1 &gt; 0$ là hệ bất phương trình bậc nhất hai ẩn.<br>- Thay tọa độ điểm $B(4; 3)$ vào bất phương trình $3-y &lt; 0$ ta được  <br>- $3-3 &lt; 0 \\Leftrightarrow 0 &lt; 0$.  Vì $B(4; 3)$ không thỏa mãn bất phương trình thứ nhất nên nó không thuộc miền nghiệm của hệ<br>- Thay tọa độ điểm $C(7; 4)$ vào hệ:  <br>- $3-y &lt; 0 \\Leftrightarrow 3-4 &lt; 0 \\Leftrightarrow -1 &lt; 0$. Đây là mệnh đề đúng.<br>- $2x-3y+1 &gt; 0 \\Leftrightarrow 2(7)-3(4)+1 &gt; 0 \\Leftrightarrow 14-12+1 &gt; 0 \\Leftrightarrow 3 &gt; 0$. Đây là mệnh đề đúng.  Vì $C(7; 4)$ thỏa mãn cả hai bất phương trình nên nó thuộc miền nghiệm của hệ. Khẳng định \\lq\\lq $C(7; 4)$ là một điểm thuộc miền nghiệm của hệ\\rq\\rq là <strong>Đúng</strong>.<br>- <br>- Bất phương trình $3-y &lt; 0 \\Leftrightarrow y &gt; 3$ có miền nghiệm là nửa mặt phẳng phía trên đường thẳng $(d_1)$ (không kể bờ).<br>- Bất phương trình $2x-3y+1 &gt; 0$ có miền nghiệm là nửa mặt phẳng chứa gốc tọa độ $O(0;0)$ (vì $2(0)-3(0)+1=1&gt;0$) (không kể bờ).  Miền nghiệm của hệ là phần giao của hai nửa mặt phẳng trên. Trên hình vẽ, miền không bị gạch chính là phần giao này."
   }
 ];

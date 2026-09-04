@@ -1,8 +1,9 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D21 - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/GiuaKiI-De-1.tex (đề luyện tập, một số câu
-// đã đổi số liệu/ngữ cảnh so với bản gốc theo yêu cầu tránh trùng nội dung
-// nguyên văn với đề nguồn).
+// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
+// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
+// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
+// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
 // =========================================================================
 window.dungSai0D21 = [
   {
@@ -234,5 +235,28 @@ window.dungSai0D21 = [
       }
     ],
     "explain": "<br>- Sai. Ta có số tiền mà Nam phải trả để mua cam và táo trong vòng $1$ tuần là $20\\,000 x+25\\,000 y$ đồng.<br>- Sai. Do Nam chỉ có tối đa $150\\,000$ đồng mỗi tuần nên ta có $$20\\,000x+25\\,000y \\le 150\\,000 \\Leftrightarrow 4x+5y \\le 30.$$<br>- Đúng. Với $2$ kg cam và $4$ kg táo tức là $x=2$ và $y=4$ nên thay vào bất phương trình điều kiện là $$4\\cdot 2+5\\cdot 4=28\\le 30$$ nên Nam có thể mua $2$ kg cam và $4$ kg táo mỗi tuần mà không vượt quá số tiền cho phép.<br>- Sai. Do Nam phải mua cả cam và táo trong tuần nên $x, y \\ge 1$ nên ta có $$30\\ge 4x+5y\\ge 4x+5 \\Leftrightarrow 4x\\le 25 \\Leftrightarrow x\\le \\dfrac{25}{4}.$$ Và do $x \\in \\mathbb{N}$ nên $x\\le 6$ do đó số kg cam tối đa có thể mua là $6$ kg."
+  },
+  {
+    "id": "0D213DS2",
+    "question": "Bình thích ăn hai loại trái cây là cam và xoài, mỗi tuần mẹ cho Bình tối đa $200\\,000$ đồng để mua trái cây. Biết rằng giá cam là $15\\,000$ đồng/$ 1 $ kg, giá xoài là $30\\,000$ đồng/$ 1 $ kg. Gọi $x$, $y$ ($x$, $y \\in \\mathbb{N}$) lần lượt là số kg cam và xoài mà Bình có thể mua về trong một tuần.",
+    "subQuestions": [
+      {
+        "text": "Tổng số tiền mà Bình phải trả để mua cam và xoài trong vòng $ 1 $ tuần là $30\\,000 x+15\\,000 y$ đồng",
+        "answer": false
+      },
+      {
+        "text": "Điều kiện về số tiền Bình có thể mua hai loại trái cây đó là $3 x+6 y \\ge 40$",
+        "answer": false
+      },
+      {
+        "text": "Bình có thể mua $ 5 $ kg cam và $ 4 $ kg xoài mỗi tuần mà không vượt quá số tiền cho phép",
+        "answer": true
+      },
+      {
+        "text": "Nếu Bình phải mua cả cam và xoài trong tuần thì số kg cam tối đa có thể mua là $ 10 $ kg",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- <strong>Sai</strong>. Ta có số tiền mà Bình phải trả để mua cam và xoài trong vòng $ 1 $ tuần là $ 15\\,000 x+30\\,000 y $ đồng.<br>- <strong>Sai</strong>. Do Bình chỉ có tối đa $200\\,000$ đồng mỗi tuần nên ta có  $ 15\\,000 x+30\\,000 y \\le 200\\,000 \\Leftrightarrow 3x+6y \\le 40. $<br>- <strong>Đúng</strong>. Với $ 5 $ kg cam và $ 4 $ kg xoài tức là $ x=5 $ và $ y=4 $ nên thay vào bất phương trình điều kiện là  $ 3\\cdot 5 + 4 \\cdot 4 =31 \\le 40 $  nên Bình có thể mua $ 5 $ kg cam và $ 4 $ kg xoài mỗi tuần mà không vượt quá số tiền cho phép.<br>- <strong>Sai</strong>. Do Bình phải mua cả cam và xoài trong tuần nên $ x $, $ y \\ge 1 $ nên ta có  $ 40 \\ge 3x+6y \\ge 3x +6 \\Leftrightarrow 3x \\le 34 \\Leftrightarrow x \\le \\dfrac{34}{3}.$  Và do $ x \\in \\mathbb{N} $ nên $ x \\le 11 $ do đó số kg cam tối đa có thể mua là $ 11 $ kg."
   }
 ];
