@@ -1,8 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Bất phương trình bậc nhất hai ẩn - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD4.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D21 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/GiuaKiI-De-1.tex (đề luyện tập, một số câu
+// đã đổi số liệu/ngữ cảnh so với bản gốc theo yêu cầu tránh trùng nội dung
+// nguyên văn với đề nguồn).
 // =========================================================================
 window.dungSai0D21 = [
   {
@@ -211,5 +211,28 @@ window.dungSai0D21 = [
       }
     ],
     "explain": "<br>- Đúng. Ta có $x+3+2(2 y+5)&lt;2(1-x) \\Leftrightarrow 3 x+4 y+11&lt;0$. là bất phương trình bậc nhất hai ẩn.<br>- Sai. Bất phương trình bậc nhất hai ẩn có vô số nghiệm.<br>- Sai. Vì $3\\left(\\dfrac{-1}{11}\\right)+4\\left(\\dfrac{-2}{11}\\right)+11&gt;0$ nên $\\left(-\\dfrac{1}{11};-\\dfrac{2}{11}\\right)$ không là nghiệm của bất phương trình $(1)$.C sai<br>- Đúng. Ta vẽ đường thẳng $(d)\\colon 3 x+4 y+11=0$.<br>  Ta thấy $(0; 0)$ không là nghiệm của bất phương trình.<br>  Vậy miền nghiệm là nửa mặt phẳng (không kể bờ $(d)$) không chứa điểm $(0; 0)$."
+  },
+  {
+    "id": "0D213DS1",
+    "question": "Nam thích uống hai loại nước ép là cam và táo, mỗi tuần bố cho Nam tối đa $150\\,000$ đồng để mua nguyên liệu làm nước ép. Biết rằng giá cam là $20\\,000$ đồng/$1$ kg, giá táo là $25\\,000$ đồng/$1$ kg. Gọi $x$, $y$ ($x$, $y \\in \\mathbb{N}$) lần lượt là số kg cam và táo mà Nam có thể mua trong một tuần.",
+    "subQuestions": [
+      {
+        "text": "Tổng số tiền mà Nam phải trả để mua cam và táo trong vòng $1$ tuần là $25\\,000 x+20\\,000 y$ đồng",
+        "answer": false
+      },
+      {
+        "text": "Điều kiện về số tiền Nam có thể mua hai loại nước ép đó là $4x+5y \\ge 30$",
+        "answer": false
+      },
+      {
+        "text": "Nam có thể mua $2$ kg cam và $4$ kg táo mỗi tuần mà không vượt quá số tiền cho phép",
+        "answer": true
+      },
+      {
+        "text": "Nếu Nam phải mua cả cam và táo trong tuần thì số kg cam tối đa có thể mua là $7$ kg",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Sai. Ta có số tiền mà Nam phải trả để mua cam và táo trong vòng $1$ tuần là $20\\,000 x+25\\,000 y$ đồng.<br>- Sai. Do Nam chỉ có tối đa $150\\,000$ đồng mỗi tuần nên ta có $$20\\,000x+25\\,000y \\le 150\\,000 \\Leftrightarrow 4x+5y \\le 30.$$<br>- Đúng. Với $2$ kg cam và $4$ kg táo tức là $x=2$ và $y=4$ nên thay vào bất phương trình điều kiện là $$4\\cdot 2+5\\cdot 4=28\\le 30$$ nên Nam có thể mua $2$ kg cam và $4$ kg táo mỗi tuần mà không vượt quá số tiền cho phép.<br>- Sai. Do Nam phải mua cả cam và táo trong tuần nên $x, y \\ge 1$ nên ta có $$30\\ge 4x+5y\\ge 4x+5 \\Leftrightarrow 4x\\le 25 \\Leftrightarrow x\\le \\dfrac{25}{4}.$$ Và do $x \\in \\mathbb{N}$ nên $x\\le 6$ do đó số kg cam tối đa có thể mua là $6$ kg."
   }
 ];

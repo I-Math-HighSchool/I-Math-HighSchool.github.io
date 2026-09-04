@@ -1,8 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Định lý sin và định lý côsin trong tam giác - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/HH10-CD1.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0H42 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/GiuaKiI-De-1.tex (đề luyện tập, một số câu
+// đã đổi số liệu/ngữ cảnh so với bản gốc theo yêu cầu tránh trùng nội dung
+// nguyên văn với đề nguồn).
 // =========================================================================
 window.dungSai0H42 = [
   {
@@ -510,5 +510,28 @@ window.dungSai0H42 = [
       }
     ],
     "explain": "<br>- Diện tích mảnh vườn là $S_{ABC}=\\dfrac{1}{2}AB\\cdot AC\\cdot\\sin \\widehat{BAC}=\\dfrac{1}{2}\\cdot 20\\cdot 30\\cdot\\sin 45^\\circ = 150\\sqrt{2}$ mét vuông.<br>- Áp dụng định lí cosin cho tam giác $ABC$   $BC^{2}=AB^{2}+AC^{2}-2 AB\\cdot AC\\cdot\\cos \\widehat{BAC}=20^{2}+30^{2}-2\\cdot 20\\cdot 30\\cdot\\cos 45^\\circ=1300-600\\sqrt{2}$  Suy ra $BC=\\sqrt{1300-600\\sqrt{2}}$.<br>  Tổng độ dài hàng rào là: $AB+BC+CA=20+\\sqrt{1300-600\\sqrt{2}}+30\\approx 71,25$ mét.<br>- Do hai tam giác $ABM$ và $BCM$ có chung đường cao từ đỉnh $B$ nên $\\dfrac{S_{ABM}}{S_{BCM}}=\\dfrac{MA}{MC}$. Do đó hai tam giác có diện tích bằng nhau khi $MA=MC=\\dfrac{AC}{2}=\\dfrac{30}{2}=15$ mét.<br>  Áp dụng định lí cosin cho tam giác $ABM$   $BM^{2}=AB^{2}+AM^{2}-2 AB\\cdot AM\\cdot\\cos \\widehat{BAC}=20^{2}+15^{2}-2\\cdot 20\\cdot 15\\cdot\\cos 45^\\circ=625-300\\sqrt{2}.$  Suy ra $BM=\\sqrt{625-300\\sqrt{2}}\\approx 14,17.$<br>- Tam giác $AHB$ vuông tại $H$ có $A=45^\\circ$ nên vuông cân tại $H$. Đặt $HA=HB=a$ thì $a=AB\\sin \\widehat{HAB}=20\\sin 45^\\circ=10\\sqrt{2}$.<br>  Đặt $NA=x$ thì $NH=2x$, $NB=3x$.<br>  Áp dụng định lí cosin cho $\\triangle HMA:\\cos \\widehat{NHA}=\\dfrac{HA^{2}+HN^{2}-AN^{2}}{2 HA\\cdot HN}=\\dfrac{a^{2}+4x^{2}-x^{2}}{4ax}=\\dfrac{3x^{2}+a^{2}}{4ax}$.<br>  Áp dụng định lí cosin cho $\\triangle HMB:\\cos \\widehat{NHB}=\\dfrac{HB^{2}+HN^{2}-BN^{2}}{2 HB\\cdot HN}=\\dfrac{a^{2}+4x^{2}-9x^{2}}{4ax}=\\dfrac{a^{2}-5x^{2}}{4ax}$.<br>  Do $\\widehat{NHA}+\\widehat{NHB}=90^\\circ$ nên $\\sin \\widehat{NHA}=\\cos \\widehat{NHB}$. Do đó ta có:  $\\left(\\dfrac{3x^{2}+a^{2}}{4ax}\\right)^{2}+\\left(\\dfrac{a^{2}-5x^{2}}{4ax}\\right)^{2}=1$<br>$\\Leftrightarrow 9x^{4}+6a^{2}x^{2}+a^{4}+a^{4}-10a^{2}x^{2}+25x^{2}=16a^{2}x^{2}$<br>$\\Leftrightarrow 34 x^{4}-20 a^{2}x^{2}+2 a^{4}=0$<br>$\\Leftrightarrow x^{2}=\\dfrac{5+2\\sqrt{2}}{17}a^{2} \\text{ hoặc } x^{2}=\\dfrac{5-2\\sqrt{2}}{17}a^{2}.$  Do $\\widehat{NHB}$ nhọn nên $\\cos \\widehat{NHB}=\\dfrac{a^{2}-5x^{2}}{4ax}&gt;0$, suy ra $x^{2}&lt;\\dfrac{a^{2}}{5}$.<br>  Vậy $x^{2}=\\dfrac{5-2\\sqrt{2}}{17}a^{2}$ tức là $x=\\sqrt{\\dfrac{5-2\\sqrt{2}}{17}}a$.<br>  Do đó  $N A+N B+N H=x+3 x+2 x=5 x=5\\sqrt{\\dfrac{5-2\\sqrt{2}}{17}}a=5\\sqrt{\\dfrac{5-2\\sqrt{2}}{17}}\\cdot 10\\sqrt{2}=50\\sqrt{\\dfrac{10-4\\sqrt{2}}{17}}\\approx 25,27.$"
+  },
+  {
+    "id": "0H421DS22",
+    "question": "Cho tam giác $A B C$ có $\\widehat{C}=60^{\\circ}$, $b=10$, $a=20$.",
+    "subQuestions": [
+      {
+        "text": "Độ dài cạnh còn lại của tam giác $A B C$ là $c=10 \\sqrt{3}$",
+        "answer": true
+      },
+      {
+        "text": "Bán kính đường tròn ngoại tiếp tam giác $A B C$ là $R=10$",
+        "answer": true
+      },
+      {
+        "text": "Độ dài đường trung tuyến hạ từ đỉnh $A$ của tam giác $A B C$ là $m_a=10$",
+        "answer": true
+      },
+      {
+        "text": "Độ dài đường cao hạ từ đỉnh $A$ của tam giác $A B C$ là $h_a=10 \\sqrt{3}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br><img src=\"data/10/0H4/im0H42/dlts_sbh_giuakii1_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Theo định lý cos, ta có $ c=\\sqrt{a^2+b^2-2ab\\cos C}=10\\sqrt{3} $.<br>- <strong>Đúng</strong>. Theo đính lý sin, ta có $ R=\\dfrac{c}{2\\sin C}=\\dfrac{10\\sqrt{3}}{2\\sin 60^\\circ}= 10$.<br>- <strong>Đúng</strong>. Gọi $ M $ là trung điểm $ BC $ nên $ BM=MC=\\dfrac{BC}{2}=10 $.<br>  Ta có $ m_a=MA=\\sqrt{10^2+10^2-2\\cdot 10\\cdot 10 \\cdot \\cos 60^\\circ}=10 $.<br>- <strong>Sai</strong>. Ta có $ S_{ABC}=\\dfrac{1}{2}ba\\sin C=50\\sqrt{3}$.<br>  Gọi $ H $ là chân đường cao hạ từ $ A $ của $ \\triangle ABC $.<br>  Ta có $ S_{ABC}=\\dfrac{1}{2}\\cdot AH\\cdot BC \\Leftrightarrow h_a=HA=\\dfrac{2S_{ABC}}{BC}=\\dfrac{2\\cdot 50\\sqrt{3}}{20}= 5\\sqrt{3}$."
   }
 ];

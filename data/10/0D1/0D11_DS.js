@@ -1,8 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Mệnh đề - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.3-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D11 - Đúng sai
+// Nguồn: SachBaiHoc_T10/Data-T10/GiuaKiI-De-1.tex (đề luyện tập, một số câu
+// đã đổi số liệu/ngữ cảnh so với bản gốc theo yêu cầu tránh trùng nội dung
+// nguyên văn với đề nguồn).
 // =========================================================================
 window.dungSai0D11 = [
   {
@@ -349,5 +349,28 @@ window.dungSai0D11 = [
       }
     ],
     "explain": "<br>- $\\forall x \\in \\mathbb{R}, x^2-x+1=\\left(x-\\dfrac{1}{2}\\right)^2+\\dfrac{3}{4}&gt;0$ (đúng). Suy ra mệnh đề đúng.<br>- $x^2=3\\Leftrightarrow x=\\pm\\sqrt{3} \\notin\\mathbb{Q}$. Suy ra mệnh đề sai.<br>- Với $x=1, \\forall y \\in \\mathbb{R}, x+y^2 \\geq 0$ (đúng). Suy ra mệnh đề đúng.<br>- Với $n=7$ thì $n(n+11)+6=132$ chia hết cho $11$ (đúng). Suy ra mệnh đề đúng."
+  },
+  {
+    "id": "0D112DS12",
+    "question": "Cho các câu sau:<br>  $P$: \\text{\\lq\\lq}Số tự nhiên $n$ có chữ số tận cùng bằng 5\\text{\\rq\\rq}.<br>  $Q$: \\text{\\lq\\lq}Số tự nhiên $n$ chia hết cho 5\\text{\\rq\\rq}.",
+    "subQuestions": [
+      {
+        "text": "Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{\\lq\\lq}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{\\rq\\rq}",
+        "answer": true
+      },
+      {
+        "text": "Trong mệnh đề $P \\Rightarrow Q$ thì $P$ là điều kiện đủ để có $Q$",
+        "answer": true
+      },
+      {
+        "text": "Mệnh đề $P \\Rightarrow Q$ là một mệnh đề sai",
+        "answer": false
+      },
+      {
+        "text": "Trong mệnh đề $P \\Rightarrow Q$ thì $Q$ là điều kiện cần và đủ để có $P$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Đúng. Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{\\lq\\lq}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{\\rq\\rq}.<br>- Đúng. Trong mệnh đề $P \\Rightarrow Q$ thì $P$ là điều kiện đủ để có $Q$<br>- Sai. Số tự nhiên $n$ có chữ số tận cùng bằng $5$ thì số đó chia hết cho $5$.<br>- Sai. Trong mệnh đề $P \\Rightarrow Q$ thì $Q$ là điều kiện cần để có $P$."
   }
 ];
