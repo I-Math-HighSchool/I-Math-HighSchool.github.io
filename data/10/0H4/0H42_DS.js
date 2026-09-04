@@ -1,7 +1,9 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H42 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Bài tập giáo khoa (thư mục SachBaiHoc_T10/Data-T10, file
+// HH10-CD1.4-DS.tex / DS10-CD3.4-DS.tex, đã có tag định tuyến %[...] sẵn
+// trong nguồn), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu
+// trúc dữ liệu.
 // =========================================================================
 window.dungSai0H42 = [
   {

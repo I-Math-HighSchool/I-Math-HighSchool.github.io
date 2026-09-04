@@ -1,7 +1,9 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D31 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Bài tập giáo khoa (thư mục SachBaiHoc_T10/Data-T10, file
+// HH10-CD1.4-DS.tex / DS10-CD3.4-DS.tex, đã có tag định tuyến %[...] sẵn
+// trong nguồn), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu
+// trúc dữ liệu.
 // =========================================================================
 window.dungSai0D31 = [
   {
@@ -486,5 +488,51 @@ window.dungSai0D31 = [
       }
     ],
     "explain": "<br>- Với $x = 0 &lt; 1$, ta có $f(0) = 3 - 0 = 3$.<br>- Khi $x \\geq 1$, ta có $f(x) = 5x + 2$ là hàm số đồng biến trên khoảng $(1;+\\infty)$.<br>  Khi $x &lt; 1$, ta có $f(x) = 3 - x$ là hàm số nghịch biến trên khoảng $(-\\infty;1)$.<br>  Vậy hàm số không đồng biến trên khoảng $(-\\infty; +\\infty)$.<br>- Khi $x \\geq 1$, ta có $f(x) = 5x + 2$, hàm số có tập xác định là $\\mathscr{D}_1 = [1;+\\infty)$.<br>  Khi $x &lt; 1$, ta có $f(x) = 3 - x$, hàm số có tập xác định là $\\mathscr{D}_2 = (-\\infty;1)$.<br>  Khi đó, hàm số $y = f(x)$ có tập xác định $\\mathscr{D} = \\mathscr{D}_1 \\cup \\mathscr{D}_2 = \\mathbb{R}$.<br>- Với $x = 2 &gt; 1$, ta có $f(2) = 5 \\cdot 2 + 2 = 12$."
+  },
+  {
+    "id": "0D312DS8",
+    "question": "Cho hàm số $y=f(x)=\\sqrt{x-1}+2 \\text {khi } x \\geq 1 \\text{ và } \\dfrac{x^2-4}{x+1} \\text {khi } x &lt; 1 $. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Hàm số xác định tại giá trị $x=2$",
+        "answer": true
+      },
+      {
+        "text": "Điểm $A\\left(1;-\\dfrac{3}{2}\\right)$ thuộc đồ thị hàm số",
+        "answer": false
+      },
+      {
+        "text": "Tập xác định của hàm số là $\\mathbb{R}$",
+        "answer": false
+      },
+      {
+        "text": "Giá trị biểu thức $f(0)+f(2)=-1$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Với $x \\geq 1$ thì hàm số $f(x)=\\sqrt{x-1}+2$ xác định nên hàm số xác định tại $x=2$.<br>- Ta có $f(1)=\\sqrt{1-1}+2=2$ nên điểm $A\\left(1;-\\dfrac{3}{2}\\right)$ không thuộc đồ thị hàm số.<br>- Với $x&lt;1$ hàm số $f(x)=\\dfrac{x^2-4}{x+1}$ không xác định tại $x=-1$.<br>- $f(0)=\\dfrac{0-4}{0+1}=-4$, $f(2)=\\sqrt{2-1}+2=3$. Do đó $f(0)+f(2)=-1$."
+  },
+  {
+    "id": "0D312DS9",
+    "question": "Cho hàm số $y=\\dfrac{2}{x-1}, x \\in(-\\infty; 0) \\text{ và } \\sqrt{x+1}, x \\in[0; 2] \\text{ và } x^2-1, x \\in(2; 5]$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Tập xác định của hàm sồ là $\\mathbb{R}$",
+        "answer": false
+      },
+      {
+        "text": "Điểm $A(0;2)$ thuộc đồ thị hàm số",
+        "answer": false
+      },
+      {
+        "text": "Giá trị $f(4)=15$",
+        "answer": true
+      },
+      {
+        "text": "Giá trị $f(0)+f(-1)=0$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Tập xác định của hàm số là $(-\\infty; 5]$.<br>- Với $x=0$ ta có $f(0)=\\sqrt{0+1}=1$ nên điểm $A(0;2)$ không thuộc đồ thị hàm số.<br>- Với $x=4\\Rightarrow f(4)=4^2-1=15$.<br>- Với $x=-1$ ta có $f(-1)=-1$.<br>  Vậy $f(0)+f(-1)=0$."
   }
 ];
