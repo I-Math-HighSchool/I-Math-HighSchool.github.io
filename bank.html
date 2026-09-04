@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-Math Platform - Hệ Thống Luyện Thi Thông Minh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <link rel="stylesheet" href="https://tikzjax.com/v1/tikzjax.css">
+    <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+    <style>
+        body { 
+            background: #f8fafc;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #1e293b;
+            min-height: 100vh;
+        }
+        
+        /* HEADER TỔNG */
+        .app-header {
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 12px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1030; /* luôn nổi trên nội dung, đồng hồ không bị cuộn mất */
+        }
+        .main-title {
+            font-size: 1.4rem; font-weight: 800;
+            background: linear-gradient(45deg, #0284c7, #4f46e5);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; margin: 0;
+        }
+
+        /* BỐ CỤC HAI CỘT THÔNG MINH */
+        .main-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .sidebar-panel {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 20px;
+            height: fit-content;
+        }
+
+        .exam-panel {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 20px;
+        }
+
+        /* LƯỚI TIẾN ĐỘ CÂU HỎI TRỰC QUAN */
+        .progress-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            gap: 8px;
+            margin-top: 15px;
+        }
+        .progress-box {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #64748b;
+            background: #f8fafc;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .progress-box.answered {
+            background: #e0f2fe;
+            border-color: #0284c7;
+            color: #0284c7;
+        }
+        .progress-box.active {
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+            border-color: #4f46e5;
+        }
+        .part-progress-wrapper {
+            margin-bottom: 10px;
+        }
+        .part-title {
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: #475569;
+            margin-bottom: 8px;
+        }
+
+        /* ĐỒNG HỒ ĐẾM NGƯỢC VIP */
+        /* Tìm đến đoạn này ở thẻ <style> trong file bank.html */
+        .timer-box {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 12px;
+            font-weight: 800;
+            font-size: 1.4rem;
+            text-align: center;     /* ◄ THẦY SỬA CHỮ 'text-center' THÀNH 'text-align: center;' Ở ĐÂY */
+            display: none;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
+        }
+
+        /* THIẾT KẾ CÂU HỎI GỌN GÀNG */
+        .part-header { 
+            background: #f1f5f9; padding: 10px 16px; 
+            border-left: 4px solid #0284c7; font-weight: 800; 
+            color: #0284c7; font-size: 0.95rem; margin: 25px 0 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .question-item { 
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 20px; margin-bottom: 20px;
+        }
+        .question-item:last-child { border: none; }
+        .question-text { font-size: 0.95rem; font-weight: 600; color: #0f172a; line-height: 1.6; }
+
+        /* ĐÁP ÁN GỌN GÀNG HƠN */
+        .custom-option-wrapper {
+            background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;
+            padding: 10px 14px; margin-top: 8px; cursor: pointer; display: flex; align-items: center;
+        }
+        .custom-option-wrapper:hover { background: #f1f5f9; border-color: #cbd5e1; }
+        .form-check-input { width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
+        .form-check-label { color: #334155; margin-left: 8px; font-size: 0.9rem; width: 100%; cursor: pointer; }
+        .form-check-input:checked ~ .form-check-label { color: #0284c7; font-weight: 700; }
+
+        /* FORM ĐÚNG SAI CO GIÃN HÀNG */
+        .sub-question-container { background: #f8fafc; border-radius: 10px; padding: 5px 14px; margin-top: 10px; }
+        .sub-question-row { padding: 10px 0; display: flex; flex-direction: column; gap: 6px; }
+        .sub-question-row:not(:last-child) { border-bottom: 1px solid #e2e8f0; }
+        .sub-question-actions { display: flex; gap: 15px; }
+
+        /* Ô VUÔNG PHẦN III ĐẸP MẮT */
+        .short-box {
+            width: 40px !important; height: 40px !important; text-align: center;
+            font-weight: 700; font-size: 1.1rem; border-radius: 6px; border: 1px solid #cbd5e1;
+        }
+        .short-box:focus { border-color: #0284c7; box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15); }
+
+        .explain-box { 
+            display: none; background-color: #f0fdf4; padding: 12px; margin-top: 10px; 
+            border-radius: 8px; font-size: 0.85rem; color: #14532d; border: 1px solid #bbf7d0; 
+        }
+        .btn-custom-generate { background: #0284c7; color: white; border: none; width: 100%; padding: 12px; border-radius: 10px; font-weight: 700; }
+        .btn-custom-submit { background: #4f46e5; color: white; border: none; width: 100%; padding: 14px; border-radius: 12px; font-weight: 700; font-size: 1.05rem; }
+        .score-display-box { background: #f0f9ff; border: 1px solid #bae6fd; color: #0369a1; border-radius: 12px; padding: 15px; font-weight: 700; }
+
+        /* ========================================== */
+        /* RESPONSIVE CHUYỂN ĐỔI BỐ CỤC LAPTOP MÁY TÍNH */
+        /* ========================================== */
+        /* ========================================== */
+        /* TỐI ƯU CHO ĐIỆN THOẠI (MÀN HÌNH NHỎ)         */
+        /* ========================================== */
+        @media (max-width: 576px) {
+            .app-header { padding: 10px 12px; }
+            .main-title { font-size: 1.05rem; }
+            .main-title i { margin-right: 4px !important; }
+            .timer-box { font-size: 1.05rem; padding: 8px 10px; }
+            .main-layout { padding: 12px; gap: 12px; }
+            .sidebar-panel, .exam-panel { padding: 14px; border-radius: 12px; }
+            .question-text { font-size: 0.92rem; }
+            .part-header { font-size: 0.88rem; padding: 8px 12px; margin: 18px 0 12px 0; }
+            .progress-grid > .part-progress-wrapper > div[style] {
+                grid-template-columns: repeat(5, 1fr) !important;
+            }
+            .progress-box { height: 36px; font-size: 0.82rem; }
+        }
+
+        @media (min-width: 992px) {
+            .main-layout {
+                flex-direction: row;
+                align-items: flex-start;
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 30px 20px;
+            }
+            .sidebar-panel {
+                width: 320px;
+                position: sticky;
+                top: 82px; /* Ghìm chặt bảng điều khiển bên trái khi cuộn đề bên phải, chừa chỗ cho header (đồng hồ) đã cố định phía trên */
+                max-height: calc(100vh - 112px); /* trừ thêm chiều cao header để không tràn/đơ khi zoom hoặc màn hình thấp */
+                overflow-y: auto;
+                overscroll-behavior: contain;
+            }
+            .exam-panel {
+                flex: 1;
+                padding: 30px;
+            }
+            .sub-question-row { flex-direction: row; justify-content: space-between; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="app-header shadow-sm d-flex justify-content-between align-items-center">
+    <h1 class="main-title"><i class="fa-solid fa-graduation-cap me-2"></i>I-MATH PLATFORM</h1>
+    <div class="timer-box text-center" id="exam-timer"><i class="fa-regular fa-clock me-2"></i>90:00</div>
+</header>
+
+<main class="main-layout">
+    <section class="sidebar-panel shadow-sm">
+        <div class="mb-3">
+            <label class="form-label small fw-bold text-secondary"><i class="fa-solid fa-user me-1"></i> TÊN THÍ SINH</label>
+            <input type="text" class="form-control" id="student-name" placeholder="Nhập tên trước khi nộp...">
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label small fw-bold text-secondary"><i class="fa-solid fa-layer-group me-1"></i> KHỐI LỚP</label>
+            <select class="form-select form-select-sm" id="select-lop">
+                <option value="lop12" selected>Khối Lớp 12 (Tốt Nghiệp)</option>
+                <option value="lop11">Khối Lớp 11 (THPT)</option>
+                <option value="lop10">Khối Lớp 10 (THPT)</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label small fw-bold text-secondary"><i class="fa-solid fa-book me-1"></i> CHUYÊN ĐỀ / NỘI DUNG THI</label>
+            <select class="form-select form-select-sm" id="select-chuong"></select>
+        </div>
+
+        <button class="btn btn-custom-generate mb-4 shadow-sm" id="btn-generate" disabled>
+            <i class="fa-solid fa-play me-1"></i> PHÁT ĐỀ TÍNH GIỜ
+        </button>
+        <div class="small text-muted text-center" id="data-load-status">Đang tải ngân hàng câu hỏi...</div>
+
+        <hr class="text-muted">
+        
+        <label class="form-label small tabular fw-bold text-secondary"><i class="fa-solid fa-grid me-1"></i> TIẾN ĐỘ LÀM BÀI</label>
+        <div class="progress-grid" id="progress-grid-box">
+            </div>
+    </section>
+
+    <section class="exam-panel shadow-sm">
+        <form id="quiz-form">
+            <div id="quiz-content">
+                <div class="text-center text-muted py-5">
+                    <i class="fa-solid fa-folder-open fa-3x mb-3 text-info" style="opacity: 0.4;"></i>
+                    <p class="mb-0 small">Hệ thống đang đợi lệnh. Vui lòng nhấn nút <strong>"Phát Đề Tính Giờ"</strong> ở bảng điều khiển bên cạnh.</p>
+                </div>
+            </div>
+            
+            <div class="mt-4 text-center">
+                <button type="button" class="btn btn-custom-submit btn-lg d-none" id="btn-submit">
+                    <i class="fa-solid fa-paper-plane me-1"></i> HOÀN THÀNH & NỘP BÀI KHẢO SÁT
+                </button>
+            </div>
+        </form>
+
+        <div id="result-box" class="alert mt-4 d-none score-display-box text-center"></div>
+    </section>
+</main>
+
+<script src="data/manifest.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

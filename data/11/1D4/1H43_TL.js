@@ -1,0 +1,12 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 1H43 - Trả lời ngắn (nguồn DeLuyenTap)
+// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// =========================================================================
+window.traLoiNgan1H43 = [
+  {
+    "id": "1H432TL1",
+    "question": "Cho hình chóp $S.ABC$. Gọi $M$, $N$ lần lượt là trung điểm của $SA$ và $BC$, $P$ là điểm trên cạnh $AB$ sao cho $\\dfrac{AP}{AB} = \\dfrac{1}{3}$. Gọi $Q$ là giao điểm của $SC$ với mặt phẳng $(MNP)$. Tính $\\dfrac{SQ}{SC}$ (làm tròn đến hàng phần trăm).",
+    "answer": "0{,}33",
+    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS16_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm giao điểm $Q$ của $SC$ với mặt phẳng $(MNP)$<br>  Chọn mặt phẳng phụ $(SAC)$ chứa $SC$ <br>  Trong $(ABC)$ gọi $H = AC \\cap NP$ <br>   Suy ra $(MNP) \\cap (SAC) = HM$. Khi đó $Q$ là giao điểm của $HM$ và $SC$. <br>  Gọi $L$ là trung điểm $AC$. Ta có  $\\frac{HA}{HL} = \\frac{AP}{LN} = \\frac{\\frac{1}{3}AB}{\\frac{1}{2}AB} = \\frac{2}{3}  (\\text{vì } M, N \\text{ là trung điểm của } AC \\text{ và } BC \\text{ nên } LN = \\frac{1}{2} AB).$  Suy ra $HA = \\dfrac{2}{3} HL$.  Mà $LC = AL = HL - HA = HL - \\dfrac{2}{3} HL = \\dfrac{1}{3} HL \\Rightarrow HL = \\dfrac{3}{4} HC$.<br>  Mặt khác, ta có $\\dfrac{HC}{HL} = \\dfrac{QC}{ML} = \\dfrac{4}{3} (\\text{vì } ML \\parallel SC)$.<br>  Mà $2ML = SC$ nên $\\dfrac{QC}{SC} = \\dfrac{2}{3} \\Rightarrow \\dfrac{SQ}{SC} = \\dfrac{1}{3}$."
+  }
+];
