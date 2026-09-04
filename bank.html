@@ -158,6 +158,24 @@
         .explain-box { 
             display: none; background-color: #f0fdf4; padding: 12px; margin-top: 10px; 
             border-radius: 8px; font-size: 0.85rem; color: #14532d; border: 1px solid #bbf7d0; 
+            max-width: 100%; overflow-x: hidden; word-wrap: break-word; overflow-wrap: break-word;
+        }
+        .explain-box img, .question-text img, .sub-question-text img {
+            max-width: 100%; height: auto; display: block; margin: 8px auto;
+        }
+        /* Công thức toán (MathJax) dài trên điện thoại: cho phép cuộn ngang
+           NGAY TRONG công thức thay vì đẩy vỡ cả layout trang. */
+        mjx-container {
+            max-width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: inline-block !important;
+        }
+        mjx-container[display="true"] {
+            display: block !important;
+        }
+        .question-text, .sub-question-text, .explain-box, .form-check-label {
+            word-wrap: break-word; overflow-wrap: break-word;
         }
         .btn-custom-generate { background: #0284c7; color: white; border: none; width: 100%; padding: 12px; border-radius: 10px; font-weight: 700; }
         .btn-custom-submit { background: #4f46e5; color: white; border: none; width: 100%; padding: 14px; border-radius: 12px; font-weight: 700; font-size: 1.05rem; }
@@ -170,6 +188,7 @@
         /* TỐI ƯU CHO ĐIỆN THOẠI (MÀN HÌNH NHỎ)         */
         /* ========================================== */
         @media (max-width: 576px) {
+            body { overflow-x: hidden; }
             .app-header { padding: 10px 12px; }
             .main-title { font-size: 1.05rem; }
             .main-title i { margin-right: 4px !important; }
@@ -182,6 +201,8 @@
                 grid-template-columns: repeat(5, 1fr) !important;
             }
             .progress-box { height: 36px; font-size: 0.82rem; }
+            .explain-box { font-size: 0.82rem; padding: 10px; }
+            mjx-container { font-size: 92% !important; }
         }
 
         @media (min-width: 992px) {
