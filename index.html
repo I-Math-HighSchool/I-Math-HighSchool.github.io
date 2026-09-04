@@ -163,15 +163,16 @@
         .explain-box img, .question-text img, .sub-question-text img {
             max-width: 100%; height: auto; display: block; margin: 8px auto;
         }
-        /* Công thức toán (MathJax) dài trên điện thoại: cho phép cuộn ngang
-           NGAY TRONG công thức thay vì đẩy vỡ cả layout trang. */
-        mjx-container {
+        /* Công thức toán (MathJax) DẠNG KHỐI (hệ PT, phân số lớn xuống dòng
+           riêng...) dài trên điện thoại: cho phép cuộn ngang NGAY TRONG công
+           thức đó thay vì đẩy vỡ cả layout trang. CHỈ áp dụng cho công thức
+           dạng khối (display="true"), KHÔNG áp dụng cho công thức chèn giữa
+           dòng chữ (inline) vì overflow/display ép trên inline sẽ làm ký
+           hiệu bị lệch dòng, "nhảy" lên khỏi chữ xung quanh. */
+        mjx-container[display="true"] {
             max-width: 100%;
             overflow-x: auto;
             overflow-y: hidden;
-            display: inline-block !important;
-        }
-        mjx-container[display="true"] {
             display: block !important;
         }
         .question-text, .sub-question-text, .explain-box, .form-check-label {
