@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §2. Phương sai, độ lệch chuẩn của mẫu số liệu ghép nhóm - Đúng sai
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/L12-TK-C3.3.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.dungSai2D32 = [
   {
     "id": "2D323DS1",
@@ -165,5 +159,28 @@ window.dungSai2D32 = [
       }
     ],
     "explain": "<br>- <strong>Đúng</strong>. Khoảng biến thiên thời gian hoàn thành bài kiểm tra môn Toán của học sinh mỗi lớp là $45-25=20$.<br>- <strong>Sai</strong>.<br>  Xét mẫu số liệu ghép nhóm của lớp $12$A:  Cỡ mẫu là $n=7 + 16 + 15 + 4 = 42$.  <br>- Tứ phân vị thứ nhất $Q_1$: Ta có $\\dfrac{1}{4} \\cdot 42 = 10{,}5$ nên nhóm chứa $Q_1$ là $[30;35)$.<br>  Do đó $Q_{1}=30+\\dfrac{\\dfrac{42}{4}-7}{16}\\cdot (35-30)\\approx 31{,}09$.<br>- Tứ phân vị thứ ba $Q_3$: Ta có $\\dfrac{3}{4} \\cdot 42 = 31{,}5$ nên nhóm chứa $Q_3$ là $[35;40)$.<br>  Do đó $Q_{3}=35+\\dfrac{\\dfrac{3\\cdot 42}{4}-23}{15}\\cdot (40-35)\\approx 37{,}83$.  Vậy khoảng tứ phân vị là $Q_3-Q_1=37{,}83-31{,}09=6{,}74$.<br>- <strong>Đúng</strong><br>  Giá trị trung bình của mẫu số liệu ghép nhóm của lớp $12$B là<br>  $\\overline{x} = \\dfrac{5 \\cdot 27{,}5 + 14 \\cdot 32{,}5 + 17 \\cdot 37{,}5 + 6 \\cdot 42{,}5}{42} = 35{,}36$<br>  Phương sai của mẫu số liệu ghép nhóm của lớp $12$B là<br>  $\\sigma^2 = \\dfrac{5\\cdot (27{,}5 - 35{,}36)^2+14\\cdot (32{,}5 - 35{,}36)^2+17\\cdot (37{,}5 - 35{,}36)^2+6\\cdot (42{,}5 - 35{,}36)^2}{42} \\approx 19{,}22$<br>- <strong>Đúng</strong>.<br>  Giá trị trung bình của mẫu số liệu ghép nhóm của lớp $12$A là<br>  $\\overline{x} = \\dfrac{7 \\cdot 27{,}5 + 16 \\cdot 32{,}5 + 15 \\cdot 37{,}5 + 4 \\cdot 42{,}5}{42} \\approx 34{,}4$<br>  Phương sai của mẫu số liệu ghép nhóm của lớp $12$A là<br>  $\\sigma^2 = \\dfrac{7\\cdot (27{,}5- 34{,}4)^2+16\\cdot (32{,}5 - 34{,}4)^2+15\\cdot (37{,}5 - 34{,}4)^2+4\\cdot (42{,}5 - 34{,}4)^2}{42} \\approx 18{,}99$<br>  Độ lệch chuẩn của lớp $12$A là $\\sigma =\\sqrt{\\sigma^2}=\\sqrt{18{,}99}\\approx 4{,}36$ .<br>  Độ lệch chuẩn của lớp $12$B là $\\sigma =\\sqrt{\\sigma^2}=\\sqrt{19{,}22}\\approx 4{,}38$ .<br>  Độ lệch chuẩn của lớp $12$A nhỏ hơn lớp $12$B.  Vậy học sinh lớp $12$A có tốc độ hoàn thành bài kiểm tra môn Toán đồng đều hơn lớp $12$B."
+  },
+  {
+    "id": "2D322DS1",
+    "question": "Thành tích nhảy xa của lớp $12A$ được cho ở biểu đồ sau.  <br><img src=\"data/12/2D3/im2D32/loc2_2_TL_TN_THPT_Bin_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ biểu đồ trên ta có bảng số liệu ghép nhóm như sau:  <br><img src=\"data/12/2D3/im2D32/loc2_2_TL_TN_THPT_Bin_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Tần số của nhóm $[240;270)$ là $14$",
+        "answer": true
+      },
+      {
+        "text": "Phương sai của mẫu số liệu trên bằng $881$ (làm tròn đến hàng đơn vị)",
+        "answer": true
+      },
+      {
+        "text": "Khoảng biến thiên của bảng số liệu ghép nhóm trên là $R=150$ cm",
+        "answer": true
+      },
+      {
+        "text": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm cho bởi biểu đồ trên là $40$ cm",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Dựa vào bảng số liệu ghép nhóm ta thấy Tần số của nhóm $\\left[240; 270 \\right)$ là $14$.<br>- Cỡ mẫu $ n=58 $.<br>  Số trung bình của mẫu số liệu ghép nhóm là  $ \\overline{x}=\\dfrac{3\\cdot 165+5\\cdot 195+28\\cdot 225+14\\cdot 255+8\\cdot 285}{58}=\\dfrac{6810}{29}. $  Phương sai của mẫu số liệu ghép nhóm là  $ S^2=\\dfrac{1}{58}\\left(3\\cdot 165^2+5\\cdot 195^2+28\\cdot 225^2+14\\cdot 255^2+8\\cdot 285^2 \\right)-\\left( \\dfrac{6810}{29}\\right) ^2\\approx 881. $<br>- Khoảng biến thiên của bảng số liệu ghép nhóm trên là $R=300-150=150$ cm.<br>- Ta có cỡ mẫu $ n=58 $.<br>  Gọi $x_1$, $x_2$, $\\ldots$, $x_{58}$ là thành tích nhảy xa của lớp $12A$ theo thứ tự không giảm.<br>  Tứ phân vị thứ nhất của mẫu số liệu gốc bằng $x_{11} \\in \\left[ 210;240\\right)$.<br>  Tứ phân vị thứ ba của mẫu số liệu gốc bằng $x_{44} \\in \\left[ 240;270\\right)$.<br>  Tứ phân vị thứ nhất và thứ ba của mẫu số liệu ghép nhóm lần lượt là:  $Q_{1}=210+ \\dfrac{\\dfrac{58}{4}-\\left(3+5\\right)}{28}\\cdot \\left(240-210\\right)=\\dfrac{6075}{28};$  $Q_{3}=240+ \\dfrac{\\dfrac{3\\cdot58}{4}-\\left(3+5+28\\right)}{14}\\cdot \\left(270-240\\right)=\\dfrac{3585}{14}.$  Khoảng tứ phân vị $ \\Delta_{Q}=Q_{3}-Q_{1}=\\dfrac{1095}{28}$."
   }
 ];

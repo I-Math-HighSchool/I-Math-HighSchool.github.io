@@ -1,8 +1,7 @@
 // =========================================================================
-// Lớp 11 - Chương 1 - §3. Các công thức lượng giác - TN
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/1D13-CongThucLuongGiac.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D13 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D13 = [
   {
@@ -748,5 +747,17 @@ window.tracNghiem1D13 = [
     ],
     "answer": 1,
     "explain": "Ta có $\\sin^2\\alpha + \\cos^2\\alpha = 1 \\Leftrightarrow \\sin^2\\alpha = \\dfrac{8}{9} \\Leftrightarrow \\sin\\alpha = \\pm \\dfrac{2\\sqrt{2}}{3}$. <br>  Mà $-\\dfrac{\\pi}{2} &lt; \\alpha &lt; 0$ nên $\\sin\\alpha &lt;0$. Do đó $\\sin\\alpha = - \\dfrac{2\\sqrt{2}}{3}$. <br>  Khi đó  $\\cos \\left(\\alpha-\\dfrac{\\pi}{3} \\right) = \\cos \\alpha\\cos \\dfrac{\\pi}{3} + \\sin\\alpha\\sin{\\dfrac{\\pi}{3}} = \\dfrac{1}{3}\\cdot\\dfrac{1}{2} + \\dfrac{2\\sqrt{2}}{3}\\cdot\\dfrac{\\sqrt{3}}{2} = \\dfrac{1+2\\sqrt{6}}{6}.$"
+  },
+  {
+    "id": "1D133TN60",
+    "question": "Rút gọn biểu thức $T=\\sin\\left( \\dfrac{\\pi}{3}+x\\right) -\\sin\\left( \\dfrac{\\pi}{3}-x\\right) $ ta được kết quả là",
+    "options": [
+      "$T=\\dfrac{\\sqrt{3}}{2}$",
+      "$T=\\sin x$",
+      "$T=\\sqrt{3}\\cos x$",
+      "$T=\\sin 2x$"
+    ],
+    "answer": 1,
+    "explain": "Ta có   $T = \\sin\\left( \\dfrac{\\pi}{3}+x\\right) -\\sin\\left( \\dfrac{\\pi}{3}-x\\right)$<br>$= 2\\cdot\\cos\\left(\\dfrac{\\dfrac{\\pi}{3}+x+\\dfrac{\\pi}{3}-x}{2} \\right)\\cdot\\sin\\left(\\dfrac{\\dfrac{\\pi}{3}+x-\\dfrac{\\pi}{3}+x }{2}\\right)$<br>$= 2\\cdot \\cos\\dfrac{\\pi}{3}\\cdot \\sin x.$<br>$= \\sin x.$"
   }
 ];

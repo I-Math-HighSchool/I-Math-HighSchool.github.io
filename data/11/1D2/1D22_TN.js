@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D22 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D22 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D22 = [
   {
@@ -182,5 +183,41 @@ window.tracNghiem1D22 = [
     ],
     "answer": 1,
     "explain": "Ta có $u_2=u_1+d=5 \\text{ và } u_4=u_1+3d=11\\Rightarrow 2d=11-5=6\\Leftrightarrow d=3$. <br>  Vậy công sai của cấp số cộng đã cho bằng $3$."
+  },
+  {
+    "id": "1D222TN16",
+    "question": "Cho cấp số cộng $(u_{n})$ có số hạng đầu $u_{1}$ và công sai $d$. Số hạng tổng quát của cấp số cộng là",
+    "options": [
+      "$u_n=u_1+(n+1)d$",
+      "$u_n=u_1+nd$",
+      "$u_n=u_{1}+(n-1)d$",
+      "$u_n=u_1\\cdot (n-1)d$"
+    ],
+    "answer": 2,
+    "explain": "Công thức số hạng tổng quát của cấp số cộng là $u_n=u_1+(n-1)d$."
+  },
+  {
+    "id": "1D222TN17",
+    "question": "Cho cập số cộng $\\left(u_n\\right)$ có $u_1 = 11$ và công sai $d=4$. Số hạng $u_{99}$ của cấp số cộng này là",
+    "options": [
+      "$403$",
+      "$402$",
+      "$303$",
+      "$404$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $u_{99}=u_1+98\\cdot d=11+98\\cdot4=403$."
+  },
+  {
+    "id": "1D224TN13",
+    "question": "Cho cấp số cộng $(u_n)$ có $u_4 = -12$, $u_{14} = 18$. Tính tổng 16 số hạng đầu tiên của cấp số cộng này.",
+    "options": [
+      "$S_{16} = 26$",
+      "$S_{16} = -25$",
+      "$S_{16} = -24$",
+      "$S_{16} = 24$"
+    ],
+    "answer": 3,
+    "explain": "Gọi $u_1$ là số hạng đầu và $d$ là công sai của cấp số cộng. <br>  Theo giả thiết ta có hệ phương trình  $\\begin{cases} u_4 = -12 \\\\ u_{14} = 18 \\end{cases} \\Leftrightarrow \\begin{cases} u_1 + 3d = -12 \\\\ u_1 + 13d = 18 \\end{cases} \\Leftrightarrow \\begin{cases} d = 3 \\\\ u_1 = -21 \\end{cases}.$  Tổng của 16 số hạng đầu tiên là  $S_{16} = \\frac{16}{2} \\left[ 2u_1 + (16-1)d \\right] = 8 \\cdot \\left[ 2(-21) + 15 \\cdot 3 \\right] = 24.$"
   }
 ];

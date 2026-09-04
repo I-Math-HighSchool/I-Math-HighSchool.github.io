@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D31 - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
-// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D31 = [
   {
@@ -440,5 +440,28 @@ window.dungSai0D31 = [
       }
     ],
     "explain": "<br>- Thay tọa độ $A(-3;0)$ vào hàm số $y=-x+3$ ta được $0=6$ (không thoả mãn).<br>  Vậy mệnh đề ``Đồ thị hàm số cắt trục hoành tại điểm $A(-3;0)$'' sai.<br>- Thay tọa độ $B(0;3)$ vào hàm số $y=-x+3$ ta được $3=3$ (thoả mãn).<br>  Vậy mệnh đề ``Đồ thị hàm số cắt trục tung tại điểm $B(0;3)$'' đúng.<br>- Đồ thị hàm số cắt trục hoành, trục tung lần lượt tại điểm điểm $M(3;0)$ và $B(0;3)$ nên $OM=OB=3$. Do đó $\\triangle MOB$ vuông cân tại $O$.<br>  Vậy mệnh đề ``Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác vuông cân'' đúng.<br>- Diện tích tam giác $MOB$ là $S=\\dfrac{1}{2} \\cdot OM\\cdot OB=\\dfrac{1}{2} \\cdot 3\\cdot 3=\\dfrac{9}{2}$.<br>  Vậy mệnh đề ``Đồ thị hàm số cùng với hai trục toạ độ tạo thành tam giác có diện tích bằng $9$'' sai."
+  },
+  {
+    "id": "0D314DS1",
+    "question": "Thành phố Hồ Chí Minh ghi nhận số ca mắc mới Covid-19 trong các tuần đầu năm 2023 như biểu đồ dưới đây.  <br><img src=\"data/10/0D3/im0D31/loc2_0_TN_DS_TLN_Chuy_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt $y$ là số ca mắc mới Covid-19 tương ứng với với tuần thứ $x$ thì phép đặt đó cho ta một hàm số $y=f(x)$.",
+    "subQuestions": [
+      {
+        "text": "$f(3)=16$",
+        "answer": true
+      },
+      {
+        "text": "Tập giá trị của hàm số là $T=[0;50]$",
+        "answer": false
+      },
+      {
+        "text": "Trong $4$ tuần đầu năm 2023, hàm số $y=f(x)$ nghịch biến",
+        "answer": true
+      },
+      {
+        "text": "Giá trị lớn nhất, giá trị nhỏ nhất của hàm số $y=f(x)$ lần lượt là $M$, $m$. Khi đó $M-m=14$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- <strong>Đúng</strong>. Với $x=3$ thì số ca mắc bệnh là $16$.<br>- <strong>Sai</strong>. Tập giá trị của hàm số là $T=[3;47]$.<br>- <strong>Đúng</strong>. Trong $4$ tuần đầu năm 2023, hàm số $y=f(x)$ nghịch biến.<br>- <strong>Sai</strong>. Giá trị lớn nhất, giá trị nhỏ nhất của hàm số $y=f(x)$ lần lượt là $M=47$, $m=3$. Khi đó $M-m=47-3=44$."
   }
 ];

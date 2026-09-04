@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Giá trị lượng giác của một góc lượng giác - Đúng sai
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/C1.2-GiaTriLuongGiac.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D12 - Đúng sai
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D12 = [
   {
@@ -165,5 +164,28 @@ window.dungSai1D12 = [
       }
     ],
     "explain": "<br>- Vì $\\dfrac{3\\pi}{2} &lt; \\alpha &lt; 2\\pi$ nên $\\alpha$ thuộc cung phần tư thứ IV, do đó $\\cos\\alpha &gt; 0$.<br>- Ta có $\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(-\\dfrac{12}{13}\\right)^2 = \\dfrac{25}{169} \\Rightarrow \\cos\\alpha = \\pm\\dfrac{5}{13}$.<br>  Vì $\\cos\\alpha &gt; 0$ nên $\\cos\\alpha = \\dfrac{5}{13}$.<br>- $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} = \\dfrac{-\\dfrac{12}{13}}{\\dfrac{5}{13}} = -\\dfrac{12}{5}$.<br>- $\\cos\\left(\\dfrac{\\pi}{3}-\\alpha\\right) = \\cos\\dfrac{\\pi}{3}\\cos\\alpha + \\sin\\dfrac{\\pi}{3}\\sin\\alpha = \\dfrac{1}{2} \\cdot \\dfrac{5}{13} + \\dfrac{\\sqrt{3}}{2} \\cdot \\left(-\\dfrac{12}{13}\\right) = \\dfrac{5-12\\sqrt{3}}{26}$."
+  },
+  {
+    "id": "1D122DS8",
+    "question": "Cho $\\cos x=-\\dfrac{3}{5}$, với $\\dfrac{\\pi}{2}&lt;x&lt;\\pi$. Khi đó:",
+    "subQuestions": [
+      {
+        "text": "$\\cot x=-\\dfrac{4}{3}$",
+        "answer": false
+      },
+      {
+        "text": "$\\tan x=-\\dfrac{3}{4}$",
+        "answer": false
+      },
+      {
+        "text": "$\\sin x=-\\dfrac{4}{5}$",
+        "answer": false
+      },
+      {
+        "text": "$\\sin x&gt;0$",
+        "answer": true
+      }
+    ],
+    "explain": "Ta có $\\sin^2 x=1-\\cos^2 x=1-\\left(-\\dfrac{3}{5}\\right)^2=\\dfrac{16}{25}$.<br>  Vì $\\dfrac{\\pi}{2}&lt;x&lt;\\pi$ nên $\\sin x=\\dfrac{4}{5}$.   <br>- <strong>Sai</strong>. Vì $\\cot x=\\dfrac{\\cos x}{\\sin x}=-\\dfrac{3}{4}$.<br>- <strong>Sai</strong>. Vì $\\tan x=\\dfrac{\\sin x}{\\cos x}=-\\dfrac{4}{3}$.<br>- <strong>Sai</strong>. Vì $\\sin x=\\dfrac{4}{5}$.<br>- <strong>Đúng</strong>. Vì $\\dfrac{\\pi}{2}&lt;x&lt;\\pi$ nên $\\sin x&gt;0$."
   }
 ];

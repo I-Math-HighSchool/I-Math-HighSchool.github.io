@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §5. Khảo sát và vẽ đồ thị hàm số - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.5-DoThi.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.tracNghiem2D15 = [
   {
     "id": "2D151TN1",

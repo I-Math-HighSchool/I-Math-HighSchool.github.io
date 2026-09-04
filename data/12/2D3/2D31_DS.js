@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §1. Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm - Đúng sai
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/L12-TK-C3.3.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.dungSai2D31 = [
   {
     "id": "2D314DS1",

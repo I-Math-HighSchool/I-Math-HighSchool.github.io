@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D52 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D52 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D52 = [
   {
@@ -86,5 +87,17 @@ window.tracNghiem1D52 = [
     ],
     "answer": 3,
     "explain": "Giá trị $t_0$ cần tính chính là $Q_3$ (tứ phân vị thứ ba).<br>  Cỡ mẫu $N=56$. <br>  Vì $\\dfrac{3N}{4} = \\dfrac{3 \\cdot 56}{4} = 42$ nên nhóm chứa tứ phân vị thứ ba là nhóm $[18,5; 21,5)$ và tứ phân vị thứ ba là:  $ Q_3 = 18,5 + \\dfrac{\\dfrac{3 \\cdot 56}{4} - (3+12+15)}{24} \\cdot 3 = 20 $"
+  },
+  {
+    "id": "1D522TN7",
+    "question": "Bảng dưới đây thống kê cân nặng của $45$ học sinh lớp $10$ (tính bằng kg) của một trường trung học phổ thông.  <br><img src=\"data/11/1D5/im1D52/loc2_2_TN_DS_TL_SGD_H_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định nhóm chứa tứ phân vị thứ nhất.",
+    "options": [
+      "$[40;44)$",
+      "$[48;52)$",
+      "$[44;48)$",
+      "$[52;56)$"
+    ],
+    "answer": 2,
+    "explain": "Bảng phân bố tần số ghép nhóm có tần số tích lũy  <br><img src=\"data/11/1D5/im1D52/loc2_2_TN_DS_TL_SGD_H_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng $\\dfrac{45}{4}=11{,}25$ là nhóm $[44;48)$.<br>  Vậy nhóm chứa tứ phân vị thứ nhất là $[44;48)$."
   }
 ];

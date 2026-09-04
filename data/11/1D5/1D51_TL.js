@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D51 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D51 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D51 = [
   {
@@ -20,5 +21,11 @@ window.traLoiNgan1D51 = [
     "question": "Quãng đường (km) các cầu thủ (không tính thủ môn) chạy trong một trận bóng đá tại giải ngoại hạng Anh được cho trong bảng thống kê sau:  <br><img src=\"data/11/1D5/im1D51/dlts_11_DLTS20_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính quãng đường trung bình một cầu thủ chạy trong trận đấu này. (Kết quả làm tròn đến hàng phần trăm).",
     "answer": "7{,}48",
     "explain": "Giá trị đại diện của các nhóm:<br>  Nhóm $[2;4)$ là $\\dfrac{2+4}{2} = 3$ km.<br>  Nhóm $[4;6)$ là $\\dfrac{4+6}{2} = 5$ km.<br>  Nhóm $[6;8)$ là $\\dfrac{6+8}{2} = 7$ km.<br>  Nhóm $[8;10)$ là $\\dfrac{8+10}{2} = 9$ km.<br>  Nhóm $[10;12)$ là $\\dfrac{10+12}{2} = 11$ km.<br>  Tổng số cầu thủ là $N = 2 + 5 + 6 + 9 + 3 = 25$.<br>  Quãng đường trung bình $(\\bar{x})$ được tính bằng công thức trung bình cộng có trọng số:<br>  $\\bar{x} = \\dfrac{2 \\cdot 3 + 5 \\cdot 5 + 6 \\cdot 7 + 9 \\cdot 9 + 3 \\cdot 11}{25}= \\dfrac{187}{25}= 7{,}48$ km.<br>  Vậy quãng đường trung bình một cầu thủ chạy trong trận đấu này là $7{,}48$ km."
+  },
+  {
+    "id": "1D513TL4",
+    "question": "Năm 2023, nhiệt độ trong ngày tại thành phố P được xác định theo hàm số $t(d)=-0,0018d^2+0,657d+50,95$, trong đó, $t$ là nhiệt độ tính theo độ $F$ vào ngày thứ $d$ trong năm tính từ ngày 1--1--2023, $d\\ge 1$. trong năm này, tính số ngày tại thành phố P có nhiệt độ không âm {\\it (kết quả làm tròn đến hàng đơn vị)}",
+    "answer": "66",
+    "explain": "Nhiệt độ không âm khi<br> $t(d)=-0,0018d^2+0,657d+50,95\\ge 0\\Leftrightarrow -65,71725475\\le d \\le 430,7172547$.<br>  Vì $d\\ge 1$ nên $1\\le d \\le 430,7172547$.<br>  Vậy trong năm này (tức là năm 2024) số ngày có nhiệt độ không âm là $431-365=66$ ngày."
   }
 ];

@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §1. Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/L12-TK-C3.3.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.tracNghiem2D31 = [
   {
     "id": "2D312TN1",
@@ -256,5 +250,29 @@ window.tracNghiem2D31 = [
     ],
     "answer": 0,
     "explain": "Nhóm có tần số lớn nhất là $[26; 31)$."
+  },
+  {
+    "id": "2D312TN21",
+    "question": "Một vườn thú ghi lại tuổi thọ (đơn vị: năm) của $20$ con hổ và thu được kết quả như sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên (đơn vị: năm) của mẫu số liệu ghép nhóm trên bảng số liệu đã cho là",
+    "options": [
+      "$6$",
+      "$5$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": 1,
+    "explain": "Khoảng biến thiên của mẫu số liệu ghép nhóm trên bảng số liệu đã cho là $R=19-14=5$."
+  },
+  {
+    "id": "2D313TN2",
+    "question": "Khảo sát thời gian tập thể dục trong ngày của một số học sinh khối $10$ thu được mẫu số liệu ghép nhóm sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất là",
+    "options": [
+      "$[40;60)$",
+      "$[20;40)$",
+      "$[0;20)$",
+      "$[60;80)$"
+    ],
+    "answer": 1,
+    "explain": "Nhóm chứa tứ phân vị thứ nhất là $[20;40)$."
   }
 ];

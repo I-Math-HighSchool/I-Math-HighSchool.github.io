@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §2. Phương sai, độ lệch chuẩn của mẫu số liệu ghép nhóm - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/L12-TK-C3.3.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.tracNghiem2D32 = [
   {
     "id": "2D322TN1",

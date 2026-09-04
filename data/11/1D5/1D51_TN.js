@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D51 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D51 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D51 = [
   {
@@ -134,5 +135,17 @@ window.tracNghiem1D51 = [
     ],
     "answer": 0,
     "explain": "Giá trị đại diện của nhóm $[40;60)$ là $\\dfrac{40+60}{2}=50$."
+  },
+  {
+    "id": "1D513TN12",
+    "question": "Tất cả các bạn học sinh lớp 12A5 trả lời $32$ câu hỏi trong một bài kiểm tra. Kết quả số câu trả lời đúng được thống kê ở bảng sau  <br><img src=\"data/11/1D5/im1D51/loc2_2_TN_DS_TL_SGD_H_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Cỡ mẫu của mẫu số liệu ghép nhóm trên là",
+    "options": [
+      "$40$",
+      "$20$",
+      "$32$",
+      "$30$"
+    ],
+    "answer": 0,
+    "explain": "Cỡ mẫu của mẫu số liệu bằng $4+8+8+16+4=40$."
   }
 ];

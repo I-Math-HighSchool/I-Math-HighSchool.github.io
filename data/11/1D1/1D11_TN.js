@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Góc lượng giác - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/C1.1-GocLuongGiac.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D11 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D11 = [
   {

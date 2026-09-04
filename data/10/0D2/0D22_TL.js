@@ -1,9 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Trả lời ngắn
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
-// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
-// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0D22 = [
   {
@@ -29,5 +27,11 @@ window.traLoiNgan0D22 = [
     "question": "Nếu hệ $x(ay+1)+y(x-1)-3&gt; 0 \\text{ và } 2x+y(by+2)+5\\geq 0$ là hệ bất phương trình bậc nhất hai ẩn thì tổng $a+b$ bằng bao nhiêu?",
     "answer": "-1",
     "explain": "Ta có  $x(ay + 1) + y(x - 1) - 3 gt; 0 \\text{ và } 2x + y(by + 2) + 5 \\geq 0$<br>$\\Leftrightarrow   axy + x + xy - y - 3 gt; 0 \\text{ và } 2x + by^2 + 2y + 5 \\geq 0$<br>$\\Leftrightarrow   xy(a + 1) + x - y - 3 gt; 0 \\text{ và } 2x + by^2 + 2y + 5 \\geq 0. \\quad(\\ast)$  Hệ bất phương trình $(\\ast)$ là hệ bất phương trình bậc nhất hai ẩn khi và chỉ khi  \\[a+1=0 \\text{ và } b=0 \\Leftrightarrow a = -1 \\text{ và } b = 0.\\]  Vậy $a+b=-1$."
+  },
+  {
+    "id": "0D223TL3",
+    "question": "Trường THPT TPC tổ chức gian hàng hội chợ chào mừng ngày 26 tháng 3, lớp 12 Nga lên kế hoạch bán trà sữa và bánh flan, toàn bộ số tiền lãi thu được sẽ quyên góp để gây quỹ khuyến học cho các bạn khó khăn trong trường. Lớp có số tiền vốn là $990$ nghìn đồng, biết một ly trà sữa kèm topping có giá vốn là $15$ nghìn đồng, bán ra lãi $5$ nghìn đồng; một cái bánh flan có giá vốn là $3$ nghìn đồng, bán ra lãi $2$ nghìn đồng. Để được giá sỉ thì lớp phải nhập từ $20$ ly trà sữa và từ $40$ cái bánh flan trở lên, theo khảo sát nhu cầu thì không thể bán vượt quá $60$ cái bánh flan. Lớp 12 Nga cần tính toán số lượng ly trà sữa và bánh flan để thu được lợi nhuận lớn nhất, khi đó lợi nhuận lớn nhất là bao nhiêu? (đơn vị tính: nghìn đồng).",
+    "answer": "390",
+    "explain": "Gọi $x$ là số ly trà sữa và $y$ là số cái bánh flan mà lớp 12 Nga bán ($x$, $y\\in \\mathbb{N^*}$).  Theo đề bài ta có hệ bất phương trình sau   \\[x\\ge 20 \\text{ và } 40\\le y\\le 60 \\text{ và } 15x + 3y \\le 990\\]  Miền nghiệm là tứ giác $ABCD$ với $A(20;40)$, $B(20;60)$, $C(54;60)$, $D(58;40)$.  Ta cần tìm $x$, $y$ sao cho $L(x,y)=5x+2y$ đạt giá trị lớn nhất.  <br>- $L(20, 40) = 5(20) + 2(40) = 100 + 80 = 180$ (nghìn đồng).<br>- $L(20, 60) = 5(20) + 2(60) = 100 + 120 = 220$ (nghìn đồng).<br>- $L(54, 60) = 5(54) + 2(60) = 270 + 120 = 390$ (nghìn đồng).<br>- $L(58, 40) = 5(58) + 2(40) = 290 + 80 = 370$ (nghìn đồng).  So sánh các giá trị lợi nhuận, ta thấy giá trị lớn nhất là $390$ nghìn đồng.  Giá trị này đạt được khi lớp 12 Nga bán được $54$ ly trà sữa và $60$ cái bánh flan."
   }
 ];

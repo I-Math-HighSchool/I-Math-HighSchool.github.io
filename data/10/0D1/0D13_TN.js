@@ -1,8 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D13 - Trắc nghiệm
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.1-Menh-De.tex + DS10-CD1.2-3-Tap-Hop.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung, không thuộc diện phải đổi số/ngữ
-// cảnh vì không phải bài toán có bối cảnh thực tế mang tính đặc trưng).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D13 = [
   {
@@ -388,5 +387,77 @@ window.tracNghiem0D13 = [
     ],
     "answer": 2,
     "explain": "Ta có $A \\cup B = (-\\infty ; -2] \\cup [3;+\\infty) $ nên $(A\\cup B) \\cap C =[3;4)$."
+  },
+  {
+    "id": "0D131TN18",
+    "question": "Cho hai tập hợp $A=\\{0;1;5\\}$ và $B=\\{1;3;5;7;9\\}$. Tập hợp $A \\cap B$ là",
+    "options": [
+      "$\\{1;5\\}$",
+      "$\\{1\\}$",
+      "$\\{1;3;5\\}$",
+      "$\\{1;3\\}$"
+    ],
+    "answer": 0,
+    "explain": "$A \\cap B$ là tập hợp các phần tử chung của $A$ và $B$.  $A \\cap B = \\{0;1;5\\} \\cap \\{1;3;5;7;9\\} = \\{1;5\\}.$"
+  },
+  {
+    "id": "0D134TN2",
+    "question": "Phần bù của tập hợp $(-\\infty;-2)$ trong tập hợp $(-\\infty;4)$ là",
+    "options": [
+      "$[-2;4)$",
+      "$[-2;4]$",
+      "$(-2;4]$",
+      "$(-\\infty;-2)$"
+    ],
+    "answer": 2,
+    "explain": "Phần bù của $A = (-\\infty;-2)$ trong $E = (-\\infty;4)$ là $C_E A = E \\setminus A$.  $C_E A = (-\\infty;4) \\setminus (-\\infty;-2) = [-2;4).$"
+  },
+  {
+    "id": "0D132TN1",
+    "question": "Cho tập $A = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ và tập $B = \\{7, 8, 9\\}$. Khi đó:",
+    "options": [
+      "$A \\setminus B = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$",
+      "$A \\setminus B = \\{0, 1, 2, 3, 4, 5, 6\\}$",
+      "$A \\setminus B = \\{7, 8, 9\\}$",
+      "$A \\setminus B = \\varnothing$"
+    ],
+    "answer": 1,
+    "explain": "Tập hợp $A \\setminus B$ là tập hợp gồm các phần tử thuộc $A$ nhưng không thuộc $B$.<br>  Các phần tử thuộc $A$ nhưng không thuộc $B$ là các số $0, 1, 2, 3, 4, 5, 6$.<br>  Vậy $A \\setminus B = \\{0, 1, 2, 3, 4, 5, 6\\}$."
+  },
+  {
+    "id": "0D132TN2",
+    "question": "Cho hai tập hợp $A=\\{2; 4; 6; 9\\}$, $B=\\{1; 2; 3; 4\\}$. Tập $A\\setminus B$ bằng tập nào sau đây?",
+    "options": [
+      "$\\{2; 4\\}$",
+      "$\\{1; 2; 3; 4; 6; 9\\}$",
+      "$\\{1; 3\\}$",
+      "$\\{6; 9\\}$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $A=\\{2; 4; 6; 9\\}$, $B=\\{1; 2; 3; 4\\}$ suy ra $A\\setminus B=\\{6; 9\\}$."
+  },
+  {
+    "id": "0D133TN3",
+    "question": "Cho hai tập hợp $M=(-\\infty; 5]$ và $N=(-3;+\\infty)$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$M\\cap N=(-3; 5)$",
+      "$M\\cap N=(-3; 5]$",
+      "$M\\cap N=\\varnothing$",
+      "$M\\cap N=\\mathbb{R}$"
+    ],
+    "answer": 1,
+    "explain": "<br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  <br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ, ta có $M\\cap N=(-3; 5]$."
+  },
+  {
+    "id": "0D134TN6",
+    "question": "Cho $A=[-2;2)$. Phần bù của $A$ trong $\\mathbb{R}$ là",
+    "options": [
+      "$B=(-\\infty;-2)\\cup[2;+\\infty)$",
+      "$B=(-\\infty;-2]\\cup(2;+\\infty)$",
+      "$B=(-2;2]$",
+      "$B=(-\\infty;-2)\\cup(2;+\\infty)$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $B=C_\\mathbb{R}A=(-\\infty;-2)\\cup[2;+\\infty)$."
   }
 ];

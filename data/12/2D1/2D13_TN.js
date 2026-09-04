@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §3. GTLN, GTNN của hàm số - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.3-MinMax.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.tracNghiem2D13 = [
   {
     "id": "2D131TN1",

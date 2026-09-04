@@ -1,8 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H42 - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/GiuaKiI-De-1.tex (đề luyện tập, một số câu
-// đã đổi số liệu/ngữ cảnh so với bản gốc theo yêu cầu tránh trùng nội dung
-// nguyên văn với đề nguồn).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0H42 = [
   {
@@ -533,5 +532,51 @@ window.dungSai0H42 = [
       }
     ],
     "explain": "<br><img src=\"data/10/0H4/im0H42/dlts_sbh_giuakii1_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Theo định lý cos, ta có $ c=\\sqrt{a^2+b^2-2ab\\cos C}=10\\sqrt{3} $.<br>- <strong>Đúng</strong>. Theo đính lý sin, ta có $ R=\\dfrac{c}{2\\sin C}=\\dfrac{10\\sqrt{3}}{2\\sin 60^\\circ}= 10$.<br>- <strong>Đúng</strong>. Gọi $ M $ là trung điểm $ BC $ nên $ BM=MC=\\dfrac{BC}{2}=10 $.<br>  Ta có $ m_a=MA=\\sqrt{10^2+10^2-2\\cdot 10\\cdot 10 \\cdot \\cos 60^\\circ}=10 $.<br>- <strong>Sai</strong>. Ta có $ S_{ABC}=\\dfrac{1}{2}ba\\sin C=50\\sqrt{3}$.<br>  Gọi $ H $ là chân đường cao hạ từ $ A $ của $ \\triangle ABC $.<br>  Ta có $ S_{ABC}=\\dfrac{1}{2}\\cdot AH\\cdot BC \\Leftrightarrow h_a=HA=\\dfrac{2S_{ABC}}{BC}=\\dfrac{2\\cdot 50\\sqrt{3}}{20}= 5\\sqrt{3}$."
+  },
+  {
+    "id": "0H422DS1",
+    "question": "Cho tam giác $ABC$ có các cạnh $a = 7$, $b = 9$, $c = 12$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "Diện tích tam giác $ABC$ là $S = 14\\sqrt{5}$",
+        "answer": true
+      },
+      {
+        "text": "Nửa chu vi của tam giác $ABC$ là $p = 14$",
+        "answer": true
+      },
+      {
+        "text": "Bán kính đường tròn nội tiếp tam giác $ABC$ là $r = \\sqrt{3}$",
+        "answer": false
+      },
+      {
+        "text": "Bán kính đường tròn ngoại tiếp tam giác $ABC$ là $R = \\dfrac{54\\sqrt{5}}{5}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Nửa chu vi $p = \\dfrac{a+b+c}{2} = \\dfrac{7+9+12}{2} = \\dfrac{28}{2} = 14$.<br>  Áp dụng công thức Heron, ta được  $S = \\sqrt{p(p-a)(p-b)(p-c)} = \\sqrt{14(14-7)(14-9)(14-12)}= 14\\sqrt{5}.$<br>- Nửa chu vi $p = \\dfrac{7+9+12}{2} = 14$.<br>- Bán kính đường tròn nội tiếp $r = \\dfrac{S}{p} = \\dfrac{14\\sqrt{5}}{14} = \\sqrt{5}$.<br>- Bán kính đường tròn ngoại tiếp $R = \\dfrac{abc}{4S} = \\dfrac{7 \\cdot 9 \\cdot 12}{4 \\cdot 14\\sqrt{5}} = \\dfrac{756}{56\\sqrt{5}} = \\dfrac{27}{2\\sqrt{5}} = \\dfrac{27\\sqrt{5}}{10}$."
+  },
+  {
+    "id": "0H421DS2",
+    "question": "Sau khi phát hiện một dịch bệnh, các chuyên gia y tế nhận thấy trong $25$ ngày đầu tốc độ truyền bệnh (người/ngày) tại thời điểm ngày thứ $t$ sau khi phát hiện dịch được cho bởi công thức $f(t)=-3t^{2}+90t$ với $t=0,1,2,...,25$.",
+    "subQuestions": [
+      {
+        "text": "Đồ thị mô tả cho tốc độ truyền bệnh là một đường parabol có bề lõm hướng xuống dưới",
+        "answer": true
+      },
+      {
+        "text": "Tốc độ truyền bệnh không thể đạt $700$ người/ngày",
+        "answer": true
+      },
+      {
+        "text": "Tốc độ truyền bệnh đạt $312$ người/ngày chỉ tại thời điểm $4$ ngày kể từ sau khi phát hiện dịch bệnh",
+        "answer": false
+      },
+      {
+        "text": "Thời điểm từ ngày thứ $13$ đến ngày thứ $17$ sau khi phát hiện dịch, tốc độ truyền bệnh giảm",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có hoành độ đỉnh $x_I=-\\dfrac{b}{2a}=-\\dfrac{90}{2\\cdot(-3)}=15$.<br>  Tung độ đỉnh $y_I=-3\\cdot30^2+90\\cdot30=675$.<br>  Do đó tọa độ đỉnh là $I(15;675)$.<br>  Bảng biến thiên:  <br><img src=\"data/10/0H4/im0H42/loc2_0_TN_DS_TLN_Chuy_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Vì $a=-3&lt;0$ nên đồ thị mô tả cho tốc độ truyền bệnh là một đường parabol có bề lõm hướng xuống dưới.<br>- <strong>Đúng</strong>. Ta có giá trị lớn nhất của hàm số là $675$ nên không thể đạt $700$ người/ngày.<br>- <strong>Đúng</strong>. Tốc độ truyền bệnh đạt $312$ người/ngày nên $y=312$ do đó $-3t^2+90t=312\\Rightarrow t=4$ hay $t=26$.<br>  Mà $t\\le 25$ nên ta chọn $t=4$.<br>  Vậy tại thời điểm $4$ ngày sau khi phát hiện dịch bệnh thì tốc độ truyền bệnh đạt $312$ người/ngày<br>- <strong>Sai</strong>. Từ bảng biến thiên, từ sau ngày $15$ thì tốc độ truyền bệnh giảm."
   }
 ];

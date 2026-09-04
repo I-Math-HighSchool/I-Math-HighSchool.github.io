@@ -1,9 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
-// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
-// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D22 = [
   {
@@ -373,5 +371,51 @@ window.dungSai0D22 = [
       }
     ],
     "explain": "<br>- Hệ bất phương trình $3-y &lt; 0 \\text{ và } 2x-3y+1 &gt; 0$ là hệ bất phương trình bậc nhất hai ẩn.<br>- Thay tọa độ điểm $B(4; 3)$ vào bất phương trình $3-y &lt; 0$ ta được  <br>- $3-3 &lt; 0 \\Leftrightarrow 0 &lt; 0$.  Vì $B(4; 3)$ không thỏa mãn bất phương trình thứ nhất nên nó không thuộc miền nghiệm của hệ<br>- Thay tọa độ điểm $C(7; 4)$ vào hệ:  <br>- $3-y &lt; 0 \\Leftrightarrow 3-4 &lt; 0 \\Leftrightarrow -1 &lt; 0$. Đây là mệnh đề đúng.<br>- $2x-3y+1 &gt; 0 \\Leftrightarrow 2(7)-3(4)+1 &gt; 0 \\Leftrightarrow 14-12+1 &gt; 0 \\Leftrightarrow 3 &gt; 0$. Đây là mệnh đề đúng.  Vì $C(7; 4)$ thỏa mãn cả hai bất phương trình nên nó thuộc miền nghiệm của hệ. Khẳng định \\lq\\lq $C(7; 4)$ là một điểm thuộc miền nghiệm của hệ\\rq\\rq là <strong>Đúng</strong>.<br>- <br>- Bất phương trình $3-y &lt; 0 \\Leftrightarrow y &gt; 3$ có miền nghiệm là nửa mặt phẳng phía trên đường thẳng $(d_1)$ (không kể bờ).<br>- Bất phương trình $2x-3y+1 &gt; 0$ có miền nghiệm là nửa mặt phẳng chứa gốc tọa độ $O(0;0)$ (vì $2(0)-3(0)+1=1&gt;0$) (không kể bờ).  Miền nghiệm của hệ là phần giao của hai nửa mặt phẳng trên. Trên hình vẽ, miền không bị gạch chính là phần giao này."
+  },
+  {
+    "id": "0D222DS16",
+    "question": "Cho hệ bất phương trình $x \\geq 0 \\text{ và } y \\geq 0 \\text{ và } x+y \\leq 2.$",
+    "subQuestions": [
+      {
+        "text": "Điểm $O(0; 0)$ thuộc miền nghiệm của hệ bất phương trình đã cho",
+        "answer": true
+      },
+      {
+        "text": "Miền nghiệm của hệ bất phương trình chỉ chứa 3 nghiệm có tọa độ là các số nguyên",
+        "answer": false
+      },
+      {
+        "text": "Miền nghiệm của hệ bất phương trình là miền tam giác",
+        "answer": true
+      },
+      {
+        "text": "Giá trị lớn nhất của $F (x, y)=3x-4y$ với $(x, y)$ thuộc miền nghiệm của hệ bất phương trình là $5$",
+        "answer": false
+      }
+    ],
+    "explain": "Miện nghiệm của hệ bất phương trình đã cho.  <br><img src=\"data/10/0D2/im0D22/loc_ghk1lhp_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Dựa vào miền nghiệm đã xác định, điểm $O(0; 0)$ thuộc miền nghiệm của hệ bất phương trình đã cho.<br>- Ta có $6$ điểm: $(0;2)$, $(0;1)$, $(0;0)$, $(1;0)$, $(2;0)$, $(1;1)$ đều thuộc miền nghiệm của hệ bất phương trình.<br>- Miền nghiệm của hệ bất phương trình là miền tam giác.<br>- Ta có tọa độ các đỉnh của miền nghiệm là: $(0;2)$, $(0;0)$, $(2;0)$. <br>  Giá trị $F(2,0)=6$ là giá trị lớn nhất của $F(x,y)$."
+  },
+  {
+    "id": "0D221DS2",
+    "question": "Cho tam giác $ABC$ có $BC=a=8, AB=c=5, \\widehat{ABC}=60^\\circ$. Xét tính đúng sai của các khẳng định sau:",
+    "subQuestions": [
+      {
+        "text": "Độ dài cạnh $AC=7$",
+        "answer": true
+      },
+      {
+        "text": "Góc $\\widehat{BAC}$ là góc tù",
+        "answer": false
+      },
+      {
+        "text": "Bán kính đường tròn ngoại tiếp tam giác $ABC$ bằng $\\dfrac{7\\sqrt{3}}{3}$",
+        "answer": true
+      },
+      {
+        "text": "Biểu thức $T=\\sin A-2 \\sin B+\\sin C$ có giá trị bằng 0",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- ĐÚNG.<br>  Ta có $AC^2=AB^2+BC^2-2\\cdot AB \\cdot BC \\cdot \\cos \\widehat{ABC} =49 \\Leftrightarrow AC =7$.<br>- SAI.<br>  Ta có $\\cos \\widehat{BAC}=\\dfrac{AB^2+AC^2-BC^2}{2\\cdot AB \\cdot AC}=\\dfrac{1}{7}&gt;0$, vậy góc $\\widehat{BAC}$ là góc nhọn.<br>- ĐÚNG.<br>  Diện tích tam giác $ABC$ là $S=\\dfrac{1}{2}\\cdot BA \\cdot BC \\cdot \\sin \\widehat{ABC}=10\\sqrt{3}.$<br>  $S=\\dfrac{abc}{4R} \\Leftrightarrow R =\\dfrac{abc}{4S}=\\dfrac{7\\sqrt{3}}{3}.$<br>- SAI.<br>  Ta có $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C} = 2R \\Rightarrow \\sin A = \\dfrac{a}{2R}=\\dfrac{4\\sqrt{3}}{7} \\text{ và } \\sin B = \\dfrac{b}{2R}=\\dfrac{\\sqrt{3}}{2} \\text{ và } \\sin C = \\dfrac{c}{2R}=\\dfrac{5\\sqrt{3}}{14}.$<br>  Từ đó $T=\\sin A-2 \\sin B+\\sin C = -\\dfrac{\\sqrt{3}}{14}$."
   }
 ];

@@ -1,8 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D12 - Trắc nghiệm
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.1-Menh-De.tex + DS10-CD1.2-3-Tap-Hop.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung, không thuộc diện phải đổi số/ngữ
-// cảnh vì không phải bài toán có bối cảnh thực tế mang tính đặc trưng).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D12 = [
   {
@@ -184,5 +183,65 @@ window.tracNghiem0D12 = [
     ],
     "answer": 2,
     "explain": "<br>- Nếu $A =\\varnothing \\Leftrightarrow 1-2m &gt;m+3 \\Leftrightarrow m &lt; -\\dfrac{2}{3} $ thì $A \\cap B =\\varnothing$.<br>- Nếu $A \\ne \\varnothing \\Leftrightarrow 1-2m \\le m+3 \\Leftrightarrow m \\ge -\\dfrac{2}{3}$. Khi đó  $A \\cap B =\\varnothing \\Leftrightarrow m+3 &lt;8-5m \\Leftrightarrow m &lt; \\dfrac{5}{6}.$  Vậy tất cả $m$ thỏa bài toán là $m &lt; \\dfrac{5}{6}$."
+  },
+  {
+    "id": "0D123TN13",
+    "question": "Cho tập hợp $A=(-1 ; 7)$; $B=[-2 ; 5]$. Khi đó, tập $A \\cap B$ là",
+    "options": [
+      "$[-1 ; 5]$",
+      "$[-2 ; 7)$",
+      "$[-2 ;-1)$",
+      "$(-1 ; 5]$"
+    ],
+    "answer": 3,
+    "explain": "$A \\cap B=(-1;5]$."
+  },
+  {
+    "id": "0D122TN2",
+    "question": "Cho tập hợp $A=\\{a ; b ; c ; d\\}$. Số tập con gồm hai phần tử của $A$ là",
+    "options": [
+      "$4$",
+      "$6$",
+      "$5$",
+      "$7$"
+    ],
+    "answer": 1,
+    "explain": "Tập con có hai phần tử của $A$ là $\\{a;b\\};\\{a;c\\};\\{a;d\\};\\{b;c\\};\\{b;d\\};\\{c;d\\}$.<br>  Vậy tập $A$ có $6$ tập hợp con."
+  },
+  {
+    "id": "0D121TN14",
+    "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} | x \\le 5\\}$. Mệnh đề nào sau đây là <strong>đúng</strong>?",
+    "options": [
+      "$A=\\{1;2;3;4\\}$",
+      "$A=\\{0;1;2;3;4;5\\}$",
+      "$A=\\{1;2;3;4;5\\}$",
+      "$A=\\{0;1;2;3;4\\}$"
+    ],
+    "answer": 1,
+    "explain": "Vì $x \\in \\mathbb{N}$ (tập hợp số tự nhiên, bao gồm số $0$) và $x \\le 5$, nên các phần tử của $A$ là $0, 1, 2, 3, 4, 5$.<br>  Vậy $A = \\{0; 1; 2; 3; 4; 5\\}$."
+  },
+  {
+    "id": "0D122TN3",
+    "question": "Tập hợp $A=\\{1; 2\\}$ có bao nhiêu tập con?",
+    "options": [
+      "$2$",
+      "$3$",
+      "$1$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explain": "Tập hợp $A=\\{1; 2\\}$ có $2$ phần tử nên tập $A$ có $2^2=4$ tập con."
+  },
+  {
+    "id": "0D123TN14",
+    "question": "Tập hợp $M=\\{x \\in \\mathbb{R} \\mid 1\\leq x &lt; 6\\}$ bằng tập nào dưới đây?",
+    "options": [
+      "$\\{1; 2; 3; 4; 5\\}$",
+      "$[1; 6)$",
+      "$\\{1; 2; 3; 4; 5; 6\\}$",
+      "$[1; 6]$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $x \\in \\mathbb{R} \\text{ và } 1\\leq x &lt; 6\\Rightarrow M=[1; 6)$."
   }
 ];

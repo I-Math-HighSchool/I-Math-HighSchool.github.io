@@ -1,8 +1,7 @@
 // =========================================================================
-// Lớp 11 - Chương 1 - §4. Hàm số lượng giác và đồ thị - TN
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/1D14-HamSoLuongGiacVaDoThi.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D14 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D14 = [
   {

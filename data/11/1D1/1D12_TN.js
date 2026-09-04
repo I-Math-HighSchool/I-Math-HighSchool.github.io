@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Giá trị lượng giác của một góc lượng giác - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/C1.2-GiaTriLuongGiac.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D12 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D12 = [
   {
@@ -712,5 +711,41 @@ window.tracNghiem1D12 = [
     ],
     "answer": 1,
     "explain": "Ta có $\\cos(-11^\\circ) = \\cos 11^\\circ$."
+  },
+  {
+    "id": "1D124TN52",
+    "question": "Biết $\\sin a=\\dfrac{1}{2}$ giá trị của $\\sin (\\pi-a)$ là",
+    "options": [
+      "$\\sin (\\pi-\\alpha)=\\dfrac{1}{2}$",
+      "$\\sin (\\pi-a)=-\\dfrac{1}{2}$",
+      "$\\sin (\\pi-a)=-\\dfrac{\\sqrt{3}}{2}$",
+      "$\\sin (\\pi-a)=\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\sin (\\pi-\\alpha)=\\sin \\alpha =\\dfrac{1}{2}$."
+  },
+  {
+    "id": "1D121TN2",
+    "question": "Cho $\\dfrac{\\pi}{2} &lt; x &lt; \\pi$, khẳng định nào sau đây là đúng?",
+    "options": [
+      "$\\tan x &gt; 0$",
+      "$\\cos x &gt; 0$",
+      "$\\sin x &gt; 0$",
+      "$\\cot x &gt; 0$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\dfrac{\\pi}{2} &lt; x &lt; \\pi$. Do dó $\\sin x&gt;0$."
+  },
+  {
+    "id": "1D122TN3",
+    "question": "Biết $\\tan\\alpha=2$ và $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$. Tính $\\cos\\alpha$.",
+    "options": [
+      "$\\cos\\alpha=\\dfrac{\\sqrt{3}}{3}$",
+      "$\\cos\\alpha=-\\dfrac{\\sqrt{5}}{5}$",
+      "$\\cos\\alpha=\\dfrac{1}{2}$",
+      "$\\cos\\alpha=\\dfrac{\\sqrt{5}}{5}$"
+    ],
+    "answer": 3,
+    "explain": "Ta có  $1+\\tan^2\\alpha=\\dfrac{1}{\\cos^2\\alpha}$<br>$\\Rightarrow \\cos^2\\alpha=\\dfrac{1}{1+\\tan^2\\alpha}=\\dfrac{1}{1+2^2}=\\dfrac{1}{5}$<br>$\\Rightarrow \\cos\\alpha =\\dfrac{\\sqrt{5}}{5} (\\text{nhận}) \\text{ hoặc } \\cos\\alpha =-\\dfrac{\\sqrt{5}}{5} (\\text{loại}) \\left(\\text{vì}~0 lt; \\alpha lt; \\dfrac{\\pi}{2}\\right).$"
   }
 ];

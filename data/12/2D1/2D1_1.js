@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: window.tracNghiem
 // =========================================================================
-window.tracNghiem2D11 = [
+window.tracNghiem2D11_legacy = [
   {
     "id": "2D112TN1",
     "question": "Cho hàm số $y=f(x)$ có đồ thị là đường cong trong hình bên. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
@@ -235,7 +235,7 @@ window.tracNghiem2D11 = [
 // =========================================================================
 // KHỐI DỮ LIỆU: window.dungSai
 // =========================================================================
-window.dungSai2D11 = [
+window.dungSai2D11_legacy = [
   {
     "id": "2D111DS1",
     "question": "Cho hàm số $y=x\\mathrm{e}^x$. Xét tính đúng sai của các khẳng định sau:",
@@ -356,7 +356,7 @@ window.dungSai2D11 = [
 // =========================================================================
 // KHỐI DỮ LIỆU: window.traLoiNgan
 // =========================================================================
-window.traLoiNgan2D11 = [
+window.traLoiNgan2D11_legacy = [
   {
     "id": "2D112TL1",
     "question": "Cho hàm số $y = f(x)$ liên tục và có đồ thị như hình vẽ. Nếu hàm số nghịch biến trên khoảng $(a;b)$ với khoảng nghịch biến là duy nhất và có độ dài hữu hạn thì hiệu số $b-a$ bằng bao nhiêu?",

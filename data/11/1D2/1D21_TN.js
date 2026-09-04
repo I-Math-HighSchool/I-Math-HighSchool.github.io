@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D21 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D21 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D21 = [
   {
@@ -182,5 +183,17 @@ window.tracNghiem1D21 = [
     ],
     "answer": 1,
     "explain": "Dễ thấy dãy số $-2,4,-8,16,-32,64$ là cấp số nhân có công bội $q=-2$"
+  },
+  {
+    "id": "1D212TN16",
+    "question": "Cho dãy số $(u_n)$, biết $u_n=\\dfrac{-n}{n+1}$. Năm số hạng đầu tiên của dãy số đó lần lượt là những số nào dưới đây?",
+    "options": [
+      "$\\dfrac{1}{2}$; $\\dfrac{2}{3}$; $\\dfrac{3}{4}$; $\\dfrac{4}{5}$; $\\dfrac{5}{6}$",
+      "$\\dfrac{2}{3}$; $\\dfrac{3}{4}$; $\\dfrac{4}{5}$; $\\dfrac{5}{6}$; $\\dfrac{6}{7}$",
+      "$-\\dfrac{2}{3}$; $-\\dfrac{3}{4}$; $-\\dfrac{4}{5}$; $-\\dfrac{5}{6}$; $-\\dfrac{6}{7}$",
+      "$-\\dfrac{1}{2}$; $-\\dfrac{2}{3}$; $-\\dfrac{3}{4}$; $-\\dfrac{4}{5}$; $-\\dfrac{5}{6}$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $u_1=-\\dfrac{1}{2}$; $u_2=-\\dfrac{2}{3}$; $u_3=-\\dfrac{3}{4}$; $u_4=-\\dfrac{4}{5}$; $u_5=-\\dfrac{5}{6}$."
   }
 ];

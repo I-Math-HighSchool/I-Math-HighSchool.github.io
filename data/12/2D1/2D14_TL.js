@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §4. Đường tiệm cận - Trả lời ngắn
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.4-TiemCan.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.traLoiNgan2D14 = [
   {
     "id": "2D144TL1",

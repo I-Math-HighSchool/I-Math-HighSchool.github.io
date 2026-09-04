@@ -1,7 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: 2D11 - Trắc nghiệm (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
-// =========================================================================
 window.tracNghiem2D11 = [
   {
     "id": "2D112TN99",
@@ -146,5 +142,53 @@ window.tracNghiem2D11 = [
     ],
     "answer": 1,
     "explain": "Quan sát đồ thị, thấy hàm số đồng biến trên khoảng $\\left(\\dfrac{3}{2};\\dfrac{11}{2}\\right)$."
+  },
+  {
+    "id": "2D112TN111",
+    "question": "Hàm số $y=-x^3+3x^2+9x+2$ đồng biến trên khoảng nào?",
+    "options": [
+      "$(0;3)$",
+      "$(-\\infty;-1)$",
+      "$(-\\infty;0)$",
+      "$(0;+\\infty)$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $y'=-3x^2+6x+9=0\\Leftrightarrow x=-1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên của hàm số  <br><img src=\"data/12/2D1/im2D11/loc2_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(-1;3)$. <br> Do đó hàm số đồng biến trên khoảng $(0;3)$."
+  },
+  {
+    "id": "2D112TN2",
+    "question": "Cho hàm số $f(x)$ có đồ thị như hình vẽ. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D11/loc2_2_TL_TN_DS_THPT__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$(2;+\\infty)$",
+      "$(-1;1)$",
+      "$(-\\infty;-1)$",
+      "$(0;1)$"
+    ],
+    "answer": 3,
+    "explain": "Từ đồ thị ta thấy  <br>- Hàm số nghịch biến trên $(-1;0)$ và $(1;3)$.<br>- Hàm số đồng biến trên $(0;1)$ và $(-\\infty;-1)$.  Trong các khoảng đã cho, chỉ có $(0;1)$ là khoảng đồng biến của hàm số."
+  },
+  {
+    "id": "2D112TN112",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D11/loc2_2_TN_DS_TL_SGD_H_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào sau đây?",
+    "options": [
+      "$(-3,+\\infty)$",
+      "$(1,+\\infty)$",
+      "$(-3,1)$",
+      "$(-\\infty,1)$"
+    ],
+    "answer": 1,
+    "explain": "Từ bảng biến thiên, hàm số nghịch biến trên các khoảng $(-\\infty;-3)$, $(1;+\\infty)$."
+  },
+  {
+    "id": "2D112TN4",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D11/loc2_2_TN_DS_TLN_Chuy_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng nào sau đây?",
+    "options": [
+      "$(-\\infty; 1)$",
+      "$\\left(1; 2\\right)$",
+      "$\\left(2; +\\infty\\right)$",
+      "$\\left(0; 3\\right)$"
+    ],
+    "answer": 1,
+    "explain": "Từ bảng biến thiên cho thấy hàm số nghịch biến trên khoảng $\\left(1;2\\right)$."
   }
 ];

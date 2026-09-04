@@ -1,9 +1,3 @@
-// =========================================================================
-// KHỐI DỮ LIỆU: §4. Đường tiệm cận - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.4-TiemCan.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
-// =========================================================================
 window.tracNghiem2D14 = [
   {
     "id": "2D141TN1",
@@ -988,5 +982,17 @@ window.tracNghiem2D14 = [
     ],
     "answer": 2,
     "explain": "Biến đổi biểu thức của hàm số ta được  \\[y=f(x)=\\dfrac{x^2-2x+3}{x+1}=x-3+\\dfrac{6}{x+1}.\\]  Ta có $\\lim\\limits_{x\\to+\\infty}\\left[f(x)-(x-3)\\right]=\\lim\\limits_{x\\to+\\infty}\\left(\\dfrac{6}{x+1}\\right)=0 \\text{ và } \\lim\\limits_{x\\to-\\infty}\\left[f(x)-(x-3)\\right]=\\lim\\limits_{x\\to-\\infty}\\left(\\dfrac{6}{x+1}\\right)=0.$<br>  Vậy nên đồ thị hàm số nhận $y=x-3$ làm tiệm cận xiên."
+  },
+  {
+    "id": "2D141TN83",
+    "question": "Đường tiệm cận ngang của đồ thị hàm số $y=\\dfrac{2024}{x-1}$ là đường thẳng có phương trình",
+    "options": [
+      "$x=1$",
+      "$y=0$",
+      "$y=2024$",
+      "$x=0$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\lim\\limits_{x\\to \\pm \\infty} y=0$.<br>  Đồ thị hàm số $y=\\dfrac{2024}{x-1}$ có tiệm cận ngang là đường thẳng $y=0$."
   }
 ];

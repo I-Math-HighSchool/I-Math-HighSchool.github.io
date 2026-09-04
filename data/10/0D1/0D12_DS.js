@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Tập hợp - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.3-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0D12 - Đúng sai
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D12 = [
   {
@@ -464,5 +463,28 @@ window.dungSai0D12 = [
       }
     ],
     "explain": "<br>- $B \\subset A \\Leftrightarrow m\\ge -10 \\text{ và } m+7\\le 1 \\Leftrightarrow m\\ge -10 \\text{ và } m\\le -6\\Leftrightarrow -10 \\leq m \\leq-6$. Suy ra mệnh đề đúng.<br>- $A \\cap B=\\varnothing\\Leftrightarrow m+7\\le -10 \\text{ hoặc } m\\ge 1 \\Leftrightarrow m\\le -17 \\text{ hoặc } m\\ge 1$. Suy ra mệnh đề đúng.<br>- $A \\backslash B \\neq \\varnothing \\Leftrightarrow A\\not\\subset B$. Độ dài của $A$ là $1-(-10)=11$ và độ dài của $B$ là $(m+7)-m=7$. Vì $11&gt;7$ nên $A\\not\\subset B$ với mọi $m$. Suy ra mệnh đề sai.<br>- $A \\cup B$ là một khoảng có độ dài bằng $12$ khi $-10&lt;m&lt;1;m+7+10=12 \\text{ hoặc } -10&lt;m+7&lt;1; 1-m=12 \\Leftrightarrow m=-5;m=-11.$  Tổng các giá trị $m$ bằng $-16$. Suy ra mệnh đề sai."
+  },
+  {
+    "id": "0D122DS1",
+    "question": "Cho tập hợp $A = \\{2,4,6,8\\}$. Các mệnh đề sau đúng hay sai?",
+    "subQuestions": [
+      {
+        "text": "$\\varnothing \\subset A$",
+        "answer": true
+      },
+      {
+        "text": "$2 \\in A$",
+        "answer": true
+      },
+      {
+        "text": "Số tập con của tập hợp $A$ có $1$ phần tử là $8$",
+        "answer": false
+      },
+      {
+        "text": "$A = \\{n \\in \\mathbb{N} | n = 2k, 0 \\le k \\le 4, k \\in \\mathbb{N}\\}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Tập rỗng là tập con của mọi tập hợp.<br>- $2$ là một phần tử của tập hợp $A$.<br>- Các tập con có $1$ phần tử là $\\{2\\}, \\{4\\}, \\{6\\}, \\{8\\}$. Có $4$ tập con.<br>- Với $k=0$, ta có $n=0$. $0 \\notin A$."
   }
 ];

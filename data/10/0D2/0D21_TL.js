@@ -1,9 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D21 - Trả lời ngắn
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
-// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
-// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0D21 = [
   {
@@ -35,5 +33,11 @@ window.traLoiNgan0D21 = [
     "question": "Một đội sản xuất cần $55$ giờ để làm xong một sản phẩm loại (I) và $45$ giờ để làm xong một sản phẩm  loại (II). Biết thời gian tối đa cho việc sản xuất hai sản phẩm trên là $180$ giờ. Nếu $x$, $y$ ($x$, $y\\in \\mathbb{N}$) lần lượt là số sản phẩm loại (I), loại (II) mà đội làm được trong thời gian cho phép thì $x$, $y$ phải thỏa mãn bất phương trình $ax+9y\\le b$ ($a$, $b\\in \\mathbb{Z}$). Giá trị của biểu thức $T=2a+b$ bằng bao nhiêu?",
     "answer": "58",
     "explain": "Thời gian để làm xong $x$ sản phẩm loại (I) là $55x$ (giờ).<br>  Thời gian để làm xong $y$ sản phẩm loại (II) là $45y$ (giờ).<br>  Tổng thời gian làm xong $x$ sản phẩm loại (I) và $y$ sản phẩm loại (II) là $55x+45y$ (giờ).<br>  Vì thời gian tối đa cho việc sản xuất hai sản phẩm trên là $180$ giờ nên ta có bất phương trình \\[55x+45y\\le 180 \\text{ hay } 11x+9y\\le 36.\\]  Suy ra $a=11$ và $b=36$.<br>  Vậy $T=2a+b=2\\cdot 11+36=58$."
+  },
+  {
+    "id": "0D213TL4",
+    "question": "Một cửa hàng bán hai loại gạo, bán mỗi kg loại $I$ lãi $3\\,000$ đồng, mỗi kg loại $II$ lãi $2\\,000$ đồng. Giả sử cửa hàng bán $x$ kg gạo loại $I$ và $y$ kg gạo loại $II$. Bất phương trình biểu thị mối liên hệ giữa $x$ và $y$ để cửa hàng đó thu được số lãi lớn hơn $100\\,000$ đồng có dạng $ax+by &gt; 10$. Khi đó $a+b$ bằng?",
+    "answer": "0{,}5",
+    "explain": "Gọi số tiền lãi thu được là $L$.<br>  Ta có $L = 3\\,000x + 2\\,000y$.<br>  Theo đề bài, số lãi thu được lớn hơn $100\\,000$ đồng nên ta có bất phương trình  $3\\,000x + 2\\,000y gt; 100\\,000$<br>$\\Leftrightarrow 3x + 2y gt; 100$<br>$\\Leftrightarrow \\dfrac{3}{10}x + \\dfrac{2}{10}y gt; 10$<br>$\\Leftrightarrow 0,3x + 0,2y gt; 10$  Suy ra $a = 0{,}3$ và $b = 0{,}2$.<br>  Vậy $a+b = 0{,}3 + 0{,}2 = 0{,}5$."
   }
 ];

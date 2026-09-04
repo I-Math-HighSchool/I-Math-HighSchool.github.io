@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D32 - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD3.3-HS-B2.tex và
-// TK10-CD1.5-Thong-ke.tex (bài tập giáo khoa gốc, giữ nguyên nội dung).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D32 = [
   {
@@ -371,5 +371,51 @@ window.dungSai0D32 = [
       }
     ],
     "explain": "<br>- $(P)$ đi qua hai điểm $M(1;0)$ và $N(-1;0)$ nên ta có $a+b+2=0 \\text{ và } a-b+2=0\\Leftrightarrow a=-2 \\text{ và } b=0.$<br>  Do đó $a+2024b=-2$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua hai điểm $M(1;0)$ và $N(-1;0)$. Khi đó $a+2024b=-2$'' đúng.<br>- $(P)$ có trục đối xứng là $x=1\\Rightarrow-\\dfrac{b}{2a}=1\\Rightarrow 2a+b=0\\quad (1)$.<br>  Mặt khác $(P)$ đi qua điểm $E(-1;5)$ nên $a-b+2=5\\Leftrightarrow a-b=3\\quad (2)$.<br>  Từ $(1)$, $(2)$ suy ra $a=1$, $b=-2$. Do đó $2a+b=0$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua điểm $E(-1;5)$ và có trục đối xứng là $x=1$. Khi đó $2a+b=1$'' sai.<br>- $(P)$ đi qua điểm $F(-1;6)$ nên $a-b+2=6\\Leftrightarrow a-b=4\\Leftrightarrow a=b+4$ \\quad $(3)$.<br>  Lại có $(P)$ có tung độ đỉnh bằng $-\\dfrac{1}{4}$ nên  $-\\dfrac{\\Delta}{4a}=-\\dfrac{1}{4} \\Rightarrow \\dfrac{b^2-4ac}{4a}=\\dfrac{1}{4} \\Rightarrow b^2-8a=a \\Rightarrow b^2-9a=0\\quad (4)$.<br>  Thay $(3)$ vào $(4)$ được $b^2-9(b+4)=0\\Leftrightarrow b^2-9b-36=0\\Leftrightarrow b=-3\\Rightarrow a=1 \\text{ hoặc } b=12\\Rightarrow a=16.$<br>  Suy ra $ab=-3$ hoặc $ab=192$.<br>  Vậy mệnh đề ``Biết $(P)$ đi qua điểm $F(-1;6)$ và có tung độ đỉnh bằng $-\\dfrac{1}{4}$. Khi đó $ab=-36$'' sai.<br>- Vì $(P)$ có đỉnh là điểm $S\\left(-1;-\\dfrac{3}{2}\\right)$ nên hoành độ đỉnh $x=-1=-\\dfrac{b}{2a} \\Rightarrow 2a-b=0\\quad (5)$.<br>  Lại có $(P)$ đi qua $S\\left(-1;-\\dfrac{3}{2}\\right)$ nên $a-b+2=-\\dfrac{3}{2} \\Leftrightarrow a-b=-\\dfrac{7}{2}\\quad (6)$.<br>  Từ $(5)$, $(6)$ ta được $a=\\dfrac{7}{2}$, $b=7$ $\\Rightarrow 2a+b=14$.<br>  Vậy mệnh đề ``Biết $(P)$ có đỉnh là điểm $S\\left(-1;-\\dfrac{3}{2}\\right)$. Khi đó $(2a+b)\\,\\vdots\\, 14$'' đúng."
+  },
+  {
+    "id": "0D323DS7",
+    "question": "Cho hàm số bậc hai $y=f(x)=a x^2+b x+c$ có đồ thị như hình vẽ bên.<br><img src=\"data/10/0D3/im0D32/loc_ghk1lhp_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Đồ thị hàm số có trục đối xứng $x=-\\dfrac{3}{2}$",
+        "answer": true
+      },
+      {
+        "text": "$a &gt; 0$, $b &lt; 0$, $c &gt; 0$",
+        "answer": false
+      },
+      {
+        "text": "Phương trình $f(x)=0$ có hai nghiệm phân biệt",
+        "answer": true
+      },
+      {
+        "text": "Tập hợp các giá trị $x$ nguyên sao cho $f(x) \\leq 3$ có $4$ phần tử",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Đồ thị hàm số có trục đối xứng là $x=-\\dfrac{3}{2}$.<br>- Dựa vào hình dáng đồ thị hàm số, ta có $a&gt;0$.<br>  Ta có $f(0)=3=c&gt;0$.<br>  Đồ thị hàm số có trục đối xứng là $x=-\\dfrac{3}{2}$, do đó $-\\dfrac{b}{2a}=-\\dfrac{3}{2}$, suy ra $b&gt;0$.<br>- Đồ thị hàm số cắt trục hoành tại hai điểm phân biệt nên phương trình $f(x)=0$ có hai nghiệm phân biệt.<br>- Trên đoạn $\\left[ -\\dfrac{3}{2};0\\right]$ phương trình $f(x)=0$ có $2$ giá trị nguyên $x=-1$, $x=0$ thỏa mãn $f(x)\\le 3$. Do $x=-\\dfrac{3}{2}$ là trục đối xứng của đồ thị hàm số nên có $4$ giá trị nguyên thảo mãn yêu cầu."
+  },
+  {
+    "id": "0D323DS8",
+    "question": "Cho hàm số $y=-x^2+3$. Khi đó:",
+    "subQuestions": [
+      {
+        "text": "Tọa độ đỉnh $I$ của parabol $I(0;3)$",
+        "answer": true
+      },
+      {
+        "text": "Bề lõm parabol hướng lên",
+        "answer": false
+      },
+      {
+        "text": "Hàm số đã cho đồng biến trên khoảng $(0;+\\infty)$ và nghịch biến trên khoảng $(-\\infty;0)$",
+        "answer": false
+      },
+      {
+        "text": "Giá trị lớn nhất của hàm số là $3$, khi $x=0$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- ĐÚNG.<br>  Ta có $a=-1$, $b=0$, $c=-3$ từ đó hoành độ đỉnh $I$ là $x_{I}=-\\dfrac{b}{2a}=0$ và tung độ đỉnh $y_{I}=-0^2+3=3$. Vậy $I(0;3)$.<br>- SAI.<br>  Vì hệ số $a=-1&lt;0$ nên bề lõm parabol hướng xuống dưới.<br>- SAI.<br>  Ta có bảng biến thiên:  <br><img src=\"data/10/0D3/im0D32/loc2_0_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên hàm số đã cho nghịch biến trên khoảng $(0;+\\infty)$ và đồng biến trên khoảng $(-\\infty;0)$.<br>- ĐÚNG.<br>  Với hệ số $a=-1&lt;0$ thì hàm số đạt giá trị lớn nhất tại $x=-\\dfrac{b}{2a}=0$ là giá trị lớn nhất của hàm số là $y(0)=3$."
   }
 ];

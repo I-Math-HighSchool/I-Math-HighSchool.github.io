@@ -1,9 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D21 - Trắc nghiệm
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
-// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
-// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D21 = [
   {
@@ -221,5 +219,101 @@ window.tracNghiem0D21 = [
     ],
     "answer": 2,
     "explain": "Dựa vào hình vẽ, ta thấy đồ thị gồm các đường thẳng:  $  \\begin{aligned}  &\\left(d_{1}\\right): x=0 \\\\  &\\left(d_{2}\\right): 4 x+5 y=10 \\\\  &\\left(d_{3}\\right): 5 x-4 y=10  \\end{aligned}  $  Miền nghiệm gần phần mặt phẳng nhận giá trị $x$ dương (kể cả bờ $\\left(d_{1}\\right)$ ). Lại có $(0 ; 0)$ là nghiệm của cả hai bất phương trình $4 x+5 y \\leq 10$ và $5 x-4 y \\leq 10$."
+  },
+  {
+    "id": "0D212TN17",
+    "question": "Miền nghiệm của bất phương trình $-x+2-3(y-1)\\le5(1-x)$ không chứa điểm nào trong các điểm sau?",
+    "options": [
+      "$I(2; 1)$",
+      "$I(-1;-1)$",
+      "$I(-1; 1)$",
+      "$I(0; 0)$"
+    ],
+    "answer": 0,
+    "explain": "Thay $x=2, y=1$ vào bất phương trình trên, ta được $0 \\le -5$ (sai). Do đó điểm $I(2;1)$ không thuộc miền nghiệm của bất phương trình."
+  },
+  {
+    "id": "0D212TN18",
+    "question": "Miền nghiệm của bất phương trình $3x - 2y &gt; -6$ là phần tô đậm (không kể bờ) trong hình vẽ nào sau đây?",
+    "options": [
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+    ],
+    "answer": 2,
+    "explain": "Đường thẳng $3x-2y=-6$ đi qua hai điểm $\\left(-2;0\\right),\\left(0;3\\right)$.<br>  Thay toạ độ điểm $O$ vào bất phương trình ta có $3\\cdot 0-2\\cdot 0&lt;-6$.<br>  Miền nghiệm của bất phương trình là phần mặt phẳng chứa điểm $O$ (phần bị gạch đậm) không kể bờ đường thẳng $3x-2y=-6$.<br>  Miền nghiệm của bất phương trình được biểu diễn ở hình bên dưới  <br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+  },
+  {
+    "id": "0D212TN19",
+    "question": "Phần <strong>không</strong> bị gạch trong hình vẽ bên (kể cả đường thẳng $d$) là miền nghiệm của bất phương trình nào?<br><img src=\"data/10/0D2/im0D21/loc2_0_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$x - 2y \\ge 4$",
+      "$4x - 2y \\le 1$",
+      "$x - 2y \\le 4$",
+      "$x - 2y &gt; 4$"
+    ],
+    "answer": 0,
+    "explain": "Gọi $d$ là đường thẳng đi qua hai điểm thuộc trục tọa độ là $(4; 0)$ và $(0; -2)$. <br>  Suy ra $d \\colon x - 2y = 4$.<br>  Thay điểm $O(0;0)$ vào bất phương trình $x-2y \\ge 4$, ta được $0 - 2 \\cdot 0 = 0 \\ge 4$ (sai)."
+  },
+  {
+    "id": "0D212TN20",
+    "question": "Điểm nào sau đây thuộc miền nghiệm của bất phương trình $2x + y &gt; 3$?",
+    "options": [
+      "$M\\left(1; \\dfrac{3}{2}\\right)$",
+      "$N(1; 1)$",
+      "$P\\left(-1; \\dfrac{3}{2}\\right)$",
+      "$Q(-1; -3)$"
+    ],
+    "answer": 0,
+    "explain": "Để kiểm tra điểm nào thuộc miền nghiệm của bất phương trình $2x + y &gt; 3$, ta thay tọa độ $(x; y)$ của từng điểm vào bất phương trình.<br>  Xét điểm $M\\left(1; \\dfrac{3}{2}\\right)$, ta có $2\\cdot 1 + \\dfrac{3}{2} = 2 + 1{,}5 = 3{,}5$. Vì $3{,}5 &gt; 3$ nên $M$ thuộc miền nghiệm.<br>  Xét điểm $N(1; 1)$, ta có $2\\cdot 1 + 1 = 3$. Vì $3 \\ngtr 3$ nên $N$ không thuộc miền nghiệm.<br>  Xét điểm $P\\left(-1; \\dfrac{3}{2}\\right)$, ta có $2\\cdot (-1) + \\dfrac{3}{2} = -2 + 1{,}5 = -0{,}5$. Vì $-0{,}5 \\ngtr 3$ nên $P$ không thuộc miền nghiệm.<br>  Xét điểm $Q(-1; -3)$, ta có $2\\cdot (-1) + (-3) = -5$. Vì $-5 \\ngtr 3$ nên $Q$ không thuộc miền nghiệm.<br>  Vậy điểm $M$ thuộc miền nghiệm của bất phương trình đã cho."
+  },
+  {
+    "id": "0D212TN21",
+    "question": "Phần không bị gạch chéo trong hình vẽ bên dưới là miền nghiệm của bất phương trình nào? <br><img src=\"data/10/0D2/im0D21/loc2_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$3x-2y &gt;-6$",
+      "$3x-2y &gt; 0$",
+      "$3x-2y &lt;-6$",
+      "$3x-2y &lt; 0$"
+    ],
+    "answer": 0,
+    "explain": "Phần miền nghiệm chứa điểm $(0;0)$ và $3 \\cdot 0 -2 \\cdot 0 =0&gt;-6$."
+  },
+  {
+    "id": "0D211TN4",
+    "question": "Trong các cặp số sau đây, cặp số nào là nghiệm của bất phương trình $2x+y &gt; 1$?",
+    "options": [
+      "$(1;-5)$",
+      "$(2;-1)$",
+      "$(0;1)$",
+      "$(-2;0)$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $2 \\cdot 2 +(-1)=3&gt;1$ nên $(-2;1)$ là nghiệm của bất phương trình đã cho."
+  },
+  {
+    "id": "0D212TN22",
+    "question": "Phần mặt phẳng không bị gạch ở hình vẽ bên (kể cả biên) biểu diễn miền nghiệm của bất phương trình nào sau đây?<br><img src=\"data/10/0D2/im0D21/loc2_0_TN_DS_TL_SGD_B_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$3x+2y-6\\leq 0$",
+      "$3x+2y-6\\geq 0$",
+      "$2x+3y-6\\leq 0$",
+      "$2x+3y-6\\geq 0$"
+    ],
+    "answer": 1,
+    "explain": "Dựa vào hình vẽ, ta thấy miền nghiệm của bất phương trình  <br>- không chứa điểm $O$.<br>- biên của miền nghiệm là đường thẳng đi qua điểm $(0;3)$ và $(2;0)$.  Do đó, Phần mặt phẳng không bị gạch ở hình vẽ bên (kể cả biên) biểu diễn miền nghiệm của bất phương trình $3x+2y-6\\leq 0$."
+  },
+  {
+    "id": "0D211TN8",
+    "question": "Bất phương trình nào dưới đây là bất phương trình bậc nhất hai ẩn?",
+    "options": [
+      "$2x^{2}-x-3\\le0$",
+      "$2xy-x-3\\le0$",
+      "$2y-x-3&gt;0$",
+      "$2xy-x-3\\ge0$"
+    ],
+    "answer": 2,
+    "explain": "Bất phương trình $2y-x-3&gt;0$ là bất phương trình bậc nhất hai ẩn."
   }
 ];

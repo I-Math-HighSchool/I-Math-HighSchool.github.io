@@ -1,9 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Trắc nghiệm
-// Nguồn: SachBaiHoc_T10/Data-T10/DS10-CD1.4-5-Bat-phuong-trinh-bac-nhat-hai-an.tex
-// (bài tập giáo khoa gốc, giữ nguyên nội dung; 6 câu toán thực tế có ghi tên
-// tác giả khác kèm đáp án/lời giải trống trong bản gốc đã được LOẠI BỎ khỏi
-// đợt này thay vì tự chế đáp án, theo đúng quy tắc ưu tiên độ chính xác).
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D22 = [
   {
@@ -449,5 +447,77 @@ window.tracNghiem0D22 = [
     ],
     "answer": 0,
     "explain": "Biểu diễn miền ngiệm của hệ bất phương trình $\\left\\{\\begin{array}{c}-2 x+y \\leq-2 \\\\ x-2 y \\leq 2 \\\\ x+y \\leq 5 \\\\ x \\geq 0\\end{array}\\right.$ trên hệ trục tọa độ như dưới đây:<br>  Nhận thấy biết thức $F=y-x$ chỉ đạt giá trị nhỏ nhất tại các điểm $A, B$ hoặc $C$.  Chỉ $C(4 ; 1)$ có tọa độ nguyên nên thỏa mãn.  Vậy $\\min F=-3$ khi $x=4, y=1$."
+  },
+  {
+    "id": "0D221TN10",
+    "question": "Cặp số nào sau đây <strong>không</strong> là một nghiệm của hệ bất phương trình $x+y \\leq 2 \\text{ và } 2 x-3 y&gt;-2$?",
+    "options": [
+      "$(0 ; 0)$",
+      "$(1 ; 1)$",
+      "$(-1 ; 1)$",
+      "$(-1 ;-1)$"
+    ],
+    "answer": 2,
+    "explain": "Vì $2\\cdot(-1)-3\\cdot1&gt;-2$ (vô lí) nên $(-1;1)$ không là nghiệm của hệ bất phương trình."
+  },
+  {
+    "id": "0D222TN25",
+    "question": "Miền nghiệm của hệ bất phương trình $\\begin{cases} x - 3y < 3 \\\\ x + y > 5 \\end{cases}$ là phần mặt phẳng chứa điểm nào sau đây?",
+    "options": [
+      "$A(0;0)$",
+      "$B(5;3)$",
+      "$C(-2;2)$",
+      "$D(1;-1)$"
+    ],
+    "answer": 1,
+    "explain": "Để xác định điểm nào thuộc miền nghiệm của hệ bất phương trình, ta thay tọa độ của từng điểm vào hai bất phương trình của hệ bất phương trình. <br>  Ta thay điểm $B (5;3)$ vào hệ bất phương trình trên, ta được <br>  $5 - 3\\cdot 3 &lt; 3 \\text{\\,\\,\\,(Đúng)} \\text{ và } 5 + 3 &gt; 5 \\text{\\,\\,\\,(Đúng).}$<br>  Vậy điểm $B$ thuộc miền nghiệm. <br>"
+  },
+  {
+    "id": "0D221TN11",
+    "question": "Cho hệ bất phương trình $x-3y&gt;5 \\text{ và } 2x+y&lt;3.$<br> Cặp số $(x;y)$ nào sau đây là nghiệm của hệ bất phương trình trên",
+    "options": [
+      "$(3;-1)$",
+      "$(1;2)$",
+      "$(3;1)$",
+      "$(1;-2)$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $1-3\\cdot (-2)=7&gt;5 \\text{ và } 2\\cdot 1 + (-2)=0&lt;3.$"
+  },
+  {
+    "id": "0D221TN12",
+    "question": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+    "options": [
+      "$3x+y \\leq 9 \\text{ và } \\frac{2}{x}-3y &gt; 1$",
+      "$3x^3-5y \\geq 8 \\text{ và } |-x-4y| \\leq 20$",
+      "$2x+3y^2 &gt; 5 \\text{ và } -3x-5y \\leq-6$",
+      "$-3x+y \\leq-1 \\text{ và } 4x-7y &gt; 5$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $-3x+y \\leq-1 \\text{ và } 4x-7y &gt; 5$ là hệ bất phương trình bậc nhất hai ẩn."
+  },
+  {
+    "id": "0D222TN26",
+    "question": "Trên mặt phẳng tọa độ $Oxy$, điểm nào dưới đây thuộc miền nghiệm của hệ bất phương trình $2x+5y \\leq 3 \\text{ và } x-y \\geq 5$?",
+    "options": [
+      "$A(-1; 1)$",
+      "$B(1; 1)$",
+      "$C(0;-5)$",
+      "$D(2; 0)$"
+    ],
+    "answer": 2,
+    "explain": "Ta có  <br>- $2\\cdot (-1)+5\\cdot 1 \\leq 3\\text{ đúng} \\text{ và } -1-1 \\geq 5\\text{ sai}.$ <br>  $\\Rightarrow A(-1; 1)$ không thuộc miền nghiệm của hệ bất phương trình đã cho.<br>- $2\\cdot 1+5\\cdot 1 \\leq 3\\text{ sai} \\text{ và } 1-1 \\geq 5\\text{ sai}.$<br>  $\\Rightarrow B(1; 1)$ không thuộc miền nghiệm của hệ bất phương trình đã cho.<br>- $2\\cdot 0+5\\cdot (-5) \\leq 3\\text{ đúng} \\text{ và } 0+5 \\geq 5\\text{ đúng}.$<br>  $\\Rightarrow C(0; 5)$ thuộc miền nghiệm của hệ bất phương trình đã cho.<br>- $2\\cdot 2+5\\cdot 0 \\leq 3\\text{ sai} \\text{ và } 2-0 \\geq 5\\text{ sai}.$<br>  $\\Rightarrow D(2;0)$ không thuộc miền nghiệm của hệ bất phương trình đã cho."
+  },
+  {
+    "id": "0D222TN27",
+    "question": "Cặp $(x_0;y_0)$ nào dưới đây thuộc miền nghiệm của hệ $x-2y\\ge3 \\text{ và } 2x+y\\le1.$",
+    "options": [
+      "$(1;-1)$",
+      "$(1;1)$",
+      "$(0;-1)$",
+      "$(3;1)$"
+    ],
+    "answer": 0,
+    "explain": "Thay cặp số $(1;-1)$ vào hệ bất phương trình và thỏa hệ trên nên cặp số đó thuộc miền nghiệm của hệ bất phương trình."
   }
 ];

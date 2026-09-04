@@ -1,8 +1,7 @@
 // =========================================================================
-// Lớp 11 - Chương 1 - §5. Phương trình lượng giác cơ bản - DS
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/1D15-PhuongTrinhLuongGiacCoBan.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D15 - Đúng sai
+// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
+// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D15 = [
   {
@@ -602,5 +601,51 @@ window.dungSai1D15 = [
       }
     ],
     "explain": "<br>- Ta có $\\cos x+1 \\ne 0 \\Leftrightarrow \\cos x \\ne -1 \\Leftrightarrow x \\ne \\pi+k2\\pi \\ (k \\in \\mathbb{Z})$.<br>- $x = \\pi$ không thỏa mãn điều kiện nên loại.<br>- Với điều kiện $x \\ne \\pi+k2\\pi, k \\in \\mathbb{Z}$ thì  $(\\ast) \\Leftrightarrow \\sin 2x - \\sin x = 0$<br>$\\Leftrightarrow \\sin 2x = \\sin x$<br>$\\Leftrightarrow x = k2\\pi \\text{ hoặc } x = \\dfrac{\\pi}{3} + \\dfrac{k2\\pi}{3},\\, (k \\in \\mathbb{Z}).$  Kết hợp điều kiện suy ra họ nghiệm của phương trình  $x = k2\\pi \\text{ hoặc } x = \\dfrac{\\pi}{3} + k2\\pi \\text{ hoặc } x = -\\dfrac{\\pi}{3} + k2\\pi (k \\in \\mathbb{Z})$.<br>  Từ đó suy ra nghiệm dương nhỏ nhất của phương trình là $\\dfrac{\\pi}{3}$.<br>- Trên $[0; 2\\pi]$ họ nghiệm $x = k2\\pi$ có $2$ nghiệm $x=0; x=2\\pi$.<br>  Họ nghiệm $x = \\dfrac{\\pi}{3} + k2\\pi$ có $1$ nghiệm $x = \\dfrac{\\pi}{3}$.<br>  Họ nghiệm $x = -\\dfrac{\\pi}{3} + k2\\pi$ có $1$ nghiệm $x = \\dfrac{5\\pi}{3}$.<br>  Vậy phương trình có $4$ nghiệm trên $[0; 2\\pi]$."
+  },
+  {
+    "id": "1D151DS1",
+    "question": "Cho phương trình lượng giác $2\\sin x=\\sqrt{2}$ ($\\ast$). Khi đó",
+    "subQuestions": [
+      {
+        "text": "Phương trình tương đương với phương trình ($\\ast$) là $\\sin x=\\sin \\dfrac{\\pi}{4}$",
+        "answer": true
+      },
+      {
+        "text": "Phương trình ($\\ast$) có nghiệm là $x=\\dfrac{3 \\pi}{4}+k 2 \\pi$, $x=\\dfrac{\\pi}{3}+k 2 \\pi$, $(k \\in \\mathbb{Z})$",
+        "answer": false
+      },
+      {
+        "text": "Phương trình ($\\ast$) có nghiệm dương nhỏ nhất bằng $\\dfrac{\\pi}{4}$",
+        "answer": true
+      },
+      {
+        "text": "Số nghiệm của phương trình ($\\ast$) trong khoảng $\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$ là hai nghiệm",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có   $2\\sin x=\\sqrt{2}$<br>$\\Leftrightarrow \\sin x =\\dfrac{\\sqrt{2}}{2}$<br>$\\Leftrightarrow \\sin x=\\sin \\dfrac{\\pi}{4}$<br>$\\Leftrightarrow x=\\dfrac{\\pi}{4}+k2\\pi \\text{ hoặc } x=\\dfrac{3\\pi}{4}+k2\\pi (k\\in\\mathbb{Z}).$  <br>- Có phương trình $(\\ast) \\Leftrightarrow\\sin x=\\sin \\dfrac{\\pi}{4}$.<br>- Phương trình ($\\ast$) có nghiệm là $x=\\dfrac{\\pi}{4}+k2\\pi$, $x=\\dfrac{3\\pi}{4}+k2\\pi$ $(k\\in\\mathbb{Z})$.<br>- Ta có  <br>- $\\dfrac{\\pi}{4}+k2\\pi &gt;0\\Leftrightarrow k&gt;-\\dfrac{1}{8}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k\\in\\{0;1;2;\\ldots\\}$. Do đó $x\\in\\left\\lbrace \\dfrac{\\pi}{4}; \\dfrac{9\\pi}{4};\\ldots\\right\\rbrace$.<br>- $\\dfrac{3\\pi}{4}+k2\\pi &gt;0\\Leftrightarrow k&gt;-\\dfrac{3}{8}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k\\in\\{0;1;2;\\ldots\\}$. Do đó $x\\in\\left\\lbrace \\dfrac{3\\pi}{4}; \\dfrac{11\\pi}{4};\\ldots\\right\\rbrace$.  Vậy nghiệm dương nhỏ nhất của phương trình ($\\ast$) là $\\dfrac{\\pi}{4}$.<br>- Để $x\\in \\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$ thì  <br>- $-\\dfrac{\\pi}{2}&lt;\\dfrac{\\pi}{4}+k2\\pi&lt;\\dfrac{\\pi}{2}\\Leftrightarrow -\\dfrac{3}{8}&lt;k&lt;\\dfrac{1}{8}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k=0$ suy ra $x=\\dfrac{\\pi}{4}$.<br>- $-\\dfrac{\\pi}{2}&lt;\\dfrac{3\\pi}{4}+k2\\pi&lt;\\dfrac{\\pi}{2}\\Leftrightarrow -\\dfrac{5}{8}&lt;k&lt;-\\dfrac{1}{8}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k\\in\\varnothing$ do đó $x\\in\\varnothing$.  Vậy số nghiệm của phương trình ($\\ast$) trong khoảng $\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$ là một nghiệm."
+  },
+  {
+    "id": "1D153DS23",
+    "question": "Cho hàm số $f(x) = \\sqrt{2}\\cos\\left(x + \\dfrac{\\pi}{4}\\right) - 1$.",
+    "subQuestions": [
+      {
+        "text": "$f\\left(\\dfrac{\\pi}{6}\\right) = \\dfrac{\\sqrt{3}+3}{2}$",
+        "answer": false
+      },
+      {
+        "text": "Phương trình $f(x)=-1$ có nghiệm là $x = \\dfrac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "answer": false
+      },
+      {
+        "text": "Tập giá trị của hàm số $f(x)$ là $S = \\left[-\\sqrt{2}-1; \\sqrt{2}-1\\right]$",
+        "answer": true
+      },
+      {
+        "text": "Số nghiệm của phương trình $f(x)=1$ trên đoạn $[0; 3\\pi]$ là $3$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- $f\\left(\\dfrac{\\pi}{6}\\right) = \\sqrt{2}\\cos\\left(\\dfrac{\\pi}{6}+\\dfrac{\\pi}{4}\\right)-1 = \\sqrt{2}\\cos\\dfrac{5\\pi}{12}-1= \\dfrac{\\sqrt{3}-3}{2}$.<br>- $f(x)=-1 \\Leftrightarrow \\sqrt{2}\\cos\\left(x+\\dfrac{\\pi}{4}\\right)=0 \\Leftrightarrow x+\\dfrac{\\pi}{4} = \\dfrac{\\pi}{2}+k\\pi \\Leftrightarrow x = \\dfrac{\\pi}{4}+k\\pi$.<br>- Vì $-1 \\le \\cos\\left(x+\\dfrac{\\pi}{4}\\right) \\le 1$ nên $-\\sqrt{2}-1 \\le f(x) \\le \\sqrt{2}-1$.<br>- $f(x)=1 \\Leftrightarrow \\cos\\left(x+\\dfrac{\\pi}{4}\\right)=\\sqrt{2} &gt; 1$ (vô nghiệm)."
   }
 ];
