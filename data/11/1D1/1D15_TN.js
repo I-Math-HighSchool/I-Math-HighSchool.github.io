@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Trắc nghiệm
 // Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D15 = [
   {
@@ -1011,5 +1011,17 @@ window.tracNghiem1D15 = [
     ],
     "answer": 0,
     "explain": "Trên đoạn $\\left[\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$, ta có $\\cos x\\le 0$.  Mà $\\dfrac{1}{5}&gt;0$.  Do đó, phương trình $\\cos x=\\dfrac{1}{5}$ vô nghiệm trên đoạn $\\left[\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$."
+  },
+  {
+    "id": "1D155TN78",
+    "question": "[THCS THPT Lương Thế Vinh] Nghiệm của phương trình $\\sin 3x=\\sin \\dfrac{\\pi}{3}$ là",
+    "options": [
+      "$x=\\dfrac{\\pi}{9}+\\dfrac{k2\\pi}{3} \\text{ hoặc } x=\\dfrac{2\\pi}{9}+\\dfrac{k2\\pi}{3}(k \\in \\mathbb Z) $",
+      "$x=\\dfrac{\\pi}{3}+\\dfrac{k2\\pi}{3} \\text{ hoặc } x=\\dfrac{2\\pi}{3}+\\dfrac{k2\\pi}{3} (k \\in \\mathbb Z) $",
+      "$x=\\dfrac{\\pi}{9}+\\dfrac{k\\pi}{3} \\text{ hoặc } x=\\dfrac{2\\pi}{9}+\\dfrac{k\\pi}{3} (k \\in \\mathbb Z) $",
+      "$x=\\dfrac{\\pi}{9}+k2\\pi \\text{ hoặc } x=\\dfrac{2\\pi}{9}+ k2\\pi(k \\in \\mathbb Z) $"
+    ],
+    "answer": 0,
+    "explain": "Ta có   $\\sin 3x=\\sin \\dfrac{\\pi}{3}$<br>$\\Leftrightarrow 3x=\\dfrac{\\pi}{3}+k2\\pi \\text{ hoặc } 3x=\\pi- \\dfrac{\\pi}{3}+k2\\pi$<br>$\\Leftrightarrow 3x=\\dfrac{\\pi}{3}+k2\\pi \\text{ hoặc } 3x=\\dfrac{2 \\pi}{3}+k2\\pi$<br>$\\Leftrightarrow x=\\dfrac{\\pi}{9}+\\dfrac{k2\\pi}{3} \\text{ hoặc } x=\\dfrac{2\\pi}{9}+\\dfrac{k2\\pi}{3}(k \\in \\mathbb{Z}).$"
   }
 ];

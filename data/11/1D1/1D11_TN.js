@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D11 - Trắc nghiệm
 // Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D11 = [
   {
@@ -855,5 +855,41 @@ window.tracNghiem1D11 = [
     ],
     "answer": 2,
     "explain": "Điểm $B$ nằm trên phần dương của trục $Oy$, là điểm biểu diễn cho góc $\\dfrac{\\pi}{2}$.<br>  Các góc lượng giác có cùng điểm biểu diễn $B$ là $\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$."
+  },
+  {
+    "id": "1D112TN69",
+    "question": "[THCS THPT Lương Thế Vinh] Số đo theo đơn vị độ của góc $\\dfrac{2\\pi}{3}$ là",
+    "options": [
+      "$120^\\circ$",
+      "$75^\\circ$",
+      "$150^\\circ$",
+      "$315^\\circ$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $ \\dfrac{2\\pi}{3}=\\left( \\dfrac{ \\dfrac{2\\pi}{3}\\cdot 180}{\\pi}\\right)^{\\circ}=120^\\circ$."
+  },
+  {
+    "id": "1D111TN46",
+    "question": "Trong các mệnh đề sau, mệnh đề nào là <strong>sai</strong>?",
+    "options": [
+      "$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad",
+      "$250^\\circ = \\dfrac{25\\pi}{18}$\\,rad",
+      "$135^\\circ = \\dfrac{3\\pi}{4}$\\,rad",
+      "$300^\\circ = \\dfrac{5\\pi}{3}$\\,rad"
+    ],
+    "answer": 0,
+    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề \\lq\\lq$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad\\rq\\rq~ là mệnh đề sai."
+  },
+  {
+    "id": "1D111TN44",
+    "question": "Chọn khẳng định <strong>đúng</strong> trong các khẳng định sau:",
+    "options": [
+      "$1~\\text{rad}=\\left(\\dfrac{180}{\\pi}\\right)^\\circ$",
+      "$1~\\text{rad}=180^\\circ$",
+      "$1~\\text{rad}=60^\\circ$",
+      "$1~\\text{rad}=1^\\circ$"
+    ],
+    "answer": 0,
+    "explain": "Ta có \\[\\pi~\\text{rad}=180^\\circ \\Rightarrow 1~\\text{rad}=\\dfrac{180^\\circ}{\\pi}=\\left(\\dfrac{180}{\\pi}\\right)^\\circ.\\]"
   }
 ];

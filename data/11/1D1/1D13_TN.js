@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D13 - Trắc nghiệm
 // Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D13 = [
   {
@@ -807,5 +807,29 @@ window.tracNghiem1D13 = [
     ],
     "answer": 0,
     "explain": "Vì $x\\in \\left(-\\dfrac{\\pi}{2};0 \\right)$.<br>  Nên $\\sin{x}=-\\sqrt{1^2-\\cos^2{x}}=-\\sqrt{1-\\left(\\dfrac{4}{5} \\right)^2}=-\\dfrac{3}{5}$.<br>   Suy ra $\\sin{2x}=2\\sin{x} \\cos{x}=2\\cdot \\left(-\\dfrac{3}{5} \\right)\\cdot \\dfrac{4}{5}=-\\dfrac{24}{25}$."
+  },
+  {
+    "id": "1D133TN61",
+    "question": "[THCS THPT Lương Thế Vinh] Cho góc lượng giác $a$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$\\sin 2a=2\\sin^2 a-1$",
+      "$\\sin 2a=\\sin a\\cos a$",
+      "$\\sin 2a=2\\sin a \\cos a$",
+      "$\\sin 2a=1-2\\cos^2 a$"
+    ],
+    "answer": 2,
+    "explain": "Theo công thức nhân đôi ta có $\\sin 2a=2\\sin a\\cos a$."
+  },
+  {
+    "id": "1D133TN18",
+    "question": "[THCS THPT Lương Thế Vinh] Rút gọn biểu thức $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}$ (với điều kiện biểu thức có nghĩa), ta được $P=a\\cos 2x$. Khi đó",
+    "options": [
+      "$a=4$",
+      "$a=-4$",
+      "$a=-2$",
+      "$a=2$"
+    ],
+    "answer": 3,
+    "explain": "Ta có   $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}\\ =\\dfrac{2\\cos 2x\\cos x}{\\cos x }=2\\cos 2x.$  Vậy $a=2$."
   }
 ];

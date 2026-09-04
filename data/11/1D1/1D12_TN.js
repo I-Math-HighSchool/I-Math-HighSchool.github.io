@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D12 - Trắc nghiệm
 // Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D12 = [
   {
@@ -795,5 +795,89 @@ window.tracNghiem1D12 = [
     ],
     "answer": 0,
     "explain": "Ta có $\\cot x=\\dfrac{1}{\\tan x}=\\dfrac{1}{4}$."
+  },
+  {
+    "id": "1D124TN3",
+    "question": "Với mọi góc lượng giác $\\alpha$ và số nguyên $k$. Khẳng định nào sau đây <strong>sai</strong>?",
+    "options": [
+      "$\\cos(\\alpha+k 2\\pi)=\\cos \\alpha$",
+      "$\\sin(\\alpha+k \\pi)=\\sin \\alpha$",
+      "$\\tan(\\alpha+k \\pi)=\\tan \\alpha$",
+      "$\\cot(\\alpha+k \\pi)=\\cot \\alpha$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\sin(\\alpha+k2 \\pi)=\\sin \\alpha$ nên khẳng định $\\sin(\\alpha+k \\pi)=\\sin \\alpha$ là sai."
+  },
+  {
+    "id": "1D124TN16",
+    "question": "Cho góc lượng giác $x$. Đẳng thức lượng nào dưới đây <strong>sai</strong>?",
+    "options": [
+      "$\\sin(\\pi-x)=\\sin x$",
+      "$\\tan (\\pi+x)=\\tan x$",
+      "$\\cos\\left(\\dfrac{\\pi}{2}-x\\right)=\\sin x$",
+      "$\\cos(-x)=-\\cos x$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\cos(-x)=\\cos x$ nên đẳng thức sai là $\\cos(-x)=-\\cos x$."
+  },
+  {
+    "id": "1D122TN61",
+    "question": "Cho góc $x$ biết $0 &lt; x &lt; \\dfrac{\\pi}{2}$. Mệnh đề nào sau đây <strong>sai</strong>?",
+    "options": [
+      "$\\tan x &gt; 0$",
+      "$\\cos x &gt; 0$",
+      "$\\cot x &lt; 0$",
+      "$\\sin x &gt; 0$"
+    ],
+    "answer": 2,
+    "explain": "Vì $0 &lt; x &lt; \\dfrac{\\pi}{2}$ nên $x$ thuộc góc phần tư thứ nhất.<br>   Khi đó $\\sin x &gt; 0$, $\\cos x &gt; 0$ nên $\\tan x &gt; 0$ và $\\cot x &gt; 0$.<br>   Do đó mệnh đề $\\cot x &lt; 0$ là mệnh đề sai."
+  },
+  {
+    "id": "1D121TN18",
+    "question": "Cho $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$. Khẳng định nào sau đây <strong>đúng</strong>?",
+    "options": [
+      "$\\cot\\alpha &lt; 0$",
+      "$\\sin\\alpha &gt; 0$",
+      "$\\tan\\alpha &lt; 0$",
+      "$\\cos\\alpha &lt; 0$"
+    ],
+    "answer": 1,
+    "explain": "Do $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$ thuộc vào góc phần tư thứ nhất của đường tròn lượng giác nên $\\sin \\alpha &gt;0$."
+  },
+  {
+    "id": "1D124TN25",
+    "question": "Khẳng định nào dưới đây <strong>sai</strong>?",
+    "options": [
+      "$\\cos(\\pi - \\alpha) = -\\cos \\alpha$",
+      "$\\tan(\\pi + \\alpha) = \\tan \\alpha$",
+      "$\\sin\\left(\\dfrac{\\pi}{2} - \\alpha\\right) = \\cos \\alpha$",
+      "$\\cos(-\\alpha) = -\\cos \\alpha$"
+    ],
+    "answer": 3,
+    "explain": "Khẳng định sai là $\\cos(-\\alpha) = -\\cos \\alpha$ vì $\\cos(-\\alpha) = \\cos \\alpha$."
+  },
+  {
+    "id": "1D121TN28",
+    "question": "Cho $\\alpha$ thuộc góc phần tư II của đường tròn lượng giác. Khẳng định nào dưới đây <strong>đúng</strong>?",
+    "options": [
+      "$\\sin \\alpha &gt; 0; \\cot \\alpha &gt; 0$",
+      "$\\sin \\alpha &gt; 0; \\cos \\alpha &lt; 0$",
+      "$\\sin \\alpha &gt; 0; \\cos \\alpha &gt; 0$",
+      "$\\tan \\alpha &gt; 0; \\cot \\alpha &gt; 0$"
+    ],
+    "answer": 1,
+    "explain": "Góc $\\alpha$ thuộc góc phần tư thứ II nên  <br>- Tung độ dương $\\Rightarrow \\sin \\alpha &gt; 0$.<br>- Hoành độ âm $\\Rightarrow \\cos \\alpha &lt; 0$."
+  },
+  {
+    "id": "1D121TN50",
+    "question": "Cho góc $ x$ thoả $0^\\circ &lt; x &lt;90^\\circ$. Trong các mệnh đề sau, mệnh đề nào <strong>sai</strong>?",
+    "options": [
+      "$\\cos x &lt; 0$",
+      "$\\sin x &gt; 0$",
+      "$\\tan x &gt; 0$",
+      "$\\cot x &gt; 0$"
+    ],
+    "answer": 0,
+    "explain": "Do $0^\\circ &lt; x &lt;90^\\circ$ nên $ \\cos x&gt;0 $ dẫn đến $ \\cos x&lt;0 $ là mệnh đề sai."
   }
 ];

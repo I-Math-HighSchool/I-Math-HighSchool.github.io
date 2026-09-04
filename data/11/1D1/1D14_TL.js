@@ -1,8 +1,7 @@
 // =========================================================================
-// Lớp 11 - Chương 1 - §4. Hàm số lượng giác và đồ thị - TL
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/1D14-HamSoLuongGiacVaDoThi.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D14 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D14 = [
   {
@@ -196,5 +195,11 @@ window.traLoiNgan1D14 = [
     "question": "Chiều cao so với mực nước biển trung bình tại thời điểm $t$ (giây) (với $t \\geq 0$) của một con sóng được cho bởi hàm số $h(t)=75\\sin \\left(\\dfrac{\\pi t}{8}\\right)$, trong đó $h(t)$ được tính bằng centimét. Trong 30 giây đầu tiên (kể từ mốc $t=0$ giây), có bao nhiêu thời điểm để con sóng đạt chiều cao lớn nhất?",
     "answer": "2",
     "explain": "Ta có $\\sin\\left(\\dfrac{\\pi t}{8}\\right)\\le 1\\Rightarrow 75 \\sin\\left(\\dfrac{\\pi t}{8}\\right)\\le 75$ hay $h(t)\\le 75$.<br>  Suy ra giá trị lớn nhất của $h(t)$ là $75$, khi đó $\\sin\\left(\\dfrac{\\pi t}{8}\\right)=1\\Rightarrow \\dfrac{\\pi t}{8}=\\dfrac{\\pi}{2}+k2\\pi$ ($k\\in\\mathbb{Z}$).<br>  $\\Rightarrow t=4+16k$ ($k\\in\\mathbb{Z}$). Vì $t\\in[0;30]\\Rightarrow t\\in\\{4;20\\}$ (ứng với $k$ bằng $0$ và $1$).<br>  Vậy có $2$ thời điểm để con sóng đạt nhiều cao lớn nhất."
+  },
+  {
+    "id": "1D148TL29",
+    "question": "[THCS THPT Lương Thế Vinh] Hội Lim (tỉnh Bắc Ninh) được tổ chức vào mùa xuân thường có trò đánh đu. Khi người chơi đu nhún đều, cây đu sẽ đưa người chơi đu dao động quanh vị trí cân bằng (tham khảo hình vẽ). Nghiên cứu trò chơi này, người ta thấy khoảng cách $h$ (m) từ vị trí người chơi đu đến vị trí cân bằng được biểu diễn qua thời gian $t$ (giây) (với $t \\ge 0$) bởi hệ thức $h=|d|$ với $d=2\\cos\\left[\\dfrac{\\pi}{3}(2t-1)\\right]$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người chơi đu và $d&lt;0$ trong trường hợp ngược lại. Sau $6$ giây, người chơi đu cách vị trí cân bằng bao nhiêu mét?<br><img src=\"data/11/1D1/im1D14/loc5_C1_4_HamSoLuongG_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "1",
+    "explain": "Thay $t=6$ (giây) vào biểu thức $d$, ta được  $d = 2\\cos\\left[\\dfrac{\\pi}{3}(2 \\cdot 6-1)\\right]$<br>$= 2\\cos\\left[\\dfrac{\\pi}{3}(12-1)\\right]$<br>$= 2\\cos\\left(\\dfrac{11\\pi}{3}\\right)$<br>$= 1.$  Khoảng cách $h$ của người chơi đu đến vị trí cân bằng là  $h=|d|=|1|=1$ (m).<br>  Vậy sau $6$ giây, người chơi đu cách vị trí cân bằng $1$ mét."
   }
 ];

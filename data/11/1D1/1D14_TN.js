@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D14 - Trắc nghiệm
 // Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D14 = [
   {
@@ -1179,5 +1179,17 @@ window.tracNghiem1D14 = [
     ],
     "answer": 2,
     "explain": "Hàm số $y=\\sin x$ đồng biến trên $\\left(\\dfrac{3\\pi}{2};\\dfrac{5\\pi}{2}\\right)$."
+  },
+  {
+    "id": "1D147TN99",
+    "question": "[THCS THPT Lương Thế Vinh] Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/loc5_C1_4_HamSoLuongG_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "Hàm số $y=\\cos x$ có chu kỳ $2\\pi$",
+      "Hàm số $y=\\cos x$ xác định trên $\\mathbb{R}$",
+      "Đồ thị hàm số $y=\\cos x$ cắt đường thẳng $y=1$ tại vô số điểm",
+      "Hàm số $y=\\cos x$ đồng biến trên $(0; \\pi)$"
+    ],
+    "answer": 3,
+    "explain": "Dựa vào đồ thị, ta có hàm số $y=\\cos x$ nghịch biến trên $(0; \\pi)$."
   }
 ];
