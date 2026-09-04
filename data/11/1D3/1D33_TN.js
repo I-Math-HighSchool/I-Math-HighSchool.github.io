@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D33 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D33 = [
   {
@@ -75,5 +75,17 @@ window.tracNghiem1D33 = [
     ],
     "answer": 0,
     "explain": "Dễ thấy hàm số có tập xác định $\\mathscr D=(-\\infty ;-2) \\cup (-2 ;+\\infty)$ nên hàm số liên tục trên các khoảng $(-\\infty ;-2)$ và $(-2 ;+\\infty)$"
+  },
+  {
+    "id": "1D332TN7",
+    "question": "Cho hàm số $f(x)=\\dfrac{x^2-2024x-2025}{x+1} \\text{khi }x&gt;-1 \\text{ và } 2026ax \\text{khi }x\\leq -1$. Xác định số thực $a$ để hàm số liên tục tại điểm $x=-1$.",
+    "options": [
+      "$a=-1$",
+      "$a=-3$",
+      "$a=3$",
+      "$a=1$"
+    ],
+    "answer": 0,
+    "explain": "$\\text{Hàm số }f(x)\\text{ liên tục tại điểm }x=-1 \\Leftrightarrow \\lim\\limits_{x\\to-1^{-}}f(x)=f(-1)$<br>$\\Leftrightarrow \\lim\\limits_{x\\to-1^{-}}\\dfrac{x^2-2024x-2025}{x+1}=2026a\\cdot (-1)$<br>$\\Leftrightarrow -2026=-2026a$<br>$\\Leftrightarrow a=-1.$"
   }
 ];

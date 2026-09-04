@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H85 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H85 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1H85 = [
   {
@@ -44,5 +45,11 @@ window.traLoiNgan1H85 = [
     "question": "Cho hình chóp $S.ABC$ có đáy là tam giác vuông tại $B$, $AB=3$, $SA\\perp(ABC)$ và $SA=5$. Tính khoảng cách từ $A$ đến mặt phẳng $(SBC)$ (làm tròn kết quả đến hàng phần trăm).",
     "answer": "2,57",
     "explain": "<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS36_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong mặt phẳng $(SAB)$ kẻ $AH\\perp SB$, $(H\\in SB)$.<br>  Vì $SA\\perp (ABC)\\Rightarrow SA\\perp BC$ và $\\triangle ABC$ vuông tại $B$ nên $BC\\perp AB$.<br>  Ta có $BC\\perp AB \\text{ và } BC\\perp SA\\Rightarrow BC\\perp (SAB)\\Rightarrow BC\\perp AH$.<br>  Lại có $AH\\perp BC \\text{ và } AH\\perp SB\\Rightarrow AH\\perp (SBC)$.<br>  Từ đó suy ra $\\mathrm{d}\\big(A,(SBC)\\big)=AH$.<br>  Xét tam giác $SAB$ vuông tại $A$ có  \\[AH=\\dfrac{SA\\cdot AB}{\\sqrt{SA^2+AB^2}}=\\dfrac{5\\cdot 3}{\\sqrt{5^2+3^2}}=\\dfrac{15\\sqrt{34}}{34}\\approx 2{,}57.\\]  Vậy khoảng cách từ $A$ đến mặt phẳng $(SBC)$ khoảng $2{,}57$."
+  },
+  {
+    "id": "1H854TL1",
+    "question": "Cho lăng trụ $ABC \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy là tam giác đều cạnh bằng 1 . Hình chiếu vuông góc của $A^{\\prime}$ lên mặt phẳng $(A B C)$ là trung điểm $H$ của cạnh $A B$. Biết rằng $A^{\\prime} H=\\dfrac{3}{2}$. Tính khoảng cách từ $B$ đến mặt phẳng $\\left(A C C^{\\prime} A^{\\prime}\\right)$. Kết quả được làm tròn đến hàng phần trăm.  <br><img src=\"data/11/1H8/im1H85/loc3_2_TL_TN_THPT_Chu_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "0{,}83",
+    "explain": "<br><img src=\"data/11/1H8/im1H85/loc3_2_TL_TN_THPT_Chu_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $I$, $J$ lần lượt là trung điểm của $AC$ và $AI$. Trong tam giác $\\Delta A^{\\prime}HJ$, kẻ $HK \\perp A^{\\prime}J$.<br>  Ta có $\\dfrac{\\mathrm{d}\\left(B,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)}{\\mathrm{d}\\left(H,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)}=\\dfrac{AB}{AH}=2\\Rightarrow \\mathrm{d}\\left(B,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)=2 \\cdot \\mathrm{d}\\left(H,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)$.<br>  Vì tam giác $\\Delta ABC$ là tam giác đều nên $BI \\perp AC$. Mà $HJ$ là đường trung bình của tam giác $\\Delta ABI$ nên $HJ \\parallel BI \\Rightarrow HJ \\perp AC$.<br>  Ta có $AC \\perp HJ \\text{ và } AC \\perp A^{\\prime}H \\text{ và } HJ \\cap A^{\\prime}H\\Rightarrow AC \\perp \\left(A^{\\prime}HJ\\right)$ mà $HK \\subset \\left(A^{\\prime}HJ\\right) \\Rightarrow HK \\perp AC$.<br>  Có $HK \\perp A^{\\prime}J \\text{ và } HK \\perp AC \\text{ và } A^{\\prime}J \\cap AC =J\\Rightarrow HK \\perp \\left(A C C^{\\prime} A^{\\prime}\\right)$.<br>  Suy ra $\\mathrm{d}\\left(H,\\left(ACC^{\\prime} A^{\\prime}\\right)\\right)=HK$.<br>  Ta có $BI=\\dfrac{\\sqrt{3}}{2}\\Rightarrow HJ=\\dfrac{BI}{2}= \\dfrac{\\sqrt{3}}{4}$. Xét tam giác $\\Delta A^{\\prime}HJ$ vuông tại $H$ có $HK$ là đường cao:<br>  $\\dfrac{1}{HK^2}=\\dfrac{1}{HJ^2}+\\dfrac{1}{A^{\\prime }H^{2}}=\\dfrac{1}{\\left(\\dfrac{\\sqrt{3}}{4}\\right)^2} + \\dfrac{1}{\\left(\\dfrac{3}{2}\\right)^2}=\\dfrac{52}{9}\\Rightarrow HK^2=\\dfrac{9}{52}\\Rightarrow HK =\\sqrt{\\dfrac{9}{52}}=\\dfrac{3}{2\\sqrt{13}}$.<br>  Vậy $\\mathrm{d}\\left(B,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)=2\\cdot HK =2\\cdot \\dfrac{3}{2\\sqrt{13}}=\\dfrac{3}{\\sqrt{13}}\\approx 0{,}83$."
   }
 ];

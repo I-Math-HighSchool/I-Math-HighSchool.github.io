@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H22 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2H22 = [
   {
     "id": "2H222TN1",
@@ -1474,5 +1479,41 @@ window.tracNghiem2H22 = [
     ],
     "answer": 2,
     "explain": "Do $M$ là trung điểm của $BC$ nên $M\\left( 1;\\dfrac{3}{2};\\dfrac{1}{2} \\right)$. Khi đó, độ dài trung tuyến $AM$ là  $  AM  = \\sqrt{0^2+\\left(\\dfrac{3}{2}\\right)^2+\\left(\\dfrac{1}{2}\\right)^2}  = \\dfrac{\\sqrt{10}}{2}.  $"
+  },
+  {
+    "id": "2H222TN115",
+    "question": "Trong không gian $Oxyz$ cho điểm $A(1;2;4)$, $B(2;4;-1)$. Tọa độ trọng tâm $G$ của tam giác $OAB$ là",
+    "options": [
+      "$G(2;1;1)$",
+      "$G(2;1;1)$",
+      "$G(1;2;1)$",
+      "$G(6;3;3)$"
+    ],
+    "answer": 2,
+    "explain": "Tọa độ trọng tâm $G$ của tam giác $OAB$ là $G(1;2;1)$."
+  },
+  {
+    "id": "2H223TN2",
+    "question": "Trong không gian$Oxyz$, cho hai điểm $A(1;-1;2)$, $B(4;-3;1)$. Toạ độ của véc-tơ $\\overrightarrow{AB}$ là",
+    "options": [
+      "$(5;-4;3)$",
+      "$(-3; 2;1)$",
+      "$(3;-2;-1)$",
+      "$(3;-4;-1)$"
+    ],
+    "answer": 2,
+    "explain": "Toạ độ của véc-tơ $\\overrightarrow{AB}=(3;-2;-1)$."
+  },
+  {
+    "id": "2H223TN118",
+    "question": "Trong không gian $Oxyz$, cho các điểm $A(1;0;3)$; $B(2;3;-4)$; $C(-3;1;2)$. Điểm $D$ sao cho tứ giác $ABCD$ là hình bình hành có tọa độ là",
+    "options": [
+      "$D(4;2;9)$",
+      "$D(-2;4;5)$",
+      "$D(6;2;-3)$",
+      "$D(-4;-2;9)$"
+    ],
+    "answer": 3,
+    "explain": "Điểm $D$ sao cho tứ giác $ABCD$ là hình bình hành suy ra $\\overrightarrow{AB}=\\overrightarrow{DC}\\Rightarrow D(-4;-2;9)$."
   }
 ];

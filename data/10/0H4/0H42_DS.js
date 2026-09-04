@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H42 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0H42 = [
   {
@@ -578,5 +578,28 @@ window.dungSai0H42 = [
       }
     ],
     "explain": "Ta có hoành độ đỉnh $x_I=-\\dfrac{b}{2a}=-\\dfrac{90}{2\\cdot(-3)}=15$.<br>  Tung độ đỉnh $y_I=-3\\cdot30^2+90\\cdot30=675$.<br>  Do đó tọa độ đỉnh là $I(15;675)$.<br>  Bảng biến thiên:  <br><img src=\"data/10/0H4/im0H42/loc2_0_TN_DS_TLN_Chuy_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Vì $a=-3&lt;0$ nên đồ thị mô tả cho tốc độ truyền bệnh là một đường parabol có bề lõm hướng xuống dưới.<br>- <strong>Đúng</strong>. Ta có giá trị lớn nhất của hàm số là $675$ nên không thể đạt $700$ người/ngày.<br>- <strong>Đúng</strong>. Tốc độ truyền bệnh đạt $312$ người/ngày nên $y=312$ do đó $-3t^2+90t=312\\Rightarrow t=4$ hay $t=26$.<br>  Mà $t\\le 25$ nên ta chọn $t=4$.<br>  Vậy tại thời điểm $4$ ngày sau khi phát hiện dịch bệnh thì tốc độ truyền bệnh đạt $312$ người/ngày<br>- <strong>Sai</strong>. Từ bảng biến thiên, từ sau ngày $15$ thì tốc độ truyền bệnh giảm."
+  },
+  {
+    "id": "0H422DS23",
+    "question": "Cho $\\Delta ABC$ có $\\widehat{A}=45^\\circ$, $\\widehat{B}=60^\\circ$, $BC=2$. Gọi $ R$, $ S$ lần lượt là bán kính đường tròn ngoại tiếp và diện tích của tam giác $ ABC$.",
+    "subQuestions": [
+      {
+        "text": "$\\widehat{C}=75^\\circ$",
+        "answer": true
+      },
+      {
+        "text": "$ AC&gt;BC$",
+        "answer": true
+      },
+      {
+        "text": "$ R=\\dfrac{\\sqrt{2}}{2}$",
+        "answer": false
+      },
+      {
+        "text": "$ S=\\dfrac{3+\\sqrt{3}}{2}$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- $\\widehat{C}=180^\\circ-\\left(45^\\circ+\\sin 60^\\circ\\right)=75^\\circ $.<br>- Ta có $\\widehat{B}&gt;\\widehat{A}$ nên suy ra $AC&gt;BC$.<br>- $R=\\dfrac{BC}{2\\sin A}=\\dfrac{2}{2\\sin 45^\\circ}=\\sqrt{2}$.<br>- $AC=\\dfrac{2\\sin 60^\\circ}{\\sin 45^\\circ}=\\sqrt{6}$.<br>  $S=\\dfrac{1}{2}.AC.BC.\\sin C=\\dfrac{1}{2}.\\sqrt{6}.2.\\sin 75^\\circ=\\dfrac{3+\\sqrt{3}}{2}$."
   }
 ];

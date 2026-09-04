@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D15 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2D15 = [
   {
     "id": "2D151TN1",
@@ -922,5 +927,17 @@ window.tracNghiem2D15 = [
     ],
     "answer": 3,
     "explain": "Vẽ đường thẳng $d\\colon y=1$ trên cùng hệ trục tọa độ với đồ thị $(C)\\colon y=f(x)$.<br> Dựa vào đồ thị, phương trình $f(x)=1$ có $3$ phân biệt."
+  },
+  {
+    "id": "2D152TN2",
+    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d}$ có đồ thị như đường cong trong hình bên. Tâm đối xứng của đồ thị hàm số có tọa độ là<br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\left(2;0\\right)$",
+      "$\\left(-1;2\\right)$",
+      "$\\left(2;-1\\right)$",
+      "$\\left(-1;0\\right)$"
+    ],
+    "answer": 1,
+    "explain": "Dựa vào đồ thị ta có tiệm cận ngang là $ y=2 $ và tiệm cận đứng là $ x=-1 $.<br>  Suy ra tâm đối xứng của đồ thị có tọa độ $\\left(-1;2\\right)$."
   }
 ];

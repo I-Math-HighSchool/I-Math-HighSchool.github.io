@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D33 - Đúng/Sai (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D33 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D33 = [
   {
@@ -117,5 +118,51 @@ window.dungSai1D33 = [
       }
     ],
     "explain": "<br>- $f(x)=\\dfrac{3x-2}{x-5}$ là hàm phân thức, có tập xác định là $\\left(-\\infty;5\\right)\\cup\\left(5;+\\infty\\right)$ nên hàm số liên tục trên các khoảng $\\left(-\\infty;5\\right)$ và $\\left(5;+\\infty\\right)$.<br>- $f(x)=\\sin x-2\\cos x+3$ có tập xác định là $\\mathbb{R}$ nên hàm số liên tục trên $\\mathbb{R}$.<br>- $f(1)=-\\dfrac{1}{2}$.<br>   $\\lim\\limits_{x\\to1^{-}}f(x)=\\lim\\limits_{x\\to1^{-}}\\left(-\\dfrac{x}{2}\\right)=-\\dfrac{1}{2}$.<br>  $\\lim\\limits_{x\\to1^{+}}f(x)=\\lim\\limits_{x\\to1^{+}}\\dfrac{x^2-3x+2}{x^2-1}=\\lim\\limits_{x\\to1^{+}}\\dfrac{(x-1)(x-2)}{(x-1)(x+1)}=\\lim\\limits_{x\\to1^{+}}\\dfrac{x-2}{x+1}=-\\dfrac{1}{2}$.<br>  Vì $\\lim\\limits_{x\\to1^{+}}f(x)=\\lim\\limits_{x\\to1^{-}}f(x)=f(1)=-\\dfrac{1}{2}$ nên hàm số liên tục tại $x_0=1$.<br>- Vì $f(5)$ không tồn tại nên hàm số không liên tục tại $x_0=5$."
+  },
+  {
+    "id": "1D334DS1",
+    "question": "Một bãi đỗ xe ôtô tính phí $60\\,000$ cho giờ đầu tiên (hoặc một phần của giờ đầu tiên) và thêm $40\\,000$ đồng cho mỗi giờ (hoặc một phần của mỗi giờ) tiếp theo, tối đa là $200\\,000$ đồng. Gọi $C=C(t)$ là hàm số biểu thị chi phí theo thời gian đỗ xe.",
+    "subQuestions": [
+      {
+        "text": "Số tiền đỗ xe của một người với thời gian $2{,}5$ giờ là $140\\,000$ đồng",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $C(t)$ liên tục trên $[0;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "$\\lim\\limits _{t\\rightarrow 3}C(t)=140\\,000$",
+        "answer": false
+      },
+      {
+        "text": "Chênh lệch chi phí đối với hai khách hàng đỗ xe có thời gian $t_{1}$; $t_{2}$ thay đổi với $2&lt;t_{1}\\leq 3$; $3&lt;t_{2}\\leq 4$ là không đổi",
+        "answer": true
+      }
+    ],
+    "explain": "Hàm số biểu thị chi phí theo thời gian đỗ xe<br> $C(t)= 60\\,000 0&lt;t \\leq 1 \\text{ và } 60\\,000+40\\,000(t-1) 1&lt;t \\leq 4 \\text{ và } 200\\,000 t&gt;4.$ <br>- Số tiền đỗ xe của một người với thời gian $2{,}5$ giờ là<br> $C(2{,}5) =60\\,000+40\\,000(2{,}5-1)=120\\,000$.<br>- Ta có $\\lim\\limits _{t\\rightarrow 4^-}C(t)=180\\,000 \\text{ và } \\lim\\limits _{t\\rightarrow 4^+}C(t)=200\\,000.$<br> Suy ra hàm số không liên tục tại $t=4$.<br>- Ta có $\\lim\\limits _{t\\rightarrow 3}C(t)=\\lim\\limits _{t\\rightarrow 3}\\left[60\\,000+40\\,000(t-1)\\right]=140\\,000$.<br>- Chi phí đối với khách hàng đỗ xe của hai khách hàng tại thời điểm $t_{1}$, $t_{2}$ lần lượt là<br> $C(t_{1})=60\\,000+40\\,000(3-1)=140\\,000$.<br> $C(t_{2})=60\\,000+40\\,000(4-1)=180\\,000$.<br> Chênh lệch chi phí đối với hai khách hàng đỗ xe là \\[C(t_{1})-C(t_{2})=180\\,000-140\\,000=40\\,000.\\]"
+  },
+  {
+    "id": "1D332DS6",
+    "question": "Cho hàm số $x-2 \\text{khi } x\\leq 2 \\text{ và } \\dfrac{mx-2}{x^2-3x+2} \\text{khi }x&gt;2$. Khi đó",
+    "subQuestions": [
+      {
+        "text": "Hàm số đã cho liên tục tại điểm $x=2$ với $m\\neq 1$",
+        "answer": false
+      },
+      {
+        "text": "$f(2)=2$",
+        "answer": false
+      },
+      {
+        "text": "Giới hạn $\\lim \\limits_{x\\to 2^-}f(x)=0$",
+        "answer": true
+      },
+      {
+        "text": "Với $m=1$ thì hàm số đã cho không liên tục tại $x=2$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có $f(2)=2-2=0$.<br>   Hàm số liên tục tại $x=2$ khi $\\lim \\limits_{x\\to 2^+}f(x)=\\lim \\limits_{x\\to 2^-}f(x)=f(2)$  $\\lim \\limits_{x\\to 2^+}f(x)=f(2).$<br>$\\Leftrightarrow \\lim \\limits_{x\\to 2^+}\\dfrac{mx-2}{x^2-3x+2}=0.$<br>$\\Rightarrow \\lim \\limits_{x\\to 2^+}(mx-2)=0.$<br>$\\Rightarrow 2m-2=0.$<br>$\\Rightarrow m=1.$  Với $m=1$, $f(x)=\\dfrac{1\\cdot x-2}{x^2-3x+2}=\\dfrac{x-2}{x^2-3x+2}$ khi $x&gt;2$.<br>  $\\lim \\limits_{x\\to 2^+}f(x)=\\lim \\limits_{x\\to 2^+}\\dfrac{x-2}{x^2-3x+2}=\\lim \\limits_{x\\to 2^+}\\dfrac{1}{x-1}=\\dfrac{1}{2-1}=1\\neq f(2)$<br>   $\\Rightarrow $ Không tồn tại $m$ để hàm số liên tục tại $x=2$.<br>- $f(2)=2-2=0$.<br>- $\\lim \\limits_{x\\to 2^-}f(x)=\\lim \\limits_{x\\to 2^-}\\left(x-2\\right)=2-2=0$.<br>- Với $m=1$, $f(x)=\\dfrac{1\\cdot x-2}{x^2-3x+2}=\\dfrac{x-2}{x^2-3x+2}$ khi $x&gt;2$.<br>  $\\lim \\limits_{x\\to 2^+}f(x)=\\lim \\limits_{x\\to 2^+}\\dfrac{x-2}{x^2-3x+2}=\\lim \\limits_{x\\to 2^+}\\dfrac{1}{x-1}=\\dfrac{1}{2-1}=1\\neq f(2)$<br>   Vậy hàm số đã cho không liên tục tại $x=2$."
   }
 ];

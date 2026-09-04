@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Giá trị lượng giác của một góc từ 0° đến 180° - Đúng sai
-// Nguồn: SachBaiHoc_T10/Data-T10/HH10-CD1.4-DS.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị, bảng số liệu...) đã được biên dịch sẵn
-// bằng LaTeX/TikZ thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 0H41 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0H41 = [
   {
@@ -142,5 +141,28 @@ window.dungSai0H41 = [
       }
     ],
     "explain": "<br>- Ta có $\\tan x+\\cot x=\\dfrac{\\sin x}{\\cos x}+\\dfrac{\\cos x}{\\sin x}=\\dfrac{\\sin^{2}x+\\cos^{2}x}{\\sin x\\cdot\\cos x}=\\dfrac{1}{\\sin x\\cdot\\cos x}$.<br>- $\\left(\\tan^{2}x+2\\tan x\\cdot\\cot x+\\cot^{2}x\\right)-\\left(\\tan^{2}x-2\\tan x\\cdot\\cot x+\\cot^{2}x\\right)=4$<br>- $\\dfrac{\\cot^{2}x-\\cos^{2}x}{\\cot^{2}x}+\\dfrac{\\sin x\\cdot\\cos x}{\\cot x} = \\dfrac{\\dfrac{\\cos^{2}x}{\\sin^{2}x}-\\cos^{2}x}{\\dfrac{\\cos^{2}x}{\\sin^{2}x}}+\\dfrac{\\sin x\\cdot\\cos x}{\\dfrac{\\cos x}{\\sin x}}$<br>$= \\dfrac{\\cos^{2}x\\left(1-\\sin^{2}x\\right)}{\\cos^{2}x}+\\sin^{2}x=1-\\sin^{2}x+\\sin^{2}x=1.$<br>- $\\sin^{4}x+\\cos^{4}x=1-2\\sin^{2}x\\cos^{2}x$ và $\\sin^{6}x+\\cos^{6}x=1-3\\sin^{2}x\\cos^{2}x$. Suy ra $3\\left(1-2\\sin^{2}x\\cos^{2}x\\right)-2\\left(1-3\\sin^{2}x\\cos^{2}x\\right)=1$."
+  },
+  {
+    "id": "0H412DS6",
+    "question": "Cho $\\cos \\alpha=-\\dfrac{2}{3}$. Khi đó",
+    "subQuestions": [
+      {
+        "text": "$90^{\\circ}&lt;\\alpha&lt;180^{\\circ}$",
+        "answer": true
+      },
+      {
+        "text": "$\\cot \\alpha&lt;0$",
+        "answer": true
+      },
+      {
+        "text": "$\\sin \\alpha=-\\dfrac{\\sqrt{5}}{3}$",
+        "answer": false
+      },
+      {
+        "text": "$\\tan \\alpha=\\dfrac{\\sqrt{5}}{2}$",
+        "answer": false
+      }
+    ],
+    "explain": "Vì $\\cos \\alpha &lt; 0$ nên $\\alpha$ là góc tù ($90^\\circ &lt; \\alpha &lt; 180^\\circ$).  <br>- Vì $\\cos \\alpha &lt; 0$ nên $90^\\circ &lt; \\alpha &lt; 180^\\circ$.<br>- Ta có $90^\\circ &lt; \\alpha &lt; 180^\\circ$ nên $\\cot \\alpha &lt; 0$.<br>- Ta có $\\sin^2\\alpha = 1 - \\cos^2\\alpha = 1 - \\left(-\\dfrac{2}{3}\\right)^2 = \\dfrac{5}{9}$.<br>  Vì $0^\\circ &lt; \\alpha &lt; 180^\\circ$ nên $\\sin\\alpha &gt; 0 \\Rightarrow \\sin\\alpha = \\dfrac{\\sqrt{5}}{3}$.<br>- $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\dfrac{\\sqrt{5}}{3}}{-\\dfrac{2}{3}}=-\\dfrac{\\sqrt{5}}{2}$."
   }
 ];

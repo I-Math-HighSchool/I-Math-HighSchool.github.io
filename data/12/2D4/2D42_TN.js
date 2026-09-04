@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Tích phân - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/CD2.1-CD2.8.tex (gộp) (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 2D42 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D42 = [
   {
@@ -1840,5 +1839,125 @@ window.tracNghiem2D42 = [
     ],
     "answer": 0,
     "explain": "Ta có $\\displaystyle\\int\\limits_{1}^{2} \\left[f(x)+2g(x)\\right]\\mathrm{\\,d}x=\\displaystyle\\int\\limits_{1}^{2} g(x)\\mathrm{\\,d}x+2\\displaystyle\\int\\limits_{1}^{2} f(x)\\mathrm{\\,d}x=-3\\cdot 2+4=-2$."
+  },
+  {
+    "id": "2D423TN7",
+    "question": "Tính $I = \\displaystyle \\int\\limits_0^{\\dfrac{\\pi}{2}}(\\cos x - 3\\sin x)\\,\\mathrm{d}x$.",
+    "options": [
+      "$I=4$",
+      "$I=-2$",
+      "$I=2$",
+      "$I=-4$"
+    ],
+    "answer": 1,
+    "explain": "Ta có  $I = \\displaystyle \\int\\limits_0^{\\dfrac{\\pi}{2}}(\\cos x - 3\\sin x)\\,\\mathrm{d}x = \\left(\\sin x+ 3\\cos x\\right)\\Bigg|^{\\dfrac{\\pi}{2}}_{0}$<br>$= \\left(\\sin \\dfrac{\\pi}{2}+3\\cos \\dfrac{\\pi}{2}\\right)-(\\sin 0 +3\\cos 0)= 1-3=-2.$"
+  },
+  {
+    "id": "2D422TN8",
+    "question": "Cho $f$ là hàm số liên tục trên $[1 ; 2]$. Biết $F$ là nguyên hàm của $f$ trên $[1 ; 2]$ thoả $F(1) = -2$ và $F(2) = 4$. Tính $\\displaystyle \\int\\limits_1^2 f(x)\\,\\mathrm{d}x$.",
+    "options": [
+      "$-2$",
+      "$-6$",
+      "$2$",
+      "$6$"
+    ],
+    "answer": 3,
+    "explain": "Ta có  \\[\\displaystyle \\int\\limits_1^2 f(x)\\,\\mathrm{d}x=F(x) \\Bigg|^2_1=F(2)-F(1)=4-(-2)=6.\\]"
+  },
+  {
+    "id": "2D424TN9",
+    "question": "Biết $\\displaystyle \\int\\limits_1^3 \\dfrac{x + 2}{x}\\,\\mathrm{d}x = a + b \\ln c$, với $a, b, c \\in \\mathbb{Z},\\ c &lt; 9$. Tính tổng $S = a + b + c$.",
+    "options": [
+      "$S = 7$",
+      "$S = 5$",
+      "$S = 3$",
+      "$S = 4$"
+    ],
+    "answer": 0,
+    "explain": "Ta có  \\[\\displaystyle \\int\\limits_1^3 \\dfrac{x + 2}{x}\\,\\mathrm{d}x =\\displaystyle \\int\\limits_1^3 \\left(1+\\dfrac{ 2}{x}\\right)\\,\\mathrm{d}x=\\left(x+2\\ln |x|\\right)\\Bigg|^3_1=(3+2\\ln 3)-(1+2\\ln 1)=2+2\\ln3.\\]  Suy ra $a=2$, $b=2$ và $c=3$.<br>  Khi đó, $S=a+b+c=2+2+3=7$."
+  },
+  {
+    "id": "2D422TN10",
+    "question": "Cho tích phân $\\displaystyle \\int \\limits_0^1 \\left[f(x) + 2x\\right]\\,\\mathrm{d}x = 2$. Tính $\\displaystyle \\int \\limits_0^1 f(x)\\,\\mathrm{d}x$.",
+    "options": [
+      "$0$",
+      "$2$",
+      "$4$",
+      "$1$"
+    ],
+    "answer": 3,
+    "explain": "Ta có  \\[ \\displaystyle \\int \\limits_0^1 [f(x) + 2x]\\,\\mathrm{d}x = \\int \\limits_0^1 f(x) \\,\\mathrm{d}x + \\int \\limits_0^1 2x\\,\\mathrm{d}x <br>  =\\int \\limits_0^1 f(x) \\,\\mathrm{d}x+1=2 \\Rightarrow \\int \\limits_0^1 f(x) \\,\\mathrm{d}x=1.\\]"
+  },
+  {
+    "id": "2D424TN11",
+    "question": "Tính $I = \\displaystyle \\int \\limits_1^\\mathrm{e}\\left(\\dfrac{1}{x} - \\dfrac{1}{x^2}\\right)\\,\\mathrm{d}x$.",
+    "options": [
+      "$1$",
+      "$\\dfrac{1}{\\mathrm{e}}$",
+      "$\\dfrac{1}{\\mathrm{e}} + 1$",
+      "$\\mathrm{e}$"
+    ],
+    "answer": 1,
+    "explain": "Ta có   \\[\\displaystyle \\int \\limits_1^\\mathrm{e}\\left(\\dfrac{1}{x} - \\dfrac{1}{x^2}\\right)\\,\\mathrm{d}x=\\left(\\ln |x| +\\dfrac{1}{x}\\right)\\Bigg|^\\mathrm{e}_1=\\left(\\ln e+\\dfrac{1}{e}\\right)-\\left(\\ln 1 + \\dfrac{1}{1}\\right)=\\dfrac{1}{\\mathrm{e}}.\\]"
+  },
+  {
+    "id": "2D422TN12",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ thỏa mãn $\\displaystyle \\int \\limits_0^2 f(x)\\,\\mathrm{d}x = 4$, $\\displaystyle \\int \\limits_1^2 f(x)\\,\\mathrm{d}x = 3$. Tính $\\displaystyle \\int \\limits_0^1 f(x)\\,\\mathrm{d}x$.",
+    "options": [
+      "$1$",
+      "$12$",
+      "$0{,}75$",
+      "$7$"
+    ],
+    "answer": 0,
+    "explain": "Ta có  \\[\\displaystyle \\int \\limits_0^2 f(x)\\,\\mathrm{d}x =\\int \\limits_0^1 f(x)\\,\\mathrm{d}x +\\int \\limits_1^2 f(x)\\,\\mathrm{d}x = \\int \\limits_0^1 f(x)\\,\\mathrm{d}x +3=4 \\Rightarrow \\int \\limits_0^1 f(x)\\,\\mathrm{d}x =1.\\]"
+  },
+  {
+    "id": "2D422TN13",
+    "question": "Tính $\\displaystyle \\int \\limits_0^2 \\left(6x^2 - 2x\\right) \\mathrm{d}x$.",
+    "options": [
+      "$8$",
+      "$12$",
+      "$6$",
+      "$11$"
+    ],
+    "answer": 1,
+    "explain": "Ta có  \\[\\displaystyle \\int \\limits_0^2 \\left(6x^2 - 2x\\right) \\mathrm{d}x=\\left(2x^3-x^2\\right) \\Bigg|^2_0=(2\\cdot2^3-2^2)-(2\\cdot0^3-0^2)=12.\\]"
+  },
+  {
+    "id": "2D422TN14",
+    "question": "Biết $\\displaystyle\\int\\limits_{-1}^2 f(x) \\mathrm{\\,d} x=3; \\displaystyle\\int\\limits_0^2f(x)\\mathrm{\\,d}x=1$. Khi đó $\\displaystyle\\int\\limits_0^{-1} f(x) \\mathrm{\\,d}x$ bằng",
+    "options": [
+      "$6$",
+      "$4$",
+      "$2$",
+      "$-2$"
+    ],
+    "answer": 2,
+    "explain": "Ta có  \\[  \\displaystyle\\int\\limits_0^{-1} f(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits_0^{2} f(x) \\mathrm{\\,d}x-\\displaystyle\\int\\limits_{-1}^{2} f(x) \\mathrm{\\,d}x=3-1=2.  \\]"
+  },
+  {
+    "id": "2D422TN15",
+    "question": "Nếu $\\displaystyle\\int\\limits_0^1f(x)\\mathrm{\\,d}x=37$ và $\\displaystyle\\int\\limits_0^1g(x)\\mathrm{\\,d}x=16$ thì $\\displaystyle\\int\\limits_0^1[2f(x)+3g(x)]\\mathrm{\\,d}x$ bằng",
+    "options": [
+      "$122$",
+      "$53$",
+      "$48$",
+      "$74$"
+    ],
+    "answer": 0,
+    "explain": "Ta có  \\[  \\displaystyle\\int\\limits_0^1[2f(x)+3g(x)]\\mathrm{\\,d}x=2\\displaystyle\\int\\limits_0^1f(x)\\mathrm{\\,d}x+3\\displaystyle\\int\\limits_0^1g(x)\\mathrm{\\,d}x=2\\cdot 37 + 3 \\cdot 16=122.  \\]"
+  },
+  {
+    "id": "2D422TN16",
+    "question": "Cho hai hàm số $f$, $g$ liên tục trên đoạn $[a; b]$ và $k \\in \\mathbb{R}$. Khẳng định nào <strong>sai</strong>?",
+    "options": [
+      "$\\displaystyle\\int\\limits_a^b x f(x)\\mathrm{\\,d}x=x \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$",
+      "$\\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x=-\\displaystyle\\int\\limits_b^a f(x)\\mathrm{\\,d}x$",
+      "$\\displaystyle\\int\\limits_a^b[f(x)+g(x)]\\mathrm{\\,d}x=\\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x+\\displaystyle\\int\\limits_a^b g(x)\\mathrm{\\,d}x$",
+      "$\\displaystyle\\int\\limits_a^b k f(x)\\mathrm{\\,d}x=k \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$, $\\forall k \\neq 0$"
+    ],
+    "answer": 0,
+    "explain": "Khẳng định <strong>sai</strong> là $\\displaystyle\\int\\limits_a^b x f(x)\\mathrm{\\,d}x=x \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$."
   }
 ];

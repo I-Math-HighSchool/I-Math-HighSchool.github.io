@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D13 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D13 = [
   {
@@ -759,5 +759,53 @@ window.tracNghiem1D13 = [
     ],
     "answer": 1,
     "explain": "Ta có   $T = \\sin\\left( \\dfrac{\\pi}{3}+x\\right) -\\sin\\left( \\dfrac{\\pi}{3}-x\\right)$<br>$= 2\\cdot\\cos\\left(\\dfrac{\\dfrac{\\pi}{3}+x+\\dfrac{\\pi}{3}-x}{2} \\right)\\cdot\\sin\\left(\\dfrac{\\dfrac{\\pi}{3}+x-\\dfrac{\\pi}{3}+x }{2}\\right)$<br>$= 2\\cdot \\cos\\dfrac{\\pi}{3}\\cdot \\sin x.$<br>$= \\sin x.$"
+  },
+  {
+    "id": "1D133TN1",
+    "question": "Cho $\\sin a=\\dfrac{2}{5}$. Khi đó $\\cos 2a$ bằng",
+    "options": [
+      "$\\dfrac{17}{25}$",
+      "$\\dfrac{17}{5}$",
+      "$-\\dfrac{3}{5}$",
+      "$\\dfrac{3}{5}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\cos 2a=1-2\\sin^2 a=1-2\\cdot\\left(\\dfrac{2}{5}\\right)^2=\\dfrac{17}{25}$."
+  },
+  {
+    "id": "1D132TN2",
+    "question": "Trong các công thức lượng giác dưới đây, công thức nào đúng?",
+    "options": [
+      "$\\tan (a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a \\tan b}$",
+      "$\\tan (a-b)=\\dfrac{\\tan a-\\tan b}{1-\\tan a \\tan b}$",
+      "$\\tan (a-b)=\\dfrac{\\tan a-\\tan b}{\\tan a-\\tan b}$",
+      "$\\tan (a-b)=\\dfrac{\\tan a-\\tan b}{\\tan a+\\tan b}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\tan (a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a \\tan b}$."
+  },
+  {
+    "id": "1D133TN3",
+    "question": "Trong các công thức lượng giác dưới đây, công thức nào {\\bf{sai}}?",
+    "options": [
+      "$\\cos 2a=2\\cos a$",
+      "$\\cos 2a=2\\cos ^2a-1$",
+      "$\\cos 2a=1-2\\sin ^2a$",
+      "$\\cos 2a=\\cos ^2a-\\sin ^2a$"
+    ],
+    "answer": 0,
+    "explain": "Ta có  $\\cos 2a =\\cos ^2a-\\sin ^2a$<br>$=2\\cos ^2a-1$<br>$=1-2\\sin ^2a.$"
+  },
+  {
+    "id": "1D135TN4",
+    "question": "Cho $\\cos{x}=\\dfrac{4}{5}$, $x\\in \\left(-\\dfrac{\\pi}{2};0 \\right)$. Giá trị của $\\sin{2x}$ là",
+    "options": [
+      "$-\\dfrac{24}{25}$",
+      "$\\dfrac{24}{25}$",
+      "$\\dfrac{1}{5}$",
+      "$-\\dfrac{1}{5}$"
+    ],
+    "answer": 0,
+    "explain": "Vì $x\\in \\left(-\\dfrac{\\pi}{2};0 \\right)$.<br>  Nên $\\sin{x}=-\\sqrt{1^2-\\cos^2{x}}=-\\sqrt{1-\\left(\\dfrac{4}{5} \\right)^2}=-\\dfrac{3}{5}$.<br>   Suy ra $\\sin{2x}=2\\sin{x} \\cos{x}=2\\cdot \\left(-\\dfrac{3}{5} \\right)\\cdot \\dfrac{4}{5}=-\\dfrac{24}{25}$."
   }
 ];

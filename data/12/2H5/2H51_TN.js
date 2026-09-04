@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H51 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2H51 = [
   {
     "id": "2H513TN1",
@@ -2566,5 +2571,89 @@ window.tracNghiem2H51 = [
     ],
     "answer": 1,
     "explain": "Phương trình mặt phẳng đi qua điểm $A(2;-1;3)$ và có vectơ pháp tuyến $\\overrightarrow{n}=(2;3;-1)$ là \\[(\\alpha)\\colon 2(x-2)+3(y+1)-(z-3)=0\\Leftrightarrow 2x+3y-z+2=0.\\]"
+  },
+  {
+    "id": "2H514TN1",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, gọi $(\\alpha)$ là mặt phẳng đi qua điểm $A(2;-1;1)$ và song song với mặt phẳng $(Q)\\colon2x-y+3z+2=0$. Phương trình mặt phẳng $(\\alpha)$ là",
+    "options": [
+      "$2x-y+3z-8=0$",
+      "$2x+y+3z+8=0$",
+      "$2x+3z+16=0$",
+      "$2x-y+3z+24=0$"
+    ],
+    "answer": 0,
+    "explain": "Vì $(\\alpha)\\parallel(Q)$ suy ra $(\\alpha)$ nhận $\\overrightarrow{n}=(2;-1;3)$ làm véc-tơ pháp tuyến. Do đó phương trình mặt phẳng $(\\alpha)$ đi qua điểm $A(2;-1;1)$ và có véc-tơ pháp tuyến $\\overrightarrow{n}$ là  \\[2(x-2)-(y+1)+3(z-1)=0\\Leftrightarrow 2x-y+3z-8=0.\\]"
+  },
+  {
+    "id": "2H512TN213",
+    "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P)\\colon2x+y-z-3=0$. Véc-tơ nào sau đây là véc-tơ pháp tuyến của mặt phẳng $(P)$?",
+    "options": [
+      "$(2;1;-1)$",
+      "$(-2;1;-1)$",
+      "$(-4;2;-2)$",
+      "$(2;-1;-1)$"
+    ],
+    "answer": 0,
+    "explain": "Véc-tơ pháp tuyến của mặt phẳng $(P)$ là $(2;1;-1)$."
+  },
+  {
+    "id": "2H512TN214",
+    "question": "Trong không gian $Oxyz$, mặt phẳng đi qua điểm $I(x_0 ; y_0 ; z_0)$ và nhận $\\overrightarrow{n} = (a ; b ; c)$ làm vectơ pháp tuyến có phương trình",
+    "options": [
+      "$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$",
+      "$c(x - x_0) + a(y - y_0) + b(z - z_0) = 0$",
+      "$c(x - x_0) + b(y - y_0) + a(z - z_0) = 0$",
+      "$b(x - x_0) + a(y - y_0) + c(z - z_0) = 0$"
+    ],
+    "answer": 0,
+    "explain": "Mặt phẳng đi qua điểm $I(x_0 ; y_0 ; z_0)$ và nhận $\\overrightarrow{n} = (a ; b ; c)$ làm vectơ pháp tuyến có phương trình là   \\[a(x - x_0) + b(y - y_0) + c(z - z_0) = 0.\\]"
+  },
+  {
+    "id": "2H512TN5",
+    "question": "Trong không gian $Oxyz$, cho mặt phẳng $(\\alpha) \\colon 3x + 2y - 4z + 1 = 0$. Vectơ nào dưới đây là một vectơ pháp tuyến của $(\\alpha)$?",
+    "options": [
+      "$\\overrightarrow{n}_1 = (3 ; -4 ; 1)$",
+      "$\\overrightarrow{n}_4 = (3 ; 2 ; -4)$",
+      "$\\overrightarrow{n}_3 = (2 ; -4 ; 1)$",
+      "$\\overrightarrow{n}_2 = (3 ; 2 ; 4)$"
+    ],
+    "answer": 1,
+    "explain": "Một vectơ pháp tuyến của $(\\alpha) \\colon 3x + 2y - 4z + 1 = 0$ là $\\overrightarrow{n}=(3;2;-4)$."
+  },
+  {
+    "id": "2H513TN6",
+    "question": "Trong không gian $Oxyz$, cho hai điểm $A(1; 3; -4)$ và $B(-1; 2; 2)$. Viết phương trình mặt phẳng trung trực $(\\alpha)$ của đoạn thẳng $AB$.",
+    "options": [
+      "$(\\alpha) \\colon 4x + 2y - 12z - 17 = 0$",
+      "$(\\alpha) \\colon 4x - 2y - 12z - 7 = 0$",
+      "$(\\alpha) \\colon 4x - 2y + 12z + 17 = 0$",
+      "$(\\alpha) \\colon 4x + 2y + 12z + 7 = 0$"
+    ],
+    "answer": 0,
+    "explain": "Mặt phẳng $(\\alpha)$ nhận $\\overrightarrow{AB}=(-2;-1;6)$ là một vectơ pháp tuyến của mặt phẳng và đi qua trung điểm $I\\left(0;\\dfrac{5}{2};-1\\right)$ của đoạn thẳng $AB$. Phương trình mặt phẳng $(\\alpha)$ là  \\[-2(x-0)-1\\left(y-\\dfrac{5}{2}\\right)+6(z+1)=0 \\Leftrightarrow -2x-y+6z+\\dfrac{17}{2}=0 \\Leftrightarrow 4x + 2y -12z - 17 = 0\\]"
+  },
+  {
+    "id": "2H512TN7",
+    "question": "Trong không gian với hệ trục $Oxyz$, cho ba điểm $A(2;-1;3)$, $B(4;0;1)$, $C(-10;5;3)$. Một vectơ pháp tuyến của mặt phẳng $ABC$ là",
+    "options": [
+      "$\\vec{n}=(1;8;2)$",
+      "$\\vec{n}=(1;2;2)$",
+      "$\\vec{n}=(1;-2;2)$",
+      "$\\vec{n}=(1;2;0)$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\overrightarrow{AB}=(2;1;-2)$ và $\\overrightarrow{AC}=(-12;6;0)$.<br>  Suy ra $\\vec{n}=\\left[\\overrightarrow{AB},\\overrightarrow{AC}\\right]=(12;24;24)=12(1;2;2)$."
+  },
+  {
+    "id": "2H514TN8",
+    "question": "Mặt phẳng có phương trình nào sau đây song song với trục $Ox$?",
+    "options": [
+      "$3x+1=0$",
+      "$2y+z=0$",
+      "$y-2z+1=0$",
+      "$2x+y+1=0$"
+    ],
+    "answer": 2,
+    "explain": "Mặt phẳng $y-2z+1=0$ có vectơ pháp tuyến $\\overrightarrow{n}=(0;1;-2)$ và $\\overrightarrow{n}\\cdot \\overrightarrow{i}=0$ nên song song hoặc chứa trục $Ox$. <br>  Tuy nhiên $O(0;0;0) \\in Ox$ nhưng $O \\notin y-2z+1=0$ nên đây là mặt phẳng song song với trục $Ox$."
   }
 ];

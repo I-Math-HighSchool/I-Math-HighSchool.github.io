@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D13 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0D13 = [
   {
@@ -27,5 +27,11 @@ window.traLoiNgan0D13 = [
     "question": "Cho tập $A=\\left\\{x \\in \\mathbb{Z} \\mid(2-x)\\left(2x^2+3x+1\\right)=0\\right\\}$;<br> $B=\\left\\{x \\in \\mathbb{R} \\mid x^2+(2m+1) x+2m=0\\right\\}$ với $m \\in \\mathbb{R}$. Tìm $m$ để tập $A\\cup B$ có đúng $3$ phần từ và tổng bình phương của chúng bằng $9$.",
     "answer": "1",
     "explain": "Ta có $(2-x)\\left(2x^2+3x+1\\right)=0\\Leftrightarrow x=2\\in \\mathbb{Z} \\text{ hoặc } x=-1\\in \\mathbb{Z} \\text{ hoặc } x=-\\dfrac{1}{2}\\notin \\mathbb{Z}.$<br>  Suy ra $A=\\left\\{x \\in \\mathbb{Z} \\mid(2-x)\\left(2x^2+3x+1\\right)=0\\right\\}=\\{-1;2\\}$.<br>  Ta có $x^2+(2m+1) x+2m=0\\Leftrightarrow x=-1 \\text{ hoặc } x=-2m.$<br>  Suy ra $B=\\left\\{x \\in \\mathbb{R} \\mid x^2+(2m+1) x+2m=0\\right\\}=\\{-1;-2m\\}$.<br>  Theo đề bài ta có   $-2m\\ne -1 \\text{ và } -2m\\ne 2 \\text{ và } (-1)^2+2^2+(2m)^2=9 \\Leftrightarrow m\\ne \\dfrac{1}{2} \\text{ và } m\\ne -1 \\text{ và } m=\\pm 1$<br>$\\Leftrightarrow m=1.$"
+  },
+  {
+    "id": "0D132TL1",
+    "question": "Lớp $ 10A$ có $ 20$ bạn tham gia câu lạc bộ âm nhạc, trong đó có $ 15$ bạn tham gia đánh đàn, $ 10$ bạn tham gia hát. Có bao nhiêu bạn tham gia cả hai môn đánh đàn và hát?",
+    "answer": "5",
+    "explain": "Gọi $A$, $B$ lần lượt là tập hợp các bạn tham gia đánh đàn và tham gia hát.<br>  Ta có $n(A\\cap B)=n(A)+n(B)-n(A\\cup B)=15+10-20=5$."
   }
 ];

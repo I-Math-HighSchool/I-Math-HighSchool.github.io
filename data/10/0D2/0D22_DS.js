@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D22 = [
   {
@@ -417,5 +417,51 @@ window.dungSai0D22 = [
       }
     ],
     "explain": "<br>- ĐÚNG.<br>  Ta có $AC^2=AB^2+BC^2-2\\cdot AB \\cdot BC \\cdot \\cos \\widehat{ABC} =49 \\Leftrightarrow AC =7$.<br>- SAI.<br>  Ta có $\\cos \\widehat{BAC}=\\dfrac{AB^2+AC^2-BC^2}{2\\cdot AB \\cdot AC}=\\dfrac{1}{7}&gt;0$, vậy góc $\\widehat{BAC}$ là góc nhọn.<br>- ĐÚNG.<br>  Diện tích tam giác $ABC$ là $S=\\dfrac{1}{2}\\cdot BA \\cdot BC \\cdot \\sin \\widehat{ABC}=10\\sqrt{3}.$<br>  $S=\\dfrac{abc}{4R} \\Leftrightarrow R =\\dfrac{abc}{4S}=\\dfrac{7\\sqrt{3}}{3}.$<br>- SAI.<br>  Ta có $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C} = 2R \\Rightarrow \\sin A = \\dfrac{a}{2R}=\\dfrac{4\\sqrt{3}}{7} \\text{ và } \\sin B = \\dfrac{b}{2R}=\\dfrac{\\sqrt{3}}{2} \\text{ và } \\sin C = \\dfrac{c}{2R}=\\dfrac{5\\sqrt{3}}{14}.$<br>  Từ đó $T=\\sin A-2 \\sin B+\\sin C = -\\dfrac{\\sqrt{3}}{14}$."
+  },
+  {
+    "id": "0D222DS17",
+    "question": "Cho hệ bất phương trình $x+2y \\leq 5 \\text{ và } y \\ge 0 \\text{ và } -2x+6y \\ge 12.$",
+    "subQuestions": [
+      {
+        "text": "Cặp số $(-1;3)$ không là nghiệm của hệ bất phương trình trên",
+        "answer": false
+      },
+      {
+        "text": "Cặp số $(-2;0)$ là một nghiệm của hệ bất phương trình trên",
+        "answer": false
+      },
+      {
+        "text": "Hệ trên là một hệ bất phương trình bậc nhất hai ẩn",
+        "answer": true
+      },
+      {
+        "text": "Miền nghiệm của hệ bất phương trình trên là miền tam giác, kể cả ba cạnh, với các đỉnh có tọa độ lần lượt là: $(-6;0)$, $(5;0)$, $(1;1)$",
+        "answer": false
+      }
+    ],
+    "explain": "Xét hệ bất phương trình $x+2y \\leq 5 \\quad(1) \\text{ và } y \\ge 0 \\quad(2) \\text{ và } -2x+6y \\ge 12. \\quad(3) \\quad(\\ast)$ <br>- Thay cặp số $(-1;3)$ vào lần lượt ba bất phương trình, ta có <br>- $-1 + 2 \\cdot 3 = 5 \\leq 5$.<br>- $3 \\geq 0$.<br>- $-2 \\cdot (-1) + 6 \\cdot (3) = 20 \\geq 12$. Vậy cặp số $(-1;3)$ là một nghiệm của hệ bất phương trình $(\\ast)$.<br>- Thay cặp số $(-2;0)$ vào bất phương trình $(3)$ ta được $-2 \\cdot (-2) + 6 \\cdot 0 = 4 &lt; 12$.<br> Vậy cặp số $(-2;0)$ không là nghiệm của hệ bất phương trình $(\\ast)$.<br>- Hệ $(\\ast)$ là một hệ bất phương trình bậc nhất hai ẩn.<br>- Miền nghiệm của hệ bất phương $(\\ast)$ là miền tam giác $ABC$, kể cả ba cạnh với các đỉnh lần lượt là $A\\left(\\dfrac{3}{5}; \\dfrac{11}{5}\\right)$; $B\\left(0;\\dfrac{5}{2}\\right)$ và $C(0;2)$ như hình vẽ sau. <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+  },
+  {
+    "id": "0D222DS2",
+    "question": "Cho hệ bất phương trình $-2x+y\\le2 \\text{ và } -x+2y\\ge4 \\text{ và } x+y\\le5$ có miền nghiệm là miền $D$.",
+    "subQuestions": [
+      {
+        "text": "Hệ bất phương trình trên là hệ bất phương trình bậc nhất hai ẩn",
+        "answer": true
+      },
+      {
+        "text": "Cặp số $(x;y)=(1;3)$ là nghiệm của hệ bất phương trình trên",
+        "answer": true
+      },
+      {
+        "text": "Miền nghiệm $D$ của hệ bất phương trình trên là một tứ giác",
+        "answer": false
+      },
+      {
+        "text": "Giá trị nhỏ nhất của biểu thức $F(x;y)=-x+y$ trên miền $D$ bằng $1$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Các bất phương trình trong hệ đều là bậc nhất hai ẩn.<br>- Thay $(1;3)$ vào hệ: $-2(1)+3=1\\le2 \\quad (\\text{Đúng}) \\text{ và } -1+2(3)=5\\ge4 \\quad (\\text{Đúng}) \\text{ và } 1+3=4\\le5 \\quad (\\text{Đúng}).$<br>- Xác định giao điểm của các đường thẳng bờ:  <br>- $d_1 \\cap d_2$: $-2x+y=2 \\text{ và } -x+2y=4 \\Leftrightarrow x=0 \\text{ và } y=2 \\Rightarrow M(0;2)$.<br>- $d_2 \\cap d_3$: $-x+2y=4 \\text{ và } x+y=5 \\Leftrightarrow x=2 \\text{ và } y=3 \\Rightarrow N(2;3)$.<br>- $d_1 \\cap d_3$: $-2x+y=2 \\text{ và } x+y=5 \\Leftrightarrow x=1 \\text{ và } y=4 \\Rightarrow P(1;4)$.  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Miền nghiệm là tam giác $MNP$.<br>- Tính $F(x;y)=-x+y$ tại các đỉnh:<br>- $F(0;2)=2$;<br>- $F(2;3)=-2+3=1$;<br>- $F(1;4)=-1+4=3$.  Vậy giá trị nhỏ nhất là $1$."
   }
 ];

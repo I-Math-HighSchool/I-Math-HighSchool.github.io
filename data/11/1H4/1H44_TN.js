@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1H44 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H44 = [
   {
@@ -87,5 +87,17 @@ window.tracNghiem1H44 = [
     ],
     "answer": 2,
     "explain": "Ta có $(ABC) \\parallel\\left(A' B' C'\\right)$."
+  },
+  {
+    "id": "1H442TN1",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Trên $SB$, $AC$ lần lượt lấy $M$, $N$ sao cho $\\dfrac{BM}{MS}=\\dfrac{NC}{NA}=x$. Gọi $G$ là trọng tâm $\\triangle SCD$. Giá trị $x$ để $(MNG)\\parallel (SAD)$ là",
+    "options": [
+      "$x=\\dfrac{1}{3}$",
+      "$x=1$",
+      "$x=2$",
+      "$x=\\dfrac{1}{2}$"
+    ],
+    "answer": 2,
+    "explain": "<br><img src=\"data/11/1H4/im1H44/loc3_1_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vẽ $P$, $Q$, $R$ lần lượt thuộc $DC$, $AB$, $SB$ sao cho $GP\\parallel SD$, $PQ\\parallel AD$ và $QR\\parallel SA$. Gọi $I$ là giao điểm của $PQ$ và $AC$. Gọi $E$ là trung điểm của $DC$.<br>   Ta có $GP\\parallel SD\\subset (SAD) \\text{ và } PQ\\parallel AD\\subset (SAD) \\text{ và } SD, AD\\subset (SAD) \\text{ và } GP, AD \\subset (GPQ)\\Rightarrow (GPQ)\\parallel (SAD)$. <br>   Ta lại có $QR\\parallel SA \\Rightarrow QR \\parallel (SAD) \\Rightarrow QR \\subset (GPQ)$.<br>   $\\Rightarrow (GMN)\\parallel (SAD)\\Leftrightarrow M\\equiv R \\text{ và } N\\equiv I.$ Khi đó $x=\\dfrac{BR}{RS}=\\dfrac{IC}{IA}$.<br>   Ta có $\\dfrac{EG}{ES}=\\dfrac{EP}{ED}=\\dfrac{1}{3} \\Rightarrow EP=\\dfrac{1}{3}ED=\\dfrac{1}{6}CD\\Rightarrow PD=\\dfrac{1}{3}CD$, $PC=\\dfrac{2}{3}CD$.<br>   Mà $\\dfrac{IC}{IA}=\\dfrac{PC}{PD}=\\dfrac{\\dfrac{2}{3}CD}{\\dfrac{1}{3}CD}=2$."
   }
 ];

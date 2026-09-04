@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D15 = [
   {
@@ -647,5 +647,28 @@ window.dungSai1D15 = [
       }
     ],
     "explain": "<br>- $f\\left(\\dfrac{\\pi}{6}\\right) = \\sqrt{2}\\cos\\left(\\dfrac{\\pi}{6}+\\dfrac{\\pi}{4}\\right)-1 = \\sqrt{2}\\cos\\dfrac{5\\pi}{12}-1= \\dfrac{\\sqrt{3}-3}{2}$.<br>- $f(x)=-1 \\Leftrightarrow \\sqrt{2}\\cos\\left(x+\\dfrac{\\pi}{4}\\right)=0 \\Leftrightarrow x+\\dfrac{\\pi}{4} = \\dfrac{\\pi}{2}+k\\pi \\Leftrightarrow x = \\dfrac{\\pi}{4}+k\\pi$.<br>- Vì $-1 \\le \\cos\\left(x+\\dfrac{\\pi}{4}\\right) \\le 1$ nên $-\\sqrt{2}-1 \\le f(x) \\le \\sqrt{2}-1$.<br>- $f(x)=1 \\Leftrightarrow \\cos\\left(x+\\dfrac{\\pi}{4}\\right)=\\sqrt{2} &gt; 1$ (vô nghiệm)."
+  },
+  {
+    "id": "1D155DS2",
+    "question": "Cho hàm số $f(x)=\\cos(-x)$ xác định trên tập $D$.",
+    "subQuestions": [
+      {
+        "text": "Tập xác định của hàm số là $\\mathscr{D}=\\mathbb{R}\\setminus\\left\\{\\dfrac{\\pi}{2}+k\\pi, k\\in\\mathbb{Z}\\right\\}$",
+        "answer": false
+      },
+      {
+        "text": "$y=-\\cos x,\\forall x\\in\\mathscr{D}$",
+        "answer": false
+      },
+      {
+        "text": "$f(x)=1\\Leftrightarrow x=k2\\pi, k\\in\\mathbb{Z}$",
+        "answer": true
+      },
+      {
+        "text": "Tổng các nghiệm của phương trình $f(x)=1$ trên khoảng $[-\\pi;6\\pi]$ là $12\\pi$",
+        "answer": true
+      }
+    ],
+    "explain": "Ta có $f(x)=\\cos(-x)=\\cos x$ (do hàm $\\cos$ là hàm chẵn).  <br>- Hàm số $f(x)=\\cos x$ có tập xác định $D=\\mathbb{R}$.<br>- $f(x)=\\cos(-x)=\\cos x$.<br>- $f(x)=1\\Leftrightarrow\\cos x=1\\Leftrightarrow x=k2\\pi, k\\in\\mathbb{Z}$.<br>- Có $f(x)=1\\Leftrightarrow x=k2\\pi(k\\in\\mathbb{Z})$ trên đoạn $[-\\pi;6\\pi]$.<br>  Ta có $-\\pi\\le k2\\pi\\le 6\\pi\\Leftrightarrow-\\dfrac{1}{2}\\le k\\le 3$. Vì $k\\in\\mathbb{Z}$, nên $k\\in\\{0; 1; 2; 3\\}$.<br>  Các nghiệm là $x=0$, $x=2\\pi$, $x=4\\pi$, $x=6\\pi$.<br>  Tổng các nghiệm là $0+2\\pi+4\\pi+6\\pi=12\\pi$."
   }
 ];

@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D32 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.dungSai2D32 = [
   {
     "id": "2D323DS1",
@@ -182,5 +187,28 @@ window.dungSai2D32 = [
       }
     ],
     "explain": "<br>- Dựa vào bảng số liệu ghép nhóm ta thấy Tần số của nhóm $\\left[240; 270 \\right)$ là $14$.<br>- Cỡ mẫu $ n=58 $.<br>  Số trung bình của mẫu số liệu ghép nhóm là  $ \\overline{x}=\\dfrac{3\\cdot 165+5\\cdot 195+28\\cdot 225+14\\cdot 255+8\\cdot 285}{58}=\\dfrac{6810}{29}. $  Phương sai của mẫu số liệu ghép nhóm là  $ S^2=\\dfrac{1}{58}\\left(3\\cdot 165^2+5\\cdot 195^2+28\\cdot 225^2+14\\cdot 255^2+8\\cdot 285^2 \\right)-\\left( \\dfrac{6810}{29}\\right) ^2\\approx 881. $<br>- Khoảng biến thiên của bảng số liệu ghép nhóm trên là $R=300-150=150$ cm.<br>- Ta có cỡ mẫu $ n=58 $.<br>  Gọi $x_1$, $x_2$, $\\ldots$, $x_{58}$ là thành tích nhảy xa của lớp $12A$ theo thứ tự không giảm.<br>  Tứ phân vị thứ nhất của mẫu số liệu gốc bằng $x_{11} \\in \\left[ 210;240\\right)$.<br>  Tứ phân vị thứ ba của mẫu số liệu gốc bằng $x_{44} \\in \\left[ 240;270\\right)$.<br>  Tứ phân vị thứ nhất và thứ ba của mẫu số liệu ghép nhóm lần lượt là:  $Q_{1}=210+ \\dfrac{\\dfrac{58}{4}-\\left(3+5\\right)}{28}\\cdot \\left(240-210\\right)=\\dfrac{6075}{28};$  $Q_{3}=240+ \\dfrac{\\dfrac{3\\cdot58}{4}-\\left(3+5+28\\right)}{14}\\cdot \\left(270-240\\right)=\\dfrac{3585}{14}.$  Khoảng tứ phân vị $ \\Delta_{Q}=Q_{3}-Q_{1}=\\dfrac{1095}{28}$."
+  },
+  {
+    "id": "2D322DS7",
+    "question": "Thành tích môn nhảy cao của các vận động viên tại một giải điền kinh dành cho học sinh trung học phổ thông như sau  <br><img src=\"data/12/2D3/im2D32/loc3_2_TL_TN_DS_THPT__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Khoảng biến thiên của mẫu số liệu ghép nhóm này là $8$",
+        "answer": true
+      },
+      {
+        "text": "Thành tích trung bình của môn nhảy cao là $\\bar{x}=173{,}5$",
+        "answer": true
+      },
+      {
+        "text": "Phương sai của mẫu số liệu ghép nhóm (làm tròn đến hàng phần chục) là $2{,}3$",
+        "answer": false
+      },
+      {
+        "text": "Độ lệch chuẩn của mẫu số liệu ghép nhóm (làm tròn đến hàng phần chục) là $1{,}5$",
+        "answer": true
+      }
+    ],
+    "explain": "$\\begin{array}{|c|c|c|} \\hline \\text { Nhóm } & \\text { Tần số } & \\begin{array}{c} \\text { Tần số } \\\\ \\text { tích luỹ } \\end{array} \\\\ \\hline {[170; 172)} 3 3 \\\\ {[172; 174)} 10 13 \\\\ {[174; 176)} 6 19 \\\\ {[176; 178)} 1 20 \\\\ \\hline n=20 \\\\ \\hline \\end{array}$ <br>- <strong>Đúng</strong>.<br> Khoảng biến thiên của mẫu số liệu ghép nhóm này là $178-170=8$.<br>- <strong>Đúng</strong>.<br> Thành tích trung bình của môn nhảy cao là $\\bar{x}=\\dfrac{171\\cdot 3+173\\cdot 10+175\\cdot 6+177}{20}=173{,}5.$<br>- <strong>Sai</strong>.<br> Phương sai của mẫu số liệu ghép nhóm là $s^2=\\dfrac{(171-173{,}5)^2\\cdot 3+(173-173{,}5)^2\\cdot 10+(175-173{,}5)^2\\cdot 6+(177-173{,}5)^2}{20}\\approx 2{,}4.$<br>- <strong>Sai</strong>.<br> Độ lệch chuẩn của mẫu số liệu ghép nhóm là $\\sqrt{2{,}4}\\approx 1{,}5$."
   }
 ];

@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D12 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D12 = [
   {
@@ -243,5 +243,89 @@ window.tracNghiem0D12 = [
     ],
     "answer": 1,
     "explain": "Ta có $x \\in \\mathbb{R} \\text{ và } 1\\leq x &lt; 6\\Rightarrow M=[1; 6)$."
+  },
+  {
+    "id": "0D122TN1",
+    "question": "Cho tập hợp $ A=\\left\\{ 1;2;5;6\\right\\}$. Khẳng định nào sau đây <strong>sai</strong>?",
+    "options": [
+      "$\\varnothing\\subset A$",
+      "$\\left\\{ 1\\right\\}\\in A$",
+      "$ 3\\notin A$",
+      "$\\left\\{ 1;5\\right\\}\\subset A$"
+    ],
+    "answer": 1,
+    "explain": "$\\left\\{ 1\\right\\}\\in A$ là khẳng định sai."
+  },
+  {
+    "id": "0D123TN2",
+    "question": "Cho tập hợp $ B=\\left\\{ x\\in\\mathbb{R}|-\\dfrac{1}{2}&lt;x\\le 3\\right\\}$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$ B=\\left\\{0;1;2;3\\right\\}$",
+      "$ B=\\left[-\\dfrac{1}{2};3\\right)$",
+      "$ B=\\left\\{ 1;2;3\\right\\}$",
+      "$ B=\\left(-\\dfrac{1}{2};3\\right]$"
+    ],
+    "answer": 3,
+    "explain": "$ B=\\left(-\\dfrac{1}{2};3\\right]$."
+  },
+  {
+    "id": "0D123TN15",
+    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ sau đây là biểu diễn của tập hợp nào?  <br><img src=\"data/10/0D1/im0D12/loc3_0_TN_DS_THPT_chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$(-\\infty;2] \\cup (5;+\\infty)$",
+      "$(-\\infty;2] \\cup [5;+\\infty)$",
+      "$(-\\infty;2) \\cup (5;+\\infty)$",
+      "$(-\\infty;2) \\cup [5;+\\infty)$"
+    ],
+    "answer": 3,
+    "explain": "Dựa vào hình vẽ, ta thấy phần <strong>không bị gạch</strong> biểu diễn tập hợp $\\left(-\\infty;2\\right)\\cup\\left[5;+\\infty\\right)$."
+  },
+  {
+    "id": "0D121TN4",
+    "question": "Hãy liệt kê các phần tử của tập $X=\\{x\\in\\mathbb{N}\\mid (x+3)(2x^2-7x+5)=0\\}$.",
+    "options": [
+      "$X=\\{1\\}$",
+      "$X=\\{-3;1\\}$",
+      "$X=\\left\\{1;\\dfrac{5}{2}\\right\\}$",
+      "$X=\\left\\{-3;1;\\dfrac{5}{2}\\right\\}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có<br>  $\\begin{aligned}[c]  (x+3)(2x^2-7x+5) &=0 \\\\  x + 3 = 0\\ \\text{hoặc}\\ & 2x^2 - 7X + 5 = 0 \\\\  x = -3 \\ \\text{hoặc}\\ & x = \\dfrac{5}{2} \\ \\text{hoặc}\\ x = 1.   \\end{aligned}$<br>  Do $x \\in \\mathbb{N}$ nên ta nhận $x = 1$.  Vậy $X=\\{x\\in\\mathbb{N}\\mid (x+3)(2x^2-7x+5)=0\\}=\\{1\\}$."
+  },
+  {
+    "id": "0D121TN15",
+    "question": "Cho tập hợp $A=\\{x\\in\\mathbb{N}^*\\mid x&lt;10;\\ x \\ \\vdots\\ 3\\}$. Khẳng định nào sau đây là đúng?",
+    "options": [
+      "$A$ có $2$ phần tử",
+      "$A$ có $5$ phần tử",
+      "$A$ có $4$ phần tử",
+      "$A$ có $3$ phần tử"
+    ],
+    "answer": 3,
+    "explain": "Các số tự nhiên khác $0$, nhỏ hơn $10$ và chia hết cho $3$ là $3$, $6$, $9$. <br>  Suy ra $A=\\{3;6;9\\}$  Vậy tập hợp $A$ có $3$ phần tử."
+  },
+  {
+    "id": "0D121TN6",
+    "question": "Hãy liệt kê các phần tử của tập hợp $X=\\{x\\in\\mathbb{R} \\mid x^{2}+x+1=0\\}$.",
+    "options": [
+      "$X=\\varnothing$",
+      "$X=\\{\\varnothing\\}$",
+      "$X=\\{0\\}$",
+      "$X=0$"
+    ],
+    "answer": 0,
+    "explain": "Xét phương trình $x^2+x+1=0$.<br>  Ta có $\\Delta = 1^2 - 4\\cdot 1 \\cdot 1 = -3 &lt; 0$.<br>  Phương trình vô nghiệm trên $\\mathbb{R}$.<br>  Vậy $X=\\varnothing$."
+  },
+  {
+    "id": "0D123TN7",
+    "question": "Cho tập hợp $A=(-3;+\\infty)$. Tập hợp nào dưới đây là tập con của tập $A$?",
+    "options": [
+      "$(-\\infty;2)$",
+      "$(-2;+\\infty)$",
+      "$(-4;+\\infty)$",
+      "$(-\\infty;+\\infty)$"
+    ],
+    "answer": 1,
+    "explain": "Ta thấy $(-2; +\\infty) \\subset (-3; +\\infty)$ vì $-2 &gt; -3$."
   }
 ];

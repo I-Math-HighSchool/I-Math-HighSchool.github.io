@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H41 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0H41 = [
   {
@@ -75,5 +75,77 @@ window.tracNghiem0H41 = [
     ],
     "answer": 2,
     "explain": "Ta có $a=\\cos30^\\circ=\\dfrac{\\sqrt{3}}{2}$."
+  },
+  {
+    "id": "0H412TN7",
+    "question": "Với mọi góc $\\alpha$ thỏa mãn $ 0^\\circ &lt;\\alpha &lt;180^\\circ$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$\\sin\\left(180^\\circ-\\alpha\\right)=-\\cos\\alpha $",
+      "$\\sin\\left(180^\\circ-\\alpha\\right)=-\\sin\\alpha $",
+      "$\\cos\\left(180^\\circ-\\alpha\\right)=\\sin\\alpha $",
+      "$\\cos\\left(180^\\circ-\\alpha\\right)=-\\cos\\alpha $"
+    ],
+    "answer": 3,
+    "explain": "$\\cos\\left(180^\\circ-\\alpha\\right)=-\\cos\\alpha $."
+  },
+  {
+    "id": "0H412TN8",
+    "question": "Cho biết $\\tan\\alpha=\\dfrac{1}{3}$. Tính $\\cot\\alpha$.",
+    "options": [
+      "$\\cot\\alpha=\\dfrac{1}{4}$",
+      "$\\cot\\alpha=3$",
+      "$\\cot\\alpha=\\sqrt{3}$",
+      "$\\cot\\alpha=\\dfrac{1}{2}$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\cot \\alpha = \\dfrac{1}{\\tan\\alpha}=\\dfrac{1}{\\dfrac{1}{3}}=3$."
+  },
+  {
+    "id": "0H412TN9",
+    "question": "Cho $0^\\circ\\le x\\le 180^\\circ$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$\\cot\\left(180^\\circ-x\\right)=\\cot x$",
+      "$\\tan\\left(180^\\circ-x\\right)=\\tan x$",
+      "$\\sin\\left(180^\\circ-x\\right)=\\sin x$",
+      "$\\cos\\left(180^\\circ-x\\right)=\\cos x$"
+    ],
+    "answer": 2,
+    "explain": "Đối với hai góc bù nhau, ta có  $\\sin\\left(180^\\circ-x\\right)=\\sin x;$  $\\cos\\left(180^\\circ-x\\right)=-\\cos x;$  $\\tan\\left(180^\\circ-x\\right)=-\\tan x;$  $\\cot\\left(180^\\circ-x\\right)=-\\cot x;$  Vậy $\\sin\\left(180^\\circ-x\\right)=\\sin x$."
+  },
+  {
+    "id": "0H412TN10",
+    "question": "Giá trị của $\\tan 36^\\circ$ bằng",
+    "options": [
+      "$\\cot 54^\\circ$",
+      "$\\cos 54^\\circ$",
+      "$\\sin 54^\\circ$",
+      "$\\tan 54^\\circ$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $36^\\circ+54^\\circ=90^\\circ$. <br>  Với hai góc phụ nhau, ta có $\\tan x=\\cot (90^\\circ-x)$. <br>   Do đó, $\\tan 36^\\circ=\\cot 54^\\circ$."
+  },
+  {
+    "id": "0H412TN11",
+    "question": "Đẳng thức nào sau đây <strong>sai</strong>?",
+    "options": [
+      "$\\sin 45^{\\circ}+\\cos 45^{\\circ}=\\sqrt{2}$",
+      "$\\sin 30^{\\circ}+\\cos 60^{\\circ}=1$",
+      "$\\sin 60^{\\circ}+\\cos 150^{\\circ}=0$",
+      "$\\sin 120^{\\circ}+\\cos 30^{\\circ}=0$"
+    ],
+    "answer": 3,
+    "explain": "<br>- $\\sin 45^{\\circ}+\\cos 45^{\\circ} = \\dfrac{\\sqrt{2}}{2} + \\dfrac{\\sqrt{2}}{2} = \\sqrt{2}$ (Đúng).<br>- $\\sin 30^{\\circ}+\\cos 60^{\\circ} = \\dfrac{1}{2} + \\dfrac{1}{2} = 1$ (Đúng).<br>- $\\sin 60^{\\circ}+\\cos 150^{\\circ} = \\dfrac{\\sqrt{3}}{2} + \\left(-\\dfrac{\\sqrt{3}}{2}\\right) = 0$ (Đúng).<br>- $\\sin 120^{\\circ}+\\cos 30^{\\circ} = \\dfrac{\\sqrt{3}}{2} + \\dfrac{\\sqrt{3}}{2} = \\sqrt{3} \\ne 0$ (Sai)."
+  },
+  {
+    "id": "0H412TN12",
+    "question": "Cho góc $\\alpha$ là góc tù. Mệnh đề nào sau đây là đúng?",
+    "options": [
+      "$\\sin \\alpha &lt; 0$",
+      "$\\cos \\alpha &lt; 0$",
+      "$\\tan \\alpha &gt; 0$",
+      "$\\cot \\alpha &gt; 0$"
+    ],
+    "answer": 1,
+    "explain": "Vì $\\alpha$ là góc tù ($90^\\circ &lt; \\alpha &lt; 180^\\circ$) nên điểm biểu diễn trên đường tròn lượng giác thuộc góc phần tư thứ II.  Do đó $\\sin\\alpha &gt; 0$, $\\cos\\alpha &lt; 0$, $\\tan\\alpha &lt; 0$, $\\cot\\alpha &lt; 0$."
   }
 ];

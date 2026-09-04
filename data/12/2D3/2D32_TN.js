@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D32 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2D32 = [
   {
     "id": "2D322TN1",
@@ -286,5 +291,17 @@ window.tracNghiem2D32 = [
     ],
     "answer": 2,
     "explain": "Ta có cỡ mẫu $n=10+6+15+19+25=75$. <br>  Ta tính giá trị đại diện của mẫu số liệu  <br><img src=\"data/12/2D3/im2D32/dlts_12_DLTS38_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị trung bình của mẫu số liệu là $\\overline{x}=\\dfrac{15\\cdot 10+25\\cdot 6+35\\cdot 15+45\\cdot 19+55\\cdot 25}{75}=\\dfrac{611}{15}\\approx 40{,}73$. <br>  Phương sai của mẫu số liệu là  $s^2=\\dfrac{1}{75}\\cdot \\left(10\\cdot 15^2+6\\cdot 25^2+15\\cdot 35^2+19\\cdot 45^2+25\\cdot 55^2\\right)-\\left(\\dfrac{611}{15}\\right)^2\\approx 187{,}13.$"
+  },
+  {
+    "id": "2D322TN25",
+    "question": "Cho mẫu số liệu ghép nhóm có phương sai bằng $32$. Độ lệch chuẩn của mẫu số liệu trên là",
+    "options": [
+      "$1024$",
+      "$4\\sqrt{2}$",
+      "$16$",
+      "$4\\sqrt{3}$"
+    ],
+    "answer": 1,
+    "explain": "Mẫu số liệu ghép nhóm có phương sai bằng $32$ suy ra độ lệch chuẩn của mẫu số liệu trên là $\\sqrt{32}=4\\sqrt{2}$."
   }
 ];

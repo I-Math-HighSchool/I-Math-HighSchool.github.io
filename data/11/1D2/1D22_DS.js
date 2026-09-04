@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D22 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D22 = [
   {
@@ -164,5 +164,51 @@ window.dungSai1D22 = [
       }
     ],
     "explain": "<br>- Số hạng thứ $5$ là $u_5 = u_1 + 4d = -5 + 4\\cdot3 = 7 \\ne 11$.<br>- $u_n = u_1 + (n-1)d = -5 + 3(n-1) = 3n - 8$.<br>- Xét $3n - 8 = 2025 \\Leftrightarrow 3n = 2\\,033$. Vì $2\\,033$ không chia hết cho 3 nên không tồn tại $n \\in \\mathbb{N}^*$.<br>- $S = \\sum\\limits_{k=26}^{50} u_k$. Ta có $u_{26} = 3\\cdot26-8 = 70$; $u_{50} = 3\\cdot50-8 = 142$.<br>  Số số hạng là $50 - 26 + 1 = 25$. <br>  Tổng $S = \\dfrac{25}{2}\\cdot(70 + 142) = \\dfrac{25}{2}\\cdot212 = 25 \\cdot 106 = 2\\,650 \\ne 2\\,660$."
+  },
+  {
+    "id": "1D225DS1",
+    "question": "Một công ty có chế độ đãi ngộ cho nhân viên gắn bó với công ty, quy tắc trả tiền lương như sau, tháng đầu tiên vào làm việc bất kì nhân viên nào cũng được trả mức lương cơ bản $400\\$ một tháng, các tháng làm việc tiếp theo, ngoài lương cơ bản này, nhân viên còn nhận được một khoảng tiền thưởng $20\\$ nhiều hơn số tiền mà họ nhận được ở tháng trước đó. Gọi $u_n$ $(\\$)$ là số tiền lương và thưởng mà nhân viên nhận được ở tháng thứ $n$. Khi đó:",
+    "subQuestions": [
+      {
+        "text": "Dãy số $(u_n)$ là cấp số cộng có $u_1 = 400$ và $d = 20$",
+        "answer": true
+      },
+      {
+        "text": "Lương và thưởng người này nhận được ở tháng thứ sáu là $500\\$",
+        "answer": true
+      },
+      {
+        "text": "Nhân viên A của công ty vào làm đủ 6 tháng thì tổng số tiền mà anh ta nhận được là $3\\,000\\$",
+        "answer": false
+      },
+      {
+        "text": "Nhân viên B của công ty này vào làm ở tháng $1$, anh ta đã kí cam kết xin ứng trước tiền lương $4$ tháng, tuy nhiên đến hết tháng $12$ thì anh ta mới được phép nhận tất cả tiền lương thưởng còn lại, anh ta nhẩm tính rằng mình sẽ nhận được $4\\,400\\$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Hiển nhiên vì tiền lương tháng sau bằng tổng tiền lương tháng trước đó cộng với $20\\$.<br>- Ta có  \\[u_6 = u_1 + 5d = 400 + 5\\cdot20 = 500.\\]  Vậy lương và thưởng của người này nhận được ở tháng thứ sáu là $500\\$.<br>- Ta có  \\[S_6 = \\dfrac{6}{2} (u_1 + u_6) = 3 \\cdot (400 + 500) = 3 \\cdot 900 = 2\\,700.\\]  Vậy tổng số tiền khi nhân viên A của công ty làm đủ 6 tháng là $2\\,700\\$.<br>- Tính $S_4 = \\dfrac{4}{2}(u_1 + u_4) = 2 \\cdot (400 + 3\\cdot20 + 400) = 1\\,720$.<br>  Và $S_{12} = \\dfrac{12}{2} (u_1 + u_{12}) = 6 \\cdot (400 + 11\\cdot20 + 400) = 6\\,120$.<br>  Vậy số tiền lương thưởng còn lại mà nhân viên B nhận được là   \\[6\\,120 - 1\\,720 = 4\\,400.\\]"
+  },
+  {
+    "id": "1D224DS3",
+    "question": "Cho cấp số cộng $(u_n)$ có tổng $n$ số hạng đầu tiên là $S_n=n^2+3n$.",
+    "subQuestions": [
+      {
+        "text": "$S_1=4;S_2=8$",
+        "answer": false
+      },
+      {
+        "text": "Cấp số cộng $(u_n)$ có $u_1=4$ và công sai $d=2$",
+        "answer": true
+      },
+      {
+        "text": "Số hạng tổng quát của cấp số cộng là $u_n=2+2n$",
+        "answer": true
+      },
+      {
+        "text": "Số $46$ là số hạng thứ $20$ của cấp số cộng",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có $S_n=n^2+3n$.  <br>- $S_1=1^2+3\\cdot1=4$ và $S_2=2^2+3\\cdot2=10$.<br>- Ta có $u_1=S_1=4$; $u_2=S_2-S_1=10-4=6$.  Công sai $d=u_2-u_1=6-4=2$.<br>- Số hạng tổng quát của cấp số cộng là \\[u_n=u_1+(n-1)d=4+(n-1)2=4+2n-2=2n+2.\\]<br>- Xét $u_n=46\\Leftrightarrow 2n+2=46\\Leftrightarrow 2n=44\\Leftrightarrow n=22$.<br>  Vậy $46$ là số hạng thứ $22$ của cấp số cộng."
   }
 ];

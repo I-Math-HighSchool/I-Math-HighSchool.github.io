@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D21 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D21 = [
   {
@@ -195,5 +195,53 @@ window.tracNghiem1D21 = [
     ],
     "answer": 3,
     "explain": "Ta có $u_1=-\\dfrac{1}{2}$; $u_2=-\\dfrac{2}{3}$; $u_3=-\\dfrac{3}{4}$; $u_4=-\\dfrac{4}{5}$; $u_5=-\\dfrac{5}{6}$."
+  },
+  {
+    "id": "1D212TN17",
+    "question": "Cho dãy số $\\left(u_n \\right)$ với $u_n=\\dfrac{-1}{n+1}, \\forall n\\in \\mathbb{N}^*$. Giá trị của $u_3$ là",
+    "options": [
+      "$-\\dfrac{1}{3}$",
+      "$-4$",
+      "$-\\dfrac{1}{4}$",
+      "$-\\dfrac{1}{2}$"
+    ],
+    "answer": 2,
+    "explain": "$u_3=\\dfrac{-1}{3+1}=-\\dfrac{1}{4}$."
+  },
+  {
+    "id": "1D212TN2",
+    "question": "Cho dãy số $(u_n)$, biết rằng $u_1 = -2 \\text{ và } u_{n + 1} = \\left(u_n\\right)^2 + 1.$ Ba số hạng đầu tiên trong dãy số này là",
+    "options": [
+      "$-2$; $5$; $26$",
+      "$2$; $5$; $26$",
+      "$-2$; $-1$; $0$",
+      "$-2$; $4$; $16$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $u_2 = (u_1)^2 + 1 = (-2)^2 + 1 = 5$.<br>  Suy ra $u_3 = (u_2)^2 + 1 = (5)^2 + 1 = 26$.<br>  Vậy ba số hạng đầu tiên trong dãy số này là $-2$; $5$; $26$."
+  },
+  {
+    "id": "1D212TN3",
+    "question": "Cho dãy số $\\left(u_{n}\\right)$ với $u_n = \\dfrac{n + 1}{n}$, khi đó số hạng thứ $5$ trong dãy số này là",
+    "options": [
+      "$\\dfrac{5}{6}$",
+      "$\\dfrac{5}{4}$",
+      "$\\dfrac{6}{5}$",
+      "$\\dfrac{4}{5}$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $u_5 = \\dfrac{5 + 1}{5} = \\dfrac{6}{5}$."
+  },
+  {
+    "id": "1D212TN18",
+    "question": "Cho dãy số $(u_n)$ với $\\begin{cases}u_1=5\\\\u_{n+1}=2u_n+1  \\end{cases}$. Tìm giá trị của $u_2$.",
+    "options": [
+      "$u_2=10$",
+      "$u_2=4$",
+      "$u_2=9$",
+      "$u_2=11$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $u_2=2u_1+1=2\\cdot 5+1=11$."
   }
 ];

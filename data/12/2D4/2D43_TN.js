@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §3. Ứng dụng thực tế và hình học của tích phân - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/CD3.1-CD3.5.tex (gộp) (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 2D43 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D43 = [
   {
@@ -1084,5 +1083,65 @@ window.tracNghiem2D43 = [
     ],
     "answer": 3,
     "explain": "Hoành độ giao điểm của đồ thị hàm số $y=f(x)$ và trục hoành là nghiệm của phương trình  $3x^2+2x-1=0\\Leftrightarrow x=-1 \\text{ hoặc } x=\\dfrac{1}{3}.$  Diện tích hình phẳng giới hạn bởi đồ thị hàm số và trục hoành là  $S=\\displaystyle\\int\\limits_{-1}^{\\tfrac{1}{3}} \\left|3x^2+2x-1\\right|\\mathrm{\\,d}x=\\dfrac{32}{27}.$"
+  },
+  {
+    "id": "2D431TN91",
+    "question": "Cho hình phẳng $(H)$ giới hạn bởi đồ thị hai hàm số $y = x^3 - x$, $y = 3x$ và hai đường thẳng $x = 1$, $x = 3$. Diện tích của $(H)$ được tính bằng công thức:",
+    "options": [
+      "$S = \\displaystyle \\int\\limits_1^3\\left(x^3 - 4x\\right)^2\\,\\mathrm{d}x$",
+      "$S = \\displaystyle \\int\\limits_1^3\\left(4x - x^3\\right)\\,\\mathrm{d}x$",
+      "$S = \\displaystyle \\int\\limits_1^3\\left(x^3 - 4x\\right)\\,\\mathrm{d}x$",
+      "$S = \\displaystyle \\int\\limits_1^3\\left|x^3 - 4x\\right|\\,\\mathrm{d}x$"
+    ],
+    "answer": 3,
+    "explain": "Diện tích hình phẳng được giới hạn giữa hai đồ thị là  \\[  S = \\displaystyle \\int\\limits_1^3 \\left| (x^3 - x) - 3x \\right|\\,\\mathrm{d}x = \\displaystyle \\int\\limits_1^3 \\left| x^3 - 4x \\right|\\,\\mathrm{d}x.  \\]"
+  },
+  {
+    "id": "2D431TN92",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y = f(x)$, $y = 0$, $x = -1$ và $x = 5$ như hình vẽ. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$S = \\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x + \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$",
+      "$S = -\\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x - \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$",
+      "$S = \\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x - \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$",
+      "$S = -\\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x + \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$"
+    ],
+    "answer": 2,
+    "explain": "Diện tích hình phẳng giới hạn bởi các đường $y = f(x)$, $y = 0$, $x = -1$ và $x = 5$ là   \\[  S = \\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x - \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x.  \\]"
+  },
+  {
+    "id": "2D433TN5",
+    "question": "Tính thể tích khối tròn xoay tạo thành khi cho hình phẳng giới hạn bởi đồ thị hàm số $f(x) = 2\\sqrt{x}$, trục hoành và hai đường thẳng $x = 0$, $x = 2$ quay quanh trục $Ox$.",
+    "options": [
+      "$4\\pi \\displaystyle \\int \\limits_0^2 x\\,\\mathrm{d}x$",
+      "$2\\pi \\displaystyle \\int \\limits_0^2 \\sqrt{x}\\,\\mathrm{d}x$",
+      "$2\\pi \\displaystyle \\int \\limits_0^2 x\\,\\mathrm{d}x$",
+      "$\\pi \\displaystyle \\int \\limits_0^2 \\sqrt{x}\\,\\mathrm{d}x$"
+    ],
+    "answer": 0,
+    "explain": "Ta có  \\[V= \\displaystyle \\pi \\int \\limits_0^2 \\left(2\\sqrt{x}\\right)^2 \\ \\mathrm{d}x=\\pi \\int \\limits_0^2 4x \\ \\mathrm{d}x=4\\pi \\int \\limits_0^2 x \\ \\mathrm{d} x.\\]"
+  },
+  {
+    "id": "2D431TN93",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a; b]$. Diện tích hình phẳng được giới hạn bởi đồ thị của $f(x)$, trục hoành và hai đường thẳng $x=a$, $x=b$ được tính theo công thức",
+    "options": [
+      "$S=\\displaystyle\\int\\limits_a^b|f(x)|\\mathrm{\\,d}x$",
+      "$S=\\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$",
+      "$S=\\displaystyle\\int\\limits_a^b f^2(x)\\mathrm{\\,d}x$",
+      "$S=\\pi \\displaystyle\\int\\limits_a^b[f(x)]^2\\mathrm{\\,d}x$"
+    ],
+    "answer": 0,
+    "explain": "Diện tích hình phẳng được giới hạn bởi đồ thị của $f(x)$, trục hoành và hai đường thẳng $x=a$, $x=b$ được tính theo công thức $S=\\displaystyle\\int\\limits_a^b|f(x)|\\mathrm{\\,d}x$."
+  },
+  {
+    "id": "2D433TN7",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a; b]$, gọi $\\mathscr{D}$ là hình phẳng giới hạn bởi các đường $y=f(x)$, $y=0$ và $x=a$, $x=b$. Quay hình $\\mathscr{D}$ quanh trục $Ox$ ta được khối tròn xoay có thể tích bằng",
+    "options": [
+      "$V=\\pi \\displaystyle\\int\\limits_a^b[f(x)]^2\\mathrm{\\,d}x$",
+      "$V=\\displaystyle\\int\\limits_a^b\\big|f(x)\\big|^2\\mathrm{\\,d}x$",
+      "$V=\\pi \\displaystyle\\int\\limits_a^b\\big|f(x)\\big|\\mathrm{\\,d}x$",
+      "$V=\\displaystyle\\int\\limits_a^b\\big|f(x)\\big|\\mathrm{\\,d}x$"
+    ],
+    "answer": 0,
+    "explain": "Quay hình $\\mathscr{D}$ quanh trục $Ox$ ta được khối tròn xoay có thể tích bằng$V=\\pi \\displaystyle\\int\\limits_a^b[f(x)]^2\\mathrm{\\,d}x$."
   }
 ];

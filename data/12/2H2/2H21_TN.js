@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H21 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2H21 = [
   {
     "id": "2H213TN1",
@@ -1090,5 +1095,41 @@ window.tracNghiem2H21 = [
     ],
     "answer": 2,
     "explain": "Theo quy tắc hình hộp ta có $\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}$."
+  },
+  {
+    "id": "2H212TN2",
+    "question": "Trong không gian $Oxyz$, cho $\\overrightarrow{a}=-2\\overrightarrow{i}+\\overrightarrow{j}-5\\overrightarrow{k}$. Tọa độ của véc-tơ $\\overrightarrow{a}$ là",
+    "options": [
+      "$(1;-2;-5)$",
+      "$(2; 1;-5)$",
+      "$(2;-1; 5)$",
+      "$(-2; 1;-5)$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\overrightarrow{a}=-2\\overrightarrow{i}+\\overrightarrow{j}-5\\overrightarrow{k}\\Rightarrow \\overrightarrow{a}=(-2; 1;-5)$."
+  },
+  {
+    "id": "2H212TN91",
+    "question": "Trong không gian $Oxyz$, cho $\\overrightarrow{a}=(2;-3; 3)$, $\\overrightarrow{b}=(0; 2;-1)$, $\\overrightarrow{c}=(3;-1; 5)$. Tọa độ của véc-tơ $\\overrightarrow{u}=2\\overrightarrow{a}+3\\overrightarrow{b}-2\\overrightarrow{c}$ là",
+    "options": [
+      "$(10;-2; 13)$",
+      "$(-2; 2; 7)$",
+      "$(-2;-2; 7)$",
+      "$(-2; 2;-7)$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\overrightarrow{u}=2\\overrightarrow{a}+3\\overrightarrow{b}-2\\overrightarrow{c}=(-2; 2;-7)$."
+  },
+  {
+    "id": "2H211TN4",
+    "question": "Cho tứ diện $ABCD$. Phát biểu nào sau đây là <strong>sai</strong>?",
+    "options": [
+      "$\\overrightarrow{BA}+\\overrightarrow{AB}=\\overrightarrow 0$",
+      "$\\overrightarrow{DA}+\\overrightarrow{DB}=\\overrightarrow 0$",
+      "$\\overrightarrow{BA}+\\overrightarrow{AC}=\\overrightarrow{BC}$",
+      "$\\overrightarrow{AD}-\\overrightarrow{AC}=\\overrightarrow{CD}$"
+    ],
+    "answer": 1,
+    "explain": "$\\overrightarrow{DA}+\\overrightarrow{DB}=\\overrightarrow 0$ là phát biểu sai."
   }
 ];

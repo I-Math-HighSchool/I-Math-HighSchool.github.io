@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §2. Cực trị của hàm số - Trả lời ngắn
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.2-CucTri.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 2D12 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D12 = [
   {

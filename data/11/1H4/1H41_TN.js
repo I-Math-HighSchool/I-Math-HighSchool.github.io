@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1H41 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H41 = [
   {
@@ -219,5 +219,41 @@ window.tracNghiem1H41 = [
     ],
     "answer": 3,
     "explain": "<br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $M$ là điểm chung thứ nhất của hai mặt phẳng $(MBC)$ và $(SAD)$. <br>  Mặt khác: $\\begin{cases} (MBC) \\supset BC \\\\ (SAD) \\supset AD \\\\ BC \\parallel AD \\text{ (giả thiết hình thang)} \\end{cases}$ <br>  Suy ra giao tuyến của hai mặt phẳng là đường thẳng đi qua $M$ và song song với $AD$. <br>  Trong tam giác $SAD$, gọi $N$ là trung điểm của $SD$. Khi đó $MN$ là đường trung bình của tam giác $SAD$ nên $MN \\parallel AD$. <br>  Vậy giao tuyến cần tìm là $MN$."
+  },
+  {
+    "id": "1H415TN13",
+    "question": "Một hình chóp với đáy là một ngũ giác có số mặt và số cạnh là",
+    "options": [
+      "$6$ mặt, $5$ cạnh",
+      "$6$ mặt, $10$ cạnh",
+      "$5$ mặt, $5$ cạnh",
+      "$5$ mặt, $10$ cạnh"
+    ],
+    "answer": 1,
+    "explain": "Một hình chóp với đáy là một ngũ giác có số mặt và số cạnh là $6$ mặt, $10$ cạnh."
+  },
+  {
+    "id": "1H411TN2",
+    "question": "Trong không gian, khẳng định nào dưới đây đúng và đầy đủ nhất",
+    "options": [
+      "Qua $3$ điểm phân biệt bất kì, có duy nhất một mặt phẳng",
+      "Qua $4$ điểm phân biệt bất kì, có duy nhất một mặt phẳng",
+      "Qua $3$ điểm không thẳng hàng, có duy nhất một mặt phẳng",
+      "Qua $2$ điểm phân biệt bất kì, có duy nhất một mặt phẳng"
+    ],
+    "answer": 2,
+    "explain": "Qua $3$ điểm không thẳng hàng, có duy nhất một mặt phẳng."
+  },
+  {
+    "id": "1H415TN14",
+    "question": "Cho hình chóp $S.ABCDEF$ như hình vẽ.  <br><img src=\"data/11/1H4/im1H41/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hình chóp đã cho có bao nhiêu mặt?",
+    "options": [
+      "$4$",
+      "$6$",
+      "$7$",
+      "$5$"
+    ],
+    "answer": 2,
+    "explain": "Hình chóp đã cho có $7$ mặt."
   }
 ];

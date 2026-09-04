@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 2D43 - Trả lời ngắn (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 2D43 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D43 = [
   {
@@ -146,5 +147,17 @@ window.traLoiNgan2D43 = [
     "question": "Một khối tròn xoay được tạo thành khi quay hình phẳng $(H)$ (phần màu xám trong hình vẽ) quanh trục $AB$. Miền $(H)$ được giới hạn bởi đường tròn đường kính $AB$ và cung tròn tâm $A$ biết rằng $AB=8$ cm và điểm $K$ trong hình vẽ thỏa mãn $AK=3$ cm. Thể tích hình $(H)$ bằng bao nhiêu cm$^3$ (làm tròn kết quả đến hàng đơn vị)<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS38_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "135",
     "explain": "<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS38_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Chọn hệ trục tọa độ $Oxy$ như hình vẽ với $O$ là trung điểm $AB$ thì $A(-4;0), B(4;0), K(-1;0)$.<br>  Khi đó $OK=1 \\Rightarrow CK=\\sqrt{OC^2-OK^2}=\\sqrt{15} \\Rightarrow AC=\\sqrt{AK^2+CK^2}=2\\sqrt{6}$.<br>  Suy ra $OD=2\\sqrt{6}-4 \\Rightarrow D(2\\sqrt{6}-4;0)$.<br>  Phương trình đường tròn đường kính $AB\\colon x^2+y^2=16$.<br>  Do đó, nửa nằm trên $O x$ có phương trình $y=\\sqrt{16-x^2}\\quad\\left(C_1\\right)$.<br>  Phương trình đường tròn tâm $A$ bán kính $AC$ là: $(x+4)^2+y^2=24$.<br>  Suy ra, nửa nằm trên $Ox$ có phương trình $y=\\sqrt{24-(x+4)^2}\\quad\\left(C_2\\right)$.<br>  Vậy thể tích của vật trang trí đó là $\\displaystyle V=\\pi \\int\\limits_{-1}^4\\left(\\sqrt{16-x^2}\\right)^2 \\mathrm{~d} x-\\pi \\int\\limits_{-1}^{2 \\sqrt{6}-4}\\left(\\sqrt{24-(x+4)^2}\\right)^2 \\mathrm{~d} x \\approx 135 \\mathrm{~cm}^3$."
+  },
+  {
+    "id": "2D433TL2",
+    "question": "Cho hình phẳng $(H)$ giới hạn bởi đồ thị các hàm số $y=\\sqrt{2-x}, y=x$ và trục hoành. Tính thể tích khối tròn xoay khi cho $(H)$ quay xung quanh trục $O x$. Ghi kết quả được làm tròn đến hàng phần trăm.  <br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_THPT_Chu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "2{,}62",
+    "explain": "Tính thể tích khối tròn xoay khi cho $(H)$ quay xung quanh trục $Ox$.  $V=\\pi \\displaystyle\\int\\limits_0^1 x^2 \\mathrm{\\,d}x+\\pi \\displaystyle\\int\\limits_1^2 \\left(\\sqrt{2-x}\\right)^2 \\mathrm{\\,d}x \\approx 2{,}62.$"
+  },
+  {
+    "id": "2D431TL3",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $[2;3]$ có đồ thị như hình vẽ. Biết $\\displaystyle\\int\\limits_{-2}^1 f(x) \\mathrm{\\,d}x=5$ và diện tích $S=2$. Tính $\\displaystyle\\int\\limits_{-2}^3 f(x) \\mathrm{\\,d}x$.  <br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_THPT_Chu_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "3",
+    "explain": "Ta có $S=\\displaystyle\\int\\limits_1^3 \\left| f(x) \\right| \\mathrm{\\,d}x =\\displaystyle\\int\\limits_1^3 \\left( -f(x) \\right) \\mathrm{\\,d}x = - \\displaystyle\\int\\limits_1^3 f(x) \\mathrm{\\,d}x=2 \\Rightarrow \\displaystyle\\int\\limits_1^3 f(x) \\mathrm{\\,d}x=-2$.<br>  Suy ra $\\displaystyle\\int\\limits_{-2}^3 f(x) \\mathrm{\\,d}x= \\displaystyle\\int\\limits_{-2}^1 f(x) \\mathrm{\\,d}x + \\displaystyle\\int\\limits_1^3 f(x) \\mathrm{\\,d}x=5-2=3$."
   }
 ];

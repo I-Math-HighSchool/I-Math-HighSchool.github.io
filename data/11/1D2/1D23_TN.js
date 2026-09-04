@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D23 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D23 = [
   {
@@ -135,5 +135,29 @@ window.tracNghiem1D23 = [
     ],
     "answer": 2,
     "explain": "Ta có $u_4=81 \\text{ và } u_5=-9$ nên $q=\\dfrac{u_5}{u_4}=\\dfrac{-9}{81}=-\\dfrac{1}{9}$."
+  },
+  {
+    "id": "1D232TN11",
+    "question": "Ông Bình cần khoan một cái giếng sau nhà. Biết rằng giá của một mét khoan đầu tiên là $200\\,000$ đồng và kể từ mét khoan thứ hai, giá của mỗi mét khoan sau tăng thêm $8\\%$ so với giá của mét khoan ngay trước đó. Hỏi nếu khoan $20$ mét thì ông Bình phải trả bao nhiêu tiền? <em>(kết quả được làm tròn đến hàng đơn vị)</em>.",
+    "options": [
+      "$8\\,236\\,895$ đồng",
+      "$10\\,653\\,211$ đồng",
+      "$9\\,152\\,393$ đồng",
+      "$7\\,178\\,900$ đồng"
+    ],
+    "answer": 2,
+    "explain": "Giá tiền khoan $n$ mét là cấp số nhân $u_n$ với số hạng đầu $u_1=200\\,000$, công bội $q=108\\%=1{,}08$.<br>   Vậy giá tiền khoan $20$ mét là $S_{20}=\\dfrac{200\\,000(1-1{,}08^{20})}{1-1{,}08}\\approx 9\\,152\\,393$."
+  },
+  {
+    "id": "1D232TN12",
+    "question": "Tứ giác $ABCD$ có số đo bốn góc tạo thành cấp số nhân với công bội là $q=2$. Góc lớn nhất của tứ giác có số đo bằng bao nhiêu độ?",
+    "options": [
+      "$129^{\\circ}$",
+      "$180^{\\circ}$",
+      "$24^{\\circ}$",
+      "$192^{\\circ}$"
+    ],
+    "answer": 3,
+    "explain": "Gọi số đo bốn góc của tứ giác (tính bằng độ) lần lượt là $u_1, u_2, u_3, u_4$.  Vì chúng tạo thành cấp số nhân với công bội $q=2$, ta có:  $u_1, u_2=2u_1, u_3=4u_1, u_4=8u_1$.  Tổng số đo bốn góc của một tứ giác bằng $360^{\\circ}$, nên ta có:  $u_1+u_2+u_3+u_4=360$  $\\Leftrightarrow u_1+2u_1+4u_1+8u_1=360$  $\\Leftrightarrow 15u_1=360$  $\\Leftrightarrow u_1=24.$  Vậy góc lớn nhất là $u_4=8u_1=8\\cdot 24=192^{\\circ}$."
   }
 ];

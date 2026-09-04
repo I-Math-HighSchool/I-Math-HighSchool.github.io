@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D15 = [
   {
@@ -963,5 +963,53 @@ window.tracNghiem1D15 = [
     ],
     "answer": 0,
     "explain": "Ta có   $2\\sin 3x + \\sqrt{3} = 0 \\Leftrightarrow \\sin 3x = -\\dfrac{\\sqrt{3}}{2} = \\sin\\left(-\\dfrac{\\pi}{3}\\right)$<br>$\\Leftrightarrow 3x = -\\dfrac{\\pi}{3} + k2\\pi \\text{ hoặc } 3x = \\pi - \\left(-\\dfrac{\\pi}{3}\\right) + k2\\pi (k \\in \\mathbb{Z})$<br>$\\Leftrightarrow 3x = -\\dfrac{\\pi}{3} + k2\\pi \\text{ hoặc } 3x = \\dfrac{4\\pi}{3} + k2\\pi$<br>$\\Leftrightarrow x = -\\dfrac{\\pi}{9} + k\\dfrac{2\\pi}{3} \\text{ hoặc } x = \\dfrac{4\\pi}{9} + k\\dfrac{2\\pi}{3} (k \\in \\mathbb{Z}).$"
+  },
+  {
+    "id": "1D153TN79",
+    "question": "Nghiệm của phương trình $\\sin x=1$ là",
+    "options": [
+      "$x=k \\pi, k \\in \\mathbb{Z}$",
+      "$x=k \\pi, k \\in \\mathbb{Z}$",
+      "$x=\\dfrac{\\pi}{2}+k \\pi, k \\in \\mathbb{Z}$",
+      "$x=\\dfrac{\\pi}{2}+k 2\\pi, k \\in \\mathbb{Z}$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\sin x=1\\Leftrightarrow x=\\dfrac{\\pi}{2}+k 2\\pi, k \\in \\mathbb{Z}$."
+  },
+  {
+    "id": "1D153TN80",
+    "question": "Nghiệm của phương trình $\\cos x=0$ là",
+    "options": [
+      "$x=k \\pi, k \\in \\mathbb{Z}$",
+      "$x=k 2\\pi, k \\in \\mathbb{Z}$",
+      "$x=\\dfrac{\\pi}{2}+k \\pi, k \\in \\mathbb{Z}$",
+      "$x=\\dfrac{\\pi}{2}+k 2\\pi, k \\in \\mathbb{Z}$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\cos x=0\\Leftrightarrow x=\\dfrac{\\pi}{2}+k \\pi, k \\in \\mathbb{Z}$."
+  },
+  {
+    "id": "1D154TN3",
+    "question": "Phương trình $\\cot{(4x-20^{\\circ})}=\\dfrac{1}{\\sqrt{3}}$ có họ nghiệm là",
+    "options": [
+      "$x=35^{\\circ}+k90^{\\circ},k\\in \\mathbb{Z}$",
+      "$x=30^{\\circ}+k45^{\\circ},k\\in \\mathbb{Z}$",
+      "$x=20^{\\circ}+k90^{\\circ},k\\in \\mathbb{Z}$",
+      "$x=20^{\\circ}+k45^{\\circ},k\\in \\mathbb{Z}$"
+    ],
+    "answer": 3,
+    "explain": "$\\cot{(4x-20^{\\circ})}=\\dfrac{1}{\\sqrt{3}}$<br>$\\Leftrightarrow 4x-20^{\\circ}=60^{\\circ}+k180^{\\circ}$<br>$\\Leftrightarrow 4x=80^{\\circ}+k180^{\\circ}$<br>$\\Leftrightarrow x=20^{\\circ}+k45^{\\circ}(k\\in \\mathbb{Z}).$"
+  },
+  {
+    "id": "1D153TN6",
+    "question": "Phương trình $\\cos x=\\dfrac{1}{5}$ có bao nhiêu nghiệm trên đoạn $\\left[\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$?",
+    "options": [
+      "$0$",
+      "$1$",
+      "Vô số",
+      "$2$"
+    ],
+    "answer": 0,
+    "explain": "Trên đoạn $\\left[\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$, ta có $\\cos x\\le 0$.  Mà $\\dfrac{1}{5}&gt;0$.  Do đó, phương trình $\\cos x=\\dfrac{1}{5}$ vô nghiệm trên đoạn $\\left[\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$."
   }
 ];

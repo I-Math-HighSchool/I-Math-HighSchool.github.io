@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D12 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D12 = [
   {
@@ -187,5 +187,28 @@ window.dungSai1D12 = [
       }
     ],
     "explain": "Ta có $\\sin^2 x=1-\\cos^2 x=1-\\left(-\\dfrac{3}{5}\\right)^2=\\dfrac{16}{25}$.<br>  Vì $\\dfrac{\\pi}{2}&lt;x&lt;\\pi$ nên $\\sin x=\\dfrac{4}{5}$.   <br>- <strong>Sai</strong>. Vì $\\cot x=\\dfrac{\\cos x}{\\sin x}=-\\dfrac{3}{4}$.<br>- <strong>Sai</strong>. Vì $\\tan x=\\dfrac{\\sin x}{\\cos x}=-\\dfrac{4}{3}$.<br>- <strong>Sai</strong>. Vì $\\sin x=\\dfrac{4}{5}$.<br>- <strong>Đúng</strong>. Vì $\\dfrac{\\pi}{2}&lt;x&lt;\\pi$ nên $\\sin x&gt;0$."
+  },
+  {
+    "id": "1D124DS1",
+    "question": "Cho góc lượng giác $\\alpha$ thỏa mãn $\\tan \\alpha=3$.",
+    "subQuestions": [
+      {
+        "text": "$\\cot \\alpha=\\dfrac{1}{3}$",
+        "answer": true
+      },
+      {
+        "text": "$\\tan (\\alpha+3\\pi)=3+3\\pi$",
+        "answer": false
+      },
+      {
+        "text": "$\\tan (-\\alpha)=-3$",
+        "answer": true
+      },
+      {
+        "text": "$\\cot 2\\alpha=-\\dfrac{4}{3}$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có $\\cot \\alpha=\\dfrac{1}{\\tan\\alpha}=\\dfrac{1}{3}$.<br>- Ta có $\\tan (\\alpha+3\\pi)=\\tan\\alpha$.<br>- Ta có $\\tan (-\\alpha)=-\\tan\\alpha=-3$.<br>- Ta có $\\cot 2\\alpha=\\dfrac{1}{\\tan2\\alpha}=\\dfrac{1-\\tan^2\\alpha}{2\\tan\\alpha}=\\dfrac{1-3^2}{2\\cdot 3}=-\\dfrac{4}{3}$"
   }
 ];

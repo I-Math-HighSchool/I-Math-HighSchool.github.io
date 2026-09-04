@@ -1,8 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: §1. Nguyên hàm - Trắc nghiệm
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/CD1.1-CD1.6.tex (gộp) (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 2D41 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D41 = [
   {
@@ -1360,5 +1359,53 @@ window.tracNghiem2D41 = [
     ],
     "answer": 1,
     "explain": "Phát biểu đúng là $\\displaystyle\\int\\limits \\mathrm{e}^{-3x}\\mathrm{\\,d}x=-\\dfrac{1}{3}\\mathrm{e}^{-3x}+C$."
+  },
+  {
+    "id": "2D411TN114",
+    "question": "Mệnh đề nào sai trong các mệnh đề sau?",
+    "options": [
+      "$\\displaystyle \\int \\dfrac{1}{\\cos^2 x}\\,\\mathrm{d}x = \\tan x + C$",
+      "$\\displaystyle \\int \\dfrac{1}{\\sin^2 x}\\,\\mathrm{d}x = -\\cot x + C$",
+      "$\\displaystyle \\int \\cos x\\,\\mathrm{d}x = \\sin x + C$",
+      "$\\displaystyle \\int \\sin x\\,\\mathrm{d}x = \\cos x + C$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\displaystyle \\int \\sin x\\,\\mathrm{d}x = -\\cos x + C$."
+  },
+  {
+    "id": "2D414TN3",
+    "question": "Họ nguyên hàm của hàm số $f(x) = \\mathrm{e}^{3x}$ là",
+    "options": [
+      "$\\dfrac{1}{3}\\mathrm{e}^x + C$",
+      "$3\\mathrm{e}^x + C$",
+      "$3\\mathrm{e}^{3x} + C$",
+      "$\\dfrac{1}{3}\\mathrm{e}^{3x} + C$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\displaystyle \\int \\mathrm{e}^{3x} \\mathrm{d}x= \\int \\mathrm{e^3}^{x} \\mathrm{d}x=\\dfrac{\\mathrm{e^3}^{x}}{\\ln \\mathrm{e^3}} =\\dfrac{1}{3}\\mathrm{e}^{3x}+C$."
+  },
+  {
+    "id": "2D413TN4",
+    "question": "Họ nguyên hàm của hàm số $f(x)=4x^3+\\dfrac{1}{\\cos ^2x}$ là",
+    "options": [
+      "$x^4-\\cot x+C$",
+      "$x^4+\\cot x+C$",
+      "$x^4+\\tan x+C$",
+      "$x^4-\\tan x+C$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\displaystyle\\int\\limits f(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits \\left(4x^3+\\dfrac{1}{\\cos ^2x}\\right)\\mathrm{d}x=x^4+\\tan x+C$."
+  },
+  {
+    "id": "2D414TN5",
+    "question": "Một nguyên hàm $F(x)$ của hàm số $f(x)=2^x$ là",
+    "options": [
+      "$F(x)=\\dfrac{2^x}{\\ln 2}+2\\,025$",
+      "$F(x)=2^x+2\\,025$",
+      "$F(x)=2^x \\ln 2$",
+      "$F(x)=\\dfrac{2^x}{\\ln 2}+x$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\displaystyle\\int2^x \\mathrm{\\,d}x=\\dfrac{2^x}{\\ln 2}+C$ nên $F(x)=\\dfrac{2^x}{\\ln 2}+2\\,025$ là một nguyên hàm của hàm số $f(x)$."
   }
 ];

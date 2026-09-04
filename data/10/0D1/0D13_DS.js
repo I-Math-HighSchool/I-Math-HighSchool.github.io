@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D13 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D13 = [
   {
@@ -141,5 +141,74 @@ window.dungSai0D13 = [
       }
     ],
     "explain": "Từ đề bài, ta có $n(A)=19$, $n(B)=15$, $n(A\\cap B)=7$.  <br>- <strong>Đúng</strong>. Số phần tử của tập hợp $A\\cap B$ là $7$.<br>- <strong>Đúng</strong>. Tập $A\\cup B$ là tập tất cả các học sinh có tham gia ít nhất một trong hai câu lạc bộ cầu lông và bóng đá.<br>- <strong>Sai</strong>. Ta có $n(A\\setminus B)=19-7=12$.<br>- <strong>Đúng</strong>. Số học sinh tham gia thể thao mà $n(A\\cup B)=n(A)+n(B)-n(A\\cap B)=19+15-7=27$.<br>  Do đó số học sinh lớp 10A là $27+8=35$."
+  },
+  {
+    "id": "0D134DS4",
+    "question": "Cho hai tập hợp $ A=\\left\\{ x\\in\\mathbb{R}|x\\le 7\\right\\}$ và $ B=\\left[3;7\\right)$.",
+    "subQuestions": [
+      {
+        "text": "$ A=\\left(-\\infty ;7\\right)$",
+        "answer": false
+      },
+      {
+        "text": "$ A\\cup B=B$",
+        "answer": false
+      },
+      {
+        "text": "$ B\\subset A$",
+        "answer": true
+      },
+      {
+        "text": "Tập hợp $ A\\setminus B$ chứa $ 3$ phần tử là số nguyên dương",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- $ A=\\left(-\\infty ;7\\right]$.<br>- $ A\\cup B=A$.<br>- $ B\\subset A$.<br>- Tập hợp $ A\\setminus B=\\left(-\\infty;3\\right)\\cup \\{7\\}$. Suy ra có $3$ phần tử là số nguyên dương."
+  },
+  {
+    "id": "0D133DS2",
+    "question": "Cho hai tập hợp $A = (-3;5]$, $B = (2;+\\infty)$.",
+    "subQuestions": [
+      {
+        "text": "$B = \\{x \\in \\mathbb{R} \\mid x &gt; 2\\}$",
+        "answer": true
+      },
+      {
+        "text": "$A \\cup B = (-3;+\\infty)$",
+        "answer": true
+      },
+      {
+        "text": "$A = \\{x \\in \\mathbb{R} \\mid -3 \\leq x \\leq 5\\}$",
+        "answer": false
+      },
+      {
+        "text": "$A \\cap B = (-3;2]$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có $B = (2; +\\infty) = \\{x \\in \\mathbb{R} \\mid x &gt; 2\\}$.<br>- Ta có $A \\cup B = (-3; +\\infty)$.<br>- Ta có $A = (-3; 5] = \\{x \\in \\mathbb{R} \\mid -3 &lt; x \\leq 5\\}$.<br>- Ta có $A \\cap B = (2; 5]$."
+  },
+  {
+    "id": "0D134DS5",
+    "question": "Cho hai tập hợp $A=\\{x\\in\\mathbb{R} \\mid x+2\\ge0\\}$ và $B=\\{x\\in\\mathbb{R} \\mid 5-x&gt;0\\}$. Xét tính đúng sai của các khẳng định sau:",
+    "subQuestions": [
+      {
+        "text": "$A=[-2;+\\infty)$",
+        "answer": true
+      },
+      {
+        "text": "$A\\cap B=[-2;5)$",
+        "answer": true
+      },
+      {
+        "text": "$A\\setminus B=[5;+\\infty)$",
+        "answer": true
+      },
+      {
+        "text": "$C_{A}(A\\cap B)=(5;+\\infty)$",
+        "answer": false
+      }
+    ],
+    "explain": "Ta có  <br>- $x+2 \\ge 0 \\Leftrightarrow x \\ge -2 \\Rightarrow A=[-2;+\\infty)$.<br>- $5-x &gt; 0 \\Leftrightarrow x &lt; 5 \\Rightarrow B=(-\\infty; 5)$.  Khi đó  <br>- $A=[-2;+\\infty)$.<br>- $A\\cap B = [-2; 5)$.<br>- $A\\setminus B = \\{x \\in A \\mid x \\notin B\\} = [5;+\\infty)$.<br>- $C_{A}(A\\cap B) = A \\setminus (A \\cap B) = A \\setminus B = [5;+\\infty) \\ne (5;+\\infty)$."
   }
 ];

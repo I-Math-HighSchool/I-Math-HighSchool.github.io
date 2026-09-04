@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D15 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.dungSai2D15 = [
   {
     "id": "2D158DS1",
@@ -784,6 +789,29 @@ window.dungSai2D15 = [
   {
     "id": "2D151DS35",
     "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$",
+        "answer": true
+      },
+      {
+        "text": "Giá trị lớn nhất của hàm số trên khoảng $\\left(-\\infty ;3\\right)$ bằng $1$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số có một tiệm cận đứng và một tiệm cận xiên",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số đi qua điểm $M\\left(3;1\\right)$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Đúng.<br>  Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$.<br>- Sai. <br>  Hàm số không có giá trị lớn nhất của hàm số trên khoảng $\\left(-\\infty ;3\\right)$.<br>- Sai. <br>  Đồ thị có tiệm cận đứng $ x=3 $ và không có tiệm cận xiên.<br>- Sai. <br>  Tại $ x=3 $, hàm số không xác định."
+  },
+  {
+    "id": "2D151DS1",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$",

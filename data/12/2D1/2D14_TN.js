@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D14 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2D14 = [
   {
     "id": "2D141TN1",
@@ -994,5 +999,29 @@ window.tracNghiem2D14 = [
     ],
     "answer": 1,
     "explain": "Ta có $\\lim\\limits_{x\\to \\pm \\infty} y=0$.<br>  Đồ thị hàm số $y=\\dfrac{2024}{x-1}$ có tiệm cận ngang là đường thẳng $y=0$."
+  },
+  {
+    "id": "2D141TN2",
+    "question": "Cho hàm số $y=f(x)$ có $\\lim \\limits_ {x\\to-\\infty}f(x)=3$, $\\lim \\limits_{x\\to{2^+}}f(x)=-\\infty $. Mệnh đề nào sau đây đúng?",
+    "options": [
+      "Đồ thị hàm số đã cho có hai tiệm cận ngang",
+      "Đồ thị hàm số đã cho có hai tiệm cận đứng",
+      "Đồ thị hàm số đã cho có tiệm cận ngang là đường thẳng $y=3$",
+      "Đồ thị hàm số đã cho có tiệm cận ngang là đường thẳng $y=2$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\lim \\limits_ {x\\to-\\infty}f(x)=3\\Rightarrow y=3$ là tiệm cận ngang của đồ thị hàm số.<br>  $\\lim \\limits_{x\\to{2^+}}f(x)=-\\infty \\Rightarrow x=2$ là tiệm cận đứng của đồ thị hàm số."
+  },
+  {
+    "id": "2D141TN84",
+    "question": "[Phan Ngọc Hiền - Lớp 12 - Đề cuối học kì 1 - Cà Mau]%[Phạm Văn Long]  Cho hàm số $y=\\dfrac{ax+b}{cx+d},\\,(a, b, c, d \\in \\mathbb{R}$, $c \\neq 0$, $a d-b c \\neq 0)$ có đồ thị là đường cong trong hình bên. Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là<br><img src=\"data/12/2D1/im2D14/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$x=-1$",
+      "$y=-1$",
+      "$y=1$",
+      "$x=1$"
+    ],
+    "answer": 2,
+    "explain": "Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là $y=1$."
   }
 ];

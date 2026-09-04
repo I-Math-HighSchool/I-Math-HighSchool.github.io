@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D11 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D11 = [
   {
@@ -819,5 +819,41 @@ window.tracNghiem1D11 = [
     ],
     "answer": 1,
     "explain": "Số đo bằng độ của cung tròn đó là $\\left(\\dfrac{17\\pi}{6}\\cdot\\dfrac{180}{\\pi}\\right)^{\\circ} = 510^{\\circ}$."
+  },
+  {
+    "id": "1D114TN1",
+    "question": "Trên đường tròn bán kính $5$ (cm), xét một cung có độ dài bằng $10$ (cm). Số đo radian của góc ở tâm chắn cung tròn đó là",
+    "options": [
+      "$5$ (rad)",
+      "$2$ (rad)",
+      "$4$ (rad)",
+      "$3$ (rad)"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\ell =R\\alpha\\Rightarrow \\alpha=\\dfrac{\\ell}{R}=\\dfrac{10}{5}=2$ (rad)."
+  },
+  {
+    "id": "1D112TN68",
+    "question": "Góc có số đo $\\dfrac{2\\pi}{5}(\\mathrm{rad})$ đổi sang độ là",
+    "options": [
+      "$135^{\\circ}$",
+      "$240^{\\circ}$",
+      "$270^{\\circ}$",
+      "$72^{\\circ}$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $\\dfrac{2\\pi}{5}$ (rad) $=72^{\\circ}$."
+  },
+  {
+    "id": "1D115TN4",
+    "question": "Trong hệ tọa độ $Oxy$, cho bốn điểm $A$; $B$; $C$; $D$ nằm trên đường tròn lượng giác như hình vẽ. Khi đó, điểm $B$ biểu diễn các góc lượng giác nào?<br><img src=\"data/11/1D1/im1D11/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$-\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$",
+      "$-\\dfrac{\\pi}{2}+k\\pi(k\\in\\mathbb{Z})$",
+      "$\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$",
+      "$\\dfrac{\\pi}{2}+k\\pi(k\\in\\mathbb{Z})$"
+    ],
+    "answer": 2,
+    "explain": "Điểm $B$ nằm trên phần dương của trục $Oy$, là điểm biểu diễn cho góc $\\dfrac{\\pi}{2}$.<br>  Các góc lượng giác có cùng điểm biểu diễn $B$ là $\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$."
   }
 ];

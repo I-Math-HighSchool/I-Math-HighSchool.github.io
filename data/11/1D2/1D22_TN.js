@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D22 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D22 = [
   {
@@ -219,5 +219,29 @@ window.tracNghiem1D22 = [
     ],
     "answer": 3,
     "explain": "Gọi $u_1$ là số hạng đầu và $d$ là công sai của cấp số cộng. <br>  Theo giả thiết ta có hệ phương trình  $\\begin{cases} u_4 = -12 \\\\ u_{14} = 18 \\end{cases} \\Leftrightarrow \\begin{cases} u_1 + 3d = -12 \\\\ u_1 + 13d = 18 \\end{cases} \\Leftrightarrow \\begin{cases} d = 3 \\\\ u_1 = -21 \\end{cases}.$  Tổng của 16 số hạng đầu tiên là  $S_{16} = \\frac{16}{2} \\left[ 2u_1 + (16-1)d \\right] = 8 \\cdot \\left[ 2(-21) + 15 \\cdot 3 \\right] = 24.$"
+  },
+  {
+    "id": "1D222TN18",
+    "question": "Cho cấp số cộng $(u_n)$ với $u_1=2$ và $u_2=11$. Tìm công sai $d$ của cấp số cộng.",
+    "options": [
+      "$d=13$",
+      "$d=\\dfrac{11}{2}$",
+      "$d=-9$",
+      "$d=9$"
+    ],
+    "answer": 3,
+    "explain": "Ta có công sai của cấp số cộng là $d=u_2-u_1=11-2=9$."
+  },
+  {
+    "id": "1D222TN19",
+    "question": "Tìm giá trị của $x$ để ba số: $-x$; $12$; $2x-1$ lần lượt là ba số hạng liên tiếp của một cấp số cộng.",
+    "options": [
+      "$x=23$",
+      "$x=25$",
+      "$x=12$",
+      "$x=24$"
+    ],
+    "answer": 1,
+    "explain": "Ba số $-x$; $12$; $2x-1$ lần lượt là ba số hạng liên tiếp của một cấp số cộng khi và chỉ khi:  $(-x)+(2x-1) = 2\\cdot 12$<br>$\\Leftrightarrow x-1 = 24$<br>$\\Leftrightarrow x = 25.$"
   }
 ];

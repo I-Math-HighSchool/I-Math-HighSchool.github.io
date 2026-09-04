@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0D22 = [
   {
@@ -33,5 +33,11 @@ window.traLoiNgan0D22 = [
     "question": "Trường THPT TPC tổ chức gian hàng hội chợ chào mừng ngày 26 tháng 3, lớp 12 Nga lên kế hoạch bán trà sữa và bánh flan, toàn bộ số tiền lãi thu được sẽ quyên góp để gây quỹ khuyến học cho các bạn khó khăn trong trường. Lớp có số tiền vốn là $990$ nghìn đồng, biết một ly trà sữa kèm topping có giá vốn là $15$ nghìn đồng, bán ra lãi $5$ nghìn đồng; một cái bánh flan có giá vốn là $3$ nghìn đồng, bán ra lãi $2$ nghìn đồng. Để được giá sỉ thì lớp phải nhập từ $20$ ly trà sữa và từ $40$ cái bánh flan trở lên, theo khảo sát nhu cầu thì không thể bán vượt quá $60$ cái bánh flan. Lớp 12 Nga cần tính toán số lượng ly trà sữa và bánh flan để thu được lợi nhuận lớn nhất, khi đó lợi nhuận lớn nhất là bao nhiêu? (đơn vị tính: nghìn đồng).",
     "answer": "390",
     "explain": "Gọi $x$ là số ly trà sữa và $y$ là số cái bánh flan mà lớp 12 Nga bán ($x$, $y\\in \\mathbb{N^*}$).  Theo đề bài ta có hệ bất phương trình sau   \\[x\\ge 20 \\text{ và } 40\\le y\\le 60 \\text{ và } 15x + 3y \\le 990\\]  Miền nghiệm là tứ giác $ABCD$ với $A(20;40)$, $B(20;60)$, $C(54;60)$, $D(58;40)$.  Ta cần tìm $x$, $y$ sao cho $L(x,y)=5x+2y$ đạt giá trị lớn nhất.  <br>- $L(20, 40) = 5(20) + 2(40) = 100 + 80 = 180$ (nghìn đồng).<br>- $L(20, 60) = 5(20) + 2(60) = 100 + 120 = 220$ (nghìn đồng).<br>- $L(54, 60) = 5(54) + 2(60) = 270 + 120 = 390$ (nghìn đồng).<br>- $L(58, 40) = 5(58) + 2(40) = 290 + 80 = 370$ (nghìn đồng).  So sánh các giá trị lợi nhuận, ta thấy giá trị lớn nhất là $390$ nghìn đồng.  Giá trị này đạt được khi lớp 12 Nga bán được $54$ ly trà sữa và $60$ cái bánh flan."
+  },
+  {
+    "id": "0D223TL4",
+    "question": "Một xưởng sản xuất có hai máy sản xuất ra hai loại sản phẩm I và II. Một tấn sản phẩm loại I lãi $300$ nghìn đồng, một tấn sản phẩm loại II lãi $400$ nghìn đồng. Để sản xuất một tấn sản phẩm loại I cần máy thứ nhất làm việc trong $1$ giờ và máy thứ hai làm việc trong $2$ giờ. Để sản xuất một tấn sản phẩm loại II cần máy thứ nhất làm việc trong $2$ giờ và máy thứ hai làm việc trong $1$ giờ. Mỗi máy không đồng thời làm hai loại sản phẩm cùng lúc. Một ngày máy thứ nhất làm việc không quá $5$ giờ, máy thứ hai làm việc không quá $4$ giờ. Tiền lãi lớn nhất trong một ngày mà xưởng thu được khi sản xuất hai loại sản phẩm trên là bao nhiêu triệu đồng?",
+    "answer": "1,1",
+    "explain": "Gọi $x$, $y~\\left(x\\ge 0,y\\ge 0\\right)$ lần lượt là số tấn sản phẩm loại I, loại II sản xuất trong một ngày.<br>  Khi đó:  <br>- Số tiền lãi một ngày là $ L=300x+400y$.<br>- Số giờ làm việc của mỗi ngày của máy thứ nhất là $ x+2y$.<br>- Số giờ làm việc của máy thứ hai là $ 2x+y$.  Vì một ngày máy thứ nhất làm việc không quá $5$ giờ, máy thứ hai làm việc không quá $4$ giờ nên $x$, $y$ thỏa mãn hệ bất phương trình  $\\left\\{\\begin{aligned}  & x+2y\\le 5\\\\   & 2x+y\\le 4\\\\   & x\\ge 0\\\\   & y\\ge 0\\\\   \\end{aligned}\\right.\\,\\,(*)$<br>  Vẽ miền nghiệm của hệ bất phương trình $(*)$ trên mặt phẳng toạ độ $ Oxy$.<br>  Khi đó miền nghiệm của hệ bất phương trình $(*)$ là miền tứ giác $ OABC$.<br>  Biểu thức $ L=300x+400y$ đạt giá trị lớn nhất tại một trong các đỉnh của tứ giác $OABC$.<br>  Tính giá trị của $ L$ tại các đỉnh $ O\\left(0\\,;\\,0\\right)$, $ A\\left(0\\,;\\dfrac{5}{2}\\right)$, $ B\\left(1\\,;2\\right)$, $ C\\left(2\\,;0\\right)$, ta thấy $ L$ đạt giá trị lớn nhất là $L_{max}=1100$ tại đỉnh $ B$.<br>  Vậy tiền lãi lớn nhất trong một ngày mà xưởng thu được khi sản xuất hai loại sản phẩm trên là $1{,}1$ triệu đồng.  <br><img src=\"data/10/0D2/im0D22/loc3_0_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
   }
 ];

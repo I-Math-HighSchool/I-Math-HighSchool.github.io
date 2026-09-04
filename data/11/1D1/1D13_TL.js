@@ -1,8 +1,7 @@
 // =========================================================================
-// Lớp 11 - Chương 1 - §3. Các công thức lượng giác - TL
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop11/1D13-CongThucLuongGiac.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh (không phụ thuộc TikzJax).
+// KHỐI DỮ LIỆU: 1D13 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D13 = [
   {

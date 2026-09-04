@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D12 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D12 = [
   {
@@ -747,5 +747,53 @@ window.tracNghiem1D12 = [
     ],
     "answer": 3,
     "explain": "Ta có  $1+\\tan^2\\alpha=\\dfrac{1}{\\cos^2\\alpha}$<br>$\\Rightarrow \\cos^2\\alpha=\\dfrac{1}{1+\\tan^2\\alpha}=\\dfrac{1}{1+2^2}=\\dfrac{1}{5}$<br>$\\Rightarrow \\cos\\alpha =\\dfrac{\\sqrt{5}}{5} (\\text{nhận}) \\text{ hoặc } \\cos\\alpha =-\\dfrac{\\sqrt{5}}{5} (\\text{loại}) \\left(\\text{vì}~0 lt; \\alpha lt; \\dfrac{\\pi}{2}\\right).$"
+  },
+  {
+    "id": "1D122TN1",
+    "question": "Cho góc lượng giác $\\alpha$ thỏa mãn $\\sin \\alpha=-\\dfrac{4}{5}$ và $\\pi &lt; \\alpha &lt; \\dfrac{3\\pi}{2}$. Giá trị của $\\cos \\alpha$ bằng",
+    "options": [
+      "$-\\dfrac{3}{5}$",
+      "$-\\dfrac{3}{25}$",
+      "$\\dfrac{9}{25}$",
+      "$\\dfrac{3}{5}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có   $\\cos^2\\alpha =1-\\sin^2\\alpha$<br>$=1-\\left(-\\dfrac{4}{5}\\right)^2$<br>$=\\dfrac{9}{25}.$  Suy ra $\\cos x=\\dfrac{3}{5} \\text{ hoặc } \\cos x=-\\dfrac{3}{5}.$<br>  Vì $\\pi &lt; \\alpha &lt; \\dfrac{3\\pi}{2}$ nên $\\cos x=-\\dfrac{3}{5}$."
+  },
+  {
+    "id": "1D124TN2",
+    "question": "Trong các khẳng định dưới đây, khẳng định nào sai?",
+    "options": [
+      "$\\sin (\\pi-\\alpha)=\\sin \\alpha$",
+      "$\\cos (\\pi+\\alpha)=\\cos \\alpha$",
+      "$\\sin (\\pi+\\alpha)=-\\sin \\alpha$",
+      "$\\cos (\\pi-\\alpha)=-\\cos \\alpha$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\cos (\\pi+\\alpha)=-\\cos \\alpha$ nên khẳng định sai là $\\cos (\\pi+\\alpha)=\\cos \\alpha$."
+  },
+  {
+    "id": "1D122TN59",
+    "question": "Cho góc lượng giác $\\alpha$ thỏa mãn $\\dfrac{3\\pi}{2} &lt; \\alpha &lt; 2\\pi$. Khẳng định nào dưới đây đúng?",
+    "options": [
+      "$\\sin \\alpha &gt; 0$",
+      "$\\tan \\alpha &gt; 0$",
+      "$\\cot \\alpha &gt; 0$",
+      "$\\cos \\alpha &gt; 0$"
+    ],
+    "answer": 3,
+    "explain": "Vì $\\dfrac{3\\pi}{2} &lt; \\alpha &lt; 2\\pi$ nên $\\sin \\alpha &lt; 0$, $\\tan \\alpha &lt; 0$, $\\cot \\alpha &lt; 0$, $\\cos \\alpha &gt; 0$."
+  },
+  {
+    "id": "1D122TN60",
+    "question": "Cho $\\tan x=4$. Giá trị của $\\cot x$ là",
+    "options": [
+      "$\\dfrac{1}{4}$",
+      "$\\dfrac{1}{2}$",
+      "$-\\dfrac{1}{2}$",
+      "$-\\dfrac{1}{4}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\cot x=\\dfrac{1}{\\tan x}=\\dfrac{1}{4}$."
   }
 ];

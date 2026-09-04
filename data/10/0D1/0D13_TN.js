@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D13 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D13 = [
   {
@@ -459,5 +459,65 @@ window.tracNghiem0D13 = [
     ],
     "answer": 0,
     "explain": "Ta có $B=C_\\mathbb{R}A=(-\\infty;-2)\\cup[2;+\\infty)$."
+  },
+  {
+    "id": "0D133TN1",
+    "question": "Cho tập hợp $ A=\\left[2;5\\right)$. Khi đó $C_{\\mathbb{R}}A$ là tập hợp nào sau đây?",
+    "options": [
+      "$\\left(-\\infty;2\\right)\\cup\\left[5;+\\infty\\right)$",
+      "$\\left[5;+\\infty\\right)$",
+      "$\\left(-\\infty;2\\right)$",
+      "$\\left(-\\infty;2\\right]\\cup\\left(5;+\\infty\\right)$"
+    ],
+    "answer": 0,
+    "explain": "$C_{\\mathbb{R}}A=\\left(-\\infty;2\\right)\\cup\\left[5;+\\infty\\right)$."
+  },
+  {
+    "id": "0D133TN2",
+    "question": "Cho tập hợp $A=\\left(-\\infty ;1\\right]$ và $ B=\\left(-1;2\\right]$. Tập hợp $ A\\cap B$ có bao nhiêu phần tử là số nguyên?",
+    "options": [
+      "$ 3$",
+      "$2$",
+      "$ 1$",
+      "$ 4$"
+    ],
+    "answer": 1,
+    "explain": "$ A\\cap B=\\left(-1 ;1\\right]$ nên có các phần tử nguyên là $0$, $1$."
+  },
+  {
+    "id": "0D135TN3",
+    "question": "Trong kì thi học sinh giỏi cấp trường, lớp 10A có $15$ học sinh thi môn Ngữ văn, $20$ học sinh thi môn Toán, $5$ học sinh thi cả hai môn Ngữ văn và Toán. Biết rằng lớp 10A có $40$ học sinh, hỏi lớp 10A có bao nhiêu học sinh không thi cả hai môn Toán và Ngữ văn?",
+    "options": [
+      "$10$",
+      "$8$",
+      "$15$",
+      "$5$"
+    ],
+    "answer": 0,
+    "explain": "Số học sinh thi môn Ngữ văn nhưng không thi Toán là $15-5=10$ học sinh. <br>  Số học sinh thi môn Toán nhưng không thi môn Ngữ văn là $20-5=15$ học sinh. <br>   Từ đó, ta vẽ được biểu đồ Venn như sau   <br><img src=\"data/10/0D1/im0D13/loc3_0_TN_DS_THPT_chu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Do đó, ta có số học sinh không thi cả Toán và Ngữ văn là $40-10-5-15=10$ học sinh."
+  },
+  {
+    "id": "0D134TN4",
+    "question": "Cho tập hợp $A=[-8;3]$, $B=(1;6]$. Tập $B\\setminus A$ là",
+    "options": [
+      "$[3; 6]$",
+      "$(3; 6]$",
+      "$(1; 3)$",
+      "$[-8; 1)$"
+    ],
+    "answer": 1,
+    "explain": "Vì $A=[-8;3]$ và $B=(1;6]$ nên $B\\setminus A=(3;6]$."
+  },
+  {
+    "id": "0D131TN5",
+    "question": "Cho tập hợp $A=\\{2;3;4\\}$ và $B=\\{2;4;6;7;8\\}$. Tập hợp $A\\cup B$ là",
+    "options": [
+      "$\\{2;4;6;7\\}$",
+      "$\\{2;3;4;6;7;8\\}$",
+      "$\\{2;4\\}$",
+      "$\\{2;3;4;5;6;7;8\\}$"
+    ],
+    "answer": 1,
+    "explain": "Với $A=\\{2;3;4\\}$ và $B=\\{2;4;6;7;8\\}$, ta có $A\\cup B=\\{2;3;4;6;7;8\\}$."
   }
 ];

@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H52 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.traLoiNgan2H52 = [
   {
     "id": "2H528TL1",
@@ -64,5 +69,17 @@ window.traLoiNgan2H52 = [
     "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $M$, $N$ lần lượt là trung điểm của $A'D'$ và $C'D'$. Gọi $\\varphi$ là góc giữa hai vectơ $\\overrightarrow{MN}$ và $\\overrightarrow{A'B}$. Số đo của góc $\\varphi$ bằng bao nhiêu độ?<br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS9_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "60",
     "explain": "Ta có $M$, $N$ lần lượt là trung điểm của $A'D'$ và $C'D'$.<br>  $\\Rightarrow MN$ là đường trung bình của $\\triangle A'D'C'$.<br>  $\\Rightarrow MN \\parallel A'C'$.<br>  $\\Rightarrow \\left(\\overrightarrow{MN};\\overrightarrow{A'B}\\right)=\\left( \\overrightarrow{A'C'};\\overrightarrow{A'B}\\right)=\\widehat{BA'C'}$.<br>  Lại có $A'C'=A'B=BC'$ <br>(vì $ABCD.A'B'C'D'$ là hình lập phương)<br>  $\\Rightarrow \\triangle A'C'B$ đều.<br>  $\\Rightarrow \\left(\\overrightarrow{MN};\\overrightarrow{A'B}\\right)=\\widehat{BA'C'}=60^{\\circ}$."
+  },
+  {
+    "id": "2H526TL1",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, hình chiếu của $M(4;1;3)$ lên mặt phẳng $(P)\\colon 2x-y-2z+8=0$ là $H(a;b;c)$. Tính $S=a+b+c$.",
+    "answer": "17",
+    "explain": "Gọi $d$ là đường thẳng đi qua $M(4;1;3)$ và vuông góc với mặt phẳng $(P)$.<br>  Đường thẳng $d$ nhận $\\overrightarrow{n}=(2;-1;-2)$ làm vectơ chỉ phương có phương trình tham số là  $x=4+2t \\text{ và } y=1-t \\text{ và } z=3-2t.$  Vì $H$ là hình chiếu của $M$ lên mặt phẳng $(P)$ nên $H=d\\cap (P)$. Giả sử $H(4+2t;1-t;3-2t)$.<br>  Vì $H \\in (P)$ nên $2(4+2t)-(1-t)-2(3-2t)+8=0 \\Leftrightarrow 3t+15=0 \\Leftrightarrow t=-5$.<br>  $H\\left(-2;6;13\\right)$, suy ra $a=-2$, $b=6$, $c=13$. Do đó $a+b+c=-2+6+13=17$."
+  },
+  {
+    "id": "2H523TL13",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho đường thẳng $\\Delta\\colon \\dfrac{x-1}{2}=\\dfrac{y}{1}=\\dfrac{z-2}{2}$ và điểm $M(-4;0;1)$. Mặt phẳng $(P)$ chứa $\\Delta$ cách $M$ một khoảng bằng $\\sqrt{5}$ có phương trình là $ax+by+cz+1=0$ với $c \\neq 0$. Tính $S=a+b+c$ (kết quả làm tròn đến hàng phần trăm).",
+    "answer": "0{,}17",
+    "explain": "Đường thẳng $\\Delta$ nhận $\\overrightarrow{u}=(2;1;2)$ làm vectơ pháp tuyến và đi qua điểm $A(1;0;2)$.<br>  Mặt phẳng $(P)$ nhận $\\overrightarrow{n}=(a;b;c)$ làm vectơ pháp tuyến.<br>  Mặt phẳng $(P)$ chứa đường thẳng $d$ nên $\\overrightarrow{u} \\perp \\overrightarrow{n}\\Leftrightarrow \\overrightarrow{u} \\cdot \\overrightarrow{n}=0 \\Leftrightarrow 2a+b+2c=0 \\quad (1)$.<br>  Thay tọa độ điểm $A(1;0;2)$ vào phương trình mặt phăng $(P)$, ta có<br>  $a\\cdot 1+b\\cdot 0+c\\cdot 2 +1=0 \\Leftrightarrow a+2c+1=0 \\Leftrightarrow a+2c=-1 \\quad (2).$  Khoảng cách từ $M(-4;0;1)$ đến mặt phẳng $(P)$<br>  $\\mathrm{d}=\\dfrac{\\left| a\\cdot (-4)+b\\cdot 0 +c\\cdot 1 +1 \\right|}{\\sqrt{a^2+b^2+c^2}}=\\sqrt{5} \\Rightarrow (-4a+c+1)^2=5(a^2+b^2+c^2)\\quad (3).$  Từ $(2)$, ta có $a=-1-2c \\quad (4)$.<br>  Thay $a=-1-2c$ vào $(1)$ ta được<br>  $2(-1-2c)+b+2c=0 \\Leftrightarrow -2-4c+b+2c=0 \\Rightarrow b=2+2c \\quad (5)$  Thay $(4)$ và $(5)$ vào $(3)$, ta được  $\\left(-4(-1-2c)+c+1\\right)^2=5\\left((-1-2c)^2+(2+2c)^2+c^2\\right)$<br>$\\Leftrightarrow \\left(5+9c\\right)^2=5(1+4c+4c^2+4+8c+4c^2+c^2)$<br>$\\Leftrightarrow 25+90c+81c^2=5(5+12c+9c^2)$<br>$\\Leftrightarrow 25+90c+81c^2=25+60c+45c^2$<br>$\\Leftrightarrow 36c^2+30c=0$<br>$\\Rightarrow c=-\\dfrac{5}{6} \\Rightarrow a=\\dfrac{2}{3}, b=\\dfrac{1}{3}.$  Suy ra $S=a+b+c=\\dfrac{2}{3}+\\dfrac{1}{3}+\\left(-\\dfrac{5}{6}\\right)=\\dfrac{1}{6}\\approx 0{,}17$."
   }
 ];

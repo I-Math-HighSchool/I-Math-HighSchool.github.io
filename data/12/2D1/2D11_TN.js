@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D11 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2D11 = [
   {
     "id": "2D112TN99",
@@ -190,5 +195,29 @@ window.tracNghiem2D11 = [
     ],
     "answer": 1,
     "explain": "Từ bảng biến thiên cho thấy hàm số nghịch biến trên khoảng $\\left(1;2\\right)$."
+  },
+  {
+    "id": "2D112TN114",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D11/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "options": [
+      "$\\left(-\\infty ;3\\right)$",
+      "$\\left(0;+\\infty\\right)$",
+      "$\\left(2;+\\infty\\right)$",
+      "$\\left(1;2\\right)$"
+    ],
+    "answer": 2,
+    "explain": "Dựa vào bảng biến thiên ta thấy hàm số đồng biến trên $ (-\\infty; 1) $ và $ (2;+\\infty)$."
+  },
+  {
+    "id": "2D112TN113",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ.  Hàm số đã cho nghịch biến trên khoảng nào trong các khoảng dưới đây?<br><img src=\"data/12/2D1/im2D11/loc3_2_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$(0; 1)$",
+      "$(1; 3)$",
+      "$(-2;-1)$",
+      "$(-1; 0)$"
+    ],
+    "answer": 0,
+    "explain": "Từ hình vẽ ta có hàm số đã cho nghịch biến trên khoảng $(0; 1)$."
   }
 ];

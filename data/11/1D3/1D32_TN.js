@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D32 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D32 = [
   {
@@ -123,5 +123,17 @@ window.tracNghiem1D32 = [
     ],
     "answer": 3,
     "explain": "Ta có: $\\lim\\limits _{x \\rightarrow-\\infty}\\left(\\sqrt{x^2+a x+5}+x\\right)=\\lim\\limits _{x \\rightarrow-\\infty}\\dfrac{ax+5}{\\sqrt{{{x}^{2}}+ax+5}-x}=\\lim\\limits _{x \\rightarrow-\\infty}\\dfrac{x\\left( a+\\dfrac{5}{x} \\right)}{x\\left( -\\sqrt{1+\\dfrac{a}{x}+\\dfrac{5}{{{x}^{2}}}}-1 \\right)}=\\lim\\limits _{x \\rightarrow-\\infty}\\dfrac{a+\\dfrac{5}{x}}{-\\sqrt{1+\\dfrac{a}{x}+\\dfrac{5}{{{x}^{2}}}}-1}=-\\dfrac{a}{2}$<br>  Theo giả thiết, ta suy ra $-\\dfrac{a}{2}=5 \\Leftrightarrow a=-10$"
+  },
+  {
+    "id": "1D322TN11",
+    "question": "Giới hạn $\\lim\\limits_{x\\to 1}\\dfrac{x^3-x^2}{7x-7}$ bằng",
+    "options": [
+      "$0$",
+      "$\\dfrac{2}{3}$",
+      "$-\\dfrac{1}{7}$",
+      "$\\dfrac{1}{7}$"
+    ],
+    "answer": 3,
+    "explain": "$\\lim\\limits_{x\\to 1}\\dfrac{x^3-x^2}{7x-7}$<br>$= \\lim\\limits_{x\\to 1}\\dfrac{x^2\\left(x-1\\right)}{7(x-1)}$<br>$= \\lim\\limits_{x\\to 1}\\dfrac{x^2}{7}$<br>$= \\dfrac{1}{7}.$"
   }
 ];

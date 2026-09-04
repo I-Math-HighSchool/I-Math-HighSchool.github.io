@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D21 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D21 = [
   {
@@ -315,5 +315,89 @@ window.tracNghiem0D21 = [
     ],
     "answer": 2,
     "explain": "Bất phương trình $2y-x-3&gt;0$ là bất phương trình bậc nhất hai ẩn."
+  },
+  {
+    "id": "0D211TN9",
+    "question": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn $x$, $y$?",
+    "options": [
+      "$ 2x-y&gt;0$",
+      "$x^2+5y^2&gt;3$",
+      "$ 2x+3y^2+1&gt;0$",
+      "$ x+4y-3xy&gt;0$"
+    ],
+    "answer": 0,
+    "explain": "$ 2x-y&gt;0$ là bất phương trình bậc nhất hai ẩn $x$, $y$."
+  },
+  {
+    "id": "0D212TN23",
+    "question": "Miền nghiệm của bất phương trình $ 2x-y&gt;1$ chứa điểm nào sau đây?",
+    "options": [
+      "$\\left(3;1\\right)$",
+      "$\\left(1;2\\right)$",
+      "$\\left(-3;-1\\right)$",
+      "$\\left(1;1\\right)$"
+    ],
+    "answer": 0,
+    "explain": "Thế tọa độ $\\left(3;1\\right)$ vào ta bất phương trình ta thấy thỏa mãn."
+  },
+  {
+    "id": "0D212TN24",
+    "question": "Miền nghiệm của bất phương trình $x+3+2(2y+5)&lt;2(1-x)$ <strong>không chứa</strong> điểm nào sau đây?",
+    "options": [
+      "$D(-4;0)$",
+      "$C(0;-3)$",
+      "$B(1;-7)$",
+      "$A(-1;-2)$"
+    ],
+    "answer": 3,
+    "explain": "Rút gọn bất phương trình $x+3+2(2y+5)&lt;2(1-x)$ ta được bất phương trình $3x+4y&lt;-11$.<br>  Thế lần lượt tọa độ các điểm đã cho vào biểu thức $3x+4y$, ta được  <br>- $D(-4; 0)$: $3x+4y=3\\cdot(-4)+4\\cdot 0=-12&lt;-11$ nên $D$ thuộc miền nghiệm.<br>- $C(0; -3)$: $3x+4y=3\\cdot 0+4\\cdot(-3)=-12&lt;-11$ nên $C$ thuộc miền nghiệm.<br>- $B(1; -7)$: $3x+4y=3\\cdot 1+4\\cdot(-7)=-25&lt;-11$ nên $B$ thuộc miền nghiệm.<br>- $A)(-1; -2)$: $3x+4y=3\\cdot(-1)+4\\cdot(-2)=-11$ nên $A$ không thuộc miền nghiệm.   Vậy miền nghiệm của bất phương trình đã cho <strong>không chứa</strong> điểm $A(-1; -2)$."
+  },
+  {
+    "id": "0D211TN10",
+    "question": "Bất phương trình nào dưới đây <strong>không phải</strong> là bất phương trình bậc nhất hai ẩn?",
+    "options": [
+      "$3x-y\\le 1$",
+      "$2x+xy\\le 4$",
+      "$x+3y\\ge 1$",
+      "$x-y\\le 0$"
+    ],
+    "answer": 1,
+    "explain": "$2x+xy\\le 4$ không là bất phương trình bậc nhất hai ẩn."
+  },
+  {
+    "id": "0D211TN5",
+    "question": "Một cửa hàng dự định nhập hai loại sản phẩm. Mỗi sản phẩm loại A có giá $200$ nghìn đồng, mỗi sản phẩm loại B có giá $300$ nghìn đồng. Cửa hàng chỉ có số tiền tối đa là $12$ triệu đồng để nhập hàng. Gọi $x$ và $y$ lần lượt là số sản phẩm loại A và loại B được nhập. Hãy lập bất phương trình theo $x$ và $y$ để biểu diễn điều kiện về chi phí mà cửa hàng phải thỏa mãn.",
+    "options": [
+      "$200x+300y\\ge 12\\,000$",
+      "$x+y\\le 12$",
+      "$200x+300y=12\\,000$",
+      "$200x+300y\\le 12\\,000$"
+    ],
+    "answer": 3,
+    "explain": "Gọi $x$, $y$ lần lượt là số sản phẩm loại A và loại B được nhập ($x\\ge 0$, $y\\ge 0$). <br>  Mỗi sản phẩm loại A giá $200$ nghìn đồng, mỗi sản phẩm loại B giá $300$ nghìn đồng nên tổng chi phí (nghìn đồng) là $200x+300y$. <br>  Do cửa hàng có số tiền tối đa $12\\,000$ nghìn đồng để nhập hàng, ta có điều kiện  $  200x+300y\\le 12\\,000.  $"
+  },
+  {
+    "id": "0D211TN6",
+    "question": "Bất phương trình nào sau đây <strong>không</strong> phải là bất phương trình bậc nhất hai ẩn?",
+    "options": [
+      "$x-5y-1\\ge0$",
+      "$2x-3y+5&lt;0$",
+      "$\\dfrac{x}{2}-\\dfrac{y}{3}+10&lt;0$",
+      "$x+3y^{2}-2x+1\\le0$"
+    ],
+    "answer": 3,
+    "explain": "Bất phương trình $x+3y^{2}-2x+1\\le0$ có chứa $y^2$ (bậc 2) nên không phải là bất phương trình bậc nhất hai ẩn."
+  },
+  {
+    "id": "0D212TN25",
+    "question": "Điểm $A(2;1)$ thuộc miền nghiệm của bất phương trình nào sau đây?",
+    "options": [
+      "$x-y+1&lt;0$",
+      "$-2x+y-2&gt;0$",
+      "$2x-y+1&gt;0$",
+      "$x-2y&gt;0$"
+    ],
+    "answer": 2,
+    "explain": "Thay toạ độ $A(2;1)$ vào các phương án, ta thấy  <br>- Phương án $x-y+1&lt;0$: $2-1+1 = 2 &lt; 0$ (Sai).<br>- Phương án $-2x+y-2&gt;0$: $-2(2)+1-2 = -5 &gt; 0$ (Sai).<br>- Phương án $2x-y+1&gt;0$: $2(2)-1+1 = 4 &gt; 0$ (Đúng).<br>- Phương án $x-2y&gt;0$: $2-2(1) = 0 &gt; 0$ (Sai)."
   }
 ];

@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D23 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D23 = [
   {
@@ -72,5 +72,28 @@ window.dungSai1D23 = [
       }
     ],
     "explain": "Giả sử $q$ là công bội của cấp số nhân $\\left(u_n\\right)$. Khi đó<br>  \\[u_1+u_5=51 \\text{ và } u_2+u_6=102\\Leftrightarrow u_1+u_1q^4=51 \\text{ và } u_1q+u_1q^5=102\\Leftrightarrow u_1(1+q^4)=51\\quad (1) \\text{ và } u_1q(1+q^4)=102.\\quad (2)\\]  Chia vế với vế của (2) cho (1) ta được $q=2$.<br>  Do đó $u_1=\\dfrac{51}{1+q^4}=\\dfrac{51}{1+2^4}=3$.  <br>- Ta có $u_1=3$.<br>- Ta có $u_4=u_1q^3=3\\cdot 2^3=24$.<br>- Ta có $u_{12}=u_1q^{11}=3\\cdot 2^{11}=6144\\ne 12\\,288$.<br>- Ta có $S_8=\\dfrac{u_1\\left(1-q^8\\right) }{1-q}=\\dfrac{3\\left( 1-2^8\\right) }{1-2}=765$."
+  },
+  {
+    "id": "1D233DS1",
+    "question": "Trung tâm Trải nghiệm sáng tạo trường Nguyễn Bỉnh Khiêm – Hà Nội lên kế hoạch cho học sinh trồng cây trên các bậc thang đã được cải tạo và bồi đất dọc theo sườn đồi từ thấp lên cao, trong đó có giống xoài mới. Đối với giống xoài mới, theo thiết kế, hàng thứ nhất (mặt đất) sẽ trồng 1 cây và từ hàng trên liền kề sẽ trồng số lượng cây gấp đôi hàng dưới. Để đảm bảo tính thẩm mĩ cho vườn cây thì nhất thiết ở mỗi hàng phải trồng đủ số cây theo thiết kế (hàng trên gấp đôi hàng dưới), nếu hàng cuối chưa đủ sẽ phải mua bổ sung. Hiện trong vườn cây giống, trung tâm đã có $2\\,000$ cây xoài. Gọi $a_1$; $a_2$; $a_3$; $\\ldots$; $a_n$; $\\ldots$ lần lượt là số cây xoài ở hàng thứ $1$; $2$; $3$;$\\ldots$; $n$;$\\ldots $",
+    "subQuestions": [
+      {
+        "text": "Hàng thứ $4$ phải trồng số cây xoài là $a_4=4$",
+        "answer": false
+      },
+      {
+        "text": "Số lượng cây xoài ở mỗi hàng lần lượt lập thành cấp số nhân với công bội $q=\\dfrac{1}{2}$",
+        "answer": false
+      },
+      {
+        "text": "Số lượng cây xoài ở hàng thứ $n$ được tính bởi công thức: $a_n=2^{n-1}(n\\in\\mathbb{N})$",
+        "answer": true
+      },
+      {
+        "text": "Trung tâm cần phải mua và trồng bổ sung tối thiểu $347$ cây xoài giống nữa ở hàng cuối mới đảm bảo tính thẩm mĩ",
+        "answer": false
+      }
+    ],
+    "explain": "Theo mô tả, dãy số $a_n$ là một cấp số nhân với số hạng đầu $a_1=1$ và công bội $q=2$.<br>  Số hạng tổng quát của cấp số nhân này là $a_n=a_1\\cdot q^{n-1}=1\\cdot 2^{n-1}=2^{n-1}$ (với $n\\ge 1$).<br>- Hàng thứ $4$ có số cây là $a_4=2^{4-1}=2^3=8$.<br>- Cấp số nhân có công bội $q=2$.<br>- Số lượng cây xoài ở hàng thứ $n$ được tính bởi công thức: $a_n=2^{n-1}(n\\in\\mathbb{N})$.<br>- Tổng số cây cần để trồng $n$ hàng là \\[S_n=\\dfrac{a_1(q^n-1)}{q-1}=\\dfrac{1(2^n-1)}{2-1}=2^n-1.\\]  Ta tìm $n$ lớn nhất sao cho $S_n\\le 2\\,000$  \\[2^n-1\\le 2\\,000\\Leftrightarrow 2^n\\le 2\\,001.\\]  Ta có $2^{10}=1\\,024$ và $2^{11}=2\\,048$.<br>  Nên Trung tâm có thể trồng đủ $10$ hàng.<br>  Số cây đã dùng cho $10$ hàng: $S_{10}=2^{10}-1=1\\,023$ cây.<br>  Số cây còn lại: $2\\,000-1\\,023=977$ cây.<br>  Số cây cần cho hàng thứ 11 (hàng cuối cùng được trồng): $a_{11}=2^{11-1}=2^{10}=1\\,024$ cây.<br>  Hàng cuối này (hàng $11$) chưa đủ cây. Số cây cần mua bổ sung là: $1\\,024-977=47$ cây."
   }
 ];

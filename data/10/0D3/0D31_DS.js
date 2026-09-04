@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D31 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D31 = [
   {
@@ -463,5 +463,28 @@ window.dungSai0D31 = [
       }
     ],
     "explain": "<br>- <strong>Đúng</strong>. Với $x=3$ thì số ca mắc bệnh là $16$.<br>- <strong>Sai</strong>. Tập giá trị của hàm số là $T=[3;47]$.<br>- <strong>Đúng</strong>. Trong $4$ tuần đầu năm 2023, hàm số $y=f(x)$ nghịch biến.<br>- <strong>Sai</strong>. Giá trị lớn nhất, giá trị nhỏ nhất của hàm số $y=f(x)$ lần lượt là $M=47$, $m=3$. Khi đó $M-m=47-3=44$."
+  },
+  {
+    "id": "0D315DS14",
+    "question": "Cho hàm số $f(x) = 5x+2 \\text{ khi } x \\ge 1 \\text{ và } 3-x \\text{ khi } x &lt; 1.$",
+    "subQuestions": [
+      {
+        "text": "Ta có $f(0) = 3$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số đã cho đồng biến trên khoảng $(-\\infty;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "Tập xác định của hàm số đã cho là $\\mathscr{D} = \\mathbb{R}$",
+        "answer": true
+      },
+      {
+        "text": "Ta có $f(2) = 12$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Với $x = 0 &lt; 1$, ta có $f(0) = 3 - 0 = 3$.<br>- Khi $x \\geq 1$, ta có $f(x) = 5x + 2$ là hàm số đồng biến trên khoảng $(1;+\\infty)$.<br>  Khi $x &lt; 1$, ta có $f(x) = 3 - x$ là hàm số nghịch biến trên khoảng $(-\\infty;1)$.<br>  Vậy hàm số không đồng biến trên khoảng $(-\\infty; +\\infty)$.<br>- Khi $x \\geq 1$, ta có $f(x) = 5x + 2$, hàm số có tập xác định là $\\mathscr{D}_1 = [1;+\\infty)$.<br>  Khi $x &lt; 1$, ta có $f(x) = 3 - x$, hàm số có tập xác định là $\\mathscr{D}_2 = (-\\infty;1)$.<br>  Khi đó, hàm số $y = f(x)$ có tập xác định $\\mathscr{D} = \\mathscr{D}_1 \\cup \\mathscr{D}_2 = \\mathbb{R}$.<br>- Với $x = 2 &gt; 1$, ta có $f(2) = 5 \\cdot 2 + 2 = 12$."
   }
 ];

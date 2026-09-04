@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 2D41 - Đúng/Sai (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 2D41 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D41 = [
   {
@@ -140,5 +141,51 @@ window.dungSai2D41 = [
       }
     ],
     "explain": "<br>- <strong>Đúng</strong>.<br>  $F(x)=x^2-2x+C$.  Suy ra $F(x)$ luôn xác định trên $\\mathbb{R}$.<br>- <strong>Sai</strong>.<br>  $F(x)=x^2-2x+C$ mà $F(1)=1 \\Rightarrow C=2$.<br>  Vậy $F(x)=x^2-2x+2$.<br>- <strong>Đúng</strong>.<br>  Ta có $F(x)=x^2-2x+2=(x-1)^2+1&gt;0$, $\\forall x\\in \\mathbb{R}$.<br>- <strong>Sai</strong>.<br>  $F(-2)=(-2)^2-2\\cdot(-2)+2=10.$"
+  },
+  {
+    "id": "2D413DS2",
+    "question": "Cho hàm số $f(x)$, $g(x)$ liên tục trên $\\mathbb{R}$. Biết $F(x)=\\sin x$ là một nguyên hàm của $f(x)$.",
+    "subQuestions": [
+      {
+        "text": "$\\displaystyle\\int[f(x)+2g(x)]\\mathrm{\\,d}x=\\displaystyle\\int f(x)\\mathrm{\\,d}x+2\\displaystyle\\int g(x)\\mathrm{\\,d}x$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle\\int[f(x)\\cdot g(x)]\\mathrm{\\,d}x=\\displaystyle\\int f(x)\\mathrm{\\,d}x\\cdot\\displaystyle\\int g(x)\\mathrm{\\,d}x$",
+        "answer": false
+      },
+      {
+        "text": "$\\displaystyle\\int\\left(f(x)+\\mathrm{e}^x\\right)\\mathrm{\\,d}x=\\sin x+\\mathrm{e}^x+C$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle\\int\\left(f^2(x)+\\sin^2x\\right)\\mathrm{\\,d}x=2x+C$",
+        "answer": false
+      }
+    ],
+    "explain": "Vì $F(x)=\\sin x$ là một nguyên hàm của $f(x)$ nên $f(x)=F'(x)=\\cos x$.  <br>- Ta có $\\displaystyle\\int[f(x)+2g(x)]\\mathrm{\\,d}x=\\displaystyle\\int f(x)\\mathrm{\\,d}x+2\\displaystyle\\int g(x)\\mathrm{\\,d}x$.<br>- Ta có $\\displaystyle\\int[f(x)\\cdot g(x)]\\mathrm{\\,d}x\\ne \\displaystyle\\int f(x)\\mathrm{\\,d}x\\displaystyle\\int g(x)\\mathrm{\\,d}x$.<br>- $\\displaystyle\\int\\left(f(x)+\\mathrm{e}^x\\right)\\mathrm{\\,d}x=\\displaystyle\\int\\left(\\cos x+\\mathrm{e}^x\\right)\\mathrm{\\,d}x=\\sin x+\\mathrm{e}^x+C$.<br>- Ta có $\\displaystyle\\int\\left(f^2(x)+\\sin^2x\\right)\\mathrm{\\,d}x=\\displaystyle\\int\\left(\\cos^2x+\\sin^2x\\right)\\mathrm{\\,d}x=\\displaystyle\\int\\mathrm{\\,d}x=x+C$."
+  },
+  {
+    "id": "2D414DS3",
+    "question": "Trên $(0;+\\infty)$, cho hai hàm số $f(x)=\\sqrt{\\mathrm{e}^x}$ và $g(x)=\\sqrt{x}$.",
+    "subQuestions": [
+      {
+        "text": "$\\displaystyle\\int\\limits f(x) \\cdot g(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits \\sqrt{x\\mathrm{e}^x} \\mathrm{\\,d}x$",
+        "answer": true
+      },
+      {
+        "text": "Một nguyên hàm của $g(x)$ là $G(x)=\\dfrac{2\\sqrt{x^3}}{3}$",
+        "answer": true
+      },
+      {
+        "text": "Một nguyên hàm của $f(x)$ là $F(x)=\\sqrt{\\mathrm{e}^x}$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $y=F(x)-G(x)$ đồng biến trên $(0;+\\infty)$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Trên $(0;+\\infty)$, ta có  \\[  \\displaystyle\\int\\limits f(x) \\cdot g(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits \\sqrt{\\mathrm{e}^x} \\cdot \\sqrt{x} \\mathrm{\\,d}x=\\displaystyle\\int\\limits \\sqrt{x\\mathrm{e}^x} \\mathrm{\\,d}x.  \\]<br>- <strong>Đúng</strong>.<br>  Trên $(0;+\\infty)$, ta có  \\[  \\displaystyle\\int\\limits g(x) \\mathrm{\\,d}x  =\\displaystyle\\int\\limits \\sqrt{x} \\mathrm{\\,d}x  =\\displaystyle\\int\\limits x^{\\tfrac{1}{2}} \\mathrm{\\,d}x  =\\dfrac{x^{\\tfrac{3}{2}}}{\\dfrac{3}{2}}+C = \\dfrac{2\\sqrt{x^3}}{3}+C.  \\]  Do đó, $G(x)=\\dfrac{2\\sqrt{x^3}}{3}$ là một nguyên hàm của $g(x)$.<br>- <strong>Sai</strong>.<br>  Trên $(0;+\\infty)$, ta có  \\[  \\displaystyle\\int\\limits f(x) \\mathrm{\\,d}x  =\\displaystyle\\int\\limits \\sqrt{\\mathrm{e}^x} \\mathrm{\\,d}x  =\\displaystyle\\int\\limits \\mathrm{e}^{\\tfrac{x}{2}} \\mathrm{\\,d}x  =2\\mathrm{e}^{\\tfrac{x}{2}}+C=2\\sqrt{\\mathrm{e}^x}+C.  \\]  Do đó, $F(x)=\\sqrt{\\mathrm{e}^x}$ <strong>không</strong> là một nguyên hàm của $f(x)$.<br>- <strong>Đúng</strong>.<br>  Xét hàm số $y=F(x)-G(x)$ trên $(0;+\\infty)$ có $y'=f(x)-g(x)=\\sqrt{\\mathrm{e}^x}-\\sqrt{x}&gt;0$ (do $\\mathrm{e}^x&gt;x$ với mọi $x \\in (0;+\\infty)$).<br>  Vậy hàm số $y=F(x)-G(x)$ đồng biến trên $(0;+\\infty)$."
   }
 ];

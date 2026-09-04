@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2D31 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2D31 = [
   {
     "id": "2D312TN1",
@@ -274,5 +279,17 @@ window.tracNghiem2D31 = [
     ],
     "answer": 1,
     "explain": "Nhóm chứa tứ phân vị thứ nhất là $[20;40)$."
+  },
+  {
+    "id": "2D312TN22",
+    "question": "Bảng sau thống kê cân nặng của $50$ quả xoài được lựa chọn ngẫu nhiên sau khi thu hoạch ở một nông trường  <br><img src=\"data/12/2D3/im2D31/loc3_2_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
+    "options": [
+      "$200$",
+      "$350$",
+      "$40$",
+      "$700$"
+    ],
+    "answer": 0,
+    "explain": "Khoảng biến thiên của mẫu số liệu trên là $450-250=200$."
   }
 ];

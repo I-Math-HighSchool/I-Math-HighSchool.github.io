@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 2D42 - Trả lời ngắn (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 2D42 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D42 = [
   {
@@ -104,5 +105,11 @@ window.traLoiNgan2D42 = [
     "question": "Kết quả của tích phân $\\displaystyle\\int\\limits_0^{\\tfrac{\\pi}{4}} \\sin x\\mathrm{\\,d}x = \\dfrac{a-\\sqrt{b}}{2}$. Tính $a+b$.",
     "answer": "4",
     "explain": "Ta có $\\displaystyle\\int\\limits_0^{\\tfrac{\\pi}{4}} \\sin x\\mathrm{\\,d}x = -\\cos x\\Bigg|_0^{\\tfrac{\\pi}{4}} = \\left(-\\cos\\dfrac{\\pi}{4}\\right)-(-\\cos 0)=-\\dfrac{\\sqrt{2}}{2}-(-1)=\\dfrac{2-\\sqrt{2}}{2}$.<br>  Vậy $a+b=2+2=4$."
+  },
+  {
+    "id": "2D423TL3",
+    "question": "Cho $f(x)=\\dfrac{1}{\\sin ^2 x}$. Biết rằng $F(x)$ là một nguyên hàm của $f(x)$ thỏa $F\\left(\\dfrac{\\pi}{6}\\right)=0$. Tính $F\\left(\\dfrac{\\pi}{3}\\right)$. Kết quả được làm tròn đến hàng phần trăm.",
+    "answer": "1{,}15",
+    "explain": "Ta có   $\\displaystyle\\int\\limits_{\\dfrac{\\pi}{6}}^{\\dfrac{\\pi}{3}} f(x) \\mathrm{\\,d}x=\\dfrac{2}{\\sqrt{3}} \\Leftrightarrow F\\left(\\dfrac{\\pi}{3}\\right)-F\\left(\\dfrac{\\pi}{6}\\right)=\\dfrac{2}{\\sqrt{3}} \\Leftrightarrow F\\left(\\dfrac{\\pi}{3}\\right) = \\dfrac{2}{\\sqrt{3}} +F\\left(\\dfrac{\\pi}{6}\\right)=\\dfrac{2}{\\sqrt{3}} \\approx 1{,}15.$"
   }
 ];

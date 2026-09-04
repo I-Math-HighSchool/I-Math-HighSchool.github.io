@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1H44 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1H44 = [
   {
@@ -95,5 +95,28 @@ window.dungSai1H44 = [
       }
     ],
     "explain": "<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS9_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Từ giả thiết suy ra $MN\\parallel AD\\parallel BC$, mà $BC\\subset(SBC)$ và $MN\\not\\subset(SBC)$, nên $MN\\parallel(SBC)$.\\hfill(1)<br>  Vậy, mệnh đề \\lq\\lq $MN\\parallel(SBC)$\\rq\\rq\\, đúng.<br>- Lại có $OM$ là đường trung bình của tam giác $SAC$, nên $OM\\parallel SC\\Rightarrow OM\\parallel(SBC)$.\\hfill(2)<br>  Từ (1) và (2), suy ra $(OMN)\\parallel(SBC)$.\\hfill(3)<br>  Vậy, mệnh đề \\lq\\lq $(OMN)\\parallel(SBC)$\\rq\\rq\\, là đúng.<br>- Lại có $OE$ là đường trung bình của tam giác $ABD$, nên $OE\\parallel AD\\parallel MN\\Rightarrow OE\\parallel MN\\Rightarrow E\\in(OMN)$, suy ra $EF\\subset(OMN)$.\\hfill(4)<br>  Từ (3) và (4), ta có $EF\\parallel(SBC)$. <br>  Vậy, mệnh đề \\lq\\lq Gọi $E$ là trung điểm đoạn $AB$ và $F$ là một điểm thuộc đoạn $ON$. Khi đó $EF$ cắt với mặt phẳng $(SBC)$\\rq\\rq\\, là sai.<br>- Vì $G$ thuộc mặt phẳng $(ABCD)$ và cách đều $AB$, $CD$ nên $G$ thuộc đường trung bình của hình bình hành $ABCD$ (ứng với hai cạnh $AB$, $CD$).<br>  Gọi $I$ là trung điểm của $AD$, suy ra $O$, $I$, $G$ thẳng hàng. Ta có $OI\\parallel AB$ (do $OI$ là đường trung bình của tam giác $ABD$), suy ra $OI\\parallel(SAB)$.\\hfill(5)<br>  Tương tự, ta có $ON\\parallel SB$, suy ra $ON\\parallel(SAB)$.\\hfill(6)<br>  Từ (5) và (6) suy ra $(ONI)\\parallel(SAB)$ mà $NG\\subset(ONI)$ nên $NG\\parallel(SAB)$.<br>  Vậy, mệnh đề \\lq\\lq Gọi $G$ là một điểm trên mặt phẳng $(ABCD)$ cách đều $AB$ và $CD$. Khi đó $GN$ cắt $(SAB)$\\rq\\rq\\, sai."
+  },
+  {
+    "id": "1H442DS5",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M$, $N$ lần lượt là trung điểm của $SA$, $AB$.",
+    "subQuestions": [
+      {
+        "text": "$(MBC)\\cap(SAD)=Sx\\parallel BC\\parallel AD$",
+        "answer": false
+      },
+      {
+        "text": "$CD\\parallel MN$",
+        "answer": false
+      },
+      {
+        "text": "$OM\\parallel (SCD)$",
+        "answer": true
+      },
+      {
+        "text": "$(OMN)\\parallel (SBC)$",
+        "answer": true
+      }
+    ],
+    "explain": "<br><img src=\"data/11/1H4/im1H44/loc3_1_TL_TN_DS_THPT__008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Ta có $M\\in (MBC)\\cap (SAD) \\text{ và } (MBC)\\supset BC\\parallel AD\\subset (SAD)\\Rightarrow(MBC)\\cap(SAD)=Mx\\parallel BC\\parallel AD$.<br>- Ta có $N$, $C$, $D\\in(ABCD)$, $M\\notin (ABCD)$, suy ra $MN$ và $CD$ chéo nhau.<br>- Ta có $MO\\parallel SC\\subset (SCD)$, suy ra $OM\\parallel (SCD)$.<br>- Ta có $(OMN)\\supset MN\\parallel SB\\subset (SBC) \\text{ và } (OMN)\\supset OM\\parallel SC\\subset (SBC)\\Rightarrow (OMN)\\parallel(SBC)$."
   }
 ];

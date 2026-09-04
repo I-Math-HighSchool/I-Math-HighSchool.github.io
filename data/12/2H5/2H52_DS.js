@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H52 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.dungSai2H52 = [
   {
     "id": "2H523DS1",
@@ -159,5 +164,28 @@ window.dungSai2H52 = [
       }
     ],
     "explain": "<br>- Thay tọa độ điểm $A$ vào phương trình đường thẳng $d$, ta có $\\dfrac{1-1}{2}=\\dfrac{-1+1}{-1}\\neq \\dfrac{-2-2}{1}$, do đó $A\\notin d$.<br>- Vì $(Q)\\perp (P) \\text{ và } (Q)\\parallel d\\Rightarrow \\vec{n}_{(Q)}\\perp \\vec{n}_{(P)} \\text{ và } \\vec{n}_{(Q)}\\perp\\vec{u}_{d}.$ <br>  Ta có thể chọn một véc-tơ pháp tuyến của $(Q)$ là $\\vec{n}_{(Q)}=\\left[\\vec{n}_{(P)},\\vec{u}_d\\right]=(3;3;-3)$. <br>  Vậy $\\vec{u}=(1;1;-1)$ cũng là một véc-tơ pháp tuyến của $(Q)$.<br>- Ta có   $\\sin \\left(d,(P)\\right) = \\dfrac{\\left|\\vec{u}_d\\cdot \\vec{n}_{(P)}\\right|}{\\left|\\vec{u}_d\\right|\\cdot \\left|\\vec{n}_{(P)}\\right|}$<br>$= \\dfrac{\\left|-2-2+1\\right|}{\\sqrt{2^2+(-1)^2+1^2}\\cdot\\sqrt{(-1)^2+2^2+1^2}}$<br>$= \\dfrac{1}{2}.$  Vậy $\\left(d,(P)\\right)=30^\\circ$.<br>- Gọi $(R)$ là mặt phẳng song song với $(P)$ và đi qua $M$. Khi đó $\\Delta\\subset (R)$. <br>  Vậy phương trình mặt phẳng $(R)$ là $-(x+3)+2(y-1)+(z-2)=0\\Leftrightarrow -x+2y+z-7=0$. <br>  Ta thấy giao điểm của hai đường thẳng $d$ và $\\Delta$ chính là giao điểm của đường thẳng $d$ và mặt phẳng $(R)$. <br>  Gọi $N=d\\cap (R)$. Ta có $N\\in d\\Rightarrow N(1+2t;-1-t;2+t)$. <br>  Mặt khác $N\\in (R)$ nên ta có phương trình  $-(1+2t)+2(-1-t)+(2+t)-7=0\\Leftrightarrow t=-\\dfrac{8}{3}.$  Suy ra $N\\left(-\\dfrac{13}{3};\\dfrac{5}{3};-\\dfrac{2}{3}\\right)$. <br>  Vậy $a+b+c=-\\dfrac{13}{3}+\\dfrac{5}{3}-\\dfrac{2}{3}=-\\dfrac{10}{3}$."
+  },
+  {
+    "id": "2H525DS1",
+    "question": "Trong không gian $Oxyz$, cho đường thẳng $d\\colon\\dfrac{x-1}{2}=\\dfrac{y+3}{-3}=\\dfrac{z}{4}$ và mặt phẳng $(P)\\colon x+y-2z+1=0$.",
+    "subQuestions": [
+      {
+        "text": "Đường thẳng $d$ có véc-tơ chỉ phương $\\overrightarrow{u}=(1;2;3)$",
+        "answer": false
+      },
+      {
+        "text": "Đường thẳng $d$ đi qua điểm $M(1;2;3)$",
+        "answer": false
+      },
+      {
+        "text": "Khoảng cách từ điểm $A(1;0;-3)$ đến mặt phẳng $(P)\\colon x+y-2z+1=0$ bằng $\\dfrac{4\\sqrt{6}}{3}$",
+        "answer": true
+      },
+      {
+        "text": "Phương trình mặt phẳng $(Q)$ vuông góc $(P)$ và chứa đường thẳng $d$ có dạng $(Q)\\colon 2x+8y+5z+22=0$",
+        "answer": false
+      }
+    ],
+    "explain": "Một véc-tơ chỉ phương của $d$ là $\\overrightarrow{u}=(2;-3;4)$ và một véc-tơ pháp tuyến của mặt phẳng $(P)$ là $\\overrightarrow{n}_1=(1;-2;1)$.  <br>- Đường thẳng $d$ có véc-tơ chỉ phương là $\\overrightarrow{u}=(2;-3;4)$.<br>- Thay điểm $M(1;2;3)$ vào phương trình $\\dfrac{x-1}{2}=\\dfrac{y+3}{-3}=\\dfrac{z}{4}$ ta thấy không thỏa suy ra $M\\notin d$.<br>- Khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ là $\\mathrm{d}\\left(A,(P)\\right)=\\dfrac{\\left|1\\cdot1+2\\cdot3+1\\right|}{\\sqrt{1+1+4}}=\\dfrac{4\\sqrt{6}}{3}$.<br>- Vì mặt phẳng $(Q)$ vuông góc với mặt phẳng $(P)$ và chứa $d$ nên véc-tơ pháp tuyến của $(Q)$ là $\\overrightarrow{n}=\\left[\\overrightarrow{u},\\overrightarrow{n}_1\\right]=(5;2;-1)$.<br>  Vì $(Q)$ chứa $d$ nên $(Q)$ đi qua điểm $N(1;-3;0)$. Phương trình mặt phẳng $(Q)$ là  \\[5(x-1)+2(y+3)-(z-0)=0\\Leftrightarrow 5x+2y-z+1=0.\\]"
   }
 ];

@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D21 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan0D21 = [
   {
@@ -39,5 +39,11 @@ window.traLoiNgan0D21 = [
     "question": "Một cửa hàng bán hai loại gạo, bán mỗi kg loại $I$ lãi $3\\,000$ đồng, mỗi kg loại $II$ lãi $2\\,000$ đồng. Giả sử cửa hàng bán $x$ kg gạo loại $I$ và $y$ kg gạo loại $II$. Bất phương trình biểu thị mối liên hệ giữa $x$ và $y$ để cửa hàng đó thu được số lãi lớn hơn $100\\,000$ đồng có dạng $ax+by &gt; 10$. Khi đó $a+b$ bằng?",
     "answer": "0{,}5",
     "explain": "Gọi số tiền lãi thu được là $L$.<br>  Ta có $L = 3\\,000x + 2\\,000y$.<br>  Theo đề bài, số lãi thu được lớn hơn $100\\,000$ đồng nên ta có bất phương trình  $3\\,000x + 2\\,000y gt; 100\\,000$<br>$\\Leftrightarrow 3x + 2y gt; 100$<br>$\\Leftrightarrow \\dfrac{3}{10}x + \\dfrac{2}{10}y gt; 10$<br>$\\Leftrightarrow 0,3x + 0,2y gt; 10$  Suy ra $a = 0{,}3$ và $b = 0{,}2$.<br>  Vậy $a+b = 0{,}3 + 0{,}2 = 0{,}5$."
+  },
+  {
+    "id": "0D211TL3",
+    "question": "Bạn Lan mang $180\\,000$ đồng đi nhà sách để mua một số quyển tập và bút. Biết rằng giá một quyển tập là $9\\,000$ đồng và giá của một cây bút là $5\\,000$ đồng. Bạn Lan có thể mua được tối đa bao nhiêu quyển tập nếu bạn đã mua $10$ cây bút?",
+    "answer": "14",
+    "explain": "Gọi $x$,$y$ lần lượt là số quyển tập và bút bạn Lan mua.<br>  Bất phương trình biểu diễn số quyển vở và bút có thể mua là $9x+5y\\le 180$.<br>  Vì bạn Lan đã mua $10$ cây bút nên $9\\cdot x+5.10\\le 180\\Rightarrow x\\le \\dfrac{130}{9}=14{,}4$.<br>  Vì $x$ nguyên dương nên bạn Lan mua được nhiều nhất là $14$ quyển tập."
   }
 ];

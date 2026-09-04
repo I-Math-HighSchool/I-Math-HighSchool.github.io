@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D11 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D11 = [
   {
@@ -195,5 +195,101 @@ window.tracNghiem0D11 = [
     ],
     "answer": 1,
     "explain": "Các mệnh đề Toán học là mệnh đề số $1$ và $4$."
+  },
+  {
+    "id": "0D111TN7",
+    "question": "Phát biểu nào sau đây là mệnh đề?  \\def\\dotEX{}",
+    "options": [
+      "$\\sqrt{x}$ có phải là số vô tỉ?",
+      "$ 3$ là số nguyên tố.",
+      "$ 2x+1$ là số lẻ.",
+      "Học Toán thật thú vị!"
+    ],
+    "answer": 1,
+    "explain": "Phát biểu \\lq\\lq $ 3$ là số nguyên tố\\rq\\rq là mệnh đề."
+  },
+  {
+    "id": "0D115TN9",
+    "question": "Phủ định của mệnh đề $P\\colon$\\lq\\lq $\\forall x\\in\\mathbb{R},\\,x^2-3x&gt;0$\\rq\\rq\\, là mệnh đề nào sau đây?",
+    "options": [
+      "$\\exists x\\in\\mathbb{R},x^2-3x\\ge 0$",
+      "$\\exists x\\in\\mathbb{R},x^2-3x&gt;0$",
+      "$\\exists x\\in\\mathbb{R},x^2-3x\\le 0$",
+      "$\\forall x\\in\\mathbb{R},x^2-3x\\le 0$"
+    ],
+    "answer": 2,
+    "explain": "$\\overline{P}\\colon\\exists x\\in\\mathbb{R},x^2-3x\\le 0$."
+  },
+  {
+    "id": "0D115TN10",
+    "question": "Phủ định của mệnh đề \\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq\\ là mệnh đề nào sau đây?",
+    "options": [
+      "\\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3&gt;0$\\rq\\rq",
+      "\\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq",
+      "\\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq",
+      "\\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq"
+    ],
+    "answer": 3,
+    "explain": "Phủ định của mệnh đề \\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq\\ là mệnh đề \\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq."
+  },
+  {
+    "id": "0D111TN4",
+    "question": "Cho mệnh đề chứa biến $P(x)\\colon$\\lq\\lq $-2x^2+x+1&lt;0$\\rq\\rq. Giá trị nào sau đây của biến $x$ làm cho $P(x)$ trở thành một mệnh đề <strong>sai</strong>?",
+    "options": [
+      "$x = 3$",
+      "$x = \\dfrac{1}{2}$",
+      "$x = 2$",
+      "$x = \\dfrac{5}{2}$"
+    ],
+    "answer": 1,
+    "explain": "Thay $x=3$, ta được $-2\\cdot 3^2+3+1=-14&lt;0$. Do đó, $P(3)$ là mệnh đề đúng. <br>   Thay $x=\\dfrac{1}{2}$, ta được $-2\\cdot\\left(\\dfrac{1}{2}\\right)^2+\\dfrac{1}{2}+1=1&gt;0$. Do đó, $P\\left(\\dfrac{1}{2}\\right)$ là mệnh đề sai. <br>   Thay $x=2$, ta được $-2\\cdot 2^2+2+1=-5&lt;0$. Do đó, $P(2)$ là mệnh đề đúng.<br>   Thay $x=\\dfrac{5}{2}$, ta được $-2\\cdot\\left(\\dfrac{5}{2}\\right)^2+\\dfrac{5}{2}+1=-9&lt;0$. Do đó, $P\\left(\\dfrac{5}{2}\\right)$ là mệnh đề đúng. <br>   Vậy giá trị của $x$ làm cho $P(x)$ trở thành một mệnh đề sai là $x=\\dfrac{1}{2}$."
+  },
+  {
+    "id": "0D111TN5",
+    "question": "Trong các câu sau, có bao nhiêu câu là mệnh đề?  <br>- [1)]<br>- \\lq\\lq $19$ là số nguyên tố\\rq\\rq.<br>- \\lq\\lq Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền\\rq\\rq.<br>- \\lq\\lq Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi\\rq\\rq.<br>- \\lq\\lq Mọi hình chữ nhật đều nội tiếp được đường tròn\\rq\\rq.",
+    "options": [
+      "$4$",
+      "$3$",
+      "$2$",
+      "$1$"
+    ],
+    "answer": 1,
+    "explain": "Xét các câu đã cho:  <br>- [1)]<br>- \\lq\\lq $19$ là số nguyên tố\\rq\\rq\\ là mệnh đề.<br>- \\lq\\lq Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền\\rq\\rq\\ là mệnh đề.<br>- \\lq\\lq Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi\\rq\\rq\\ không phải là mệnh đề (là lời khuyên).<br>- \\lq\\lq Mọi hình chữ nhật đều nội tiếp được đường tròn\\rq\\rq\\ là mệnh đề.  Vậy có $3$ câu là mệnh đề."
+  },
+  {
+    "id": "0D112TN9",
+    "question": "Trong các phát biểu sau đây, phát biểu nào là một mệnh đề toán học?",
+    "options": [
+      "Hình chữ nhật là hình bình hành phải không?",
+      "Số $1$ là số nguyên tố",
+      "Tam giác cân có một góc $60^\\circ$ có là tam giác đều không?",
+      "Học, học nữa, học mãi"
+    ],
+    "answer": 1,
+    "explain": "<br>- \\lq\\lq Hình chữ nhật là hình bình hành phải không?\\rq\\rq\\, là câu hỏi.<br>- \\lq\\lq Số $1$ là số nguyên tố\\rq\\rq\\, là một khẳng định sai (số nguyên tố phải lớn hơn $1$), đây là một mệnh đề toán học.<br>- \\lq\\lq Tam giác cân có một góc $60^\\circ$ có là tam giác đều không?\\rq\\rq\\, là câu hỏi.<br>- \\lq\\lq Học, học nữa, học mãi\\rq\\rq\\, là câu khẩu hiệu (câu cảm thán)."
+  },
+  {
+    "id": "0D112TN7",
+    "question": "Trong các câu sau, câu nào <strong>không</strong> phải mệnh đề?",
+    "options": [
+      "$8$ là số chính phương",
+      "Hà Nội là thủ đô Việt Nam",
+      "Buồn ngủ quá!",
+      "Hình thoi có hai đường chéo vuông góc với nhau"
+    ],
+    "answer": 2,
+    "explain": "\\lq\\lq Buồn ngủ quá!\\rq\\rq\\, là câu cảm thán nên không phải là mệnh đề."
+  },
+  {
+    "id": "0D115TN11",
+    "question": "Mệnh đề phủ định của mệnh đề $P\\colon \"\\forall x\\in\\mathbb{N}\\colon x^{2}+x-1&gt;0\"$ là",
+    "options": [
+      "$\\overline{P}\\colon \"\\exists x\\in\\mathbb{N}\\colon x^{2}+x-1&gt;0\"$",
+      "$\\overline{P}\\colon \"\\forall x\\in\\mathbb{N}\\colon x^{2}+x-1&gt;0\"$",
+      "$\\overline{P}\\colon \"\\exists x\\in\\mathbb{N}\\colon x^{2}+x-1\\le0\"$",
+      "$\\overline{P}\\colon \"\\forall x\\in\\mathbb{N}\\colon x^{2}+x-1&lt;0\"$"
+    ],
+    "answer": 2,
+    "explain": "Phủ định của \\lq\\lq với mọi\\rq\\rq\\, ($\\forall$) là \\lq\\lq tồn tại\\rq\\rq\\, ($\\exists$).<br>  Phủ định của \\lq\\lq $&gt;$\\rq\\rq\\, là \\lq\\lq $\\le$\\rq\\rq\\,.<br>  Vậy $\\overline{P}\\colon \"\\exists x\\in\\mathbb{N}\\colon x^{2}+x-1\\le0\"$."
   }
 ];

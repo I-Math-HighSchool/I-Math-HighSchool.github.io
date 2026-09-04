@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 2D42 - Đúng/Sai (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 2D42 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D42 = [
   {
@@ -232,5 +233,143 @@ window.dungSai2D42 = [
       }
     ],
     "explain": "<br>- Ta có \\[\\displaystyle\\int\\limits_1^2 f'(x){\\,d}x=\\displaystyle\\int\\limits_1^2 x+{e}^x{\\,d}x=\\left.\\left({e}^x+\\dfrac{1}{2}x^2\\right)\\right|^2_1={e}^2-{e}+\\dfrac{3}{2}.\\]<br>- Hoàng độ giao điểm của các đường $y=f'(x)$, $y=x+1$ là  \\[x+{e}^x=x+1 \\Leftrightarrow {e}^x=1 \\Leftrightarrow x=0.\\]  Do trên đoạn $[0;2]$: $f'(x)-(x+1)={e}^x-1&gt;0$. <br>  Diện tích hình phẳng giới hạn là \\[S=\\displaystyle\\int\\limits_0^2 \\left({e}^x-1\\right){\\,d}x={e}^2-3.\\]<br>- $f(x)=\\displaystyle\\int f'(x){\\,d}x={e}^x+\\dfrac{1}{2}x^2+C$.<br>- Có $f(x)=\\displaystyle\\int f'(x){\\,d}x={e}^x+\\dfrac{1}{2}x^2+C$. <br>  Với $f(0)=4 \\Leftrightarrow {e}^0+\\dfrac{1}{2}\\cdot0^2+C=4 \\Leftrightarrow C=4$. <br>  Với $f(x)={e}^x+\\dfrac{1}{2}x^2+4$. <br>  Khi đó $\\displaystyle\\int\\limits_0^1 f(x){\\,d}x={e}+\\dfrac{6}{13}=\\dfrac{6{e}+13}{6}$."
+  },
+  {
+    "id": "2D426DS1",
+    "question": "Biết rằng hàm số $f(x) = a x^2 + b x + c$, ($a$, $b$, $c \\in \\mathbb{R}$) thỏa mãn $\\displaystyle \\int \\limits_0^1 f(x)\\, \\mathrm{d}x = -\\dfrac{7}{2}$, $\\displaystyle \\int \\limits_0^2 f(x)\\, \\mathrm{d}x = -2$ và $F(x)$ là một nguyên hàm của $f(x)$ trên đoạn $[0; 3]$.",
+    "subQuestions": [
+      {
+        "text": "$F(1) - F(0) = -\\dfrac{7}{2}$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle \\int \\limits_1^2 f(x)\\, \\mathrm{d}x = \\dfrac{3}{2}$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle \\int f(x)\\, \\mathrm{d}x = \\int \\left(a x^2 + b x + c\\right)\\, \\mathrm{d}x = \\dfrac{a}{3} x^3 + \\dfrac{b}{2} x^2 + c x$",
+        "answer": false
+      },
+      {
+        "text": "Biết $\\displaystyle \\int \\limits_0^3 f(x)\\, \\mathrm{d}x = \\dfrac{13}{2}$, khi đó $a + b + 3c = -12$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có  \\[F(1) - F(0)=\\displaystyle \\int \\limits_0^1 f(x)\\, \\mathrm{d}x=-\\dfrac{7}{2}.\\]<br>- Ta có  \\[\\displaystyle \\int \\limits_0^1 f(x)\\, \\mathrm{d}x + \\int \\limits_1^2 f(x)\\, \\mathrm{d}x=\\int \\limits_0^2 f(x)\\, \\mathrm{d}x \\Leftrightarrow -\\dfrac{7}{2}+ \\int \\limits_1^2 f(x)\\, \\mathrm{d}x=-2 \\Leftrightarrow \\int \\limits_1^2 f(x)\\, \\mathrm{d}x =\\dfrac{3}{2}.\\]<br>- Ta có  \\[\\displaystyle \\int f(x)\\, \\mathrm{d}x = \\int \\left(a x^2 + b x + c\\right)\\, \\mathrm{d}x = \\dfrac{a}{3} x^3 + \\dfrac{b}{2} x^2 + c x+C.\\]<br>- Ta có   <br>- $\\displaystyle \\int \\limits_0^1 f(x) \\ \\mathrm{d}x=\\left(\\dfrac{a}{3} x^3 + \\dfrac{b}{2} x^2 + c x\\right)\\Bigg|^1_0=\\dfrac{a}{3}+\\dfrac{b}{2}+c=-\\dfrac{7}{2}$.<br>- $\\displaystyle \\int \\limits_0^2 f(x) \\ \\mathrm{d}x=\\left(\\dfrac{a}{3} x^3 + \\dfrac{b}{2} x^2 + c x\\right)\\Bigg|^2_0=\\dfrac{8a}{3}+2b+2c=-2$.<br>- $\\displaystyle \\int \\limits_0^3 f(x) \\ \\mathrm{d}x=\\left(\\dfrac{a}{3} x^3 + \\dfrac{b}{2} x^2 + c x\\right)\\Bigg|^3_0=9a+\\dfrac{9b}{2}+3c=\\dfrac{13}{2}$.  Suy ra $a=1$, $b=3$, $c=-\\dfrac{16}{3}$.<br>  Nên $a+b+3c=1+3+3\\cdot \\left(-\\dfrac{16}{3}\\right)=-12$."
+  },
+  {
+    "id": "2D426DS2",
+    "question": "Cho hàm số $f(x)=2x+1$.",
+    "subQuestions": [
+      {
+        "text": "$\\displaystyle \\int f(x)\\,\\mathrm{d}x = x^2 + x + C$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle \\int \\limits_0^1 (x - 1) f(x)\\,\\mathrm{d}x = \\dfrac{2}{3}$",
+        "answer": false
+      },
+      {
+        "text": "Nếu $G(x)$ là một nguyên hàm của $f(x)$ với $G(2) = 5$ thì $G(x) = x^2 + x - 1$",
+        "answer": true
+      },
+      {
+        "text": "Gọi $F(x)$ là một nguyên hàm của $f(x)$, biết $F(1) = 2$ và $ \\dfrac{1}{F(1)} + \\dfrac{1}{F(2)} + \\cdots + \\dfrac{1}{F(100)} = \\dfrac{a}{b}$ với $a, b \\in \\mathbb{N}$, $\\dfrac{a}{b}$ tối giản thì $a + b = 201$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có  \\[\\displaystyle \\int f(x)\\,\\mathrm{d}x =\\int (2x+1)\\,\\mathrm{d}x = x^2 + x + C.\\]<br>- Ta có  $\\displaystyle \\int \\limits_0^1(x-1)f(x)\\,\\mathrm{d}x = \\int \\limits_0^1(x-1)(2x+1)\\,\\mathrm{d}x =\\int \\limits_0^1 (2x^2-x-1)\\,\\mathrm{d}x$<br>$= \\left(\\dfrac{2}{3}x^3-\\dfrac{1}{2}x^2-x\\right) \\Bigg|_0^1=\\left(\\dfrac{2}{3}-\\dfrac{1}{2}-1\\right) -0=-\\dfrac{5}{6}.$<br>- $G(x)$ là một nguyên hàm của $f(x)$ nên $G(x)=x^2+x+C$.<br>  Lại có $G(2)=2^2+2+C=5$ nên $C=-1$.<br>  Vậy $G(x)=x^2+x-1$.<br>- $F(x)$ là một nguyên hàm của $f(x)$ nên $F(x)=x^2+x+C$.<br>  Lại có $F(1)=1^2+1+C=2$ nên $C=0$.<br>  Vậy $F(x)=x^2+x=x(x+1)$.<br>  Ta có $\\dfrac{1}{F(x)} =\\dfrac{1}{x(x+1)} =\\dfrac{1}{x}-\\dfrac{1}{x+1}$.<br>  Suy ra   \\[\\dfrac{1}{F(1)} + \\dfrac{1}{F(2)} + \\cdots + \\dfrac{1}{F(100)} = \\dfrac{1}{1}-  \\dfrac{1}{2}+\\dfrac{1}{2}-\\dfrac{1}{3}+\\cdots+\\dfrac{1}{99}-\\dfrac{1}{100}=1 -\\dfrac{1}{100}=\\dfrac{99}{100}.\\]  Vậy $a=99$, $b=100$ nên $a+b=199$."
+  },
+  {
+    "id": "2D422DS11",
+    "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P)$ có phương trình $2x + y + 2z - 3 = 0$.",
+    "subQuestions": [
+      {
+        "text": "Mặt phẳng $(P)$ có một vectơ pháp tuyến là $\\overrightarrow{n} = (2; 1; 2)$",
+        "answer": true
+      },
+      {
+        "text": "Điểm $M(1; -1; -1)$ thuộc mặt phẳng $(P)$",
+        "answer": false
+      },
+      {
+        "text": "Phương trình mặt phẳng $(Q)$ đi qua $A(2; 3; -1)$ và song song với mặt phẳng $(P)$ là $2x + y + 2z - 7 = 0$",
+        "answer": false
+      },
+      {
+        "text": "Mặt phẳng $(\\alpha)$ chứa trục $Ox$ và vuông góc với $(P)$ có phương trình dạng $ax + by - 2z + d = 0$, khi đó $T = a - 3b + d = -12$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Phương trình mặt phẳng $(P) \\colon 2x+y+2z-3=0$ nên vectơ pháp tuyến của mặt phẳng $(P)$ là $\\overrightarrow{n}=(2;12)$.<br>- Thay tọa độ điểm $M(1; -1; -1)$ vào phương trình mặt phẳng, ta được   \\[2 \\cdot 1 + (-1) + 2 \\cdot (-1) = -1 \\ne 3\\]  nên $M$ không thuộc mặt phẳng.<br>- Vì $(P) \\parallel (Q)$ nên $\\overrightarrow{n}_{(P)}=\\overrightarrow{n}_{(Q)}=(2;1;2)$.<br>  Phương trình mặt phẳng $(Q)$ là  \\[2 \\cdot (x-2)+1 \\cdot (y-3) +2 \\cdot (z+1)=0 \\Leftrightarrow 2x+y+2z-5=0.\\]<br>- Vì mặt phẳng $(\\alpha)$ chứa trục $Ox$ và vuông góc với mặt phẳng $(P)$ nên $\\overrightarrow{i}$, $\\overrightarrow{n}_{(P)}$ là cặp vectơ chỉ phương của mặt phẳng $(\\alpha)$.<br>  Suy ra $\\overrightarrow{n}_{(\\alpha)}=\\left[\\overrightarrow{i},\\overrightarrow{n}_{(P)}\\right]=(0;-2;1)$.<br>  Lại có mặt phẳng $(\\alpha)$ đi qua gốc tọa độ $O$ nên phương trình mặt phẳng $(\\alpha)$ là  \\[0 \\cdot (x-0)-2(y-0)+1 \\cdot (z-0)= 0\\Leftrightarrow -2y+z=0 \\Leftrightarrow4y-2z=0.\\]  Vậy $a=0$, $b=4$, $d=0$ nên $a-3b+d=0-3\\cdot4+0=-12$."
+  },
+  {
+    "id": "2D423DS4",
+    "question": "Cho hàm số $f(x) = 2x - 3\\cos x$.",
+    "subQuestions": [
+      {
+        "text": "Một nguyên hàm của $f(x)$ là $g(x) = x^2 + 3\\sin x + 2$",
+        "answer": false
+      },
+      {
+        "text": "Nếu $F(x)$ là một nguyên hàm của $f(x)$ và $F\\left(\\dfrac{\\pi}{2}\\right) = 3$ thì $F(x) = x^2 - 3\\sin x + 6$",
+        "answer": false
+      },
+      {
+        "text": "Nguyên hàm $F(x)$ của $f(x)$ thỏa mãn điều kiện $F(0) = 0$ là $F(x) = x^2 - 3\\sin x$",
+        "answer": true
+      },
+      {
+        "text": "$\\displaystyle \\int f(x + \\pi)\\,\\mathrm{d}x = x^2 + 3\\sin x + 2(\\pi + C)$, $C$ là hằng số",
+        "answer": true
+      }
+    ],
+    "explain": "Ta có nguyên hàm của $f(x)$ là $\\displaystyle \\int f(x)\\,\\mathrm{d}x = \\int (2x - 3\\cos x)\\,\\mathrm{d}x = x^2 - 3\\sin x + C$.  <br>- $g(x) = x^2 + 3\\sin x + 2$ không phải là một nguyên hàm của $f(x)$.<br>- $F(x)$ là một nguyên hàm của $f(x)$ nên $F(x) = x^2 - 3\\sin x + C$. Ta có   \\[F\\left(\\dfrac{\\pi}{2}\\right)=\\left(\\dfrac{\\pi}{2}\\right)^2-3 \\sin \\dfrac{\\pi}{2}+C=\\dfrac{\\pi^2}{4}-3+C=3 \\Leftrightarrow C=6-\\dfrac{\\pi^2}{4}.\\]  Suy ra $F(x)=x^2 -3\\sin x +6 -\\dfrac{\\pi^2}{4}$.<br>- $F(x)$ là một nguyên hàm của $f(x)$ nên $F(x) = x^2 - 3\\sin x + C$. Ta có   \\[F(0)=0^2-3 \\sin 0+C=C=0.\\]  Suy ra $F(x)=x^2 -3\\sin x$.<br>- Ta có  \\[\\displaystyle \\int f(x+\\pi)\\ \\mathrm{d} x=\\int 2(x+\\pi) -3 \\cos (x +\\pi) \\ \\mathrm{d}x=\\int 2x+3\\cos x +2\\pi \\ \\mathrm{d} x=x^2+3\\sin x +2\\pi x +C.\\]"
+  },
+  {
+    "id": "2D427DS10",
+    "question": "Một loại thuốc $A$ được tiêm vào bệnh nhân, nồng độ (đơn vị: mg/l) của thuốc trong máu sau $x$ phút (kể từ khi bắt đầu tiêm) được xác định bởi công thức $f(x)=\\dfrac{30x}{x^2+4}$. Để đưa ra lời khuyên và cách xử lí phù hợp cho bệnh nhân, người ta cần tính toán một số yếu tố về nồng độ của thuốc trong máu.",
+    "subQuestions": [
+      {
+        "text": "Sau $10$ ngày thì nồng độ thuốc $A$ trong máu nhỏ hơn $0{,}002$ mg/l",
+        "answer": false
+      },
+      {
+        "text": "Nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$\\,mg/l tại thời điểm $2$ phút sau khi tiêm",
+        "answer": true
+      },
+      {
+        "text": "$F(x)=10\\ln \\left(x^2+4\\right)$ là một nguyên hàm của $f(x)$",
+        "answer": false
+      },
+      {
+        "text": "Nồng độ trung bình của thuốc $A$ (làm tròn đến hàng phần trăm) trong khoảng thời gian $30$ phút từ khi bắt đầu tiêm là $2{,}71$\\,mg/l",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- <strong>Sai</strong>.<br>  Ta có $10$ ngày = $14\\,400$ phút.<br>  Ta tính $f(14\\,400)=f(14400)=\\dfrac{30 \\cdot 14\\,400}{14\\,400^2+4}\\approx 0{,}002083&gt;0{,}002$.<br>- <strong>Đúng</strong>.<br>  Xét hàm số $f(x)=\\dfrac{30x}{x^2+4}$ có $f'(x)=\\dfrac{30(-x^2+4)}{\\left(x^2+4\\right)^2}$.<br>  Ta có $f'(x)=0 \\Leftrightarrow -x^2+4=0 \\Leftrightarrow x=2 \\text{ hoặc } x=-2.$<br>  Do $x&gt;0$ nên ta nhận $x=2$, khi đó ta có bảng biến thiên sau  <br><img src=\"data/12/2D4/im2D42/loc3_2_TL_TN_THPT_Chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$\\,mg/l tại thời điểm $2$ phút sau khi tiêm.<br>- <strong>Sai</strong>.<br>  Xét $F(x)=10\\ln \\left(x^2+4\\right)$, ta tính đạo hàm  \\[  F'(x)=\\left[10\\ln (x^2+4)\\right]=\\dfrac{20x}{x^2+4} \\ne \\dfrac{30x}{x^2+4} = f(x).  \\]<br>- <strong>Đúng</strong>.<br>  Ta có $A=\\dfrac{1}{30-0}\\displaystyle\\int\\limits_{0}^{30} f(x) \\mathrm{\\,d}x \\approx 2{,}71$."
+  },
+  {
+    "id": "2D422DS6",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên.<br><img src=\"data/12/2D4/im2D42/loc3_2_TL_TN_THPT_Chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$, trục $Ox$ và hai đường thẳng $x=3$, $x=5$ tính bởi công thức là $\\displaystyle\\int\\limits_3^5f(x)\\mathrm{\\,d}x$",
+        "answer": false
+      },
+      {
+        "text": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$, trục $Ox$ và hai đường thẳng $x=0$, $x=2$ là $2$",
+        "answer": false
+      },
+      {
+        "text": "$\\displaystyle\\int\\limits_1^2f(t)\\mathrm{\\,d}t=2$",
+        "answer": true
+      },
+      {
+        "text": "Biết rằng $f(x)$ là một hàm số bậc ba khi $x \\in[2; 5]$. Khi đó $\\displaystyle\\int\\limits_0^5f(x) \\mathrm{\\,d}x=-\\dfrac{9}{4}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- <strong>Sai</strong>.<br>  Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$, trục $Ox$ và hai đường thẳng $x=3$, $x=5$ tính bởi công thức là $\\displaystyle\\int\\limits_3^5|f(x)|\\mathrm{\\,d}x$.<br>- <strong>Sai</strong>.<br>  Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$, trục $Ox$ và hai đường thẳng $x=0$, $x=2$ bằng  \\[  S_1=\\dfrac{1}{2}\\cdot 1 \\cdot 2 + 2 \\cdot 1 = 3.  \\]<br>- <strong>Đúng</strong>.<br>  Ta có trên đoạn $[1;2]$ thì $f(x)=2$ nên  \\[  \\displaystyle\\int\\limits_1^2f(t)\\mathrm{\\,d}t=\\displaystyle\\int\\limits_1^2f(x)\\mathrm{\\,d}x=\\displaystyle\\int\\limits_1^2 2\\mathrm{\\,d}x=(2-1)\\cdot 2=2.  \\]<br>- <strong>Sai</strong>.<br>  Trên đoạn $[2;5]$, $f(x)$ là hàm số bậc ba nên có dạng $f(x)=ax^3+bx^2+cx+d$ có đồ thị $(P)$. <br>  Ta có  \\[  (2;2) \\in (P) \\text{ và } (3;0) \\in (P) \\text{ và } (4;-2) \\in (P) \\text{ và } (5;2) \\in (P) \\Leftrightarrow  8a+4b+2c+d=2 \\text{ và } 27a+9b+3c+d=0 \\text{ và } 64a+16b+4c+d=-2 \\text{ và } 125a+25b+5c+d=2 \\Leftrightarrow  a= 1 \\text{ và } b=-9 \\text{ và } c=24 \\text{ và } d=-18.  \\]  Khi đó $f(x)=x^3-9x^2+24x-18$ trên đoạn $[2;5]$.<br>  Ta có:  \\[  \\displaystyle\\int\\limits_0^5 f(x)\\mathrm{\\,d}x=\\displaystyle\\int\\limits_0^2 f(x)\\mathrm{\\,d}x+\\displaystyle\\int\\limits_2^5 f(x)\\mathrm{\\,d}x=3+\\displaystyle\\int\\limits_2^5 \\left(x^3-9x^2+24x-18\\right)\\mathrm{\\,d}x=\\dfrac{9}{4}.  \\]"
   }
 ];

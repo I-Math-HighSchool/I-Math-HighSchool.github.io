@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1H42 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H42 = [
   {
@@ -135,5 +135,29 @@ window.tracNghiem1H42 = [
     ],
     "answer": 1,
     "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Gọi $H, K$ lần lượt là trung điểm của $AB$ và $BC$. <br>  Vì $M$ là trọng tâm $\\triangle SAB$ nên $M \\in SH$ và $\\dfrac{SM}{SH} = \\dfrac{2}{3}$. <br>  Vì $N$ là trọng tâm $\\triangle SBC$ nên $N \\in SK$ và $\\dfrac{SN}{SK} = \\dfrac{2}{3}$. <br>  Xét $\\triangle SHK$ có $\\dfrac{SM}{SH} = \\dfrac{SN}{SK} = \\dfrac{2}{3} \\Rightarrow MN \\parallel HK$ (định lí Ta-lét đảo). <br>  Lại có $HK$ là đường trung bình của $\\triangle ABC \\Rightarrow HK \\parallel AC$. <br>  Do đó $MN \\parallel AC$."
+  },
+  {
+    "id": "1H423TN5",
+    "question": "Trong không gian cho hai đường thẳng $a$, $b$ cùng thuộc một mặt phẳng và không có điểm chung. Khẳng định nào dưới đây đúng?",
+    "options": [
+      "$a$ và $b$ trùng nhau",
+      "$a$ và $b$ chéo nhau",
+      "$a$ và $b$ song song",
+      "$a$ và $b$ cắt nhau"
+    ],
+    "answer": 3,
+    "explain": "Vì hai đường thẳng $a$, $b$ cùng thuộc một mặt phẳng và không có điểm chung nên $a$ và $b$ cắt nhau."
+  },
+  {
+    "id": "1H423TN6",
+    "question": "Cho tứ diện $ABCD$. Khẳng định nào dưới đây đúng?",
+    "options": [
+      "$AB$ và $CD$ chéo nhau",
+      "$AB$ và $CD$ song song với nhau",
+      "Tồn tại một mặt phẳng chứa $AB$ và $CD$",
+      "$AB$ và $CD$ cắt nhau"
+    ],
+    "answer": 0,
+    "explain": "Vì $ABCD$ là tứ diện nên $AB$ và $CD$ chéo nhau."
   }
 ];

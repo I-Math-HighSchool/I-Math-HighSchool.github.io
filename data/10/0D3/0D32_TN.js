@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D32 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D32 = [
   {
@@ -111,5 +111,41 @@ window.tracNghiem0D32 = [
     ],
     "answer": 0,
     "explain": "Ta có bề lõm của parabol hướng lên nên $a&gt;0$.<br>  Với $x=0$, ta được $y=2$ nên $2=c$ do đó $c&gt;0$.<br>  Từ bảng biến thiên, ta có hoành độ đỉnh dương nên $-\\dfrac{b}{2a}&gt;0$ mà $a&gt;0$ nên ta được $b&lt;0$.<br>  Vậy $a&gt;0$, $b&lt;0$, $c&gt;0$"
+  },
+  {
+    "id": "0D323TN4",
+    "question": "Bảng biến thiên của hàm số $y=-2x^2+4x+1$ là bảng nào sau đây?  \\def\\dotEX{}",
+    "options": [
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+    ],
+    "answer": 0,
+    "explain": "Ta có $y=-2x^2+4x+1$ nên $a=-2$, $b=4$, $c=1$.  <br>   Suy ra $  \\Delta=b^2-4ac=4^2-4\\cdot\\left(-2\\right)\\cdot 1=16+8=24  $. <br>  Từ đó, tọa độ đỉnh của parabol là  $  x_I=-\\dfrac{b}{2a}=-\\dfrac{4}{2\\cdot\\left(-2\\right)}=1,\\qquad   y_I=-\\dfrac{\\Delta}{4a}=-\\dfrac{24}{4\\cdot\\left(-2\\right)}=3.  $  Suy ra parabol có đỉnh $I\\left(1;3\\right)$. <br>   Vì $a&lt;0$ nên hàm số đồng biến trên khoảng $\\left(-\\infty;1\\right)$ và nghịch biến trên khoảng $\\left(1;+\\infty\\right)$. <br>  Do đó, hàm số $y=-2x^2+4x+1$ có bảng biến thiên như sau  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+  },
+  {
+    "id": "0D323TN2",
+    "question": "Một chiếc cổng hình parabol có phương trình $f(x)=-\\dfrac{1}{2}x^2$. Biết cổng có chiều rộng $d=6$ m (như hình vẽ). Hãy tính chiều cao $h$ của cổng.  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$h=5$ (m)",
+      "$h=-4{,}5$ (m)",
+      "$h=6$ (m)",
+      "$h=4{,}5$ (m)"
+    ],
+    "answer": 3,
+    "explain": "Đồ thị $y=f(x)=-\\dfrac{1}{2}x^2$ có đỉnh tại $O(0;0)$ và trục đối xứng là $Oy$. <br>   Chiều rộng cổng $d=6$ m nên hai điểm chân cổng đối xứng qua $Oy$ có hoành độ là $-3$ và $3$. <br>  Khi đó, tung độ của chân cổng là  $  f(3)=-\\dfrac{1}{2}\\cdot 3^2=-\\dfrac{9}{2}=-4{,}5.  $  Vậy chiều cao của cổng là $h = |-4{,}5| =4{,}5$ (m)."
+  },
+  {
+    "id": "0D321TN7",
+    "question": "Một cửa hàng bán giày nhập vào một đôi với giá là $40$ nghìn đồng. Cửa hàng ước tính rằng nếu đôi giày được bán với giá $x$ nghìn đồng thì mỗi tháng khách hàng sẽ mua $(120 - x)$ đôi. Hỏi cửa hàng bán một đôi giày giá bao nhiêu nghìn đồng thì thu được nhiều lãi nhất?",
+    "options": [
+      "$240$ nghìn đồng",
+      "$80$ nghìn đồng",
+      "$40$ nghìn đồng",
+      "$160$ nghìn đồng"
+    ],
+    "answer": 1,
+    "explain": "Giá nhập một đôi giày là $40$ nghìn đồng. Nếu bán với giá $x$ nghìn đồng thì mỗi tháng bán được $(120 - x)$ đôi, nên lợi nhuận (nghìn đồng) là  $  P(x) = (x - 40)(120 - x) = -x^2+160x-4800.  $  Đây là hàm số bậc hai có $a=-1&lt;0$ nên đạt giá trị lớn nhất tại  $  x=-\\dfrac{b}{2a}=-\\dfrac{160}{2\\cdot\\left(-1\\right)}=80.  $  Vậy cửa hàng nên bán với giá $80$ nghìn đồng để thu được nhiều lãi nhất."
   }
 ];

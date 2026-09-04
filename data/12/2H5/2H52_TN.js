@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H52 - Trắc nghiệm
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.tracNghiem2H52 = [
   {
     "id": "2H525TN1",
@@ -3286,5 +3291,41 @@ window.tracNghiem2H52 = [
     ],
     "answer": 3,
     "explain": "Ta có $\\dfrac{1+1}{2}=\\dfrac{0-1}{-1}=\\dfrac{-4+2}{-2}=1$ nên điểm $D(1;0;-4)$ thuộc đường thẳng $d$."
+  },
+  {
+    "id": "2H522TN1",
+    "question": "Trong không gian $Oxyz$, cho đường thẳng $d\\colonx=3-2t \\text{ và } y=5+t \\text{ và } z=-7(t\\in\\mathbb{R})$. Véc-tơ nào dưới đây là một véc-tơ chỉ phương của đường thẳng $d$?",
+    "options": [
+      "$\\overrightarrow{u}_3=(2;1;0)$",
+      "$\\overrightarrow{u}_1=(3;5;-7)$",
+      "$\\overrightarrow{u}_2=(-2;1;-7)$",
+      "$\\overrightarrow{u}_4=(-2;1;0)$"
+    ],
+    "answer": 3,
+    "explain": "Véc-tơ chỉ phương của đường thẳng $d$ là $\\overrightarrow{u}_2=(-2;1;0)$."
+  },
+  {
+    "id": "2H522TN2",
+    "question": "Trong không gian với hệ trục $Oxyz$, cho đường thẳng  $d\\colon x=3+t \\text{ và } y=1-2t \\text{ và } z=2$.  Một vectơ chỉ phương của $d$ là",
+    "options": [
+      "$\\vec{u}=(1;-2; 0)$",
+      "$\\vec{u}=(-1;2;2)$",
+      "$\\vec{u}=(3;1;2)$",
+      "$\\vec{u}=(1;-2;2)$"
+    ],
+    "answer": 0,
+    "explain": "Một vectơ chỉ phương của $d\\colon x=3+t \\text{ và } y=1-2t \\text{ và } z=2$ là $\\vec{u}=(1;-2; 0)$."
+  },
+  {
+    "id": "2H523TN275",
+    "question": "Trong không gian $Oxyz$. Đường thẳng đi qua $H(3;-1;0)$ và vuông góc với mặt phẳng $Oxz$ có phương trình là  \\def\\dotEX{}",
+    "options": [
+      "$x=3 \\text{ và } y=-1 \\text{ và } z=t.$",
+      "$x=3+t \\text{ và } y=-1 \\text{ và } z=0.$",
+      "$x=3 \\text{ và } y=-1+t \\text{ và } z=t.$",
+      "$x=3 \\text{ và } y=-1+t \\text{ và } z=0.$"
+    ],
+    "answer": 1,
+    "explain": "Đường thẳng này vuông góc với mặt phẳng $Oxz$ nên $\\overrightarrow{u}=\\overrightarrow{n}_{(Oxz)}=(0;1;0)$.<br>  Khi đó phương trình tham số của đường thẳng này là $x=3 \\text{ và } y=-1+t \\text{ và } z=0.$"
   }
 ];

@@ -1,6 +1,7 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D22 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D22 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D22 = [
   {
@@ -20,5 +21,17 @@ window.traLoiNgan1D22 = [
     "question": "Một hội trường lớn có $27$ ghế ở hàng đầu tiên, $29$ ghế ở hàng thứ hai, $31$ ghế ở hàng thứ ba và cứ tiếp tục theo quy luật như vậy (số ghế ở hàng ghế sau luôn nhiều hơn so với hàng ghế kề ngay sát phía trước nó là $2$ ghế). Hỏi để xếp hết $1275$ ghế vào hội trường thì hàng cuối cùng có bao nhiêu ghế?",
     "answer": "75",
     "explain": "Dễ thấy số ghế ở mỗi hàng là một cấp số cộng với số hạng đầu tiên $u_1. =27$ và công sai $d=2$.<br>  Gọi $S_n$ là tổng $n$ số hạng đầu tiên của cấp số cộng này. Ta có  $  S_n = \\dfrac{n\\left[2u_1+(n-1)d\\right]}{2} = 1275.  $  Từ đó, ta được phương trình  $\\dfrac{2\\left[54+(n-1) \\cdot 2\\right]}{2} = 1275$<br>$n^2+26n-1275 = 0$<br>$n=25~\\text{(nhận)} \\quad \\text{hoặc} \\quad n=-51~\\text{(loại)}$  Khi đó  $  u_{25} = u_1+24d = 27 + 24 \\cdot 2 = 75.  $  Vậy hàng cuối có $75$ ghế."
+  },
+  {
+    "id": "1D222TL4",
+    "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Cho cấp số cộng $(v_n)$ có $v_3 - v_6 = -15 \\text{ và } v_1 + v_2 = 11$. Tính giá trị $v_{25}$.",
+    "answer": "123",
+    "explain": "Ta có $v_3 - v_6 = -15 \\text{ và } v_1 + v_2 = 11 \\Leftrightarrow \\left(v_1+2d\\right) - \\left(v_1+5d\\right)=-15 \\text{ và } v_1 + \\left(v_1+d\\right) = 11 \\Leftrightarrow -3d=-15 \\text{ và } 2v_1+d=11\\Leftrightarrow v_1=3 \\text{ và } d=5.$<br>  Vậy $v_{25}=v_1+24d = 3+24 \\cdot 5 = 123$."
+  },
+  {
+    "id": "1D222TL5",
+    "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Cho dãy số $(u_n)$ xác định bởi $u_1 = 1 \\text{ và } u_{n+1} = \\dfrac{u_n}{2u_n+1}$, với $n \\in \\mathbb{N}^*$, $n \\ge 1$. Tính giá trị của $T = \\dfrac{1}{u_1} + \\dfrac{1}{u_2} + \\dfrac{1}{u_3} + \\ldots + \\dfrac{1}{u_{40}}$.",
+    "answer": "1\\,600",
+    "explain": "Ta có $u_1 = 1$; $u_2 = \\dfrac{1}{3}$; $u_3 = \\dfrac{1}{5}$; $u_4 = \\dfrac{1}{7}$;\\, $\\ldots$.<br>  Suy ra dãy số có số hạng tổng quát là $u_n = \\dfrac{1}{2n-1}$.<br>  Vậy $T = \\dfrac{1}{u_1} + \\dfrac{1}{u_2} + \\dfrac{1}{u_3} + \\ldots + \\dfrac{1}{u_{40}} = 1 + 3 + 5 + 7 + \\ldots + 79$.<br>  Nhận xét $1$; $3$; $5$; $7$; $\\ldots$; $2n-1$ là cấp số cộng có $v_1=1$ và cộng sai $d = 2$. <br>  Do đó $S_{40} = \\dfrac{40\\cdot (2v_1+39\\cdot d)}{2} = \\dfrac{40 (2\\cdot 1 +39 \\cdot 2)}{2} = 1\\,600$."
   }
 ];

@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D22 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0D22 = [
   {
@@ -519,5 +519,89 @@ window.tracNghiem0D22 = [
     ],
     "answer": 0,
     "explain": "Thay cặp số $(1;-1)$ vào hệ bất phương trình và thỏa hệ trên nên cặp số đó thuộc miền nghiệm của hệ bất phương trình."
+  },
+  {
+    "id": "0D222TN28",
+    "question": "Có bao nhiêu giá trị nguyên dương của tham số $m$ để miền nghiệm của hệ bất phương trình $\\left\\{\\begin{aligned}  & x\\le m\\\\  & y<m\\\\  \\end{aligned}\\right.$ không chứa điểm $ M\\left(0;2\\right)$?",
+    "options": [
+      "$ 3$",
+      "$ 2$",
+      "$ 1$",
+      "$ 4$"
+    ],
+    "answer": 1,
+    "explain": "$M$ không thuộc miền nghiệm của hệ bất phương trình nên $m\\le 2 \\text{ hoặc } m&lt;0\\Rightarrow m \\le 2$.<br>  Suy ra có $2$ giá trị nguyên dương của $m$ là $1$, $2$."
+  },
+  {
+    "id": "0D222TN29",
+    "question": "Đường thẳng $\\Delta $ chia mặt phẳng toạ độ $Oxy$ làm hai miền. Miền không tô đậm (không kể $\\Delta $) ở hình vẽ dưới đây là miền nghiệm của bất phương trình nào?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$ x+y+2\\ge 0$",
+      "$ x-y+2\\le 0$",
+      "$ x-y+2&gt;0$",
+      "$ x-2y+2&gt;0$"
+    ],
+    "answer": 2,
+    "explain": "Vì miền không tô đậm (không kể $\\Delta $) nên loại $ x+y+2\\ge 0$ và $ x-y+2\\le 0$.<br>  Mà $\\Delta$ đi qua $\\left(-2;0\\right)$ và $\\left(0;2\\right)$ nên bất phương trình cần tìm là $ x-y+2&gt;0$."
+  },
+  {
+    "id": "0D223TN5",
+    "question": "Một cơ sở sản xuất hai loại bàn và ghế. Để làm $1$ chiếc bàn cần $3$ tấm gỗ và $2$ giờ công; để làm $1$ chiếc ghế cần $2$ tấm gỗ và $1$ giờ công. Cơ sở có tối đa $18$ tấm gỗ và $10$ giờ công trong một ngày. Lợi nhuận từ mỗi chiếc bàn và ghế lần lượt là $200$ nghìn đồng và $100$ nghìn đồng. Gọi $x$, $y$ lần lượt là số bàn và ghế được làm trong ngày. Để lợi nhuận đạt lớn nhất, trong ngày cơ sở cần sản xuất bao nhiêu chiếc mỗi loại?",
+    "options": [
+      "$x=5$; $y=0$",
+      "$x=0$; $y=9$",
+      "$x=5$; $y=2$",
+      "$x=0$; $y=0$"
+    ],
+    "answer": 0,
+    "explain": "Gọi $x$, $y$ lần lượt là số bàn và số ghế sản xuất trong một ngày. Khi đó, $x\\ge 0$ và $y\\ge 0$. <br>  Đồng thời, kết hợp với các điều kiện về nguyên liệu và giờ công, ta được  $ x\\ge 0 \\text{ và } y\\ge 0 \\text{ và } 3x+2y\\le 18 \\text{ và } 2x+y\\le 10.$  Biểu thức tính lợi nhuận (theo đơn vị nghìn đồng) là:  $ P=200x+100y. $  Xét các phương án:  <br>- $x=5$, $y=0$ thỏa $3\\cdot 5+2\\cdot 0=15\\le 18$ và $2\\cdot 5+0=10\\le 10$.   Ta có $P=200\\cdot 5+100\\cdot 0=1000$.<br>- $x=0$, $y=9$ thỏa $3\\cdot 0+2\\cdot 9=18\\le 18$ và $0+9=9\\le 10$.  Ta có $P=200\\cdot 0+100\\cdot 9=900$.<br>- $x=5$, $y=2$ có $2\\cdot 5+2=12&gt;10$, không thỏa điều kiện giờ công nên ta loại.<br>- $x=0$, $y=0$ cho $P=0$.  Vậy lợi nhuận lớn nhất trong các phương án cho bởi phương án $x=5$, $y=0$."
+  },
+  {
+    "id": "0D221TN13",
+    "question": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?  \\def\\dotEX{}",
+    "options": [
+      "$3x-y&gt;5 \\text{ và } x&lt;6+4y.$",
+      "$x-5y=1 \\text{ và } x+y=5.$",
+      "$xy&lt;1 \\text{ và } x+4x&gt;5.$",
+      "$x^2+y&lt;3 \\text{ và } x-y&gt;1.$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $3x-y&gt;5 \\text{ và } x&lt;6+4y \\Rightarrow 3x-y&gt;5 \\text{ và } x-4y&lt;6$ là hệ bất phương trình bậc nhất hai ẩn."
+  },
+  {
+    "id": "0D222TN30",
+    "question": "Phần <strong>không tô đậm</strong> trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  \\def\\dotEX{}",
+    "options": [
+      "$x-y\\ge 0 \\text{ và } 2x-y\\ge 1.$",
+      "$x-y&lt;0 \\text{ và } 2x-3y&gt;1.$",
+      "$x-y&lt;0 \\text{ và } 2x-y&lt;1.$",
+      "$x-y&gt;0 \\text{ và } 2x-y&gt;1.$"
+    ],
+    "answer": 3,
+    "explain": "Ta tìm phương trình của hai đường thẳng. <br>  <strong>Đường thẳng thứ nhất</strong> đi qua $O(0;0)$ và $M(1;1)$ nên có hệ số góc là  $ k=\\dfrac{1-0}{1-0}=1. $  Vì đường thẳng đi qua gốc tọa độ $O(0;0)$ nên có phương trình là  $ y=x\\ \\Leftrightarrow\\ x-y=0. $   <strong>Đường thẳng thứ hai</strong> đi qua $M(1;1)$ và $N(0;-1)$ nên có hệ số góc là  $ k=\\dfrac{1-(-1)}{1-0}=2. $  Vì đường thẳng đi qua $N(0;-1)$ nên có phương trình là  $ y=2x-1\\ \\Leftrightarrow\\ 2x-y=1. $  Phần không tô đậm (không kể bờ) là miền nghiệm của hệ bất phương trình ứng với phần giao của hai nửa mặt phẳng nằm về cùng một phía xác định bởi hai đường thẳng trên. <br>   Chọn điểm $A(2;0)$ thuộc miền không tô đậm. Khi đó, $x-y=2&gt;0$ và $ 2x-y=4&gt;1$. <br>  Vậy hệ bất phương trình biểu diễn miền nghiệm là phần không tô đậm (không kể bờ) là  $ x-y&gt;0 \\text{ và } 2x-y&gt;1. $"
+  },
+  {
+    "id": "0D222TN31",
+    "question": "Miền nghiệm của hệ bất phương trình $x-2y&lt;0 \\text{ và } x+3y&gt;2 \\text{ và } x-y&lt;3$ chứa điểm nào sau đây?",
+    "options": [
+      "$(1;-1)$",
+      "$(2;6)$",
+      "$(0;-4)$",
+      "$(-2;-10)$"
+    ],
+    "answer": 1,
+    "explain": "Ta thử lần lượt từng phương án.  <br>- Với $(1; -1)$, ta có $x-2y=1-2(-1)=3&gt;0$ nên $(1; -1)$ không thuộc miền nghiệm.<br>- Với điểm $(2; 6)$, ta có $x-2y=2-2\\cdot 6=-10&lt;0$; $x+3y=2+3\\cdot 6=20&gt;2$ và $x-y=2-6=-4&lt;3$.<br>  Vậy $(2; 6)$ thỏa cả ba bất phương trình nên thuộc miền nghiệm.<br>- Với $(0; -4)$, ta có $x-2y=0-2(-4)=8&gt;0$ nên $(0;-4)$ không thuộc miền nghiệm.<br>- Với điểm $(-2; -10)$, ta có $x-2y=-2-2(-10)=18&gt;0$ nên điểm $(-2;-10)$ không thuộc miền nghiệm.   Vậy miền nghiệm của hệ chứa điểm $(2; 6)$."
+  },
+  {
+    "id": "0D221TN14",
+    "question": "Cặp số $(x;y)$ nào sau đây là nghiệm của hệ bất phương trình $x+3y\\le0 \\text{ và } x-2y\\ge1$?",
+    "options": [
+      "$(1;0)$",
+      "$(3;1)$",
+      "$(1;-3)$",
+      "$(-2;3)$"
+    ],
+    "answer": 2,
+    "explain": "Kiểm tra cặp số $(1;-3)$, ta thấy  $1 + 3(-3) = -8 \\le 0 \\quad (\\text{Đúng}) \\text{ và } 1 - 2(-3) = 7 \\ge 1 \\quad (\\text{Đúng}).$<br>  Vậy cặp số $(1;-3)$ là nghiệm của hệ bất phương trình $x+3y\\le0 \\text{ và } x-2y\\ge1.$"
   }
 ];

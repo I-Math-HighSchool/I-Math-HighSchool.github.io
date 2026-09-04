@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H51 - Đúng sai
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.dungSai2H51 = [
   {
     "id": "2H516DS1",
@@ -205,5 +210,28 @@ window.dungSai2H51 = [
       }
     ],
     "explain": "Ta có $D(0;60;0)$, $A(100;0;0)$.  <br>- $(OAG)$ và $(BCF)$ là hai mặt phẳng song song.<br>  Suy ra $\\cos ((OAG),(BCF))=\\cos 0^\\circ=1$.<br>- Mặt phẳng $(OAG)$ trùng với mặt phẳng $(Oxy)\\colon z=0$.<br>  Suy ra $\\mathrm{d}(B,(OAG))=\\mathrm{d}(B,(Oxy))=|z_B|=8$.<br>- Một cặp vectơ chỉ phương của $(OACB)$ là $(\\overrightarrow{OA}, \\overrightarrow{OB})$<br>- $(OACB)$ có vectơ pháp tuyến $\\overrightarrow{n}=\\left[\\overrightarrow{OA};\\overrightarrow{OB}\\right]=(0;-800;1\\,000)=200(0;-4;5)$ và đi qua $O(0;0;0)$ và có phương trình là  \\[0(x-0)-4(y-0)+5(z-0)=0\\Leftrightarrow 4y-5z=0.\\]  Suy ra $a=0$, $c=-5$, $d=0$.<br>  Vậy $a+c+d=-5$."
+  },
+  {
+    "id": "2H516DS2",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$ cho ba điểm $A(1;-2;-1)$, $B(-1;0;0)$, $C(0;2;3)$. Khi đó",
+    "subQuestions": [
+      {
+        "text": "$AB=3$",
+        "answer": true
+      },
+      {
+        "text": "Phương trình mặt phẳng $(ABC)$ là $4x+7y+6z+16=0$",
+        "answer": false
+      },
+      {
+        "text": "Khoảng cách từ $O$ đến $(ABC)$ là $\\dfrac{16\\sqrt{101}}{101}$",
+        "answer": false
+      },
+      {
+        "text": "Góc giữa hai mặt phẳng $(ABC)$ và $(Oxy)$ (làm tròn đến hàng đơn vị) bằng $53^{\\circ}$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Ta có $\\overrightarrow{AB}=(-2;2;1)$ nên $AB=\\sqrt{(-2)^2+2^2+1^2}=3$.<br>- <strong>Sai</strong>.<br>  Ta có $\\overrightarrow{AB}=(-2;2;1)$ và $\\overrightarrow{AC}=(-1;4;4)$ nên $\\overrightarrow{n}_{1}=\\left[\\overrightarrow{AB},\\overrightarrow{AC}\\right]=(4;7;-6)$.<br>  Phương trình mặt phẳng $(ABC)$ đi qua điểm $A(1;-2;-1)$ và có vectơ pháp tuyến $\\overrightarrow{n}_1=(4;7;-6)$ là  \\[  4(x-1)+7(y+2)-6(z+1)=0 \\Leftrightarrow 4x+7y-6z+4=0.  \\]<br>- <strong>Sai</strong>.<br>  Ta có  \\[  \\mathrm{d}[O,(ABC)]=\\dfrac{|4(0)+7(0)-6(0)+4|}{\\sqrt{4^2+7^2+(-6)^2}}=\\dfrac{4\\sqrt{101}}{101}.  \\]<br>- <strong>Đúng</strong>.<br>  Ta có $\\overrightarrow{n}_1=(4;7;-6)$ là vectơ pháp tuyến của mặt phẳng $(ABC)$. <br>  Ta có $\\overrightarrow{k}=(0;0;1)$ là vectơ pháp tuyến của mặt phẳng $(Oxy)$.<br>  Khi đó  \\[  \\cos\\left[(ABC),(Oxy)\\right]=\\dfrac{\\left|\\overrightarrow{n}_1\\cdot \\overrightarrow{k}\\right|}{\\left|\\overrightarrow{n}_1\\right|\\cdot \\left| \\overrightarrow{k}\\right|}=\\dfrac{|0\\cdot 4 + 0 \\cdot 7 + 1 \\cdot (-6) |}{\\sqrt{0^2+0^2+1^2}\\cdot \\sqrt{4^2+7^2+(-6)^2}}=\\dfrac{6\\sqrt{101}}{101}.  \\]  Suy ra $\\left[(ABC),(Oxy)\\right]\\approx 53^\\circ$."
   }
 ];

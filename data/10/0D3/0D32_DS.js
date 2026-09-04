@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0D32 - Đúng sai
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai0D32 = [
   {
@@ -417,5 +417,28 @@ window.dungSai0D32 = [
       }
     ],
     "explain": "<br>- ĐÚNG.<br>  Ta có $a=-1$, $b=0$, $c=-3$ từ đó hoành độ đỉnh $I$ là $x_{I}=-\\dfrac{b}{2a}=0$ và tung độ đỉnh $y_{I}=-0^2+3=3$. Vậy $I(0;3)$.<br>- SAI.<br>  Vì hệ số $a=-1&lt;0$ nên bề lõm parabol hướng xuống dưới.<br>- SAI.<br>  Ta có bảng biến thiên:  <br><img src=\"data/10/0D3/im0D32/loc2_0_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên hàm số đã cho nghịch biến trên khoảng $(0;+\\infty)$ và đồng biến trên khoảng $(-\\infty;0)$.<br>- ĐÚNG.<br>  Với hệ số $a=-1&lt;0$ thì hàm số đạt giá trị lớn nhất tại $x=-\\dfrac{b}{2a}=0$ là giá trị lớn nhất của hàm số là $y(0)=3$."
+  },
+  {
+    "id": "0D323DS9",
+    "question": "Xét hàm số bậc hai $y = -x^2 + 4x + 5$ có đồ thị là parabol $(P)$.",
+    "subQuestions": [
+      {
+        "text": "Trục đối xứng của đồ thị $(P)$ là đường thẳng $x = 2$",
+        "answer": true
+      },
+      {
+        "text": "Tung độ đỉnh $I$ của parabol $(P)$ là $y_I = 9$",
+        "answer": true
+      },
+      {
+        "text": "Hệ số $a = -1 &lt; 0$, nên đồ thị của hàm số là parabol có bề lõm hướng lên trên",
+        "answer": false
+      },
+      {
+        "text": "Giá trị lớn nhất của hàm số trên đoạn $[0; 4]$ là $12$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Trục đối xứng của đồ thị hàm số là $x = \\dfrac{-4}{2 \\cdot (-1)} = 2$.<br>- Ta có hoành độ đỉnh $I$ của parabol là $x_I = 2$.<br>  Thay $x = 2$ vào hàm số ta được $y = -2^2 + 4 \\cdot 2 + 5 = 9$.<br>  Suy ra tung độ đỉnh $I$ của parabol là $y_I = 9$.<br>- Do hệ số $a = -1 &lt; 0$ nên đồ thị hàm số có bề lõm hướng xuống dưới.<br>- Bảng biên thiên của đồ thị hàm số  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, suy ra trên đoạn $[0; 4]$, hàm số đạt giá trị lớn nhất là $9$ khi $x=2$."
   }
 ];

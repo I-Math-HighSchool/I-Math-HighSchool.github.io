@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D51 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D51 = [
   {
@@ -147,5 +147,17 @@ window.tracNghiem1D51 = [
     ],
     "answer": 0,
     "explain": "Cỡ mẫu của mẫu số liệu bằng $4+8+8+16+4=40$."
+  },
+  {
+    "id": "1D513TN1",
+    "question": "Điều tra về số tiền mua đồ dùng học tập trong một tuần của $40$ học sinh, ta có mẫu số liệu như sau (đơn vị: nghìn đồng).  <br><img src=\"data/11/1D5/im1D51/loc3_1_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Số trung bình của mẫu số liệu là",
+    "options": [
+      "$25$",
+      "$25{,}5$",
+      "$27$",
+      "$22{,}5$"
+    ],
+    "answer": 0,
+    "explain": "<br><img src=\"data/11/1D5/im1D51/loc3_1_TL_TN_DS_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overline{x}=\\dfrac{12{,}5\\cdot 2+17{,}5\\cdot 5+22{,}5\\cdot 15+27{,}5\\cdot 8+32{,}5\\cdot 9+37{,}5\\cdot 1}{40}=25$."
   }
 ];

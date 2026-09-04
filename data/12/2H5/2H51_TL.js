@@ -1,3 +1,8 @@
+// =========================================================================
+// KHỐI DỮ LIỆU: 2H51 - Trả lời ngắn
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// =========================================================================
 window.traLoiNgan2H51 = [
   {
     "id": "2H515TL1",
@@ -106,5 +111,17 @@ window.traLoiNgan2H51 = [
     "question": "Cho tứ diện đều $ABCD$. Lấy $M, N$ lần lượt là trung điểm các cạnh $AC$ và $CD$. Tính góc giữa hai vectơ $\\overrightarrow{BM}$, $\\overrightarrow{AN}$ (đơn vị radian, kết quả làm tròn đến hàng phần trăm).",
     "answer": "1{,}7",
     "explain": "<br><img src=\"data/12/2D5/im2H51/dlts_12_DLTS21_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt $AB = 1$ (đơn vị dài).<br>  $ABCD$ là Tứ diện đều $ABCD $ có $M$ là trung điểm $AC$, $N$ là trung điểm $CD$.<br>   Suy ra $BM=AN=\\dfrac{\\sqrt{3}}{2}$.<br>  Ta có $\\cos\\widehat{BAN}=\\dfrac{{AB}^2+{AN}^2-{BN}^2}{2\\cdot AB \\cdot AN}=\\dfrac{\\sqrt{3}}{3}$.<br>  $\\widehat{CAN}=\\dfrac{1}{2}\\cdot \\widehat{CAD}=30^{\\circ}$.<br>  $\\vec{BM} \\cdot \\vec{AN}=(\\vec{AM}-\\vec{AB})\\cdot \\vec{AN}=\\vec{AM}\\cdot \\vec{AN}-\\vec{AB}\\cdot \\vec{AN}=AM\\cdot AN\\cdot \\cos\\widehat{CAN}-AB\\cdot AN\\cdot \\cos\\widehat{BAN}=\\dfrac{9-8\\sqrt{3}}{24}$.<br>  Gọi ${\\theta}$ là góc giữa hai vectơ ${\\vec{BM}}$ và ${\\vec{AN}}$.<br>  $\\cos \\theta = \\dfrac{\\vec{BM} \\cdot \\vec{AN}}{|\\vec{BM}| |\\vec{AN}|} = \\dfrac{-1}{8}$.<br>  ${\\theta \\approx 1{,}7}$.<br>  Vậy $\\left(\\overrightarrow{BM};\\overrightarrow{AN} \\right)\\approx 1{,}7$."
+  },
+  {
+    "id": "2H513TL1",
+    "question": "Trong không gian $Oxyz$, cho $A(1;2;0)$; $B(3;-4;2)$. Phương trình mặt phẳng trung trực $(P)$ của đoạn thẳng $AB$ có dạng $(P)\\colon x+ay+bz+c=0$ với $a$, $b$, $c\\in\\mathbb{Z}$. Tính giá trị biểu thức $T=a+b+c$.",
+    "answer": "-8",
+    "explain": "Gọi $I$ là trung điểm của $AB$, ta có $I(2;-1;1)$.<br> Mặt phẳng trung trực của $AB$ đi qua điểm $I$ và nhận $\\vec{AB}=(2;-6;2)$ làm véctơ pháp tuyến.<br> Suy ra phương trình của mặt phẳng $(P)$ là \\[2(x-2)-6(y+1)+2(z-1)=0\\Leftrightarrow x-3y+z-6=0.\\] Vậy $a=-3$, $b=1$, $c=-6$, suy ra $T=a+b+c=-8$."
+  },
+  {
+    "id": "2H511TL2",
+    "question": "Trong không gian $Oxyz$, mặt phẳng $(P)$ đi qua điểm $M(1;2;4)$ và cắt các tia $Ox$, $Oy$, $Oz$ lần lượt tại các điểm $A$, $B$, $C$ sao cho độ dài $OA$, $OB$, $OC$ theo thứ tự lập thành cấp số nhân có công bội bằng $2$. Biết mặt phẳng $(P)$ có dạng $(P)\\colon4x+my+nz+p=0$ với $m$, $n$, $p\\in\\mathbb{Z}$. Tính giá trị biểu thức $T=m+n+p$.",
+    "answer": "-9",
+    "explain": "Gọi $A(a;0;0)$, $B(0;2a;0)$, $C(0;0;4a)$ lần lượt là giao điểm của mặt phẳng $(P)$ với ba tia $Ox$, $Oy$, $Oz$.<br>  Suy ra phương trình của mặt phẳng $(P)$ là $\\dfrac{x}{a}+\\dfrac{y}{2a}+\\dfrac{z}{4a}=1$.<br> Do $(P)$ đi qua $M(1;2;4)$ nên $\\dfrac{1}{a}+\\dfrac{2}{2a}+\\dfrac{4}{4a}=1\\Leftrightarrow a=3$.<br> Vậy phương trình mặt phẳng $(P)$ là \\[\\dfrac{x}{3}+\\dfrac{y}{6}+\\dfrac{z}{12}=1\\Leftrightarrow4x+2y+z-12=0.\\] Vậy $m=2$, $n=1$, $p=-12$, suy ra $T=m+n+p=-9$."
   }
 ];

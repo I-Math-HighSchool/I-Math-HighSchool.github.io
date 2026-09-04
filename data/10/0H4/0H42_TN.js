@@ -1,7 +1,7 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 0H42 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì I thật từ các trường THPT (thư mục LocID/BANK-25-26),
-// giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
+// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem0H42 = [
   {
@@ -99,5 +99,29 @@ window.tracNghiem0H42 = [
     ],
     "answer": 0,
     "explain": "Ta có $AC^2=AB^2+BC^2-2\\cdot AB \\cdot BC\\cdot\\cos\\widehat{ABC}\\Rightarrow AC=\\sqrt{3^2+6^2-2\\cdot3\\cdot6\\cdot\\cos60^\\circ}=3\\sqrt{3}$."
+  },
+  {
+    "id": "0H422TN2",
+    "question": "Cho $\\triangle ABC$ với các cạnh $AB=c$, $AC=b$, $BC=a$. Gọi $R$, $S$ lần lượt là bán kính đường tròn ngoại tiếp và diện tích của tam giác $ABC$. Trong các phát biểu sau, phát biểu nào <strong>sai</strong>?",
+    "options": [
+      "$S=\\dfrac{abc}{4R}$",
+      "$R=\\dfrac{a}{\\sin A}$",
+      "$S=\\dfrac{1}{2}ab \\sin C$",
+      "$c^{2}=a^{2}+b^{2}-2ab \\cos C$"
+    ],
+    "answer": 1,
+    "explain": "Theo định lý sin, ta có $\\dfrac{a}{\\sin A} = 2R \\Rightarrow R = \\dfrac{a}{2\\sin A}$."
+  },
+  {
+    "id": "0H421TN8",
+    "question": "Cho $\\triangle ABC$ có $\\widehat{B}=60^{\\circ}$, $a=8$, $c=5$. Độ dài cạnh $b$ bằng",
+    "options": [
+      "$7$",
+      "$129$",
+      "$49$",
+      "$\\sqrt{129}$"
+    ],
+    "answer": 0,
+    "explain": "Áp dụng định lý cô-sin trong $\\triangle ABC$:  $b^2 = a^2 + c^2 - 2ac \\cos B$<br>$= 8^2 + 5^2 - 2 \\cdot 8 \\cdot 5 \\cdot \\cos 60^\\circ$<br>$= 64 + 25 - 80 \\cdot \\dfrac{1}{2}$<br>$= 89 - 40 = 49.$  Suy ra $b = \\sqrt{49} = 7$."
   }
 ];
