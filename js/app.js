@@ -552,6 +552,19 @@ function nopBaiVaChamDiem() {
             let selected = document.querySelector(`input[name="ds_${idx}_${sIdx}"]:checked`);
             let userAns = selected ? (selected.value === "true") : null;
             if (userAns === sub.answer) soY_Dung++;
+
+            // Tô màu: ô đáp án đúng (Đúng/Sai) luôn tô xanh, ô học sinh
+            // chọn sai (nếu có) tô đỏ.
+            const correctId = `ds_${idx}_${sIdx}_${sub.answer ? 'D' : 'S'}`;
+            const correctInput = document.getElementById(correctId);
+            if (correctInput) {
+                const correctWrap = correctInput.closest('.form-check');
+                if (correctWrap) correctWrap.classList.add('ds-correct-pick');
+            }
+            if (selected && userAns !== sub.answer) {
+                const wrongWrap = selected.closest('.form-check');
+                if (wrongWrap) wrongWrap.classList.add('ds-wrong-pick');
+            }
         });
         
         if (soY_Dung === 1) tongDiem += 0.1;
@@ -565,14 +578,24 @@ function nopBaiVaChamDiem() {
         let inputGroup = document.querySelector(`.raw-input-group[data-qidx="${idx}"]`);
         if (inputGroup) {
             let fullUserAnswer = "";
-            inputGroup.querySelectorAll('.short-box').forEach(input => {
+            const boxes = inputGroup.querySelectorAll('.short-box');
+            boxes.forEach(input => {
                 if (input.value.trim() !== "") {
                     fullUserAnswer += input.value.trim();
                 }
             });
-            if (fullUserAnswer === q.answer.trim()) {
+            const dungRoi = fullUserAnswer === q.answer.trim();
+            if (dungRoi) {
                 tongDiem += 0.5;
             }
+            // Tự động điền đáp án đúng vào các ô, tô xanh nếu học sinh làm
+            // đúng, tô đỏ nếu sai, rồi khoá ô lại vì bài đã nộp.
+            const dapAnChars = q.answer.trim().split('');
+            boxes.forEach((input, bIdx) => {
+                input.value = dapAnChars[bIdx] || '';
+                input.classList.add(dungRoi ? 'tl-correct' : 'tl-wrong');
+                input.disabled = true;
+            });
         }
     });
 
