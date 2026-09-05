@@ -532,6 +532,17 @@ function nopBaiVaChamDiem() {
         if (selected && parseInt(selected.value) === q.answer) {
             tongDiem += 0.25;
         }
+        // Tô màu đáp án: đáp án đúng luôn tô xanh, đáp án học sinh chọn
+        // sai (nếu có) tô đỏ, để dễ đối chiếu khi xem lời giải.
+        const correctInput = document.getElementById(`tn_${idx}_${q.answer}`);
+        if (correctInput) {
+            const correctWrapper = correctInput.closest('.custom-option-wrapper');
+            if (correctWrapper) correctWrapper.classList.add('option-correct');
+        }
+        if (selected && parseInt(selected.value) !== q.answer) {
+            const wrongWrapper = selected.closest('.custom-option-wrapper');
+            if (wrongWrapper) wrongWrapper.classList.add('option-wrong');
+        }
     });
 
     // Chấm điểm Phần II

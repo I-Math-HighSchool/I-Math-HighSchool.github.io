@@ -152,6 +152,12 @@
         .form-check-label { color: #334155; margin-left: 8px; font-size: 0.9rem; width: 100%; cursor: pointer; }
         .form-check-input:checked ~ .form-check-label { color: #0284c7; font-weight: 700; }
 
+        /* Tô màu đáp án đúng/sai sau khi nộp bài (Phần I - trắc nghiệm) */
+        .custom-option-wrapper.option-correct { background: #dcfce7; border-color: #22c55e; }
+        .custom-option-wrapper.option-correct .form-check-label { color: #15803d; font-weight: 700; }
+        .custom-option-wrapper.option-wrong { background: #fee2e2; border-color: #ef4444; }
+        .custom-option-wrapper.option-wrong .form-check-label { color: #b91c1c; font-weight: 700; }
+
         /* FORM ĐÚNG SAI CO GIÃN HÀNG */
         .sub-question-container { background: #f8fafc; border-radius: 10px; padding: 5px 14px; margin-top: 10px; }
         .sub-question-row { padding: 10px 0; display: flex; flex-direction: column; gap: 6px; }
