@@ -74,7 +74,7 @@ window.traLoiNgan2H51 = [
     "id": "2H511TL12",
     "question": "Lớp $12$A có $40$ học sinh. Trong một buổi kiểm tra định kì, số học sinh của lớp $12$A được chia thành hai phòng như bảng bên. Chọn ngẫu nhiên một học sinh của lớp $12$A. Tính xác suất để học sinh được chọn ở phòng $2$, biết rằng học sinh được chọn là nữ (Kết quả làm trong đến hàng phần chục).<br><img src=\"data/12/2D5/im2H51/dlts_12_DLTS35_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "0{,}6",
-    "explain": "Gọi:  <br>- $A$ là biến cố \\lq\\lq Người được chọn là ở phòng $2$.<br>- $B$ là biến cố \\lq\\lq Người được chọn là nữ.  Xác suất để học sinh được chọn ở phòng $2$, biết rằng học sinh được chọn là nữ là \\[{P}(A\\mid B)=\\dfrac{{P}(AB)}{{P}(B)}=\\dfrac{{C}^1_{12}}{{C}^1_{21}}=\\dfrac{12}{21}=\\dfrac{4}{7}\\approx 0{,}6.\\]"
+    "explain": "Gọi:  <br>- $A$ là biến cố “ Người được chọn là ở phòng $2$.<br>- $B$ là biến cố “ Người được chọn là nữ.  Xác suất để học sinh được chọn ở phòng $2$, biết rằng học sinh được chọn là nữ là \\[{P}(A\\mid B)=\\dfrac{{P}(AB)}{{P}(B)}=\\dfrac{{C}^1_{12}}{{C}^1_{21}}=\\dfrac{12}{21}=\\dfrac{4}{7}\\approx 0{,}6.\\]"
   },
   {
     "id": "2H511TL13",

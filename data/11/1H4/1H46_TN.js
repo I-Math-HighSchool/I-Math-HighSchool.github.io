@@ -26,7 +26,7 @@ window.tracNghiem1H46 = [
       "Hình thoi"
     ],
     "answer": 1,
-    "explain": "Hình chiếu song song của hình chữ nhật không thể là hình thang vì \\lq\\lq Hình chiếu song song của hai đường thẳng song song là hai đường thẳng song song hoặc trùng nhau\\rq\\rq."
+    "explain": "Hình chiếu song song của hình chữ nhật không thể là hình thang vì “ Hình chiếu song song của hai đường thẳng song song là hai đường thẳng song song hoặc trùng nhau”."
   },
   {
     "id": "1H463TN3",

@@ -17,7 +17,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN2",
-    "question": "[Nguyễn Ngọc Huy Trường]  Cho hình lập phương $ABCD.A_1B_1C_1D_1$. Góc giữa hai đường thẳng $AD$ và $CB_1$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A_1B_1C_1D_1$. Góc giữa hai đường thẳng $AD$ và $CB_1$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$30^\\circ$",
       "$60^\\circ$",
@@ -29,7 +29,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN3",
-    "question": "[Nguyễn Ngọc Huy Trường]  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $SA$ vuông góc với mặt phẳng đáy. Góc giữa hai đường thẳng $SB$ và $CD$ bằng góc nào sau đây?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $SA$ vuông góc với mặt phẳng đáy. Góc giữa hai đường thẳng $SB$ và $CD$ bằng góc nào sau đây?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SBA}$",
       "$\\widehat{SCA}$",

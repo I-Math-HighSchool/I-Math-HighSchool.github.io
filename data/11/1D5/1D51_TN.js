@@ -87,7 +87,7 @@ window.tracNghiem1D51 = [
       "Ta luôn tìm được mốt cho các mẫu số liệu ghép nhóm có độ dài các nhóm bất kỳ"
     ],
     "answer": 3,
-    "explain": "<br>- Mốt của mẫu số liệu ghép nhóm là giá trị xấp xỉ cho mốt của mẫu số liệu gốc.<br>- Trong một số trường hợp, mẫu số liệu ghép nhóm có thể có nhiều hơn một mốt hoặc không có mốt.<br>- Mốt của mẫu số liệu ghép nhóm là một giá trị đo xu thế trung tâm của mẫu số liệu, thể hiện giá trị có tần số xuất hiện cao nhất.<br>- Ta chỉ có thể tìm được mốt cho các mẫu số liệu ghép nhóm khi các nhóm có độ dài bằng nhau. Với các nhóm có độ dài khác nhau, việc xác định mốt sẽ không chính xác.  Vậy khẳng định sai là \\lq\\lq Ta luôn tìm được mốt cho các mẫu số liệu ghép nhóm có độ dài các nhóm bất kỳ.\\rq\\rq"
+    "explain": "<br>- Mốt của mẫu số liệu ghép nhóm là giá trị xấp xỉ cho mốt của mẫu số liệu gốc.<br>- Trong một số trường hợp, mẫu số liệu ghép nhóm có thể có nhiều hơn một mốt hoặc không có mốt.<br>- Mốt của mẫu số liệu ghép nhóm là một giá trị đo xu thế trung tâm của mẫu số liệu, thể hiện giá trị có tần số xuất hiện cao nhất.<br>- Ta chỉ có thể tìm được mốt cho các mẫu số liệu ghép nhóm khi các nhóm có độ dài bằng nhau. Với các nhóm có độ dài khác nhau, việc xác định mốt sẽ không chính xác.  Vậy khẳng định sai là “ Ta luôn tìm được mốt cho các mẫu số liệu ghép nhóm có độ dài các nhóm bất kỳ.”"
   },
   {
     "id": "1D513TN8",
@@ -115,7 +115,7 @@ window.tracNghiem1D51 = [
   },
   {
     "id": "1D513TN10",
-    "question": "[Nguyễn Ngọc Huy Trường]  Cho mẫu số liệu ghép nhóm về thống kê điểm của $100$ học sinh tham dự một kỳ thi học sinh giỏi Toán, ta có bảng số liệu sau  <br><img src=\"data/11/1D5/im1D51/dlts_11_DLTS21_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị đại diện của nhóm $\\left[12;14\\right)$ là",
+    "question": "Cho mẫu số liệu ghép nhóm về thống kê điểm của $100$ học sinh tham dự một kỳ thi học sinh giỏi Toán, ta có bảng số liệu sau  <br><img src=\"data/11/1D5/im1D51/dlts_11_DLTS21_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị đại diện của nhóm $\\left[12;14\\right)$ là",
     "options": [
       "$12$",
       "$14$",

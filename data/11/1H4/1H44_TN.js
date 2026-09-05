@@ -39,7 +39,7 @@ window.tracNghiem1H44 = [
       "Qua một điểm ở ngoài mặt phẳng $(\\alpha)$ có duy nhất một đường thẳng song song với $(\\alpha)$"
     ],
     "answer": 1,
-    "explain": "Theo lý thuyết ta có \\lq\\lq Nếu hai mặt phẳng phân biệt cùng song song với một mặt phẳng thứ ba thì hai mặt phẳng đó song song với nhau\\rq\\rq."
+    "explain": "Theo lý thuyết ta có “ Nếu hai mặt phẳng phân biệt cùng song song với một mặt phẳng thứ ba thì hai mặt phẳng đó song song với nhau”."
   },
   {
     "id": "1H442TN4",
@@ -123,6 +123,6 @@ window.tracNghiem1H44 = [
       "$2$"
     ],
     "answer": 3,
-    "explain": "<br>- [a)]<br>- $DD'\\parallel AD\\parallel MN\\Rightarrow DD'\\parallel (MNP)$. Do đó \\lq\\lq Mặt phẳng $(MNP)$ cắt $A'D'$\\rq\\rq\\, sai.  <br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $Q$ là giao điểm của mặt phẳng $(MNP)$ với $DD'$. Ta có $MN\\parallel CD$ nên $MN \\parallel (CDD'C')$ suy ra $MN \\parallel PQ \\parallel CD$.<br>  Khi đó $P$ là trung điểm của $CC'$ nên $Q$ là trung điểm của $DD'$.<br>  Suy ra \\lq\\lq Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$\\rq\\rq\\, đúng.<br>- Ta có $MP$ là đường trung bình của tam giác $BCC' \\Rightarrow MP\\parallel BC'$. Lại có $MN\\parallel AB$. Do đó $(MNP)\\parallel (ABC'D')$.<br>  Suy ra \\lq\\lq Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$\\rq\\rq\\, đúng.   Vậy có $2$ khẳng định đúng."
+    "explain": "<br>- [a)]<br>- $DD'\\parallel AD\\parallel MN\\Rightarrow DD'\\parallel (MNP)$. Do đó “ Mặt phẳng $(MNP)$ cắt $A'D'$”\\, sai.  <br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $Q$ là giao điểm của mặt phẳng $(MNP)$ với $DD'$. Ta có $MN\\parallel CD$ nên $MN \\parallel (CDD'C')$ suy ra $MN \\parallel PQ \\parallel CD$.<br>  Khi đó $P$ là trung điểm của $CC'$ nên $Q$ là trung điểm của $DD'$.<br>  Suy ra “ Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$”\\, đúng.<br>- Ta có $MP$ là đường trung bình của tam giác $BCC' \\Rightarrow MP\\parallel BC'$. Lại có $MN\\parallel AB$. Do đó $(MNP)\\parallel (ABC'D')$.<br>  Suy ra “ Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$”\\, đúng.   Vậy có $2$ khẳng định đúng."
   }
 ];

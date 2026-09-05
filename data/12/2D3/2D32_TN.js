@@ -242,7 +242,7 @@ window.tracNghiem2D32 = [
       "Phương sai của mẫu số liệu ghép nhóm là căn bậc hai số học của độ lệch chuẩn"
     ],
     "answer": 3,
-    "explain": "Khẳng định sai là \\lq\\lq Phương sai của mẫu số liệu ghép nhóm là căn bậc hai số học của độ lệch chuẩn\\rq\\rq."
+    "explain": "Khẳng định sai là “ Phương sai của mẫu số liệu ghép nhóm là căn bậc hai số học của độ lệch chuẩn”."
   },
   {
     "id": "2D322TN21",

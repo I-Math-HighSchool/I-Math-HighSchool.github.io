@@ -378,7 +378,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN32",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
     "options": [
       "$\\sin \\alpha &gt; 0$",
       "$\\cos \\alpha &gt; 0$",
@@ -390,7 +390,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN33",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
     "options": [
       "$\\sin(-11^\\circ) = \\sin 11^\\circ$",
       "$\\cos(-11^\\circ) = \\cos 11^\\circ$",
@@ -402,7 +402,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN34",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho $\\cos \\alpha = \\dfrac{1}{3}$. Giá trị của $\\tan^2 \\alpha$ bằng",
+    "question": "Cho $\\cos \\alpha = \\dfrac{1}{3}$. Giá trị của $\\tan^2 \\alpha$ bằng",
     "options": [
       "$9$",
       "$2$",
@@ -690,7 +690,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN58",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây <strong>đúng</strong>?",
+    "question": "Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\sin \\alpha &gt; 0$",
       "$\\cos \\alpha &gt; 0$",
@@ -702,7 +702,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN59",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Khẳng định nào sau đây <strong>đúng</strong>?",
+    "question": "Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\sin(-11^\\circ) = \\sin 11^\\circ$",
       "$\\cos(-11^\\circ) = \\cos 11^\\circ$",

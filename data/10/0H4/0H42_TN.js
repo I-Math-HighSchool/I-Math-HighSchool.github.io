@@ -86,7 +86,7 @@ window.tracNghiem0H42 = [
       "$S=\\dfrac{1}{2} c\\cdot a\\cdot \\sin B$"
     ],
     "answer": 0,
-    "explain": "\\lq\\lq$a^2=b^2+c^2+2b c\\cdot \\cos A$\\rq\\rq\\, là khẳng định sai vì $a^2=b^2+c^2-2b c\\cdot \\cos A$."
+    "explain": "“$a^2=b^2+c^2+2b c\\cdot \\cos A$”\\, là khẳng định sai vì $a^2=b^2+c^2-2b c\\cdot \\cos A$."
   },
   {
     "id": "0H421TN7",

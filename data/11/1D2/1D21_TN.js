@@ -114,7 +114,7 @@ window.tracNghiem1D21 = [
   },
   {
     "id": "1D211TN10",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho dãy số $(u_n)$ có $u_1 = 3$ và $u_{n+1} = 2 - u_n$, $\\forall n \\in \\mathbb{N}^*$. Khẳng định nào sau đây <strong>đúng</strong>?",
+    "question": "Cho dãy số $(u_n)$ có $u_1 = 3$ và $u_{n+1} = 2 - u_n$, $\\forall n \\in \\mathbb{N}^*$. Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$u_2 = 5$",
       "$u_2 = -6$",

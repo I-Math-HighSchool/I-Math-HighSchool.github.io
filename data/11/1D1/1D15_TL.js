@@ -199,13 +199,13 @@ window.traLoiNgan1D15 = [
   },
   {
     "id": "1D153TL1",
-    "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Mực nước cao nhất tại một cảng biển là $12\\,m$ khi thủy triều lên cao và sau 12 giờ khi thủy triều xuống thấp thì mực nước thấp nhất là $8\\,m$. Đồ thị dưới đây mô tả sự thay đổi chiều cao của mực nước tại cảng trong vòng 24 giờ tính từ lúc nửa đêm. Biết chiều cao của mực nước $h(m)$ theo thời gian $t(h)$ ($0 \\le t \\le 24$) được cho bởi công thức $h=m+a\\cos\\left(\\dfrac{\\pi}{12}t\\right)$ với $m$, $a$ là các số thực dương cho trước. Giá trị của $T=\\dfrac{m}{a}$ là bao nhiêu?<br><img src=\"data/11/1D1/im1D15/loc3_1_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Mực nước cao nhất tại một cảng biển là $12\\,m$ khi thủy triều lên cao và sau 12 giờ khi thủy triều xuống thấp thì mực nước thấp nhất là $8\\,m$. Đồ thị dưới đây mô tả sự thay đổi chiều cao của mực nước tại cảng trong vòng 24 giờ tính từ lúc nửa đêm. Biết chiều cao của mực nước $h(m)$ theo thời gian $t(h)$ ($0 \\le t \\le 24$) được cho bởi công thức $h=m+a\\cos\\left(\\dfrac{\\pi}{12}t\\right)$ với $m$, $a$ là các số thực dương cho trước. Giá trị của $T=\\dfrac{m}{a}$ là bao nhiêu?<br><img src=\"data/11/1D1/im1D15/loc3_1_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "5",
     "explain": "Ta có   $h(0)=12 \\text{ và } h(12)=8 \\Leftrightarrow m+a\\cdot\\cos 0=12 \\text{ và } m+a\\cdot\\cos\\pi=8\\Leftrightarrow m+a=12 \\text{ và } m-a=8  \\Leftrightarrow m=10 \\text{ và } a=2.$<br>  Vậy $T = \\dfrac{m}{a} = \\dfrac{10}{2} = 5$."
   },
   {
     "id": "1D153TL2",
-    "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Nghiệm dương nhỏ nhất của phương trình $\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1=0$ có dạng $x = \\dfrac{a}{b}\\pi$ với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=a+b$.",
+    "question": "Nghiệm dương nhỏ nhất của phương trình $\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1=0$ có dạng $x = \\dfrac{a}{b}\\pi$ với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=a+b$.",
     "answer": "9",
     "explain": "Ta có   $\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1=0$<br>$\\Leftrightarrow \\cos\\left(\\dfrac{\\pi}{4}-x\\right)=-1$<br>$\\Leftrightarrow \\dfrac{\\pi}{4}-x = \\pi +k2\\pi, k \\in \\mathbb{Z}$<br>$\\Leftrightarrow x = -\\dfrac{3\\pi}{4} - k2\\pi, k \\in \\mathbb{Z}$  Để tìm nghiệm dương nhỏ nhất nên thay $k=-1$, ta được $x=\\dfrac{5\\pi}{4}$.<br>  Suy ra $a=5$; $b=4$.<br>  Vậy $T=a+b = 9$."
   },

@@ -18,7 +18,7 @@ window.tracNghiem1H42 = [
   },
   {
     "id": "1H421TN2",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Trong không gian, khẳng định nào sau đây <strong>đúng</strong>?",
+    "question": "Trong không gian, khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "Có một và chỉ một mặt phẳng đi qua hai điểm phân biệt",
       "Nếu một đường thẳng có hai điểm phân biệt cùng thuộc một mặt phẳng thì tất cả các điểm của đường thẳng đều thuộc mặt phẳng đó",

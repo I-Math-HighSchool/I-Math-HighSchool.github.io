@@ -31,7 +31,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H821TN3",
-    "question": "[Nguyễn Ngọc Huy Trường]  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BA\\perp \\left(SAC\\right)$",
       "$BA\\perp \\left(SCD\\right)$",
@@ -135,7 +135,7 @@ window.tracNghiem1H82 = [
       "Nếu $b\\parallel a$ thì $b\\parallel (P)$"
     ],
     "answer": 3,
-    "explain": "Ta có $a \\perp(P) \\text{ và } b\\parallel a\\Rightarrow b\\perp (P)$.<br>  Do đó, mệnh đề \\lq\\lq Nếu $b\\parallel a$ thì $b\\parallel (P)$\\rq\\rq\\, sai."
+    "explain": "Ta có $a \\perp(P) \\text{ và } b\\parallel a\\Rightarrow b\\perp (P)$.<br>  Do đó, mệnh đề “ Nếu $b\\parallel a$ thì $b\\parallel (P)$”\\, sai."
   },
   {
     "id": "1H824TN12",

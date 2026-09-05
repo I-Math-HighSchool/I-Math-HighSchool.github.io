@@ -187,7 +187,7 @@ window.tracNghiem1D13 = [
   },
   {
     "id": "1D131TN16",
-    "question": "[THCS THPT Lương Thế Vinh] Cho góc lượng giác $a$. Khẳng định nào sau đây đúng?",
+    "question": "Cho góc lượng giác $a$. Khẳng định nào sau đây đúng?",
     "options": [
       "$\\sin 2a=2\\sin^2 a-1$",
       "$\\sin 2a=\\sin a\\cos a$",
@@ -199,7 +199,7 @@ window.tracNghiem1D13 = [
   },
   {
     "id": "1D133TN17",
-    "question": "[THCS THPT Lương Thế Vinh] Rút gọn biểu thức $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}$ (với điều kiện biểu thức có nghĩa), ta được $P=a\\cos 2x$. Khi đó",
+    "question": "Rút gọn biểu thức $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}$ (với điều kiện biểu thức có nghĩa), ta được $P=a\\cos 2x$. Khi đó",
     "options": [
       "$a=4$",
       "$a=-4$",
@@ -315,7 +315,7 @@ window.tracNghiem1D13 = [
       "$1+\\cot^2a=\\dfrac{1}{\\sin^2a}$"
     ],
     "answer": 2,
-    "explain": "Công thức sai là \\lq\\lq $\\cos a\\cdot\\cos b-\\sin b\\cdot\\sin b=\\cos(a+b)$\\rq\\rq."
+    "explain": "Công thức sai là “ $\\cos a\\cdot\\cos b-\\sin b\\cdot\\sin b=\\cos(a+b)$”."
   },
   {
     "id": "1D135TN27",
@@ -475,7 +475,7 @@ window.tracNghiem1D13 = [
   },
   {
     "id": "1D131TN40",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Khẳng định nào sau đây <strong>sai</strong>?",
+    "question": "Khẳng định nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\cos a \\cos b = \\dfrac{1}{2}\\left(\\cos(a - b) + \\cos(a + b)\\right)$",
       "$\\sin a \\cos b = \\dfrac{1}{2}\\left(\\sin(a - b) + \\sin(a + b)\\right)$",
@@ -808,30 +808,6 @@ window.tracNghiem1D13 = [
     ],
     "answer": 0,
     "explain": "Vì $x\\in \\left(-\\dfrac{\\pi}{2};0 \\right)$.<br>  Nên $\\sin{x}=-\\sqrt{1^2-\\cos^2{x}}=-\\sqrt{1-\\left(\\dfrac{4}{5} \\right)^2}=-\\dfrac{3}{5}$.<br>   Suy ra $\\sin{2x}=2\\sin{x} \\cos{x}=2\\cdot \\left(-\\dfrac{3}{5} \\right)\\cdot \\dfrac{4}{5}=-\\dfrac{24}{25}$."
-  },
-  {
-    "id": "1D133TN61",
-    "question": "[THCS THPT Lương Thế Vinh] Cho góc lượng giác $a$. Khẳng định nào sau đây đúng?",
-    "options": [
-      "$\\sin 2a=2\\sin^2 a-1$",
-      "$\\sin 2a=\\sin a\\cos a$",
-      "$\\sin 2a=2\\sin a \\cos a$",
-      "$\\sin 2a=1-2\\cos^2 a$"
-    ],
-    "answer": 2,
-    "explain": "Theo công thức nhân đôi ta có $\\sin 2a=2\\sin a\\cos a$."
-  },
-  {
-    "id": "1D133TN18",
-    "question": "[THCS THPT Lương Thế Vinh] Rút gọn biểu thức $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}$ (với điều kiện biểu thức có nghĩa), ta được $P=a\\cos 2x$. Khi đó",
-    "options": [
-      "$a=4$",
-      "$a=-4$",
-      "$a=-2$",
-      "$a=2$"
-    ],
-    "answer": 3,
-    "explain": "Ta có   $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}\\ =\\dfrac{2\\cos 2x\\cos x}{\\cos x }=2\\cos 2x.$  Vậy $a=2$."
   },
   {
     "id": "1D133TN62",

@@ -29,7 +29,7 @@ window.tracNghiem1D62 = [
   },
   {
     "id": "1D621TN3",
-    "question": "[Nguyễn Ngọc Huy Trường]  Với các số thực dương $a$, $b$ bất kì. Mệnh đề nào sau đây <strong>đúng</strong>?",
+    "question": "Với các số thực dương $a$, $b$ bất kì. Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\log (ab)=\\log a\\cdot\\log b$",
       "$\\log \\dfrac{a}{b}=\\dfrac{\\log a}{\\log b}$",
@@ -41,7 +41,7 @@ window.tracNghiem1D62 = [
   },
   {
     "id": "1D622TN4",
-    "question": "[Nguyễn Ngọc Huy Trường]  Với $a$ là số thực dương tùy ý, $\\log_5 a^3$ bằng",
+    "question": "Với $a$ là số thực dương tùy ý, $\\log_5 a^3$ bằng",
     "options": [
       "$\\dfrac{1}{3} \\log_5 a$",
       "$\\dfrac{1}{3}+\\log_5 a$",

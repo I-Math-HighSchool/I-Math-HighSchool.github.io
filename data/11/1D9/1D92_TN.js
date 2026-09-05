@@ -7,7 +7,7 @@
 window.tracNghiem1D92 = [
   {
     "id": "1D922TN1",
-    "question": "[Nguyễn Ngọc Huy Trường]  Xét phép thử có hai biến cố $A$ và $B$, biết $P\\left(A\\right)=0{,}4$; $P\\left(B\\right)=0{,}3$ và $P\\left(AB\\right)=0{,}1$. Tính $P\\left(A\\cup B\\right)$.",
+    "question": "Xét phép thử có hai biến cố $A$ và $B$, biết $P\\left(A\\right)=0{,}4$; $P\\left(B\\right)=0{,}3$ và $P\\left(AB\\right)=0{,}1$. Tính $P\\left(A\\cup B\\right)$.",
     "options": [
       "$0{,}12$",
       "$0{,}7$",
@@ -31,7 +31,7 @@ window.tracNghiem1D92 = [
   },
   {
     "id": "1D922TN3",
-    "question": "Gieo con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố \\lq\\lq số chấm xuất hiện là số lẻ\\rq\\rq, $B$ là biến cố \\lq\\lq số chấm xuất hiện bé hơn $3$\\rq\\rq. Biến cố $A\\cup B$ có bao nhiêu phần tử?",
+    "question": "Gieo con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố “ số chấm xuất hiện là số lẻ”, $B$ là biến cố “ số chấm xuất hiện bé hơn $3$”. Biến cố $A\\cup B$ có bao nhiêu phần tử?",
     "options": [
       "$1$",
       "$2$",
@@ -43,7 +43,7 @@ window.tracNghiem1D92 = [
   },
   {
     "id": "1D922TN4",
-    "question": "Gieo ngẫu nhiên một con xúc xắc cân đối, đồng chất một lần. Xét các biến cố ngẫu nhiên $A$: \\lq\\lq Mặt xuất hiện của xúc xắc có số chấm là số chẵn\\rq\\rq; $B$: \\lq\\lq Mặt xuất hiện của xúc xắc có số chấm là số chia hết cho $3$\\rq\\rq. Số phần tử của tập hợp $A \\cup B$ là",
+    "question": "Gieo ngẫu nhiên một con xúc xắc cân đối, đồng chất một lần. Xét các biến cố ngẫu nhiên $A$: “ Mặt xuất hiện của xúc xắc có số chấm là số chẵn”; $B$: “ Mặt xuất hiện của xúc xắc có số chấm là số chia hết cho $3$”. Số phần tử của tập hợp $A \\cup B$ là",
     "options": [
       "$2$",
       "$5$",
@@ -67,7 +67,7 @@ window.tracNghiem1D92 = [
   },
   {
     "id": "1D922TN6",
-    "question": "Cho hai biến cố $A$ và $B$. Biến cố \\lq\\lq$A$ hoặc $B$ xảy ra\\rq\\rq~được gọi là",
+    "question": "Cho hai biến cố $A$ và $B$. Biến cố “$A$ hoặc $B$ xảy ra”~được gọi là",
     "options": [
       "biến cố giao của $A$ và $B$",
       "biến cố đối của $A$",
@@ -75,7 +75,7 @@ window.tracNghiem1D92 = [
       "biến cố đối của $B$"
     ],
     "answer": 2,
-    "explain": "Cho hai biến cố $A$ và $B$. Biến cố \\lq\\lq$A$ hoặc $B$ xảy ra\\rq\\rq~được gọi là biến cố hợp của $A$ và $B$."
+    "explain": "Cho hai biến cố $A$ và $B$. Biến cố “$A$ hoặc $B$ xảy ra”~được gọi là biến cố hợp của $A$ và $B$."
   },
   {
     "id": "1D921TN7",
@@ -135,6 +135,6 @@ window.tracNghiem1D92 = [
       "$\\dfrac{17}{39}$"
     ],
     "answer": 2,
-    "explain": "Lấy ngẫu nhiên $2$ quả cầu từ $13$ quả cầu, số phần tử của không gian mẫu là $n(\\Omega) = \\mathrm{C}_{13}^2 = 78$.<br>  Gọi $A$ là biến cố \\lq\\lq Lấy được $2$ quả cầu cùng màu\\rq\\rq.<br>  Số kết quả thuận lợi cho biến cố $A$ (hoặc lấy được $2$ quả trắng, hoặc lấy được $2$ quả đen) là  $n(A) = \\mathrm{C}_8^2 + \\mathrm{C}_5^2 = 28 + 10 = 38.$  Xác suất của biến cố $A$ là $\\mathrm{P}(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{38}{78} = \\dfrac{19}{39}$."
+    "explain": "Lấy ngẫu nhiên $2$ quả cầu từ $13$ quả cầu, số phần tử của không gian mẫu là $n(\\Omega) = \\mathrm{C}_{13}^2 = 78$.<br>  Gọi $A$ là biến cố “ Lấy được $2$ quả cầu cùng màu”.<br>  Số kết quả thuận lợi cho biến cố $A$ (hoặc lấy được $2$ quả trắng, hoặc lấy được $2$ quả đen) là  $n(A) = \\mathrm{C}_8^2 + \\mathrm{C}_5^2 = 28 + 10 = 38.$  Xác suất của biến cố $A$ là $\\mathrm{P}(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{38}{78} = \\dfrac{19}{39}$."
   }
 ];

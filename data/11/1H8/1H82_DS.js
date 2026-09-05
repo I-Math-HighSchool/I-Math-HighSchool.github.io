@@ -5,7 +5,7 @@
 window.dungSai1H82 = [
   {
     "id": "1H824DS1",
-    "question": "[Nguyễn Ngọc Huy Trường]  Cho hình chóp $S.ABCD$ có $SA\\perp \\left(ABCD\\right)$, $ABCD$ là hình vuông cạnh $a$, $SA=a\\sqrt{3}$. Điểm $E$ thuộc cạnh $SB$ sao cho $AE\\perp EC$.",
+    "question": "Cho hình chóp $S.ABCD$ có $SA\\perp \\left(ABCD\\right)$, $ABCD$ là hình vuông cạnh $a$, $SA=a\\sqrt{3}$. Điểm $E$ thuộc cạnh $SB$ sao cho $AE\\perp EC$.",
     "subQuestions": [
       {
         "text": "$BC\\perp SA$",

@@ -37,7 +37,7 @@ window.traLoiNgan2D15 = [
   },
   {
     "id": "2D158TL6",
-    "question": "Thầy Hiếu tham dự giải \\lq\\lq Đi bộ trực tuyến Ngành Giáo dục và Đào tạo Edu Run-HCMC\\rq\\rq\\ năm 2025. Quãng đường thầy Hiếu đi được biểu diễn bằng hàm số $s(t)=at^3+bt^2+ct+d$ (với $a\\ne 0$) có đồ thị như hình vẽ (trong đó $t$ là thời gian tính bằng giờ, $s$ là quãng đường tính bằng km). Khi đó, vận tốc tối đa của thầy Hiếu đạt được trong quá trình đi bộ là bao nhiêu (đơn vị km/h)?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Thầy Hiếu tham dự giải “ Đi bộ trực tuyến Ngành Giáo dục và Đào tạo Edu Run-HCMC”\\ năm 2025. Quãng đường thầy Hiếu đi được biểu diễn bằng hàm số $s(t)=at^3+bt^2+ct+d$ (với $a\\ne 0$) có đồ thị như hình vẽ (trong đó $t$ là thời gian tính bằng giờ, $s$ là quãng đường tính bằng km). Khi đó, vận tốc tối đa của thầy Hiếu đạt được trong quá trình đi bộ là bao nhiêu (đơn vị km/h)?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "9",
     "explain": "Dựa vào đồ thị ta thấy đồ thị hàm số đi qua các điểm: $O(0;0)$, $A(2;12)$, $B(4;24)$ và nhận $B(4;24)$ làm một điểm cực trị.<br>  Ta có $s(t)=at^3+bt^2+ct+d\\Rightarrow s'(t)=3at^2+2bt+c$.<br>  Khi đó ta có hệ sau $s(0)=0 \\text{ và } s(2)=12 \\text{ và } s(4)=24 \\text{ và } {s}'(4)=0  \\Leftrightarrow d=0 \\text{ và } 8a+4b+2c+d=12 \\text{ và } 64a+16b+4c+d=24 \\text{ và } 48a+8b+c=0  \\Leftrightarrow a=-\\dfrac{3}{4} \\text{ và } b=\\dfrac{9}{2} \\text{ và } c=0 \\text{ và } d=0.$<br>  Nên $s(t)=-\\dfrac{3}{4}{t^3}+\\dfrac{9}{2}{t^2}\\Rightarrow v(t)=s'(t)=-\\dfrac{9}{4}{t^2}+9t$.<br>  Thầy Hiếu dừng đi bộ khi $v(t)=0\\Leftrightarrow -\\dfrac{9}{4}{t^2}+9t=0  \\Leftrightarrow t=0 \\text{ và } t=4.$<br>  Bài toán trở thành tìm giá trị lớn nhất của $v(t)$ trên $[0;4]$.<br>  Ta có $v'(t)=-\\dfrac{9}{2}t+9\\Rightarrow v'(t)=0\\Leftrightarrow t=2$.<br>  Khi đó $v(0)=0$, $v(2)=9$, $v(4)=0$.<br>  Vậy vận tốc lớn nhất mà thầy Hiếu đạt được là $9$\\,(km/h) tại thời điểm $t=2$\\,(h)."
   },
@@ -97,7 +97,7 @@ window.traLoiNgan2D15 = [
   },
   {
     "id": "2D151TL16",
-    "question": "[2D1V5-1]%[2D1H5-3]%[Dự án đề kiểm tra Toán 12 GHKI NH24-25-Võ Thị Thùy Trang]%[THPT Tân Bình- Tp HCM]  Cho hàm số $y=\\dfrac{ax+3}{x+b}$ ($a,~ b \\in \\mathbb{R}$) có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị của $y(1)$ bằng bao nhiêu (làm tròn kết quả đến hàng phần chục)?",
+    "question": "Cho hàm số $y=\\dfrac{ax+3}{x+b}$ ($a,~ b \\in \\mathbb{R}$) có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị của $y(1)$ bằng bao nhiêu (làm tròn kết quả đến hàng phần chục)?",
     "answer": "2{,}5",
     "explain": "Dựa vào bảng biến thiên đã cho ta suy ra $a=2$, $b=1$.<br>  Khi đó $y=\\dfrac{2x+3}{x+1}$ nên $y(1)=2{,}5$."
   },

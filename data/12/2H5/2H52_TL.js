@@ -37,7 +37,7 @@ window.traLoiNgan2H52 = [
   },
   {
     "id": "2H527TL8",
-    "question": "[Dự án đề kiểm tra Toán 12 HKII NH24-25- Hector Tran]%[2-TN-DS-TLN-THPT-ThiXaQuangTri-QuangTri-HKII-N24-25]  Trong không gian với hệ toạ độ $Oxyz$, góc giữa đường thẳng $\\Delta: \\dfrac{x-2}{2} = \\dfrac{y-3}{3} = \\dfrac{z+1}{2}$ và mặt phẳng $(P): x+2y-z+1=0$ là $n^\\circ$ (làm tròn kết quả đến hàng đơn vị, $n$ là số nguyên dương). Giá trị của $n$ là bao nhiêu?",
+    "question": "Trong không gian với hệ toạ độ $Oxyz$, góc giữa đường thẳng $\\Delta: \\dfrac{x-2}{2} = \\dfrac{y-3}{3} = \\dfrac{z+1}{2}$ và mặt phẳng $(P): x+2y-z+1=0$ là $n^\\circ$ (làm tròn kết quả đến hàng đơn vị, $n$ là số nguyên dương). Giá trị của $n$ là bao nhiêu?",
     "answer": "36",
     "explain": "Đường thẳng $\\Delta$ có vectơ chỉ phương $\\overrightarrow{u}_{\\Delta} = (2;3;2)$.<br>  Mặt phẳng $(P)$ có vectơ pháp tuyến $\\overrightarrow{n}_{P} = (1;2;-1)$.<br>  Gọi $\\alpha$ là góc giữa đường thẳng $\\Delta$ và mặt phẳng $(P)$.<br>  Ta có $\\sin\\alpha = \\dfrac{|\\overrightarrow{u}_{\\Delta} \\cdot \\overrightarrow{n}_{P}|}{|\\overrightarrow{u}_{\\Delta}| \\cdot |\\overrightarrow{n}_{P}|}= \\dfrac{|2 \\cdot 1 + 3 \\cdot 2 + 2 \\cdot (-1) |}{\\sqrt{17} \\cdot \\sqrt{6}} = \\dfrac{6}{\\sqrt{102}}\\Rightarrow\\alpha\\approx 36^\\circ =n^\\circ.$"
   },

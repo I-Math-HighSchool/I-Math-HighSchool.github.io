@@ -1135,7 +1135,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN86",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25-Trung Kiên]%[THPT Quế Sơn - Tỉnh Quảng Nam]  Trong không gian $Oxyz$, cho $\\overrightarrow{u} = (1;-3;0)$, $\\overrightarrow{v} = (1;2;0)$. Tính $\\overrightarrow{u}\\cdot\\overrightarrow{v}$.",
+    "question": "Trong không gian $Oxyz$, cho $\\overrightarrow{u} = (1;-3;0)$, $\\overrightarrow{v} = (1;2;0)$. Tính $\\overrightarrow{u}\\cdot\\overrightarrow{v}$.",
     "options": [
       "$\\overrightarrow{u}\\cdot\\overrightarrow{v} = 5$",
       "$\\overrightarrow{u}\\cdot\\overrightarrow{v} = -5$",

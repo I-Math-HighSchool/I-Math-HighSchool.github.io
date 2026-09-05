@@ -43,7 +43,7 @@ window.tracNghiem1D52 = [
   },
   {
     "id": "1D522TN4",
-    "question": "[Nguyễn Ngọc Huy Trường]  Một vườn thú ghi lại tuổi thọ (đơn vị năm) của $20$ con hổ và thu được mẫu số liệu ghép nhóm được cho ở bảng sau  <br><img src=\"data/11/1D5/im1D52/dlts_11_DLTS21_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất của mẫu số liệu ghép nhóm trên là",
+    "question": "Một vườn thú ghi lại tuổi thọ (đơn vị năm) của $20$ con hổ và thu được mẫu số liệu ghép nhóm được cho ở bảng sau  <br><img src=\"data/11/1D5/im1D52/dlts_11_DLTS21_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất của mẫu số liệu ghép nhóm trên là",
     "options": [
       "$\\left[14;15\\right)$",
       "$\\left[15;16\\right)$",

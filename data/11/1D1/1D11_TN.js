@@ -42,7 +42,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D112TN4",
-    "question": "[THCS THPT Lương Thế Vinh] Số đo theo đơn vị độ của góc $\\dfrac{2\\pi}{3}$ là",
+    "question": "Số đo theo đơn vị độ của góc $\\dfrac{2\\pi}{3}$ là",
     "options": [
       "$120^\\circ$",
       "$75^\\circ$",
@@ -122,7 +122,7 @@ window.tracNghiem1D11 = [
       "$300^\\circ = \\dfrac{5\\pi}{3}$\\,rad"
     ],
     "answer": 0,
-    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề \\lq\\lq$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad\\rq\\rq~ là mệnh đề sai."
+    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad”~ là mệnh đề sai."
   },
   {
     "id": "1D112TN11",
@@ -857,18 +857,6 @@ window.tracNghiem1D11 = [
     "explain": "Điểm $B$ nằm trên phần dương của trục $Oy$, là điểm biểu diễn cho góc $\\dfrac{\\pi}{2}$.<br>  Các góc lượng giác có cùng điểm biểu diễn $B$ là $\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$."
   },
   {
-    "id": "1D112TN69",
-    "question": "[THCS THPT Lương Thế Vinh] Số đo theo đơn vị độ của góc $\\dfrac{2\\pi}{3}$ là",
-    "options": [
-      "$120^\\circ$",
-      "$75^\\circ$",
-      "$150^\\circ$",
-      "$315^\\circ$"
-    ],
-    "answer": 0,
-    "explain": "Ta có $ \\dfrac{2\\pi}{3}=\\left( \\dfrac{ \\dfrac{2\\pi}{3}\\cdot 180}{\\pi}\\right)^{\\circ}=120^\\circ$."
-  },
-  {
     "id": "1D111TN46",
     "question": "Trong các mệnh đề sau, mệnh đề nào là <strong>sai</strong>?",
     "options": [
@@ -878,7 +866,7 @@ window.tracNghiem1D11 = [
       "$300^\\circ = \\dfrac{5\\pi}{3}$\\,rad"
     ],
     "answer": 0,
-    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề \\lq\\lq$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad\\rq\\rq~ là mệnh đề sai."
+    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad”~ là mệnh đề sai."
   },
   {
     "id": "1D111TN44",

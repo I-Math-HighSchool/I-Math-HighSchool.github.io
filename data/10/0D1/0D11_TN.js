@@ -18,15 +18,15 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D115TN1",
-    "question": "Cho mệnh đề $P \\colon$ \\lq \\lq $\\exists n \\in \\mathbb{N}$, $n-1&lt;0$ \\rq \\rq. Mệnh đề phủ định của mệnh đề P là",
+    "question": "Cho mệnh đề $P \\colon$ “ $\\exists n \\in \\mathbb{N}$, $n-1&lt;0$ ”. Mệnh đề phủ định của mệnh đề P là",
     "options": [
-      "$\\overline{P} \\colon$ \\lq \\lq $\\forall x \\in \\mathbb{N}$, $n-1 \\geq 0$ \\rq \\rq",
-      "$\\overline{P} \\colon$ \\lq \\lq $\\exists x \\in \\mathbb{N}$, $n-1 \\geq 0$ \\rq \\rq",
-      "$\\overline{P} \\colon$ \\lq \\lq $\\forall x \\in \\mathbb{N}$, $n-1 &gt; 0$ \\rq \\rq",
-      "$\\overline{P} \\colon$ \\lq \\lq $\\forall x \\in \\mathbb{N}$, $n-1 &lt; 0$ \\rq \\rq"
+      "$\\overline{P} \\colon$ “ $\\forall x \\in \\mathbb{N}$, $n-1 \\geq 0$ ”",
+      "$\\overline{P} \\colon$ “ $\\exists x \\in \\mathbb{N}$, $n-1 \\geq 0$ ”",
+      "$\\overline{P} \\colon$ “ $\\forall x \\in \\mathbb{N}$, $n-1 &gt; 0$ ”",
+      "$\\overline{P} \\colon$ “ $\\forall x \\in \\mathbb{N}$, $n-1 &lt; 0$ ”"
     ],
     "answer": 0,
-    "explain": "Mệnh đề phủ định của mệnh đề $P \\colon$ \\lq \\lq $\\exists n \\in \\mathbb{N}$, $n-1&lt;0$ \\rq \\rq \\quad là $\\overline{P} \\colon$ \\lq \\lq $\\forall x \\in \\mathbb{N}$, $n-1 \\geq 0$ \\rq \\rq."
+    "explain": "Mệnh đề phủ định của mệnh đề $P \\colon$ “ $\\exists n \\in \\mathbb{N}$, $n-1&lt;0$ ” \\quad là $\\overline{P} \\colon$ “ $\\forall x \\in \\mathbb{N}$, $n-1 \\geq 0$ ”."
   },
   {
     "id": "0D113TN1",
@@ -110,11 +110,11 @@ window.tracNghiem0D11 = [
       "$\\sqrt{(-5)^2} = -5$"
     ],
     "answer": 1,
-    "explain": "Ta có \\lq\\lq $\\sqrt{5}$ có lớn hơn $3$ không?\\rq\\rq\\, là một câu hỏi, không phải là một câu khẳng định. Do đó, không phải là một mệnh đề toán học."
+    "explain": "Ta có “ $\\sqrt{5}$ có lớn hơn $3$ không?”\\, là một câu hỏi, không phải là một câu khẳng định. Do đó, không phải là một mệnh đề toán học."
   },
   {
     "id": "0D115TN2",
-    "question": "Phủ định của mệnh đề \\lq\\lq$\\exists x \\in \\mathbb{Q},\\, 2x^2 - 5x + 2 = 0$ \\rq\\rq\\, là",
+    "question": "Phủ định của mệnh đề “$\\exists x \\in \\mathbb{Q},\\, 2x^2 - 5x + 2 = 0$ ”\\, là",
     "options": [
       "$\\exists x \\in \\mathbb{Q},\\, 2x^2 - 5x + 2 &gt; 0$",
       "$\\forall x \\in \\mathbb{Q},\\, 2x^2 - 5x + 2 = 0$",
@@ -126,7 +126,7 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D112TN3",
-    "question": "Cho mệnh đề \\lq\\lq Nếu tứ giác $ABCD$ là hình vuông thì nó có hai đường chéo vuông góc với nhau\\rq\\rq. Phát biểu nào sau đây đúng?",
+    "question": "Cho mệnh đề “ Nếu tứ giác $ABCD$ là hình vuông thì nó có hai đường chéo vuông góc với nhau”. Phát biểu nào sau đây đúng?",
     "options": [
       "Tứ giác $ABCD$ là hình vuông là điều kiện đủ để nó có hai đường chéo vuông góc với nhau",
       "Tứ giác $ABCD$ là hình vuông là điều kiện cần để nó có hai đường chéo vuông góc với nhau",
@@ -134,7 +134,7 @@ window.tracNghiem0D11 = [
       "Tứ giác $ABCD$ có hai đường chéo vuông góc với nhau là điều kiện cần và đủ để nó là hình vuông"
     ],
     "answer": 0,
-    "explain": "Mệnh đề đã cho có dạng $P \\Rightarrow Q$, trong đó:<br>  $P$: Tứ giác $ABCD$ là hình vuông.<br>  $Q$: Tứ giác $ABCD$ có hai đường chéo vuông góc với nhau.<br>  Ta biết rằng, mọi hình vuông đều có hai đường chéo vuông góc với nhau. Do đó, mệnh đề $P \\Rightarrow Q$ là mệnh đề đúng.<br>  Trong mệnh đề đúng $P \\Rightarrow Q$:  <br>- $P$ là điều kiện đủ để có $Q$.<br>- $Q$ là điều kiện cần để có $P$.  Do đó \\lq\\lq Tứ giác $ABCD$ là hình vuông\\rq\\rq\\, là điều kiện đủ để \\lq\\lq Hình vuông có hai đường chéo vuông góc với nhau\\rq\\rq."
+    "explain": "Mệnh đề đã cho có dạng $P \\Rightarrow Q$, trong đó:<br>  $P$: Tứ giác $ABCD$ là hình vuông.<br>  $Q$: Tứ giác $ABCD$ có hai đường chéo vuông góc với nhau.<br>  Ta biết rằng, mọi hình vuông đều có hai đường chéo vuông góc với nhau. Do đó, mệnh đề $P \\Rightarrow Q$ là mệnh đề đúng.<br>  Trong mệnh đề đúng $P \\Rightarrow Q$:  <br>- $P$ là điều kiện đủ để có $Q$.<br>- $Q$ là điều kiện cần để có $P$.  Do đó “ Tứ giác $ABCD$ là hình vuông”\\, là điều kiện đủ để “ Hình vuông có hai đường chéo vuông góc với nhau”."
   },
   {
     "id": "0D115TN7",
@@ -150,7 +150,7 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D112TN5",
-    "question": "Cho các phát biểu sau đây:  <br>- [1.]<br>- \\lq\\lq $17$ là số nguyên tố \\rq\\rq<br>- \\lq\\lq Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền \\rq\\rq<br>- \\lq\\lq Các em C14 hãy cố gắng học tập thật tốt nhé! \\rq\\rq<br>- \\lq\\lq Mọi hình chữ nhật đều nội tiếp được đường tròn \\rq\\rq  Hỏi có bao nhiêu phát biểu là một mệnh đề?",
+    "question": "Cho các phát biểu sau đây:  <br>- [1.]<br>- “ $17$ là số nguyên tố ”<br>- “ Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền ”<br>- “ Các em C14 hãy cố gắng học tập thật tốt nhé! ”<br>- “ Mọi hình chữ nhật đều nội tiếp được đường tròn ”  Hỏi có bao nhiêu phát biểu là một mệnh đề?",
     "options": [
       "$1$",
       "$3$",
@@ -170,19 +170,19 @@ window.tracNghiem0D11 = [
       "Số $5$ là một số tự nhiên"
     ],
     "answer": 3,
-    "explain": "\\lq\\lq Số $5$ là một số tự nhiên\\rq\\rq\\,là mệnh đề toán học."
+    "explain": "“ Số $5$ là một số tự nhiên”\\,là mệnh đề toán học."
   },
   {
     "id": "0D115TN8",
-    "question": "Mệnh đề phủ định của mệnh đề \\lq\\lq$\\exists x \\in \\mathbb{R}, x^2-5=0$\\rq\\rq\\, là",
+    "question": "Mệnh đề phủ định của mệnh đề “$\\exists x \\in \\mathbb{R}, x^2-5=0$”\\, là",
     "options": [
-      "\\lq\\lq$\\forall x \\in \\mathbb{R}, x^2-5=0$\\rq\\rq",
-      "\\lq\\lq$\\exists x \\in \\mathbb{R}, x^2-5\\neq 0$\\rq\\rq",
-      "\\lq\\lq$\\forall x \\in \\mathbb{R}, x^2-5\\neq 0$\\rq\\rq",
-      "\\lq\\lq$\\forall x \\in \\mathbb{R}, x^2-5&gt; 0$\\rq\\rq"
+      "“$\\forall x \\in \\mathbb{R}, x^2-5=0$”",
+      "“$\\exists x \\in \\mathbb{R}, x^2-5\\neq 0$”",
+      "“$\\forall x \\in \\mathbb{R}, x^2-5\\neq 0$”",
+      "“$\\forall x \\in \\mathbb{R}, x^2-5&gt; 0$”"
     ],
     "answer": 2,
-    "explain": "Mệnh đề phủ định của mệnh đề \\lq\\lq$\\exists x \\in \\mathbb{R}, x^2-5=0$\\rq\\rq\\, là \\lq\\lq$\\forall x \\in \\mathbb{R}, x^2-5\\neq 0$\\rq\\rq."
+    "explain": "Mệnh đề phủ định của mệnh đề “$\\exists x \\in \\mathbb{R}, x^2-5=0$”\\, là “$\\forall x \\in \\mathbb{R}, x^2-5\\neq 0$”."
   },
   {
     "id": "0D112TN8",
@@ -206,11 +206,11 @@ window.tracNghiem0D11 = [
       "Học Toán thật thú vị!"
     ],
     "answer": 1,
-    "explain": "Phát biểu \\lq\\lq $ 3$ là số nguyên tố\\rq\\rq là mệnh đề."
+    "explain": "Phát biểu “ $ 3$ là số nguyên tố” là mệnh đề."
   },
   {
     "id": "0D115TN9",
-    "question": "Phủ định của mệnh đề $P\\colon$\\lq\\lq $\\forall x\\in\\mathbb{R},\\,x^2-3x&gt;0$\\rq\\rq\\, là mệnh đề nào sau đây?",
+    "question": "Phủ định của mệnh đề $P\\colon$“ $\\forall x\\in\\mathbb{R},\\,x^2-3x&gt;0$”\\, là mệnh đề nào sau đây?",
     "options": [
       "$\\exists x\\in\\mathbb{R},x^2-3x\\ge 0$",
       "$\\exists x\\in\\mathbb{R},x^2-3x&gt;0$",
@@ -222,19 +222,19 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D115TN10",
-    "question": "Phủ định của mệnh đề \\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq\\ là mệnh đề nào sau đây?",
+    "question": "Phủ định của mệnh đề “ $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$”\\ là mệnh đề nào sau đây?",
     "options": [
-      "\\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3&gt;0$\\rq\\rq",
-      "\\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq",
-      "\\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq",
-      "\\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq"
+      "“ $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3&gt;0$”",
+      "“ $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$”",
+      "“ $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$”",
+      "“ $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$”"
     ],
     "answer": 3,
-    "explain": "Phủ định của mệnh đề \\lq\\lq $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$\\rq\\rq\\ là mệnh đề \\lq\\lq $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$\\rq\\rq."
+    "explain": "Phủ định của mệnh đề “ $\\exists x\\in\\mathbb{N} \\colon 2x^2-5x+3=0$”\\ là mệnh đề “ $\\forall x\\in\\mathbb{N} \\colon 2x^2-5x+3\\ne 0$”."
   },
   {
     "id": "0D111TN4",
-    "question": "Cho mệnh đề chứa biến $P(x)\\colon$\\lq\\lq $-2x^2+x+1&lt;0$\\rq\\rq. Giá trị nào sau đây của biến $x$ làm cho $P(x)$ trở thành một mệnh đề <strong>sai</strong>?",
+    "question": "Cho mệnh đề chứa biến $P(x)\\colon$“ $-2x^2+x+1&lt;0$”. Giá trị nào sau đây của biến $x$ làm cho $P(x)$ trở thành một mệnh đề <strong>sai</strong>?",
     "options": [
       "$x = 3$",
       "$x = \\dfrac{1}{2}$",
@@ -246,7 +246,7 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D111TN5",
-    "question": "Trong các câu sau, có bao nhiêu câu là mệnh đề?  <br>- [1)]<br>- \\lq\\lq $19$ là số nguyên tố\\rq\\rq.<br>- \\lq\\lq Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền\\rq\\rq.<br>- \\lq\\lq Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi\\rq\\rq.<br>- \\lq\\lq Mọi hình chữ nhật đều nội tiếp được đường tròn\\rq\\rq.",
+    "question": "Trong các câu sau, có bao nhiêu câu là mệnh đề?  <br>- [1)]<br>- “ $19$ là số nguyên tố”.<br>- “ Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền”.<br>- “ Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi”.<br>- “ Mọi hình chữ nhật đều nội tiếp được đường tròn”.",
     "options": [
       "$4$",
       "$3$",
@@ -254,7 +254,7 @@ window.tracNghiem0D11 = [
       "$1$"
     ],
     "answer": 1,
-    "explain": "Xét các câu đã cho:  <br>- [1)]<br>- \\lq\\lq $19$ là số nguyên tố\\rq\\rq\\ là mệnh đề.<br>- \\lq\\lq Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền\\rq\\rq\\ là mệnh đề.<br>- \\lq\\lq Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi\\rq\\rq\\ không phải là mệnh đề (là lời khuyên).<br>- \\lq\\lq Mọi hình chữ nhật đều nội tiếp được đường tròn\\rq\\rq\\ là mệnh đề.  Vậy có $3$ câu là mệnh đề."
+    "explain": "Xét các câu đã cho:  <br>- [1)]<br>- “ $19$ là số nguyên tố”\\ là mệnh đề.<br>- “ Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền”\\ là mệnh đề.<br>- “ Các em cố gắng tập thật tốt nhé, sắp thi giữa học kì $1$ rồi”\\ không phải là mệnh đề (là lời khuyên).<br>- “ Mọi hình chữ nhật đều nội tiếp được đường tròn”\\ là mệnh đề.  Vậy có $3$ câu là mệnh đề."
   },
   {
     "id": "0D112TN9",
@@ -266,7 +266,7 @@ window.tracNghiem0D11 = [
       "Học, học nữa, học mãi"
     ],
     "answer": 1,
-    "explain": "<br>- \\lq\\lq Hình chữ nhật là hình bình hành phải không?\\rq\\rq\\, là câu hỏi.<br>- \\lq\\lq Số $1$ là số nguyên tố\\rq\\rq\\, là một khẳng định sai (số nguyên tố phải lớn hơn $1$), đây là một mệnh đề toán học.<br>- \\lq\\lq Tam giác cân có một góc $60^\\circ$ có là tam giác đều không?\\rq\\rq\\, là câu hỏi.<br>- \\lq\\lq Học, học nữa, học mãi\\rq\\rq\\, là câu khẩu hiệu (câu cảm thán)."
+    "explain": "<br>- “ Hình chữ nhật là hình bình hành phải không?”\\, là câu hỏi.<br>- “ Số $1$ là số nguyên tố”\\, là một khẳng định sai (số nguyên tố phải lớn hơn $1$), đây là một mệnh đề toán học.<br>- “ Tam giác cân có một góc $60^\\circ$ có là tam giác đều không?”\\, là câu hỏi.<br>- “ Học, học nữa, học mãi”\\, là câu khẩu hiệu (câu cảm thán)."
   },
   {
     "id": "0D112TN7",
@@ -278,7 +278,7 @@ window.tracNghiem0D11 = [
       "Hình thoi có hai đường chéo vuông góc với nhau"
     ],
     "answer": 2,
-    "explain": "\\lq\\lq Buồn ngủ quá!\\rq\\rq\\, là câu cảm thán nên không phải là mệnh đề."
+    "explain": "“ Buồn ngủ quá!”\\, là câu cảm thán nên không phải là mệnh đề."
   },
   {
     "id": "0D115TN11",
@@ -290,6 +290,6 @@ window.tracNghiem0D11 = [
       "$\\overline{P}\\colon \"\\forall x\\in\\mathbb{N}\\colon x^{2}+x-1&lt;0\"$"
     ],
     "answer": 2,
-    "explain": "Phủ định của \\lq\\lq với mọi\\rq\\rq\\, ($\\forall$) là \\lq\\lq tồn tại\\rq\\rq\\, ($\\exists$).<br>  Phủ định của \\lq\\lq $&gt;$\\rq\\rq\\, là \\lq\\lq $\\le$\\rq\\rq\\,.<br>  Vậy $\\overline{P}\\colon \"\\exists x\\in\\mathbb{N}\\colon x^{2}+x-1\\le0\"$."
+    "explain": "Phủ định của “ với mọi”\\, ($\\forall$) là “ tồn tại”\\, ($\\exists$).<br>  Phủ định của “ $&gt;$”\\, là “ $\\le$”\\,.<br>  Vậy $\\overline{P}\\colon \"\\exists x\\in\\mathbb{N}\\colon x^{2}+x-1\\le0\"$."
   }
 ];

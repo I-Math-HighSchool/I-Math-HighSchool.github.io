@@ -28,7 +28,7 @@ window.dungSai1D61 = [
   },
   {
     "id": "1D612DS2",
-    "question": "[Nguyễn Ngọc Huy Trường]  Với $a$, $b$ là các số thực dương và khác $1$; $\\alpha$, $\\beta$ là số thực bất kì.",
+    "question": "Với $a$, $b$ là các số thực dương và khác $1$; $\\alpha$, $\\beta$ là số thực bất kì.",
     "subQuestions": [
       {
         "text": "$a^{\\alpha}\\cdot a^{\\beta}=a^{\\alpha\\cdot\\beta}$",

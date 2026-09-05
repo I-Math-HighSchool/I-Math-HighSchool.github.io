@@ -98,7 +98,7 @@ window.tracNghiem1H41 = [
       "Trong không gian, hai đường thẳng không có điểm chung là hai đường thẳng chéo nhau"
     ],
     "answer": 2,
-    "explain": "Mệnh đề đúng là \\lq\\lq Trong không gian, hai đường thẳng song song là hai đường thẳng cùng nằm trong một mặt phẳng và không có điểm chung\\rq\\rq."
+    "explain": "Mệnh đề đúng là “ Trong không gian, hai đường thẳng song song là hai đường thẳng cùng nằm trong một mặt phẳng và không có điểm chung”."
   },
   {
     "id": "1H412TN9",
@@ -122,7 +122,7 @@ window.tracNghiem1H41 = [
       "đi qua một điểm và một đường thẳng"
     ],
     "answer": 0,
-    "explain": "Theo tính chất 2: \\lq\\lq Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng cho trước\\rq\\rq."
+    "explain": "Theo tính chất 2: “ Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng cho trước”."
   },
   {
     "id": "1H415TN11",

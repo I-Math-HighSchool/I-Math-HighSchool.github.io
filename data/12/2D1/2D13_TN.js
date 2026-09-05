@@ -327,7 +327,7 @@ window.tracNghiem2D13 = [
       "$x=70$"
     ],
     "answer": 2,
-    "explain": "Áp dụng bất đẳng thức AM-GM ta có  \\[  \\overline{C}(x)=2x+\\dfrac{7200}{x}-235 \\ge 2\\cdot\\sqrt{2x\\cdot\\dfrac{7\\,200}{x}}-235=5.  \\]  Dấu \\lq\\lq=\\rq\\rq\\ xảy ra khi $2x=\\dfrac{7\\,200}{x}\\Rightarrow x=60$.<br>  Vậy để chi phí trung bình của mỗi phần ăn là thấp nhất thì số phần ăn là $60$."
+    "explain": "Áp dụng bất đẳng thức AM-GM ta có  \\[  \\overline{C}(x)=2x+\\dfrac{7200}{x}-235 \\ge 2\\cdot\\sqrt{2x\\cdot\\dfrac{7\\,200}{x}}-235=5.  \\]  Dấu “=”\\ xảy ra khi $2x=\\dfrac{7\\,200}{x}\\Rightarrow x=60$.<br>  Vậy để chi phí trung bình của mỗi phần ăn là thấp nhất thì số phần ăn là $60$."
   },
   {
     "id": "2D131TN28",
@@ -879,7 +879,7 @@ window.tracNghiem2D13 = [
       "$x=70$"
     ],
     "answer": 2,
-    "explain": "Áp dụng bất đẳng thức AM-GM ta có  \\[  \\overline{C}(x)=2x+\\dfrac{7200}{x}-235 \\ge 2\\cdot\\sqrt{2x\\cdot\\dfrac{7\\,200}{x}}-235=5.  \\]  Dấu \\lq\\lq=\\rq\\rq\\ xảy ra khi $2x=\\dfrac{7\\,200}{x}\\Rightarrow x=60$.<br>  Vậy để chi phí trung bình của mỗi phần ăn là thấp nhất thì số phần ăn là $60$."
+    "explain": "Áp dụng bất đẳng thức AM-GM ta có  \\[  \\overline{C}(x)=2x+\\dfrac{7200}{x}-235 \\ge 2\\cdot\\sqrt{2x\\cdot\\dfrac{7\\,200}{x}}-235=5.  \\]  Dấu “=”\\ xảy ra khi $2x=\\dfrac{7\\,200}{x}\\Rightarrow x=60$.<br>  Vậy để chi phí trung bình của mỗi phần ăn là thấp nhất thì số phần ăn là $60$."
   },
   {
     "id": "2D131TN74",

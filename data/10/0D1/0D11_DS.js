@@ -352,10 +352,10 @@ window.dungSai0D11 = [
   },
   {
     "id": "0D112DS12",
-    "question": "Cho các câu sau:<br>  $P$: \\text{\\lq\\lq}Số tự nhiên $n$ có chữ số tận cùng bằng 5\\text{\\rq\\rq}.<br>  $Q$: \\text{\\lq\\lq}Số tự nhiên $n$ chia hết cho 5\\text{\\rq\\rq}.",
+    "question": "Cho các câu sau:<br>  $P$: \\text{“}Số tự nhiên $n$ có chữ số tận cùng bằng 5\\text{”}.<br>  $Q$: \\text{“}Số tự nhiên $n$ chia hết cho 5\\text{”}.",
     "subQuestions": [
       {
-        "text": "Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{\\lq\\lq}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{\\rq\\rq}",
+        "text": "Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{“}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{”}",
         "answer": true
       },
       {
@@ -371,6 +371,6 @@ window.dungSai0D11 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Đúng. Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{\\lq\\lq}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{\\rq\\rq}.<br>- Đúng. Trong mệnh đề $P \\Rightarrow Q$ thì $P$ là điều kiện đủ để có $Q$<br>- Sai. Số tự nhiên $n$ có chữ số tận cùng bằng $5$ thì số đó chia hết cho $5$.<br>- Sai. Trong mệnh đề $P \\Rightarrow Q$ thì $Q$ là điều kiện cần để có $P$."
+    "explain": "<br>- Đúng. Mệnh đề $P \\Rightarrow Q$ được phát biểu là \\text{“}Nếu số tự nhiên $n$ có chữ số tận cùng bằng 5 thì $n$ chia hết cho 5\\text{”}.<br>- Đúng. Trong mệnh đề $P \\Rightarrow Q$ thì $P$ là điều kiện đủ để có $Q$<br>- Sai. Số tự nhiên $n$ có chữ số tận cùng bằng $5$ thì số đó chia hết cho $5$.<br>- Sai. Trong mệnh đề $P \\Rightarrow Q$ thì $Q$ là điều kiện cần để có $P$."
   }
 ];

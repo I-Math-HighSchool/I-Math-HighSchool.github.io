@@ -25,7 +25,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{11}{4}$"
     ],
     "answer": 0,
-    "explain": "Gọi biến cố $A$\\lq\\lq Học sinh được chọn là nam\\rq\\rq.<br>  $B$ \\lq\\lq Học sinh thuận tay phải\\rq\\rq.  Cần tính $\\mathrm{P}(A|B)=\\dfrac{32}{32+11}=43$."
+    "explain": "Gọi biến cố $A$“ Học sinh được chọn là nam”.<br>  $B$ “ Học sinh thuận tay phải”.  Cần tính $\\mathrm{P}(A|B)=\\dfrac{32}{32+11}=43$."
   },
   {
     "id": "2D611TN3",
@@ -49,7 +49,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{8}{29}$"
     ],
     "answer": 1,
-    "explain": "Ta có sơ đồ cây minh họa các dữ kiện bài toán  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $A$ là biến cố \\lq\\lq người sử dụng smartphone\\rq\\rq, $B$ là biến cố \\lq\\lq người dùng mạng xã hội\\rq\\rq.<br>  Suy ra, $A|B$ là biến cố \\lq\\lq người đó là người sử dụng smartphone, biết rằng người đó đã sử dụng mạng xã hội\\rq\\rq.<br>  Khi đó $\\mathrm{P}(A) = \\dfrac{120}{200}=0{,}6$; $\\mathrm{P}\\left(B|A\\right) = 70\\%=0{,}7$; $\\mathrm{P}\\left(B|\\overline{A}\\right) = 40\\%=0{,}4$.<br>  Ta có $\\mathrm{P}\\left(\\overline{A}\\right) = 1-0{,}6=0{,}4$.<br>  Ta có $\\mathrm{P}(B) = \\mathrm{P}(A)\\cdot\\mathrm{P}\\left(B|A\\right) + \\mathrm{P}\\left(\\overline{A}\\right) \\cdot\\mathrm{P}\\left(B|\\overline{A}\\right)=0{,}6 \\cdot 0{,}7 + 0{,}4 \\cdot 0{,}4 = 0{,}42 + 0{,}16 = 0{,}58$.<br>  Vậy $\\mathrm{P}\\left(A|B\\right) = \\dfrac{\\mathrm{P}(AB)}{\\mathrm{P}(B)} = \\dfrac{0{,}6 \\cdot 0{,}7}{0{,}58} = \\dfrac{0{,}42}{0{,}58} = \\dfrac{21}{29}$.<br>"
+    "explain": "Ta có sơ đồ cây minh họa các dữ kiện bài toán  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $A$ là biến cố “ người sử dụng smartphone”, $B$ là biến cố “ người dùng mạng xã hội”.<br>  Suy ra, $A|B$ là biến cố “ người đó là người sử dụng smartphone, biết rằng người đó đã sử dụng mạng xã hội”.<br>  Khi đó $\\mathrm{P}(A) = \\dfrac{120}{200}=0{,}6$; $\\mathrm{P}\\left(B|A\\right) = 70\\%=0{,}7$; $\\mathrm{P}\\left(B|\\overline{A}\\right) = 40\\%=0{,}4$.<br>  Ta có $\\mathrm{P}\\left(\\overline{A}\\right) = 1-0{,}6=0{,}4$.<br>  Ta có $\\mathrm{P}(B) = \\mathrm{P}(A)\\cdot\\mathrm{P}\\left(B|A\\right) + \\mathrm{P}\\left(\\overline{A}\\right) \\cdot\\mathrm{P}\\left(B|\\overline{A}\\right)=0{,}6 \\cdot 0{,}7 + 0{,}4 \\cdot 0{,}4 = 0{,}42 + 0{,}16 = 0{,}58$.<br>  Vậy $\\mathrm{P}\\left(A|B\\right) = \\dfrac{\\mathrm{P}(AB)}{\\mathrm{P}(B)} = \\dfrac{0{,}6 \\cdot 0{,}7}{0{,}58} = \\dfrac{0{,}42}{0{,}58} = \\dfrac{21}{29}$.<br>"
   },
   {
     "id": "2D612TN5",
@@ -61,7 +61,7 @@ window.tracNghiem2D61 = [
       "$0{,}4$"
     ],
     "answer": 3,
-    "explain": "Gọi các biến cố  <br>- $A\\colon $ \\lq\\lq Học sinh được chọn đạt điểm giỏi môn Toán\\rq\\rq.<br>- $B\\colon$ \\lq\\lq Học sinh được chọn là học sinh nam\\rq\\rq.  Theo đề bài, ta có  <br>- Số học sinh nam $25$.<br>- Số học sinh nam giỏi Toán $10$.  Xác suất để học sinh được chọn đạt điểm giỏi môn Toán, <strong>biết</strong> học sinh đó là nam, là xác suất có điều kiện  $  \\mathrm{P}(A|B) = \\dfrac{\\mathrm{P}(A \\cap B)}{\\mathrm{P}(B)} = \\dfrac{\\frac{10}{40}}{\\frac{25}{40}} = \\dfrac{10}{25} = \\dfrac{2}{5} = 0{,}4.  $  Vậy đáp án đúng là $0{,}4$."
+    "explain": "Gọi các biến cố  <br>- $A\\colon $ “ Học sinh được chọn đạt điểm giỏi môn Toán”.<br>- $B\\colon$ “ Học sinh được chọn là học sinh nam”.  Theo đề bài, ta có  <br>- Số học sinh nam $25$.<br>- Số học sinh nam giỏi Toán $10$.  Xác suất để học sinh được chọn đạt điểm giỏi môn Toán, <strong>biết</strong> học sinh đó là nam, là xác suất có điều kiện  $  \\mathrm{P}(A|B) = \\dfrac{\\mathrm{P}(A \\cap B)}{\\mathrm{P}(B)} = \\dfrac{\\frac{10}{40}}{\\frac{25}{40}} = \\dfrac{10}{25} = \\dfrac{2}{5} = 0{,}4.  $  Vậy đáp án đúng là $0{,}4$."
   },
   {
     "id": "2D612TN6",
@@ -97,7 +97,7 @@ window.tracNghiem2D61 = [
       "$0{,}35$"
     ],
     "answer": 2,
-    "explain": "Ta gọi các biến cố sau  <br>- Biến cố $K$ \\lq \\lq học sinh được chọn thích kem\\rq \\rq, suy ra $\\mathrm{P}(K) = 0{,}68$.<br>- Biến cố $T$ \\lq \\lq học sinh được chọn thích trà sữa\\rq \\rq, suy ra $\\mathrm{P}(T) = 0{,}56$.<br>- Do đó $\\mathrm{P}(KT) = 0{,}24$.  Vậy $\\mathrm{P}(K\\,|\\,T) = \\dfrac{\\mathrm{P}(KT)}{\\mathrm{P}(T)} = \\dfrac{0{,}24}{0{,}56} \\approx 0{,}4286 \\approx \\boxed{0{,}43}$."
+    "explain": "Ta gọi các biến cố sau  <br>- Biến cố $K$ “ học sinh được chọn thích kem”, suy ra $\\mathrm{P}(K) = 0{,}68$.<br>- Biến cố $T$ “ học sinh được chọn thích trà sữa”, suy ra $\\mathrm{P}(T) = 0{,}56$.<br>- Do đó $\\mathrm{P}(KT) = 0{,}24$.  Vậy $\\mathrm{P}(K\\,|\\,T) = \\dfrac{\\mathrm{P}(KT)}{\\mathrm{P}(T)} = \\dfrac{0{,}24}{0{,}56} \\approx 0{,}4286 \\approx \\boxed{0{,}43}$."
   },
   {
     "id": "2D612TN9",

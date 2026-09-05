@@ -5,7 +5,7 @@
 window.dungSai1D92 = [
   {
     "id": "1D922DS1",
-    "question": "Gieo một con xúc xắc cân đối, đồng chất liên tiếp hai lần. Xét các biến cố sau:  <br>- $A$: \\lq\\lq Số chấm xuất hiện trong hai lần gieo đều là số chẵn\\rq\\rq;<br>- $B$: \\lq\\lq Số chấm xuất hiện trong hai lần gieo gồm một số chẵn và một số lẻ\\rq\\rq;<br>- $C$: \\lq\\lq Tích số chấm xuất hiện trong hai lần gieo là số chẵn\\rq\\rq.",
+    "question": "Gieo một con xúc xắc cân đối, đồng chất liên tiếp hai lần. Xét các biến cố sau:  <br>- $A$: “ Số chấm xuất hiện trong hai lần gieo đều là số chẵn”;<br>- $B$: “ Số chấm xuất hiện trong hai lần gieo gồm một số chẵn và một số lẻ”;<br>- $C$: “ Tích số chấm xuất hiện trong hai lần gieo là số chẵn”.",
     "subQuestions": [
       {
         "text": "Biến cố $C$ là hợp của hai biến cố $A$ và $B$",
@@ -28,7 +28,7 @@ window.dungSai1D92 = [
   },
   {
     "id": "1D922DS2",
-    "question": "Một lớp học có $40$ học sinh, trong đó có $25$ học sinh thích môn cầu lông, $20$ học sinh thích môn bóng chuyền, $12$ học sinh thích cả hai môn cầu lông và bóng chuyền. Thầy giáo chọn ngẫu nhiên một học sinh từ lớp. Gọi $A$ là biến cố: \\lq\\lq Chọn được học sinh thích môn cầu lông\\rq\\rq và $B$ là biến cố: \\lq\\lq Chọn được học sinh thích môn bóng chuyền\\rq\\rq.",
+    "question": "Một lớp học có $40$ học sinh, trong đó có $25$ học sinh thích môn cầu lông, $20$ học sinh thích môn bóng chuyền, $12$ học sinh thích cả hai môn cầu lông và bóng chuyền. Thầy giáo chọn ngẫu nhiên một học sinh từ lớp. Gọi $A$ là biến cố: “ Chọn được học sinh thích môn cầu lông” và $B$ là biến cố: “ Chọn được học sinh thích môn bóng chuyền”.",
     "subQuestions": [
       {
         "text": "Xác suất để học sinh được chọn không thích cả hai môn thể thao đó bằng $\\dfrac{7}{40}$",

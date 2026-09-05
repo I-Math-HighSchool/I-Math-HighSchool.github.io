@@ -29,7 +29,7 @@ window.dungSai2D43 = [
   },
   {
     "id": "2D431DS2",
-    "question": "[Dự án đề kiểm tra Toán 12 GHKII NH24-25- Lê Hồ Quang Minh]%[THPT Thuận Thành 1-2-3 - Bắc Ninh]  Một vật chuyển động đều với vận tốc có phương trình $v(t)=t^2-2 t+1$, trong đó $t$ được tính bằng giây, quãng đường $s(t)$ được tính bằng mét.",
+    "question": "Một vật chuyển động đều với vận tốc có phương trình $v(t)=t^2-2 t+1$, trong đó $t$ được tính bằng giây, quãng đường $s(t)$ được tính bằng mét.",
     "subQuestions": [
       {
         "text": "Quãng đường vật đi được từ khi vật bắt đầu chuyển động đến khi gia tốc bị triệt tiêu là $\\dfrac{1}{3}$ m",

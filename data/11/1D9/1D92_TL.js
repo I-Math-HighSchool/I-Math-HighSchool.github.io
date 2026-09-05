@@ -15,7 +15,7 @@ window.traLoiNgan1D92 = [
     "id": "1D922TL2",
     "question": "Phỏng vấn về sở thích của $50$ học sinh lớp 11A về các môn thể thao yêu thích thu được kết quả có $25$ thích môn cầu lông, $20$ thích môn bóng đá và $13$ không thích cả hai môn đó. Chọn ngẫu nhiên một học sinh 11A. Tính xác suất để học sinh được chọn thích cả hai môn thể thao trong hai môn trên.",
     "answer": "0,16",
-    "explain": "Gọi $A$ là biến cố \\lq\\lq học sinh được chọn thích môn cầu lông\\rq\\rq, ta có $n(A)=25$.<br>  Gọi $B$ là biến cố \\lq\\lq học sinh được chọn thích môn bóng đá\\rq\\rq, ta có $n(B)=20$.<br>  Do có $13$ bạn không thích môn nào trong cả hai môn đó nên $n(A\\cup B)=50-13=37$.<br>  Xác suất để học sinh được chọn thích cả hai môn thể thao trong hai môn trên là  \\[P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=\\dfrac{25}{50}+\\dfrac{20}{50}-\\dfrac{37}{50}=0{,}16.\\]"
+    "explain": "Gọi $A$ là biến cố “ học sinh được chọn thích môn cầu lông”, ta có $n(A)=25$.<br>  Gọi $B$ là biến cố “ học sinh được chọn thích môn bóng đá”, ta có $n(B)=20$.<br>  Do có $13$ bạn không thích môn nào trong cả hai môn đó nên $n(A\\cup B)=50-13=37$.<br>  Xác suất để học sinh được chọn thích cả hai môn thể thao trong hai môn trên là  \\[P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=\\dfrac{25}{50}+\\dfrac{20}{50}-\\dfrac{37}{50}=0{,}16.\\]"
   },
   {
     "id": "1D922TL3",

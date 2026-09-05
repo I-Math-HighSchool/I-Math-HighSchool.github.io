@@ -259,7 +259,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN22",
-    "question": "[THCS THPT Lương Thế Vinh] Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/1D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/1D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số $y=\\cos x$ có chu kỳ $2\\pi$",
       "Hàm số $y=\\cos x$ xác định trên $\\mathbb{R}$",
@@ -363,7 +363,7 @@ window.tracNghiem1D14 = [
       "Hàm số $y=\\tan x$ là hàm số lẻ"
     ],
     "answer": 1,
-    "explain": "Mệnh đề <strong>sai</strong> là \\lq\\lq Hàm số $y=\\cos x$ là hàm số lẻ\\rq\\rq."
+    "explain": "Mệnh đề <strong>sai</strong> là “ Hàm số $y=\\cos x$ là hàm số lẻ”."
   },
   {
     "id": "1D147TN31",
@@ -727,7 +727,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D142TN61",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Hàm số $y = \\tan x$ có tập xác định là",
+    "question": "Hàm số $y = \\tan x$ có tập xác định là",
     "options": [
       "$\\mathbb{R} \\setminus \\{k\\pi \\mid k \\in \\mathbb{Z}\\}$",
       "$\\mathbb{R} \\setminus \\{k2\\pi \\mid k \\in \\mathbb{Z}\\}$",
@@ -739,7 +739,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D145TN62",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Hàm số $y = \\cot x$ là hàm tuần hoàn với chu kì",
+    "question": "Hàm số $y = \\cot x$ là hàm tuần hoàn với chu kì",
     "options": [
       "$T = \\dfrac{\\pi}{2}$",
       "$T = 2\\pi$",
@@ -751,7 +751,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D146TN63",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Hàm số $y = 5 \\sin x - 1$ có tập giá trị là",
+    "question": "Hàm số $y = 5 \\sin x - 1$ có tập giá trị là",
     "options": [
       "$[-1;1]$",
       "$[-5;5]$",
@@ -807,7 +807,7 @@ window.tracNghiem1D14 = [
       "Tập giá trị của hàm số là $\\mathbb{R}$"
     ],
     "answer": 1,
-    "explain": "Hàm số $y=\\tan x$ tuần hoàn với chu kì $\\pi$. <br>  Do đó, khẳng định \\lq\\lq Hàm số tuần hoàn với chu kì $2\\pi$ \\rq\\rq là sai."
+    "explain": "Hàm số $y=\\tan x$ tuần hoàn với chu kì $\\pi$. <br>  Do đó, khẳng định “ Hàm số tuần hoàn với chu kì $2\\pi$ ” là sai."
   },
   {
     "id": "1D146TN68",
@@ -1180,18 +1180,6 @@ window.tracNghiem1D14 = [
     ],
     "answer": 2,
     "explain": "Hàm số $y=\\sin x$ đồng biến trên $\\left(\\dfrac{3\\pi}{2};\\dfrac{5\\pi}{2}\\right)$."
-  },
-  {
-    "id": "1D147TN99",
-    "question": "[THCS THPT Lương Thế Vinh] Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/loc5_C1_4_HamSoLuongG_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "options": [
-      "Hàm số $y=\\cos x$ có chu kỳ $2\\pi$",
-      "Hàm số $y=\\cos x$ xác định trên $\\mathbb{R}$",
-      "Đồ thị hàm số $y=\\cos x$ cắt đường thẳng $y=1$ tại vô số điểm",
-      "Hàm số $y=\\cos x$ đồng biến trên $(0; \\pi)$"
-    ],
-    "answer": 3,
-    "explain": "Dựa vào đồ thị, ta có hàm số $y=\\cos x$ nghịch biến trên $(0; \\pi)$."
   },
   {
     "id": "1D146TN1",

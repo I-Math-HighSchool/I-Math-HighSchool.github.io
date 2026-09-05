@@ -74,7 +74,7 @@ window.tracNghiem2D41 = [
       "Nếu nguyên hàm của $ f(x) $ bằng nguyên hàm của $ g(x) $ trên $ K $ thì hai hàm số $f(x)$ và $ g(x) $ bằng nhau trên $ K $"
     ],
     "answer": 0,
-    "explain": "Các nguyên hàm của cùng một hàm số khác nhau ở hằng số $ C $ nên mệnh đề \\lq\\lq Nếu $ f(x) $ và $ g(x) $ bằng nhau trên $ K $ thì nguyên hàm của $ f(x) $ bằng nguyên hàm của $ g(x) $ trên $ K $\\rq\\rq\\text{ } sai."
+    "explain": "Các nguyên hàm của cùng một hàm số khác nhau ở hằng số $ C $ nên mệnh đề “ Nếu $ f(x) $ và $ g(x) $ bằng nhau trên $ K $ thì nguyên hàm của $ f(x) $ bằng nguyên hàm của $ g(x) $ trên $ K $”\\text{ } sai."
   },
   {
     "id": "2D411TN7",

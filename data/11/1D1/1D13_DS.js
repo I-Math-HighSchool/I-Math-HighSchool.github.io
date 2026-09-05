@@ -213,7 +213,7 @@ window.dungSai1D13 = [
   },
   {
     "id": "1D135DS10",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho $\\sin \\alpha = -\\dfrac{4}{5}$ với $-\\pi &lt; \\alpha &lt; -\\dfrac{\\pi}{2}$.",
+    "question": "Cho $\\sin \\alpha = -\\dfrac{4}{5}$ với $-\\pi &lt; \\alpha &lt; -\\dfrac{\\pi}{2}$.",
     "subQuestions": [
       {
         "text": "$\\cos \\alpha = -\\sqrt{1 - \\sin^2 \\alpha}$",

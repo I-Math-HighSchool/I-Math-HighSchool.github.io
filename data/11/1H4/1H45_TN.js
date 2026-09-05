@@ -14,7 +14,7 @@ window.tracNghiem1H45 = [
       "Hai mặt đáy nằm trên hai mặt phẳng song song"
     ],
     "answer": 0,
-    "explain": "Theo lý thuyết của hình lăng trụ ta có \\lq\\lq Các cạnh đáy đôi một song song và bằng nhau\\rq\\rq."
+    "explain": "Theo lý thuyết của hình lăng trụ ta có “ Các cạnh đáy đôi một song song và bằng nhau”."
   },
   {
     "id": "1H451TN2",

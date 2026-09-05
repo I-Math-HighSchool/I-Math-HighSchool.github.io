@@ -6,7 +6,7 @@
 window.traLoiNgan1D13 = [
   {
     "id": "1D135TL1",
-    "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Cho góc lượng giác $x \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ và có $\\sin x = \\dfrac{1}{3}$. Tính giá trị biểu thức $A = \\cos\\left(\\dfrac{\\pi}{4}+x\\right)$ (làm tròn kết quả đến hàng phần chục).",
+    "question": "Cho góc lượng giác $x \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ và có $\\sin x = \\dfrac{1}{3}$. Tính giá trị biểu thức $A = \\cos\\left(\\dfrac{\\pi}{4}+x\\right)$ (làm tròn kết quả đến hàng phần chục).",
     "answer": "-0{,}9",
     "explain": "Ta có $A = \\cos\\left(\\dfrac{\\pi}{4}+x\\right) = \\cos \\dfrac{\\pi}{4} \\cdot \\cos x - \\sin \\dfrac{\\pi}{4} \\cdot \\sin x = \\dfrac{\\sqrt{2}}{2} \\cos x - \\dfrac{\\sqrt{2}}{2} \\sin x $.<br>  Ta có $\\sin^2 x + \\cos^2 x = 1 \\Leftrightarrow \\cos^2 x = 1 - \\sin^2 x = 1 - \\left( \\dfrac{1}{3}\\right)^2 = \\dfrac{8}{9}$.<br>  Do $x \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ nên $\\cos x = - \\dfrac{2\\sqrt{2}}{3}$.<br>  Do đó $A = \\dfrac{\\sqrt{2}}{2} \\cdot \\left(- \\dfrac{2\\sqrt{2}}{3}\\right) - \\dfrac{\\sqrt{2}}{2} \\cdot \\dfrac{1}{3} = - \\dfrac{4+ \\sqrt{2}}{2} \\approx -0{,}9$."
   },

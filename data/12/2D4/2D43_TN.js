@@ -234,7 +234,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN20",
-    "question": "[Đề thi tốt nghiệp - đợt 1 - 2021]%[Đề thi THPT Quốc Gia năm 2021, mã đề 103]%[Nguyễn Tất Thu]%[2D3G3-1]%46   Cho hàm số $f(x)=x^3+a x^2+b x+c$ với $a,\\ b,\\ c$ là các số thực. Biết hàm số  $g(x)=f(x)+f'(x)+f'(x)$ có hai giá trị cực trị là $-5$ và $3$. Diện tích hình phẳng giới hạn bởi các đường $y=\\dfrac{f(x)}{g(x)+6}$ và $y=1$ bằng",
+    "question": "46   Cho hàm số $f(x)=x^3+a x^2+b x+c$ với $a,\\ b,\\ c$ là các số thực. Biết hàm số  $g(x)=f(x)+f'(x)+f'(x)$ có hai giá trị cực trị là $-5$ và $3$. Diện tích hình phẳng giới hạn bởi các đường $y=\\dfrac{f(x)}{g(x)+6}$ và $y=1$ bằng",
     "options": [
       "$2 \\ln 3$",
       "$\\ln 2$",
@@ -606,7 +606,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN51",
-    "question": "[THPTQG 2017]%[2D3T6]  Một vật chuyển động trong $3$ giờ đầu với vận tốc $v\\,(\\mathrm{km/h})$ phụ thuộc thời gian $t(\\mathrm{h})$ có đồ thị là một phần của đường parabol có đỉnh $I(2;9)$ và trục đối xứng song song với trục tung như hình bên. Tính quãng đường $s$ mà vật di chuyển được trong 3 giờ đó.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một vật chuyển động trong $3$ giờ đầu với vận tốc $v\\,(\\mathrm{km/h})$ phụ thuộc thời gian $t(\\mathrm{h})$ có đồ thị là một phần của đường parabol có đỉnh $I(2;9)$ và trục đối xứng song song với trục tung như hình bên. Tính quãng đường $s$ mà vật di chuyển được trong 3 giờ đó.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$s=24,25\\,\\mathrm{km}$",
       "$s=26,75\\,\\mathrm{km}$",
@@ -666,7 +666,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN56",
-    "question": "[Dự án đề kiểm tra Toán 12 GHKII NH24-25- Lê Hồ Quang Minh]%[THPT Thuận Thành 1-2-3 - Bắc Ninh]  Cắt một vật thể bởi hai mặt phẳng vuông góc với trục $O x$ tại $x=1$ và $x=3$. Một mặt phẳng tùy ý vuông góc với trục $O x$ tại điểm có hoành độ $x$, $(1 \\leq x \\leq 3)$ cắt vật thể đó theo thiết diện là một hình chữ nhật có độ dài hai cạnh là $3 x$ và $3 x^2-2$. Tính thể tích của phần vật thể giới hạn bởi hai mặt phẳng trên?",
+    "question": "Cắt một vật thể bởi hai mặt phẳng vuông góc với trục $O x$ tại $x=1$ và $x=3$. Một mặt phẳng tùy ý vuông góc với trục $O x$ tại điểm có hoành độ $x$, $(1 \\leq x \\leq 3)$ cắt vật thể đó theo thiết diện là một hình chữ nhật có độ dài hai cạnh là $3 x$ và $3 x^2-2$. Tính thể tích của phần vật thể giới hạn bởi hai mặt phẳng trên?",
     "options": [
       "$V=156 \\pi$",
       "$V=156$",

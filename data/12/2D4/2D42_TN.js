@@ -294,7 +294,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D423TN25",
-    "question": "[THPT QG - 2019]%[Câu 33 - Mã 102]%[2D3K2-4]  Tính $ \\displaystyle \\int\\limits_0^{\\tfrac{\\pi}{4}} f(x) \\mathrm{\\,d}x $, biết $f(0) = 4$ và $f'(x) = 2 \\cos^2 x+ 3$, $\\forall x \\in \\mathbb{R}$.",
+    "question": "Tính $ \\displaystyle \\int\\limits_0^{\\tfrac{\\pi}{4}} f(x) \\mathrm{\\,d}x $, biết $f(0) = 4$ và $f'(x) = 2 \\cos^2 x+ 3$, $\\forall x \\in \\mathbb{R}$.",
     "options": [
       "$ \\dfrac{\\pi^2 + 2}{8} $",
       "$ \\dfrac{\\pi^2 + 8\\pi + 8}{8} $",
@@ -1314,7 +1314,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D422TN110",
-    "question": "[Dự án đề kiểm tra Toán 12 GHKII NH24-25- Lê Hồ Quang Minh]%[THPT Thuận Thành 1-2-3 - Bắc Ninh]  Cho hàm số $y=f(x)$ liên tục trên đoạn $[1 ; 13]$ thỏa $\\displaystyle\\int\\limits_1^{13} f(x) \\mathrm{~d}x=16$, $\\displaystyle\\int\\limits_1^4 f(x) \\mathrm{~d}x=2$. Giá trị $\\displaystyle\\int\\limits_4^{13} f(x) \\mathrm{~d}x$ bằng",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1 ; 13]$ thỏa $\\displaystyle\\int\\limits_1^{13} f(x) \\mathrm{~d}x=16$, $\\displaystyle\\int\\limits_1^4 f(x) \\mathrm{~d}x=2$. Giá trị $\\displaystyle\\int\\limits_4^{13} f(x) \\mathrm{~d}x$ bằng",
     "options": [
       "$12$",
       "$14$",

@@ -15,7 +15,7 @@ window.tracNghiem1H87 = [
       "Các mặt bên đều là hình vuông"
     ],
     "answer": 2,
-    "explain": "Hình hộp đứng luôn có tính chất \\lq\\lq Hai đáy đều là hình bình hành\\rq\\rq."
+    "explain": "Hình hộp đứng luôn có tính chất “ Hai đáy đều là hình bình hành”."
   },
   {
     "id": "1H874TN2",

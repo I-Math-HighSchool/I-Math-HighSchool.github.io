@@ -19,7 +19,7 @@ window.tracNghiem1D61 = [
   },
   {
     "id": "1D611TN2",
-    "question": "[Nguyễn Ngọc Huy Trường]  Với $a &gt; 0$, $b &gt; 0$ và $\\alpha$ là các số thực bất kì. Mệnh đề nào sau đây <strong>đúng</strong>?",
+    "question": "Với $a &gt; 0$, $b &gt; 0$ và $\\alpha$ là các số thực bất kì. Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "$(ab)^{\\alpha}=a^{\\alpha}+b^{\\alpha}$",
       "$\\left(a+b\\right)^{\\alpha}=a^{\\alpha}+b^{\\alpha}$",
@@ -31,7 +31,7 @@ window.tracNghiem1D61 = [
   },
   {
     "id": "1D612TN3",
-    "question": "[Nguyễn Ngọc Huy Trường]  Với $a$ là số thực dương, $\\sqrt[3]{a^7}$ bằng",
+    "question": "Với $a$ là số thực dương, $\\sqrt[3]{a^7}$ bằng",
     "options": [
       "$a^{\\tfrac{3}{7}}$",
       "$a^{\\tfrac{7}{3}}$",
@@ -171,7 +171,7 @@ window.tracNghiem1D61 = [
       "$\\dfrac{a^{\\alpha}}{a^{\\beta}}=a^{\\alpha-\\beta}$"
     ],
     "answer": 1,
-    "explain": "Đẳng thức sai là \\lq\\lq $\\dfrac{a^{\\alpha}}{b^{\\beta}}=\\left(\\dfrac{a}{b}\\right)^{\\alpha-\\beta}$\\rq\\rq."
+    "explain": "Đẳng thức sai là “ $\\dfrac{a^{\\alpha}}{b^{\\beta}}=\\left(\\dfrac{a}{b}\\right)^{\\alpha-\\beta}$”."
   },
   {
     "id": "1D612TN15",

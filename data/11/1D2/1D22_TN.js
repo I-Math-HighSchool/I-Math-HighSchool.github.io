@@ -115,7 +115,7 @@ window.tracNghiem1D22 = [
   },
   {
     "id": "1D222TN10",
-    "question": "[Dự án đề kiểm tra Toán 12 HKI NH24-25- Hector Tran]%[1-TN-DS-TL-SGD-BacNinh-GHKI-NH24-25]  Cho cấp số cộng $(u_n)$ có $u_1 = 2$ và $u_2 = 13$. Công sai của $(u_n)$ là",
+    "question": "Cho cấp số cộng $(u_n)$ có $u_1 = 2$ và $u_2 = 13$. Công sai của $(u_n)$ là",
     "options": [
       "$d = \\dfrac{13}{2}$",
       "$d = 11$",
