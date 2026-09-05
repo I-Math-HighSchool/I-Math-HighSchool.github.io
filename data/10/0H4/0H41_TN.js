@@ -66,7 +66,7 @@ window.tracNghiem0H41 = [
   },
   {
     "id": "0H412TN6",
-    "question": "Biết rằng điểm $M(a;b)$ thoả mãn $\\widehat{MOx}=30^{\\circ}$ như hình vẽ.  Khi đó giá trị của $a$ bằng<br><img src=\"data/10/0H4/im0H41/loc2_0_TN_DS_TLN_Chuy_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Biết rằng điểm $M(a;b)$ thoả mãn $\\widehat{MOx}=30^{\\circ}$ như hình vẽ.  Khi đó giá trị của $a$ bằng<br><img src=\"data/10/0H4/im0H41/loc2_0_TN_DS_TLN_Chuy_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{4}{5}$",
       "$\\dfrac{\\sqrt{2}}{2}$",

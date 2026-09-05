@@ -43,7 +43,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H442TN4",
-    "question": "Cho hình lập phương $ABCD.A'BC'D'$. Góc giữa mặt phẳng $\\left(ABCD\\right)$ và $\\left(ACC'A'\\right)$ bằng<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'BC'D'$. Góc giữa mặt phẳng $\\left(ABCD\\right)$ và $\\left(ACC'A'\\right)$ bằng<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^{\\circ}$",
       "$60^{\\circ}$",
@@ -55,7 +55,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H442TN5",
-    "question": "Một kệ để đồ bằng gỗ có mâm tầng dưới $(ABCD)$ và mâm tầng trên $(EFGH)$ song song với nhau. Bác thợ mộc đo được $AE=117$ cm, $CG=135$ cm và muốn đóng thêm mâm tầng giữa $(IJKL)$ song song với hai mâm tầng trên, tầng dưới và $EI=39$ cm. Tính độ dài đoạn thẳng $KG$.<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS6_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một kệ để đồ bằng gỗ có mâm tầng dưới $(ABCD)$ và mâm tầng trên $(EFGH)$ song song với nhau. Bác thợ mộc đo được $AE=117$ cm, $CG=135$ cm và muốn đóng thêm mâm tầng giữa $(IJKL)$ song song với hai mâm tầng trên, tầng dưới và $EI=39$ cm. Tính độ dài đoạn thẳng $KG$.<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS6_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90$ cm",
       "$48$ cm",
@@ -79,7 +79,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H441TN2",
-    "question": "Cho hình lăng trụ tam giác $ABC.A' B' C'$.  <br><img src=\"data/11/1H4/im1H44/loc2_1_TN_DS_TL_THPT__009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây đúng?",
+    "question": "Cho hình lăng trụ tam giác $ABC.A' B' C'$.  <br><img src=\"data/11/1H4/im1H44/loc2_1_TN_DS_TL_THPT__009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây đúng?",
     "options": [
       "$\\left(A' BC\\right) \\parallel\\left(AB' C'\\right)$",
       "$\\left(ABC'\\right) \\parallel\\left(A' B' C\\right)$",
@@ -99,11 +99,11 @@ window.tracNghiem1H44 = [
       "$x=\\dfrac{1}{2}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1H4/im1H44/loc3_1_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vẽ $P$, $Q$, $R$ lần lượt thuộc $DC$, $AB$, $SB$ sao cho $GP\\parallel SD$, $PQ\\parallel AD$ và $QR\\parallel SA$. Gọi $I$ là giao điểm của $PQ$ và $AC$. Gọi $E$ là trung điểm của $DC$.<br>   Ta có $GP\\parallel SD\\subset (SAD) \\text{ và } PQ\\parallel AD\\subset (SAD) \\text{ và } SD, AD\\subset (SAD) \\text{ và } GP, AD \\subset (GPQ)\\Rightarrow (GPQ)\\parallel (SAD)$. <br>   Ta lại có $QR\\parallel SA \\Rightarrow QR \\parallel (SAD) \\Rightarrow QR \\subset (GPQ)$.<br>   $\\Rightarrow (GMN)\\parallel (SAD)\\Leftrightarrow M\\equiv R \\text{ và } N\\equiv I.$ Khi đó $x=\\dfrac{BR}{RS}=\\dfrac{IC}{IA}$.<br>   Ta có $\\dfrac{EG}{ES}=\\dfrac{EP}{ED}=\\dfrac{1}{3} \\Rightarrow EP=\\dfrac{1}{3}ED=\\dfrac{1}{6}CD\\Rightarrow PD=\\dfrac{1}{3}CD$, $PC=\\dfrac{2}{3}CD$.<br>   Mà $\\dfrac{IC}{IA}=\\dfrac{PC}{PD}=\\dfrac{\\dfrac{2}{3}CD}{\\dfrac{1}{3}CD}=2$."
+    "explain": "<br><img src=\"data/11/1H4/im1H44/loc3_1_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vẽ $P$, $Q$, $R$ lần lượt thuộc $DC$, $AB$, $SB$ sao cho $GP\\parallel SD$, $PQ\\parallel AD$ và $QR\\parallel SA$. Gọi $I$ là giao điểm của $PQ$ và $AC$. Gọi $E$ là trung điểm của $DC$.<br>   Ta có $GP\\parallel SD\\subset (SAD) \\text{ và } PQ\\parallel AD\\subset (SAD) \\text{ và } SD, AD\\subset (SAD) \\text{ và } GP, AD \\subset (GPQ)\\Rightarrow (GPQ)\\parallel (SAD)$. <br>   Ta lại có $QR\\parallel SA \\Rightarrow QR \\parallel (SAD) \\Rightarrow QR \\subset (GPQ)$.<br>   $\\Rightarrow (GMN)\\parallel (SAD)\\Leftrightarrow M\\equiv R \\text{ và } N\\equiv I.$ Khi đó $x=\\dfrac{BR}{RS}=\\dfrac{IC}{IA}$.<br>   Ta có $\\dfrac{EG}{ES}=\\dfrac{EP}{ED}=\\dfrac{1}{3} \\Rightarrow EP=\\dfrac{1}{3}ED=\\dfrac{1}{6}CD\\Rightarrow PD=\\dfrac{1}{3}CD$, $PC=\\dfrac{2}{3}CD$.<br>   Mà $\\dfrac{IC}{IA}=\\dfrac{PC}{PD}=\\dfrac{\\dfrac{2}{3}CD}{\\dfrac{1}{3}CD}=2$."
   },
   {
     "id": "1H442TN6",
-    "question": "Cho lăng trụ tam giác đều $ABC.A'B'C'$ có cạnh đáy $AB=a$, cạnh bên $AA'=2a$. Khoảng cách giữa hai mặt đáy của lăng trụ bằng  <br><img src=\"data/11/1H4/im1H44/loc8_TT_KSCL_Cum_lien_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho lăng trụ tam giác đều $ABC.A'B'C'$ có cạnh đáy $AB=a$, cạnh bên $AA'=2a$. Khoảng cách giữa hai mặt đáy của lăng trụ bằng  <br><img src=\"data/11/1H4/im1H44/loc8_TT_KSCL_Cum_lien_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a\\sqrt{5}$",
       "$2a$",
@@ -115,7 +115,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H442TN7",
-    "question": "Cho lăng trụ $ABCD.A'B'C'D'$ có hai đáy là các hình bình hành. Các điểm $M$, $N$, $P$ lần lượt là trung điểm của $AD$, $BC$, $CC'$. Xét các khẳng định sau:  <br>- Mặt phẳng $(MNP)$ cắt $A'D'$.<br>- Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$.<br>- Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$.  Trong các khẳng định trên, số khẳng định đúng là<br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho lăng trụ $ABCD.A'B'C'D'$ có hai đáy là các hình bình hành. Các điểm $M$, $N$, $P$ lần lượt là trung điểm của $AD$, $BC$, $CC'$. Xét các khẳng định sau:  <br>- Mặt phẳng $(MNP)$ cắt $A'D'$.<br>- Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$.<br>- Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$.  Trong các khẳng định trên, số khẳng định đúng là<br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$0$",
       "$1$",
@@ -123,6 +123,6 @@ window.tracNghiem1H44 = [
       "$2$"
     ],
     "answer": 3,
-    "explain": "<br>- [a)]<br>- $DD'\\parallel AD\\parallel MN\\Rightarrow DD'\\parallel (MNP)$. Do đó “ Mặt phẳng $(MNP)$ cắt $A'D'$”\\, sai.  <br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $Q$ là giao điểm của mặt phẳng $(MNP)$ với $DD'$. Ta có $MN\\parallel CD$ nên $MN \\parallel (CDD'C')$ suy ra $MN \\parallel PQ \\parallel CD$.<br>  Khi đó $P$ là trung điểm của $CC'$ nên $Q$ là trung điểm của $DD'$.<br>  Suy ra “ Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$”\\, đúng.<br>- Ta có $MP$ là đường trung bình của tam giác $BCC' \\Rightarrow MP\\parallel BC'$. Lại có $MN\\parallel AB$. Do đó $(MNP)\\parallel (ABC'D')$.<br>  Suy ra “ Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$”\\, đúng.   Vậy có $2$ khẳng định đúng."
+    "explain": "<br>- [a)]<br>- $DD'\\parallel AD\\parallel MN\\Rightarrow DD'\\parallel (MNP)$. Do đó “ Mặt phẳng $(MNP)$ cắt $A'D'$”\\, sai.  <br><img src=\"data/11/1H4/im1H44/loc8_TT_THPT_Chuyen_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $Q$ là giao điểm của mặt phẳng $(MNP)$ với $DD'$. Ta có $MN\\parallel CD$ nên $MN \\parallel (CDD'C')$ suy ra $MN \\parallel PQ \\parallel CD$.<br>  Khi đó $P$ là trung điểm của $CC'$ nên $Q$ là trung điểm của $DD'$.<br>  Suy ra “ Mặt phẳng $(MNP)$ cắt $DD'$ tại trung điểm của $DD'$”\\, đúng.<br>- Ta có $MP$ là đường trung bình của tam giác $BCC' \\Rightarrow MP\\parallel BC'$. Lại có $MN\\parallel AB$. Do đó $(MNP)\\parallel (ABC'D')$.<br>  Suy ra “ Mặt phẳng $(MNP)$ song song với mặt phẳng $(ABC'D')$”\\, đúng.   Vậy có $2$ khẳng định đúng."
   }
 ];

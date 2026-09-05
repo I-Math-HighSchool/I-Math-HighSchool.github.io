@@ -18,7 +18,7 @@ window.traLoiNgan1D13 = [
   },
   {
     "id": "1D135TL3",
-    "question": "Cho sơ đồ cấu trúc kim loại của một cây cầu ({\\it tham khảo hình vẽ sau}).  <br><img src=\"data/11/1D1/im1D13/1D13_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Biết $OX=9$ m, $OA=15$ m, $AY=8$ m, $\\sin\\widehat{XOY}=\\dfrac{a}{b}$. Tính $b-a$.",
+    "question": "Cho sơ đồ cấu trúc kim loại của một cây cầu ({\\it tham khảo hình vẽ sau}).  <br><img src=\"data/11/1D1/im1D13/1D13_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Biết $OX=9$ m, $OA=15$ m, $AY=8$ m, $\\sin\\widehat{XOY}=\\dfrac{a}{b}$. Tính $b-a$.",
     "answer": "1",
     "explain": "Đặt $\\alpha=\\widehat{XOA}$ và $\\beta=\\widehat{AOY}$.<br>  Trong tam giác vuông $XOA$ vuông tại $X$, $AX=\\sqrt{OA^2-OX^2}=12$ và  $\\sin\\alpha=\\dfrac{AX}{OA}=\\dfrac{12}{15}=\\dfrac{4}{5},\\quad \\cos\\alpha=\\dfrac{OX}{OA}=\\dfrac{9}{15}=\\dfrac{3}{5}.$  Trong tam giác vuông $AOY$ vuông tại $A$, $OY=\\sqrt{OA^2+AY^2}=17$ và  $\\sin\\beta=\\dfrac{AY}{OY}=\\dfrac{8}{17}, \\quad \\cos\\beta=\\dfrac{OA}{OY}=\\dfrac{15}{17}.$  Ta có  $\\sin\\widehat{XOY}  =\\sin\\left(\\alpha+\\beta\\right)$<br>$=\\sin\\alpha\\cos\\beta+\\sin\\beta\\cos\\alpha$<br>$=\\dfrac{4}{5}\\cdot \\dfrac{15}{17}+\\dfrac{8}{17}\\cdot \\dfrac{3}{5}$<br>$=\\dfrac{84}{85}.$  Vậy $b-a=85-84=1$."
   },
@@ -146,7 +146,7 @@ window.traLoiNgan1D13 = [
     "id": "1D135TL24",
     "question": "Từ một vị trí $A$, người ta buộc hai sợi cáp $AB$ và $AC$ đến một cái trụ cao $15$\\,m, được dựng vuông góc với mặt đất, chân trụ ở vị trí $D$. Biết $CD=9$\\,m và $AD=12$\\,m. Biết góc nhọn $\\alpha=\\widehat{BAC}$ và $\\tan \\alpha=\\dfrac{a}{b}$, với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=2a-3b$?",
     "answer": "-77",
-    "explain": "<br><img src=\"data/11/1D1/im1D13/1D13_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Tam giác $ABD$ vuông tại $D$ có $\\tan\\widehat{BAD}=\\dfrac{BD}{AD}=\\dfrac{5}{4}$.<br>- Tam giác $ACD$ vuông tại $D$ có $\\tan\\widehat{BAC}=\\dfrac{CD}{AD}=\\dfrac{3}{4}$.<br>- Mà $\\alpha=\\widehat{BAD}-\\widehat{CAD}$ nên   $\\tan \\alpha = \\tan\\left(\\widehat{BAD}-\\widehat{CAD}\\right)$<br>$= \\dfrac{\\tan\\widehat{BAD}-\\tan\\widehat{CAD}}{1+\\tan\\widehat{BAD}\\cdot\\tan\\widehat{CAD}}$<br>$= \\dfrac{\\tfrac{5}{4}-\\tfrac{3}{4}}{1+\\tfrac{5}{4}\\cdot\\tfrac{3}{4}}$<br>$= \\dfrac{8}{31}.$  Suy ra $a=8$, $b=31$.  Khi đó $T=2\\cdot 8-3\\cdot 31=-77$."
+    "explain": "<br><img src=\"data/11/1D1/im1D13/1D13_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Tam giác $ABD$ vuông tại $D$ có $\\tan\\widehat{BAD}=\\dfrac{BD}{AD}=\\dfrac{5}{4}$.<br>- Tam giác $ACD$ vuông tại $D$ có $\\tan\\widehat{BAC}=\\dfrac{CD}{AD}=\\dfrac{3}{4}$.<br>- Mà $\\alpha=\\widehat{BAD}-\\widehat{CAD}$ nên   $\\tan \\alpha = \\tan\\left(\\widehat{BAD}-\\widehat{CAD}\\right)$<br>$= \\dfrac{\\tan\\widehat{BAD}-\\tan\\widehat{CAD}}{1+\\tan\\widehat{BAD}\\cdot\\tan\\widehat{CAD}}$<br>$= \\dfrac{\\tfrac{5}{4}-\\tfrac{3}{4}}{1+\\tfrac{5}{4}\\cdot\\tfrac{3}{4}}$<br>$= \\dfrac{8}{31}.$  Suy ra $a=8$, $b=31$.  Khi đó $T=2\\cdot 8-3\\cdot 31=-77$."
   },
   {
     "id": "1D135TL25",

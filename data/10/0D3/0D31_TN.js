@@ -42,7 +42,7 @@ window.tracNghiem0D31 = [
   },
   {
     "id": "0D314TN1",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình bên dưới. Khẳng định nào sao đây là đúng?  <br><img src=\"data/10/0D3/im0D31/loc2_0_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình bên dưới. Khẳng định nào sao đây là đúng?  <br><img src=\"data/10/0D3/im0D31/loc2_0_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số đồng biến trên khoảng $(-\\infty;1)$",
       "Hàm số đồng biến trên khoảng $(1;+\\infty)$",
@@ -90,7 +90,7 @@ window.tracNghiem0D31 = [
   },
   {
     "id": "0D314TN3",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên dưới. Tập giá trị của hàm số đã cho là  <br><img src=\"data/10/0D3/im0D31/loc3_0_TN_DS_THPT_chu_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên dưới. Tập giá trị của hàm số đã cho là  <br><img src=\"data/10/0D3/im0D31/loc3_0_TN_DS_THPT_chu_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$[-3;+\\infty)$",
       "$[0;5]$",

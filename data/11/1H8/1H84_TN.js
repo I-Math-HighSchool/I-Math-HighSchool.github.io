@@ -7,7 +7,7 @@
 window.tracNghiem1H84 = [
   {
     "id": "1H843TN1",
-    "question": "Cho hình chóp $S. ABCD$ có $SA\\perp(ABCD)$ với đáy $ABCD$ là hình chữ nhật. Mặt phẳng nào sau đây {\\bf{không}} vuông góc với mặt phẳng $(ABCD)$?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS22_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S. ABCD$ có $SA\\perp(ABCD)$ với đáy $ABCD$ là hình chữ nhật. Mặt phẳng nào sau đây {\\bf{không}} vuông góc với mặt phẳng $(ABCD)$?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS22_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAB)$",
       "$(SBD)$",
@@ -19,7 +19,7 @@ window.tracNghiem1H84 = [
   },
   {
     "id": "1H843TN2",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB$ và $DD'$ bằng bao nhiêu?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS24_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB$ và $DD'$ bằng bao nhiêu?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS24_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$60^\\circ$",
       "$45^\\circ$",
@@ -31,7 +31,7 @@ window.tracNghiem1H84 = [
   },
   {
     "id": "1H841TN3",
-    "question": "Cho hình chóp $S. ABCD$ có $SA \\perp(ABCD)$. Khẳng định nào sau đây là {\\bf sai}?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS25_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S. ABCD$ có $SA \\perp(ABCD)$. Khẳng định nào sau đây là {\\bf sai}?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS25_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SBC)\\perp(ABCD)$",
       "$(SAB)\\perp(ABCD)$",
@@ -63,7 +63,7 @@ window.tracNghiem1H84 = [
       "$(SAB) \\perp(ABC)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS29_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có  <br>- $(SAC) \\perp(ABC)$ vì $SA \\perp(ABC) \\text{ và } SA \\subset(SAC).$<br>- $(SBC) \\perp(SAB)$ vì $BC \\perp(SAB) \\text{ và } BC \\subset(SAB).$<br>- $(SAB) \\perp(ABC)$ vì $SA \\perp(ABC) \\text{ và } SA \\subset(SAB).$  Vậy $(SBC) \\perp(SAC)$ là khẳng định <strong>sai</strong>."
+    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS29_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có  <br>- $(SAC) \\perp(ABC)$ vì $SA \\perp(ABC) \\text{ và } SA \\subset(SAC).$<br>- $(SBC) \\perp(SAB)$ vì $BC \\perp(SAB) \\text{ và } BC \\subset(SAB).$<br>- $(SAB) \\perp(ABC)$ vì $SA \\perp(ABC) \\text{ và } SA \\subset(SAB).$  Vậy $(SBC) \\perp(SAC)$ là khẳng định <strong>sai</strong>."
   },
   {
     "id": "1H843TN6",
@@ -75,7 +75,7 @@ window.tracNghiem1H84 = [
       "$(SBC)$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS36_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét $BD$ và $(SAC)$, ta có  $ BD \\perp AC \\text{ (Do } ABCD \\text{ là hình thoi}) \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AC\\subset (SAC), \\ SA\\subset (SAC), \\ SA \\cap AC = A. $  Do đó $BD\\perp (SAC)$. Mà $BD\\subset (SBD)$ nên $(SBD) \\perp (SAC)$."
+    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS36_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét $BD$ và $(SAC)$, ta có  $ BD \\perp AC \\text{ (Do } ABCD \\text{ là hình thoi}) \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AC\\subset (SAC), \\ SA\\subset (SAC), \\ SA \\cap AC = A. $  Do đó $BD\\perp (SAC)$. Mà $BD\\subset (SBD)$ nên $(SBD) \\perp (SAC)$."
   },
   {
     "id": "1H841TN7",
@@ -87,11 +87,11 @@ window.tracNghiem1H84 = [
       "$(SBC)\\perp (SAB)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS36_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA \\perp (ABC)$, mà các mặt phẳng $(SAB)$ và $(SAC)$ đều chứa đường thẳng $SA$ nên các mặt phẳng $(SAB)$ và $(SAC)$ đều vuông góc với $(ABC)$. <br>  Xét $BC$ và $(SAB)$, ta có  $ BC \\perp AB \\text{ (Do tam giác } ABC \\text{ vuông tại }B) \\text{ và } BC \\perp SA \\text{ (Do } SA\\perp (ABC) \\text{ và } BC\\subset (ABC)) \\text{ và } AB\\subset (SAB), \\ SA\\subset (SAB), \\ SA \\cap AB = A. $  Do đó $BC\\perp (SAB)$. Mà $BC\\subset (SBC)$ nên $(SBC) \\perp (SAB)$."
+    "explain": "<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS36_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA \\perp (ABC)$, mà các mặt phẳng $(SAB)$ và $(SAC)$ đều chứa đường thẳng $SA$ nên các mặt phẳng $(SAB)$ và $(SAC)$ đều vuông góc với $(ABC)$. <br>  Xét $BC$ và $(SAB)$, ta có  $ BC \\perp AB \\text{ (Do tam giác } ABC \\text{ vuông tại }B) \\text{ và } BC \\perp SA \\text{ (Do } SA\\perp (ABC) \\text{ và } BC\\subset (ABC)) \\text{ và } AB\\subset (SAB), \\ SA\\subset (SAB), \\ SA \\cap AB = A. $  Do đó $BC\\perp (SAB)$. Mà $BC\\subset (SBC)$ nên $(SBC) \\perp (SAB)$."
   },
   {
     "id": "1H841TN8",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với $(ABCD)$. Mệnh đề nào sau đây đúng?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS34_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với $(ABCD)$. Mệnh đề nào sau đây đúng?<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS34_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SBC)\\perp (SAD)$",
       "$(SBC)\\perp (ABCD)$",
@@ -103,7 +103,7 @@ window.tracNghiem1H84 = [
   },
   {
     "id": "1H843TN7",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi và $SB$ vuông góc với mặt phẳng  $\\left(ABCD\\right)$. Mặt phẳng nào sau đây vuông góc với mặt phẳng $\\left(SBD\\right)$?<br><img src=\"data/11/1H8/im1H84/loc8_TT_THPT_DaoDuyTu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi và $SB$ vuông góc với mặt phẳng  $\\left(ABCD\\right)$. Mặt phẳng nào sau đây vuông góc với mặt phẳng $\\left(SBD\\right)$?<br><img src=\"data/11/1H8/im1H84/loc8_TT_THPT_DaoDuyTu_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\left(SAD\\right)$",
       "$\\left(SCD\\right)$",

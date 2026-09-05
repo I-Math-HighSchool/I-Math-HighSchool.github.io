@@ -7,7 +7,7 @@
 window.tracNghiem1H86 = [
   {
     "id": "1H863TN1",
-    "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác cân tại $A$, góc $\\widehat{BAC}=120^{\\circ}$, cạnh bên $SA$ vuông góc với mặt phẳng đáy.  Số đo góc nhị diện $\\left[B,SA,C\\right]$ bằng<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS23_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác cân tại $A$, góc $\\widehat{BAC}=120^{\\circ}$, cạnh bên $SA$ vuông góc với mặt phẳng đáy.  Số đo góc nhị diện $\\left[B,SA,C\\right]$ bằng<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS23_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90^{\\circ}$",
       "$60^{\\circ}$",
@@ -19,7 +19,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H862TN2",
-    "question": "Cho hình chóp tứ giác đều $S.ABCD$. Góc giữa đường thẳng $SA$ và mặt phẳng $(ABCD)$ là<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS23_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp tứ giác đều $S.ABCD$. Góc giữa đường thẳng $SA$ và mặt phẳng $(ABCD)$ là<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS23_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SAD}$",
       "$\\widehat{OAS}$",
@@ -39,11 +39,11 @@ window.tracNghiem1H86 = [
       "$\\widehat{SA B}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS25_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA\\perp ABC$ nên $AB$ là hình chiếu vuông góc của $SB$ lên mặt phẳng $(ABC)$.<br>  Do đó, góc tạo bởi $SB$ và đáy tương ứng là $\\widehat{SB A}$."
+    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS25_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA\\perp ABC$ nên $AB$ là hình chiếu vuông góc của $SB$ lên mặt phẳng $(ABC)$.<br>  Do đó, góc tạo bởi $SB$ và đáy tương ứng là $\\widehat{SB A}$."
   },
   {
     "id": "1H862TN4",
-    "question": "Cho hình chóp $S.ABC$ có cạnh bên $SA$ vuông góc mặt phẳng đáy. Góc tạo bởi $SB$ và mặt phẳng $(ABC)$ là<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS26_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có cạnh bên $SA$ vuông góc mặt phẳng đáy. Góc tạo bởi $SB$ và mặt phẳng $(ABC)$ là<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS26_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SBA}$",
       "$\\widehat{SAB}$",
@@ -55,7 +55,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H862TN5",
-    "question": "Cho hình chóp $S.ABC$ có $SA \\perp(ABC)$. Góc giữa đường thẳng $SB$ và $(ABC)$ là góc<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS27_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có $SA \\perp(ABC)$. Góc giữa đường thẳng $SB$ và $(ABC)$ là góc<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS27_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SAB}$",
       "$\\widehat{ASB}$",
@@ -75,11 +75,11 @@ window.tracNghiem1H86 = [
       "$\\dfrac{1}{\\sqrt{2}}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS29_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CC' \\perp(ABCD)$ nên $\\big(AC',(ABCD)\\big)=(AC',AC)=\\widehat{C'AC}$.<br>  Xét tam giác $ACC'$ vuông tại $C$, ta có  \\[  \\tan\\widehat{C'AC}=\\dfrac{CC'}{AC}=\\dfrac{a}{a\\sqrt{2}}=\\dfrac{1}{\\sqrt{2}}.  \\]"
+    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS29_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CC' \\perp(ABCD)$ nên $\\big(AC',(ABCD)\\big)=(AC',AC)=\\widehat{C'AC}$.<br>  Xét tam giác $ACC'$ vuông tại $C$, ta có  \\[  \\tan\\widehat{C'AC}=\\dfrac{CC'}{AC}=\\dfrac{a}{a\\sqrt{2}}=\\dfrac{1}{\\sqrt{2}}.  \\]"
   },
   {
     "id": "1H862TN7",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Góc giữa đường thẳng $SC$ và mặt phẳng $\\left(ABCD\\right)$ là góc nào sau đây?<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS30_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Góc giữa đường thẳng $SC$ và mặt phẳng $\\left(ABCD\\right)$ là góc nào sau đây?<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS30_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SAC}$",
       "$\\widehat{CSA}$",
@@ -91,7 +91,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H862TN8",
-    "question": "Cho hình hộp chữ nhật $ABCD. A'B'C'D'$ có $AB=AD=a$ và $AA'=a\\sqrt{2}$ (tham khảo hình vẽ bên). Góc giữa đường thẳng $CA'$ và mặt phẳng $(ABCD)$ bằng:<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS31_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp chữ nhật $ABCD. A'B'C'D'$ có $AB=AD=a$ và $AA'=a\\sqrt{2}$ (tham khảo hình vẽ bên). Góc giữa đường thẳng $CA'$ và mặt phẳng $(ABCD)$ bằng:<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS31_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90^\\circ$",
       "$45^\\circ$",
@@ -103,7 +103,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H864TN9",
-    "question": "Cho hình chóp $S.ABC$ có đáy là tam giác $ABC$ vuông cân tại $B$, $AB=BC=a$, $SA=a\\sqrt3$,  $SA\\perp(ABC)$. Góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ có số đo bằng<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS33_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có đáy là tam giác $ABC$ vuông cân tại $B$, $AB=BC=a$, $SA=a\\sqrt3$,  $SA\\perp(ABC)$. Góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ có số đo bằng<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS33_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^\\circ$",
       "$60^\\circ$",
@@ -115,7 +115,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H863TN10",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$, $SA \\perp (ABCD)$ (tham khảo hình vẽ). Góc nhị diện $[A,BD,S]$ là góc<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS36_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$, $SA \\perp (ABCD)$ (tham khảo hình vẽ). Góc nhị diện $[A,BD,S]$ là góc<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS36_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SOA}$",
       "$\\widehat{SBA}$",
@@ -135,11 +135,11 @@ window.tracNghiem1H86 = [
       "$\\widehat{CSA}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS36_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA\\perp (ABC)$ nên $A$ là hình chiếu của $S$ lên $(ABC)$.<br> Mà $C$ là hình chiếu của $C$ lên $(ABC)$ nên $AC$ là hình chiếu của $SC$ lên $(ABC)$. <br>  Do đó góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$ là góc $\\widehat{SCA}$."
+    "explain": "<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS36_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $SA\\perp (ABC)$ nên $A$ là hình chiếu của $S$ lên $(ABC)$.<br> Mà $C$ là hình chiếu của $C$ lên $(ABC)$ nên $AC$ là hình chiếu của $SC$ lên $(ABC)$. <br>  Do đó góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$ là góc $\\widehat{SCA}$."
   },
   {
     "id": "1H862TN12",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật. Cạnh bên $SA$ vuông góc với mặt phẳng đáy. Góc giữa đường thẳng $SC$ và mặt phẳng $(SAB)$ là góc nào dưới đây?<br><img src=\"data/11/1D8/im1H86/dlts_12_DLTS38_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật. Cạnh bên $SA$ vuông góc với mặt phẳng đáy. Góc giữa đường thẳng $SC$ và mặt phẳng $(SAB)$ là góc nào dưới đây?<br><img src=\"data/11/1D8/im1H86/dlts_12_DLTS38_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{ASC}$",
       "$\\widehat{BSC}$",
@@ -151,7 +151,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H862TN13",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $2a$ và $SA$ vuông góc với $(ABCD)$. Gọi $\\phi$ là góc tạo bởi $SB$ và mặt phẳng $(ABCD)$ và $SA=a$. Tính $\\tan\\phi$.<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS34_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $2a$ và $SA$ vuông góc với $(ABCD)$. Gọi $\\phi$ là góc tạo bởi $SB$ và mặt phẳng $(ABCD)$ và $SA=a$. Tính $\\tan\\phi$.<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS34_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{2}}{4}$",
       "$2$",
@@ -163,7 +163,7 @@ window.tracNghiem1H86 = [
   },
   {
     "id": "1H863TN11",
-    "question": "Cho hình lăng trụ đều $ABC.A'B'C'$ có cạnh đáy bằng $2a$, cạnh bên bằng $a$. Tính số đo của góc nhị diện $[A,B'C',A']$.<br><img src=\"data/11/1H8/im1H86/loc8_TT_KSCL_THPT_Yen_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ đều $ABC.A'B'C'$ có cạnh đáy bằng $2a$, cạnh bên bằng $a$. Tính số đo của góc nhị diện $[A,B'C',A']$.<br><img src=\"data/11/1H8/im1H86/loc8_TT_KSCL_THPT_Yen_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$30^\\circ$",
       "$60^\\circ$",
@@ -183,11 +183,11 @@ window.tracNghiem1H86 = [
       "$30^\\circ$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1H8/im1H86/loc8_TT_QV1_TT1_LVT_B_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $H$ là hình chiếu của $C$ lên $AB$ nên $CH \\perp AB$, $CH = \\dfrac{a\\sqrt{3}}{2}$ và $HA = HB = \\dfrac{a}{2}$. <br>  Ta có $BB' \\perp (ABC)\\Rightarrow BB' \\perp CH$ nên $CH \\perp (ABB'A')\\Rightarrow CH \\perp B'H$. <br>  Do đó, $B'H$ là hình chiếu của $B'C$ lên mặt phẳng $(ABB'A') \\Rightarrow \\widehat{\\left[B'C,(ABB'A')\\right]} = \\widehat{(B'C, BH)} = \\widehat{HB'C}$. <br>  Trong $\\triangle BB'H$ vuông tại $B$, ta có $B'H = \\sqrt{BB'^2 + HB^2} = \\sqrt{\\left(\\dfrac{a\\sqrt{2}}{2}\\right)^2 + \\left(\\dfrac{a}{2}\\right)^2} = \\sqrt{\\dfrac{2a^2}{4} + \\dfrac{a^2}{4}} = \\sqrt{\\dfrac{3a^2}{4}} = \\dfrac{a\\sqrt{3}}{2}.$ <br>  Mặt khác, $B'H = CH = \\dfrac{a\\sqrt{3}}{2}$ nên $\\triangle B'CH$ vuông cân tại $H$ nên $\\widehat{HB'C} = 45^\\circ$. <br>"
+    "explain": "<br><img src=\"data/11/1H8/im1H86/loc8_TT_QV1_TT1_LVT_B_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $H$ là hình chiếu của $C$ lên $AB$ nên $CH \\perp AB$, $CH = \\dfrac{a\\sqrt{3}}{2}$ và $HA = HB = \\dfrac{a}{2}$. <br>  Ta có $BB' \\perp (ABC)\\Rightarrow BB' \\perp CH$ nên $CH \\perp (ABB'A')\\Rightarrow CH \\perp B'H$. <br>  Do đó, $B'H$ là hình chiếu của $B'C$ lên mặt phẳng $(ABB'A') \\Rightarrow \\widehat{\\left[B'C,(ABB'A')\\right]} = \\widehat{(B'C, BH)} = \\widehat{HB'C}$. <br>  Trong $\\triangle BB'H$ vuông tại $B$, ta có $B'H = \\sqrt{BB'^2 + HB^2} = \\sqrt{\\left(\\dfrac{a\\sqrt{2}}{2}\\right)^2 + \\left(\\dfrac{a}{2}\\right)^2} = \\sqrt{\\dfrac{2a^2}{4} + \\dfrac{a^2}{4}} = \\sqrt{\\dfrac{3a^2}{4}} = \\dfrac{a\\sqrt{3}}{2}.$ <br>  Mặt khác, $B'H = CH = \\dfrac{a\\sqrt{3}}{2}$ nên $\\triangle B'CH$ vuông cân tại $H$ nên $\\widehat{HB'C} = 45^\\circ$. <br>"
   },
   {
     "id": "1H863TN3",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AD=a$, cạnh bên $SA$ vuông góc với đáy và $SA=a \\sqrt{3}$. Số đo của góc nhị diện $[S,DC,B]$ bằng<br><img src=\"data/11/1H8/im1H86/loc8_TT_THPT_AnDuong__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AD=a$, cạnh bên $SA$ vuông góc với đáy và $SA=a \\sqrt{3}$. Số đo của góc nhị diện $[S,DC,B]$ bằng<br><img src=\"data/11/1H8/im1H86/loc8_TT_THPT_AnDuong__003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90^\\circ$",
       "$60^\\circ$",

@@ -30,7 +30,7 @@ window.traLoiNgan2D42 = [
   },
   {
     "id": "2D427TL5",
-    "question": "Một xe ô tô sau khi chờ hết đèn đỏ đã bắt đầu chuyển động với vận tốc được biểu thị bằng đồ thị là đường cong parabol. Biết rằng sau $5$ phút thì xe đạt đến vận tốc cao nhất $1\\,000$ m/phút và bắt đầu giảm tốc, đi được $6$ phút thì xe chuyển động đều. Quãng đường xe đi được sau $10$ phút đầu tiên kể từ khi hết đèn đỏ là bao nhiêu mét?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS17_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một xe ô tô sau khi chờ hết đèn đỏ đã bắt đầu chuyển động với vận tốc được biểu thị bằng đồ thị là đường cong parabol. Biết rằng sau $5$ phút thì xe đạt đến vận tốc cao nhất $1\\,000$ m/phút và bắt đầu giảm tốc, đi được $6$ phút thì xe chuyển động đều. Quãng đường xe đi được sau $10$ phút đầu tiên kể từ khi hết đèn đỏ là bao nhiêu mét?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS17_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "8160",
     "explain": "Gọi phương trình parabol $(P)$ là $y=at^2+bt$ ($0 \\le t\\le 6$) (vì $O \\in (P)$).<br>  Dựa vào đồ thị hàm số, ta có $-\\dfrac{b}{2a}=5 \\text{ và } 25a+5b=1000 \\Leftrightarrow a=-40 \\text{ và } b=400.$<br>  Phương trình vận tốc của xe trong $6$ phút đầu là $v(t)=-40t^2+400t$.<br>  Bắt đầu từ phút thứ $6$ trở đi, xe chuyển động đều với vận tốc $v(6)=960$ m/s.<br>  Quãng đường xe đi được sau $10$ phút là \\[s(t)=\\displaystyle\\int\\limits_0^6 \\left(-40t^2+400t\\right)\\mathrm{d}t+\\displaystyle\\int\\limits_6^{10}960 \\mathrm{\\,d}t=8160 \\text{ m}.\\]"
   },
@@ -48,13 +48,13 @@ window.traLoiNgan2D42 = [
   },
   {
     "id": "2D422TL8",
-    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-1;6]$ và có đồ thị là đường gấp khúc như hình bên. Biết $F(x)$ là một nguyên hàm của $f(x)$ trên đoạn $[-1;6]$ và thỏa mãn $F(-1)=-2$. Giá trị của $F(4)+F(6)$ bằng bao nhiêu?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS23_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-1;6]$ và có đồ thị là đường gấp khúc như hình bên. Biết $F(x)$ là một nguyên hàm của $f(x)$ trên đoạn $[-1;6]$ và thỏa mãn $F(-1)=-2$. Giá trị của $F(4)+F(6)$ bằng bao nhiêu?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS23_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "3",
     "explain": "Ta có  <br>- $S_1=\\displaystyle\\int_{-1}^{2} f(x) \\mathrm{\\,d}x=3 \\Leftrightarrow F(2)-F(-1)=3 \\Leftrightarrow F(2)=1$.<br>- $S_2=\\displaystyle\\int_2^{4} f(x) \\mathrm{\\,d}x=1 \\Leftrightarrow F(4)-F(2)=1 \\Leftrightarrow F(4)=2$.<br>- $S_3=-\\displaystyle\\int_4^{6} f(x) \\mathrm{\\,d}x=1 \\Leftrightarrow F(4)-F(6)=1 \\Leftrightarrow F(6)=1$.  Vậy $F(4)+F(6)=3$."
   },
   {
     "id": "2D427TL9",
-    "question": "Một chiếc xe đua $F1$ đạt tới vận tốc lớn nhất là $360$ km/h. Đồ thị bên biểu thị vận tốc $v$ của xe trong $5$ giây đầu tiên kể từ lúc xuất phát. Đồ thị trong $2$ giây đầu là một phần của một parabol đỉnh tại gốc tọa độ $O$, giây tiếp theo là đoạn thẳng và sau đúng $3$ giây thì xe đạt vận tốc lớn nhất. Biết rằng mỗi đơn vị trục hoành biểu thị $1$ giây, mỗi đơn vị trục tung biểu thị $10$ m/s và trong $5$ giây đầu xe chuyển động theo đường thẳng. Hỏi trong $5$ giây đó xe đã đi được quãng đường là bao nhiêu mét?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS23_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một chiếc xe đua $F1$ đạt tới vận tốc lớn nhất là $360$ km/h. Đồ thị bên biểu thị vận tốc $v$ của xe trong $5$ giây đầu tiên kể từ lúc xuất phát. Đồ thị trong $2$ giây đầu là một phần của một parabol đỉnh tại gốc tọa độ $O$, giây tiếp theo là đoạn thẳng và sau đúng $3$ giây thì xe đạt vận tốc lớn nhất. Biết rằng mỗi đơn vị trục hoành biểu thị $1$ giây, mỗi đơn vị trục tung biểu thị $10$ m/s và trong $5$ giây đầu xe chuyển động theo đường thẳng. Hỏi trong $5$ giây đó xe đã đi được quãng đường là bao nhiêu mét?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS23_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "320",
     "explain": "Đổi $360$ km/h $=100$ m/s. <br>  Ta xây dựng hàm vận tốc như sau:  <br>- Trong $2$ giây đầu: $v(t)=15t^2$.<br>- Từ giây thứ $2$ đến giây thứ $3$: $v(t)=40t-20$.<br>- Từ giây thứ $3$ đến giây thứ $5$: $v(t)=100$.  Vậy $\\displaystyle\\int_0^{2} 15t^2 \\mathrm{\\,d}t+\\displaystyle\\int_2^{3} \\left(40t-20 \\right) \\mathrm{\\,d}t+\\displaystyle\\int_3^{5} 100 \\mathrm{\\,d}t=320$."
   },

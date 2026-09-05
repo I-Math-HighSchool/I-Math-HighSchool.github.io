@@ -190,7 +190,7 @@ window.dungSai2H51 = [
   },
   {
     "id": "2H514DS9",
-    "question": "Một sân vận động được xây dựng theo mô hình là hình chóp cụt $OA GD.BCFE$ có hai đáy song song với nhau. Mặt sân $OAGD$ là hình chữ nhật và được gắn hệ trục $Oxyz$ như hình vẽ (đơn vị trên mỗi trục tọa độ là mét). Mặt sân $OAGD$ có chiều dài $O A=100$ m, chiều rộng $OD=60$ m và tọa độ điểm $B(10;10;8)$.   <br><img src=\"data/12/2D5/im2H51/dlts_12_DLTS34_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một sân vận động được xây dựng theo mô hình là hình chóp cụt $OA GD.BCFE$ có hai đáy song song với nhau. Mặt sân $OAGD$ là hình chữ nhật và được gắn hệ trục $Oxyz$ như hình vẽ (đơn vị trên mỗi trục tọa độ là mét). Mặt sân $OAGD$ có chiều dài $O A=100$ m, chiều rộng $OD=60$ m và tọa độ điểm $B(10;10;8)$.   <br><img src=\"data/12/2D5/im2H51/dlts_12_DLTS34_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Cosin của góc giữa hai mặt phẳng $(OAG)$ và $(BCF)$ bằng $1$",

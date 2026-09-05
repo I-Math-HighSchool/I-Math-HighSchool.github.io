@@ -91,7 +91,7 @@ window.tracNghiem1H87 = [
   },
   {
     "id": "1H874TN8",
-    "question": "Cho hình lăng trụ đứng $ABCD.A'B'C'D'$ có đáy $ABCD$ là hình chữ nhật, $AB=a$, $AD=a\\sqrt{2}$, $AB'=a\\sqrt{5}$. Tính theo $a$ thể tích $V$ của khối lăng trụ đã cho<br><img src=\"data/11/1D8/im1H87/dlts_11_DLTS34_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ đứng $ABCD.A'B'C'D'$ có đáy $ABCD$ là hình chữ nhật, $AB=a$, $AD=a\\sqrt{2}$, $AB'=a\\sqrt{5}$. Tính theo $a$ thể tích $V$ của khối lăng trụ đã cho<br><img src=\"data/11/1D8/im1H87/dlts_11_DLTS34_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$V=a^3\\sqrt{2}$",
       "$V=a^3\\sqrt{10}$",

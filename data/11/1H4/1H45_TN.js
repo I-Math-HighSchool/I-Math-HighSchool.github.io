@@ -26,11 +26,11 @@ window.tracNghiem1H45 = [
       "Hai đường thẳng $AB'$, $BC'$ song song với nhau"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D4/im1H45/dlts_11_DLTS13_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo lý thuyết của hình hộp ta có các mặt của hình hộp là hình bình hành.<br>  Suy ra $B'C' \\parallel AD$ (cùng song song $BC$) và $B'C' = AD$ (cùng bằng $BC$).<br>  Xét tứ giác $AB'C'D$ có $B'C' \\parallel AD$ và $B'C' = AD$.<br>  Suy ra tứ giác $AB'C'D$ là hình bình hành."
+    "explain": "<br><img src=\"data/11/1D4/im1H45/dlts_11_DLTS13_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo lý thuyết của hình hộp ta có các mặt của hình hộp là hình bình hành.<br>  Suy ra $B'C' \\parallel AD$ (cùng song song $BC$) và $B'C' = AD$ (cùng bằng $BC$).<br>  Xét tứ giác $AB'C'D$ có $B'C' \\parallel AD$ và $B'C' = AD$.<br>  Suy ra tứ giác $AB'C'D$ là hình bình hành."
   },
   {
     "id": "1H452TN3",
-    "question": "Hình lăng trụ tam giác $ABC.A'B'C'$ có bao nhiêu mặt?<br><img src=\"data/11/1D4/im1H45/dlts_11_DLTS14_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình lăng trụ tam giác $ABC.A'B'C'$ có bao nhiêu mặt?<br><img src=\"data/11/1D4/im1H45/dlts_11_DLTS14_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$5$",
       "$4$",
@@ -54,7 +54,7 @@ window.tracNghiem1H45 = [
   },
   {
     "id": "1H452TN1",
-    "question": "Trong các hình sau, hình nào là hình biểu diễn của một hình tứ diện?  <br><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong các hình sau, hình nào là hình biểu diễn của một hình tứ diện?  <br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>  <br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/11/1H4/im1H45/loc2_1_TN_DS_TL_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>",
     "options": [
       "Hình $(I)$, $(II)$, $(IV)$",
       "Hình $(I)$, $(II)$",

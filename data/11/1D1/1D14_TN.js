@@ -31,7 +31,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN3",
-    "question": "Từ đồ thị của hàm số $y = \\cos x$ trên đoạn $\\left[-\\dfrac{3\\pi}{2};\\dfrac{\\pi}{2}\\right]$ trong hình vẽ, suy ra hàm số $y = \\cos x$ nhận giá trị dương khi  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Từ đồ thị của hàm số $y = \\cos x$ trên đoạn $\\left[-\\dfrac{3\\pi}{2};\\dfrac{\\pi}{2}\\right]$ trong hình vẽ, suy ra hàm số $y = \\cos x$ nhận giá trị dương khi  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x \\in \\left[-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right]$",
       "$x \\in \\left(-\\dfrac{3\\pi}{2};-\\dfrac{\\pi}{2}\\right)$",
@@ -79,7 +79,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN7",
-    "question": "Hình vẽ dưới đây là đồ thị hàm lượng giác $y=\\sin 2x$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=\\sin 2x$ nghịch biến trên khoảng nào sau đây?",
+    "question": "Hình vẽ dưới đây là đồ thị hàm lượng giác $y=\\sin 2x$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=\\sin 2x$ nghịch biến trên khoảng nào sau đây?",
     "options": [
       "$\\left(0;\\dfrac{\\pi}{4}\\right)$",
       "$\\left(-\\dfrac{3\\pi}{4};-\\dfrac{\\pi}{2}\\right)$",
@@ -127,7 +127,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN11",
-    "question": "Dựa vào đồ thị của hàm số $y=\\sin x$ (như hình vẽ). Có bao nhiêu giá trị của $x \\in[-\\pi; \\pi]$ thỏa mãn $\\sin x=0$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Dựa vào đồ thị của hàm số $y=\\sin x$ (như hình vẽ). Có bao nhiêu giá trị của $x \\in[-\\pi; \\pi]$ thỏa mãn $\\sin x=0$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$2$",
       "$4$",
@@ -163,7 +163,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN14",
-    "question": "Đường cong trong hình dưới đây là đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình dưới đây là đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\cot x$",
       "$y=\\cos x$",
@@ -259,7 +259,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN22",
-    "question": "Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/1D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\cos x$ (có đồ thị như hình vẽ). Trong các khẳng định sau, khẳng định nào <strong>sai</strong>? <br><img src=\"data/11/1D1/im1D14/1D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số $y=\\cos x$ có chu kỳ $2\\pi$",
       "Hàm số $y=\\cos x$ xác định trên $\\mathbb{R}$",
@@ -283,7 +283,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN24",
-    "question": "Đường cong như hình dưới đây là đồ thị của hàm số $y = \\tan x$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị của hàm số đã cho",
+    "question": "Đường cong như hình dưới đây là đồ thị của hàm số $y = \\tan x$.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị của hàm số đã cho",
     "options": [
       "đối xứng qua gốc tọa độ $O$",
       "đối xứng qua trục $Ox$",
@@ -295,7 +295,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN25",
-    "question": "Đường cong trong hình dưới đây là đồ thị của một hàm số trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D?   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi hàm số đó là hàm số nào?",
+    "question": "Đường cong trong hình dưới đây là đồ thị của một hàm số trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D?   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi hàm số đó là hàm số nào?",
     "options": [
       "$y=-\\cos \\dfrac{x}{4}$",
       "$y= \\sin \\dfrac{x}{2}$",
@@ -319,7 +319,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN27",
-    "question": "Đường cong trong hình vẽ bên dưới là đồ thị của một hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên dưới là đồ thị của một hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\cos x$",
       "$y=\\sin x$",
@@ -367,7 +367,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN31",
-    "question": "Cho hàm số $y = \\cos x$ có đồ thị như hình vẽ dưới đây  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = \\cos x$ nghịch biến trên khoảng nào?",
+    "question": "Cho hàm số $y = \\cos x$ có đồ thị như hình vẽ dưới đây  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = \\cos x$ nghịch biến trên khoảng nào?",
     "options": [
       "$(\\pi; 2\\pi)$",
       "$\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$",
@@ -403,7 +403,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN34",
-    "question": "Cho đồ thị hàm số lượng giác ở hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào bên dưới?",
+    "question": "Cho đồ thị hàm số lượng giác ở hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào bên dưới?",
     "options": [
       "$\\left(-2\\pi;-\\dfrac{\\pi}{2}\\right)$",
       "$(-\\pi;0)$",
@@ -487,7 +487,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN41",
-    "question": "Đây là một phần đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đây là một phần đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = \\cos x$",
       "$y = \\cot x$",
@@ -511,7 +511,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN43",
-    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị hàm số $y = f(x)$ là đồ thị của hàm số nào dưới đây?",
+    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị hàm số $y = f(x)$ là đồ thị của hàm số nào dưới đây?",
     "options": [
       "$y = \\cos x$",
       "$y = \\cot x$",
@@ -583,7 +583,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN49",
-    "question": "Cho hàm số $y=\\sin x$ có đồ thị như hình vẽ  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào đồ thị hãy cho biết có bao nhiêu giá trị $x \\in \\left[-\\pi; \\dfrac{5\\pi}{2}\\right]$ sao cho $\\sin x = 1$?",
+    "question": "Cho hàm số $y=\\sin x$ có đồ thị như hình vẽ  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào đồ thị hãy cho biết có bao nhiêu giá trị $x \\in \\left[-\\pi; \\dfrac{5\\pi}{2}\\right]$ sao cho $\\sin x = 1$?",
     "options": [
       "$2$",
       "$3$",
@@ -643,7 +643,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D148TN54",
-    "question": "Hàm số nào dưới đây có đồ thị như hình vẽ?% (hình vẽ dao động điều hòa với biên độ 2, chu kì $4\\pi$)  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào dưới đây có đồ thị như hình vẽ?% (hình vẽ dao động điều hòa với biên độ 2, chu kì $4\\pi$)  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=2\\cos\\dfrac{x}{2}$",
       "$y=2\\sin\\dfrac{x}{2}$",
@@ -667,7 +667,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN56",
-    "question": "Cho hàm số $y=\\cos x$ có đồ thị là đường cong trong hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=\\cos x$ có đồ thị là đường cong trong hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(0; \\pi)$",
       "$\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$",
@@ -847,7 +847,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN71",
-    "question": "Cho đồ thị hàm số $y=\\sin x$ như hình vẽ sau  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây <strong>đúng</strong>?",
+    "question": "Cho đồ thị hàm số $y=\\sin x$ như hình vẽ sau  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "Hàm số $y=\\sin x$ đồng biến trên $\\left(\\dfrac{\\pi}{2}; \\dfrac{3\\pi}{2}\\right)$",
       "Hàm số $y=\\sin x$ đồng biến trên $\\left(\\dfrac{-3\\pi}{2}; -\\pi\\right)$",
@@ -859,7 +859,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN72",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị là đường cong ở hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Chu kì tuần hoàn của hàm số trên bằng",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị là đường cong ở hình bên dưới.  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Chu kì tuần hoàn của hàm số trên bằng",
     "options": [
       "$\\pi$",
       "$4\\pi$",
@@ -931,7 +931,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN78",
-    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình bên dưới. Mệnh đề nào sau đây là <strong>đúng</strong>?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình bên dưới. Mệnh đề nào sau đây là <strong>đúng</strong>?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số đồng biến trên $(0; \\pi)$",
       "Hàm số đồng biến trên $\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$",
@@ -967,7 +967,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN81",
-    "question": "Cho hàm số $y=\\cos x$ có đồ thị như hình vẽ dưới đây. Phát biểu nào sau đây là đúng?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\cos x$ có đồ thị như hình vẽ dưới đây. Phát biểu nào sau đây là đúng?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Giá trị lớn nhất của hàm số trên tập xác định là $2$",
       "Hàm số đồng biến trên khoảng $(\\pi; 2\\pi)$",
@@ -1065,10 +1065,10 @@ window.tracNghiem1D14 = [
     "id": "1D147TN89",
     "question": "Bảng biến thiên của hàm số $y=f(x)=\\cos 2x$ trên đoạn $\\left[-\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$ là",
     "options": [
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"
     ],
     "answer": 0,
     "explain": "Thay $x=0$ vào hàm số $y=f(x)=\\cos 2x$, ta có $f(0)=\\cos 0=1$."
@@ -1159,7 +1159,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN97",
-    "question": "Đồ thị như hình vẽ dưới đây là đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị như hình vẽ dưới đây là đồ thị của hàm số nào?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\sin x$",
       "$y=\\cot x$",
@@ -1171,7 +1171,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN98",
-    "question": "Cho đồ thị hàm số $y=\\sin x$ như sau:  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=\\sin x$ đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho đồ thị hàm số $y=\\sin x$ như sau:  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=\\sin x$ đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$\\left(-\\dfrac{\\pi}{2};\\pi \\right)$",
       "$\\left(\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right)$",

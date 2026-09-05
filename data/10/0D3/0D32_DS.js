@@ -119,11 +119,11 @@ window.dungSai0D32 = [
         "answer": true
       }
     ],
-    "explain": "Ta có $(P)\\colon y=-x^2+(a+b)x-ab$.<br>  Vì $(P)$ có đỉnh $I(1;4)$ nên ta có  $4=-1+(a+b)-ab \\text{ và } \\dfrac{a+b}{2}=1$<br>$\\Leftrightarrow ab=-3 \\text{ và } a+b=2$<br>$\\Rightarrow a(2-a)=-3$<br>$\\Leftrightarrow a=-1\\Rightarrow b=3\\text{ (nhận)} \\text{ hoặc } a=3\\Rightarrow b=-1\\text{ (loại).}$  <br>- Ta có $a+2b=5$ nên phát biểu “ $a+2b=1$”\\, là sai.<br>- Ta có $(P)\\colon y=-(x+1)(x-3)=-x^2+2x+3$.<br>  Phương trình hoành độ giao điểm của $(P)$ và $(d)$  \\[-x^2+2x+3=x+1\\Leftrightarrow -x^2+x+2=0x=-1 \\text{ hoặc } x=2.\\]  Vậy mệnh đề ``Đường thẳng $(d)\\colon y=x+1$ luôn cắt $(P)$ tại hai điểm phân biệt'' đúng.<br>- Ta có $f(x)=-x^2+2x+3$, $f(x)=0\\Leftrightarrow x=-1 \\text{ hoặc } x=3.$<br>  Suy ra $f(x)&gt;0 \\Leftrightarrow -1&lt;x&lt;3$.<br>  Vậy mệnh đề ``$f(x)&gt;0,\\,\\forall x \\in(-1;2)$'' đúng.<br>- Vì $(P)\\colon y=-x^2+2x+3$ có đỉnh $I(1;4)$ và bề lõm quay xuống nên ta có bảng biến thiên sau  <br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khi đó giá trị nhỏ nhất của hàm số đã cho trên $\\left[-\\dfrac{1}{2};2\\right]$ là $\\dfrac{7}{4}$.<br>  Vậy mệnh đề ``Giá trị nhỏ nhất của hàm số đã cho trên $\\left[-\\dfrac{1}{2};2\\right]$ là $\\dfrac{7}{4}$'' đúng."
+    "explain": "Ta có $(P)\\colon y=-x^2+(a+b)x-ab$.<br>  Vì $(P)$ có đỉnh $I(1;4)$ nên ta có  $4=-1+(a+b)-ab \\text{ và } \\dfrac{a+b}{2}=1$<br>$\\Leftrightarrow ab=-3 \\text{ và } a+b=2$<br>$\\Rightarrow a(2-a)=-3$<br>$\\Leftrightarrow a=-1\\Rightarrow b=3\\text{ (nhận)} \\text{ hoặc } a=3\\Rightarrow b=-1\\text{ (loại).}$  <br>- Ta có $a+2b=5$ nên phát biểu “ $a+2b=1$”\\, là sai.<br>- Ta có $(P)\\colon y=-(x+1)(x-3)=-x^2+2x+3$.<br>  Phương trình hoành độ giao điểm của $(P)$ và $(d)$  \\[-x^2+2x+3=x+1\\Leftrightarrow -x^2+x+2=0x=-1 \\text{ hoặc } x=2.\\]  Vậy mệnh đề ``Đường thẳng $(d)\\colon y=x+1$ luôn cắt $(P)$ tại hai điểm phân biệt'' đúng.<br>- Ta có $f(x)=-x^2+2x+3$, $f(x)=0\\Leftrightarrow x=-1 \\text{ hoặc } x=3.$<br>  Suy ra $f(x)&gt;0 \\Leftrightarrow -1&lt;x&lt;3$.<br>  Vậy mệnh đề ``$f(x)&gt;0,\\,\\forall x \\in(-1;2)$'' đúng.<br>- Vì $(P)\\colon y=-x^2+2x+3$ có đỉnh $I(1;4)$ và bề lõm quay xuống nên ta có bảng biến thiên sau  <br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khi đó giá trị nhỏ nhất của hàm số đã cho trên $\\left[-\\dfrac{1}{2};2\\right]$ là $\\dfrac{7}{4}$.<br>  Vậy mệnh đề ``Giá trị nhỏ nhất của hàm số đã cho trên $\\left[-\\dfrac{1}{2};2\\right]$ là $\\dfrac{7}{4}$'' đúng."
   },
   {
     "id": "0D323DS6",
-    "question": "Cho hàm số $y=f(x)=ax^2+bx+c$ có đồ thị như hình vẽ bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=ax^2+bx+c$ có đồ thị như hình vẽ bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Với $x \\in(-3;-1)$ thì $f(x)&lt;0$",
@@ -142,7 +142,7 @@ window.dungSai0D32 = [
         "answer": false
       }
     ],
-    "explain": "<br>- $f(x)&lt;0$ tương ứng với phần đồ thị hàm số nằm phía dưới trục hoành, tức là $x \\in(-3;-1)$.<br>  Vậy mệnh đề ``Với $x \\in(-3;-1)$ thì $f(x)&lt;0$'' đúng.<br>- Đồ thị của hàm số có bề lõm hướng lên trên, suy ra $a&gt;0$.<br>  Đồ thị của hàm số có trục đối xứng $x=\\dfrac{-b}{2a}&lt;0\\Rightarrow b&gt;0$.<br>  Đồ thị hàm số cắt trục $Oy$ tại điểm $(0;c)$ có tung độ dương, suy ra $c&gt;0$.<br>  Vậy mệnh đề ``Ta có $a&gt;0$; $b&gt;0$; $c&gt;0$'' đúng.<br>- Từ đồ thị hàm số $y=f(x)$, suy ra đồ thị hàm số $y=|f(x)|$ như sau  <br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Số nghiệm của phương trình $|f(x)|=m$ chính là số giao điểm của đồ thị hàm số $y=|f(x)|$ và đường thẳng $y=m$.<br>  Căn cứ vào hình vẽ suy ra để phương trình $|f(x)|=m$ có $4$ nghiệm phân biệt khi $0&lt;m&lt;1$.<br>  Vậy mệnh đề ``Phương trình $|f(x)|=m$ có $4$ nghiệm phân biệt với mọi $m&gt;0$'' sai.<br>- Đồ thị hàm số $y=ax^2+bx+c$ đi qua các điểm có tọa độ $(-3;0)$, $(-1;0)$, $(0;3)$ nên  \\[9a-3b+c=0 \\text{ và } a-b+c=0 \\text{ và } c=3\\Leftrightarrow a=1 \\text{ và } b=4 \\text{ và } c=3.\\] $af(x)^2+bf(x)+c=0\\Leftrightarrow f(x)^2+4f(x)+3=0\\Leftrightarrow f(x)=-3 \\text{ hoặc } f(x)=-1.$<br>  Căn cứ vào đồ thị hàm số $y=f(x)$, suy ra phương trình $f(x)=-3$ vô nghiệm, phương trình $f(x)=-1$ có nghiệm duy nhất $x=-2$, suy ra phương trình $af(x)^2+bf(x)+c=0$ có đúng $1$ nghiệm.<br>  Vậy mệnh đề ``Phương trình $af(x)^2+bf(x)+c=0$ có $4$ nghiệm phân biệt'' sai."
+    "explain": "<br>- $f(x)&lt;0$ tương ứng với phần đồ thị hàm số nằm phía dưới trục hoành, tức là $x \\in(-3;-1)$.<br>  Vậy mệnh đề ``Với $x \\in(-3;-1)$ thì $f(x)&lt;0$'' đúng.<br>- Đồ thị của hàm số có bề lõm hướng lên trên, suy ra $a&gt;0$.<br>  Đồ thị của hàm số có trục đối xứng $x=\\dfrac{-b}{2a}&lt;0\\Rightarrow b&gt;0$.<br>  Đồ thị hàm số cắt trục $Oy$ tại điểm $(0;c)$ có tung độ dương, suy ra $c&gt;0$.<br>  Vậy mệnh đề ``Ta có $a&gt;0$; $b&gt;0$; $c&gt;0$'' đúng.<br>- Từ đồ thị hàm số $y=f(x)$, suy ra đồ thị hàm số $y=|f(x)|$ như sau  <br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd34_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Số nghiệm của phương trình $|f(x)|=m$ chính là số giao điểm của đồ thị hàm số $y=|f(x)|$ và đường thẳng $y=m$.<br>  Căn cứ vào hình vẽ suy ra để phương trình $|f(x)|=m$ có $4$ nghiệm phân biệt khi $0&lt;m&lt;1$.<br>  Vậy mệnh đề ``Phương trình $|f(x)|=m$ có $4$ nghiệm phân biệt với mọi $m&gt;0$'' sai.<br>- Đồ thị hàm số $y=ax^2+bx+c$ đi qua các điểm có tọa độ $(-3;0)$, $(-1;0)$, $(0;3)$ nên  \\[9a-3b+c=0 \\text{ và } a-b+c=0 \\text{ và } c=3\\Leftrightarrow a=1 \\text{ và } b=4 \\text{ và } c=3.\\] $af(x)^2+bf(x)+c=0\\Leftrightarrow f(x)^2+4f(x)+3=0\\Leftrightarrow f(x)=-3 \\text{ hoặc } f(x)=-1.$<br>  Căn cứ vào đồ thị hàm số $y=f(x)$, suy ra phương trình $f(x)=-3$ vô nghiệm, phương trình $f(x)=-1$ có nghiệm duy nhất $x=-2$, suy ra phương trình $af(x)^2+bf(x)+c=0$ có đúng $1$ nghiệm.<br>  Vậy mệnh đề ``Phương trình $af(x)^2+bf(x)+c=0$ có $4$ nghiệm phân biệt'' sai."
   },
   {
     "id": "0D321DS7",
@@ -215,7 +215,7 @@ window.dungSai0D32 = [
   },
   {
     "id": "0D323DS1",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị dạng parabol như hình bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị dạng parabol như hình bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Parabol trên là đồ thị của hàm số $y=-x^2+2x$",
@@ -238,7 +238,7 @@ window.dungSai0D32 = [
   },
   {
     "id": "0D323DS2",
-    "question": "Cho hàm số bậc hai $y=ax^2+bx+c$ có đồ thị như hình vẽ sau. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc hai $y=ax^2+bx+c$ có đồ thị như hình vẽ sau. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D32/dlts_sbh_ds10cd33b2_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$a&gt;0$",
@@ -376,7 +376,7 @@ window.dungSai0D32 = [
   },
   {
     "id": "0D323DS7",
-    "question": "Cho hàm số bậc hai $y=f(x)=a x^2+b x+c$ có đồ thị như hình vẽ bên.<br><img src=\"data/10/0D3/im0D32/loc_ghk1lhp_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc hai $y=f(x)=a x^2+b x+c$ có đồ thị như hình vẽ bên.<br><img src=\"data/10/0D3/im0D32/loc_ghk1lhp_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị hàm số có trục đối xứng $x=-\\dfrac{3}{2}$",
@@ -418,7 +418,7 @@ window.dungSai0D32 = [
         "answer": true
       }
     ],
-    "explain": "<br>- ĐÚNG.<br>  Ta có $a=-1$, $b=0$, $c=-3$ từ đó hoành độ đỉnh $I$ là $x_{I}=-\\dfrac{b}{2a}=0$ và tung độ đỉnh $y_{I}=-0^2+3=3$. Vậy $I(0;3)$.<br>- SAI.<br>  Vì hệ số $a=-1&lt;0$ nên bề lõm parabol hướng xuống dưới.<br>- SAI.<br>  Ta có bảng biến thiên:  <br><img src=\"data/10/0D3/im0D32/loc2_0_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên hàm số đã cho nghịch biến trên khoảng $(0;+\\infty)$ và đồng biến trên khoảng $(-\\infty;0)$.<br>- ĐÚNG.<br>  Với hệ số $a=-1&lt;0$ thì hàm số đạt giá trị lớn nhất tại $x=-\\dfrac{b}{2a}=0$ là giá trị lớn nhất của hàm số là $y(0)=3$."
+    "explain": "<br>- ĐÚNG.<br>  Ta có $a=-1$, $b=0$, $c=-3$ từ đó hoành độ đỉnh $I$ là $x_{I}=-\\dfrac{b}{2a}=0$ và tung độ đỉnh $y_{I}=-0^2+3=3$. Vậy $I(0;3)$.<br>- SAI.<br>  Vì hệ số $a=-1&lt;0$ nên bề lõm parabol hướng xuống dưới.<br>- SAI.<br>  Ta có bảng biến thiên:  <br><img src=\"data/10/0D3/im0D32/loc2_0_TL_TN_DS_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên hàm số đã cho nghịch biến trên khoảng $(0;+\\infty)$ và đồng biến trên khoảng $(-\\infty;0)$.<br>- ĐÚNG.<br>  Với hệ số $a=-1&lt;0$ thì hàm số đạt giá trị lớn nhất tại $x=-\\dfrac{b}{2a}=0$ là giá trị lớn nhất của hàm số là $y(0)=3$."
   },
   {
     "id": "0D323DS9",
@@ -441,6 +441,6 @@ window.dungSai0D32 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Trục đối xứng của đồ thị hàm số là $x = \\dfrac{-4}{2 \\cdot (-1)} = 2$.<br>- Ta có hoành độ đỉnh $I$ của parabol là $x_I = 2$.<br>  Thay $x = 2$ vào hàm số ta được $y = -2^2 + 4 \\cdot 2 + 5 = 9$.<br>  Suy ra tung độ đỉnh $I$ của parabol là $y_I = 9$.<br>- Do hệ số $a = -1 &lt; 0$ nên đồ thị hàm số có bề lõm hướng xuống dưới.<br>- Bảng biên thiên của đồ thị hàm số  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, suy ra trên đoạn $[0; 4]$, hàm số đạt giá trị lớn nhất là $9$ khi $x=2$."
+    "explain": "<br>- Trục đối xứng của đồ thị hàm số là $x = \\dfrac{-4}{2 \\cdot (-1)} = 2$.<br>- Ta có hoành độ đỉnh $I$ của parabol là $x_I = 2$.<br>  Thay $x = 2$ vào hàm số ta được $y = -2^2 + 4 \\cdot 2 + 5 = 9$.<br>  Suy ra tung độ đỉnh $I$ của parabol là $y_I = 9$.<br>- Do hệ số $a = -1 &lt; 0$ nên đồ thị hàm số có bề lõm hướng xuống dưới.<br>- Bảng biên thiên của đồ thị hàm số  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, suy ra trên đoạn $[0; 4]$, hàm số đạt giá trị lớn nhất là $9$ khi $x=2$."
   }
 ];

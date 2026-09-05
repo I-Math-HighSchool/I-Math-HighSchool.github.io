@@ -5,7 +5,7 @@
 window.tracNghiem1H81 = [
   {
     "id": "1H812TN1",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, cạnh $SA$ vuông góc với đáy. Góc giữa hai đường thẳng $BC$ và $SD$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS20_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, cạnh $SA$ vuông góc với đáy. Góc giữa hai đường thẳng $BC$ và $SD$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS20_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SBC}$",
       "$\\widehat{SAC}$",
@@ -17,7 +17,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN2",
-    "question": "Cho hình lập phương $ABCD.A_1B_1C_1D_1$. Góc giữa hai đường thẳng $AD$ và $CB_1$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A_1B_1C_1D_1$. Góc giữa hai đường thẳng $AD$ và $CB_1$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$30^\\circ$",
       "$60^\\circ$",
@@ -29,7 +29,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN3",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $SA$ vuông góc với mặt phẳng đáy. Góc giữa hai đường thẳng $SB$ và $CD$ bằng góc nào sau đây?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $SA$ vuông góc với mặt phẳng đáy. Góc giữa hai đường thẳng $SB$ và $CD$ bằng góc nào sau đây?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS21_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\widehat{SBA}$",
       "$\\widehat{SCA}$",
@@ -41,7 +41,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H813TN4",
-    "question": "Cho tứ diện đều $ABCD$ cạnh $a$. Góc giữa $AB$ và $BC$ bằng:<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS22_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện đều $ABCD$ cạnh $a$. Góc giữa $AB$ và $BC$ bằng:<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS22_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$60^{\\circ}$",
       "$90^{\\circ}$",
@@ -65,7 +65,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H811TN6",
-    "question": "Cho tứ diện $ABCD$ có đáy $BCD$ là tam giác vuông tại $C$ và $AB\\perp (BCD)$. Khẳng định nào sau đây <strong>sai</strong>?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS23_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$ có đáy $BCD$ là tam giác vuông tại $C$ và $AB\\perp (BCD)$. Khẳng định nào sau đây <strong>sai</strong>?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS23_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AB\\perp CD$",
       "$AB\\perp AD$",
@@ -77,7 +77,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H813TN7",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa đường thẳng $BD$ và $B'C'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS23_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa đường thẳng $BD$ và $B'C'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS23_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^{\\circ}$",
       "$30^{\\circ}$",
@@ -89,7 +89,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN8",
-    "question": "Cho hình lập phương $ABCD\\cdot A'B'C'D'$. Góc giữa hai đường thẳng $BD$ và $A'C'$ là<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS25_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD\\cdot A'B'C'D'$. Góc giữa hai đường thẳng $BD$ và $A'C'$ là<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS25_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^{\\circ}$",
       "$60^{\\circ}$",
@@ -101,7 +101,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H812TN9",
-    "question": "Cho hình lập phương $MNPQ.M'N'P'Q'$. Số đo của góc giữa hai đường thẳng $MN$ và $M'Q'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS26_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $MNPQ.M'N'P'Q'$. Số đo của góc giữa hai đường thẳng $MN$ và $M'Q'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS26_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$0^\\circ$",
       "$90^\\circ$",
@@ -133,7 +133,7 @@ window.tracNghiem1H81 = [
       "$45^\\circ$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS29_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Do $CC' \\parallel BB'$ nên $\\big(A'B,CC'\\big)=\\big(A'B,BB'\\big)=\\widehat{A'BB'}$.<br>  Mặc khác, do mặt bên $(ABB'A')$ là hình vuông nên $\\widehat{A'BB'}=45^\\circ$."
+    "explain": "<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS29_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Do $CC' \\parallel BB'$ nên $\\big(A'B,CC'\\big)=\\big(A'B,BB'\\big)=\\widehat{A'BB'}$.<br>  Mặc khác, do mặt bên $(ABB'A')$ là hình vuông nên $\\widehat{A'BB'}=45^\\circ$."
   },
   {
     "id": "1H813TN12",
@@ -149,7 +149,7 @@ window.tracNghiem1H81 = [
   },
   {
     "id": "1H813TN13",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Đường thẳng nào sau đây vuông góc với đường thẳng $A'C'$?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS36_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Đường thẳng nào sau đây vuông góc với đường thẳng $A'C'$?<br><img src=\"data/11/1D8/im1H81/dlts_11_DLTS36_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$A'D'$",
       "$AC$",
@@ -169,11 +169,11 @@ window.tracNghiem1H81 = [
       "$120^{\\circ}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1D8/im1H81/dlts_12_DLTS36_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $DG\\parallel AF$ nên $(AF, EG)=(DG,EG)$.<br>  Mặt khác $DG=EG=ED=a \\sqrt{2}$ (với $\\alpha$ là độ dài cạnh hình lập phương).<br>  Nên $\\triangle DEG$ đều $\\Rightarrow(DG, EG)=60^{\\circ}$."
+    "explain": "<br><img src=\"data/11/1D8/im1H81/dlts_12_DLTS36_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $DG\\parallel AF$ nên $(AF, EG)=(DG,EG)$.<br>  Mặt khác $DG=EG=ED=a \\sqrt{2}$ (với $\\alpha$ là độ dài cạnh hình lập phương).<br>  Nên $\\triangle DEG$ đều $\\Rightarrow(DG, EG)=60^{\\circ}$."
   },
   {
     "id": "1H813TN15",
-    "question": "Cho $\\triangle ABC$ và mặt phẳng $(P)$ có $A$, $B \\in(P)$ và $C \\notin(P)$. Góc giữa mặt phẳng $(ABC)$ và mặt phẳng $(P)$ là $60^{\\circ}$. Điểm $C'$ là hình chiếu của $C$ lên $(P)$. Biết tam giác $ABC$ vuông tại $C$, $AC=4$ và $BC=3$ (hình bên). Độ dài đoạn $CC'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_12_DLTS36_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho $\\triangle ABC$ và mặt phẳng $(P)$ có $A$, $B \\in(P)$ và $C \\notin(P)$. Góc giữa mặt phẳng $(ABC)$ và mặt phẳng $(P)$ là $60^{\\circ}$. Điểm $C'$ là hình chiếu của $C$ lên $(P)$. Biết tam giác $ABC$ vuông tại $C$, $AC=4$ và $BC=3$ (hình bên). Độ dài đoạn $CC'$ bằng<br><img src=\"data/11/1D8/im1H81/dlts_12_DLTS36_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{5 \\sqrt{3}}{2}$",
       "$\\dfrac{6}{5}$",

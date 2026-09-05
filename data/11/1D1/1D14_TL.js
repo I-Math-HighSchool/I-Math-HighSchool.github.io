@@ -24,7 +24,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D147TL4",
-    "question": "Cho hai điểm $A$, $B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0;\\pi]$. Các điểm $C$, $D$ thuộc trục $Ox$ thoả mãn $ABCD$ là hình chữ nhật và $CD=\\dfrac{\\pi}{3}$. Độ dài cạnh $BC$ là bao nhiêu (kết quả làm tròn đến hàng phần trăm)?<br><img src=\"data/11/1D1/im1D14/1D14_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hai điểm $A$, $B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0;\\pi]$. Các điểm $C$, $D$ thuộc trục $Ox$ thoả mãn $ABCD$ là hình chữ nhật và $CD=\\dfrac{\\pi}{3}$. Độ dài cạnh $BC$ là bao nhiêu (kết quả làm tròn đến hàng phần trăm)?<br><img src=\"data/11/1D1/im1D14/1D14_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "0,87",
     "explain": "Vì $CD=\\dfrac{\\pi}{3} \\Rightarrow OD=\\dfrac{\\pi}{3}$.<br>  $\\Rightarrow x_D=x_A=\\dfrac{\\pi}{3} \\Rightarrow y_A=\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt{3}}{2}$.<br>  Ta có $AD=\\dfrac{\\sqrt{3}}{2} \\Rightarrow BC=\\dfrac{\\sqrt{3}}{2}\\approx 0{,}87$.<br>"
   },
@@ -36,7 +36,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D148TL6",
-    "question": "Hội Lim (tỉnh Bắc Ninh) là lễ hội mùa xuân nổi tiếng có trò chơi đánh đu truyền thống. Khi người chơi nhún đều, cây đu sẽ đưa người đu dao động quanh vị trí cân bằng. Giả sử khoảng cách $h$ (m) từ người chơi đu đến vị trí cân bằng theo thời gian $t$ (s) (với $t \\ge 0$) được mô tả bởi công thức $h = \\left| d \\right|$ với $d(t)=3{,}5 \\cos \\left(\\dfrac{2 \\pi}{3} t -\\dfrac{\\pi}{3}\\right)$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người đu và $d&lt;0$ trong trường hợp ngược lại. Tìm khoảng cách lớn nhất của người đu so với vị trí cân bằng.  {<br><img src=\"data/11/1D1/im1D14/1D14_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">}",
+    "question": "Hội Lim (tỉnh Bắc Ninh) là lễ hội mùa xuân nổi tiếng có trò chơi đánh đu truyền thống. Khi người chơi nhún đều, cây đu sẽ đưa người đu dao động quanh vị trí cân bằng. Giả sử khoảng cách $h$ (m) từ người chơi đu đến vị trí cân bằng theo thời gian $t$ (s) (với $t \\ge 0$) được mô tả bởi công thức $h = \\left| d \\right|$ với $d(t)=3{,}5 \\cos \\left(\\dfrac{2 \\pi}{3} t -\\dfrac{\\pi}{3}\\right)$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người đu và $d&lt;0$ trong trường hợp ngược lại. Tìm khoảng cách lớn nhất của người đu so với vị trí cân bằng.  {<br><img src=\"data/11/1D1/im1D14/1D14_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">}",
     "answer": "3,5",
     "explain": "Với mọi $t \\ge 0$, ta có  $-1 \\le \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) \\le 1$<br>$\\Leftrightarrow -3{,}5 \\le 3{,}5 \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) \\le 3{,}5$<br>$\\Leftrightarrow -3{,}5 \\le d(t) \\le 3{,}5.$  Vậy $h(t)=\\left| d (t) \\right| \\le 3{,}5$, $\\forall t \\ge 0$.<br>  Dấu bằng xảy ra khi và chỉ khi $\\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) =-1 \\text{ hoặc } \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) =1 \\Leftrightarrow \\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3}= \\pi +k2 \\pi \\text{ hoặc } \\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3}= k2 \\pi \\Leftrightarrow t=2+3k \\text{ hoặc } t=\\dfrac{1}{2}+3k. \\; (k \\in \\mathbb{Z})$  Vậy $h(t)$ đạt giá trị lớn nhất bằng $3{,}5$ khi và chỉ khi $t=2+3k \\text{ hoặc } t=\\dfrac{1}{2}+3k \\; (k \\in \\mathbb{Z}).$  <br>  Do đó khoảng cách lớn nhất của người đu so với vị trí cân bằng là $3{,5}$(m)."
   },
@@ -54,7 +54,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D148TL9",
-    "question": "Hội Lim (tỉnh Bắc Ninh) được tổ chức vào mùa xuân thường có trò đánh đu. Khi người chơi đu nhún đều, cây đu sẽ đưa người chơi đu dao động quanh vị trí cân bằng (tham khảo hình vẽ). Nghiên cứu trò chơi này, người ta thấy khoảng cách $h$ (m) từ vị trí người chơi đu đến vị trí cân bằng được biểu diễn qua thời gian $t$ (giây) (với $t \\ge 0$) bởi hệ thức $h=|d|$ với $d=2\\cos\\left[\\dfrac{\\pi}{3}(2t-1)\\right]$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người chơi đu và $d&lt;0$ trong trường hợp ngược lại. Sau $6$ giây, người chơi đu cách vị trí cân bằng bao nhiêu mét?<br><img src=\"data/11/1D1/im1D14/1D14_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hội Lim (tỉnh Bắc Ninh) được tổ chức vào mùa xuân thường có trò đánh đu. Khi người chơi đu nhún đều, cây đu sẽ đưa người chơi đu dao động quanh vị trí cân bằng (tham khảo hình vẽ). Nghiên cứu trò chơi này, người ta thấy khoảng cách $h$ (m) từ vị trí người chơi đu đến vị trí cân bằng được biểu diễn qua thời gian $t$ (giây) (với $t \\ge 0$) bởi hệ thức $h=|d|$ với $d=2\\cos\\left[\\dfrac{\\pi}{3}(2t-1)\\right]$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người chơi đu và $d&lt;0$ trong trường hợp ngược lại. Sau $6$ giây, người chơi đu cách vị trí cân bằng bao nhiêu mét?<br><img src=\"data/11/1D1/im1D14/1D14_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "1",
     "explain": "Thay $t=6$ (giây) vào biểu thức $d$, ta được  $d = 2\\cos\\left[\\dfrac{\\pi}{3}(2 \\cdot 6-1)\\right]$<br>$= 2\\cos\\left[\\dfrac{\\pi}{3}(12-1)\\right]$<br>$= 2\\cos\\left(\\dfrac{11\\pi}{3}\\right)$<br>$= 1.$  Khoảng cách $h$ của người chơi đu đến vị trí cân bằng là  $h=|d|=|1|=1$ (m).<br>  Vậy sau $6$ giây, người chơi đu cách vị trí cân bằng $1$ mét."
   },
@@ -96,7 +96,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D147TL16",
-    "question": "Cho đồ thị của hàm số $y=\\sin x$ (tham khảo hình vẽ)  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập các giá trị $x \\in \\left[0; \\dfrac{3\\pi}{2}\\right]$ thỏa mãn $\\sin 2x \\ge 0$ có dạng $\\left[0;\\dfrac{\\pi}{a}\\right]\\cup \\left[\\pi;\\dfrac{b\\pi}{c}\\right]$, với $a$, $b$, $c$ là các số tụ nhiên và $\\dfrac{b}{c}$ là phân số tối giản. Tính $a+\\dfrac{b}{c}$.",
+    "question": "Cho đồ thị của hàm số $y=\\sin x$ (tham khảo hình vẽ)  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập các giá trị $x \\in \\left[0; \\dfrac{3\\pi}{2}\\right]$ thỏa mãn $\\sin 2x \\ge 0$ có dạng $\\left[0;\\dfrac{\\pi}{a}\\right]\\cup \\left[\\pi;\\dfrac{b\\pi}{c}\\right]$, với $a$, $b$, $c$ là các số tụ nhiên và $\\dfrac{b}{c}$ là phân số tối giản. Tính $a+\\dfrac{b}{c}$.",
     "answer": "3,5",
     "explain": "Ta có $\\sin 2x \\ge 0 \\Leftrightarrow 2\\sin x\\cos x\\ge 0 \\Leftrightarrow \\sin x\\ge 0 \\text{ và } \\cos x\\ge 0$ hoặc $\\sin x\\le 0 \\text{ và } \\cos x\\le 0$.<br>  Do đó $x\\in \\left[0;\\dfrac{\\pi}{2}\\right]\\cup \\left[\\pi;\\dfrac{3\\pi}{2}.\\right]$<br>  Suy ra $a=2$, $b=3$. $c=2$.<br>  Vậy $a+\\dfrac{b}{c}=3{,}5$."
   },
@@ -132,7 +132,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D147TL22",
-    "question": "Xét hàm số $y = \\sin x$ trên nửa khoảng $\\left[0; \\dfrac{9\\pi}{2}\\right)$ có đồ thị như hình vẽ bên dưới. Hãy tính khoảng cách lớn nhất từ gốc tọa độ $O$ đến một điểm $M$ thuộc đồ thị có tung độ bằng $1$ (<em>kết quả làm tròn đến hàng phần chục</em>).  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Xét hàm số $y = \\sin x$ trên nửa khoảng $\\left[0; \\dfrac{9\\pi}{2}\\right)$ có đồ thị như hình vẽ bên dưới. Hãy tính khoảng cách lớn nhất từ gốc tọa độ $O$ đến một điểm $M$ thuộc đồ thị có tung độ bằng $1$ (<em>kết quả làm tròn đến hàng phần chục</em>).  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "7,9",
     "explain": "Gọi $M(x;1)$ là một điểm thuộc đồ thị hàm số.<br>   Khoảng cách từ gốc tọa độ $O$ đến điểm $M(x;1)$ là $OM = \\sqrt{x^2 + 1^2} = \\sqrt{x^2+1}$.<br>  Để $OM$ lớn nhất suy ra $x$ phải lớn nhất.<br>  Ta có $\\sin x = 1 \\Leftrightarrow x = \\dfrac{\\pi}{2} + k2\\pi$, với $k \\in \\mathbb{Z}$.<br>  Vì $x \\in \\left[0; \\dfrac{9\\pi}{2}\\right)$ nên ta có $0 \\le \\dfrac{\\pi}{2} + k2\\pi &lt; \\dfrac{9\\pi}{2} \\Leftrightarrow -0,25 \\le k &lt; 2\\Rightarrow x_{\\max}=\\dfrac{5\\pi}{2}$ ứng với $k_{\\max}= 1$.<br>   Khoảng cách lớn nhất là   $OM_{\\max} = \\sqrt{\\left(\\dfrac{5\\pi}{2}\\right)^2 + 1} \\approx 7{,}9.$"
   },
@@ -144,7 +144,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D147TL24",
-    "question": "Cho hai điểm $A$, $B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0;\\pi]$, các điểm $C$, $D$ thuộc trục $Ox$ thỏa mãn $ABCD$ là hình chữ nhật và $CD=\\dfrac{2\\pi}{3}$. Tính độ dài đoạn $BC$ <em>(Kết quả làm tròn đến hàng phần chục)</em>.<br><img src=\"data/11/1D1/im1D14/1D14_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hai điểm $A$, $B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0;\\pi]$, các điểm $C$, $D$ thuộc trục $Ox$ thỏa mãn $ABCD$ là hình chữ nhật và $CD=\\dfrac{2\\pi}{3}$. Tính độ dài đoạn $BC$ <em>(Kết quả làm tròn đến hàng phần chục)</em>.<br><img src=\"data/11/1D1/im1D14/1D14_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "0,5",
     "explain": "Gọi điểm $A(x_1,y)$ và $B(x_2,y)$ (vì $A$, $B$ là hai đỉnh trên cùng đáy của hình chữ nhật nên có cùng tung độ $y$). <br>  Vì $A$, $B$ nằm trên đồ thị $y=\\sin x$ trên đoạn $[0,\\pi]$ nên  $\\sin x_1=\\sin x_2.$<br>  Trên đoạn $[0,\\pi]$ ta có $x_2=\\pi-x_1$. Do đó  $CD=x_2-x_1=\\pi-2x_1.$<br>  Theo đề bài $CD=\\dfrac{2\\pi}{3}$, nên $\\pi-2x_1=\\dfrac{2\\pi}{3}.$<br>  Suy ra $2x_1=\\pi-\\dfrac{2\\pi}{3}=\\dfrac{\\pi}{3}$ $\\Rightarrow x_1=\\dfrac{\\pi}{6}.$<br>  Tung độ của $A$ (và $B$) là $y=\\sin x_1=\\sin\\dfrac{\\pi}{6}=\\dfrac{1}{2}.$<br>  Vậy độ dài đoạn $BC$ bằng $ BC=y=\\dfrac{1}{2}=0{,}5.$"
   },
@@ -176,7 +176,7 @@ window.traLoiNgan1D14 = [
     "id": "1D146TL29",
     "question": "Biết rằng tập giá trị của hàm số $y=2-2\\sin x-\\cos 2x$ là $T=[a; b]$. Tính giá trị biểu thức $P=10a-2b$?",
     "answer": "-5",
-    "explain": "Ta có   $y = 2-2\\sin x-\\cos 2x$<br>$= 2-2\\sin x-\\left(1-2\\sin^2x\\right)$<br>$= 2\\sin^2x-2\\sin x+1.$  Xét hàm số $f(t)=2t^2-2t+1$, với $t=\\sin x$, $t\\in[-1;1]$.<br>  Ta có $f(t)=2t^2-2t+1$ là hàm số bậc hai có đồ thị là parabol đỉnh $I\\left(\\dfrac{1}{2};\\dfrac{1}{2}\\right)$.<br>  Bảng biến thiên  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, suy ra tập giá trị của hàm số đã cho là $\\left[\\dfrac{1}{2};5\\right]$.<br>  Khi đó $a=\\dfrac{1}{2}$, $b=5$. Vậy $P=10\\cdot\\dfrac{1}{2}-2\\cdot 5=-5$."
+    "explain": "Ta có   $y = 2-2\\sin x-\\cos 2x$<br>$= 2-2\\sin x-\\left(1-2\\sin^2x\\right)$<br>$= 2\\sin^2x-2\\sin x+1.$  Xét hàm số $f(t)=2t^2-2t+1$, với $t=\\sin x$, $t\\in[-1;1]$.<br>  Ta có $f(t)=2t^2-2t+1$ là hàm số bậc hai có đồ thị là parabol đỉnh $I\\left(\\dfrac{1}{2};\\dfrac{1}{2}\\right)$.<br>  Bảng biến thiên  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, suy ra tập giá trị của hàm số đã cho là $\\left[\\dfrac{1}{2};5\\right]$.<br>  Khi đó $a=\\dfrac{1}{2}$, $b=5$. Vậy $P=10\\cdot\\dfrac{1}{2}-2\\cdot 5=-5$."
   },
   {
     "id": "1D141TL30",

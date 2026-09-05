@@ -18,7 +18,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN2",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Diện tích hình phẳng phần tô đậm trong hình vẽ là<br><img src=\"data/12/2D4/im2D4/2D43_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Diện tích hình phẳng phần tô đậm trong hình vẽ là<br><img src=\"data/12/2D4/im2D4/2D43_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_{-2}^0f(x)\\mathrm{\\, d}x+\\displaystyle\\int\\limits_0^2 f(x)\\mathrm{\\, d}x$",
       "$S=\\displaystyle\\int\\limits_0^{-2} f(x)\\mathrm{\\, d}x+\\displaystyle\\int\\limits_0^1 f(x)\\mathrm{\\, d}x$",
@@ -30,7 +30,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN3",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a;b]$ và cắt trục hoành tại điểm $x=c$ (như hình vẽ). Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị của hàm số $y=f(x)$, trục hoành và hai đường thẳng $x=a,x=b$. Khẳng định nào sau đây là khẳng định &lt;strong&gt;đúng&lt;/strong&gt;?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a;b]$ và cắt trục hoành tại điểm $x=c$ (như hình vẽ). Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị của hàm số $y=f(x)$, trục hoành và hai đường thẳng $x=a,x=b$. Khẳng định nào sau đây là khẳng định &lt;strong&gt;đúng&lt;/strong&gt;?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$",
       "$S=\\displaystyle\\int\\limits_a^c f(x)\\mathrm{\\,d}x-\\displaystyle\\int\\limits_c^b f(x)\\mathrm{\\,d}x$",
@@ -42,7 +42,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN4",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$, có đồ thị cắt trục $Ox$ tại các điểm có hoành độ lần lượt bằng $-3, 0$ và $4$ như hình bên. Tìm công thức tính diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$ và trục $Ox$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$, có đồ thị cắt trục $Ox$ tại các điểm có hoành độ lần lượt bằng $-3, 0$ và $4$ như hình bên. Tìm công thức tính diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$ và trục $Ox$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_{-3}^4f(x)\\textrm{\\,d}x$",
       "$S=\\displaystyle\\int\\limits_{0}^{-3}f(x)\\textrm{\\,d}x+\\displaystyle\\int\\limits_{0}^{4}f(x)\\textrm{\\,d}x$",
@@ -54,7 +54,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN5",
-    "question": "Cho parabol như hình vẽ. Hãy tính diện tích hình phẳng giới hạn bởi parabol và trục hoành.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho parabol như hình vẽ. Hãy tính diện tích hình phẳng giới hạn bởi parabol và trục hoành.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=16$",
       "$S=\\dfrac{28}{3}$",
@@ -66,7 +66,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN6",
-    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}.$ Đồ thị của hàm số $y=f'(x)$ được cho như hình vẽ bên. Diện tích các hình phẳng $(K),$ $(H)$ lần lượt là $\\dfrac{5}{12}$ và $\\dfrac{8}{3}.$ Biết $f(-1)=\\dfrac{19}{12},$ tính $f(2).$<br><img src=\"data/12/2D4/im2D4/2D43_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}.$ Đồ thị của hàm số $y=f'(x)$ được cho như hình vẽ bên. Diện tích các hình phẳng $(K),$ $(H)$ lần lượt là $\\dfrac{5}{12}$ và $\\dfrac{8}{3}.$ Biết $f(-1)=\\dfrac{19}{12},$ tính $f(2).$<br><img src=\"data/12/2D4/im2D4/2D43_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{11}{6}$",
       "$-\\dfrac{2}{3}$",
@@ -78,7 +78,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN7",
-    "question": "Cho hình thang cong $(H)$ giới hạn bởi các đường $y=e^x,y=0,x=0$ và $x=\\ln 4$. Đường thẳng $x=k, (0&lt;k&lt;\\ln 4)$ chia $(H)$ thành hai phần có diện tích là $S_1, S_2$ và như hình vẽ bên. Tìm $k$ để $S_1=2S_2$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình thang cong $(H)$ giới hạn bởi các đường $y=e^x,y=0,x=0$ và $x=\\ln 4$. Đường thẳng $x=k, (0&lt;k&lt;\\ln 4)$ chia $(H)$ thành hai phần có diện tích là $S_1, S_2$ và như hình vẽ bên. Tìm $k$ để $S_1=2S_2$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$k=\\ln\\dfrac{8}{3}$",
       "$k=\\ln 2$",
@@ -90,7 +90,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN8",
-    "question": "Cho hình phẳng $S$ được giới hạn bởi phần gạch chéo như hình vẽ. Diện tích hình phẳng $S$ được tính bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình phẳng $S$ được giới hạn bởi phần gạch chéo như hình vẽ. Diện tích hình phẳng $S$ được tính bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_{-1}^2 \\left(2x^2-2x+4\\right)\\mathrm{\\,d}x$",
       "$S=\\displaystyle\\int\\limits_{-1}^2 \\left(-2x^2+2x+4\\right)\\mathrm{\\,d}x$",
@@ -102,7 +102,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN9",
-    "question": "Cho hình phẳng $(H)$ giới hạn bởi các đường $y=f(x)$ và $y=g(x)$ có đồ thị biểu diễn như hình vẽ. Diện tích hình phẳng giới hạn bởi hình $(H)$ được tính theo công thức<br><img src=\"data/12/2D4/im2D4/2D43_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình phẳng $(H)$ giới hạn bởi các đường $y=f(x)$ và $y=g(x)$ có đồ thị biểu diễn như hình vẽ. Diện tích hình phẳng giới hạn bởi hình $(H)$ được tính theo công thức<br><img src=\"data/12/2D4/im2D4/2D43_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_a^b\\left[f(x)-g(x)\\right]\\mathrm{\\,d}x + \\displaystyle\\int\\limits_b^c\\left[g(x)-f(x)\\right]\\mathrm{\\,d}x$",
       "$S=\\displaystyle\\int\\limits_a^b\\left[f(x)-g(x)\\right]\\mathrm{\\,d}x + \\displaystyle\\int\\limits_b^c\\left[f(x)+g(x)\\right]\\mathrm{\\,d}x$",
@@ -114,7 +114,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN10",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Các miền $A$ và $B$ có diện tích lần lượt là $8$ và $2$. Tích phân $\\displaystyle\\int\\limits_1^4 f(x)\\mathrm{\\,d}x$ bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Các miền $A$ và $B$ có diện tích lần lượt là $8$ và $2$. Tích phân $\\displaystyle\\int\\limits_1^4 f(x)\\mathrm{\\,d}x$ bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$6$",
       "$2$",
@@ -210,7 +210,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN18",
-    "question": "Cho hàm số $ y=f(x) $ liên tục trên $ \\mathbb{R} $ và hàm số $ y=g(x)=x.f(x^2) $ có đồ thị trên đoạn $ [0;2] $ như hình vẽ bên. Biết diện tích miền được gạch chéo là $ S=\\dfrac{5}{2} $, tính tích phân $ \\displaystyle I=\\int_{1}^{4}f(x)\\,\\mathrm{d}x $.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $ y=f(x) $ liên tục trên $ \\mathbb{R} $ và hàm số $ y=g(x)=x.f(x^2) $ có đồ thị trên đoạn $ [0;2] $ như hình vẽ bên. Biết diện tích miền được gạch chéo là $ S=\\dfrac{5}{2} $, tính tích phân $ \\displaystyle I=\\int_{1}^{4}f(x)\\,\\mathrm{d}x $.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ I=\\dfrac{5}{2} $",
       "$ I=\\dfrac{5}{4} $",
@@ -282,7 +282,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN24",
-    "question": "Cho hàm số bậc ba $f(x)=-\\dfrac{1}{2}x^3+bx^2+cx+d$ có đồ thị là $(C)$ cắt trục hoành tại ba điểm phân biệt, trong đó có hai điểm có hoành độ lần lượt là $x=-1$, $x=2$. Đường thẳng $d$ tiếp tuyến của đồ thị $(C)$ tại điểm có hoành độ $x=-\\dfrac{5}{4}$ cắt đồ thị tại điểm có hoành độ $x=\\dfrac{5}{3}$. Gọi $S_1$ là diện tích hình phẳng giới hạn bởi phần đồ thị $(C)$ bên dưới trục hoành với trục hoành, $S_2$ là diện tích giới hạn bởi đồ thị $(C)$ và tiếp tuyến $d$ (\\textbf{<em>hình vẽ bên</em>}). Tỉ số $\\dfrac{S_1}{S_2}$ thuộc khoảng nào dưới đây?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $f(x)=-\\dfrac{1}{2}x^3+bx^2+cx+d$ có đồ thị là $(C)$ cắt trục hoành tại ba điểm phân biệt, trong đó có hai điểm có hoành độ lần lượt là $x=-1$, $x=2$. Đường thẳng $d$ tiếp tuyến của đồ thị $(C)$ tại điểm có hoành độ $x=-\\dfrac{5}{4}$ cắt đồ thị tại điểm có hoành độ $x=\\dfrac{5}{3}$. Gọi $S_1$ là diện tích hình phẳng giới hạn bởi phần đồ thị $(C)$ bên dưới trục hoành với trục hoành, $S_2$ là diện tích giới hạn bởi đồ thị $(C)$ và tiếp tuyến $d$ (\\textbf{<em>hình vẽ bên</em>}). Tỉ số $\\dfrac{S_1}{S_2}$ thuộc khoảng nào dưới đây?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(18;19)$",
       "$(19;20)$",
@@ -294,7 +294,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN25",
-    "question": "Cho hàm số $f(x)=ax^3+bx^2+cx-\\dfrac{1}{2}$ và $g(x)=dx^2+ex+1\\left(a,\\, b,\\, c,\\, d,\\, e\\in \\mathbb{R}\\right)$. Biết rằng đồ thị của hàm số $y=f(x)$ và $y=g(x)$ cắt nhau tại ba điểm có hoành độ lần lượt là $-3$; $-1$; $1$ (tham khảo hình vẽ). Hình phẳng giới hạn bởi hai đồ thị đã cho có diện tích bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)=ax^3+bx^2+cx-\\dfrac{1}{2}$ và $g(x)=dx^2+ex+1\\left(a,\\, b,\\, c,\\, d,\\, e\\in \\mathbb{R}\\right)$. Biết rằng đồ thị của hàm số $y=f(x)$ và $y=g(x)$ cắt nhau tại ba điểm có hoành độ lần lượt là $-3$; $-1$; $1$ (tham khảo hình vẽ). Hình phẳng giới hạn bởi hai đồ thị đã cho có diện tích bằng<br><img src=\"data/12/2D4/im2D4/2D43_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$8$",
       "$5$",
@@ -306,7 +306,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN26",
-    "question": "Cho hình phẳng $ D $ được giới hạn bởi các đường $ y=x^2-2x $; $ y=1 $; $ y=x $ như hình vẽ (phần tô đậm). Diện tích của $ D $ là<br><img src=\"data/12/2D4/im2D4/2D43_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình phẳng $ D $ được giới hạn bởi các đường $ y=x^2-2x $; $ y=1 $; $ y=x $ như hình vẽ (phần tô đậm). Diện tích của $ D $ là<br><img src=\"data/12/2D4/im2D4/2D43_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ \\dfrac{7+8\\sqrt{2}}{6} $",
       "$ \\dfrac{7-2\\sqrt{2}}{6} $",
@@ -318,7 +318,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN27",
-    "question": "Tính diện tích $S$ của phần hình phẳng giới hạn bởi đường parabol đi qua gốc tọa độ và hai đoạn thẳng $AC$ và $BC$ như hình vẽ bên.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Tính diện tích $S$ của phần hình phẳng giới hạn bởi đường parabol đi qua gốc tọa độ và hai đoạn thẳng $AC$ và $BC$ như hình vẽ bên.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\dfrac{25}{6}$",
       "$S=\\dfrac{20}{3}$",
@@ -462,7 +462,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D433TN39",
-    "question": "Cho hình phẳng $(H)$ giới hạn bởi đồ thị hàm số $y=\\dfrac{1}{x}$, trục $Ox$ và hai đường thẳng $x=1$, $x=5$. Đường thẳng $x=k$ ($1&lt;k&lt;5$) chia hình $(H)$ thành hai phần là $(S_1)$ và $(S_2)$ như hình vẽ bên. Khi quay hình $(H)$ quanh trục $Ox$ thì $(S_1)$ và $(S_2)$ tạo thành hai khối tròn xoay có thể tích lần lượt là $V_1$ và $V_2$. Xác định giá trị của $k$ để $V_1=3V_2$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình phẳng $(H)$ giới hạn bởi đồ thị hàm số $y=\\dfrac{1}{x}$, trục $Ox$ và hai đường thẳng $x=1$, $x=5$. Đường thẳng $x=k$ ($1&lt;k&lt;5$) chia hình $(H)$ thành hai phần là $(S_1)$ và $(S_2)$ như hình vẽ bên. Khi quay hình $(H)$ quanh trục $Ox$ thì $(S_1)$ và $(S_2)$ tạo thành hai khối tròn xoay có thể tích lần lượt là $V_1$ và $V_2$. Xác định giá trị của $k$ để $V_1=3V_2$.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ k=\\dfrac{5}{2} $",
       "$ k=\\dfrac{2}{5} $",
@@ -474,7 +474,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN40",
-    "question": "Cho hình vuông $OABC$ có cạnh bằng $4$ được chia thành hai phần bởi đường cong $(P)$ có phương trình $y=\\dfrac{1}{4}x^2$. Gọi $S_1$ là hình phẳng không bị gạch (như hình vẽ). Tính thể tích $V$ của vật thể tròn xoay khi cho phần $S_1$ quay quanh trục $Ox$.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình vuông $OABC$ có cạnh bằng $4$ được chia thành hai phần bởi đường cong $(P)$ có phương trình $y=\\dfrac{1}{4}x^2$. Gọi $S_1$ là hình phẳng không bị gạch (như hình vẽ). Tính thể tích $V$ của vật thể tròn xoay khi cho phần $S_1$ quay quanh trục $Ox$.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$V=\\dfrac{128\\pi}{3}$ ",
       "$V=\\dfrac{64\\pi}{3}$ ",
@@ -486,7 +486,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D433TN41",
-    "question": "Cho hàm số bậc hai $y=f(x)$ có đồ thị như hình bên. Tính thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị của hàm số $y=f(x)$ và $Ox$ xung quanh trục $Ox$.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc hai $y=f(x)$ có đồ thị như hình bên. Tính thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị của hàm số $y=f(x)$ và $Ox$ xung quanh trục $Ox$.  \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D4/im2D4/2D43_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{16\\pi}{15}$ ",
       "$\\dfrac{4\\pi}{3}$ ",
@@ -498,7 +498,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN42",
-    "question": "Cho hai hàm số $y=f_1(x)$ và $y=f_2(x)$ liên tục trên đoạn $[a; b]$ và có đồ thị như hình bên. Gọi $S$ là hình phẳng giới hạn bởi hai đồ thị hàm số trên và các đường thẳng $x=a, x=b.$ Thể tích $V$ của vật thể tròn xoay tạo thành khi quay $S$ xung quanh trục $Ox$ được tính bởi công thức nào sau đây?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hai hàm số $y=f_1(x)$ và $y=f_2(x)$ liên tục trên đoạn $[a; b]$ và có đồ thị như hình bên. Gọi $S$ là hình phẳng giới hạn bởi hai đồ thị hàm số trên và các đường thẳng $x=a, x=b.$ Thể tích $V$ của vật thể tròn xoay tạo thành khi quay $S$ xung quanh trục $Ox$ được tính bởi công thức nào sau đây?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$V=\\pi \\displaystyle \\int \\limits_a^b \\big(f_1^2(x) - f_2^2(x) \\big)\\textrm{d}x$",
       "$V= \\pi\\displaystyle \\int \\limits_a^b \\big(f_1(x)- f_2(x)\\big) \\textrm{d}x$",
@@ -606,7 +606,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN51",
-    "question": "Một vật chuyển động trong $3$ giờ đầu với vận tốc $v\\,(\\mathrm{km/h})$ phụ thuộc thời gian $t(\\mathrm{h})$ có đồ thị là một phần của đường parabol có đỉnh $I(2;9)$ và trục đối xứng song song với trục tung như hình bên. Tính quãng đường $s$ mà vật di chuyển được trong 3 giờ đó.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một vật chuyển động trong $3$ giờ đầu với vận tốc $v\\,(\\mathrm{km/h})$ phụ thuộc thời gian $t(\\mathrm{h})$ có đồ thị là một phần của đường parabol có đỉnh $I(2;9)$ và trục đối xứng song song với trục tung như hình bên. Tính quãng đường $s$ mà vật di chuyển được trong 3 giờ đó.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$s=24,25\\,\\mathrm{km}$",
       "$s=26,75\\,\\mathrm{km}$",
@@ -630,7 +630,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D432TN53",
-    "question": "Một con lắc lò xo dao động theo phương ngang trên mặt phẳng không ma sát có vận tốc tức thời tại thời điểm $t$ giây là $v(t)=4 \\cos t$ (cm/s) (<em>Hình 4.32</em>). Tại thời điểm $t=0$, con lắc đó ở vị trí cân bằng. Phương trình chuyển động của con lắc đó được tính bằng cách nào?  Tìm li độ của con lắc tại thời điểm $t=\\dfrac{2 \\pi}{3}$ giây, biết khi $t=\\dfrac{\\pi}{2}$ giây thì con lắc có li độ $x=4$ cm.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một con lắc lò xo dao động theo phương ngang trên mặt phẳng không ma sát có vận tốc tức thời tại thời điểm $t$ giây là $v(t)=4 \\cos t$ (cm/s) (<em>Hình 4.32</em>). Tại thời điểm $t=0$, con lắc đó ở vị trí cân bằng. Phương trình chuyển động của con lắc đó được tính bằng cách nào?  Tìm li độ của con lắc tại thời điểm $t=\\dfrac{2 \\pi}{3}$ giây, biết khi $t=\\dfrac{\\pi}{2}$ giây thì con lắc có li độ $x=4$ cm.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\sqrt{3}$ cm",
       "$2$ cm",
@@ -678,7 +678,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN57",
-    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=f(x)$, $y=0$, $x=-1$ và $x=2$. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS17_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=f(x)$, $y=0$, $x=-1$ và $x=2$. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS17_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=-\\displaystyle\\int\\limits_{-1}^1 f(x) \\mathrm{\\,d}x-\\displaystyle\\int\\limits_1^2 f(x) \\mathrm{\\,d}x$",
       "$S=-\\displaystyle\\int\\limits_{-1}^1 f(x) \\mathrm{\\,d}x+\\displaystyle\\int\\limits_1^2 f(x) \\mathrm{\\,d}x$",
@@ -702,7 +702,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN59",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=f(x), y=0, x=-1$ và $x=5$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS22_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=f(x), y=0, x=-1$ và $x=5$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS22_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=-\\displaystyle\\int_{-1}^1 f(x) \\mathrm{d}x -\\displaystyle\\int_1^5 f(x) \\mathrm{d}x $",
       "$S=\\displaystyle\\int_{-1}^1 f(x) \\mathrm{d}x -\\displaystyle\\int_1^5 f(x) \\mathrm{d}x $",
@@ -726,7 +726,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN61",
-    "question": "Diện tích hình phẳng phần được gạch chéo trong hình bên bằng<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS23_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Diện tích hình phẳng phần được gạch chéo trong hình bên bằng<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS23_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\displaystyle\\int\\limits_{-1}^{2} (-2x^2 + 2x + 4)\\mathrm{\\,d}x$",
       "$\\displaystyle\\int\\limits_{-1}^{2} (2x^2 - 2x - 4)\\mathrm{\\,d}x$",
@@ -906,7 +906,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN76",
-    "question": "Gọi $S_1$ và $S_2$ là diện tích của hai hình phẳng giới hạn bởi đồ thị của hàm số $y=f(x)$ và trục hoành như hình vẽ dưới đây.  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS25_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tích phân $\\displaystyle\\int_{-2}^2|f(x)|\\mathrm{\\,d}x$ bằng",
+    "question": "Gọi $S_1$ và $S_2$ là diện tích của hai hình phẳng giới hạn bởi đồ thị của hàm số $y=f(x)$ và trục hoành như hình vẽ dưới đây.  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS25_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tích phân $\\displaystyle\\int_{-2}^2|f(x)|\\mathrm{\\,d}x$ bằng",
     "options": [
       "$-S_1-S_2$",
       "$S_1+S_2$",
@@ -966,7 +966,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN81",
-    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$, gọi $(H)$ là hình phẳng giới hạn bởi nửa đường tròn có bán kính $r = 2$ và đồ thị $(C)$ của hàm số $y = f(x)$ như hình vẽ. Biết $(H)$ có diện tích $S = \\dfrac{31}{4}$. Ta có  $\\displaystyle\\int\\limits_{-2}^{2} f(1 - x)\\,\\mathrm{d}x = a\\pi + \\dfrac{b}{2}.$  Tính $a + b$.<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS31_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$, gọi $(H)$ là hình phẳng giới hạn bởi nửa đường tròn có bán kính $r = 2$ và đồ thị $(C)$ của hàm số $y = f(x)$ như hình vẽ. Biết $(H)$ có diện tích $S = \\dfrac{31}{4}$. Ta có  $\\displaystyle\\int\\limits_{-2}^{2} f(1 - x)\\,\\mathrm{d}x = a\\pi + \\dfrac{b}{2}.$  Tính $a + b$.<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS31_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a + b = \\dfrac{3}{2}$",
       "$a + b = \\dfrac{5}{2}$",
@@ -978,7 +978,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D433TN82",
-    "question": "Gọi $(H)$ là hình phẳng giới hạn bởi các đường $y = 2^x$, $y = 2$, $x = 3$ (phần gạch chéo trong hình vẽ), khi $(H)$ quay quanh trục hoành ta được khối tròn xoay có thể tích được tính theo công thức nào dưới đây?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS31_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Gọi $(H)$ là hình phẳng giới hạn bởi các đường $y = 2^x$, $y = 2$, $x = 3$ (phần gạch chéo trong hình vẽ), khi $(H)$ quay quanh trục hoành ta được khối tròn xoay có thể tích được tính theo công thức nào dưới đây?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS31_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$V = \\pi \\displaystyle\\int\\limits_1^3 4^x \\, \\mathrm{d}x$",
       "$V = \\pi \\displaystyle\\int\\limits_1^3 (2^x - 2)^2 \\, \\mathrm{d}x$",
@@ -1002,7 +1002,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN84",
-    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ sau. Biết rằng $\\displaystyle\\int\\limits_{-2}^1 f(x)\\,\\mathrm{d}x = a$ và $\\displaystyle\\int\\limits_1^2 f(x)\\,\\mathrm{d}x = b$.  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính diện tích $S$ của hình phẳng được tô đậm.",
+    "question": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ sau. Biết rằng $\\displaystyle\\int\\limits_{-2}^1 f(x)\\,\\mathrm{d}x = a$ và $\\displaystyle\\int\\limits_1^2 f(x)\\,\\mathrm{d}x = b$.  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính diện tích $S$ của hình phẳng được tô đậm.",
     "options": [
       "$S=a-b$",
       "$S=a+b$",
@@ -1014,7 +1014,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D432TN85",
-    "question": "Một viên gạch hoa hình vuông cạnh $60\\ \\mathrm{cm}$. Người thiết kế đã sử dụng bốn đường parabol có chung đỉnh tại tâm viên gạch để tạo ra bốn cánh hoa (được tô đen như hình).  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích mỗi cánh hoa của viên gạch bằng",
+    "question": "Một viên gạch hoa hình vuông cạnh $60\\ \\mathrm{cm}$. Người thiết kế đã sử dụng bốn đường parabol có chung đỉnh tại tâm viên gạch để tạo ra bốn cánh hoa (được tô đen như hình).  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích mỗi cánh hoa của viên gạch bằng",
     "options": [
       "$\\dfrac{400}{3}\\ \\mathrm{cm}^2$",
       "$300\\ \\mathrm{cm}^2$",
@@ -1022,7 +1022,7 @@ window.tracNghiem2D43 = [
       "$\\dfrac{800}{3}\\ \\mathrm{cm}^2$"
     ],
     "answer": 1,
-    "explain": "Chọn hệ trục tọa độ $Oxy$ như hình vẽ bên dưới  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giả sử parabol $(P)\\colon y=ax^2$ đi qua điểm $A(30;30)$ $\\Rightarrow a= \\dfrac{1}{30}$ $\\Rightarrow (P)\\colon y= \\dfrac{1}{30}x^2$.<br>  Khi đó, diện tích một cánh hoa là  $S=2 \\cdot \\displaystyle \\int \\limits_0^{30} \\left(x-\\dfrac{1}{30}x^2\\right)\\,\\mathrm{d}x =300 \\, \\mathrm{cm}^2$  Vậy mỗi cánh hoa có diện tích $300\\ \\mathrm{cm}^2$."
+    "explain": "Chọn hệ trục tọa độ $Oxy$ như hình vẽ bên dưới  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS33_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giả sử parabol $(P)\\colon y=ax^2$ đi qua điểm $A(30;30)$ $\\Rightarrow a= \\dfrac{1}{30}$ $\\Rightarrow (P)\\colon y= \\dfrac{1}{30}x^2$.<br>  Khi đó, diện tích một cánh hoa là  $S=2 \\cdot \\displaystyle \\int \\limits_0^{30} \\left(x-\\dfrac{1}{30}x^2\\right)\\,\\mathrm{d}x =300 \\, \\mathrm{cm}^2$  Vậy mỗi cánh hoa có diện tích $300\\ \\mathrm{cm}^2$."
   },
   {
     "id": "2D431TN86",
@@ -1050,7 +1050,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN88",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Gọi $S$ là phần diện tích hình phẳng được tô màu. Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS36_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Gọi $S$ là phần diện tích hình phẳng được tô màu. Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS36_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_{-1}^{-0{,}5} f(x)\\mathrm{\\,d}x$",
       "$S=-\\displaystyle\\int\\limits_{-1}^0 f(x)\\mathrm{\\,d}x$",
@@ -1062,7 +1062,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D435TN89",
-    "question": "Khi cắt vật thể bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ là $x \\left(0 \\leq x \\leq 3 \\right)$, ta được mặt cắt là một hình vuông có cạnh là $\\sqrt{9 - x^2}$ (được mô hình hóa bởi hình vẽ bên dưới). Thể tích của vật thể đó bằng<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS36_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Khi cắt vật thể bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ là $x \\left(0 \\leq x \\leq 3 \\right)$, ta được mặt cắt là một hình vuông có cạnh là $\\sqrt{9 - x^2}$ (được mô hình hóa bởi hình vẽ bên dưới). Thể tích của vật thể đó bằng<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS36_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$171 \\pi$",
       "$171$",
@@ -1098,7 +1098,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN92",
-    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y = f(x)$, $y = 0$, $x = -1$ và $x = 5$ như hình vẽ. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y = f(x)$, $y = 0$, $x = -1$ và $x = 5$ như hình vẽ. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S = \\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x + \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$",
       "$S = -\\displaystyle \\int\\limits_{-1}^1 f(x)\\,\\mathrm{d}x - \\displaystyle \\int\\limits_1^5 f(x)\\,\\mathrm{d}x$",

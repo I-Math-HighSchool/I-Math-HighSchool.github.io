@@ -7,7 +7,7 @@
 window.dungSai1D15 = [
   {
     "id": "1D155DS1",
-    "question": "Cho đồ thị hàm số $y=f(x)=\\sin x$ như hình vẽ.  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị hàm số $y=f(x)=\\sin x$ như hình vẽ.  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$f\\left(-\\dfrac{3\\pi}{2}\\right)=-1$",
@@ -26,7 +26,7 @@ window.dungSai1D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Dựa vào đồ thị ta có $f\\left(-\\dfrac{3\\pi}{2}\\right)=1$.<br>- Ta có $\\sin 2\\pi=2\\sin\\pi\\cdot\\cos\\pi=2\\cdot 0\\cdot 1=0$.<br>- <br><img src=\"data/11/1D1/im1D15/1D15_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trên đoạn $[-3\\pi;3\\pi]$, số nghiệm của phương trình $\\sin x=-\\dfrac{1}{3}$ chính là số hoành độ giao điểm của đồ thị hàm số $y=\\sin x$ và đường thẳng $y=-\\dfrac{1}{3}$.<br>  Quan sát đồ thị ta thấy số hoành độ giao điểm của đồ thị hàm số $y=\\sin x$ và đường thẳng $y=-\\dfrac{1}{3}$ trên $[-3\\pi;3\\pi]$ là $6$.<br>- Quan sát đồ thị, trên $[0;2\\pi]$ phương trình $\\sin x=-\\dfrac{1}{3}$ có $2$ nghiệm.<br>  Suy ra trên $[0;2024\\pi]$ phương trình $\\sin x=-\\dfrac{1}{3}$ có $2\\cdot 1012=2024$ nghiệm.<br>  Trên $[2024\\pi;2025\\pi)$ phương trình $\\sin x=-\\dfrac{1}{3}$ vô nghiệm.<br>  Vậy Phương trình $\\sin x=-\\dfrac{1}{3}$ có $2024$ nghiệm trên nửa khoảng $[0;2025\\pi)$."
+    "explain": "<br>- Dựa vào đồ thị ta có $f\\left(-\\dfrac{3\\pi}{2}\\right)=1$.<br>- Ta có $\\sin 2\\pi=2\\sin\\pi\\cdot\\cos\\pi=2\\cdot 0\\cdot 1=0$.<br>- <br><img src=\"data/11/1D1/im1D15/1D15_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Trên đoạn $[-3\\pi;3\\pi]$, số nghiệm của phương trình $\\sin x=-\\dfrac{1}{3}$ chính là số hoành độ giao điểm của đồ thị hàm số $y=\\sin x$ và đường thẳng $y=-\\dfrac{1}{3}$.<br>  Quan sát đồ thị ta thấy số hoành độ giao điểm của đồ thị hàm số $y=\\sin x$ và đường thẳng $y=-\\dfrac{1}{3}$ trên $[-3\\pi;3\\pi]$ là $6$.<br>- Quan sát đồ thị, trên $[0;2\\pi]$ phương trình $\\sin x=-\\dfrac{1}{3}$ có $2$ nghiệm.<br>  Suy ra trên $[0;2024\\pi]$ phương trình $\\sin x=-\\dfrac{1}{3}$ có $2\\cdot 1012=2024$ nghiệm.<br>  Trên $[2024\\pi;2025\\pi)$ phương trình $\\sin x=-\\dfrac{1}{3}$ vô nghiệm.<br>  Vậy Phương trình $\\sin x=-\\dfrac{1}{3}$ có $2024$ nghiệm trên nửa khoảng $[0;2025\\pi)$."
   },
   {
     "id": "1D153DS2",
@@ -99,7 +99,7 @@ window.dungSai1D15 = [
   },
   {
     "id": "1D153DS5",
-    "question": "Trên đường tròn lượng giác lấy $2$ điểm $M$, $N$ có hoành độ $\\dfrac{1}{2}$. Xét phương trình lượng giác $2\\cos x=\\sqrt{3}$. $(*)$<br><img src=\"data/11/1D1/im1D15/1D15_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác lấy $2$ điểm $M$, $N$ có hoành độ $\\dfrac{1}{2}$. Xét phương trình lượng giác $2\\cos x=\\sqrt{3}$. $(*)$<br><img src=\"data/11/1D1/im1D15/1D15_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Điểm $M$, $N$ trong hình vẽ trên biểu diễn các nghiệm của phương trình $(*)$",

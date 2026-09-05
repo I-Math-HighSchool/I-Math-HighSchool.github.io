@@ -7,7 +7,7 @@
 window.tracNghiem1D31 = [
   {
     "id": "1D312TN1",
-    "question": "Từ hình vuông có độ dài cạnh bằng 1 (đơn vị độ dài), người ta nối các trung điểm của cạnh hình vuông để tạo ra hình vuông mới như hình vẽ. Tiếp tục quá trình này đến vô hạn. Tổng diện tích của tất cả các hình vuông được tạo thành là<br><img src=\"data/11/1D3/im1D31/dlts_11_DLTS11_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Từ hình vuông có độ dài cạnh bằng 1 (đơn vị độ dài), người ta nối các trung điểm của cạnh hình vuông để tạo ra hình vuông mới như hình vẽ. Tiếp tục quá trình này đến vô hạn. Tổng diện tích của tất cả các hình vuông được tạo thành là<br><img src=\"data/11/1D3/im1D31/dlts_11_DLTS11_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$4$",
       "$2$",

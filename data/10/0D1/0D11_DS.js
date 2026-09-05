@@ -141,7 +141,7 @@ window.dungSai0D11 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Có $7$ học sinh giỏi Toán. Suy ra mệnh đề sai.<br>- Có $1$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Suy ra mệnh đề sai.<br>- Số học sinh giỏi Toán và Lý hoặc giỏi Toán và Hóa của lớp $10 B$ là $1+2+1+3+1+1+1=10$.  <br><img src=\"data/10/0D1/im0D11/dlts_sbh_ds10cd13_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra mệnh đề đúng.<br>- Số học sinh giỏi ít nhất một môn trong ba môn Toán, Lý, Hóa của lớp $10 B$ bằng $11$. Suy ra mệnh đề sai."
+    "explain": "<br>- Có $7$ học sinh giỏi Toán. Suy ra mệnh đề sai.<br>- Có $1$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Suy ra mệnh đề sai.<br>- Số học sinh giỏi Toán và Lý hoặc giỏi Toán và Hóa của lớp $10 B$ là $1+2+1+3+1+1+1=10$.  <br><img src=\"data/10/0D1/im0D11/dlts_sbh_ds10cd13_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra mệnh đề đúng.<br>- Số học sinh giỏi ít nhất một môn trong ba môn Toán, Lý, Hóa của lớp $10 B$ bằng $11$. Suy ra mệnh đề sai."
   },
   {
     "id": "0D116DS7",

@@ -42,7 +42,7 @@ window.tracNghiem0D63 = [
   },
   {
     "id": "0D632TN2",
-    "question": "Tuổi thọ của $20$ bóng đèn được thắp thử được ghi lại ở bảng số liệu sau (đơn vị: giờ).  <br><img src=\"data/10/0D6/im0D63/loc_ghk1lhp_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Tuổi thọ trung bình của số bóng đèn trên là",
+    "question": "Tuổi thọ của $20$ bóng đèn được thắp thử được ghi lại ở bảng số liệu sau (đơn vị: giờ).  <br><img src=\"data/10/0D6/im0D63/loc_ghk1lhp_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"> Tuổi thọ trung bình của số bóng đèn trên là",
     "options": [
       "$1\\,175{,}5$",
       "$1\\,174{,}5$",

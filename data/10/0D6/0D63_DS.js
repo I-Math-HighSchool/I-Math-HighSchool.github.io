@@ -6,7 +6,7 @@
 window.dungSai0D63 = [
   {
     "id": "0D635DS1",
-    "question": "Hai phương pháp học Toán khác nhau được áp dụng cho lớp 10A, 10B. Sau một học kì, điểm khảo sát của hai lớp như sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Hai phương pháp học Toán khác nhau được áp dụng cho lớp 10A, 10B. Sau một học kì, điểm khảo sát của hai lớp như sau   <br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_000.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_001.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Điểm trung bình của hai lớp là bằng nhau",
@@ -52,7 +52,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D634DS3",
-    "question": "Cho các số liệu thống kê về mẫu sản lượng chè thu được trong 1 năm ($\\mathrm{kg}/$ sào) của $20$ hộ gia đình như sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Cho các số liệu thống kê về mẫu sản lượng chè thu được trong 1 năm ($\\mathrm{kg}/$ sào) của $20$ hộ gia đình như sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Mốt của mẫu số liệu là $M_0=115$",
@@ -75,7 +75,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D635DS4",
-    "question": "Bác Nam và Bác Linh ghi lại số cuộc điện thoại mà mỗi người gọi mỗi ngày trong $10$ ngày được lựa chọn ngẫu nhiên từ tháng 01/2024 ở bảng sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Bác Nam và Bác Linh ghi lại số cuộc điện thoại mà mỗi người gọi mỗi ngày trong $10$ ngày được lựa chọn ngẫu nhiên từ tháng 01/2024 ở bảng sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Mốt của mẫu số liệu của Bác Nam là $M_0=1$",
@@ -94,11 +94,11 @@ window.dungSai0D63 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Trong số $10$ ngày có ngày thứ hai bác Nam gọi nhiều nhất nên mốt của mẫu số liệu của Bác Nam là $M_0=2$. Suy ra mệnh đề sai.<br>- Ta có số trung bình của số cuộc điện thoại mà Bác Linh gọi là $\\bar{x}=\\dfrac{1 \\cdot 3+2 \\cdot 3+3 \\cdot 2+4+20}{10}=3{,}9.$   Suy ra mệnh đề đúng.<br>- Ta có số trung bình của số cuộc điện thoại mà Bác Nam gọi là $\\bar{x}=\\dfrac{1 \\cdot 3+2+3+4 \\cdot 2+5+6+7}{10}=3{,}4.$   Do đó xét theo số trung bình Bác Linh gọi điện thoại thường xuyên hơn. Suy ra mệnh đề sai.<br>- Tứ phân vị   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng trên nên dùng trung vị để so sánh số cuộc gọi của Bác Nam và Bác Linh Suy ra mệnh đề đúng."
+    "explain": "<br>- Trong số $10$ ngày có ngày thứ hai bác Nam gọi nhiều nhất nên mốt của mẫu số liệu của Bác Nam là $M_0=2$. Suy ra mệnh đề sai.<br>- Ta có số trung bình của số cuộc điện thoại mà Bác Linh gọi là $\\bar{x}=\\dfrac{1 \\cdot 3+2 \\cdot 3+3 \\cdot 2+4+20}{10}=3{,}9.$   Suy ra mệnh đề đúng.<br>- Ta có số trung bình của số cuộc điện thoại mà Bác Nam gọi là $\\bar{x}=\\dfrac{1 \\cdot 3+2+3+4 \\cdot 2+5+6+7}{10}=3{,}4.$   Do đó xét theo số trung bình Bác Linh gọi điện thoại thường xuyên hơn. Suy ra mệnh đề sai.<br>- Tứ phân vị   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng trên nên dùng trung vị để so sánh số cuộc gọi của Bác Nam và Bác Linh Suy ra mệnh đề đúng."
   },
   {
     "id": "0D634DS5",
-    "question": "Cho bảng số liệu điểm kiểm tra môn Toán của $20$ học sinh.  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Cho bảng số liệu điểm kiểm tra môn Toán của $20$ học sinh.  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Mốt của mẫu số liệu là $5 $",
@@ -121,7 +121,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D635DS6",
-    "question": "Sản lượng lúa (tạ) của $40$ thửa ruộng thí nghiệm có cùng diện tích được trình bày trong bảng phân bố tần số sau đây:  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau",
+    "question": "Sản lượng lúa (tạ) của $40$ thửa ruộng thí nghiệm có cùng diện tích được trình bày trong bảng phân bố tần số sau đây:  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau",
     "subQuestions": [
       {
         "text": "Với $m=13, n=8$ thì mốt của mẫu số liệu trên là $23$ tạ",
@@ -140,11 +140,11 @@ window.dungSai0D63 = [
         "answer": true
       }
     ],
-    "explain": "Với $m=13, n=8$ ta có bảng sản lượng của $40$ thửa ruộng như sau  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Dựa vào bảng phân bố tần số của mẫu số liệu trên ta thấy sản lượng có tần số lớn nhất là $23$ tạ. Suy ra mệnh đề đúng.<br>- Sản lượng trung bình của $40$ thửa ruộng trên là  $\\bar{x}=\\dfrac{5 \\cdot 20+21 \\cdot 8+22 \\cdot 8+23 \\cdot 13+24 \\cdot 6}{40}=19{,}93.$  Suy ra mệnh đề sai.<br>- Do số thửa ruộng là $40$ là số chẵn nên số trung vị là trung bình cộng của hai số hạng đứng chính giữa là số hạng thứ $20$ và $21$ khi đó $M_e=\\dfrac{22+22}{2}=22$. Suy ra mệnh đề sai.<br>- Ta có $5+8+n+m+6=40 \\Leftrightarrow n+m=21$.  Sản lượng trung bình của $40$ thửa ruộng là $22{,}1$ nên  $  \\dfrac{1}{40}(5\\cdot 20+8\\cdot 21+n \\cdot 22+m \\cdot 23+6\\cdot 24)=22{,}1 \\Leftrightarrow 22 n+23 m=472 .  $  Giải hệ phương trình $n+m=21 \\text{ và } 22 n+23 m=472\\Leftrightarrow n=11 \\text{ và } m=10.$<br>  Suy ra mệnh đề đúng."
+    "explain": "Với $m=13, n=8$ ta có bảng sản lượng của $40$ thửa ruộng như sau  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Dựa vào bảng phân bố tần số của mẫu số liệu trên ta thấy sản lượng có tần số lớn nhất là $23$ tạ. Suy ra mệnh đề đúng.<br>- Sản lượng trung bình của $40$ thửa ruộng trên là  $\\bar{x}=\\dfrac{5 \\cdot 20+21 \\cdot 8+22 \\cdot 8+23 \\cdot 13+24 \\cdot 6}{40}=19{,}93.$  Suy ra mệnh đề sai.<br>- Do số thửa ruộng là $40$ là số chẵn nên số trung vị là trung bình cộng của hai số hạng đứng chính giữa là số hạng thứ $20$ và $21$ khi đó $M_e=\\dfrac{22+22}{2}=22$. Suy ra mệnh đề sai.<br>- Ta có $5+8+n+m+6=40 \\Leftrightarrow n+m=21$.  Sản lượng trung bình của $40$ thửa ruộng là $22{,}1$ nên  $  \\dfrac{1}{40}(5\\cdot 20+8\\cdot 21+n \\cdot 22+m \\cdot 23+6\\cdot 24)=22{,}1 \\Leftrightarrow 22 n+23 m=472 .  $  Giải hệ phương trình $n+m=21 \\text{ và } 22 n+23 m=472\\Leftrightarrow n=11 \\text{ và } m=10.$<br>  Suy ra mệnh đề đúng."
   },
   {
     "id": "0D634DS7",
-    "question": "Khối lượng cơ thể lúc trưởng thành của $11$ con chim được ghi lại ở bảng sau (đơn vị: gam).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau (các kết quả làm tròn đến hàng đơn vị)",
+    "question": "Khối lượng cơ thể lúc trưởng thành của $11$ con chim được ghi lại ở bảng sau (đơn vị: gam).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau (các kết quả làm tròn đến hàng đơn vị)",
     "subQuestions": [
       {
         "text": "Mốt của mẫu số liệu trên là $165$ gam",
@@ -190,7 +190,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D635DS9",
-    "question": "Một cửa hàng bún đậu vừa khai trương, thống kê lượng khách tới quán trong $7$ ngày đầu và thu được mẫu số liệu sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Một cửa hàng bún đậu vừa khai trương, thống kê lượng khách tới quán trong $7$ ngày đầu và thu được mẫu số liệu sau   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Số trung bình làm tròn đến hàng phần trăm của mẫu số liệu là $407{,}14$",
@@ -213,7 +213,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D635DS10",
-    "question": "Bảng sau đây cho biết số chỗ ngồi của một số sân vận động được sử dụng trong giải Bóng đá Vô địch Quốc gia Việt Nam năm 2022 (số liệu gần đúng).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau",
+    "question": "Bảng sau đây cho biết số chỗ ngồi của một số sân vận động được sử dụng trong giải Bóng đá Vô địch Quốc gia Việt Nam năm 2022 (số liệu gần đúng).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các câu sau",
     "subQuestions": [
       {
         "text": "Mốt của mẫu số liệu trên là $20120$",
@@ -236,7 +236,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D635DS11",
-    "question": "Bảng sau đây cho biết số chỗ ngồi của một số sân vận động được sử dụng trong giải bóng đá vô địch Quốc gia năm 2018 (số liệu gần đúng).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Bảng sau đây cho biết số chỗ ngồi của một số sân vận động được sử dụng trong giải bóng đá vô địch Quốc gia năm 2018 (số liệu gần đúng).  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Số trung bình của mẫu số liệu là $24501{,}3$",
@@ -259,7 +259,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D634DS12",
-    "question": "Cho bảng số liệu thống kê chiều cao của một nhóm học sinh như sau  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Cho bảng số liệu thống kê chiều cao của một nhóm học sinh như sau  <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd16_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Có $16$ học sinh được thống kê chiều cao",
@@ -282,7 +282,7 @@ window.dungSai0D63 = [
   },
   {
     "id": "0D634DS1",
-    "question": "Cho bảng phân bố tần số khối lượng $30$ quả trứng gà của một rổ trứng gà   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd15_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Cho bảng phân bố tần số khối lượng $30$ quả trứng gà của một rổ trứng gà   <br><img src=\"data/10/0D6/im0D63/dlts_sbh_tk10cd15_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Số quá trứng gà có khối lượng $40 \\mathrm{~g}$ trong rổ trứng là $6 $",

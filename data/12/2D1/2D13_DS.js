@@ -26,11 +26,11 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Chiều dài trang sách là $\\dfrac{384}{x}$ m $(x&gt;0)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích được in chữ  $  A(x) = (x-4)\\left( \\dfrac{384}{x} - 6 \\right) = -6x+408-\\dfrac{1\\,536}{x}.  $  Miền xác định của $A(x)$ là $\\mathscr{D} = (0,+\\infty)$.<br>  Đạo hàm $A'(x) = -6+\\dfrac{1\\,536}{x^2}$.<br>  Cho $A'(x)=0$ ta được $x=16\\sqrt{2}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$ khi $x=16$ cm.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích để trống là $384-216 = 168$ cm$^2$."
+    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Chiều dài trang sách là $\\dfrac{384}{x}$ m $(x&gt;0)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích được in chữ  $  A(x) = (x-4)\\left( \\dfrac{384}{x} - 6 \\right) = -6x+408-\\dfrac{1\\,536}{x}.  $  Miền xác định của $A(x)$ là $\\mathscr{D} = (0,+\\infty)$.<br>  Đạo hàm $A'(x) = -6+\\dfrac{1\\,536}{x^2}$.<br>  Cho $A'(x)=0$ ta được $x=16\\sqrt{2}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$ khi $x=16$ cm.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích để trống là $384-216 = 168$ cm$^2$."
   },
   {
     "id": "2D131DS2",
-    "question": "Cần rào ba cạnh để cùng với bờ tường có sẵn tạo thành mảnh vườn hình chữ nhật có diện tích $200 m^2$ (hình)  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ký hiệu $x(m)$, $y(m)$ lần lượt là độ dài các cạnh của mảnh vườn vuông góc và song song với bờ tường; $L(m)$ là tổng độ dài lưới thép cần để rào mảnh vườn. Biết rằng mỗi mét lưới théo dùng để rào mảnh vườn có đơn giá $250$ nghìn đồng.",
+    "question": "Cần rào ba cạnh để cùng với bờ tường có sẵn tạo thành mảnh vườn hình chữ nhật có diện tích $200 m^2$ (hình)  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ký hiệu $x(m)$, $y(m)$ lần lượt là độ dài các cạnh của mảnh vườn vuông góc và song song với bờ tường; $L(m)$ là tổng độ dài lưới thép cần để rào mảnh vườn. Biết rằng mỗi mét lưới théo dùng để rào mảnh vườn có đơn giá $250$ nghìn đồng.",
     "subQuestions": [
       {
         "text": "$y$ được tính theo $x$ bằng công thức $y=\\dfrac{200}{x}$",
@@ -49,7 +49,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $xy=200$, do đó $y=\\dfrac{200}{x}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $L(x)=2x+\\dfrac{200}{x}, x&gt;0$.<br>  $L'(x)=2-\\dfrac{200}{x^2}$.<br>  $L'(x)=0 \\Leftrightarrow 2-\\dfrac{200}{x^2}=0 \\Leftrightarrow x^2=100 \\Rightarrow x=10$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, $L$ đạt giá trị nhỏ nhất khi $x=10$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $\\min\\limits_{x \\in (0;+\\infty)} L(x) = L(10) =40$, do đó số tiền tối thiểu để mua lưới thép là $40\\cdot250\\,000=10\\,000\\,000$ (đồng).<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $L(x)=2x+\\dfrac{200}{x}$."
+    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $xy=200$, do đó $y=\\dfrac{200}{x}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $L(x)=2x+\\dfrac{200}{x}, x&gt;0$.<br>  $L'(x)=2-\\dfrac{200}{x^2}$.<br>  $L'(x)=0 \\Leftrightarrow 2-\\dfrac{200}{x^2}=0 \\Leftrightarrow x^2=100 \\Rightarrow x=10$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, $L$ đạt giá trị nhỏ nhất khi $x=10$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $\\min\\limits_{x \\in (0;+\\infty)} L(x) = L(10) =40$, do đó số tiền tối thiểu để mua lưới thép là $40\\cdot250\\,000=10\\,000\\,000$ (đồng).<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $L(x)=2x+\\dfrac{200}{x}$."
   },
   {
     "id": "2D132DS3",
@@ -72,7 +72,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = \\dfrac{x^2-2x-1}{(x-1)^2}$ với $x\\in\\mathbb{R}\\setminus\\{1\\}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(x) = \\dfrac{x^2+x}{x-1} = x+2 + \\dfrac{2}{x-1}$. <br>  Suy ra đường tiệm cận xiên của $(H)$ có phương trình là $y=x+2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = 0\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow x=-\\sqrt{2}+1\\Rightarrow y = -2\\sqrt{2}+3 \\text{ hoặc } x=\\sqrt{2}+1\\Rightarrow y = 2\\sqrt{2}+3.$ <br>  Suy ra $(H)$ có hai điểm cực trị $A\\left(-\\sqrt{2}+1;-2\\sqrt{2}+3\\right)$ và $B\\left(\\sqrt{2}+1;2\\sqrt{2}+3\\right)$. <br>  Do đó, khoảng cách giữa hai điểm cực trị của $(H)$ là $AB = \\sqrt{\\left(2\\sqrt{2}\\right)^2 + \\left(4\\sqrt{2}\\right)^2} = 2\\sqrt{10}.$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có bảng biến thiên của $f(x)$ trên $(1;+\\infty)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị nhỏ nhất của $f(x)$ trên khoảng $(1;+\\infty)$ là $3+2\\sqrt{2}$."
+    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = \\dfrac{x^2-2x-1}{(x-1)^2}$ với $x\\in\\mathbb{R}\\setminus\\{1\\}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(x) = \\dfrac{x^2+x}{x-1} = x+2 + \\dfrac{2}{x-1}$. <br>  Suy ra đường tiệm cận xiên của $(H)$ có phương trình là $y=x+2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = 0\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow x=-\\sqrt{2}+1\\Rightarrow y = -2\\sqrt{2}+3 \\text{ hoặc } x=\\sqrt{2}+1\\Rightarrow y = 2\\sqrt{2}+3.$ <br>  Suy ra $(H)$ có hai điểm cực trị $A\\left(-\\sqrt{2}+1;-2\\sqrt{2}+3\\right)$ và $B\\left(\\sqrt{2}+1;2\\sqrt{2}+3\\right)$. <br>  Do đó, khoảng cách giữa hai điểm cực trị của $(H)$ là $AB = \\sqrt{\\left(2\\sqrt{2}\\right)^2 + \\left(4\\sqrt{2}\\right)^2} = 2\\sqrt{10}.$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có bảng biến thiên của $f(x)$ trên $(1;+\\infty)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị nhỏ nhất của $f(x)$ trên khoảng $(1;+\\infty)$ là $3+2\\sqrt{2}$."
   },
   {
     "id": "2D136DS4",
@@ -95,7 +95,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $x(0) = 4$. <br>  Vậy ban đầu $M$ ở vị trí cách $O$ một khoảng cách bằng $4$ mét.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v(t) = x'(t) = -t^2+ 12t$. <br>  Vậy vận tốc tức thời của $M$ tại thời điểm $t$ giây ($0\\le t\\le 12$) là $v(t) = -t^2+12t$ (mét/giây).<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v'(t) = -2t+12$. Khi đó $v'(t) &gt; 0\\Leftrightarrow -2t+12&gt;0\\Leftrightarrow t&lt;6$. <br>  Suy ra $v(t)$ đồng biến trên $[0;6]$. <br>  Vậy trong suốt $6$ giây đầu tiên, vận tốc tức thời của $M$ luôn tăng.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có bảng biến thiên của $v(t)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $M$ có vận tốc tức thời lớn nhất tại $t=6$. <br>  Khi đó $x(6) - x(0) = -\\dfrac{6^3}{3} + 6\\cdot 6^2 + 4 - 4= 144$. <br>  Vậy xét trong $12$ giây đầu tiên, tính từ lúc bắt đầu khảo sát đến lúc $M$ có vận tốc tức thời lớn nhất thì $M$ đi được một quãng đường dài $144$ mét."
+    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $x(0) = 4$. <br>  Vậy ban đầu $M$ ở vị trí cách $O$ một khoảng cách bằng $4$ mét.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v(t) = x'(t) = -t^2+ 12t$. <br>  Vậy vận tốc tức thời của $M$ tại thời điểm $t$ giây ($0\\le t\\le 12$) là $v(t) = -t^2+12t$ (mét/giây).<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v'(t) = -2t+12$. Khi đó $v'(t) &gt; 0\\Leftrightarrow -2t+12&gt;0\\Leftrightarrow t&lt;6$. <br>  Suy ra $v(t)$ đồng biến trên $[0;6]$. <br>  Vậy trong suốt $6$ giây đầu tiên, vận tốc tức thời của $M$ luôn tăng.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có bảng biến thiên của $v(t)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $M$ có vận tốc tức thời lớn nhất tại $t=6$. <br>  Khi đó $x(6) - x(0) = -\\dfrac{6^3}{3} + 6\\cdot 6^2 + 4 - 4= 144$. <br>  Vậy xét trong $12$ giây đầu tiên, tính từ lúc bắt đầu khảo sát đến lúc $M$ có vận tốc tức thời lớn nhất thì $M$ đi được một quãng đường dài $144$ mét."
   },
   {
     "id": "2D132DS5",
@@ -122,7 +122,7 @@ window.dungSai2D13 = [
   },
   {
     "id": "2D131DS6",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$, có đồ thị $f(x)$ như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$, có đồ thị $f(x)$ như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$f(3) &lt; f(2)$",
@@ -187,11 +187,11 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Hàm số có đạo hàm $f'(x) = 3x^2 - 3$.<br>  Giải phương trình $f'(x)=0$, ta có $x=1$ và $x=-1$.<br>   Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đạt cực tiểu tại $x=1$.<br>- Trên khoảng $(-1;1)$, ta có $f'(x) &lt; 0$ nên hàm số nghịch biến trên khoảng $(-1;1)$.<br>- Giá trị lớn nhất của hàm số trên đoạn $[-1;1]$ bằng $0$.<br>- Xét $g(x) = f(2x) = 8x^3 - 6x - 2$ trên đoạn $\\left[-\\dfrac{1}{2};\\dfrac{1}{2}\\right]$. <br>  Đạo hàm của hàm số $g(x)$ là $g'(x)=24x^2-6$.<br>  giải phương trình $g'(x)=0$, ta có $x=-\\dfrac{1}{2}$ và $x=\\dfrac{1}{2}$.<br>  Ta có $g\\left(-\\dfrac{1}{2}\\right) = 0$ và $g\\left(\\dfrac{1}{2}\\right) = -4$. <br> Vậy giá trị nhỏ nhất của $g(x)$ trên đoạn $\\left[-\\dfrac{1}{2};\\dfrac{1}{2}\\right]$ là $-4$."
+    "explain": "<br>- Hàm số có đạo hàm $f'(x) = 3x^2 - 3$.<br>  Giải phương trình $f'(x)=0$, ta có $x=1$ và $x=-1$.<br>   Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đạt cực tiểu tại $x=1$.<br>- Trên khoảng $(-1;1)$, ta có $f'(x) &lt; 0$ nên hàm số nghịch biến trên khoảng $(-1;1)$.<br>- Giá trị lớn nhất của hàm số trên đoạn $[-1;1]$ bằng $0$.<br>- Xét $g(x) = f(2x) = 8x^3 - 6x - 2$ trên đoạn $\\left[-\\dfrac{1}{2};\\dfrac{1}{2}\\right]$. <br>  Đạo hàm của hàm số $g(x)$ là $g'(x)=24x^2-6$.<br>  giải phương trình $g'(x)=0$, ta có $x=-\\dfrac{1}{2}$ và $x=\\dfrac{1}{2}$.<br>  Ta có $g\\left(-\\dfrac{1}{2}\\right) = 0$ và $g\\left(\\dfrac{1}{2}\\right) = -4$. <br> Vậy giá trị nhỏ nhất của $g(x)$ trên đoạn $\\left[-\\dfrac{1}{2};\\dfrac{1}{2}\\right]$ là $-4$."
   },
   {
     "id": "2D131DS9",
-    "question": "Dùng một dây thép dài $60$ m uốn thành một khung có dạng như hình vẽ. Biết phần dưới là hình chữ nhật và phía trên là một tam giác đều.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Dùng một dây thép dài $60$ m uốn thành một khung có dạng như hình vẽ. Biết phần dưới là hình chữ nhật và phía trên là một tam giác đều.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Chu vi của khung thép $3x + 2y = 60$",
@@ -210,7 +210,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br><img src=\"data/12/2D1/im2D1/2D13_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Chu vi của khung thép $3x + 2y = 60$.<br>- Diện tích của khung là $\\dfrac{\\sqrt{3}}{4}x^2 + x \\cdot \\dfrac{60-3x}{2}=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$ (cm$^2$).<br>  Xét hàm số $f(x)=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$ với $0&lt;x&lt;20$.<br>  Ta có $f(x)$ đạt giá trị lớn nhất khi $x=-\\dfrac{b}{2a}=\\dfrac{60}{6-\\sqrt{3}}$.<br>- Tổng diện tích của khung là $S=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$.<br>- Diện tích phần khung hình chữ nhật là $x y =x \\cdot (\\dfrac{60-3x}{2})= 30x-\\dfrac{3}{2}x^2$."
+    "explain": "<br><img src=\"data/12/2D1/im2D1/2D13_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Chu vi của khung thép $3x + 2y = 60$.<br>- Diện tích của khung là $\\dfrac{\\sqrt{3}}{4}x^2 + x \\cdot \\dfrac{60-3x}{2}=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$ (cm$^2$).<br>  Xét hàm số $f(x)=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$ với $0&lt;x&lt;20$.<br>  Ta có $f(x)$ đạt giá trị lớn nhất khi $x=-\\dfrac{b}{2a}=\\dfrac{60}{6-\\sqrt{3}}$.<br>- Tổng diện tích của khung là $S=\\dfrac{\\sqrt{3}-6}{4}x^2+30x$.<br>- Diện tích phần khung hình chữ nhật là $x y =x \\cdot (\\dfrac{60-3x}{2})= 30x-\\dfrac{3}{2}x^2$."
   },
   {
     "id": "2D132DS10",
@@ -233,7 +233,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "Xét hàm số $y=f(x)=x^4-2x^2+2$, ta có  <br>- Tập xác định $\\mathbb{R}$.<br>- Đạo hàm $f'(x)=4x^3-4x$.<br>- $f'(x)=0\\Leftrightarrow 4x^3-4x=0\\Leftrightarrow x=0 \\text{ hoặc } x=1 \\text{ hoặc } x=-1.$<br>- Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Từ bảng biến thiên, ta thấy hàm số nghịch biến trên khoảng $(-\\infty ;-1)$ và đồng biến trên khoảng $(1;+\\infty)$.<br>- Từ bảng biến thiên, ta thấy hàm số đạt cực đại tại $x=0$.<br>- Từ bảng biến thiên, ta thấy hàm số nghịch biến trên $(0;1)$.<br>- Từ bảng biến thiên, ta thấy giá trị lớn nhất của hàm số trên $(-1;1)$ bằng $2$."
+    "explain": "Xét hàm số $y=f(x)=x^4-2x^2+2$, ta có  <br>- Tập xác định $\\mathbb{R}$.<br>- Đạo hàm $f'(x)=4x^3-4x$.<br>- $f'(x)=0\\Leftrightarrow 4x^3-4x=0\\Leftrightarrow x=0 \\text{ hoặc } x=1 \\text{ hoặc } x=-1.$<br>- Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Từ bảng biến thiên, ta thấy hàm số nghịch biến trên khoảng $(-\\infty ;-1)$ và đồng biến trên khoảng $(1;+\\infty)$.<br>- Từ bảng biến thiên, ta thấy hàm số đạt cực đại tại $x=0$.<br>- Từ bảng biến thiên, ta thấy hàm số nghịch biến trên $(0;1)$.<br>- Từ bảng biến thiên, ta thấy giá trị lớn nhất của hàm số trên $(-1;1)$ bằng $2$."
   },
   {
     "id": "2D132DS11",
@@ -256,7 +256,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Điều kiện $9-x^2 \\ge 0 \\Leftrightarrow -3 \\le x \\le 3$.<br>  Hàm số có tập xác định $\\mathscr{D}=[-3;3]$.<br>- $y'=1-\\dfrac{x}{\\sqrt{9-x^2}}$.<br>  Ta có $y'=0 \\Leftrightarrow 1=\\dfrac{x}{\\sqrt{9-x^2}}$<br>$\\Leftrightarrow x=\\sqrt{9-x^2}$<br>$\\Leftrightarrow 9-x^2=x^2 \\text{ và } x \\ge 0$<br>$\\Leftrightarrow x\\ge 0 \\text{ và } 9-2x^2=0$<br>$\\Leftrightarrow x=\\dfrac{3\\sqrt{2}}{2}.$  Ta có bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số có $1$ điểm cực trị.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(-3;0)$.<br>- Dựa vào bảng biến thiên, giá trị lớn nhất của hàm số là $3\\sqrt{2}$."
+    "explain": "<br>- Điều kiện $9-x^2 \\ge 0 \\Leftrightarrow -3 \\le x \\le 3$.<br>  Hàm số có tập xác định $\\mathscr{D}=[-3;3]$.<br>- $y'=1-\\dfrac{x}{\\sqrt{9-x^2}}$.<br>  Ta có $y'=0 \\Leftrightarrow 1=\\dfrac{x}{\\sqrt{9-x^2}}$<br>$\\Leftrightarrow x=\\sqrt{9-x^2}$<br>$\\Leftrightarrow 9-x^2=x^2 \\text{ và } x \\ge 0$<br>$\\Leftrightarrow x\\ge 0 \\text{ và } 9-2x^2=0$<br>$\\Leftrightarrow x=\\dfrac{3\\sqrt{2}}{2}.$  Ta có bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số có $1$ điểm cực trị.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(-3;0)$.<br>- Dựa vào bảng biến thiên, giá trị lớn nhất của hàm số là $3\\sqrt{2}$."
   },
   {
     "id": "2D132DS12",
@@ -279,11 +279,11 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$ và $f'(x)=3x^2-12x+9$.<br>  Xét $f'(x)=0\\Leftrightarrow 3x^2-12x+9=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Ta có $\\lim\\limits_{x \\to -\\infty} f(x) = -\\infty$ và $\\lim\\limits_{x \\to +\\infty} f(x) = +\\infty$.<br>  Bàng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ bảng biến thiên ta có  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đạo hàm của hàm số $f(x)$ là $f'(x)=3 x^2-12 x+9$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số nghịch biến trên khoảng $(3 ;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số đạt cực đại tại điểm $x=1$ và giá trị cực đại của hàm số bằng $3$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(2)=1$; $f(3)=-1$ và $f(5)=19$. Do đó giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[2; 5]$ bằng $19$."
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$ và $f'(x)=3x^2-12x+9$.<br>  Xét $f'(x)=0\\Leftrightarrow 3x^2-12x+9=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Ta có $\\lim\\limits_{x \\to -\\infty} f(x) = -\\infty$ và $\\lim\\limits_{x \\to +\\infty} f(x) = +\\infty$.<br>  Bàng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ bảng biến thiên ta có  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đạo hàm của hàm số $f(x)$ là $f'(x)=3 x^2-12 x+9$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số nghịch biến trên khoảng $(3 ;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số đạt cực đại tại điểm $x=1$ và giá trị cực đại của hàm số bằng $3$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(2)=1$; $f(3)=-1$ và $f(5)=19$. Do đó giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[2; 5]$ bằng $19$."
   },
   {
     "id": "2D132DS13",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_069.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_069.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đạt cực tiểu tại $x=2$",
@@ -306,7 +306,7 @@ window.dungSai2D13 = [
   },
   {
     "id": "2D131DS14",
-    "question": "Cho hàm số đa thức bậc ba $y = ax^3 + bx^2 + cx + d$ có đồ thị là đường cong trong hình vẽ bên.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số đa thức bậc ba $y = ax^3 + bx^2 + cx + d$ có đồ thị là đường cong trong hình vẽ bên.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đã cho có hai điểm cực trị",
@@ -371,7 +371,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "Ta có $f'(x)=-3x^2+6x$; $f'(x)=0\\Leftrightarrow x=0\\in [-2;1] \\text{ hoặc } x=2\\notin [-2;1].$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đạt cực trị tại $A(0;2)$, $B(2;6)$.<br>- Ta có $AB=\\sqrt{(2-0)^2+(6-2)^2}=2\\sqrt{5}$.<br>- Ta có $f(-2) = 22$; $f(0)= 2$; $f(1)= 4$.<br>  Vậy $\\min\\limits_{[-2;1]} f(x)=2$ tại $x=0$.<br>- Dựa vào bảng biến thiên, hàm số đạt cực tiểu tại $x=0$.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(0;2)$."
+    "explain": "Ta có $f'(x)=-3x^2+6x$; $f'(x)=0\\Leftrightarrow x=0\\in [-2;1] \\text{ hoặc } x=2\\notin [-2;1].$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đạt cực trị tại $A(0;2)$, $B(2;6)$.<br>- Ta có $AB=\\sqrt{(2-0)^2+(6-2)^2}=2\\sqrt{5}$.<br>- Ta có $f(-2) = 22$; $f(0)= 2$; $f(1)= 4$.<br>  Vậy $\\min\\limits_{[-2;1]} f(x)=2$ tại $x=0$.<br>- Dựa vào bảng biến thiên, hàm số đạt cực tiểu tại $x=0$.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(0;2)$."
   },
   {
     "id": "2D131DS17",
@@ -394,7 +394,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Lượng xăng ban đầu trong bình là $V(0)=4$\\,lít.<br>- Ta có $V'(t)=300\\left(2t-3t^2\\right)$, với $0\\le t\\le0{,}5$.<br>- Ta có $V''(t)=300(2-6t)$, $V''(t)=0\\Leftrightarrow t=\\dfrac{1}{6}$.<br>  Bảng biến thiên của $V'(t)$ như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy tại thời điểm $t=\\dfrac{1}{6}$\\,(phút)$=10$\\,(giây) thì tốc độ tăng thể tích là lớn nhất.<br>- Ta có $V'(t)=300t(2-3t)&gt;0$, $\\forall t\\in[0;0{,}5]$ nên $V(t)$ đồng biến trên đoạn $[0;0{,}5]$.<br>  Suy ra lượng xăng lớn nhất bơm vào bình xăng là $V(0{,}5)=41{,}5$\\,lít."
+    "explain": "<br>- Lượng xăng ban đầu trong bình là $V(0)=4$\\,lít.<br>- Ta có $V'(t)=300\\left(2t-3t^2\\right)$, với $0\\le t\\le0{,}5$.<br>- Ta có $V''(t)=300(2-6t)$, $V''(t)=0\\Leftrightarrow t=\\dfrac{1}{6}$.<br>  Bảng biến thiên của $V'(t)$ như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy tại thời điểm $t=\\dfrac{1}{6}$\\,(phút)$=10$\\,(giây) thì tốc độ tăng thể tích là lớn nhất.<br>- Ta có $V'(t)=300t(2-3t)&gt;0$, $\\forall t\\in[0;0{,}5]$ nên $V(t)$ đồng biến trên đoạn $[0;0{,}5]$.<br>  Suy ra lượng xăng lớn nhất bơm vào bình xăng là $V(0{,}5)=41{,}5$\\,lít."
   },
   {
     "id": "2D132DS18",
@@ -417,11 +417,11 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- {\\bf Sai} <br>  Ta có $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}=0{,}5$; $f\\left(\\dfrac{3}{2}\\right)=\\dfrac{11}{2}=5{,}5$; $f\\left(\\dfrac{5}{2}\\right)=\\dfrac{31}{6}\\approx 5{,}5$.<br>  Do đó $f\\left(\\dfrac{1}{2}\\right) &lt; f\\left(\\dfrac{5}{2}\\right) &lt; f\\left(\\dfrac{3}{2}\\right)$.<br>- {\\bf Đúng}<br>  $y'=\\dfrac{x^2-2x}{(x-1)^2},\\forall x\\neq 1$; $y'=0\\Leftrightarrow x^2-2x=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_103.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy hàm số đạt giá trị nhỏ nhất tại điểm $x=2$.<br>- {\\bf Sai} <br>  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy hàm số không đạt giá trị lớn nhất tại điểm $x=4$.<br>- {\\bf Đúng} <br>  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy giá trị nhỏ nhất của hàm số là $5$."
+    "explain": "<br>- {\\bf Sai} <br>  Ta có $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}=0{,}5$; $f\\left(\\dfrac{3}{2}\\right)=\\dfrac{11}{2}=5{,}5$; $f\\left(\\dfrac{5}{2}\\right)=\\dfrac{31}{6}\\approx 5{,}5$.<br>  Do đó $f\\left(\\dfrac{1}{2}\\right) &lt; f\\left(\\dfrac{5}{2}\\right) &lt; f\\left(\\dfrac{3}{2}\\right)$.<br>- {\\bf Đúng}<br>  $y'=\\dfrac{x^2-2x}{(x-1)^2},\\forall x\\neq 1$; $y'=0\\Leftrightarrow x^2-2x=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_103.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy hàm số đạt giá trị nhỏ nhất tại điểm $x=2$.<br>- {\\bf Sai} <br>  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy hàm số không đạt giá trị lớn nhất tại điểm $x=4$.<br>- {\\bf Đúng} <br>  Dựa vào bảng biến thiên trên nừa khoảng $(1; 4]$, ta thấy giá trị nhỏ nhất của hàm số là $5$."
   },
   {
     "id": "2D131DS19",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_106.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_106.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đồng biến trên khoảng $(7;+\\infty)$",
@@ -513,7 +513,7 @@ window.dungSai2D13 = [
   },
   {
     "id": "2D131DS20",
-    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_Cum_lien_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
+    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_Cum_lien_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
     "subQuestions": [
       {
         "text": "Hàm số có hệ số $a&lt;0$",
@@ -555,7 +555,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "Ta có $P'(x) = -\\dfrac{3}{10}x^2 + 12x=0 \\Leftrightarrow x=0 \\text{ hoặc } x=40.$<br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Khi $x &gt; 40$ thì lợi nhuận giảm.<br>- Xét phương trình $P(x)=800 \\Leftrightarrow -\\dfrac{1}{10}x^3 + 6x^2 + 400=800 \\Leftrightarrow x\\approx 58{,}84 \\text{ hoặc } x \\approx 8{,}84.$<br>  Vậy có $2$ phương án giúp công ty có thể thu được lợi nhuận bằng $800$ nghìn USD.<br>- Dựa vào bảng biến thiên ở trên, ta thấy hàm số $P=P(x)$ có $1$ điểm cực trị.<br>- Dựa vào bảng biến thiên, $\\max\\limits_{[0;+\\infty)} P(x) = P(40) = 3600$ (nghìn USD) $= 3{,}6$ (triệu USD)."
+    "explain": "Ta có $P'(x) = -\\dfrac{3}{10}x^2 + 12x=0 \\Leftrightarrow x=0 \\text{ hoặc } x=40.$<br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Khi $x &gt; 40$ thì lợi nhuận giảm.<br>- Xét phương trình $P(x)=800 \\Leftrightarrow -\\dfrac{1}{10}x^3 + 6x^2 + 400=800 \\Leftrightarrow x\\approx 58{,}84 \\text{ hoặc } x \\approx 8{,}84.$<br>  Vậy có $2$ phương án giúp công ty có thể thu được lợi nhuận bằng $800$ nghìn USD.<br>- Dựa vào bảng biến thiên ở trên, ta thấy hàm số $P=P(x)$ có $1$ điểm cực trị.<br>- Dựa vào bảng biến thiên, $\\max\\limits_{[0;+\\infty)} P(x) = P(40) = 3600$ (nghìn USD) $= 3{,}6$ (triệu USD)."
   },
   {
     "id": "2D132DS23",
@@ -578,7 +578,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khối chóp tứ giác đều có $4$ cạnh đáy bằng $x$ và $4$ cạnh bên bằng $l$. <br>  Tổng chiều dài dây: $4x + 4l = 28 \\Rightarrow l = 7 - x$. <br>  Chiều cao khối chóp: $h = \\sqrt{l^2 - \\left(\\dfrac{x\\sqrt{2}}{2}\\right)^2} = \\sqrt{(7-x)^2 - \\dfrac{x^2}{2}}$.  <br>- Do $l = 7 - x &gt; 0 \\Rightarrow 0 &lt; x &lt; 7$.<br>- Thay $x = 4 \\Rightarrow h = \\sqrt{3^2 - \\dfrac{4^2}{2}} = 1$ dm.<br>- Vì các cạnh bằng nhau nên $x = 7 - x \\Leftrightarrow x = 3{,}5$. <br>  Diện tích giấy dán ($4$ mặt bên) là $S = 4 \\cdot \\dfrac{x^2\\sqrt{3}}{4} =\\dfrac{49\\sqrt{3}}{4}$ (dm$^2$).<br>- Thể tích đèn: $V = \\dfrac{1}{3}x^2\\sqrt{(7-x)^2 - \\dfrac{x^2}{2}} = \\dfrac{1}{3}\\sqrt{\\dfrac{x^6}{2} - 14x^5 + 49x^4}$. <br>  Xét hàm số $f(x) = \\dfrac{1}{2}x^6 - 14x^5 + 49x^4$ trên $(0;7)$. <br>  Ta có $f'(x) = x^3(3x^2 - 70x + 196) = 0 \\Rightarrow x= \\dfrac{35 - \\sqrt{637}}{3} \\approx 3{,}25 \\in (0;7)$. <br>  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy $V$ đạt giá trị lớn nhất tại $x \\approx 3{,}25$ dm."
+    "explain": "<br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__006.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__007.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>  Khối chóp tứ giác đều có $4$ cạnh đáy bằng $x$ và $4$ cạnh bên bằng $l$. <br>  Tổng chiều dài dây: $4x + 4l = 28 \\Rightarrow l = 7 - x$. <br>  Chiều cao khối chóp: $h = \\sqrt{l^2 - \\left(\\dfrac{x\\sqrt{2}}{2}\\right)^2} = \\sqrt{(7-x)^2 - \\dfrac{x^2}{2}}$.  <br>- Do $l = 7 - x &gt; 0 \\Rightarrow 0 &lt; x &lt; 7$.<br>- Thay $x = 4 \\Rightarrow h = \\sqrt{3^2 - \\dfrac{4^2}{2}} = 1$ dm.<br>- Vì các cạnh bằng nhau nên $x = 7 - x \\Leftrightarrow x = 3{,}5$. <br>  Diện tích giấy dán ($4$ mặt bên) là $S = 4 \\cdot \\dfrac{x^2\\sqrt{3}}{4} =\\dfrac{49\\sqrt{3}}{4}$ (dm$^2$).<br>- Thể tích đèn: $V = \\dfrac{1}{3}x^2\\sqrt{(7-x)^2 - \\dfrac{x^2}{2}} = \\dfrac{1}{3}\\sqrt{\\dfrac{x^6}{2} - 14x^5 + 49x^4}$. <br>  Xét hàm số $f(x) = \\dfrac{1}{2}x^6 - 14x^5 + 49x^4$ trên $(0;7)$. <br>  Ta có $f'(x) = x^3(3x^2 - 70x + 196) = 0 \\Rightarrow x= \\dfrac{35 - \\sqrt{637}}{3} \\approx 3{,}25 \\in (0;7)$. <br>  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy $V$ đạt giá trị lớn nhất tại $x \\approx 3{,}25$ dm."
   },
   {
     "id": "2D136DS22",
@@ -601,7 +601,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Theo bài ra, ta có chiều dài của đáy bể nước là $3x$. <br> Gọi $h$ là chiều cao của bể nước (đơn vị dm), điều kiện $h&gt;0$. <br> Theo giả thiết, ta có thể tích của bể nước là $1\\,152$ (dm$^3$) hay $x \\cdot 3x \\cdot h = 1\\,152 \\Rightarrow h= \\dfrac{384}{x^2}$. <br>  Vậy chiều cao của bể là $\\dfrac{384}{x^2}$ (dm).<br>- Diện tích xung quanh của bể chứa nước là $2 \\cdot (x+3x) \\cdot \\dfrac{384}{x^2}=\\dfrac{3\\,072}{x}$ (dm$^2$).<br>- Vậy, tổng diện tích cần làm của bể chứa nước là $S(x)=\\dfrac{3\\,072}{x}+3x^2$ (dm$^2$).<br>- Ta có $S'(x) = \\dfrac{-3\\,072+6x^3}{x^2}$. <br>  $S'(x)=0 \\Rightarrow x=8$.  <br><img src=\"data/12/2D1/im2D13/loc8_TT_QV1_TT1_LVT_B_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Từ bảng biến thiên, ta suy ra $\\min\\limits_{(0; +\\infty)} S(x)=S(8)=576$ (dm$^2$) $=5{,}76$ (m$^2$). <br> Chi phí thấp nhất là $5{,}76 \\cdot 400\\,000=2\\,304\\,000$ (đồng)."
+    "explain": "<br>- Theo bài ra, ta có chiều dài của đáy bể nước là $3x$. <br> Gọi $h$ là chiều cao của bể nước (đơn vị dm), điều kiện $h&gt;0$. <br> Theo giả thiết, ta có thể tích của bể nước là $1\\,152$ (dm$^3$) hay $x \\cdot 3x \\cdot h = 1\\,152 \\Rightarrow h= \\dfrac{384}{x^2}$. <br>  Vậy chiều cao của bể là $\\dfrac{384}{x^2}$ (dm).<br>- Diện tích xung quanh của bể chứa nước là $2 \\cdot (x+3x) \\cdot \\dfrac{384}{x^2}=\\dfrac{3\\,072}{x}$ (dm$^2$).<br>- Vậy, tổng diện tích cần làm của bể chứa nước là $S(x)=\\dfrac{3\\,072}{x}+3x^2$ (dm$^2$).<br>- Ta có $S'(x) = \\dfrac{-3\\,072+6x^3}{x^2}$. <br>  $S'(x)=0 \\Rightarrow x=8$.  <br><img src=\"data/12/2D1/im2D13/loc8_TT_QV1_TT1_LVT_B_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"> Từ bảng biến thiên, ta suy ra $\\min\\limits_{(0; +\\infty)} S(x)=S(8)=576$ (dm$^2$) $=5{,}76$ (m$^2$). <br> Chi phí thấp nhất là $5{,}76 \\cdot 400\\,000=2\\,304\\,000$ (đồng)."
   },
   {
     "id": "2D131DS5",

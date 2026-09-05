@@ -6,7 +6,7 @@
 window.tracNghiem0H42 = [
   {
     "id": "0H421TN1",
-    "question": "Tam giác $ABC$ có $\\widehat{B}=30^{\\circ}$, $\\widehat{C}=45^{\\circ}$ và $AB=5$. Tính độ dài cạnh $AC$.<br><img src=\"data/10/0H4/im0H42/dlts_sbh_giuakii1_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Tam giác $ABC$ có $\\widehat{B}=30^{\\circ}$, $\\widehat{C}=45^{\\circ}$ và $AB=5$. Tính độ dài cạnh $AC$.<br><img src=\"data/10/0H4/im0H42/dlts_sbh_giuakii1_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AC=\\dfrac{5\\sqrt{6}}{2}$",
       "$AC=\\dfrac{5\\sqrt{3}}{2}$",

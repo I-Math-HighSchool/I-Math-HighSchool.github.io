@@ -7,7 +7,7 @@
 window.tracNghiem1D63 = [
   {
     "id": "1D634TN1",
-    "question": "Đồ thị hình bên là đồ thị của hàm số nào trong các hàm số sau:<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS20_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hình bên là đồ thị của hàm số nào trong các hàm số sau:<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS20_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = 2^x$",
       "$y = \\log_2 x$",
@@ -79,7 +79,7 @@ window.tracNghiem1D63 = [
   },
   {
     "id": "1D634TN7",
-    "question": "Cho 3 số $a$, $b$, $c&gt;0$, $a\\ne1$, $b\\ne1$, $c\\ne1$. Đồ thị các hàm số $y=a^x$, $y=b^x$, $y=c^x$ được cho trong hình vẽ dưới. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS24_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho 3 số $a$, $b$, $c&gt;0$, $a\\ne1$, $b\\ne1$, $c\\ne1$. Đồ thị các hàm số $y=a^x$, $y=b^x$, $y=c^x$ được cho trong hình vẽ dưới. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS24_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a&lt;c&lt;b$",
       "$c&lt;a&lt;b$",
@@ -87,7 +87,7 @@ window.tracNghiem1D63 = [
       "$b&lt;c&lt;a$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS24_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta vẽ đường thẳng $x=1$ cắt các đồ thị lần lượt tại điểm có tung độ $a$, $b$ và $c$.<br>  Suy ra: $a&lt;b&lt;c$."
+    "explain": "<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS24_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta vẽ đường thẳng $x=1$ cắt các đồ thị lần lượt tại điểm có tung độ $a$, $b$ và $c$.<br>  Suy ra: $a&lt;b&lt;c$."
   },
   {
     "id": "1D632TN8",
@@ -151,7 +151,7 @@ window.tracNghiem1D63 = [
   },
   {
     "id": "1D634TN13",
-    "question": "Đường cong trong hình bên là đồ thị của một hàm số trong bốn hàm số cho ở bốn phương án $A$, $B$, $C$, $D$ dưới đây. Hỏi hàm số đó là hàm số nào?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS30_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của một hàm số trong bốn hàm số cho ở bốn phương án $A$, $B$, $C$, $D$ dưới đây. Hỏi hàm số đó là hàm số nào?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS30_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\left(\\dfrac{1}{2}\\right)^x$",
       "$y=\\log_{2}x$",
@@ -175,7 +175,7 @@ window.tracNghiem1D63 = [
   },
   {
     "id": "1D634TN15",
-    "question": "Hàm số nào dưới đây có đồ thị như trong hình vẽ bên?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS31_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào dưới đây có đồ thị như trong hình vẽ bên?<br><img src=\"data/11/1D6/im1D63/dlts_11_DLTS31_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=(\\sqrt{3})^x$",
       "$y=3^x$",
@@ -307,7 +307,7 @@ window.tracNghiem1D63 = [
   },
   {
     "id": "1D634TN20",
-    "question": "Tìm $a$ để hàm số $\\log_a x\\,(0&lt;a \\neq 1)$ có đồ thị là hình bên.<br><img src=\"data/11/1D6/im1D63/loc8_TT_THPT_AnDuong__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Tìm $a$ để hàm số $\\log_a x\\,(0&lt;a \\neq 1)$ có đồ thị là hình bên.<br><img src=\"data/11/1D6/im1D63/loc8_TT_THPT_AnDuong__006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a=2$",
       "$a=\\sqrt{2}$",

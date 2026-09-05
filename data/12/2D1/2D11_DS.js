@@ -7,7 +7,7 @@
 window.dungSai2D11 = [
   {
     "id": "2D112DS1",
-    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có đồ thì như hình vẽ dưới đây  <br><img src=\"data/12/2D1/im2D11/loc8_TT_THPT_AnDuong__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có đồ thì như hình vẽ dưới đây  <br><img src=\"data/12/2D1/im2D11/loc8_TT_THPT_AnDuong__007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$2a+3b+c=9$",

@@ -15,7 +15,7 @@ window.tracNghiem2D13 = [
       "$f(1)$"
     ],
     "answer": 2,
-    "explain": "Ta có $f'(x) = (2x-1)(x+1)(x^2 -1)$. Cho $f'(x)=0\\Leftrightarrow x=\\dfrac{1}{2} \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$<br>  Vì $x\\in[-2;1]$ nên nhận $x=\\dfrac{1}{2}$, $x=1$, $x=-1$ (nghiệm kép).<br>  Bảng biên thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số $y = f(x)$ có giá trị lớn nhất trên $[-2;1]$ bằng $f\\left(\\dfrac{1}{2}\\right)$."
+    "explain": "Ta có $f'(x) = (2x-1)(x+1)(x^2 -1)$. Cho $f'(x)=0\\Leftrightarrow x=\\dfrac{1}{2} \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$<br>  Vì $x\\in[-2;1]$ nên nhận $x=\\dfrac{1}{2}$, $x=1$, $x=-1$ (nghiệm kép).<br>  Bảng biên thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số $y = f(x)$ có giá trị lớn nhất trên $[-2;1]$ bằng $f\\left(\\dfrac{1}{2}\\right)$."
   },
   {
     "id": "2D136TN2",
@@ -43,7 +43,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN4",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2;2]$ và có đồ thị là đường cong như trong hình vẽ. Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $[-2;1]$. Giá trị của $M$ và $m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2;2]$ và có đồ thị là đường cong như trong hình vẽ. Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $[-2;1]$. Giá trị của $M$ và $m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$M=4; m=-4$",
       "$M=2; m=-2$",
@@ -55,7 +55,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN5",
-    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-2 ; 2]$ có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số trên đoạn $[-2 ; 2]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-2 ; 2]$ có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số trên đoạn $[-2 ; 2]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$1$",
@@ -67,7 +67,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN6",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $\\left[-2;2\\right]$ và có đồ thị như hình bên. Gọi $M$, $m$ lần lượt là giá trị lớn nhất, giá trị nhỏ nhất của hàm số đã đoạn $[-2;2]$ . Giá trị của $M-m$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $\\left[-2;2\\right]$ và có đồ thị như hình bên. Gọi $M$, $m$ lần lượt là giá trị lớn nhất, giá trị nhỏ nhất của hàm số đã đoạn $[-2;2]$ . Giá trị của $M-m$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$-3$",
@@ -79,7 +79,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN7",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đạt giá trị lớn nhất trên khoảng $\\left(-\\infty ;2\\right)$ tại điểm",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đạt giá trị lớn nhất trên khoảng $\\left(-\\infty ;2\\right)$ tại điểm",
     "options": [
       "$x=2$",
       "$x=11$",
@@ -91,7 +91,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN8",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số đã cho trên đoạn $[-1;3]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số đã cho trên đoạn $[-1;3]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$-2$",
@@ -127,7 +127,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN11",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình bên dưới  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị nhỏ nhất của hàm số bằng",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình bên dưới  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị nhỏ nhất của hàm số bằng",
     "options": [
       "$-7$",
       "$9$",
@@ -151,7 +151,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN13",
-    "question": "Quan sát hình và chọn khẳng định đúng.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[0;4]$ trong hình là",
+    "question": "Quan sát hình và chọn khẳng định đúng.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[0;4]$ trong hình là",
     "options": [
       "$-2$",
       "$0$",
@@ -175,7 +175,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN15",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của hàm số trên đoạn $[0; 2]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của hàm số trên đoạn $[0; 2]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$2$",
       "$0$",
@@ -211,7 +211,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN18",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1;5]$ và có đồ thị như hình vẽ bên.  Trên đoạn $[1;5]$ hàm số đã cho có giá trị lớn nhất tại điểm<br><img src=\"data/12/2D1/im2D1/2D13_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1;5]$ và có đồ thị như hình vẽ bên.  Trên đoạn $[1;5]$ hàm số đã cho có giá trị lớn nhất tại điểm<br><img src=\"data/12/2D1/im2D1/2D13_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=1$",
       "$x=5$",
@@ -235,7 +235,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN20",
-    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $[-\\sqrt{3};\\sqrt{5}]$ và có bảng biến thiên như hình vẽ.   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
+    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $[-\\sqrt{3};\\sqrt{5}]$ và có bảng biến thiên như hình vẽ.   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
     "options": [
       "$\\min\\limits_{[-\\sqrt{3};\\sqrt{5}]}y=0$",
       "$\\max\\limits_{[-\\sqrt{3};\\sqrt{5}]}y=2\\sqrt{5}$",
@@ -247,7 +247,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN21",
-    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $(-4;4)$ và có bảng biến thiên trên $(-4;4)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $(-4;4)$ và có bảng biến thiên trên $(-4;4)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
     "options": [
       "Hàm số không có GTLN, GTNN trên $(-4;4)$",
       "$\\max\\limits_{(-4;4)} y=0$ và $\\max\\limits_{(-4;4)} y=-4$",
@@ -271,7 +271,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN23",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[-1;3]$. Ta có giá trị của $M+2m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[-1;3]$. Ta có giá trị của $M+2m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$M+2m=3$",
       "$M+2m=4$",
@@ -283,7 +283,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN24",
-    "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y = f(x)$ trên đoạn $[-2; 2]$.",
+    "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y = f(x)$ trên đoạn $[-2; 2]$.",
     "options": [
       "$m = -5$; $M = -1$",
       "$m = -2$; $M = 2$",
@@ -315,7 +315,7 @@ window.tracNghiem2D13 = [
       "$-1$"
     ],
     "answer": 3,
-    "explain": "Tập xác định của hàm số là $\\mathscr{D}=(0;+\\infty)$.<br>  Ta có $y^{\\prime}=\\dfrac{1-\\ln x}{x^2}$.<br>  $y^{\\prime}=0 \\Leftrightarrow \\ln x=1 \\Leftrightarrow x=\\mathrm{e}$.<br>  Bảng biến thiên của hàm số đã cho trên nửa khoảng $[1;\\mathrm{e}^2)$ là  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên suy ra $m=0$ và $M=\\dfrac{1}{\\mathrm{e}}$.<br>  Vậy $\\ln (M+m) = -1$."
+    "explain": "Tập xác định của hàm số là $\\mathscr{D}=(0;+\\infty)$.<br>  Ta có $y^{\\prime}=\\dfrac{1-\\ln x}{x^2}$.<br>  $y^{\\prime}=0 \\Leftrightarrow \\ln x=1 \\Leftrightarrow x=\\mathrm{e}$.<br>  Bảng biến thiên của hàm số đã cho trên nửa khoảng $[1;\\mathrm{e}^2)$ là  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên suy ra $m=0$ và $M=\\dfrac{1}{\\mathrm{e}}$.<br>  Vậy $\\ln (M+m) = -1$."
   },
   {
     "id": "2D136TN27",
@@ -331,7 +331,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN28",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên. Gọi $M,m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên đoạn $[-1;3]$. Giá trị của $M+m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên. Gọi $M,m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên đoạn $[-1;3]$. Giá trị của $M+m$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-5$",
       "$-2$",
@@ -391,7 +391,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN33",
-    "question": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên trên đoạn $[-3;3]$ như hình.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$ là giá trị lớn nhất của hàm số $y=f(x)$ trên đoạn $[-3;3]$. Mệnh đề nào dưới đây là mệnh đề đúng?",
+    "question": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên trên đoạn $[-3;3]$ như hình.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$ là giá trị lớn nhất của hàm số $y=f(x)$ trên đoạn $[-3;3]$. Mệnh đề nào dưới đây là mệnh đề đúng?",
     "options": [
       "$M=f(2)$",
       "$M=f(0)$",
@@ -403,7 +403,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D136TN34",
-    "question": "Một doanh nghiệp sản xuất và bán $x$ chiếc máy xay sinh tố hằng tháng (với $x \\in \\mathbb{N}^*$) thì lợi nhuận thu được (đơn vị: nghìn đồng) được mô tả bởi hàm số $\\mathrm{P}(x)$. Hàm số $\\mathrm{P}(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_059.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi hằng tháng lợi nhuận lớn nhất mà doanh nghiệp có thể thu được là bao nhiêu?",
+    "question": "Một doanh nghiệp sản xuất và bán $x$ chiếc máy xay sinh tố hằng tháng (với $x \\in \\mathbb{N}^*$) thì lợi nhuận thu được (đơn vị: nghìn đồng) được mô tả bởi hàm số $\\mathrm{P}(x)$. Hàm số $\\mathrm{P}(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_059.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi hằng tháng lợi nhuận lớn nhất mà doanh nghiệp có thể thu được là bao nhiêu?",
     "options": [
       "$100$ triệu đồng",
       "$48$ triệu đồng",
@@ -415,7 +415,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN35",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $[-2 ; 4]$ và có đồ thị là đường cong như hình bên dưới.  Giá trị nhỏ nhất của hàm số đã cho trên đoạn $[-2; 4]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_060.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $[-2 ; 4]$ và có đồ thị là đường cong như hình bên dưới.  Giá trị nhỏ nhất của hàm số đã cho trên đoạn $[-2; 4]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_060.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$2$",
       "$6$",
@@ -427,7 +427,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN36",
-    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên. Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên $[-1;3]$. Giá trị của $M-m$ bằng?<br><img src=\"data/12/2D1/im2D1/2D13_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên. Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên $[-1;3]$. Giá trị của $M-m$ bằng?<br><img src=\"data/12/2D1/im2D1/2D13_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$3$",
@@ -439,7 +439,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D136TN37",
-    "question": "Lợi nhuận trước thuế theo quý của công ty X được cho bởi biểu đồ sau đây. Từ quý I năm $2021$ đến quý III năm $2022$, lợi nhuận trước thuế theo quý của công ty X đạt giá trị lớn nhất bằng bao nhiêu tỷ đồng?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Lợi nhuận trước thuế theo quý của công ty X được cho bởi biểu đồ sau đây. Từ quý I năm $2021$ đến quý III năm $2022$, lợi nhuận trước thuế theo quý của công ty X đạt giá trị lớn nhất bằng bao nhiêu tỷ đồng?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$270$",
       "$60$",
@@ -451,7 +451,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN38",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\left[-2; 4\\right]$ có đồ thị như hình vẽ sau. Giá trị lớn nhất hàm số $y=f(x)$ trên đoạn $\\left[-2; 4\\right]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\left[-2; 4\\right]$ có đồ thị như hình vẽ sau. Giá trị lớn nhất hàm số $y=f(x)$ trên đoạn $\\left[-2; 4\\right]$ là<br><img src=\"data/12/2D1/im2D1/2D13_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$2$",
@@ -463,7 +463,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN39",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên trền $[-5 ; 7)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_079.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào đưới đây đúng?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên trền $[-5 ; 7)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_079.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào đưới đây đúng?",
     "options": [
       "$\\min\\limits_{(-5 ; 7)} f(x)=6$",
       "$\\min\\limits_{(-5 ; 7)} f(x)=2$",
@@ -483,7 +483,7 @@ window.tracNghiem2D13 = [
       "$2$"
     ],
     "answer": 2,
-    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br> Ta có $f'(x)=\\dfrac{-x^2+1}{\\left(x^2+1\\right)^2}=0 \\Leftrightarrow -x^2+1=0 \\Leftrightarrow x=1 \\in (0;+\\infty) \\text{ hoặc } x=-1 \\notin (0;+\\infty) $.<br> Ta có bảng biến thiên sau <br><img src=\"data/12/2D1/im2D1/2D13_tikz_080.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Do đó, giá trị lớn nhất của hàm số trên nửa khoảng $(0;+\\infty)$ bằng $\\dfrac{1}{2}$ khi $x=1$."
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br> Ta có $f'(x)=\\dfrac{-x^2+1}{\\left(x^2+1\\right)^2}=0 \\Leftrightarrow -x^2+1=0 \\Leftrightarrow x=1 \\in (0;+\\infty) \\text{ hoặc } x=-1 \\notin (0;+\\infty) $.<br> Ta có bảng biến thiên sau <br><img src=\"data/12/2D1/im2D1/2D13_tikz_080.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"> Do đó, giá trị lớn nhất của hàm số trên nửa khoảng $(0;+\\infty)$ bằng $\\dfrac{1}{2}$ khi $x=1$."
   },
   {
     "id": "2D131TN41",
@@ -499,7 +499,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN42",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của $y=f(x)$ trên đoạn $[-3;3]$ đạt được tại<br><img src=\"data/12/2D1/im2D1/2D13_tikz_082.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của $y=f(x)$ trên đoạn $[-3;3]$ đạt được tại<br><img src=\"data/12/2D1/im2D1/2D13_tikz_082.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=3$",
       "$x=2$",
@@ -535,7 +535,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN45",
-    "question": "Cho hàm số $f(x)$ có đồ thị trên đoạn $[-3;3]$ như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[-3;3]$ là",
+    "question": "Cho hàm số $f(x)$ có đồ thị trên đoạn $[-3;3]$ như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[-3;3]$ là",
     "options": [
       "$2$",
       "$3$",
@@ -559,7 +559,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN47",
-    "question": "Hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_095.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[0;3]$. Tính giá trị $M-m$.",
+    "question": "Hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_095.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[0;3]$. Tính giá trị $M-m$.",
     "options": [
       "$M-m=4$",
       "$M-m=5$",
@@ -571,7 +571,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN48",
-    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số đã cho trên đoạn $[-1;3]$ bằng  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Giá trị lớn nhất của hàm số đã cho trên đoạn $[-1;3]$ bằng  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$0$",
@@ -583,7 +583,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN49",
-    "question": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên trên đoạn $[-1;3]$ như sau. Khẳng định nào sau đây là đúng?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên trên đoạn $[-1;3]$ như sau. Khẳng định nào sau đây là đúng?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\max\\limits_{[-1;3]} f(x) = f(0)$",
       "$\\max\\limits_{[-1;3]} f(x) = f(2)$",
@@ -595,7 +595,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN50",
-    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $\\left[-\\sqrt{3}; \\sqrt{5}\\right]$ và có bảng biến thiên như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_101.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
+    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $\\left[-\\sqrt{3}; \\sqrt{5}\\right]$ và có bảng biến thiên như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_101.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
     "options": [
       "$\\min \\limits_{\\left[-\\sqrt{3}; \\sqrt{5}\\right]} y=0$",
       "$\\min \\limits_{\\left[-\\sqrt{3}; \\sqrt{5}\\right]} y=1$",
@@ -639,11 +639,11 @@ window.tracNghiem2D13 = [
       "$6$\\,(m/s)"
     ],
     "answer": 0,
-    "explain": "Ta có $v(t)=s'(t)=12t-3t^2$.<br>  Xét hàm số $f(t)=12t-3t^2$ với $0\\le t \\le 4 $.<br>  Ta có $f'(t)=12-6t$.<br> Suy ra $f'(t)=0\\Leftrightarrow t=2\\in [0;4] $.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có $\\max\\limits_{t\\in[0;4] } f(t)=f(2)=12$. <br>  Vậy trong khoảng từ $0$ giây đến $4$ giây vận tốc $v(t)$ của chất điểm đạt giá trị lớn nhất bằng $12$\\,(m/s)."
+    "explain": "Ta có $v(t)=s'(t)=12t-3t^2$.<br>  Xét hàm số $f(t)=12t-3t^2$ với $0\\le t \\le 4 $.<br>  Ta có $f'(t)=12-6t$.<br> Suy ra $f'(t)=0\\Leftrightarrow t=2\\in [0;4] $.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có $\\max\\limits_{t\\in[0;4] } f(t)=f(2)=12$. <br>  Vậy trong khoảng từ $0$ giây đến $4$ giây vận tốc $v(t)$ của chất điểm đạt giá trị lớn nhất bằng $12$\\,(m/s)."
   },
   {
     "id": "2D131TN54",
-    "question": "Cho hàm số $f(x)$ liên tục trên $[-1; 5]$ và có đồ thị trên đoạn $[-1; 5]$ như hình vẽ. Tổng giá trị lớn nhất và giả trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[0; 5]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_110.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên $[-1; 5]$ và có đồ thị trên đoạn $[-1; 5]$ như hình vẽ. Tổng giá trị lớn nhất và giả trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[0; 5]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_110.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-1$",
       "$1$",
@@ -679,7 +679,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN57",
-    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-3;5]$ và có đồ thị như hình vẽ bên. Giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[-3;5]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_114.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-3;5]$ và có đồ thị như hình vẽ bên. Giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[-3;5]$ bằng<br><img src=\"data/12/2D1/im2D1/2D13_tikz_114.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$2$",
@@ -715,7 +715,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN60",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_119.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đạt giá trị nhỏ nhất trên đoạn $[-1;1]$ tại",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_119.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đạt giá trị nhỏ nhất trên đoạn $[-1;1]$ tại",
     "options": [
       "$x=1$",
       "$x=-1$",
@@ -727,7 +727,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D136TN61",
-    "question": "Một vật chuyển động với vận tốc biểu thị qua biểu thức $v=f(t)$ có bảng biến thiên như hình vẽ (với $t$ là khoảng thời gian tính từ lúc vật bắt đầu chuyển động). Hỏi trong khoảng thời gian $10$ giây kể từ lúc bắt đầu chuyển động, vật có vận tốc nhỏ nhất khi $t$ bằng bao nhiêu?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_120.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một vật chuyển động với vận tốc biểu thị qua biểu thức $v=f(t)$ có bảng biến thiên như hình vẽ (với $t$ là khoảng thời gian tính từ lúc vật bắt đầu chuyển động). Hỏi trong khoảng thời gian $10$ giây kể từ lúc bắt đầu chuyển động, vật có vận tốc nhỏ nhất khi $t$ bằng bao nhiêu?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_120.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$0$ (s)",
       "$9$ (s)",
@@ -739,7 +739,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN62",
-    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên dưới.   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_121.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên đoạn $[-1;3]$. Giá trị của $M + 2m$ bằng",
+    "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ bên dưới.   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_121.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên đoạn $[-1;3]$. Giá trị của $M + 2m$ bằng",
     "options": [
       "$-1$",
       "$1$",
@@ -759,11 +759,11 @@ window.tracNghiem2D13 = [
       "$y=2\\,025$"
     ],
     "answer": 3,
-    "explain": "Tập xác định $\\mathscr{D} =\\mathbb{R}$.<br>  Ta có $y = -x^4 + 8x^2 +2\\,025$<br>  Đạo hàm $y' = -4x^3 + 16x=0$<br>  Xét y'=0<br>  $\\Leftrightarrow -4x=0 \\text{ hoặc } x^2 -4 =0$<br>  $\\Leftrightarrow x=0 \\text{ hoặc } x =2 \\text{ hoặc } x=-2$.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_122.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị cực tiểu của hàm số là $y = 2\\,025$."
+    "explain": "Tập xác định $\\mathscr{D} =\\mathbb{R}$.<br>  Ta có $y = -x^4 + 8x^2 +2\\,025$<br>  Đạo hàm $y' = -4x^3 + 16x=0$<br>  Xét y'=0<br>  $\\Leftrightarrow -4x=0 \\text{ hoặc } x^2 -4 =0$<br>  $\\Leftrightarrow x=0 \\text{ hoặc } x =2 \\text{ hoặc } x=-2$.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_122.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị cực tiểu của hàm số là $y = 2\\,025$."
   },
   {
     "id": "2D131TN64",
-    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên. Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y=f(x)$ trên đoạn $[-2;2]$.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_123.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên. Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y=f(x)$ trên đoạn $[-2;2]$.<br><img src=\"data/12/2D1/im2D1/2D13_tikz_123.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$m=-2; M=2$",
       "$m=-5; M=0$",
@@ -787,7 +787,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN66",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_124.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trên khoảng $(0,+\\infty)$, giá trị lớn nhất của hàm số đã cho bằng",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_124.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Trên khoảng $(0,+\\infty)$, giá trị lớn nhất của hàm số đã cho bằng",
     "options": [
       "$3$",
       "$-2$",
@@ -795,11 +795,11 @@ window.tracNghiem2D13 = [
       "$2$"
     ],
     "answer": 0,
-    "explain": "Từ bảng biến thiên, ta có $\\lim\\limits_{x\\to 0^+}=a&lt;3$, $\\lim\\limits_{x\\to+\\infty}=-\\infty$.<br>  Ta có bảng biến thiên của hàm số trên khoảng $(0;+\\infty)$  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_125.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên trên khoảng $(0;+\\infty)$, hàm số đạt giá trị lớn nhất bằng $3$ tại $x=2$."
+    "explain": "Từ bảng biến thiên, ta có $\\lim\\limits_{x\\to 0^+}=a&lt;3$, $\\lim\\limits_{x\\to+\\infty}=-\\infty$.<br>  Ta có bảng biến thiên của hàm số trên khoảng $(0;+\\infty)$  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_125.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên trên khoảng $(0;+\\infty)$, hàm số đạt giá trị lớn nhất bằng $3$ tại $x=2$."
   },
   {
     "id": "2D131TN67",
-    "question": "Cho hàm số $y=f(x)$ xác định, liên tục trên $\\left[-1; \\dfrac{5}{2}\\right]$ và có đồ thị là đường cong như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_126.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $f(x)$ trên $\\left[-1; \\dfrac{5}{2}\\right]$ là",
+    "question": "Cho hàm số $y=f(x)$ xác định, liên tục trên $\\left[-1; \\dfrac{5}{2}\\right]$ và có đồ thị là đường cong như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_126.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $f(x)$ trên $\\left[-1; \\dfrac{5}{2}\\right]$ là",
     "options": [
       "$M=4; m=1$",
       "$M=4; m=-1$",
@@ -855,7 +855,7 @@ window.tracNghiem2D13 = [
       "$2$ giờ"
     ],
     "answer": 1,
-    "explain": "Xét hàm số $ c(t)=\\dfrac{t}{t^2+1}$, $ (t &gt; 0)$ có  $ c'(t)=\\dfrac{1-t^2}{\\left(t^2+1\\right)^2}$.<br>  $ c'(t)=0\\Leftrightarrow t=1 \\in\\left(0;\\,+\\infty\\right) \\text{ hoặc } t=-1\\notin\\left(0;\\,+\\infty\\right).$  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS1_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy với $ t=1$ giờ thì nồng độ thuốc trong máu của bệnh nhân cao nhất."
+    "explain": "Xét hàm số $ c(t)=\\dfrac{t}{t^2+1}$, $ (t &gt; 0)$ có  $ c'(t)=\\dfrac{1-t^2}{\\left(t^2+1\\right)^2}$.<br>  $ c'(t)=0\\Leftrightarrow t=1 \\in\\left(0;\\,+\\infty\\right) \\text{ hoặc } t=-1\\notin\\left(0;\\,+\\infty\\right).$  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS1_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy với $ t=1$ giờ thì nồng độ thuốc trong máu của bệnh nhân cao nhất."
   },
   {
     "id": "2D136TN72",
@@ -867,7 +867,7 @@ window.tracNghiem2D13 = [
       "$22\\,125\\,000$"
     ],
     "answer": 0,
-    "explain": "Doanh thu  $  R(x) = x \\cdot y = -\\dfrac{1}{50}x^2 + 1\\,300 x.  $  Đạo hàm của $R(x)$  $  R'(x) = -\\dfrac{1}{25}x+1\\,300.  $  Cho $R'(x) = 0$, ta được  $  -\\dfrac{1}{25}x+1\\,300 = 0  \\Leftrightarrow  x = 32\\,500.  $  Bảng biến thiên của $R(x)$  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS15_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ đó, ta thấy doanh thu cao nhất là $21\\,125\\,000$ đồng."
+    "explain": "Doanh thu  $  R(x) = x \\cdot y = -\\dfrac{1}{50}x^2 + 1\\,300 x.  $  Đạo hàm của $R(x)$  $  R'(x) = -\\dfrac{1}{25}x+1\\,300.  $  Cho $R'(x) = 0$, ta được  $  -\\dfrac{1}{25}x+1\\,300 = 0  \\Leftrightarrow  x = 32\\,500.  $  Bảng biến thiên của $R(x)$  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS15_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ đó, ta thấy doanh thu cao nhất là $21\\,125\\,000$ đồng."
   },
   {
     "id": "2D136TN73",
@@ -883,7 +883,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN74",
-    "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên. Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y = f(x)$ trên đoạn $[-2; 2]$.<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ bên. Tìm giá trị nhỏ nhất $m$ và giá trị lớn nhất $M$ của hàm số $y = f(x)$ trên đoạn $[-2; 2]$.<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$m = -5$; $M = -1$",
       "$m = -2$; $M = 2$",
@@ -903,7 +903,7 @@ window.tracNghiem2D13 = [
       "$3$"
     ],
     "answer": 1,
-    "explain": "Ta có $f’(x)=3x^2-12x+9$, $f’(x)=0\\Leftrightarrow x=1\\in[-1;+\\infty) \\text{ hoặc } x=3\\in[-1;+\\infty).$ <br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS3_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy $\\min\\limits_{[-1;+\\infty)} f(x)=f(-1)=-17$."
+    "explain": "Ta có $f’(x)=3x^2-12x+9$, $f’(x)=0\\Leftrightarrow x=1\\in[-1;+\\infty) \\text{ hoặc } x=3\\in[-1;+\\infty).$ <br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS3_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy $\\min\\limits_{[-1;+\\infty)} f(x)=f(-1)=-17$."
   },
   {
     "id": "2D131TN76",
@@ -919,7 +919,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D132TN77",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình bên   Giá trị nhỏ nhất của hàm số bằng<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS8_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình bên   Giá trị nhỏ nhất của hàm số bằng<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS8_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-7$",
       "$9$",
@@ -939,7 +939,7 @@ window.tracNghiem2D13 = [
       "$240$ USD"
     ],
     "answer": 0,
-    "explain": "Lãi mỗi đôi giày là $x-40$ đôla $(40\\le x\\le 120)$.<br>   Tiền lãi khi bán được $\\left(120-x\\right)$ đôi giày là $f(x)=\\left(x-40\\right)\\cdot \\left(120-x\\right)=-x^2+160x-4800.$   Ta có $f'(x)=-2x+160$.<br>  $f'(x)=0\\Leftrightarrow-2x+160=0\\Leftrightarrow x=80$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy cửa hàng cần bán giày với giá $80$ USD một đôi thì thu được nhiều lãi nhất."
+    "explain": "Lãi mỗi đôi giày là $x-40$ đôla $(40\\le x\\le 120)$.<br>   Tiền lãi khi bán được $\\left(120-x\\right)$ đôi giày là $f(x)=\\left(x-40\\right)\\cdot \\left(120-x\\right)=-x^2+160x-4800.$   Ta có $f'(x)=-2x+160$.<br>  $f'(x)=0\\Leftrightarrow-2x+160=0\\Leftrightarrow x=80$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy cửa hàng cần bán giày với giá $80$ USD một đôi thì thu được nhiều lãi nhất."
   },
   {
     "id": "2D131TN77",
@@ -955,7 +955,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN78",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Gọi $M$ và $m$ lần  lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên $[-1;3]$. Tính giá trị $M-m$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Gọi $M$ và $m$ lần  lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên $[-1;3]$. Tính giá trị $M-m$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$4$",
       "$0$",
@@ -979,7 +979,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D132TN6",
-    "question": "Bạn Nga có một tấm bìa hình vuông cạnh $20$ cm. Bạn muốn cắt ở mỗi góc một hình  vuông nhỏ để gấp và dán lại thành một cái hộp đựng đồ dùng học tập không có nắp (mép dán không đáng kể).  Để cái hộp có thể tích lớn nhất thì hình vuông nhỏ cắt đi có độ dài cạnh là  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bạn Nga có một tấm bìa hình vuông cạnh $20$ cm. Bạn muốn cắt ở mỗi góc một hình  vuông nhỏ để gấp và dán lại thành một cái hộp đựng đồ dùng học tập không có nắp (mép dán không đáng kể).  Để cái hộp có thể tích lớn nhất thì hình vuông nhỏ cắt đi có độ dài cạnh là  <br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_008.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_009.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>",
     "options": [
       "$20$ cm",
       "$\\dfrac{10}{3}$ cm",
@@ -987,11 +987,11 @@ window.tracNghiem2D13 = [
       "$10$ cm"
     ],
     "answer": 1,
-    "explain": "Gọi $ x $ là cạnh hình vuông bị cắt ($ 0\\le x\\le 10 $).<br>  Khi đó thể tích của khối hình chữ nhật tạo thành là   \\[V(x)=x\\cdot \\left(20-2x\\right)^2= 4x^3-80x^2+400x.\\]  Suy ra $V'(x)=12 x^2-160 x+400$; $ V'(x)=0\\Leftrightarrow x=10 \\text{ hoặc } x=\\dfrac{10}{3}. $<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy thể tích khối hộp chữ nhật lớn nhất khi cạnh hình vuông bị cắt là $\\dfrac{10}{3}$ cm."
+    "explain": "Gọi $ x $ là cạnh hình vuông bị cắt ($ 0\\le x\\le 10 $).<br>  Khi đó thể tích của khối hình chữ nhật tạo thành là   \\[V(x)=x\\cdot \\left(20-2x\\right)^2= 4x^3-80x^2+400x.\\]  Suy ra $V'(x)=12 x^2-160 x+400$; $ V'(x)=0\\Leftrightarrow x=10 \\text{ hoặc } x=\\dfrac{10}{3}. $<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy thể tích khối hộp chữ nhật lớn nhất khi cạnh hình vuông bị cắt là $\\dfrac{10}{3}$ cm."
   },
   {
     "id": "2D131TN80",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-3; 2]$ đạt được tại $x$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_Lien_cap_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-3; 2]$ đạt được tại $x$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_Lien_cap_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$4$",
       "$2$",
@@ -1027,7 +1027,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN82",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1;5]$ và có đồ thị như hình vẽ bên. Trên đoạn $[1;5]$, hàm số đã cho đạt giá trị lớn nhất tại điểm<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_NguyenVi_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1;5]$ và có đồ thị như hình vẽ bên. Trên đoạn $[1;5]$, hàm số đã cho đạt giá trị lớn nhất tại điểm<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_NguyenVi_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=4$",
       "$x=2$",

@@ -30,7 +30,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN1",
-    "question": "Bất phương trình bậc nhất hai ẩn nào có miền nghiệm như hình vẽ dưới đây (phần không tô đậm, kể cả đường thẳng)?  <br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bất phương trình bậc nhất hai ẩn nào có miền nghiệm như hình vẽ dưới đây (phần không tô đậm, kể cả đường thẳng)?  <br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3 x+2 y&gt;300$",
       "$3 x+2 y \\leq 300$",
@@ -78,7 +78,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN3",
-    "question": "Phần không gạch chéo ở hình sau đây là biểu diễn miền nghiệm của hệ bất phương trình nào trong bốn hệ $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}$?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần không gạch chéo ở hình sau đây là biểu diễn miền nghiệm của hệ bất phương trình nào trong bốn hệ $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}$?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\left\\{\\begin{array}{l}y>0 \\\\ 3 x+2 y<6\\end{array}\\right.$",
       "$\\left\\{\\begin{array}{l}y>0 \\\\ 3 x+2 y<-6\\end{array}\\right.$",
@@ -210,7 +210,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN14",
-    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ dưới đây (không kể đường thẳng), biểu diễn tập nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  \\def\\dotEX{}<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ dưới đây (không kể đường thẳng), biểu diễn tập nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  \\def\\dotEX{}<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-2x+3y \\leq 12 \\text{ và } 2x+y \\geq -4.$",
       "$2x-3y &gt; -12 \\text{ và } 2x+y &gt; -4.$",
@@ -222,7 +222,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN15",
-    "question": "Phần không gạch chéo ở hình sau đây là biểu diễn miền nghiệm của hệ bất phương trình nào trong bốn đáp án dưới đây?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần không gạch chéo ở hình sau đây là biểu diễn miền nghiệm của hệ bất phương trình nào trong bốn đáp án dưới đây?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x&gt;0 \\text{ và } 3x+2y&lt;6$",
       "$y&gt;0 \\text{ và } 3x+2y&lt;-6$",
@@ -234,7 +234,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN16",
-    "question": "Phần không tô đậm trong hình vẽ bên (không kể bờ) là hình biểu diễn miền nghiệm của hệ bất phương trình nào dưới đây?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_023.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần không tô đậm trong hình vẽ bên (không kể bờ) là hình biểu diễn miền nghiệm của hệ bất phương trình nào dưới đây?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_023.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x-2y &lt;-2 \\text{ và } x-2y &gt; 3$",
       "$x-2y &gt;-2 \\text{ và } x-2y &gt; 3$",
@@ -338,7 +338,7 @@ window.tracNghiem0D22 = [
       "$S_2\\neq S$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> $x-\\dfrac{3}{5}y&lt;5\\quad (1) \\text{ và } 5x-3y&lt;20\\quad (2)$ $\\Leftrightarrow5x-3y&lt;25\\quad (1) \\text{ và } 5x-3y&lt;20\\quad (2')$<br> Từ miền nghiệm trên suy ra $S_2\\subset S_1$ và $S_2=S$"
+    "explain": "<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_027.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"> $x-\\dfrac{3}{5}y&lt;5\\quad (1) \\text{ và } 5x-3y&lt;20\\quad (2)$ $\\Leftrightarrow5x-3y&lt;25\\quad (1) \\text{ và } 5x-3y&lt;20\\quad (2')$<br> Từ miền nghiệm trên suy ra $S_2\\subset S_1$ và $S_2=S$"
   },
   {
     "id": "0D223TN1",
@@ -534,7 +534,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN29",
-    "question": "Đường thẳng $\\Delta $ chia mặt phẳng toạ độ $Oxy$ làm hai miền. Miền không tô đậm (không kể $\\Delta $) ở hình vẽ dưới đây là miền nghiệm của bất phương trình nào?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường thẳng $\\Delta $ chia mặt phẳng toạ độ $Oxy$ làm hai miền. Miền không tô đậm (không kể $\\Delta $) ở hình vẽ dưới đây là miền nghiệm của bất phương trình nào?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ x+y+2\\ge 0$",
       "$ x-y+2\\le 0$",
@@ -570,7 +570,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN30",
-    "question": "Phần <strong>không tô đậm</strong> trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  \\def\\dotEX{}",
+    "question": "Phần <strong>không tô đậm</strong> trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  \\def\\dotEX{}",
     "options": [
       "$x-y\\ge 0 \\text{ và } 2x-y\\ge 1.$",
       "$x-y&lt;0 \\text{ và } 2x-3y&gt;1.$",

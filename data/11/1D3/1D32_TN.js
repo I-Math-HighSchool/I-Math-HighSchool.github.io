@@ -139,7 +139,7 @@ window.tracNghiem1D32 = [
   },
   {
     "id": "1D324TN1",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên.  Khi đó, $\\lim\\limits_{x \\to+\\infty} f(x)$ bằng<br><img src=\"data/11/1D3/im1D32/loc8_TT_THPT_AnDuong__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên.  Khi đó, $\\lim\\limits_{x \\to+\\infty} f(x)$ bằng<br><img src=\"data/11/1D3/im1D32/loc8_TT_THPT_AnDuong__004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-\\infty$",
       "$+\\infty$",

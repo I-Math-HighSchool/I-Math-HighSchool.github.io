@@ -6,7 +6,7 @@
 window.dungSai0D64 = [
   {
     "id": "0D642DS1",
-    "question": "Cuối học kì 1 vừa qua, bạn An đạt được kết quả sáu môn như sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Cuối học kì 1 vừa qua, bạn An đạt được kết quả sáu môn như sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Điểm trung bình các môn thi học kì của bạn An là $7{,}0 $",
@@ -25,11 +25,11 @@ window.dungSai0D64 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Điểm trung bình các môn học kì 1 của bạn An là  $\\bar{x}=\\dfrac{7{,}2+8{,}0+5{,}8+7{,}2+9{,}0+4{,}6}{6}\\approx 7{,}0$. Suy ra mệnh đề đúng.<br>- Điểm trung bình các môn học kì 1 của bạn An là $\\bar{x}=\\dfrac{7{,}2+8{,}0+5{,}8+7{,}2+9{,}0+4{,}6}{6}\\approx 7{,}0$. Suy ra mệnh đề sai.<br>- Điểm số cao nhất là $9{,}0 $. Điểm số thấp nhất là $4{,}6$. Khoảng biến thiên $R=9-4{,}6=4{,}4$. Suy ra mệnh đề sai.<br>- Sắp xếp các điểm theo thứ tự không giảm  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Trung vị $M_e=\\dfrac{7{,}2+7{,}2}{2}=7{,}2$.<br>  Nửa số liệu bên trải $Q_2$ là $4{,}6$, $5{,}8$, $7{,}2$. Suy ra $Q_1=5{,}8$.<br>   Nửa số liệu bên phải $Q_2$ là $7{,}2$, $8$, $9$. Suy ra $Q_3=8$.<br>  Khoảng tứ phân vị $\\Delta_0=Q_3-Q_1=8-5{,}8=2{,}2$. Suy ra mệnh đề đúng."
+    "explain": "<br>- Điểm trung bình các môn học kì 1 của bạn An là  $\\bar{x}=\\dfrac{7{,}2+8{,}0+5{,}8+7{,}2+9{,}0+4{,}6}{6}\\approx 7{,}0$. Suy ra mệnh đề đúng.<br>- Điểm trung bình các môn học kì 1 của bạn An là $\\bar{x}=\\dfrac{7{,}2+8{,}0+5{,}8+7{,}2+9{,}0+4{,}6}{6}\\approx 7{,}0$. Suy ra mệnh đề sai.<br>- Điểm số cao nhất là $9{,}0 $. Điểm số thấp nhất là $4{,}6$. Khoảng biến thiên $R=9-4{,}6=4{,}4$. Suy ra mệnh đề sai.<br>- Sắp xếp các điểm theo thứ tự không giảm  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Trung vị $M_e=\\dfrac{7{,}2+7{,}2}{2}=7{,}2$.<br>  Nửa số liệu bên trải $Q_2$ là $4{,}6$, $5{,}8$, $7{,}2$. Suy ra $Q_1=5{,}8$.<br>   Nửa số liệu bên phải $Q_2$ là $7{,}2$, $8$, $9$. Suy ra $Q_3=8$.<br>  Khoảng tứ phân vị $\\Delta_0=Q_3-Q_1=8-5{,}8=2{,}2$. Suy ra mệnh đề đúng."
   },
   {
     "id": "0D644DS2",
-    "question": "Hai xạ thủ $A$ và $B$ mỗi xạ thủ bắn $10$ phát đạn. Kết quả được thể hiện trong bảng sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Hai xạ thủ $A$ và $B$ mỗi xạ thủ bắn $10$ phát đạn. Kết quả được thể hiện trong bảng sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Điểm thấp nhất của xạ thủ $A$ là $6 $",
@@ -52,7 +52,7 @@ window.dungSai0D64 = [
   },
   {
     "id": "0D644DS3",
-    "question": "Mẫu số liệu sau đây cho biết chiều cao của 10 học $\\sinh$ (đơn vị cm)  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Mẫu số liệu sau đây cho biết chiều cao của 10 học $\\sinh$ (đơn vị cm)  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Chiều cao trung bình của 10 học sinh là $157{,}6$",
@@ -71,7 +71,7 @@ window.dungSai0D64 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Chiều cao trung bình của 10 học sinh là $\\bar{x}=<u>165+155+160+145+157+162+148+170+172+152</u>=158{,}6.$   Suy ra mệnh đề sai.<br>- Số liệu lớn nhất là $172$.   Số liệu nhỏ nhất là $145 $.<br>  Khoảng biến thiên của mẫu số liệu là $R=172-145=27$. Suy ra mệnh đề đúng.<br>- Sắp xếp các số liệu theo thứ tư không giảm  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $Q_2=M_e=\\dfrac{157+160}{2}=158{,}5$.<br>  $Q_1=152$.<br>  $Q_3=165$.<br>  Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=165-152=13$. Suy ra mệnh đề đúng.<br>- Phương sai của mẫu số liệu trên là  $s^2=\\dfrac{\\left(x_1-\\bar{x}\\right)^2+\\left(x_2-\\bar{x}\\right)^2+\\cdots+\\left(x_n-\\bar{x}\\right)^2}{n}=72{,}04$. Suy ra mệnh đề sai."
+    "explain": "<br>- Chiều cao trung bình của 10 học sinh là $\\bar{x}=<u>165+155+160+145+157+162+148+170+172+152</u>=158{,}6.$   Suy ra mệnh đề sai.<br>- Số liệu lớn nhất là $172$.   Số liệu nhỏ nhất là $145 $.<br>  Khoảng biến thiên của mẫu số liệu là $R=172-145=27$. Suy ra mệnh đề đúng.<br>- Sắp xếp các số liệu theo thứ tư không giảm  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  $Q_2=M_e=\\dfrac{157+160}{2}=158{,}5$.<br>  $Q_1=152$.<br>  $Q_3=165$.<br>  Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=165-152=13$. Suy ra mệnh đề đúng.<br>- Phương sai của mẫu số liệu trên là  $s^2=\\dfrac{\\left(x_1-\\bar{x}\\right)^2+\\left(x_2-\\bar{x}\\right)^2+\\cdots+\\left(x_n-\\bar{x}\\right)^2}{n}=72{,}04$. Suy ra mệnh đề sai."
   },
   {
     "id": "0D644DS4",
@@ -94,7 +94,7 @@ window.dungSai0D64 = [
         "answer": true
       }
     ],
-    "explain": "Sắp xếp mẫu số liệu theo thứ tự không giảm:  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Khoảng biến thiên của mẫu số liệu là hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất. Ta có $R=22-7=15$. Suy ra mệnh đề đúng.<br>- Mẫu số liệu gồm $9$ giá trị nên trung vị là số ở vị trí chính giữa $Q_2=15$. Suy ra mệnh đề sai.<br>- Ta có $Q_1=\\dfrac{8+11}{2}=9{,}5$ và $Q_3=\\dfrac{19+20}{2}=19{,}5$ Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=10$. Suy ra mệnh đề đúng.<br>- Số trung bình của mẫu số liệu là $\\bar{x}=\\dfrac{7+8+11+13+15+18+19+20+22}{9}\\approx 14{,}78$.<br>  Phương sai của mẫu số liệu là  $s^2=\\dfrac{(7-14{,}78)^2+(8-14{,}78)^2+\\ldots+(22-14{,}78)^2}{9}\\approx 25{,}73$. Suy ra mệnh đề đúng."
+    "explain": "Sắp xếp mẫu số liệu theo thứ tự không giảm:  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Khoảng biến thiên của mẫu số liệu là hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất. Ta có $R=22-7=15$. Suy ra mệnh đề đúng.<br>- Mẫu số liệu gồm $9$ giá trị nên trung vị là số ở vị trí chính giữa $Q_2=15$. Suy ra mệnh đề sai.<br>- Ta có $Q_1=\\dfrac{8+11}{2}=9{,}5$ và $Q_3=\\dfrac{19+20}{2}=19{,}5$ Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=10$. Suy ra mệnh đề đúng.<br>- Số trung bình của mẫu số liệu là $\\bar{x}=\\dfrac{7+8+11+13+15+18+19+20+22}{9}\\approx 14{,}78$.<br>  Phương sai của mẫu số liệu là  $s^2=\\dfrac{(7-14{,}78)^2+(8-14{,}78)^2+\\ldots+(22-14{,}78)^2}{9}\\approx 25{,}73$. Suy ra mệnh đề đúng."
   },
   {
     "id": "0D644DS5",
@@ -186,7 +186,7 @@ window.dungSai0D64 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Khoảng biến thiên của mẫu số liệu là $R=46-40=6$. Vậy mệnh đề đúng.<br>- Sắp xếp mẫu số liệu theo thứ tự không giảm   $\\begin{array}{lllll}40 & 41 & 43 & 45 & 46\\end{array}$  Ta có $\\quad Q_2=43 ; \\quad Q_1=\\dfrac{40+41}{2}=40{,}5 ; \\quad Q_3=\\dfrac{45+46}{2}=45{,}5$.<br>  Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=45{,}5-40{,}5=5$. Vậy mệnh đề sai<br>- Số trung bình của mẫu số liệu là $\\bar{x}=\\dfrac{43+45+46+41+40}{5}=43$.  Ta có bảng sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Mẫu số liệu gồm $5$ giá trị nên $n=5$. Do đó phương sai là $\\mathrm{s}^2=\\dfrac{26}{5}=5{,}2$.<br>  Vậy mệnh đề đúng.<br>- Nếu cộng mỗi giá trị của mẫu số liệu với $5$ thì khoảng biến thiên của mẫu số liệu là $R=(46+5)-(40+5)=6$. Vậy mệnh đề đúng."
+    "explain": "<br>- Khoảng biến thiên của mẫu số liệu là $R=46-40=6$. Vậy mệnh đề đúng.<br>- Sắp xếp mẫu số liệu theo thứ tự không giảm   $\\begin{array}{lllll}40 & 41 & 43 & 45 & 46\\end{array}$  Ta có $\\quad Q_2=43 ; \\quad Q_1=\\dfrac{40+41}{2}=40{,}5 ; \\quad Q_3=\\dfrac{45+46}{2}=45{,}5$.<br>  Khoảng tứ phân vị của mẫu số liệu là $\\Delta_Q=Q_3-Q_1=45{,}5-40{,}5=5$. Vậy mệnh đề sai<br>- Số trung bình của mẫu số liệu là $\\bar{x}=\\dfrac{43+45+46+41+40}{5}=43$.  Ta có bảng sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Mẫu số liệu gồm $5$ giá trị nên $n=5$. Do đó phương sai là $\\mathrm{s}^2=\\dfrac{26}{5}=5{,}2$.<br>  Vậy mệnh đề đúng.<br>- Nếu cộng mỗi giá trị của mẫu số liệu với $5$ thì khoảng biến thiên của mẫu số liệu là $R=(46+5)-(40+5)=6$. Vậy mệnh đề đúng."
   },
   {
     "id": "0D642DS9",
@@ -236,7 +236,7 @@ window.dungSai0D64 = [
   },
   {
     "id": "0D642DS11",
-    "question": "Kết quả đo chiều cao của nhóm gồm 20 học sinh được ghi lại như sau   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Kết quả đo chiều cao của nhóm gồm 20 học sinh được ghi lại như sau   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu là $31$",
@@ -282,7 +282,7 @@ window.dungSai0D64 = [
   },
   {
     "id": "0D644DS13",
-    "question": "Số lượng gạo bán ra tại một quầy hàng các tháng trong một năm được cho bởi bảng sau   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Số lượng gạo bán ra tại một quầy hàng các tháng trong một năm được cho bởi bảng sau   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Mốt của bảng số liệu trên là $430$",
@@ -305,7 +305,7 @@ window.dungSai0D64 = [
   },
   {
     "id": "0D642DS14",
-    "question": "Dưới đây là điểm kiểm tra giữa kì I của hai bạn An và Bình   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Dưới đây là điểm kiểm tra giữa kì I của hai bạn An và Bình   <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd16_019.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu điểm kiểm tra của An là $2$",
@@ -328,7 +328,7 @@ window.dungSai0D64 = [
   },
   {
     "id": "0D642DS15",
-    "question": "Điểm khảo sát chất lượng học sinh giỏi của 15 học sinh khối 10 được thống kê như sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
+    "question": "Điểm khảo sát chất lượng học sinh giỏi của 15 học sinh khối 10 được thống kê như sau  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định tính đúng sai của các mệnh đề sau",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu là $5$",
@@ -347,6 +347,6 @@ window.dungSai0D64 = [
         "answer": true
       }
     ],
-    "explain": "Trước hết, ta sẽ sắp xếp mẫu số liệu theo thứ tự không giảm:  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Trong mẫu số liệu trên, số lớn nhất là 9 và số bé nhất là $4$. Vậy khoảng biến thiên của mẫu số liệu trên là  $  R=x_{\\max}-x_{\\min}=9-4=5.  $  Suy ra mệnh đề đúng.<br>- Từ mẫu số liệu ta tính được $Q_1=6 ; Q_2=7$ và $Q_3=8$.  Do đó, khoảng tứ phân vị là $\\Delta_Q=Q_3-Q_1=8-6=2$. Suy ra mệnh đề sai.<br>- Vì $n=15$ là số lẻ nên số trung vị là số chính giữa .<br>   Số trung vị của bảng số liệu trên là $7 $. Suy ra mệnh đề sai.<br>- Ta có $Q_1-1{,}5\\cdot \\Delta_Q=3$ và $Q_3+1{,}5\\cdot \\Delta_Q=11$  Giá trị được xem là bất thường khi lơn hơn $11$ hoặc bé hơn $3$ nên trong mẫu số liệu không có giá trị được xem là bất thường. Suy ra mệnh đề đúng."
+    "explain": "Trước hết, ta sẽ sắp xếp mẫu số liệu theo thứ tự không giảm:  <br><img src=\"data/10/0D6/im0D64/dlts_sbh_tk10cd15_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Trong mẫu số liệu trên, số lớn nhất là 9 và số bé nhất là $4$. Vậy khoảng biến thiên của mẫu số liệu trên là  $  R=x_{\\max}-x_{\\min}=9-4=5.  $  Suy ra mệnh đề đúng.<br>- Từ mẫu số liệu ta tính được $Q_1=6 ; Q_2=7$ và $Q_3=8$.  Do đó, khoảng tứ phân vị là $\\Delta_Q=Q_3-Q_1=8-6=2$. Suy ra mệnh đề sai.<br>- Vì $n=15$ là số lẻ nên số trung vị là số chính giữa .<br>   Số trung vị của bảng số liệu trên là $7 $. Suy ra mệnh đề sai.<br>- Ta có $Q_1-1{,}5\\cdot \\Delta_Q=3$ và $Q_3+1{,}5\\cdot \\Delta_Q=11$  Giá trị được xem là bất thường khi lơn hơn $11$ hoặc bé hơn $3$ nên trong mẫu số liệu không có giá trị được xem là bất thường. Suy ra mệnh đề đúng."
   }
 ];

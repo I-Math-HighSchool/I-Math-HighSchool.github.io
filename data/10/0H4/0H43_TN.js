@@ -6,7 +6,7 @@
 window.tracNghiem0H43 = [
   {
     "id": "0H431TN1",
-    "question": "Cho tam giác $ABC$ có $a=4$, $c=5$, $\\widehat{B}=150^{\\circ}$. Diện tích của tam giác $ABC$ bằng<br><img src=\"data/10/0H4/im0H43/dlts_sbh_giuakii1_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tam giác $ABC$ có $a=4$, $c=5$, $\\widehat{B}=150^{\\circ}$. Diện tích của tam giác $ABC$ bằng<br><img src=\"data/10/0H4/im0H43/dlts_sbh_giuakii1_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$5$",
       "$10\\sqrt{3}$",
@@ -30,7 +30,7 @@ window.tracNghiem0H43 = [
   },
   {
     "id": "0H431TN3",
-    "question": "Để lắp đường dây điện cao thế từ vị trí $A$ đến vị trí $B$, do phải tránh một ngọn núi nên người ta phải nối đường dây từ vị trí $A$ đến vị trí $C$ dài $10\\,\\text{km}$, sau đó nối đường dây từ vị trí $C$ đến vị trí $B$ dài $8\\,\\text{km}$. Góc tạo bởi hai đoạn dây $AC$ và $CB$ là $70^\\circ$.  <br><img src=\"data/10/0H4/im0H43/loc_ghk1hv_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Chiều dài tăng thêm của dây điện vì không thể nối trực tiếp từ $A$ đến $B$ là bao nhiêu kilômét? (Kết quả làm tròn đến hàng phần mười)",
+    "question": "Để lắp đường dây điện cao thế từ vị trí $A$ đến vị trí $B$, do phải tránh một ngọn núi nên người ta phải nối đường dây từ vị trí $A$ đến vị trí $C$ dài $10\\,\\text{km}$, sau đó nối đường dây từ vị trí $C$ đến vị trí $B$ dài $8\\,\\text{km}$. Góc tạo bởi hai đoạn dây $AC$ và $CB$ là $70^\\circ$.  <br><img src=\"data/10/0H4/im0H43/loc_ghk1hv_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Chiều dài tăng thêm của dây điện vì không thể nối trực tiếp từ $A$ đến $B$ là bao nhiêu kilômét? (Kết quả làm tròn đến hàng phần mười)",
     "options": [
       "$7{,}5$",
       "$6{,}3$",

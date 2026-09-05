@@ -30,7 +30,7 @@ window.tracNghiem1H46 = [
   },
   {
     "id": "1H463TN3",
-    "question": "Cho hình hộp $A B C D . A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$. Hình chiếu song song của điểm $A$ lên mặt phẳng $\\left(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}\\right)$ theo phương chiếu $D D^{\\prime}$ là<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS17_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $A B C D . A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$. Hình chiếu song song của điểm $A$ lên mặt phẳng $\\left(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}\\right)$ theo phương chiếu $D D^{\\prime}$ là<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS17_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Điểm $A^{\\prime}$",
       "Điểm $B^{\\prime}$",
@@ -42,7 +42,7 @@ window.tracNghiem1H46 = [
   },
   {
     "id": "1H463TN4",
-    "question": "Cho hình chóp $S . A B C D$ có đáy là hình bình hành, gọi $M$ là trung điểm của cạnh $S C$. Hình chiếu song song của điểm $M$ theo phương $A C$ lên mặt phẳng $(S A D)$ là điểm nào sau đây?<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS17_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S . A B C D$ có đáy là hình bình hành, gọi $M$ là trung điểm của cạnh $S C$. Hình chiếu song song của điểm $M$ theo phương $A C$ lên mặt phẳng $(S A D)$ là điểm nào sau đây?<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS17_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Trung điểm của $S B$",
       "Trung điểm của $S D$",
@@ -54,7 +54,7 @@ window.tracNghiem1H46 = [
   },
   {
     "id": "1H463TN5",
-    "question": "Cho hình lăng trụ tam giác $ABC \\cdot A'B'C'$ (tham khảo hình minh họa). Hình chiếu của điểm $A'$ lên mặt phẳng $(ABC)$ theo phương $CC'$ là điểm<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS18_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ tam giác $ABC \\cdot A'B'C'$ (tham khảo hình minh họa). Hình chiếu của điểm $A'$ lên mặt phẳng $(ABC)$ theo phương $CC'$ là điểm<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS18_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$B$",
       "$A$",
@@ -66,7 +66,7 @@ window.tracNghiem1H46 = [
   },
   {
     "id": "1H463TN6",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. $B$ là hình chiếu của $A$ trên  $(CBB'C')$ qua phép chiếu song song theo phương là đường thẳng nào?  <br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS19_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. $B$ là hình chiếu của $A$ trên  $(CBB'C')$ qua phép chiếu song song theo phương là đường thẳng nào?  <br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS19_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BC$",
       "$CC'$",

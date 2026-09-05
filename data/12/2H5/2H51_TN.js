@@ -1363,7 +1363,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H516TN112",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và cạnh bên $SA$ vuông góc với đáy. Biết rằng $AB=a$, $AD=a\\sqrt{2}$, $SA=2a$. Tính côsin của góc giữa hai mặt phẳng $(SBC)$ và $(SBD)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và cạnh bên $SA$ vuông góc với đáy. Biết rằng $AB=a$, $AD=a\\sqrt{2}$, $SA=2a$. Tính côsin của góc giữa hai mặt phẳng $(SBC)$ và $(SBD)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{3\\sqrt{119}}{34}$",
       "$\\sqrt{\\dfrac{1}{5}}$",
@@ -1375,7 +1375,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H516TN113",
-    "question": "Cho hình chóp $S.ABC$ có đáy $ ABC$ là tam giác vuông tại $B$, $AB=a$, $BC=2a$, cạnh bên $SA$ vuông góc với mặt đáy $ (ABC)$ và $ SA=3a$. Gọi $ \\alpha $ là góc giữa hai mặt phẳng $ (SAC)$ và $(SBC)$. Tính $ \\sin \\alpha $.<br><img src=\"data/12/2D5/im2H5/B5_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có đáy $ ABC$ là tam giác vuông tại $B$, $AB=a$, $BC=2a$, cạnh bên $SA$ vuông góc với mặt đáy $ (ABC)$ và $ SA=3a$. Gọi $ \\alpha $ là góc giữa hai mặt phẳng $ (SAC)$ và $(SBC)$. Tính $ \\sin \\alpha $.<br><img src=\"data/12/2D5/im2H5/B5_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{7}}{5}$",
       "$\\dfrac{\\sqrt{4138}}{120}$",
@@ -1399,7 +1399,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H515TN115",
-    "question": "Cho lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $B$ với $AB=3$, $AA'=2$.  Gọi $M$ là trung điểm cạnh $A'B, G$ là trọng tâm $\\triangle ABC, (\\alpha)$ là mặt phẳng đi qua $MG$ và song song với $BC$. Tính khoảng cách $d$ từ điểm $A$ đến mặt phẳng $(\\alpha)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $B$ với $AB=3$, $AA'=2$.  Gọi $M$ là trung điểm cạnh $A'B, G$ là trọng tâm $\\triangle ABC, (\\alpha)$ là mặt phẳng đi qua $MG$ và song song với $BC$. Tính khoảng cách $d$ từ điểm $A$ đến mặt phẳng $(\\alpha)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$d=\\dfrac{2}{\\sqrt{5}}$",
       "$d=\\dfrac{10}{3\\sqrt{5}}$",
@@ -1411,7 +1411,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN116",
-    "question": "Cho hình lăng trụ tam giác $ABC.A'B'C'$ có đáy là tam giác $ABC$ vuông tại $A$, $AB=3$, $AC=4$, $AA'=\\dfrac{\\sqrt{61}}{2}$. Hình chiếu của $B'$ lên mặt phẳng $\\left(ABC\\right)$ là trung điểm cạnh $BC$, $M$ là trung điểm cạnh$A'B'$. Cosin của góc tạo bởi mặt phẳng $\\left(AMC'\\right)$ và mặt phẳng $\\left(A'BC\\right)$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ tam giác $ABC.A'B'C'$ có đáy là tam giác $ABC$ vuông tại $A$, $AB=3$, $AC=4$, $AA'=\\dfrac{\\sqrt{61}}{2}$. Hình chiếu của $B'$ lên mặt phẳng $\\left(ABC\\right)$ là trung điểm cạnh $BC$, $M$ là trung điểm cạnh$A'B'$. Cosin của góc tạo bởi mặt phẳng $\\left(AMC'\\right)$ và mặt phẳng $\\left(A'BC\\right)$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{11}{\\sqrt{3157}}$",
       "$\\dfrac{\\sqrt{13}}{65}$",
@@ -1423,7 +1423,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H514TN117",
-    "question": "Cho hình chóp đều $S.ABCD$ có đáy là hình vuông cạnh $a$, $M$ là trung điểm của $SA$. Biết mặt phẳng $(MCD)$ vuông góc với mặt phẳng $(SAB)$. Thể tích của khối chóp $S.ABCD$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp đều $S.ABCD$ có đáy là hình vuông cạnh $a$, $M$ là trung điểm của $SA$. Biết mặt phẳng $(MCD)$ vuông góc với mặt phẳng $(SAB)$. Thể tích của khối chóp $S.ABCD$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{5}a^3}{2}$",
       "$\\dfrac{\\sqrt{3}a^3}{6}$",
@@ -1435,7 +1435,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H516TN118",
-    "question": "Cho hình chóp $S.ABC$ có mặt đáy làm tam giác vuông cân tại $A$, $AB=1$, đường thẳng $SA$ vuông góc với mặt phẳng chứa đáy. Gọi $M$ là trung điểm của cạnh $AB$, góc giữa mặt phẳng $(SBC)$ và mặt phẳng $(SMC)$ bằng $\\varphi$ thỏa mãn $\\sin \\varphi=\\dfrac{1}{3}$. Tính thể tích của khối chóp $S.ABC$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có mặt đáy làm tam giác vuông cân tại $A$, $AB=1$, đường thẳng $SA$ vuông góc với mặt phẳng chứa đáy. Gọi $M$ là trung điểm của cạnh $AB$, góc giữa mặt phẳng $(SBC)$ và mặt phẳng $(SMC)$ bằng $\\varphi$ thỏa mãn $\\sin \\varphi=\\dfrac{1}{3}$. Tính thể tích của khối chóp $S.ABC$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{1}{6}$",
       "$\\dfrac{1}{3}$",
@@ -1447,7 +1447,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN119",
-    "question": "Cho hình lập phương $ ABCD.A'B'C'D' $ có $ M $, $ N $, $ E $, $ F $ lần lượt là trung điểm của cạnh $ A'B' $, $ A'D' $, $ B'C' $, $ C'D' $ (tham khảo hình bên). Tính cô-sin của góc tạo bởi hai mặt phẳng $ (CMN) $ và $ (AEF) $. \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D5/im2H5/B5_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ ABCD.A'B'C'D' $ có $ M $, $ N $, $ E $, $ F $ lần lượt là trung điểm của cạnh $ A'B' $, $ A'D' $, $ B'C' $, $ C'D' $ (tham khảo hình bên). Tính cô-sin của góc tạo bởi hai mặt phẳng $ (CMN) $ và $ (AEF) $. \\choicew{0.4\\textwidth}<br><img src=\"data/12/2D5/im2H5/B5_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ \\dfrac{2}{17} $",
       "$ \\dfrac{1}{17} $",
@@ -1459,7 +1459,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H514TN120",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $AD=2$ cm, $CD=1$ cm, $\\widehat{ADC}=120^\\circ$. Cạnh bên $SB=\\sqrt{3}$ cm, hai mặt phẳng $(SAB)$ và $(SBC)$ cùng vuông góc với mặt phẳng đáy. Gọi $\\alpha$ là góc tạo bởi $SD$ và mặt phẳng $(SAC)$. Tính $\\sin \\alpha$<br><img src=\"data/12/2D5/im2H5/B5_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> <br><img src=\"data/12/2D5/im2H5/B5_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $AD=2$ cm, $CD=1$ cm, $\\widehat{ADC}=120^\\circ$. Cạnh bên $SB=\\sqrt{3}$ cm, hai mặt phẳng $(SAB)$ và $(SBC)$ cùng vuông góc với mặt phẳng đáy. Gọi $\\alpha$ là góc tạo bởi $SD$ và mặt phẳng $(SAC)$. Tính $\\sin \\alpha$<br><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:8px auto;\"><img src=\"data/12/2D5/im2H5/B5_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"><img src=\"data/12/2D5/im2H5/B5_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(260px,44%);max-height:240px;width:auto;height:auto;\"></div>",
     "options": [
       "$\\sin \\alpha =\\dfrac{1}{4}$",
       "$\\sin \\alpha =\\dfrac{\\sqrt{3}}{7}$",
@@ -1471,7 +1471,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H514TN121",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông, tam giác $SAD$ vuông cân tại $S$ và thuộc mặt phẳng vuông góc với $(ABCD)$. Gọi $\\alpha $ là góc hợp bởi hai mặt phẳng $(SBC)$ và $(SCD)$. Giá trị của $\\tan \\alpha$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông, tam giác $SAD$ vuông cân tại $S$ và thuộc mặt phẳng vuông góc với $(ABCD)$. Gọi $\\alpha $ là góc hợp bởi hai mặt phẳng $(SBC)$ và $(SCD)$. Giá trị của $\\tan \\alpha$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ \\dfrac{\\sqrt{5}}{2} $",
       "$ \\dfrac{\\sqrt{5}}{3} $",
@@ -1495,7 +1495,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN123",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh bằng $2$, $SA\\perp (ABCD)$ và $SA=2$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $AB$, $BC$, $CS$. Tính cosin của góc tạo bởi mặt phẳng $(MNP)$ và $(SBD)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh bằng $2$, $SA\\perp (ABCD)$ và $SA=2$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $AB$, $BC$, $CS$. Tính cosin của góc tạo bởi mặt phẳng $(MNP)$ và $(SBD)$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{1}{3}$",
       "$\\dfrac{1}{\\sqrt{3}}$",

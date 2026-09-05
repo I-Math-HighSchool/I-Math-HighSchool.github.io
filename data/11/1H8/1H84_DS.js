@@ -5,7 +5,7 @@
 window.dungSai1H84 = [
   {
     "id": "1H843DS1",
-    "question": "Cho hình chóp $S.ABCD$ có $SA\\perp(ABCD)$, đáy $ABCD$ là hình vuông và $SA=AB=a$. Gọi $I$, $J$, $K$ lần lượt là trung điểm của $SB$, $SC$, $SD$.<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS22_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có $SA\\perp(ABCD)$, đáy $ABCD$ là hình vuông và $SA=AB=a$. Gọi $I$, $J$, $K$ lần lượt là trung điểm của $SB$, $SC$, $SD$.<br><img src=\"data/11/1D8/im1H84/dlts_11_DLTS22_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tam giác $SAB$ vuông tại $B$",

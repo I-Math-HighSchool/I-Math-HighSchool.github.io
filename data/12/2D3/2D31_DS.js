@@ -7,7 +7,7 @@
 window.dungSai2D31 = [
   {
     "id": "2D314DS1",
-    "question": "Bảng bên biểu diễn mẫu số liệu ghép nhóm thống kê mức lương của một công ty (đơn vị: triệu đồng).<br><img src=\"data/12/2D3/im2D3/2D31_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng bên biểu diễn mẫu số liệu ghép nhóm thống kê mức lương của một công ty (đơn vị: triệu đồng).<br><img src=\"data/12/2D3/im2D3/2D31_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu này là $R=25$",
@@ -26,11 +26,11 @@ window.dungSai2D31 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Trong mẫu số liệu ghép nhóm ở bảng, ta có đầu mút trái của nhóm $1$ là $a_1=10$, đầu mút phải của nhóm $6$ là $a_7=40$.<br>Vậy khoảng biến thiên của mẫu số liệu ghép nhóm đó là $R=a_7-a_1=40-10=30.$<br>- Ta có bảng sau  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Số phần tử của mẫu là $n=60$. <br>  Nhóm $[15;20)$ là nhóm chứa tứ phân vị thứ nhất.   Áp dụng công thức, ta có tứ phân vị thứ nhất là $Q_1=15+\\left(\\dfrac{15-15}{18}\\right)\\cdot 5=15 ~\\text{(triệu đồng)}.$<br>- Nhóm $[25;30)$ là nhóm chứa tứ phân vị thứ 3. Áp dụng công thức, ta có tứ phân vị thứ ba là  $Q_3=25+\\left(\\dfrac{45-43}{10}\\right)\\cdot5=26 ~\\text{(triệu đồng)}.$<br>- Khoảng tứ phân vị của mẫu số liệu ghép nhóm đã cho là   $\\Delta _Q=Q_3-Q_1=26-15=11 ~\\text{(triệu đồng)}.$"
+    "explain": "<br>- Trong mẫu số liệu ghép nhóm ở bảng, ta có đầu mút trái của nhóm $1$ là $a_1=10$, đầu mút phải của nhóm $6$ là $a_7=40$.<br>Vậy khoảng biến thiên của mẫu số liệu ghép nhóm đó là $R=a_7-a_1=40-10=30.$<br>- Ta có bảng sau  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Số phần tử của mẫu là $n=60$. <br>  Nhóm $[15;20)$ là nhóm chứa tứ phân vị thứ nhất.   Áp dụng công thức, ta có tứ phân vị thứ nhất là $Q_1=15+\\left(\\dfrac{15-15}{18}\\right)\\cdot 5=15 ~\\text{(triệu đồng)}.$<br>- Nhóm $[25;30)$ là nhóm chứa tứ phân vị thứ 3. Áp dụng công thức, ta có tứ phân vị thứ ba là  $Q_3=25+\\left(\\dfrac{45-43}{10}\\right)\\cdot5=26 ~\\text{(triệu đồng)}.$<br>- Khoảng tứ phân vị của mẫu số liệu ghép nhóm đã cho là   $\\Delta _Q=Q_3-Q_1=26-15=11 ~\\text{(triệu đồng)}.$"
   },
   {
     "id": "2D314DS2",
-    "question": "Điều tra một số hộ gia đình thu nhập ở mức trung bình sinh sống trên hai địa bàn $A$, $B$, người ta thấy diện tích nhà ở của họ đều nhỏ hơn $100$ m$^2$. Hai biểu đồ dưới biểu diễn kết quả thống kê.   <br><img src=\"data/12/2D3/im2D3/2D31_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>   <em>Hình 3.3a. Diện tích nhà ở của cư dân địa bàn $A$</em>  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  <em>Hình 3.3b. Diện tích nhà ở của cư dân địa bàn $B$</em>",
+    "question": "Điều tra một số hộ gia đình thu nhập ở mức trung bình sinh sống trên hai địa bàn $A$, $B$, người ta thấy diện tích nhà ở của họ đều nhỏ hơn $100$ m$^2$. Hai biểu đồ dưới biểu diễn kết quả thống kê.   <br><img src=\"data/12/2D3/im2D3/2D31_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>   <em>Hình 3.3a. Diện tích nhà ở của cư dân địa bàn $A$</em>  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  <em>Hình 3.3b. Diện tích nhà ở của cư dân địa bàn $B$</em>",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của hai mẫu số liệu này bằng nhau",
@@ -49,11 +49,11 @@ window.dungSai2D31 = [
         "answer": false
       }
     ],
-    "explain": "Ta có bảng tần số tích luỹ như sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- [a)]<br>- Khoảng biến thiên của hai mẫu số liệu này bằng nhau và bằng $100=50=50$.<br>- Xét bảng số liệu $A$, ta có $N=100; \\dfrac{N}{4}=25; \\dfrac{N}{2}=50; \\dfrac{3N}{4}=75$.  <br>- [$\\bullet$] Nhóm chứa $Q_1^A$ là $[60 ; 70)$. Suy ra  $Q_1^A=60+\\dfrac{25-8}{20} \\cdot 10 = 68,5 $<br>- [$\\bullet$] Nhóm chứa $Q_3^A$ là $[70;80)$. Suy ra  $Q_3^A=70+\\dfrac{75 -28}{50} \\cdot 10=79{,}4$  Vậy khoảng tứ phân vị ghép nhóm diện tích căn hộ của địa phương A là<br> $\\Delta_{Q_A} =79{,}4-68{,}5=10{,}9$.<br>- Xét bảng số liệu $B$, ta có $N=100; \\dfrac{N}{4}=25; \\dfrac{N}{2}=50; \\dfrac{3N}{4}=75$.  <br>- [$\\bullet$] Nhóm chứa $Q_1^B$ là $[60 ; 70)$. Suy ra  $Q_1^B=60+\\dfrac{25 -15}{20} \\cdot 10=65.$<br>- [$\\bullet$] Nhóm chứa $Q_3^B$ là $[80;90)$.Suy ra  $Q_3^B=80+\\dfrac{75 -65}{20} \\cdot 10= 85.$  Vậy khoảng tứ phân vị ghép nhóm diện tích căn hộ của địa phương B là là $\\Delta_{Q_B} =85-65=20$.<br>- $\\Delta_{Q_B}&gt;\\Delta_{Q_A}$ nên dựa vào khoảng tứ phân vị về diện tích căn hộ người dân hai địa phương, ta thấy địa phương B phân tán hơn."
+    "explain": "Ta có bảng tần số tích luỹ như sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- [a)]<br>- Khoảng biến thiên của hai mẫu số liệu này bằng nhau và bằng $100=50=50$.<br>- Xét bảng số liệu $A$, ta có $N=100; \\dfrac{N}{4}=25; \\dfrac{N}{2}=50; \\dfrac{3N}{4}=75$.  <br>- [$\\bullet$] Nhóm chứa $Q_1^A$ là $[60 ; 70)$. Suy ra  $Q_1^A=60+\\dfrac{25-8}{20} \\cdot 10 = 68,5 $<br>- [$\\bullet$] Nhóm chứa $Q_3^A$ là $[70;80)$. Suy ra  $Q_3^A=70+\\dfrac{75 -28}{50} \\cdot 10=79{,}4$  Vậy khoảng tứ phân vị ghép nhóm diện tích căn hộ của địa phương A là<br> $\\Delta_{Q_A} =79{,}4-68{,}5=10{,}9$.<br>- Xét bảng số liệu $B$, ta có $N=100; \\dfrac{N}{4}=25; \\dfrac{N}{2}=50; \\dfrac{3N}{4}=75$.  <br>- [$\\bullet$] Nhóm chứa $Q_1^B$ là $[60 ; 70)$. Suy ra  $Q_1^B=60+\\dfrac{25 -15}{20} \\cdot 10=65.$<br>- [$\\bullet$] Nhóm chứa $Q_3^B$ là $[80;90)$.Suy ra  $Q_3^B=80+\\dfrac{75 -65}{20} \\cdot 10= 85.$  Vậy khoảng tứ phân vị ghép nhóm diện tích căn hộ của địa phương B là là $\\Delta_{Q_B} =85-65=20$.<br>- $\\Delta_{Q_B}&gt;\\Delta_{Q_A}$ nên dựa vào khoảng tứ phân vị về diện tích căn hộ người dân hai địa phương, ta thấy địa phương B phân tán hơn."
   },
   {
     "id": "2D314DS3",
-    "question": "Bảng tần số ghép nhóm dưới đây thể hiện kết quả điều tra về tuổi thọ trung bình của nam giới và nữ giới ở $50$ quốc gia.  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng tần số ghép nhóm dưới đây thể hiện kết quả điều tra về tuổi thọ trung bình của nam giới và nữ giới ở $50$ quốc gia.  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu về độ tuổi trung bình của nam giới là $50$",
@@ -76,7 +76,7 @@ window.dungSai2D31 = [
   },
   {
     "id": "2D314DS4",
-    "question": "Hằng ngày ông Minh đều đi xe buýt từ nhà đến cơ quan. Dưới đây là bản thống kê thời gian ông Minh đi xe buýt từ nhà đến cơ quan  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS15_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hằng ngày ông Minh đều đi xe buýt từ nhà đến cơ quan. Dưới đây là bản thống kê thời gian ông Minh đi xe buýt từ nhà đến cơ quan  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS15_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tổng số lần ông Minh đã đi là $100$",
@@ -99,7 +99,7 @@ window.dungSai2D31 = [
   },
   {
     "id": "2D314DS5",
-    "question": "Cho mẫu số liệu ghép nhóm như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS20_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho mẫu số liệu ghép nhóm như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS20_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Khoảng biến thiên của mẫu số liệu trên là $40$",
@@ -122,7 +122,7 @@ window.dungSai2D31 = [
   },
   {
     "id": "2D313DS1",
-    "question": "Khảo sát chiều cao của $20$ học sinh nam lớp $12$A của một trường THPT X, người ta được kết quả thống kê trong bảng sau  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Khảo sát chiều cao của $20$ học sinh nam lớp $12$A của một trường THPT X, người ta được kết quả thống kê trong bảng sau  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Gọi $x_1$; $x_2$; \\ldots; $x_{20}$ là mẫu số liệu gốc gồm chiều cao của $20$ học sinh trên được xếp theo thứ tự không giảm. Khi đó $x_3 \\in[165 ; 170)$ và $x_9 \\in[170 ; 175)$",

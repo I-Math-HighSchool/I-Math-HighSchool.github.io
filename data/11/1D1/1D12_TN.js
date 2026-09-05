@@ -66,7 +66,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN6",
-    "question": "Cho $\\alpha$ thỏa mãn $90^\\circ &lt; \\alpha &lt; 180^\\circ$. Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho $\\alpha$ thỏa mãn $90^\\circ &lt; \\alpha &lt; 180^\\circ$. Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\tan\\alpha&gt;0$",
       "$\\cot\\alpha&gt;0$",
@@ -258,7 +258,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN22",
-    "question": "Dựa vào hình vẽ, giá trị lượng giác $\\sin \\alpha$ bằng<br><img src=\"data/11/1D1/im1D1/1D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Dựa vào hình vẽ, giá trị lượng giác $\\sin \\alpha$ bằng<br><img src=\"data/11/1D1/im1D1/1D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y_0$",
       "$\\dfrac{y_0}{x_0}$",
@@ -570,7 +570,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN48",
-    "question": "Trên đường tròn lượng giác cho điểm $M\\left(\\dfrac{3}{4};\\dfrac{\\sqrt{7}}{4}\\right)$. Tính $\\sin$ của góc lượng giác $(OA;OM)$.<br><img src=\"data/11/1D1/im1D1/1D12_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác cho điểm $M\\left(\\dfrac{3}{4};\\dfrac{\\sqrt{7}}{4}\\right)$. Tính $\\sin$ của góc lượng giác $(OA;OM)$.<br><img src=\"data/11/1D1/im1D1/1D12_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{7}}{4}$",
       "$\\dfrac{3}{\\sqrt{7}}$",
@@ -618,7 +618,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN52",
-    "question": "Bạn An đứng ở vị trí $A$, bạn Bình đứng ở vị trí $B$ và giữa họ có cột đèn ở vị trí $O$ mà $A$, $O$, $B$ nằm trên một đường thẳng. Trong điều kiện buổi tối và đèn tỏa ánh sáng ở vị trí $T$, thì có thể thấy bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng (xem hình minh họa bên dưới).  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi nếu biết $\\widehat{TAO}=55^\\circ, \\widehat{TBO}=65^\\circ$, khoảng cách giữa hai bạn An và Bình là $AB=10$\\,m và bạn An cao $AX=1{,}78$\\,m thì tỉ số $\\dfrac{MO}{MA}$ có giá trị thuộc khoảng nào sau đây?",
+    "question": "Bạn An đứng ở vị trí $A$, bạn Bình đứng ở vị trí $B$ và giữa họ có cột đèn ở vị trí $O$ mà $A$, $O$, $B$ nằm trên một đường thẳng. Trong điều kiện buổi tối và đèn tỏa ánh sáng ở vị trí $T$, thì có thể thấy bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng (xem hình minh họa bên dưới).  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi nếu biết $\\widehat{TAO}=55^\\circ, \\widehat{TBO}=65^\\circ$, khoảng cách giữa hai bạn An và Bình là $AB=10$\\,m và bạn An cao $AX=1{,}78$\\,m thì tỉ số $\\dfrac{MO}{MA}$ có giá trị thuộc khoảng nào sau đây?",
     "options": [
       "$(4;5)$",
       "$(2;3)$",

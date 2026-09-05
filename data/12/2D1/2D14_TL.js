@@ -13,7 +13,7 @@ window.traLoiNgan2D14 = [
   },
   {
     "id": "2D143TL2",
-    "question": "Cho hàm số $y = \\dfrac{x^2 + x - 2}{x + 4}$ có đồ thị $(C)$. Hình thang tạo bởi các đường tiệm cận đứng, tiệm cận xiên của đồ thị $(C)$ và các trục tọa độ như hình vẽ bên. Tính diện tích hình thang đó.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = \\dfrac{x^2 + x - 2}{x + 4}$ có đồ thị $(C)$. Hình thang tạo bởi các đường tiệm cận đứng, tiệm cận xiên của đồ thị $(C)$ và các trục tọa độ như hình vẽ bên. Tính diện tích hình thang đó.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "20",
     "explain": "Ta có $y = \\dfrac{x^2 + x - 2}{x + 4} = x - 3 + \\dfrac{10}{x+4}$.<br>  Ta có tiệm cận đứng và tiệm cận xiên của đồ thị lần lượt là $x = -4$ và $y = x - 3$.<br>   Giao điểm của tiệm cận đứng và trục hoành là $A(-4; 0)$.<br>  Giao điểm của tiệm cận xiên và trục tung là $B(0; -3)$.<br>   Hai đường tiệm cận cắt nhau tại $C(-4;-7)$.<br>  Hình thang cần tính diện tích là hình thang vuông $OABC$ (với $O$ là gốc tọa độ).<br>  Diện tích hình thang $OABC$: $S = \\dfrac{(AC + OB) \\cdot OA}{2} = \\dfrac{(7 + 3) \\cdot 4}{2} = 20$."
   },
@@ -73,7 +73,7 @@ window.traLoiNgan2D14 = [
   },
   {
     "id": "2D141TL12",
-    "question": "Hàm số $y=a x^3+b x^2+c x+d$ có đồ thị như hình vẽ. Tính giá trị biểu thức $P=1000 a+100 b+10 c+d$.<br><img src=\"data/12/2D1/im2D1/2D14_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số $y=a x^3+b x^2+c x+d$ có đồ thị như hình vẽ. Tính giá trị biểu thức $P=1000 a+100 b+10 c+d$.<br><img src=\"data/12/2D1/im2D1/2D14_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "1404",
     "explain": "Vì đồ thị hàm số cắt trục tung tại điểm có tung độ bằng $4$ nên $d=4$.<br>  Ta có $y' = 3ax^2 + 2bx + c$. Vì hàm số đạt cực trị tại $x=0$ và $x=2$ nên ta có $c=0 \\text{ và } 12a+4b=0.$<br>  Mặt khác đồ thị hàm số đi qua điểm $A(1;0)$ nên $a+b+c+4=0$.<br>  Từ đó giải hệ phương trình ta thu được $a=2$, $b=-6$, $c=0$.<br>  Vậy $P=1000 a+100 b+10 c+d = 1404$."
   },
@@ -109,7 +109,7 @@ window.traLoiNgan2D14 = [
   },
   {
     "id": "2D141TL18",
-    "question": "Cho hàm số $y=\\dfrac{ax^2+bx+c}{x+d}$ có đồ thị như hình vẽ dưới đây. Tính $a+b-c-d$.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{ax^2+bx+c}{x+d}$ có đồ thị như hình vẽ dưới đây. Tính $a+b-c-d$.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "-2",
     "explain": "Từ đồ thị hàm số, ta xác định các yếu tố sau  <br>- Đồ thị có tiệm cận đứng là đường thẳng $x=-1 \\Leftrightarrow d=1$.<br>- Đồ thị đi qua $O(0,0)$ suy ra $\\dfrac{c}{d}=0$ hay $c=0$.<br>- Đồ thị có tiệm cận xiên là đường thẳng đi qua các điểm $(1,0)$ và $(0;1)$.<br>  Vậy tiệm cận xiên là $y=-x+1$.  Ta có $y=\\dfrac{ax^2+bx+c}{x+d}= ax + (b-ad) + \\dfrac{c-bd+ad^2}{x+d}$.<br>  Tiệm cận xiên có phương trình $y=ax+(b-ad)$.<br>  Đồng nhất với phương trình $y=-x+1$, ta được $a=-1 \\text{ và } b-ad=1$.<br>  Thay $a=-1$ và $d=1$ ta được $b=0$.<br>  Vậy các hệ số là $a=-1, b=c=0, d=1$.<br>  Giá trị của biểu thức là $a+b-c-d = -1+0-0-1 = -2$."
   },
@@ -121,7 +121,7 @@ window.traLoiNgan2D14 = [
   },
   {
     "id": "2D144TL20",
-    "question": "Một ống khói của nhà máy điện hát nhân có mặt cắt là một hypebol $(H)$ có phương trình chính tắc là $\\dfrac{x^2}{27^2}-\\dfrac{y^2}{40^2}=1$ (xem hình dưới). Hai nhánh bên trên của $Ox$ của $(H)$ là đồ thị $(C)$ của hàm số $y=\\dfrac{40}{27}\\sqrt{x^2-27^2}$ (phần nét liên đậm). Đường thẳng $y=\\dfrac{a}{b}x$ là một tiệm cận xiên của $(C)$. Biết rằng $a\\in\\mathbb{N}$, $b\\in\\mathbb{N}^*$, $\\dfrac{a}{b}$ là phân số tối giản. Tính $a+b$.<br><img src=\"data/12/2D1/im2D1/2D14_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một ống khói của nhà máy điện hát nhân có mặt cắt là một hypebol $(H)$ có phương trình chính tắc là $\\dfrac{x^2}{27^2}-\\dfrac{y^2}{40^2}=1$ (xem hình dưới). Hai nhánh bên trên của $Ox$ của $(H)$ là đồ thị $(C)$ của hàm số $y=\\dfrac{40}{27}\\sqrt{x^2-27^2}$ (phần nét liên đậm). Đường thẳng $y=\\dfrac{a}{b}x$ là một tiệm cận xiên của $(C)$. Biết rằng $a\\in\\mathbb{N}$, $b\\in\\mathbb{N}^*$, $\\dfrac{a}{b}$ là phân số tối giản. Tính $a+b$.<br><img src=\"data/12/2D1/im2D1/2D14_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "67",
     "explain": "Đặt $f(x)=\\dfrac{40}{27}\\sqrt{x^2-27^2}$.<br>  Ta có $\\lim\\limits_{x \\to +\\infty} \\dfrac{f(x)}{x} = \\lim\\limits_{x \\to +\\infty} \\dfrac{40}{27} \\dfrac{\\sqrt{x^2-27^2}}{x} = \\lim\\limits_{x \\to +\\infty} \\dfrac{40}{27} \\cdot \\dfrac{\\sqrt{1-\\dfrac{27^2}{x^2}}}{1} = \\dfrac{40}{27}$.<br>  Lại có $\\lim\\limits_{x \\to +\\infty} \\left(f(x)-\\dfrac{40}{27}x\\right) = \\lim\\limits_{x \\to +\\infty} \\left(\\dfrac{40}{27} \\sqrt{x^2-27^2} - \\dfrac{40}{27}x \\right) = \\dfrac{40}{27} \\lim\\limits_{x \\to +\\infty} \\dfrac{-27^2}{\\sqrt{x^2-27^2}+x}=0$.<br>  Do đó đồ thị hàm số có một tiệm cận xiên là $y=\\dfrac{40}{27}x$. Suy ra $a=40$ và $b=27$.<br>  Vậy $a+b=67$."
   },
@@ -151,7 +151,7 @@ window.traLoiNgan2D14 = [
   },
   {
     "id": "2D143TL26",
-    "question": "Người ta muốn làm một cái bể dạng hình hộp chữ nhật không nắp (như hình vẽ) có thể tích bằng $5$ m$^{3}$. Chiều cao của bể là $10$ dm, các kích thước khác là $x$ mét, $y$ mét với $x&gt;0$ và $y&gt;0$. Diện tích toàn phần của bể (không kể nắp) là hàm số $S(x)$ trên khoảng $(0;+\\infty)$. Đường tiệm cận xiên của đồ thị hàm số $S(x)$ là đường thẳng $y=ax+b$. Tính giá trị của biểu thức $P=a^{2}+b^{2}$.  <br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS2_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Người ta muốn làm một cái bể dạng hình hộp chữ nhật không nắp (như hình vẽ) có thể tích bằng $5$ m$^{3}$. Chiều cao của bể là $10$ dm, các kích thước khác là $x$ mét, $y$ mét với $x&gt;0$ và $y&gt;0$. Diện tích toàn phần của bể (không kể nắp) là hàm số $S(x)$ trên khoảng $(0;+\\infty)$. Đường tiệm cận xiên của đồ thị hàm số $S(x)$ là đường thẳng $y=ax+b$. Tính giá trị của biểu thức $P=a^{2}+b^{2}$.  <br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS2_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "29",
     "explain": "Ta có $10$ dm = $1$ m.  Do thể tích của bể là $5$ m$^{3}$ nên $1 \\cdot x\\cdot y=5 \\Leftrightarrow xy=5$.<br>  Diện tích toàn phần của bể là $S(x)=x\\cdot y+2\\cdot1\\cdot x+2\\cdot1\\cdot y=5+2x+\\dfrac{10}{x}$, $(x&gt;0)$.<br>  Ta có $\\lim\\limits_{x \\to+\\infty}(S(x)-(5+2x))=\\lim\\limits_{x \\to+\\infty} \\dfrac{10}{x}=0$.<br>  Suy ra đồ thị hàm số $S(x)$ có đường tiệm cận xiên là $y=2x+5 \\Rightarrow a=2$, $b=5$.<br>  Ta có $P=a^{2}+b^{2}=2^{2}+5^{2}=29$."
   },

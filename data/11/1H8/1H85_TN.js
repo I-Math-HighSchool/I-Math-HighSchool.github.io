@@ -7,7 +7,7 @@
 window.tracNghiem1H85 = [
   {
     "id": "1H853TN1",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với đáy. Khoảng cách từ $C$ đến $(SAB)$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS24_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với đáy. Khoảng cách từ $C$ đến $(SAB)$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS24_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a$",
       "$a\\sqrt{2}$",
@@ -19,7 +19,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN2",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Khoảng cách giữa hai đường thẳng $B'D'$ và $AC$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS27_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Khoảng cách giữa hai đường thẳng $B'D'$ và $AC$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS27_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a\\sqrt{3}$",
       "$\\dfrac{a\\sqrt{3}}{2}$",
@@ -39,11 +39,11 @@ window.tracNghiem1H85 = [
       "$a\\sqrt{2}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS29_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $AD \\perp SA \\text{ và } AD \\perp AB \\Rightarrow AD \\perp(SAB)$ và $CD \\perp(SAB)$ nên  \\[  \\mathrm{d}\\big(CD,(SAB)\\big)=\\mathrm{d}\\big(D,(SAB)\\big)=AD=a.  \\]"
+    "explain": "<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS29_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $AD \\perp SA \\text{ và } AD \\perp AB \\Rightarrow AD \\perp(SAB)$ và $CD \\perp(SAB)$ nên  \\[  \\mathrm{d}\\big(CD,(SAB)\\big)=\\mathrm{d}\\big(D,(SAB)\\big)=AD=a.  \\]"
   },
   {
     "id": "1H854TN4",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a\\sqrt{2}$ và $SA \\perp (ABCD)$, $SA=a\\sqrt{3}$. Khoảng cách từ $B$ đến mặt phẳng $(SAD)$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS31_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a\\sqrt{2}$ và $SA \\perp (ABCD)$, $SA=a\\sqrt{3}$. Khoảng cách từ $B$ đến mặt phẳng $(SAD)$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS31_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{3a}{4}$",
       "$a$",
@@ -55,7 +55,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN5",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Đường vuông góc chung của $DD'$ và $A'B$ là đường thẳng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS32_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Đường vuông góc chung của $DD'$ và $A'B$ là đường thẳng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS32_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AC'$",
       "$BC'$",
@@ -67,7 +67,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN6",
-    "question": "Cho hình chóp $O.ABC$ có đáy là tam giác đều cạnh $a$, $OA \\perp(ABC)$ và $AH \\perp BC$ (minh hoạ bằng hình vẽ dưới). Khoảng cách từ điểm $O$ đến $(ABC)$ là độ dài đoạn thẳng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS35_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $O.ABC$ có đáy là tam giác đều cạnh $a$, $OA \\perp(ABC)$ và $AH \\perp BC$ (minh hoạ bằng hình vẽ dưới). Khoảng cách từ điểm $O$ đến $(ABC)$ là độ dài đoạn thẳng<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS35_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$OH$",
       "$OB$",
@@ -79,7 +79,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN7",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Đoạn vuông góc chung của hai đường thẳng $AA'$ và $B'C'$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS36_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Đoạn vuông góc chung của hai đường thẳng $AA'$ và $B'C'$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS36_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$CD$",
       "$A'B'$",
@@ -91,7 +91,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN8",
-    "question": "Cho hình chóp $S.ABC$ có tam giác $ABC$ vuông cân tại $B$, $AB=BC=a$, $SA=a\\sqrt{3}$,  $SA\\perp(ABC)$. Góc phẳng nhị diện $[S, BC, A]$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_12_DLTS36_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có tam giác $ABC$ vuông cân tại $B$, $AB=BC=a$, $SA=a\\sqrt{3}$,  $SA\\perp(ABC)$. Góc phẳng nhị diện $[S, BC, A]$ bằng<br><img src=\"data/11/1D8/im1H85/dlts_12_DLTS36_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^\\circ$",
       "$60^\\circ$",
@@ -103,7 +103,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN9",
-    "question": "Cho hình chóp $S.ABC$ có cạnh bên $SA$ vuông góc với đáy. Tam giác $ABC$ vuông tại $A$, $AC=a\\sqrt{3}$, $\\widehat{ABC}=30^\\circ$. Góc giữa $SC$ và mặt phẳng $(ABC)$ bằng $60^\\circ$. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS34_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có cạnh bên $SA$ vuông góc với đáy. Tam giác $ABC$ vuông tại $A$, $AC=a\\sqrt{3}$, $\\widehat{ABC}=30^\\circ$. Góc giữa $SC$ và mặt phẳng $(ABC)$ bằng $60^\\circ$. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ là<br><img src=\"data/11/1D8/im1H85/dlts_11_DLTS34_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{2a\\sqrt{3}}{\\sqrt{35}}$",
       "$\\dfrac{a\\sqrt{6}}{\\sqrt{35}}$",
@@ -115,7 +115,7 @@ window.tracNghiem1H85 = [
   },
   {
     "id": "1H853TN10",
-    "question": "Cho hình chóp tứ giác đều $S.ABCD$, có cạnh đáy bằng $a$ và chiều cao bằng $a\\sqrt{2}$. Tính  khoảng cách từ $A$ đến mặt bên $\\left(SCD\\right)$.<br><img src=\"data/11/1H8/im1H85/loc8_TT_THPT_DaoDuyTu_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp tứ giác đều $S.ABCD$, có cạnh đáy bằng $a$ và chiều cao bằng $a\\sqrt{2}$. Tính  khoảng cách từ $A$ đến mặt bên $\\left(SCD\\right)$.<br><img src=\"data/11/1H8/im1H85/loc8_TT_THPT_DaoDuyTu_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{2a\\sqrt{2}}{3}$",
       "$\\dfrac{a\\sqrt{10}}{5}$",

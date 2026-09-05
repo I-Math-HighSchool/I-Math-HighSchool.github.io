@@ -43,7 +43,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN4",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ) có cạnh bằng $3$. Giá trị của $\\overrightarrow{AC} \\cdot \\overrightarrow{B'D'}$.<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ (tham khảo hình vẽ) có cạnh bằng $3$. Giá trị của $\\overrightarrow{AC} \\cdot \\overrightarrow{B'D'}$.<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$9\\sqrt{2}$",
       "$9$",
@@ -55,7 +55,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN5",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó, $\\overrightarrow{A'A} + \\overrightarrow{A'B'} + \\overrightarrow{A'D'}$ bằng<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó, $\\overrightarrow{A'A} + \\overrightarrow{A'B'} + \\overrightarrow{A'D'}$ bằng<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{A'D}$",
       "$\\overrightarrow{A'B}$",
@@ -67,7 +67,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN6",
-    "question": "Cho hình hộp $ABCD.EFGH$, có bao nhiêu vectơ có điểm đầu và điểm cuối là các đỉnh của hình hộp và là vectơ đối của $\\overrightarrow{DC}$?<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.EFGH$, có bao nhiêu vectơ có điểm đầu và điểm cuối là các đỉnh của hình hộp và là vectơ đối của $\\overrightarrow{DC}$?<br><img src=\"data/12/2H2/im2H21/loc2_2_TL_TN_THPT_Bin_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$2$",
@@ -91,7 +91,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN8",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$, vectơ nào sau đây bằng vectơ $\\overrightarrow{AD'}$?<br><img src=\"data/12/2H2/im2H21/loc2_2_TN_DS_TLN_Chuy_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$, vectơ nào sau đây bằng vectơ $\\overrightarrow{AD'}$?<br><img src=\"data/12/2H2/im2H21/loc2_2_TN_DS_TLN_Chuy_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}$",
       "$\\overrightarrow{B'C'}$",
@@ -111,7 +111,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{MN}=\\dfrac{\\overrightarrow{AC}+\\overrightarrow{BD}}{2}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overrightarrow{AD}+\\overrightarrow{BC}=\\left(\\overrightarrow{AB}+\\overrightarrow{BD}\\right)+\\left(\\overrightarrow{BD}+\\overrightarrow{DC}\\right)=\\overrightarrow{AB}+\\overrightarrow{DC}+2\\overrightarrow{BD}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overrightarrow{AD}+\\overrightarrow{BC}=\\left(\\overrightarrow{AB}+\\overrightarrow{BD}\\right)+\\left(\\overrightarrow{BD}+\\overrightarrow{DC}\\right)=\\overrightarrow{AB}+\\overrightarrow{DC}+2\\overrightarrow{BD}$."
   },
   {
     "id": "2H212TN10",
@@ -127,7 +127,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN5",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC}$",
       "$\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC'}$",
@@ -147,7 +147,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}+\\overrightarrow{MD}=4\\overrightarrow{MG}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $G$ là trung điểm của $MN$ nên $\\overrightarrow{GM}+\\overrightarrow{GN}=\\overrightarrow{0}$ đúng.<br>  Ta có $\\overrightarrow{GA}+\\overrightarrow{GB}=2 \\overrightarrow{GM} \\text{ và } \\overrightarrow{GC}+\\overrightarrow{GD}=2\\overrightarrow{GN} \\Rightarrow \\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=2 \\left( \\overrightarrow{GM}+\\overrightarrow{GN} \\right)=2\\cdot \\overrightarrow{0}= \\overrightarrow{0}$.<br>  Do đó khẳng định $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\overrightarrow{0}$ đúng.<br>  Ta có $\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}+\\overrightarrow{MD}=4\\overrightarrow{MG}+ \\overrightarrow{GA}+ \\overrightarrow{GB}+ \\overrightarrow{GC}+ \\overrightarrow{GD}=4\\overrightarrow{MG} $.<br>  Suy ra khẳng định $\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}+\\overrightarrow{MD}=4\\overrightarrow{MG}$ đúng."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $G$ là trung điểm của $MN$ nên $\\overrightarrow{GM}+\\overrightarrow{GN}=\\overrightarrow{0}$ đúng.<br>  Ta có $\\overrightarrow{GA}+\\overrightarrow{GB}=2 \\overrightarrow{GM} \\text{ và } \\overrightarrow{GC}+\\overrightarrow{GD}=2\\overrightarrow{GN} \\Rightarrow \\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=2 \\left( \\overrightarrow{GM}+\\overrightarrow{GN} \\right)=2\\cdot \\overrightarrow{0}= \\overrightarrow{0}$.<br>  Do đó khẳng định $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\overrightarrow{0}$ đúng.<br>  Ta có $\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}+\\overrightarrow{MD}=4\\overrightarrow{MG}+ \\overrightarrow{GA}+ \\overrightarrow{GB}+ \\overrightarrow{GC}+ \\overrightarrow{GD}=4\\overrightarrow{MG} $.<br>  Suy ra khẳng định $\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}+\\overrightarrow{MD}=4\\overrightarrow{MG}$ đúng."
   },
   {
     "id": "2H212TN11",
@@ -163,7 +163,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN12",
-    "question": "Cho hình hộp $ABCD.A_1B_1C_1D_1$. Các vectơ có điểm đầu và điểm cuối là các đỉnh của hình hộp và bằng vectơ $\\overrightarrow{A_1A}$ là các vetơ nào sau đây<br><img src=\"data/12/2D2/im2H2/2H21_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A_1B_1C_1D_1$. Các vectơ có điểm đầu và điểm cuối là các đỉnh của hình hộp và bằng vectơ $\\overrightarrow{A_1A}$ là các vetơ nào sau đây<br><img src=\"data/12/2D2/im2H2/2H21_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B_1A_1}$, $\\overrightarrow{AC}$, $\\overrightarrow{D_1C_1}$",
       "$\\overrightarrow{A_1A}$, $\\overrightarrow{CC_1}$, $\\overrightarrow{DD_1}$",
@@ -175,7 +175,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN13",
-    "question": "Xét hình hộp tùy ý $ABCD.A'B'C'D'$ (tham khảo hình vẽ bên). Khẳng định nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Xét hình hộp tùy ý $ABCD.A'B'C'D'$ (tham khảo hình vẽ bên). Khẳng định nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AB'}$",
       "$\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC'}$",
@@ -199,7 +199,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN15",
-    "question": "Cho hình lăng trụ $ABC.A'B'C'$ (minh họa như hình bên).  Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ $ABC.A'B'C'$ (minh họa như hình bên).  Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B'C}=\\overrightarrow{AA'}+\\overrightarrow{AB}-\\overrightarrow{AC}$",
       "$\\overrightarrow{B'C}=-\\overrightarrow{AA'}+\\overrightarrow{AB}-\\overrightarrow{AC}$",
@@ -211,7 +211,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN16",
-    "question": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ \\overrightarrow{D'C'}$",
       "$\\overrightarrow{BA}$",
@@ -243,7 +243,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{DC}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong hình chữ nhật $ABCD$, ta có $\\overrightarrow{AB} = \\overrightarrow{DC}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_027.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong hình chữ nhật $ABCD$, ta có $\\overrightarrow{AB} = \\overrightarrow{DC}$."
   },
   {
     "id": "2H212TN19",
@@ -271,7 +271,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN21",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Khi đó $\\overrightarrow{AC}+\\overrightarrow{C'D'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Khi đó $\\overrightarrow{AC}+\\overrightarrow{C'D'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{DA}$",
       "$\\overrightarrow{AD'}$",
@@ -291,11 +291,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{DB'} = \\overrightarrow{DA} + \\overrightarrow{DD'} + \\overrightarrow{DC}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp, ta có $\\overrightarrow{DB'} = \\overrightarrow{DA} + \\overrightarrow{DD'} + \\overrightarrow{DC}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp, ta có $\\overrightarrow{DB'} = \\overrightarrow{DA} + \\overrightarrow{DD'} + \\overrightarrow{DC}$."
   },
   {
     "id": "2H212TN23",
-    "question": "Cho hình hộp $ABCD.EFGH$ (tham khảo hình vẽ). Các vectơ khác vectơ $\\vec0$ cùng hướng với $\\overrightarrow{AD}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.EFGH$ (tham khảo hình vẽ). Các vectơ khác vectơ $\\vec0$ cùng hướng với $\\overrightarrow{AD}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{EF}$, $\\overrightarrow{FG}$, $\\overrightarrow{BA}$",
       "$\\overrightarrow{EH}$, $\\overrightarrow{FG}$, $\\overrightarrow{BC}$",
@@ -315,7 +315,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{BB'}=\\overrightarrow{BD}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có $\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{BB'}=\\overrightarrow{BD'}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có $\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{BB'}=\\overrightarrow{BD'}$."
   },
   {
     "id": "2H212TN25",
@@ -327,7 +327,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{B'A'}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vectơ bằng vectơ $\\overrightarrow{AB}$ là $\\overrightarrow{D'C'}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vectơ bằng vectơ $\\overrightarrow{AB}$ là $\\overrightarrow{D'C'}$."
   },
   {
     "id": "2H212TN26",
@@ -339,11 +339,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{MN} = \\overrightarrow{BC} + \\overrightarrow{AD}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{BC}+\\overrightarrow{AD} =\\overrightarrow{BM}+\\overrightarrow{MN}+\\overrightarrow{NC}+\\overrightarrow{AM}+\\overrightarrow{MN}+\\overrightarrow{ND}$<br>$\\overrightarrow{BC}+\\overrightarrow{AD} =(\\overrightarrow{BM}+\\overrightarrow{AM})+2\\overrightarrow{MN}+(\\overrightarrow{NC}+\\overrightarrow{ND})$<br>$=2\\overrightarrow{MN}.$  Khẳng định đúng là $\\overrightarrow{MN} = \\dfrac{1}{2} (\\overrightarrow{BC} + \\overrightarrow{AD})$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{BC}+\\overrightarrow{AD} =\\overrightarrow{BM}+\\overrightarrow{MN}+\\overrightarrow{NC}+\\overrightarrow{AM}+\\overrightarrow{MN}+\\overrightarrow{ND}$<br>$\\overrightarrow{BC}+\\overrightarrow{AD} =(\\overrightarrow{BM}+\\overrightarrow{AM})+2\\overrightarrow{MN}+(\\overrightarrow{NC}+\\overrightarrow{ND})$<br>$=2\\overrightarrow{MN}.$  Khẳng định đúng là $\\overrightarrow{MN} = \\dfrac{1}{2} (\\overrightarrow{BC} + \\overrightarrow{AD})$."
   },
   {
     "id": "2H211TN27",
-    "question": "Cho tứ diện $A B C D$. Gọi $E, F$ lần lượt là trung điểm của cạnh $A B$ và cạnh $C D$. Gọi $G$ là trung điểm của đoạn $E F$. Khẳng định nào dưới đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $A B C D$. Gọi $E, F$ lần lượt là trung điểm của cạnh $A B$ và cạnh $C D$. Gọi $G$ là trung điểm của đoạn $E F$. Khẳng định nào dưới đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{G A}+\\overrightarrow{G B}=\\overrightarrow{G C}+\\overrightarrow{G D}$",
       "$\\overrightarrow{E F}=\\overrightarrow{A D}+\\overrightarrow{B C}$",
@@ -391,7 +391,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN31",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó $\\overrightarrow{AB}$ bằng vectơ nào sau đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó $\\overrightarrow{AB}$ bằng vectơ nào sau đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AA'}$",
       "$\\overrightarrow{DC}$",
@@ -415,7 +415,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H213TN33",
-    "question": "Cho hình lăng trụ tứ giác đều $ABCD.A'B'C'D'$ có độ dài cạnh đáy bằng $1$ và độ dài mỗi cạnh bên bằng $2$. Tích vô hướng của hai vectơ $\\overrightarrow{AA'}$ và $\\overrightarrow{C'C}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ tứ giác đều $ABCD.A'B'C'D'$ có độ dài cạnh đáy bằng $1$ và độ dài mỗi cạnh bên bằng $2$. Tích vô hướng của hai vectơ $\\overrightarrow{AA'}$ và $\\overrightarrow{C'C}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-3$",
       "$4$",
@@ -435,11 +435,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{B A}+\\overrightarrow{B G}+\\overrightarrow{B B'}=\\overrightarrow{B C'}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có$\\colon \\overrightarrow{B A}+\\overrightarrow{B C}+\\overrightarrow{B B'}=\\overrightarrow{B D'}$"
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có$\\colon \\overrightarrow{B A}+\\overrightarrow{B C}+\\overrightarrow{B B'}=\\overrightarrow{B D'}$"
   },
   {
     "id": "2H211TN35",
-    "question": "Hình ảnh dưới đây là phân độ của 8 hướng trên la bàn. Mệnh đề nào sau đây sai?  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình ảnh dưới đây là phân độ của 8 hướng trên la bàn. Mệnh đề nào sau đây sai?  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hai vectơ $\\overrightarrow{a}$ và $\\overrightarrow{c}$ cùng phương",
       "Hai vectơ $\\overrightarrow{a}$ và $\\overrightarrow{c}$ ngược hướng",
@@ -459,11 +459,11 @@ window.tracNghiem2H21 = [
       "$12$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=6\\Leftrightarrow AB\\cdot AC \\cdot \\cos60^\\circ=6\\Leftrightarrow 4\\cdot AC \\cdot \\dfrac{1}{2}=6\\Leftrightarrow AC =3.$"
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=6\\Leftrightarrow AB\\cdot AC \\cdot \\cos60^\\circ=6\\Leftrightarrow 4\\cdot AC \\cdot \\dfrac{1}{2}=6\\Leftrightarrow AC =3.$"
   },
   {
     "id": "2H211TN37",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ như hình vẽ.  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Phát biểu nào sau đây là đúng?",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ như hình vẽ.  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Phát biểu nào sau đây là đúng?",
     "options": [
       "$\\overrightarrow{A B}+\\overrightarrow{A D}+\\overrightarrow{A A'}=\\overrightarrow{C A'}$",
       "$\\overline{A B}+\\overrightarrow{A D}+\\overrightarrow{A A'}=\\overrightarrow{A C'}$",
@@ -475,7 +475,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN38",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AD}=\\overrightarrow{A'D'}$",
       "$\\overrightarrow{AD}=\\overrightarrow{B'C'}$",
@@ -495,7 +495,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{MP}=\\dfrac{1}{2}\\left(\\overrightarrow{c}+\\overrightarrow{d}-\\overrightarrow{b}\\right)$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $P$ là trung điểm $CD$ nên $\\overrightarrow{MP}=\\dfrac{1}{2}\\left(\\overrightarrow{MC}+\\overrightarrow{MD}\\right)$. Khi đó  $\\overrightarrow{MP} =\\dfrac{1}{2}\\left(\\overrightarrow{AC}-\\overrightarrow{AM}+\\overrightarrow{AD}-\\overrightarrow{AM}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{AC}+\\overrightarrow{AD}-2\\overrightarrow{AM}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{AC}+\\overrightarrow{AD}-\\overrightarrow{AB}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{c}+\\overrightarrow{d}-\\overrightarrow{b}\\right).$"
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $P$ là trung điểm $CD$ nên $\\overrightarrow{MP}=\\dfrac{1}{2}\\left(\\overrightarrow{MC}+\\overrightarrow{MD}\\right)$. Khi đó  $\\overrightarrow{MP} =\\dfrac{1}{2}\\left(\\overrightarrow{AC}-\\overrightarrow{AM}+\\overrightarrow{AD}-\\overrightarrow{AM}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{AC}+\\overrightarrow{AD}-2\\overrightarrow{AM}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{AC}+\\overrightarrow{AD}-\\overrightarrow{AB}\\right)$<br>$=\\dfrac{1}{2}\\left(\\overrightarrow{c}+\\overrightarrow{d}-\\overrightarrow{b}\\right).$"
   },
   {
     "id": "2H212TN40",
@@ -535,7 +535,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN43",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật tâm $O$ (minh họa như hình bên). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật tâm $O$ (minh họa như hình bên). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}$",
       "$\\vec{SD}-\\vec{SB}=\\vec{BD}$",
@@ -547,7 +547,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN44",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (minh họa như hình bên). Chọn đẳng thức véc-tơ đúng.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (minh họa như hình bên). Chọn đẳng thức véc-tơ đúng.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\vec{AC'}=\\vec{AB}+\\vec{AB'}+\\vec{AD}$",
       "$\\vec{AC}=\\vec{AB}+\\vec{AD}+\\vec{AA'}$",
@@ -555,11 +555,11 @@ window.tracNghiem2H21 = [
       "$\\vec{BD'}=\\vec{BC}+\\vec{BA}+\\vec{BB'}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có ``$\\vec{BD'}=\\vec{BC}+\\vec{BA}+\\vec{BB'}$'' là mệnh đề đúng."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có ``$\\vec{BD'}=\\vec{BC}+\\vec{BA}+\\vec{BB'}$'' là mệnh đề đúng."
   },
   {
     "id": "2H211TN45",
-    "question": "Cho hình hộp $ABCD\\cdot A' B' C' D'$ như hình vẽ. Khẳng định nào dưới đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_060.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD\\cdot A' B' C' D'$ như hình vẽ. Khẳng định nào dưới đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_060.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{CB}+\\overrightarrow{CD}-\\overrightarrow{CC'}=\\overrightarrow{CA'}$",
       "$\\overrightarrow{CB}+\\overrightarrow{CA}+\\overrightarrow{CC'}=\\overrightarrow{CA'}$",
@@ -571,7 +571,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H213TN46",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ như hình vẽ.  Góc giữa hai vectơ $\\overrightarrow{BC}$ và $\\overrightarrow{B'D'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ như hình vẽ.  Góc giữa hai vectơ $\\overrightarrow{BC}$ và $\\overrightarrow{B'D'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$60^{\\circ}$",
       "$30^{\\circ}$",
@@ -583,7 +583,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN47",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (minh họa như hình bên). Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (minh họa như hình bên). Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}+\\overrightarrow{BB'}+\\overrightarrow{B'A'}=\\overrightarrow{AC'}$",
       "$\\overrightarrow{AB}+\\overrightarrow{BC'}+\\overrightarrow{C'D'}=\\overrightarrow{AC'}$",
@@ -619,7 +619,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN50",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Vectơ nào sau đây bằng vectơ $\\vec{AB}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Vectơ nào sau đây bằng vectơ $\\vec{AB}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\vec{AC'}$",
       "$\\vec{CD}$",
@@ -631,7 +631,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H213TN51",
-    "question": "Cho hình chóp $S. ABC$ có $SA, SB, SC$ đôi một vuông góc với nhau. Gọi $H$ là trực tâm tam giác $ABC$. Giá trị của tích vô hướng $\\overrightarrow{SH} \\cdot \\overrightarrow{BC}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S. ABC$ có $SA, SB, SC$ đôi một vuông góc với nhau. Gọi $H$ là trực tâm tam giác $ABC$. Giá trị của tích vô hướng $\\overrightarrow{SH} \\cdot \\overrightarrow{BC}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{SH} \\cdot \\overrightarrow{BC}=1$",
       "$\\overrightarrow{SH} \\cdot \\overrightarrow{BC}=0$",
@@ -655,7 +655,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H213TN53",
-    "question": "Cho tứ diện đều $ABCD$ có tất cả các cạnh bằng $a$. Tích vô hướng $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện đều $ABCD$ có tất cả các cạnh bằng $a$. Tích vô hướng $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-\\dfrac{a^2\\sqrt{3}}{2}$",
       "$\\dfrac{a^2\\sqrt{3}}{2}$",
@@ -667,7 +667,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN54",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó, vectơ $\\overrightarrow{A'B}$ bằng vectơ nào dưới đây?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khi đó, vectơ $\\overrightarrow{A'B}$ bằng vectơ nào dưới đây?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B'C}$",
       "$\\overrightarrow{A'D}$",
@@ -691,7 +691,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN56",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Vectơ nào sau đây không bằng vectơ $\\overrightarrow{BC}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Vectơ nào sau đây không bằng vectơ $\\overrightarrow{BC}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{A'D'}$",
       "$\\overrightarrow{AD}$",
@@ -715,7 +715,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN58",
-    "question": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ (tham khảo hình vẽ dưới). Khẳng định nào dưới đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_079.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ (tham khảo hình vẽ dưới). Khẳng định nào dưới đây đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_079.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AC'}=\\overrightarrow{BD'}$",
       "$\\overrightarrow{AC'}$ cùng phương với $\\overrightarrow{A'C'}$",
@@ -747,11 +747,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{OA}+\\overrightarrow{OD}=\\overrightarrow{0}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_080.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $O$ là tâm của hình hộp nên $O$ là trung điểm của $AC'$. Do đó $\\overrightarrow{OA}+\\overrightarrow{OC'}=\\overrightarrow{0}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_080.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $O$ là tâm của hình hộp nên $O$ là trung điểm của $AC'$. Do đó $\\overrightarrow{OA}+\\overrightarrow{OC'}=\\overrightarrow{0}$."
   },
   {
     "id": "2H212TN61",
-    "question": "Cho hình hộp $ABCD.A_1 B_1 C_1 D_1$.  Tìm khẳng định &lt;strong&gt;sai&lt;/strong&gt; trong các khẳng định dưới đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_083.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A_1 B_1 C_1 D_1$.  Tìm khẳng định &lt;strong&gt;sai&lt;/strong&gt; trong các khẳng định dưới đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_083.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}$",
       "$\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}$",
@@ -771,11 +771,11 @@ window.tracNghiem2H21 = [
       "$0$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_084.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $ABCD$ là tứ diện đều nên các mặt là tam giác đều.<br>  Suy ra góc giữa $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ là $\\widehat{BAC} = 60^\\circ$.<br>  Ta có  \\[  \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = AB \\cdot AC \\cdot \\cos 60^\\circ = a \\cdot a \\cdot \\dfrac{1}{2} = \\dfrac{a^2}{2}.  \\]"
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_084.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $ABCD$ là tứ diện đều nên các mặt là tam giác đều.<br>  Suy ra góc giữa $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ là $\\widehat{BAC} = 60^\\circ$.<br>  Ta có  \\[  \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = AB \\cdot AC \\cdot \\cos 60^\\circ = a \\cdot a \\cdot \\dfrac{1}{2} = \\dfrac{a^2}{2}.  \\]"
   },
   {
     "id": "2H212TN63",
-    "question": "Cho hình lăng trụ tam giác $A B C.A' B' C'$. Đặt $\\overrightarrow{A A'}=\\overrightarrow{a}$, $\\overrightarrow{A B}=\\overrightarrow{b}$, $\\overrightarrow{A C}=\\overrightarrow{c}$. Khi đó biểu diễn $\\overrightarrow{B C'}$ theo các vectơ $\\overrightarrow{a}$, $\\overrightarrow{b}$, $\\overrightarrow{c}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ tam giác $A B C.A' B' C'$. Đặt $\\overrightarrow{A A'}=\\overrightarrow{a}$, $\\overrightarrow{A B}=\\overrightarrow{b}$, $\\overrightarrow{A C}=\\overrightarrow{c}$. Khi đó biểu diễn $\\overrightarrow{B C'}$ theo các vectơ $\\overrightarrow{a}$, $\\overrightarrow{b}$, $\\overrightarrow{c}$ là<br><img src=\"data/12/2D2/im2H2/2H21_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B C'}=-\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}$",
       "$\\overrightarrow{B C'}=\\overrightarrow{a}-\\overrightarrow{b}+\\overrightarrow{c}$",
@@ -787,7 +787,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN64",
-    "question": "Cho hình hộp $ABCD.EFGH$. Tổng ba vectơ $\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AE}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.EFGH$. Tổng ba vectơ $\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AE}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AH}$",
       "$\\overrightarrow{AC}$",
@@ -799,7 +799,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN65",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{CB}+\\overrightarrow{AA'}$",
       "$\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AA'}$",
@@ -823,7 +823,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN67",
-    "question": "Cho hình hộp $ABCD. A' B' C' D'$, vectơ nào sau đây bằng vectơ $\\overrightarrow{AB}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD. A' B' C' D'$, vectơ nào sau đây bằng vectơ $\\overrightarrow{AB}$?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B' A'}$",
       "$\\overrightarrow{D' C'}$",
@@ -835,7 +835,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN68",
-    "question": "Cho hình hộp $ABCD. A' B' C' D'$, $O$ là trung điểm $A' C$. Khi đó $\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD. A' B' C' D'$, $O$ là trung điểm $A' C$. Khi đó $\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}$ bằng<br><img src=\"data/12/2D2/im2H2/2H21_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB'}$",
       "$3\\overrightarrow{AC'}$",
@@ -871,7 +871,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN71",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào sau đây {\\bf sai}?  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào sau đây {\\bf sai}?  <br><img src=\"data/12/2D2/im2H2/2H21_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB} + \\overrightarrow{AD} = \\overrightarrow{AC}$",
       "$\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{AC'}$",
@@ -895,7 +895,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN75",
-    "question": "Cho tứ diện $ABCD$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS14_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$. Mệnh đề nào sau đây đúng?<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS14_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{BD}$",
       "$\\overrightarrow{AB} + \\overrightarrow{CA} = \\overrightarrow{BC}$",
@@ -915,7 +915,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{MN} = \\overrightarrow{BC} + \\overrightarrow{AD}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS21_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{BC}+\\overrightarrow{AD} =\\overrightarrow{BM}+\\overrightarrow{MN}+\\overrightarrow{NC}+\\overrightarrow{AM}+\\overrightarrow{MN}+\\overrightarrow{ND}$<br>$\\overrightarrow{BC}+\\overrightarrow{AD} =(\\overrightarrow{BM}+\\overrightarrow{AM})+2\\overrightarrow{MN}+(\\overrightarrow{NC}+\\overrightarrow{ND})$<br>$=2\\overrightarrow{MN}.$  Khẳng định đúng là $\\overrightarrow{MN} = \\dfrac{1}{2} (\\overrightarrow{BC} + \\overrightarrow{AD})$."
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS21_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{BC}+\\overrightarrow{AD} =\\overrightarrow{BM}+\\overrightarrow{MN}+\\overrightarrow{NC}+\\overrightarrow{AM}+\\overrightarrow{MN}+\\overrightarrow{ND}$<br>$\\overrightarrow{BC}+\\overrightarrow{AD} =(\\overrightarrow{BM}+\\overrightarrow{AM})+2\\overrightarrow{MN}+(\\overrightarrow{NC}+\\overrightarrow{ND})$<br>$=2\\overrightarrow{MN}.$  Khẳng định đúng là $\\overrightarrow{MN} = \\dfrac{1}{2} (\\overrightarrow{BC} + \\overrightarrow{AD})$."
   },
   {
     "id": "2H212TN77",
@@ -963,7 +963,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{AD}+\\overrightarrow{AB}+\\overrightarrow{AA'}=\\overrightarrow{A'C}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Đẳng thức $\\vec{AB}+\\vec{AD}+\\vec{AA'}=\\vec{AC'}$<br>  $\\vec{AB}+\\vec{AD}+\\vec{AA'}=(\\vec{AB}+\\vec{AD})+\\vec{AA'} =\\vec{AC}+\\vec{AA'} =\\vec{AC'}$<br>- Đẳng thức $\\vec{BC}+\\vec{CD}+\\vec{BB'}=\\vec{BD'}$<br>  $\\vec{BC}+\\vec{CD}+\\vec{BB'}=(\\vec{BC}+\\vec{CD})+\\vec{BB'} =\\vec{BD}+\\vec{BB'} =\\vec{BD'}$<br>- Đẳng thức $\\vec{CB}+\\vec{CD}+\\vec{DD'}=\\vec{CA'}$<br>  $\\vec{CB}+\\vec{CD}+\\vec{DD'}=(\\vec{CB}+\\vec{CD})+\\vec{DD'} =\\vec{CA}+\\vec{DD'} =\\vec{CA'}$<br>- Đẳng thức $\\vec{AD}+\\vec{AB}+\\vec{AA'}=\\vec{A'C}$<br>  $\\vec{AB}+\\vec{AD}+\\vec{AA'}=(\\vec{AB}+\\vec{AD})+\\vec{AA'} =\\vec{AC}+\\vec{AA'} =\\vec{AC'}\\ne\\vec{A'C}$"
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Đẳng thức $\\vec{AB}+\\vec{AD}+\\vec{AA'}=\\vec{AC'}$<br>  $\\vec{AB}+\\vec{AD}+\\vec{AA'}=(\\vec{AB}+\\vec{AD})+\\vec{AA'} =\\vec{AC}+\\vec{AA'} =\\vec{AC'}$<br>- Đẳng thức $\\vec{BC}+\\vec{CD}+\\vec{BB'}=\\vec{BD'}$<br>  $\\vec{BC}+\\vec{CD}+\\vec{BB'}=(\\vec{BC}+\\vec{CD})+\\vec{BB'} =\\vec{BD}+\\vec{BB'} =\\vec{BD'}$<br>- Đẳng thức $\\vec{CB}+\\vec{CD}+\\vec{DD'}=\\vec{CA'}$<br>  $\\vec{CB}+\\vec{CD}+\\vec{DD'}=(\\vec{CB}+\\vec{CD})+\\vec{DD'} =\\vec{CA}+\\vec{DD'} =\\vec{CA'}$<br>- Đẳng thức $\\vec{AD}+\\vec{AB}+\\vec{AA'}=\\vec{A'C}$<br>  $\\vec{AB}+\\vec{AD}+\\vec{AA'}=(\\vec{AB}+\\vec{AD})+\\vec{AA'} =\\vec{AC}+\\vec{AA'} =\\vec{AC'}\\ne\\vec{A'C}$"
   },
   {
     "id": "2H211TN81",
@@ -975,11 +975,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{a}+\\overrightarrow{c} + \\overrightarrow{d}+\\overrightarrow{b} =\\overrightarrow{0}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $O$ là tâm hình bình hành $ABCD$, khi đó   $\\overrightarrow{SA}+\\overrightarrow{SC}= \\overrightarrow{SD}+\\overrightarrow{SB} =2\\overrightarrow{SO}$.<br>  Vậy $\\overrightarrow{a}+\\overrightarrow{c}= \\overrightarrow{d}+\\overrightarrow{b}$"
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $O$ là tâm hình bình hành $ABCD$, khi đó   $\\overrightarrow{SA}+\\overrightarrow{SC}= \\overrightarrow{SD}+\\overrightarrow{SB} =2\\overrightarrow{SO}$.<br>  Vậy $\\overrightarrow{a}+\\overrightarrow{c}= \\overrightarrow{d}+\\overrightarrow{b}$"
   },
   {
     "id": "2H212TN82",
-    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$, $Q$, $I$, $J$ lần lượt là trung điểm của $AB$, $BC$, $CD$, $DA$, $AC$, $BD$. Các vectơ bằng nhau là<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$, $Q$, $I$, $J$ lần lượt là trung điểm của $AB$, $BC$, $CD$, $DA$, $AC$, $BD$. Các vectơ bằng nhau là<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{MI}$, $\\overrightarrow{IQ}$, $\\overrightarrow{QM}$",
       "$\\overrightarrow{MN}$, $\\overrightarrow{CI}$, $\\overrightarrow{QP}$",
@@ -999,11 +999,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{a} =\\overrightarrow{b}+\\overrightarrow{c}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{b}-\\overrightarrow{c}+\\overrightarrow{d}   = \\overrightarrow{AB}-\\overrightarrow{AC}+\\overrightarrow{BC}=  \\overrightarrow{CB}+\\overrightarrow{BC}= \\overrightarrow{0}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{b}-\\overrightarrow{c}+\\overrightarrow{d}   = \\overrightarrow{AB}-\\overrightarrow{AC}+\\overrightarrow{BC}=  \\overrightarrow{CB}+\\overrightarrow{BC}= \\overrightarrow{0}$."
   },
   {
     "id": "2H212TN84",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính tích $\\overrightarrow{AC}\\cdot\\overrightarrow{B'C'}$.<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính tích $\\overrightarrow{AC}\\cdot\\overrightarrow{B'C'}$.<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AC}\\cdot\\overrightarrow{B'C'}=\\dfrac{\\sqrt{2}}{2}a^2$",
       "$\\overrightarrow{AC}\\cdot\\overrightarrow{B'C'}=a^2$",
@@ -1023,7 +1023,7 @@ window.tracNghiem2H21 = [
       "$\\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\vec{SA}+\\vec{SC}=2\\vec{SO}=\\vec{SB}+\\vec{SD}$.  <br>- $\\vec{SA}+\\vec{SC}=2\\vec{SO}$<br>  Vì $O$ là trung điểm $AC$ nên $\\forall\\text{ điểm } S, \\vec{SA}+\\vec{SC}=2\\vec{SO}$.<br>- {$\\vec{SB}+\\vec{SD}=2\\vec{SO}$}<br>  Vì $O$ là trung điểm $BD$ nên $\\forall\\text{ điểm } S, \\vec{SB}+\\vec{SD}=2\\vec{SO}$.<br>- {$\\vec{SA}+\\vec{SB}+\\vec{SC}+\\vec{SD}=\\vec{AC}+\\vec{BD}$}<br>  $\\vec{SA}+\\vec{SB}+\\vec{SC}+\\vec{SD}=4\\vec{SO}\\ne\\vec{AC}+\\vec{BD}$<br>- {$\\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}$}<br>  Vì $O$ là trung điểm $AC$ và $BD$ nên $\\forall\\text{ điểm } S, \\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}=2\\vec{SO}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\vec{SA}+\\vec{SC}=2\\vec{SO}=\\vec{SB}+\\vec{SD}$.  <br>- $\\vec{SA}+\\vec{SC}=2\\vec{SO}$<br>  Vì $O$ là trung điểm $AC$ nên $\\forall\\text{ điểm } S, \\vec{SA}+\\vec{SC}=2\\vec{SO}$.<br>- {$\\vec{SB}+\\vec{SD}=2\\vec{SO}$}<br>  Vì $O$ là trung điểm $BD$ nên $\\forall\\text{ điểm } S, \\vec{SB}+\\vec{SD}=2\\vec{SO}$.<br>- {$\\vec{SA}+\\vec{SB}+\\vec{SC}+\\vec{SD}=\\vec{AC}+\\vec{BD}$}<br>  $\\vec{SA}+\\vec{SB}+\\vec{SC}+\\vec{SD}=4\\vec{SO}\\ne\\vec{AC}+\\vec{BD}$<br>- {$\\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}$}<br>  Vì $O$ là trung điểm $AC$ và $BD$ nên $\\forall\\text{ điểm } S, \\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}=2\\vec{SO}$."
   },
   {
     "id": "2H211TN86",
@@ -1035,7 +1035,7 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{OG}=\\dfrac{1}{4}\\left(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}\\right)$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có  <br>- {$\\vec{AG} =\\dfrac{1}{4}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right)$}<br>  Ta có $\\begin{aligned}[t]  & \\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\vec{GB}+\\vec{GC}+\\vec{GD}\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\left(\\vec{AB}-\\vec{AG}\\right)+\\left(\\vec{AC}-\\vec{AG}\\right)+\\left(\\vec{AD}-\\vec{AG}\\right)\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\dfrac{1}{4}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right).  \\end{aligned}$<br>- { $\\vec{AG} =\\dfrac{2}{3}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right)$}<br>  Sai khác.<br>- {$\\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$}<br>  Luôn luôn đúng.<br>- {$\\vec{OG} =\\dfrac{1}{4}\\left(\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\right)$}<br>  Điểm $G$ là trọng tâm của tứ diện $ABCD$ ta luôn có $\\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$.<br>  Khi đó $\\begin{aligned}[t]  & \\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}\\\\  \\Leftrightarrow &\\ \\vec{OA}-\\vec{OG} +\\vec{OB}-\\vec{OG} +\\vec{OC}-\\vec{OG} +\\vec{OD}-\\vec{OG}=\\vec{0}\\\\  \\Leftrightarrow &\\ 4\\vec{OG} =\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\\\  \\Leftrightarrow &\\ \\vec{OG} =\\dfrac{1}{4}\\left(\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\right).  \\end{aligned}$"
+    "explain": "<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có  <br>- {$\\vec{AG} =\\dfrac{1}{4}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right)$}<br>  Ta có $\\begin{aligned}[t]  & \\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\vec{GB}+\\vec{GC}+\\vec{GD}\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\left(\\vec{AB}-\\vec{AG}\\right)+\\left(\\vec{AC}-\\vec{AG}\\right)+\\left(\\vec{AD}-\\vec{AG}\\right)\\\\  \\Leftrightarrow &\\ \\vec{AG}=\\dfrac{1}{4}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right).  \\end{aligned}$<br>- { $\\vec{AG} =\\dfrac{2}{3}\\left(\\vec{AB}+\\vec{AC}+\\vec{AD}\\right)$}<br>  Sai khác.<br>- {$\\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$}<br>  Luôn luôn đúng.<br>- {$\\vec{OG} =\\dfrac{1}{4}\\left(\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\right)$}<br>  Điểm $G$ là trọng tâm của tứ diện $ABCD$ ta luôn có $\\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$.<br>  Khi đó $\\begin{aligned}[t]  & \\vec{GA}+\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}\\\\  \\Leftrightarrow &\\ \\vec{OA}-\\vec{OG} +\\vec{OB}-\\vec{OG} +\\vec{OC}-\\vec{OG} +\\vec{OD}-\\vec{OG}=\\vec{0}\\\\  \\Leftrightarrow &\\ 4\\vec{OG} =\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\\\  \\Leftrightarrow &\\ \\vec{OG} =\\dfrac{1}{4}\\left(\\vec{OA}+\\vec{OB}+\\vec{OC}+\\vec{OD}\\right).  \\end{aligned}$"
   },
   {
     "id": "2H212TN87",
@@ -1051,7 +1051,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN88",
-    "question": "Cho tứ diện $ABCD$ có tam giác $ BCD$ đều và $AD=AC$. Giá trị của $\\cos\\left(\\overrightarrow{AB}, \\overrightarrow{CD} \\right)$ là<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$ có tam giác $ BCD$ đều và $AD=AC$. Giá trị của $\\cos\\left(\\overrightarrow{AB}, \\overrightarrow{CD} \\right)$ là<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS5_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{1}{2}$",
       "$0$",
@@ -1087,7 +1087,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN91",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$  Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS8_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$  Phát biểu nào sau đây là đúng?<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS8_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD'}+\\overrightarrow{AA'}$",
       "$\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AA'}$",
@@ -1167,11 +1167,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{AO} = \\dfrac{1}{4}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_QV1_TT1_LVT_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có $\\overrightarrow{AC'} = \\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'}$ mà $\\overrightarrow{AC'} = 2\\overrightarrow{AO}$.<br>  Suy ra $\\overrightarrow{AO} = \\dfrac{1}{2}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$."
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_QV1_TT1_LVT_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có $\\overrightarrow{AC'} = \\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'}$ mà $\\overrightarrow{AC'} = 2\\overrightarrow{AO}$.<br>  Suy ra $\\overrightarrow{AO} = \\dfrac{1}{2}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$."
   },
   {
     "id": "2H211TN92",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Mệnh đề nào sau đây <strong>sai</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_AnDuong__005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Mệnh đề nào sau đây <strong>sai</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_AnDuong__005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}$",
       "$\\overrightarrow{AB}=\\overrightarrow{CD}$",
@@ -1183,7 +1183,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN92",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$.  Vecto nào dưới đây bằng $\\overrightarrow{AD}$?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$.  Vecto nào dưới đây bằng $\\overrightarrow{AD}$?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{BC'}$",
       "$\\overrightarrow{DC}$",
@@ -1203,11 +1203,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\overrightarrow{0}$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $J$ là trọng tâm tứ diện $ABCD$, ta có $\\overrightarrow{JA}+\\overrightarrow{JB}+\\overrightarrow{JC}+\\overrightarrow{JD}=\\overrightarrow{0}$.<br>  Suy ra $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=4\\overrightarrow{GJ}\\ne\\overrightarrow{0}$."
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $J$ là trọng tâm tứ diện $ABCD$, ta có $\\overrightarrow{JA}+\\overrightarrow{JB}+\\overrightarrow{JC}+\\overrightarrow{JD}=\\overrightarrow{0}$.<br>  Suy ra $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=4\\overrightarrow{GJ}\\ne\\overrightarrow{0}$."
   },
   {
     "id": "2H211TN7",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (như hình vẽ). Khẳng định nào trong các khẳng định sau đây là đúng?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Lien_cap_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (như hình vẽ). Khẳng định nào trong các khẳng định sau đây là đúng?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Lien_cap_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{B C}+\\overrightarrow{B A}+\\overrightarrow{B D'}=\\overrightarrow{B B'}$",
       "$\\overrightarrow{A D}+\\overrightarrow{D' C'}+\\overrightarrow{C C'}=\\overrightarrow{A C'}$",
@@ -1227,11 +1227,11 @@ window.tracNghiem2H21 = [
       "$\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{B' C'}$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' B'}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' C'}=\\overrightarrow{A' C}$."
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' B'}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' C'}=\\overrightarrow{A' C}$."
   },
   {
     "id": "2H211TN93",
-    "question": "Cho lăng trụ $ABC.A'B'C'$. Khẳng định nào sau đây <strong>đúng</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho lăng trụ $ABC.A'B'C'$. Khẳng định nào sau đây <strong>đúng</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$",
       "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC'}$",
@@ -1243,7 +1243,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN93",
-    "question": "Cho hình lăng trụ $ABC.A'B'C'$. Đặt $\\overrightarrow{a}=\\overrightarrow{AA'}$, $\\overrightarrow{b}=\\overrightarrow{AB}$, $\\overrightarrow{c}=\\overrightarrow{AC}$. Gọi $G'$ là trọng tâm của tam giác $A'B'C'$. Vectơ $\\overrightarrow{AG'}$ bằng<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenVi_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lăng trụ $ABC.A'B'C'$. Đặt $\\overrightarrow{a}=\\overrightarrow{AA'}$, $\\overrightarrow{b}=\\overrightarrow{AB}$, $\\overrightarrow{c}=\\overrightarrow{AC}$. Gọi $G'$ là trọng tâm của tam giác $A'B'C'$. Vectơ $\\overrightarrow{AG'}$ bằng<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenVi_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{1}{3}\\left(\\overrightarrow{a}+\\overrightarrow{b}+3\\overrightarrow{c}\\right)$",
       "$\\dfrac{1}{3}\\left(\\overrightarrow{a}+3\\overrightarrow{b}+\\overrightarrow{c}\\right)$",

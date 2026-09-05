@@ -5,7 +5,7 @@
 window.dungSai1H46 = [
   {
     "id": "1H463DS1",
-    "question": "Cho hình chóp $S ABCD$ có đáy $ABCD$ là hình thoi. Trên cạch $SC$ lấy điểm $M$ sao cho $CM =2SM$. Gọi $N$ là giao điểm của đường thẳng $SD$ và mặt phẳng $(ABM )$. Gọi $K$ là giao điểm của hai đường thẳng $AN$ và $BM$<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS13_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S ABCD$ có đáy $ABCD$ là hình thoi. Trên cạch $SC$ lấy điểm $M$ sao cho $CM =2SM$. Gọi $N$ là giao điểm của đường thẳng $SD$ và mặt phẳng $(ABM )$. Gọi $K$ là giao điểm của hai đường thẳng $AN$ và $BM$<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS13_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$BC=CD$",
@@ -47,6 +47,6 @@ window.dungSai1H46 = [
         "answer": false
       }
     ],
-    "explain": "<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS6_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Giao tuyến của hai mặt phẳng $\\left(AB'C'\\right)$ và $\\left(A'BC\\right)$ đi qua giao điểm của hai đường thẳng $AM'$ và $A'M$.<br>- Vì $AMM'A'$ là hình bình hành nên $AM\\parallel A'M'$.<br>- Vì $\\left(ABC\\right)\\parallel\\left(A'B'C'\\right)$ nên hai mặt đáy của hình lăng trụ nằm trên hai mặt phẳng song song.<br>- Điểm $A'$ là hình chiếu của điểm $A$ trên mặt phẳng $\\left(A'B'C'\\right)$ theo phương $CC'$ hoặc $BB'$."
+    "explain": "<br><img src=\"data/11/1D4/im1H46/dlts_11_DLTS6_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Giao tuyến của hai mặt phẳng $\\left(AB'C'\\right)$ và $\\left(A'BC\\right)$ đi qua giao điểm của hai đường thẳng $AM'$ và $A'M$.<br>- Vì $AMM'A'$ là hình bình hành nên $AM\\parallel A'M'$.<br>- Vì $\\left(ABC\\right)\\parallel\\left(A'B'C'\\right)$ nên hai mặt đáy của hình lăng trụ nằm trên hai mặt phẳng song song.<br>- Điểm $A'$ là hình chiếu của điểm $A$ trên mặt phẳng $\\left(A'B'C'\\right)$ theo phương $CC'$ hoặc $BB'$."
   }
 ];

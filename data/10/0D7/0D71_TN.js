@@ -42,7 +42,7 @@ window.tracNghiem0D71 = [
   },
   {
     "id": "0D711TN4",
-    "question": "Cho tam thức bậc hai $ f(x)=ax^2+bx+c$ có bảng xét dấu như hình bên dưới  <br><img src=\"data/10/0D7/im0D71/loc3_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập nghiệm của bất phương trình $ f(x)\\le 0$ là",
+    "question": "Cho tam thức bậc hai $ f(x)=ax^2+bx+c$ có bảng xét dấu như hình bên dưới  <br><img src=\"data/10/0D7/im0D71/loc3_0_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập nghiệm của bất phương trình $ f(x)\\le 0$ là",
     "options": [
       "$\\left\\{-4\\right\\}$",
       "$\\varnothing $",

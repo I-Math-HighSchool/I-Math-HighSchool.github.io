@@ -18,7 +18,7 @@ window.tracNghiem0D13 = [
   },
   {
     "id": "0D131TN2",
-    "question": "Cho $A$ và $B$ là hai tập hợp bất kỳ. Phần gạch sọc trong hình vẽ bên là tập hợp nào?<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho $A$ và $B$ là hai tập hợp bất kỳ. Phần gạch sọc trong hình vẽ bên là tập hợp nào?<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$A \\cup B$",
       "$B \\setminus A$",
@@ -54,7 +54,7 @@ window.tracNghiem0D13 = [
   },
   {
     "id": "0D134TN5",
-    "question": "Các tập hợp $A$, $B$, $C$ được minh họa bằng biểu đồ Ven như hình bên. Phần gạch chéo trong hình là biểu diễn của tập hợp nào sau đây?  \\loigiai{  Phần gạch chéo trong hình vẽ là tập con của $A\\cap B$.<br>  Mặt khác, phần gạch chéo không nằm trong $C$ nên đó là tập $\\left(A\\cap B\\right)\\setminus C$.  }<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Các tập hợp $A$, $B$, $C$ được minh họa bằng biểu đồ Ven như hình bên. Phần gạch chéo trong hình là biểu diễn của tập hợp nào sau đây?  \\loigiai{  Phần gạch chéo trong hình vẽ là tập con của $A\\cap B$.<br>  Mặt khác, phần gạch chéo không nằm trong $C$ nên đó là tập $\\left(A\\cap B\\right)\\setminus C$.  }<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$A\\cap B\\cap C$",
       "$\\left(A\\setminus C\\right)\\cup \\left(A\\setminus B\\right)$",
@@ -174,7 +174,7 @@ window.tracNghiem0D13 = [
   },
   {
     "id": "0D135TN15",
-    "question": "Lớp $10A$ có $10$ học sinh giỏi Toán, $10$ học sinh giỏi Lý, $11$ học sinh giỏi Hóa, $6$ học sinh giỏi cả Toán và Lý, $5$ học sinh giỏi cả Hóa và Lý, $4$ học sinh giỏi cả Toán và Hóa, $3$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Số học sinh giỏi ít nhất một trong ba môn (Toán, Lý, Hóa) của lớp $10A$ là<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Lớp $10A$ có $10$ học sinh giỏi Toán, $10$ học sinh giỏi Lý, $11$ học sinh giỏi Hóa, $6$ học sinh giỏi cả Toán và Lý, $5$ học sinh giỏi cả Hóa và Lý, $4$ học sinh giỏi cả Toán và Hóa, $3$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Số học sinh giỏi ít nhất một trong ba môn (Toán, Lý, Hóa) của lớp $10A$ là<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$19$",
       "$18$",
@@ -186,7 +186,7 @@ window.tracNghiem0D13 = [
   },
   {
     "id": "0D135TN16",
-    "question": "Lớp $10A$ có $7$ học sinh giỏi Toán, $5$ học sinh giỏi Lý, $6$ học sinh giỏi Hóa, $3$ học sinh giỏi cả Toán và Lý, $4$ học sinh giỏi cả Toán và Hóa, $2$ học sinh giỏi cả Lý và Hóa, $1$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Số học sinh giỏi ít nhất một môn (Toán, Lý, Hóa) của lớp $10A$ là<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Lớp $10A$ có $7$ học sinh giỏi Toán, $5$ học sinh giỏi Lý, $6$ học sinh giỏi Hóa, $3$ học sinh giỏi cả Toán và Lý, $4$ học sinh giỏi cả Toán và Hóa, $2$ học sinh giỏi cả Lý và Hóa, $1$ học sinh giỏi cả ba môn Toán, Lý, Hóa. Số học sinh giỏi ít nhất một môn (Toán, Lý, Hóa) của lớp $10A$ là<br><img src=\"data/10/0D1/im0D13/dlts_sbh_ds10cd123_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$9$",
       "$18$",
@@ -446,7 +446,7 @@ window.tracNghiem0D13 = [
       "$M\\cap N=\\mathbb{R}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  <br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ, ta có $M\\cap N=(-3; 5]$."
+    "explain": "<br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  <br><img src=\"data/10/0D1/im0D13/loc2_0_TN_DS_TL_SGD_B_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ, ta có $M\\cap N=(-3; 5]$."
   },
   {
     "id": "0D134TN6",
@@ -494,7 +494,7 @@ window.tracNghiem0D13 = [
       "$5$"
     ],
     "answer": 0,
-    "explain": "Số học sinh thi môn Ngữ văn nhưng không thi Toán là $15-5=10$ học sinh. <br>  Số học sinh thi môn Toán nhưng không thi môn Ngữ văn là $20-5=15$ học sinh. <br>   Từ đó, ta vẽ được biểu đồ Venn như sau   <br><img src=\"data/10/0D1/im0D13/loc3_0_TN_DS_THPT_chu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Do đó, ta có số học sinh không thi cả Toán và Ngữ văn là $40-10-5-15=10$ học sinh."
+    "explain": "Số học sinh thi môn Ngữ văn nhưng không thi Toán là $15-5=10$ học sinh. <br>  Số học sinh thi môn Toán nhưng không thi môn Ngữ văn là $20-5=15$ học sinh. <br>   Từ đó, ta vẽ được biểu đồ Venn như sau   <br><img src=\"data/10/0D1/im0D13/loc3_0_TN_DS_THPT_chu_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Do đó, ta có số học sinh không thi cả Toán và Ngữ văn là $40-10-5-15=10$ học sinh."
   },
   {
     "id": "0D134TN4",

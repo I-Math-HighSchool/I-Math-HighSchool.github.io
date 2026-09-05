@@ -40,7 +40,7 @@ window.dungSai1D14 = [
         "answer": true
       },
       {
-        "text": "Đồ thị của hàm số $y = f(x)$ có dạng:<br>   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Đồ thị của hàm số $y = f(x)$ có dạng:<br>   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": true
       },
       {
@@ -52,7 +52,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D147DS3",
-    "question": "Đồ thị của một hàm số $y = f(x)$ được biểu diễn như sau  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị của một hàm số $y = f(x)$ được biểu diễn như sau  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị hàm số này là của hàm số $y = \\tan x$",
@@ -121,7 +121,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D148DS6",
-    "question": "Một vật dao động xung quanh vị trí cân bằng theo phương trình $x=1{,}5\\cos \\left(\\dfrac{t\\pi}{4} \\right)$ (tham khảo hình vẽ); trong đó $t$ là thời gian được tính bằng giây và quãng đường $h=|x|$ được tính bằng mét là khoảng cách theo phương ngang của chất điểm đối với vị trí cân bằng. Khi đó<br><img src=\"data/11/1D1/im1D14/1D14_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một vật dao động xung quanh vị trí cân bằng theo phương trình $x=1{,}5\\cos \\left(\\dfrac{t\\pi}{4} \\right)$ (tham khảo hình vẽ); trong đó $t$ là thời gian được tính bằng giây và quãng đường $h=|x|$ được tính bằng mét là khoảng cách theo phương ngang của chất điểm đối với vị trí cân bằng. Khi đó<br><img src=\"data/11/1D1/im1D14/1D14_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Vật ở xa vị trí cân bằng nhất nghĩa là $h=1{,}5$ m",
@@ -213,7 +213,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D147DS10",
-    "question": "Cho hàm số $y=\\cos x$ có đồ thị như hình bên dưới  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\cos x$ có đồ thị như hình bên dưới  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đã cho có đồ thị đối xứng qua trục $Oy$",
@@ -236,7 +236,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D147DS11",
-    "question": "Trong mặt phẳng tọa độ $O x y$, cho đồ thị hàm số $y=\\sin x$ trên đoạn $[-2 \\pi ; 2 \\pi]$ như hình vẽ sau   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong mặt phẳng tọa độ $O x y$, cho đồ thị hàm số $y=\\sin x$ trên đoạn $[-2 \\pi ; 2 \\pi]$ như hình vẽ sau   <br><img src=\"data/11/1D1/im1D14/1D14_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đã cho đồng biến trên khoảng $\\left(-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right)$",
@@ -443,7 +443,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D147DS20",
-    "question": "Cho hai hàm số lượng giác $y=f(x)=\\sin x$ và $y=g(x)=\\cos x$ và các đường cong $(C)$, $(C')$ như hình bên dưới. Khi đó, các mệnh đề sau đúng hay sai?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hai hàm số lượng giác $y=f(x)=\\sin x$ và $y=g(x)=\\cos x$ và các đường cong $(C)$, $(C')$ như hình bên dưới. Khi đó, các mệnh đề sau đúng hay sai?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$f\\left(\\dfrac{\\pi}{3} \\right)=\\dfrac{\\sqrt{3}}{2}$",
@@ -535,7 +535,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D147DS24",
-    "question": "Cho hàm số $f(x)=\\sin x$.<br><img src=\"data/11/1D1/im1D14/1D14_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)=\\sin x$.<br><img src=\"data/11/1D1/im1D14/1D14_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số $g(x)=f(x)\\cdot x^3$ là hàm số lẻ",

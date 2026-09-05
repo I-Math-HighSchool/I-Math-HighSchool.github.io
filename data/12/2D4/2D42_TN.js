@@ -482,7 +482,7 @@ window.tracNghiem2D42 = [
       "$\\displaystyle I=\\dfrac{2}{3} \\int\\limits_{1}^{3} \\mathrm{d} u$"
     ],
     "answer": 3,
-    "explain": "Đặt $u=\\sqrt{x^3+1}$. Ta có $u^2=x^3+1 \\Rightarrow 2u\\mathrm{\\, d} u=3x^2\\mathrm{\\, d} x \\Rightarrow x^2\\mathrm{\\, d} x=\\dfrac{2}{3}u\\mathrm{\\, d} u$.<br>  Đổi cận   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có $\\displaystyle I=\\int\\limits_{1}^{3}\\dfrac{1}{u}\\cdot \\dfrac{2}{3}u\\mathrm{\\, d} u=\\dfrac{2}{3}\\int\\limits_{1}^{3}\\mathrm{\\, d} u$  ."
+    "explain": "Đặt $u=\\sqrt{x^3+1}$. Ta có $u^2=x^3+1 \\Rightarrow 2u\\mathrm{\\, d} u=3x^2\\mathrm{\\, d} x \\Rightarrow x^2\\mathrm{\\, d} x=\\dfrac{2}{3}u\\mathrm{\\, d} u$.<br>  Đổi cận   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có $\\displaystyle I=\\int\\limits_{1}^{3}\\dfrac{1}{u}\\cdot \\dfrac{2}{3}u\\mathrm{\\, d} u=\\dfrac{2}{3}\\int\\limits_{1}^{3}\\mathrm{\\, d} u$  ."
   },
   {
     "id": "2D424TN41",
@@ -518,7 +518,7 @@ window.tracNghiem2D42 = [
       "$1$"
     ],
     "answer": 1,
-    "explain": "Đặt $t=x+2$, ta có $\\mathrm{d}t=\\mathrm{d}x$.<br>  Đổi cận \\quad   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có  $I= \\int\\limits_{0}^{1} \\dfrac{x}{(x+2)^{2}} \\mathrm{\\, d} x = \\int\\limits_{2}^{3}\\dfrac{t-2}{t^2}\\mathrm{\\, d} t=\\int\\limits_{2}^{3}\\left(\\dfrac{1}{t}-\\dfrac{2}{t^2}\\right)$<br>$= \\left(\\ln|t|+\\dfrac{2}{t}\\right)\\bigg|_{2}^{3}=\\left(\\ln 3+\\dfrac{2}{3}\\right)-\\left(\\ln 2+1\\right)=-\\dfrac{1}{3}-\\ln 2+\\ln3.$  Do đó, ta có $a=-\\dfrac{1}{3} \\text{ và } b=-1 \\text{ và } c=1$. Suy ra $3a+b+c=-1$."
+    "explain": "Đặt $t=x+2$, ta có $\\mathrm{d}t=\\mathrm{d}x$.<br>  Đổi cận \\quad   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có  $I= \\int\\limits_{0}^{1} \\dfrac{x}{(x+2)^{2}} \\mathrm{\\, d} x = \\int\\limits_{2}^{3}\\dfrac{t-2}{t^2}\\mathrm{\\, d} t=\\int\\limits_{2}^{3}\\left(\\dfrac{1}{t}-\\dfrac{2}{t^2}\\right)$<br>$= \\left(\\ln|t|+\\dfrac{2}{t}\\right)\\bigg|_{2}^{3}=\\left(\\ln 3+\\dfrac{2}{3}\\right)-\\left(\\ln 2+1\\right)=-\\dfrac{1}{3}-\\ln 2+\\ln3.$  Do đó, ta có $a=-\\dfrac{1}{3} \\text{ và } b=-1 \\text{ và } c=1$. Suy ra $3a+b+c=-1$."
   },
   {
     "id": "2D425TN44",
@@ -542,7 +542,7 @@ window.tracNghiem2D42 = [
       "$S=2$"
     ],
     "answer": 3,
-    "explain": "Đặt $t=\\sqrt{2x+1}+3$. Ta có $2x+1=(t-3)^2 \\Rightarrow \\mathrm{\\, d} x=(t-3) \\mathrm{\\, d} t$. <br>  Đổi cận   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có  $\\displaystyle\\int\\limits_0^{4} \\dfrac{\\mathrm{\\,d}x}{\\sqrt{2x+1}+3} =\\int\\limits_{4}^{6}\\dfrac{t-3}{t} \\mathrm{\\, d} t=\\int\\limits_{4}^{6}\\left(1-\\dfrac{3}{t}\\right) \\mathrm{\\, d} t$<br>$=\\left(t-3\\ln |t|\\right)\\Big|_{4}^{6}=(6-3\\ln 6)-(4-3\\ln 4)$<br>$=6-3\\ln 3 -3\\ln 2-4+6\\ln 2=2+3\\ln 2-3\\ln 3.$  Do đó $a=2$, $b=3$ và $c=-3$. Vậy $a+b+c=2$."
+    "explain": "Đặt $t=\\sqrt{2x+1}+3$. Ta có $2x+1=(t-3)^2 \\Rightarrow \\mathrm{\\, d} x=(t-3) \\mathrm{\\, d} t$. <br>  Đổi cận   <br><img src=\"data/12/2D4/im2D4/2D42_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>  Khi đó, ta có  $\\displaystyle\\int\\limits_0^{4} \\dfrac{\\mathrm{\\,d}x}{\\sqrt{2x+1}+3} =\\int\\limits_{4}^{6}\\dfrac{t-3}{t} \\mathrm{\\, d} t=\\int\\limits_{4}^{6}\\left(1-\\dfrac{3}{t}\\right) \\mathrm{\\, d} t$<br>$=\\left(t-3\\ln |t|\\right)\\Big|_{4}^{6}=(6-3\\ln 6)-(4-3\\ln 4)$<br>$=6-3\\ln 3 -3\\ln 2-4+6\\ln 2=2+3\\ln 2-3\\ln 3.$  Do đó $a=2$, $b=3$ và $c=-3$. Vậy $a+b+c=2$."
   },
   {
     "id": "2D424TN46",
@@ -1194,7 +1194,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D422TN100",
-    "question": "[Đề thi tốt nghiệp - đợt 2 - 2021]%[Lê Tuyến]%[2D3K2-1]  Cho hàm số $ y=f(x) $ liên tục trên đoạn $ \\left[-1;6\\right] $ và có đồ thị là đường gấp khúc $ ABC $ như hình bên dưới.   Biết hàm số $ F(x) $ là nguyên hàm của hàm số $ f(x) $ thỏa mãn $ F(-1) =-2$. Giá trị của $ F(4)+F(6) $ bằng<br><img src=\"data/12/2D4/im2D4/2D42_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "[Đề thi tốt nghiệp - đợt 2 - 2021]%[Lê Tuyến]%[2D3K2-1]  Cho hàm số $ y=f(x) $ liên tục trên đoạn $ \\left[-1;6\\right] $ và có đồ thị là đường gấp khúc $ ABC $ như hình bên dưới.   Biết hàm số $ F(x) $ là nguyên hàm của hàm số $ f(x) $ thỏa mãn $ F(-1) =-2$. Giá trị của $ F(4)+F(6) $ bằng<br><img src=\"data/12/2D4/im2D4/2D42_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ 3 $",
       "$ 4 $",
@@ -1202,7 +1202,7 @@ window.tracNghiem2D42 = [
       "$ 5 $"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/12/2D4/im2D4/2D42_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ ta có  $F(6)-F(-1) = \\displaystyle\\int\\limits_{-1}^6f(x)\\mathrm{\\,d}x  =S_1+S_2-S_3$<br>$= 3\\cdot 1+\\dfrac{1}{2}\\cdot 2\\cdot 1-\\dfrac{1}{2}\\cdot 2\\cdot1= 3$<br>$\\Rightarrow F(6)=3+F(-1)=1.\\quad (1)$  $F(4)-F(-1) = \\displaystyle\\int\\limits_{-1}^4f(x)\\mathrm{\\,d}x = S_1+S_2$<br>$= 3.1+\\dfrac {1}{2}\\cdot 2\\cdot1=4$<br>$\\Rightarrow F(4)=4+F(-1)=2.\\quad (2)$  Lấy (1) cộng (2) ta có $F(4)+F(6)=2+1=3$."
+    "explain": "<br><img src=\"data/12/2D4/im2D4/2D42_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ ta có  $F(6)-F(-1) = \\displaystyle\\int\\limits_{-1}^6f(x)\\mathrm{\\,d}x  =S_1+S_2-S_3$<br>$= 3\\cdot 1+\\dfrac{1}{2}\\cdot 2\\cdot 1-\\dfrac{1}{2}\\cdot 2\\cdot1= 3$<br>$\\Rightarrow F(6)=3+F(-1)=1.\\quad (1)$  $F(4)-F(-1) = \\displaystyle\\int\\limits_{-1}^4f(x)\\mathrm{\\,d}x = S_1+S_2$<br>$= 3.1+\\dfrac {1}{2}\\cdot 2\\cdot1=4$<br>$\\Rightarrow F(4)=4+F(-1)=2.\\quad (2)$  Lấy (1) cộng (2) ta có $F(4)+F(6)=2+1=3$."
   },
   {
     "id": "2D422TN101",
@@ -1230,7 +1230,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D422TN103",
-    "question": "Đồ thị của hàm số $y=f(x)$ trên đoạn $\\left[-3;5\\right]$ được cho như trong hình vẽ bên (phần cong của đồ thị là một phần của parabol $y=ax^2+bx+c$). Tính $I=\\displaystyle\\int\\limits_{-2}^{3}f(x)\\mathrm{\\,d}x.$  <br><img src=\"data/12/2D4/im2D4/2D42_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị của hàm số $y=f(x)$ trên đoạn $\\left[-3;5\\right]$ được cho như trong hình vẽ bên (phần cong của đồ thị là một phần của parabol $y=ax^2+bx+c$). Tính $I=\\displaystyle\\int\\limits_{-2}^{3}f(x)\\mathrm{\\,d}x.$  <br><img src=\"data/12/2D4/im2D4/2D42_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$I=\\dfrac{97}{6}$",
       "$I=\\dfrac{53}{3}$",
@@ -1242,7 +1242,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D424TN104",
-    "question": "Cho hàm số $y=f\\left( x \\right)$. Đồ thị $y=f'\\left( x \\right)$ trên $\\left[ -3;0 \\right]$ như hình vẽ (phần cong của đồ thị là một phần của parabol $y=ax^2+bx+c$). Biết $\\displaystyle\\int\\limits_{\\mathrm{e}^{-3}}^1 \\dfrac{f\\left( \\ln x \\right)}{x} \\mathrm{\\,d}x=\\dfrac{2}{3}$. Tính giá trị $f\\left( 0 \\right)$.<br><img src=\"data/12/2D4/im2D4/2D42_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f\\left( x \\right)$. Đồ thị $y=f'\\left( x \\right)$ trên $\\left[ -3;0 \\right]$ như hình vẽ (phần cong của đồ thị là một phần của parabol $y=ax^2+bx+c$). Biết $\\displaystyle\\int\\limits_{\\mathrm{e}^{-3}}^1 \\dfrac{f\\left( \\ln x \\right)}{x} \\mathrm{\\,d}x=\\dfrac{2}{3}$. Tính giá trị $f\\left( 0 \\right)$.<br><img src=\"data/12/2D4/im2D4/2D42_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$2$",
@@ -1566,7 +1566,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D421TN131",
-    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$, có đồ thị như hình vẽ.  Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị hàm số $f(x)$, trục hoành và trục tung. Khẳng định nào sau đây đúng?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS28_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$, có đồ thị như hình vẽ.  Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị hàm số $f(x)$, trục hoành và trục tung. Khẳng định nào sau đây đúng?<br><img src=\"data/12/2D4/im2D42/dlts_12_DLTS28_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S = \\displaystyle\\int\\limits_{c}^{d} f(x)\\mathrm{\\,d}x-\\displaystyle\\int\\limits_{d}^{0} f(x)\\mathrm{\\,d}x$",
       "$S = -\\displaystyle\\int\\limits_{c}^{d} f(x)\\mathrm{\\,d}x-\\displaystyle\\int\\limits_{d}^{0} f(x)\\mathrm{\\,d}x$",

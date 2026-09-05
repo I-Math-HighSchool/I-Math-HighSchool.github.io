@@ -1615,7 +1615,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H526TN135",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh là $a&gt;0$. Khi đó khoảng cách giữa hai đường thẳng chéo nhau $AB'$ và $BC'$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh là $a&gt;0$. Khi đó khoảng cách giữa hai đường thẳng chéo nhau $AB'$ và $BC'$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{a\\sqrt{6}}{3}$",
       "$\\dfrac{a\\sqrt{6}}{6}$",
@@ -1627,7 +1627,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H527TN136",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi cạnh $2a$. Cạnh ${SA \\perp (ABCD)}$, $SA=2a\\sqrt{3}$ và $\\widehat{ABC} = 60^\\circ$. Gọi $M$ là trung điểm $SD$. Tính côsin của góc giữa hai đường thẳng $CM$ và $BD$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi cạnh $2a$. Cạnh ${SA \\perp (ABCD)}$, $SA=2a\\sqrt{3}$ và $\\widehat{ABC} = 60^\\circ$. Gọi $M$ là trung điểm $SD$. Tính côsin của góc giữa hai đường thẳng $CM$ và $BD$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{2}}{4}$",
       "$\\dfrac{\\sqrt{2}}{3}$",
@@ -1639,7 +1639,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H527TN137",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$ tâm $O$, $SA=SB=SC=SD$ và $SO=a$. Gọi $M$, $N$ là trung điểm của $SA$, $BC$. Gọi $\\alpha$ là góc giữa đường thẳng $MN$ và mặt phẳng $(SBD)$. Tính $\\cos\\alpha$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$ tâm $O$, $SA=SB=SC=SD$ và $SO=a$. Gọi $M$, $N$ là trung điểm của $SA$, $BC$. Gọi $\\alpha$ là góc giữa đường thẳng $MN$ và mặt phẳng $(SBD)$. Tính $\\cos\\alpha$.<br><img src=\"data/12/2D5/im2H5/B5_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{2}{\\sqrt{7}}$",
       "$\\dfrac{2}{5}$",
@@ -1651,7 +1651,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H526TN138",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB = a$, $BC = 2a$, $SA$ vuông góc với mặt phẳng đáy và $SA = a$. Khoảng cách giữa hai đường thẳng $BD$ và $SC$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB = a$, $BC = 2a$, $SA$ vuông góc với mặt phẳng đáy và $SA = a$. Khoảng cách giữa hai đường thẳng $BD$ và $SC$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\sqrt{30}a}{6}$",
       "$\\dfrac{4\\sqrt{21}a}{21}$",
@@ -1663,7 +1663,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H526TN139",
-    "question": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có cạnh bằng $AB=2a$, $AD=AA'=a$. Tham khảo hình bên.<br> Khoảng cách giữa hai đường thẳng $BD$ và $AD'$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có cạnh bằng $AB=2a$, $AD=AA'=a$. Tham khảo hình bên.<br> Khoảng cách giữa hai đường thẳng $BD$ và $AD'$ bằng<br><img src=\"data/12/2D5/im2H5/B5_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a$",
       "$\\dfrac{2a}{3}$",
@@ -1675,7 +1675,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H527TN140",
-    "question": "Cho hình chóp $S.ABC$ có $SA=SB=SC=AB=AC=a\\sqrt{2}$ và $BC=2a$. Góc giữa hai đường thẳng $SC$ và $AB$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có $SA=SB=SC=AB=AC=a\\sqrt{2}$ và $BC=2a$. Góc giữa hai đường thẳng $SC$ và $AB$ là<br><img src=\"data/12/2D5/im2H5/B5_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$30^\\circ$",
       "$45^\\circ$",
@@ -3031,7 +3031,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN253",
-    "question": "Trong một khu du lịch, người ta cho du khách trải nghiệm thiên nhiên bằng cách đu theo đường trượt Ziplne từ vị trí $A$ cao $15\\ \\mathrm{m}$ của tháp I này sang vị trí $B$ cao $10\\ \\mathrm{m}$ của tháp II trong khung cảnh tuyệt đẹp xung quanh. Với hệ trục tọa độ $Oxyz$ cho trước (đơn vị độ dài trên các trục tọa độ là mét), tọa độ của $A$ và $B$ lần lượt là $(3;3;15)$ và $(21;28;10)$. Biết tọa độ du khách khi ở độ cao $12$ mét là $(a;b;c)$. Tính $P=5a+b-c$.<br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS29_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong một khu du lịch, người ta cho du khách trải nghiệm thiên nhiên bằng cách đu theo đường trượt Ziplne từ vị trí $A$ cao $15\\ \\mathrm{m}$ của tháp I này sang vị trí $B$ cao $10\\ \\mathrm{m}$ của tháp II trong khung cảnh tuyệt đẹp xung quanh. Với hệ trục tọa độ $Oxyz$ cho trước (đơn vị độ dài trên các trục tọa độ là mét), tọa độ của $A$ và $B$ lần lượt là $(3;3;15)$ và $(21;28;10)$. Biết tọa độ du khách khi ở độ cao $12$ mét là $(a;b;c)$. Tính $P=5a+b-c$.<br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS29_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$75$",
       "$63$",
@@ -3055,7 +3055,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H525TN255",
-    "question": "Trong không gian $Oxyz$ (đơn vị trên mỗi tọa độ là mét), một ngôi nhà như hình vẽ dưới đây có sàn nhà nằm trên mặt phẳng $(Oxy)$. Hai mái nhà lần lượt nằm trên các mặt phẳng $(P)\\colon x-2y+5=0$ và $(Q)\\colon x-2y-3z+20=0$. Hỏi chiều cao của ngôi nhà tính từ sàn nhà lên nóc nhà (điểm cao nhất của mái nhà) là bao nhiêu mét?<br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS29_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$ (đơn vị trên mỗi tọa độ là mét), một ngôi nhà như hình vẽ dưới đây có sàn nhà nằm trên mặt phẳng $(Oxy)$. Hai mái nhà lần lượt nằm trên các mặt phẳng $(P)\\colon x-2y+5=0$ và $(Q)\\colon x-2y-3z+20=0$. Hỏi chiều cao của ngôi nhà tính từ sàn nhà lên nóc nhà (điểm cao nhất của mái nhà) là bao nhiêu mét?<br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS29_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$5{,}5$",
       "$6$",

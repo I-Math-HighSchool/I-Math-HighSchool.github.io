@@ -53,7 +53,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H224DS3",
-    "question": "Một sân vận động với sân bóng phẳng hình chữ nhật có chấm trắng trung tâm là nơi giao bóng, một đường kẻ vạch chia đôi sân và các khán đài. Khán đài $A$ gồm những dãy ghế nằm vuông góc với vạch chia đôi sân có độ cao tăng dần (các ghế cùng hàng thì cùng độ cao so với mặt sân). Chọn hệ trục tọa độ $Oxyz$ sao cho $O$ trùng với điểm giao bóng, mặt phẳng $Oxy$ trùng với mặt sân, trục $Ox$ trùng với vạch chia đôi sân, tia $Oz$ vuông góc với mặt sân (đơn vị đo lấy theo mét).  Một khán giả ngồi tại vị trí $M$ của khán đài $A$, có hình chiếu vuông góc lên mặt phẳng chứa sân là một điểm thuộc $Ox$. Góc hợp bởi $OM$ và mặt sân là $\\alpha$ với $\\sin \\alpha=\\dfrac{1}{3}$, nếu người này di chuyển 10 $(m)$ trên hàng ngang đến ngồi tại một vị trí $N$ thì góc hợp bởi $ON$ và mặt sân là $\\beta$ với $\\sin \\beta=\\dfrac{\\sqrt{10}}{10}$. Gọi $h(m)$ là độ cao tại $M$ so với mặt sân.   <br><img src=\"data/12/2H2/im2H22/loc2_2_TN_DS_TL_SGD_H_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một sân vận động với sân bóng phẳng hình chữ nhật có chấm trắng trung tâm là nơi giao bóng, một đường kẻ vạch chia đôi sân và các khán đài. Khán đài $A$ gồm những dãy ghế nằm vuông góc với vạch chia đôi sân có độ cao tăng dần (các ghế cùng hàng thì cùng độ cao so với mặt sân). Chọn hệ trục tọa độ $Oxyz$ sao cho $O$ trùng với điểm giao bóng, mặt phẳng $Oxy$ trùng với mặt sân, trục $Ox$ trùng với vạch chia đôi sân, tia $Oz$ vuông góc với mặt sân (đơn vị đo lấy theo mét).  Một khán giả ngồi tại vị trí $M$ của khán đài $A$, có hình chiếu vuông góc lên mặt phẳng chứa sân là một điểm thuộc $Ox$. Góc hợp bởi $OM$ và mặt sân là $\\alpha$ với $\\sin \\alpha=\\dfrac{1}{3}$, nếu người này di chuyển 10 $(m)$ trên hàng ngang đến ngồi tại một vị trí $N$ thì góc hợp bởi $ON$ và mặt sân là $\\beta$ với $\\sin \\beta=\\dfrac{\\sqrt{10}}{10}$. Gọi $h(m)$ là độ cao tại $M$ so với mặt sân.   <br><img src=\"data/12/2H2/im2H22/loc2_2_TN_DS_TL_SGD_H_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Điểm $M$ có cao độ bằng $0$",
@@ -141,7 +141,7 @@ window.dungSai2H22 = [
         "answer": false
       }
     ],
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Ta có $\\overrightarrow{AB} \\cdot \\overrightarrow{AD} = |\\overrightarrow{AB}| \\cdot |\\overrightarrow{AD}| \\cdot \\cos(\\widehat{DAB}= 1 \\cdot 2 \\cdot \\cos 60^{\\circ} = 1$.<br>- Ta có $\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{CC'} = \\overrightarrow{BD} + \\overrightarrow{DD'}= \\overrightarrow{BD'}$.<br>- Ta có   $AC'^2 = (\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'})^2$<br>$= AB^2+AD^2+AA'^2+2\\overrightarrow{AB}\\cdot\\overrightarrow{AD}+2\\overrightarrow{AB}\\cdot\\overrightarrow{AA'}+2\\overrightarrow{AD}\\cdot\\overrightarrow{AA'}$<br>$= 1^2 + 2^2 + 3^2 + 2 \\cdot 1 \\cdot 2 \\cdot \\cos 60^{\\circ} + 2 \\cdot 1 \\cdot 3 \\cdot \\cos 90^{\\circ} + 2\\cdot 2 \\cdot 3 \\cdot \\cos 120^{\\circ}$<br>$= 10.$  Suy ra $AC' = \\sqrt{10}$.<br>- Ta có   $\\cos(\\overrightarrow{AB}, \\overrightarrow{AC'}) = \\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC'}}{|\\overrightarrow{AB}|\\cdot|\\overrightarrow{AC'}|}$<br>$= \\dfrac{\\overrightarrow{AB} \\cdot (\\overrightarrow{AB} + \\overrightarrow{AD}+\\overrightarrow{AA'})}{|\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC'}|}$<br>$= \\dfrac{\\overrightarrow{AB}^2 + \\overrightarrow{AB}\\overrightarrow{AD} + \\overrightarrow{AB}\\overrightarrow{AA'}}{|\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC'}|}$<br>$= \\dfrac{1 + 1 + 0}{1 \\cdot \\sqrt{10}}$<br>$= \\dfrac{2}{\\sqrt{10}}.$  Suy ra $(\\overrightarrow{AB}, \\overrightarrow{AC'}) \\approx 51^{\\circ}$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Ta có $\\overrightarrow{AB} \\cdot \\overrightarrow{AD} = |\\overrightarrow{AB}| \\cdot |\\overrightarrow{AD}| \\cdot \\cos(\\widehat{DAB}= 1 \\cdot 2 \\cdot \\cos 60^{\\circ} = 1$.<br>- Ta có $\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{CC'} = \\overrightarrow{BD} + \\overrightarrow{DD'}= \\overrightarrow{BD'}$.<br>- Ta có   $AC'^2 = (\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'})^2$<br>$= AB^2+AD^2+AA'^2+2\\overrightarrow{AB}\\cdot\\overrightarrow{AD}+2\\overrightarrow{AB}\\cdot\\overrightarrow{AA'}+2\\overrightarrow{AD}\\cdot\\overrightarrow{AA'}$<br>$= 1^2 + 2^2 + 3^2 + 2 \\cdot 1 \\cdot 2 \\cdot \\cos 60^{\\circ} + 2 \\cdot 1 \\cdot 3 \\cdot \\cos 90^{\\circ} + 2\\cdot 2 \\cdot 3 \\cdot \\cos 120^{\\circ}$<br>$= 10.$  Suy ra $AC' = \\sqrt{10}$.<br>- Ta có   $\\cos(\\overrightarrow{AB}, \\overrightarrow{AC'}) = \\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC'}}{|\\overrightarrow{AB}|\\cdot|\\overrightarrow{AC'}|}$<br>$= \\dfrac{\\overrightarrow{AB} \\cdot (\\overrightarrow{AB} + \\overrightarrow{AD}+\\overrightarrow{AA'})}{|\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC'}|}$<br>$= \\dfrac{\\overrightarrow{AB}^2 + \\overrightarrow{AB}\\overrightarrow{AD} + \\overrightarrow{AB}\\overrightarrow{AA'}}{|\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC'}|}$<br>$= \\dfrac{1 + 1 + 0}{1 \\cdot \\sqrt{10}}$<br>$= \\dfrac{2}{\\sqrt{10}}.$  Suy ra $(\\overrightarrow{AB}, \\overrightarrow{AC'}) \\approx 51^{\\circ}$."
   },
   {
     "id": "2H223DS5",
@@ -191,7 +191,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS7",
-    "question": "Một tháp trung tâm kiểm soát không lưu ở sân bay cao $80$ m sử dụng ra đa có phạm vi theo dõi $500$ km được đặt trên đỉnh tháp. Chọn hệ trục toạ độ $Oxyz$ có gốc $O$ trùng với vị trí chân tháp, mặt phẳng $(Oxy)$ trùng với mặt đất sao cho trục $Ox$ hướng về phía Tây, trục $Oy$ hướng về phía Nam, trục $Oz$  hướng thẳng đứng lên phía trên (đơn vị trên mỗi trục tính theo kilômét).  Một máy bay tại vị trí $A$ cách mặt đất $10$ km, cách $300$ km về phía Tây và $200$ km về phía Nam so với tháp trung tâm kiểm soát không lưu        <br><img src=\"data/12/2D2/im2H2/2H22_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một tháp trung tâm kiểm soát không lưu ở sân bay cao $80$ m sử dụng ra đa có phạm vi theo dõi $500$ km được đặt trên đỉnh tháp. Chọn hệ trục toạ độ $Oxyz$ có gốc $O$ trùng với vị trí chân tháp, mặt phẳng $(Oxy)$ trùng với mặt đất sao cho trục $Ox$ hướng về phía Tây, trục $Oy$ hướng về phía Nam, trục $Oz$  hướng thẳng đứng lên phía trên (đơn vị trên mỗi trục tính theo kilômét).  Một máy bay tại vị trí $A$ cách mặt đất $10$ km, cách $300$ km về phía Tây và $200$ km về phía Nam so với tháp trung tâm kiểm soát không lưu        <br><img src=\"data/12/2D2/im2H2/2H22_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Ra đa ở vị trí có toạ độ $(0; 0; 0)$",
@@ -283,7 +283,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS11",
-    "question": "Khối rubik như hình vẽ có độ dài cạnh bằng $2$. Khi gắn rubik vào hệ trục tọa độ trong không gian $Oxyz$, cho ta lập phương $ABCD.A'B'C'D'$ có $A(0;0;0)$, $B(2;0;0)$, $D(0;2;0)$, $A'(0;0;2)$. Gọi $N$ là trung điểm của $AA'$.  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">\\quad  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Khối rubik như hình vẽ có độ dài cạnh bằng $2$. Khi gắn rubik vào hệ trục tọa độ trong không gian $Oxyz$, cho ta lập phương $ABCD.A'B'C'D'$ có $A(0;0;0)$, $B(2;0;0)$, $D(0;2;0)$, $A'(0;0;2)$. Gọi $N$ là trung điểm của $AA'$.  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">\\quad  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ điểm $B(2;0;0)$ suy ra vectơ là $\\overrightarrow{OB} = 2\\overrightarrow{i} + 0\\overrightarrow{j} + 0\\overrightarrow{k}$",
@@ -352,7 +352,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS14",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$, biết điểm $A(0;0;0)$, $B(1;0;0)$, $C(1;2;0)$, $D'(-1;3;5)$. Gọi $M, N$ là tâm của các hình bình hành $ABB'A'$, $CC'D'D$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$, biết điểm $A(0;0;0)$, $B(1;0;0)$, $C(1;2;0)$, $D'(-1;3;5)$. Gọi $M, N$ là tâm của các hình bình hành $ABB'A'$, $CC'D'D$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ $D(0;2;0)$",
@@ -375,7 +375,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H224DS15",
-    "question": "Cho hình chóp $S.ABCD$ đáy là hình thang vuông tại $A$ và $D$, $SA \\perp (ABCD)$. Góc giữa $SB$ và mặt phẳng đáy bằng $45^\\circ$, $E$ là trung điểm của $SD$, $AB = 2a$, $AD = DC = a$. Gọi $G$ là trọng tâm của tam giác $ACE$. Chọn hệ trục tọa độ như hình vẽ.  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ đáy là hình thang vuông tại $A$ và $D$, $SA \\perp (ABCD)$. Góc giữa $SB$ và mặt phẳng đáy bằng $45^\\circ$, $E$ là trung điểm của $SD$, $AB = 2a$, $AD = DC = a$. Gọi $G$ là trọng tâm của tam giác $ACE$. Chọn hệ trục tọa độ như hình vẽ.  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$\\overrightarrow{SA} \\cdot \\overrightarrow{CB} = 0$",
@@ -444,7 +444,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H224DS18",
-    "question": "Trong không gian $Oxyz$, cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật, cạnh bên $SA$ vuông góc với đáy. Biết $A(0; 0; 0)$, $B(3; 0; 0)$, $D(0; 4; 0)$ và $S(0; 0; 5)$ (tham khảo hình vẽ).<br><img src=\"data/12/2D2/im2H2/2H22_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật, cạnh bên $SA$ vuông góc với đáy. Biết $A(0; 0; 0)$, $B(3; 0; 0)$, $D(0; 4; 0)$ và $S(0; 0; 5)$ (tham khảo hình vẽ).<br><img src=\"data/12/2D2/im2H2/2H22_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Điểm $C$ có tọa độ là $(3; 4; 0)$",
@@ -467,7 +467,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS19",
-    "question": "Trong không gian $Oxyz$, cho hình chóp đều $S.ABCD$ có $SB=5$, $CD=3\\sqrt{2}$ được gắn vào hệ trục sao cho tâm của đáy $ABCD$ trùng với gốc tọa độ $O$ như hình vẽ.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, cho hình chóp đều $S.ABCD$ có $SB=5$, $CD=3\\sqrt{2}$ được gắn vào hệ trục sao cho tâm của đáy $ABCD$ trùng với gốc tọa độ $O$ như hình vẽ.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ đỉnh $S(0;0;4)$",
@@ -490,7 +490,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS20",
-    "question": "Cho hình chóp tứ giác đều $S. ABCD$ có $O$ là tâm của đáy $ABCD$, cạnh đáy bằng $a$, cạnh bên bằng $2a$ (<em>tham khảo hình bên dưới</em>).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp tứ giác đều $S. ABCD$ có $O$ là tâm của đáy $ABCD$, cạnh đáy bằng $a$, cạnh bên bằng $2a$ (<em>tham khảo hình bên dưới</em>).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Cosin góc giữa hai vectơ $\\overrightarrow{BA}$ và $\\overrightarrow{CS}$ bằng $\\dfrac{1}{4}$",
@@ -509,7 +509,7 @@ window.dungSai2H22 = [
         "answer": false
       }
     ],
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- $\\cos\\left(\\overrightarrow{BA},\\overrightarrow{CS}\\right)=\\cos\\left(\\overrightarrow{CD},\\overrightarrow{CS}\\right)=\\cos \\widehat{SCD}=\\dfrac{CD^2+CS^2-DS^2}{2CD.CS}=\\dfrac{a^2}{2a.2a^2}=\\dfrac{1}{4}$.<br>- $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\left(\\overrightarrow{OA}+\\overrightarrow{{OC}}\\right)+\\left(\\overrightarrow{OB}+\\overrightarrow{OD}\\right)=\\overrightarrow{0}$ (do $O$ là trung điểm $AC$, $BD$).<br>- Hai vectơ $\\overrightarrow{SA}$ và $\\overrightarrow{SC}$ cùng độ dài nhưng khác hướng, do đó $\\overrightarrow{SA}\\neq \\overrightarrow{SC}$.<br>- Ta có<br>  $\\overrightarrow{AO}\\cdot \\overrightarrow{SD}=\\overrightarrow{AO}\\cdot\\left(\\overrightarrow{OD}-\\overrightarrow{OS}\\right)=\\overrightarrow{AO}\\cdot\\overrightarrow{OD}-\\overrightarrow{AO}\\cdot \\overrightarrow{OS}=0$ (do $S.ABCD$ là chóp đều)."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- $\\cos\\left(\\overrightarrow{BA},\\overrightarrow{CS}\\right)=\\cos\\left(\\overrightarrow{CD},\\overrightarrow{CS}\\right)=\\cos \\widehat{SCD}=\\dfrac{CD^2+CS^2-DS^2}{2CD.CS}=\\dfrac{a^2}{2a.2a^2}=\\dfrac{1}{4}$.<br>- $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\left(\\overrightarrow{OA}+\\overrightarrow{{OC}}\\right)+\\left(\\overrightarrow{OB}+\\overrightarrow{OD}\\right)=\\overrightarrow{0}$ (do $O$ là trung điểm $AC$, $BD$).<br>- Hai vectơ $\\overrightarrow{SA}$ và $\\overrightarrow{SC}$ cùng độ dài nhưng khác hướng, do đó $\\overrightarrow{SA}\\neq \\overrightarrow{SC}$.<br>- Ta có<br>  $\\overrightarrow{AO}\\cdot \\overrightarrow{SD}=\\overrightarrow{AO}\\cdot\\left(\\overrightarrow{OD}-\\overrightarrow{OS}\\right)=\\overrightarrow{AO}\\cdot\\overrightarrow{OD}-\\overrightarrow{AO}\\cdot \\overrightarrow{OS}=0$ (do $S.ABCD$ là chóp đều)."
   },
   {
     "id": "2H223DS21",
@@ -532,11 +532,11 @@ window.dungSai2H22 = [
         "answer": false
       }
     ],
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   <br>- Ta có $B(4;0;0)\\Rightarrow \\overrightarrow{AB}=4.\\overrightarrow{i}+0.\\overrightarrow{j}+0.\\overrightarrow{k}$.<br>- Trong tam giác vuông $ACC'$ có: $\\tan \\widehat{CAC'}=\\dfrac{CC'}{AC} \\Rightarrow CC'=AC.\\tan30^\\circ=\\dfrac{5}{\\sqrt{3}}$.<br>  Khi đó $\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=4.\\overrightarrow{i}+3\\overrightarrow{j}+CC'.\\overrightarrow{k}\\Rightarrow C'\\left(4;3;\\dfrac{5}{\\sqrt{3}}\\right)$.<br>- $\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}=4\\overrightarrow{i}+3\\overrightarrow{j}+0\\overrightarrow{k}$.<br>- Trong các tam giác vuông $ABC'$, $ADC'$, $AA'C'$ ta lần lượt có<br>  $\\cos x = \\dfrac{AB}{AC'}=\\dfrac{4}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{2\\sqrt{3}}{5} \\text{ và } \\cos y = \\dfrac{AD}{AC'}=\\dfrac{3}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{3\\sqrt{3}}{10} \\text{ và } \\cos z = \\dfrac{AA'}{AC'}=\\dfrac{\\dfrac{5}{\\sqrt{3}}}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{1}{2}   \\Rightarrow \\cos^2x= \\dfrac{12}{25} \\text{ và } \\cos^2y=\\dfrac{27}{100} \\text{ và } \\cos^2z=\\dfrac{1}{4} \\Rightarrow \\cos^2x + \\cos^2y + \\cos^2z = 1$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   <br>- Ta có $B(4;0;0)\\Rightarrow \\overrightarrow{AB}=4.\\overrightarrow{i}+0.\\overrightarrow{j}+0.\\overrightarrow{k}$.<br>- Trong tam giác vuông $ACC'$ có: $\\tan \\widehat{CAC'}=\\dfrac{CC'}{AC} \\Rightarrow CC'=AC.\\tan30^\\circ=\\dfrac{5}{\\sqrt{3}}$.<br>  Khi đó $\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=4.\\overrightarrow{i}+3\\overrightarrow{j}+CC'.\\overrightarrow{k}\\Rightarrow C'\\left(4;3;\\dfrac{5}{\\sqrt{3}}\\right)$.<br>- $\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}=4\\overrightarrow{i}+3\\overrightarrow{j}+0\\overrightarrow{k}$.<br>- Trong các tam giác vuông $ABC'$, $ADC'$, $AA'C'$ ta lần lượt có<br>  $\\cos x = \\dfrac{AB}{AC'}=\\dfrac{4}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{2\\sqrt{3}}{5} \\text{ và } \\cos y = \\dfrac{AD}{AC'}=\\dfrac{3}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{3\\sqrt{3}}{10} \\text{ và } \\cos z = \\dfrac{AA'}{AC'}=\\dfrac{\\dfrac{5}{\\sqrt{3}}}{\\dfrac{10\\sqrt{3}}{3}}=\\dfrac{1}{2}   \\Rightarrow \\cos^2x= \\dfrac{12}{25} \\text{ và } \\cos^2y=\\dfrac{27}{100} \\text{ và } \\cos^2z=\\dfrac{1}{4} \\Rightarrow \\cos^2x + \\cos^2y + \\cos^2z = 1$."
   },
   {
     "id": "2H223DS22",
-    "question": "Trong không gian với hệ trục $Oxyz$ cho hình lăng trụ $OAB.O'A'B'$ Biết $O(0;0;0)$, $A(2;0;0)$, $B(0;1;0)$, $O'(0;0;3)$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian với hệ trục $Oxyz$ cho hình lăng trụ $OAB.O'A'B'$ Biết $O(0;0;0)$, $A(2;0;0)$, $B(0;1;0)$, $O'(0;0;3)$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đường thẳng $AO'$ có một vectơ chỉ phương là $\\overrightarrow{a}=(2;0;-3)$",
@@ -651,7 +651,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H224DS27",
-    "question": "Trong không gian $Oxyz$, vị trí của điểm $M$ như hình vẽ. Gọi $H$ là hình chiếu vuông góc của $M$ xuống mặt phẳng $(Oxy)$. Cho biết $AH=12$, $(\\vec{i},\\overrightarrow{OH})=30^{\\circ}$, $(\\overrightarrow{OH}, \\overrightarrow{OM})=60^{\\circ}$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, vị trí của điểm $M$ như hình vẽ. Gọi $H$ là hình chiếu vuông góc của $M$ xuống mặt phẳng $(Oxy)$. Cho biết $AH=12$, $(\\vec{i},\\overrightarrow{OH})=30^{\\circ}$, $(\\overrightarrow{OH}, \\overrightarrow{OM})=60^{\\circ}$.<br><img src=\"data/12/2D2/im2H2/2H22_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ của điểm $A$ là $(12\\sqrt{3};0;0)$",
@@ -720,7 +720,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS30",
-    "question": "Trong không gian $Oxyz$, cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có đỉnh $A$ trùng với gốc tọa độ $O$ và các đỉnh $B$; $C$; $D'$ có tọa độ lần lượt là $(3;0;0)$, $(3;4;0)$, $(0;4;5)$. Khi đó<br><img src=\"data/12/2D2/im2H2/2H22_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có đỉnh $A$ trùng với gốc tọa độ $O$ và các đỉnh $B$; $C$; $D'$ có tọa độ lần lượt là $(3;0;0)$, $(3;4;0)$, $(0;4;5)$. Khi đó<br><img src=\"data/12/2D2/im2H2/2H22_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$\\overrightarrow{AB}\\cdot \\overrightarrow{AC}=0$",
@@ -835,7 +835,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS37",
-    "question": "Trong không gian $Oxyz$, cho hình chóp đều $S.ABCD$ có $SB=10$, $CD=6\\sqrt{2}$ được gắn vào hệ trục sao cho tâm của đáy $ABCD$ trùng với gốc tọa độ $O$ như hình vẽ.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS10_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, cho hình chóp đều $S.ABCD$ có $SB=10$, $CD=6\\sqrt{2}$ được gắn vào hệ trục sao cho tâm của đáy $ABCD$ trùng với gốc tọa độ $O$ như hình vẽ.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS10_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ đỉnh $S(0;0;6)$",
@@ -881,7 +881,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H223DS39",
-    "question": "Cho hình hộp chữ nhật $ OACB.O'A'C'B' $ có $ OA=2 $; $ OB=3 $; $ OC=4 $ được đặt trong không gian $ Oxyz $ như hình vẽ. Các khẳng định sau đúng hay sai?<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp chữ nhật $ OACB.O'A'C'B' $ có $ OA=2 $; $ OB=3 $; $ OC=4 $ được đặt trong không gian $ Oxyz $ như hình vẽ. Các khẳng định sau đúng hay sai?<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ điểm $A$ là $(2;0;0)$",
@@ -904,7 +904,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H224DS40",
-    "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác đều cạnh bằng $2$, $SA$ vuông góc với đáy và $SA =1$. Thiết lập hệ toạ độ $ Oxyz $ như hình vẽ bên. Các khẳng định sau đúng hay sai?<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác đều cạnh bằng $2$, $SA$ vuông góc với đáy và $SA =1$. Thiết lập hệ toạ độ $ Oxyz $ như hình vẽ bên. Các khẳng định sau đúng hay sai?<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Tọa độ điểm $ H $ là $\\left(0;0;1\\right) $",
@@ -950,7 +950,7 @@ window.dungSai2H22 = [
   },
   {
     "id": "2H226DS1",
-    "question": "Hình vẽ sau mô tả vị trí của máy bay vào thời điểm $9$ giờ $30$ phút. Biết các đơn vị trên hình tính theo đơn vị km.  <br><img src=\"data/12/2H2/im2H22/loc8_TT_THPT_AnDuong__011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình vẽ sau mô tả vị trí của máy bay vào thời điểm $9$ giờ $30$ phút. Biết các đơn vị trên hình tính theo đơn vị km.  <br><img src=\"data/12/2H2/im2H22/loc8_TT_THPT_AnDuong__011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Phi công để máy bay ở chế độ tự động với vận tốc theo hướng đông là $750$\\,km/h, độ cao không đổi. Biết rằng gió thỏi theo hướng đông với vận tốc $10$\\,m/s. Giả sử vận tốc và hướng gió không đổi thì lúc $10$ giờ $30$ phút máy bay ở tọa độ $(150;1\\,086;9)$",

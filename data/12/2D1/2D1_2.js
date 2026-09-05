@@ -15,11 +15,11 @@ window.tracNghiem2D11_2 = [
       "$(0;+\\infty)$"
     ],
     "answer": 0,
-    "explain": "Ta có $y'=-3x^2+6x+9=0\\Leftrightarrow x=-1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên của hàm số  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(-1;3)$. <br>  Do đó hàm số đồng biến trên khoảng $(0;3)$."
+    "explain": "Ta có $y'=-3x^2+6x+9=0\\Leftrightarrow x=-1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên của hàm số  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(-1;3)$. <br>  Do đó hàm số đồng biến trên khoảng $(0;3)$."
   },
   {
     "id": "2D112TN21",
-    "question": "Cho hàm số $f(x)$ có đồ thị như hình vẽ. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ có đồ thị như hình vẽ. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(2;+\\infty)$",
       "$(-1;1)$",
@@ -31,7 +31,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN22",
-    "question": "Cho hàm số $y=f(x)$ có bảng xét dấu đạo hàm như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào dưới đây là đúng?",
+    "question": "Cho hàm số $y=f(x)$ có bảng xét dấu đạo hàm như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào dưới đây là đúng?",
     "options": [
       "Hàm số nghịch biến trên $(-\\infty;-2)$",
       "Hàm số đồng biến trên $(-2;0)$",
@@ -51,11 +51,11 @@ window.tracNghiem2D11_2 = [
       "$(0 ; 2)$"
     ],
     "answer": 3,
-    "explain": "Hàm số $y=-x^3+3 x^2-3$ có miền xác định $\\mathscr{D} = \\mathbb{R}$.<br>  Đạo hàm $y' = -3x^2+6x$.<br>  Cho $y'=0$, ta được $x=0$ và $x=2$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=-x^3+3 x^2-3$ đồng biến trên khoảng $(0 ; 2)$."
+    "explain": "Hàm số $y=-x^3+3 x^2-3$ có miền xác định $\\mathscr{D} = \\mathbb{R}$.<br>  Đạo hàm $y' = -3x^2+6x$.<br>  Cho $y'=0$, ta được $x=0$ và $x=2$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=-x^3+3 x^2-3$ đồng biến trên khoảng $(0 ; 2)$."
   },
   {
     "id": "2D112TN24",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$\\left(-\\infty ;3\\right)$",
       "$\\left(0;+\\infty\\right)$",
@@ -67,7 +67,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN25",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ.  Hàm số đã cho nghịch biến trên khoảng nào trong các khoảng dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ.  Hàm số đã cho nghịch biến trên khoảng nào trong các khoảng dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(0; 1)$",
       "$(1; 3)$",
@@ -79,7 +79,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN26",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào trong các khoảng sau đây?",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào trong các khoảng sau đây?",
     "options": [
       "$(0;+\\infty)$",
       "$(-\\infty;0)$",
@@ -91,7 +91,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN27",
-    "question": "Cho hàm số đa thức $y=f(x)$ có đồ thị $f'(x)$ như hình vẽ (đồ thị $f'(x)$ cắt trục hoành tại đúng ba điểm). Hàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số đa thức $y=f(x)$ có đồ thị $f'(x)$ như hình vẽ (đồ thị $f'(x)$ cắt trục hoành tại đúng ba điểm). Hàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-\\infty;-3)$",
       "$\\left(\\dfrac{1}{2};+\\infty\\right)$",
@@ -111,11 +111,11 @@ window.tracNghiem2D11_2 = [
       "$f(1)&lt;f(3)$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/12/2D1/im2D1/2D11_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng xét dấu của $f' (x)$, ta thấy hàm số đồng biến trên khoảng $(-\\infty; 0)$. Do đó $f(-3)&lt;f(-1)$."
+    "explain": "<br><img src=\"data/12/2D1/im2D1/2D11_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng xét dấu của $f' (x)$, ta thấy hàm số đồng biến trên khoảng $(-\\infty; 0)$. Do đó $f(-3)&lt;f(-1)$."
   },
   {
     "id": "2D112TN29",
-    "question": "Cho đồ thị hàm số có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho đồ thị hàm số có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(-\\infty; 0)$",
       "$\\left(\\dfrac{3}{2}; \\dfrac{11}{2}\\right)$",
@@ -127,7 +127,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN30",
-    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $\\mathbb{R}$, có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $\\mathbb{R}$, có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty; -1)$",
       "$(0;1)$",
@@ -139,7 +139,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN31",
-    "question": "Đồ thị đạo hàm $f'(x)$ của hàm số $y=f(x)$ được cho trong hình.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đồng biến trên các khoảng",
+    "question": "Đồ thị đạo hàm $f'(x)$ của hàm số $y=f(x)$ được cho trong hình.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đồng biến trên các khoảng",
     "options": [
       "$(-4;-3)$ và $(-1;1)$",
       "$(-2;0)$",
@@ -159,11 +159,11 @@ window.tracNghiem2D11_2 = [
       "Hàm số đồng biến trên các khoảng $(-\\infty;1)$ và $(3;+\\infty)$"
     ],
     "answer": 3,
-    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R} \\setminus \\{2\\}$.<br>  Ta có $y'=\\dfrac{x^2-4x+3}{(x-2)^2}$.<br>  $y'=0 \\Leftrightarrow x^2-4x+3=0 \\Leftrightarrow x=1 \\text{ hoặc } x=3$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đồng biên trên $(-\\infty;1)$ và $(3;+\\infty)$."
+    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R} \\setminus \\{2\\}$.<br>  Ta có $y'=\\dfrac{x^2-4x+3}{(x-2)^2}$.<br>  $y'=0 \\Leftrightarrow x^2-4x+3=0 \\Leftrightarrow x=1 \\text{ hoặc } x=3$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số đồng biên trên $(-\\infty;1)$ và $(3;+\\infty)$."
   },
   {
     "id": "2D112TN33",
-    "question": "Quan sát hình và chọn khẳng định đúng.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ trong hình nghịch biến trên khoảng nào?",
+    "question": "Quan sát hình và chọn khẳng định đúng.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ trong hình nghịch biến trên khoảng nào?",
     "options": [
       "$(-2;1)$",
       "$(-4;-2)$",
@@ -175,7 +175,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN34",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty; 1)$",
       "$\\left(1; 2\\right)$",
@@ -187,7 +187,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN35",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = f(x)$ đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = f(x)$ đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty;1)$",
       "$(-2;0)$",
@@ -199,7 +199,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN36",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị cực đại của hàm số đã cho bằng",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị cực đại của hàm số đã cho bằng",
     "options": [
       "$3$",
       "$1$",
@@ -223,7 +223,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN38",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(0;+\\infty)$",
       "$(-\\infty;-2)$",
@@ -243,7 +243,7 @@ window.tracNghiem2D11_2 = [
       "$(-2;2)$"
     ],
     "answer": 1,
-    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y' = -4x^3 + 16x = 0 \\Leftrightarrow x=0 \\text{ hoặc } x=\\pm 2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đã cho đồng biến trên các khoảng $(-\\infty;-2)$; $(0;2)$."
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y' = -4x^3 + 16x = 0 \\Leftrightarrow x=0 \\text{ hoặc } x=\\pm 2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đã cho đồng biến trên các khoảng $(-\\infty;-2)$; $(0;2)$."
   },
   {
     "id": "2D112TN40",
@@ -259,7 +259,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN41",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đạt cực tiểu tại điểm nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đạt cực tiểu tại điểm nào sau đây?",
     "options": [
       "$x=1$",
       "$y=2$",
@@ -271,7 +271,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN42",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(3;+\\infty)$",
       "$(-1;3)$",
@@ -283,7 +283,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN43",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(0;2)$",
       "$(-\\infty;2)$",
@@ -307,7 +307,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN45",
-    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ là",
+    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ là",
     "options": [
       "$y=\\dfrac{x^2+2x-3}{x-1}$",
       "$y=\\dfrac{x-2}{x-1}$",
@@ -327,11 +327,11 @@ window.tracNghiem2D11_2 = [
       "Hàm số nghịch biến trên $\\left(1;+\\infty\\right)$"
     ],
     "answer": 0,
-    "explain": "Ta có: $y=x^3-2x^2+x+1\\Rightarrow y'=3x^2-4x+1$. <br>  $y'=0\\Leftrightarrow x=1 \\text{ hoặc } x=\\dfrac{1}{3}$. Ta có bảng biến thiên sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy hàm số nghịch biến trên khoảng $\\left(\\dfrac{1}{3};1\\right)$."
+    "explain": "Ta có: $y=x^3-2x^2+x+1\\Rightarrow y'=3x^2-4x+1$. <br>  $y'=0\\Leftrightarrow x=1 \\text{ hoặc } x=\\dfrac{1}{3}$. Ta có bảng biến thiên sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy hàm số nghịch biến trên khoảng $\\left(\\dfrac{1}{3};1\\right)$."
   },
   {
     "id": "2D112TN47",
-    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(-3;0)$",
       "$(-\\infty;-3)$",
@@ -343,7 +343,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN48",
-    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(0;1)$",
       "$(-1;1)$",
@@ -355,7 +355,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN49",
-    "question": "Hàm số $y=f(x)$ có đồ thị như hình vẽ. Hàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số $y=f(x)$ có đồ thị như hình vẽ. Hàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-1;1)$",
       "$(-2;-1)$",
@@ -367,7 +367,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN50",
-    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(-\\infty; -1)$",
       "$(0; 1)$",
@@ -379,7 +379,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN51",
-    "question": "Cho hàm số $f(x)=a x^{3}+b x^{2}+c x+d$ $(a, b, c, d \\in \\mathbb{R}, a \\neq 0)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $f(x)=a x^{3}+b x^{2}+c x+d$ $(a, b, c, d \\in \\mathbb{R}, a \\neq 0)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty ; 3)$",
       "$(4 ;+\\infty)$",
@@ -391,7 +391,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN52",
-    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trong khoảng nào dưới đây?",
+    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trong khoảng nào dưới đây?",
     "options": [
       "$\\left(3;+\\infty \\right)$",
       "$\\left(2;3\\right)$",
@@ -403,7 +403,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN53",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(1 ;+\\infty)$",
       "$(-1 ; 0)$",
@@ -427,7 +427,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN55",
-    "question": "Cho hàm số bậc ba $y=f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình bên. Hàm số nghịch biến trên khoảng nào?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $y=f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình bên. Hàm số nghịch biến trên khoảng nào?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-1;1)$",
       "$(-\\infty;0)$",
@@ -451,7 +451,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN57",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Hàm số $y=f(x)$ đồng biến trên khoảng nào?",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Hàm số $y=f(x)$ đồng biến trên khoảng nào?",
     "options": [
       "$(-\\infty\\,;\\,-1)$",
       "$(-2\\,;\\,4)$",
@@ -475,7 +475,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN59",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như hình vẽ dưới đây:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị cực đại của hàm số là",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như hình vẽ dưới đây:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị cực đại của hàm số là",
     "options": [
       "$x = 0$",
       "$x = 3$",
@@ -487,7 +487,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN60",
-    "question": "Đường cong trong hình vẽ bên dưới là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên dưới là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ y = \\dfrac{2x - 3}{x - 1} $",
       "$ y = \\dfrac{-2x + 3}{x - 1} $",
@@ -499,7 +499,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN61",
-    "question": "Cho hàm số $y=f(x)$ có bảng xét dấu đạo hàm như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_047.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng xét dấu đạo hàm như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_047.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$\\left(1;3\\right)$",
       "$\\left(3;4\\right)$",
@@ -511,7 +511,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN62",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
     "options": [
       "$\\left(3;+\\infty \\right) $",
       "$\\left(1;4 \\right) $",
@@ -523,7 +523,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN63",
-    "question": "Cho hàm số $y=f(x)$ xác định với mọi $x\\in\\mathbb{R}$ và có bảng biến thiên như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ xác định với mọi $x\\in\\mathbb{R}$ và có bảng biến thiên như hình vẽ bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(2;+\\infty)$",
       "$(-2;0)$",
@@ -535,7 +535,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN64",
-    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng nào sau đây?",
+    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty;-1)$",
       "$(0;1)$",
@@ -559,7 +559,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN66",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào?",
     "options": [
       "$(-2;+\\infty)$",
       "$(-2; 3)$",
@@ -571,7 +571,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN67",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(0;4)$",
       "$(-1;3)$",
@@ -591,7 +591,7 @@ window.tracNghiem2D11_2 = [
       "$(2;+\\infty)$"
     ],
     "answer": 0,
-    "explain": "Tập xác định $D=\\mathbb{R}\\setminus\\{1\\}$.<br>  Ta có $y'=\\dfrac{x(x-2)}{(x-1)^2}$. Cho $y'=0\\Rightarrow x=0 \\text{ hoặc } x=2.$<br>  Lập bảng xét dấu   <br><img src=\"data/12/2D1/im2D1/2D11_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng $(1;2)$."
+    "explain": "Tập xác định $D=\\mathbb{R}\\setminus\\{1\\}$.<br>  Ta có $y'=\\dfrac{x(x-2)}{(x-1)^2}$. Cho $y'=0\\Rightarrow x=0 \\text{ hoặc } x=2.$<br>  Lập bảng xét dấu   <br><img src=\"data/12/2D1/im2D1/2D11_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng $(1;2)$."
   },
   {
     "id": "2D115TN69",
@@ -603,11 +603,11 @@ window.tracNghiem2D11_2 = [
       "$3$"
     ],
     "answer": 0,
-    "explain": "Vận tốc $v(t)=s'(t)=-\\dfrac{3t^2}{2}+18t$.<br>  Ta có $v'(t)=-3t+18$.<br>   Giải $v'(t)=0\\Rightarrow t=6$.<br>  Lập bảng biến thiên của $v(t)$  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc đạt cực đại tại $t=6$.<br>  Vậy chọn $6$."
+    "explain": "Vận tốc $v(t)=s'(t)=-\\dfrac{3t^2}{2}+18t$.<br>  Ta có $v'(t)=-3t+18$.<br>   Giải $v'(t)=0\\Rightarrow t=6$.<br>  Lập bảng biến thiên của $v(t)$  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc đạt cực đại tại $t=6$.<br>  Vậy chọn $6$."
   },
   {
     "id": "2D112TN70",
-    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong các khoảng sau, hàm số $y=f(x)$ nghịch biến trên khoảng nào?",
+    "question": "Hàm số $y=f(x)$ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong các khoảng sau, hàm số $y=f(x)$ nghịch biến trên khoảng nào?",
     "options": [
       "$\\left(1; 3\\right)$",
       "$\\left(-\\infty; 2\\right)$",
@@ -619,7 +619,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN71",
-    "question": "Hàm số $y=f(x)$ có đồ thị như hình vẽ. Hàm số đã cho đồng biến trên khoáng nào?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_058.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số $y=f(x)$ có đồ thị như hình vẽ. Hàm số đã cho đồng biến trên khoáng nào?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_058.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-\\infty ; 0)$",
       "$(1 ; 3)$",
@@ -631,7 +631,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN72",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_059.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Chọn khẳng định đúng?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_059.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Chọn khẳng định đúng?",
     "options": [
       "Hàm số đồng biến trên $(-1; 1)$",
       "Hàm số đồng biến trên $(-\\infty;-1)$",
@@ -643,7 +643,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN73",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(0;1)$",
       "$(-2;-1)$",
@@ -655,7 +655,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN74",
-    "question": "Đạo hàm $f'(x)$ của hàm số $y=f(x)$ có đồ thị như hình bên. Khẳng định nào dưới đây là &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đạo hàm $f'(x)$ của hàm số $y=f(x)$ có đồ thị như hình bên. Khẳng định nào dưới đây là &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số $y=f(x)$ đồng biến trên $(-2;0)$",
       "Hàm số $y=f(x)$ đồng biến trên $(0;2)$",
@@ -663,11 +663,11 @@ window.tracNghiem2D11_2 = [
       "Hàm số $y=f(x)$ nghịch biến trên $(-2;-1)$"
     ],
     "answer": 0,
-    "explain": "Từ đồ thị ta thấy $f'(x)=0\\Leftrightarrow x=-1 \\text{ hoặc } x=2 \\text{ hoặc } x=4.$<br>  Ta có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên suy ra hàm số đồng biến trên $(-1;2)$ và $(4;5)$."
+    "explain": "Từ đồ thị ta thấy $f'(x)=0\\Leftrightarrow x=-1 \\text{ hoặc } x=2 \\text{ hoặc } x=4.$<br>  Ta có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên suy ra hàm số đồng biến trên $(-1;2)$ và $(4;5)$."
   },
   {
     "id": "2D112TN75",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_064.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_064.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đồng biến trên khoảng",
     "options": [
       "$(-2;+\\infty)$",
       "$(-1; 1)$",
@@ -679,7 +679,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN76",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_065.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trong khoảng nào?",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_065.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trong khoảng nào?",
     "options": [
       "$(-\\infty;2)$",
       "$(-1;1)$",
@@ -703,7 +703,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN78",
-    "question": "Cho hàm số $f(x)$ có bảng biên thiên như bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_066.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $f(x)$ có bảng biên thiên như bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_066.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
     "options": [
       "$(-3;1)$",
       "$(-\\infty;1)$",
@@ -715,7 +715,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN79",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình dưới đây. Hàm số đã cho đồng biến trên khoảng nào trong các khoảng sau đây?  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_067.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình dưới đây. Hàm số đã cho đồng biến trên khoảng nào trong các khoảng sau đây?  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_067.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-\\infty;-1)$",
       "$(-1;1)$",
@@ -735,7 +735,7 @@ window.tracNghiem2D11_2 = [
       "$(1;4)$"
     ],
     "answer": 1,
-    "explain": "Cho $f'(x)=-x^2+5x-4 \\Leftrightarrow x=1 \\text{ hoặc } x=4.$<br>  Ta có bảng xét dấu:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng xét dấu, ta thấy hàm số đã cho nghịch biến trên khoảng $(4;+\\infty)$. <br>  Do đó hàm số cũng nghịch biến trên khoảng $(5;+\\infty)$."
+    "explain": "Cho $f'(x)=-x^2+5x-4 \\Leftrightarrow x=1 \\text{ hoặc } x=4.$<br>  Ta có bảng xét dấu:  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng xét dấu, ta thấy hàm số đã cho nghịch biến trên khoảng $(4;+\\infty)$. <br>  Do đó hàm số cũng nghịch biến trên khoảng $(5;+\\infty)$."
   },
   {
     "id": "2D112TN81",
@@ -751,7 +751,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN82",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(1; 3)$",
       "$(-\\infty; 3)$",
@@ -771,11 +771,11 @@ window.tracNghiem2D11_2 = [
       "$(-\\infty; 5)$"
     ],
     "answer": 0,
-    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=3x^2-16x+5$.<br>  $y'=0\\Leftrightarrow x=5 \\text{ hoặc } x=\\dfrac{1}{3}.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng $\\left(\\dfrac{1}{3}; 5\\right)$."
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=3x^2-16x+5$.<br>  $y'=0\\Leftrightarrow x=5 \\text{ hoặc } x=\\dfrac{1}{3}.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số nghịch biến trên khoảng $\\left(\\dfrac{1}{3}; 5\\right)$."
   },
   {
     "id": "2D112TN84",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_072.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(-2;0)$",
       "$(4;+\\infty)$",
@@ -799,7 +799,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN86",
-    "question": "Cho hàm số $y=f(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình bên. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_073.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình bên. Hàm số đã cho đồng biến trên khoảng nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_073.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-\\infty;0)$",
       "$(1;+\\infty)$",
@@ -811,7 +811,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN87",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
     "options": [
       "$(0; 2)$",
       "$(3;+\\infty)$",
@@ -823,7 +823,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN88",
-    "question": "Cho hàm số $y=a x^3+b x^2+c x+d$ $(a \\neq 0)$ có đồ thị như hình vẽ.  Hàm số đã cho nghịch biến trên khoảng nào trong các khoảng sau?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_077.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=a x^3+b x^2+c x+d$ $(a \\neq 0)$ có đồ thị như hình vẽ.  Hàm số đã cho nghịch biến trên khoảng nào trong các khoảng sau?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_077.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(1;+\\infty)$",
       "$(-\\infty; 0)$",
@@ -843,7 +843,7 @@ window.tracNghiem2D11_2 = [
       "$g(-3)&lt;g(3)$"
     ],
     "answer": 3,
-    "explain": "Ta có $g'(x)=f'(x)+3x^2=(x+3)\\left(9-x^2\\right)-3 x^2+3x^2=(x+3)^2(3-x)$.<br>  Khi đó $g'(x)=0\\Leftrightarrow x=3 \\text{ hoặc } x=-3.$<br>  Trong đó số $-3$ là nghiệm kép, còn $3$ là nghiệm đơn.  Do đó ta có bảng biến thiên sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên trên ta suy ra $g(-3)&lt;g(3)$."
+    "explain": "Ta có $g'(x)=f'(x)+3x^2=(x+3)\\left(9-x^2\\right)-3 x^2+3x^2=(x+3)^2(3-x)$.<br>  Khi đó $g'(x)=0\\Leftrightarrow x=3 \\text{ hoặc } x=-3.$<br>  Trong đó số $-3$ là nghiệm kép, còn $3$ là nghiệm đơn.  Do đó ta có bảng biến thiên sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên trên ta suy ra $g(-3)&lt;g(3)$."
   },
   {
     "id": "2D113TN90",
@@ -859,7 +859,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN91",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình bên.  Hàm số $y=f(x)$ đồng biến trên khoảng nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình bên.  Hàm số $y=f(x)$ đồng biến trên khoảng nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-2;0)$",
       "$(-3;1)$",
@@ -883,7 +883,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN93",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_087.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_087.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
     "options": [
       "$(0;2)$",
       "$(1;2)$",
@@ -895,7 +895,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN94",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_088.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = f(x)$ đồng biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_088.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = f(x)$ đồng biến trên khoảng nào sau đây?",
     "options": [
       "$(-\\infty;-2)$",
       "$(-2;1)$",
@@ -919,7 +919,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN96",
-    "question": "Cho hàm số $y=ax^3 + bx^2 +cx +d$ ($a$, $b$, $c$, $d$ $\\in \\mathbb{R}, a \\neq 0$) có đồ thị là đường cong như hình bên. Hàm số đã cho nghịch biến trên miền nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=ax^3 + bx^2 +cx +d$ ($a$, $b$, $c$, $d$ $\\in \\mathbb{R}, a \\neq 0$) có đồ thị là đường cong như hình bên. Hàm số đã cho nghịch biến trên miền nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "($-\\infty$; $+\\infty$)",
       "($2;+\\infty$)",
@@ -939,11 +939,11 @@ window.tracNghiem2D11_2 = [
       "$(-\\infty;\\infty)$"
     ],
     "answer": 2,
-    "explain": "Tập xác định $\\mathscr{D} =\\mathbb{R}$.<br>  Ta có $y = x^4 - 8x^2 +2\\,025$<br>  Đạo hàm $y' = 4x^3 - 16x=0$<br>  Xét $y'=0$<br>  $\\Leftrightarrow 4x=0 \\text{ hoặc } x^2 -4 =0$<br>  $\\Leftrightarrow x=0 \\text{ hoặc } x =2 \\text{ hoặc } x=-2$  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_090.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = x^4 - 8x^2 +2\\,025$ đồng biến trên $(-2;0)$."
+    "explain": "Tập xác định $\\mathscr{D} =\\mathbb{R}$.<br>  Ta có $y = x^4 - 8x^2 +2\\,025$<br>  Đạo hàm $y' = 4x^3 - 16x=0$<br>  Xét $y'=0$<br>  $\\Leftrightarrow 4x=0 \\text{ hoặc } x^2 -4 =0$<br>  $\\Leftrightarrow x=0 \\text{ hoặc } x =2 \\text{ hoặc } x=-2$  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_090.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y = x^4 - 8x^2 +2\\,025$ đồng biến trên $(-2;0)$."
   },
   {
     "id": "2D112TN98",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào sau đây?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho nghịch biến trên khoảng nào sau đây?",
     "options": [
       "$(-3,+\\infty)$",
       "$(1,+\\infty)$",

@@ -51,7 +51,7 @@ window.dungSai1D73 = [
   },
   {
     "id": "1D733DS3",
-    "question": "Một chất điểm chuyển động theo phương trình $s(t) = t^3 - 3t^2 + 8t + 1$, trong đó $t$ tính bằng giây và $s(t)$ tính bằng mét. Xét tính đúng sai các khẳng định sau.<br><img src=\"data/11/1D7/im1D73/dlts_12_DLTS36_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một chất điểm chuyển động theo phương trình $s(t) = t^3 - 3t^2 + 8t + 1$, trong đó $t$ tính bằng giây và $s(t)$ tính bằng mét. Xét tính đúng sai các khẳng định sau.<br><img src=\"data/11/1D7/im1D73/dlts_12_DLTS36_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Vận tốc của chất điểm tại thời điểm $t = 3$ s bằng $8$ m/s",

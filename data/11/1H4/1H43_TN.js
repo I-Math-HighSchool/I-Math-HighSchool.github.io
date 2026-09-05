@@ -27,7 +27,7 @@ window.tracNghiem1H43 = [
       "$AC \\parallel \\left(SBD\\right)$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS11_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CD\\parallel AB \\text{ và } AB\\subset (SAB) \\text{ và } CD\\not\\subset (SAB)\\Rightarrow CD\\parallel (SAB)$."
+    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS11_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CD\\parallel AB \\text{ và } AB\\subset (SAB) \\text{ và } CD\\not\\subset (SAB)\\Rightarrow CD\\parallel (SAB)$."
   },
   {
     "id": "1H431TN3",
@@ -55,7 +55,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H432TN5",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, $AB \\parallel CD$ (tham khảo hình minh họa). Đường thẳng $CD$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS18_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, $AB \\parallel CD$ (tham khảo hình minh họa). Đường thẳng $CD$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS18_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAB)$",
       "$(SAC)$",
@@ -67,7 +67,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H431TN6",
-    "question": "Cho hình chóp $S.ABCD$. Gọi $M$ và $N$ lần lượt là trung điểm  của $AB$ và $AD$. Khẳng định nào sau đây đúng?  <br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS19_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$. Gọi $M$ và $N$ lần lượt là trung điểm  của $AB$ và $AD$. Khẳng định nào sau đây đúng?  <br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS19_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$MN\\parallel (ABCD)$",
       "$MN\\parallel (SCD)$",
@@ -79,7 +79,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H432TN7",
-    "question": "Cho tứ diện $ABCD$ có các điểm $M$, $N$ lần lượt là trung điểm của các cạnh $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$ có các điểm $M$, $N$ lần lượt là trung điểm của các cạnh $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(BCD)$",
       "$(ACD)$",
@@ -99,7 +99,7 @@ window.tracNghiem1H43 = [
       "$MN \\parallel BC$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS6_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Xét khẳng định: $MP \\parallel (ABCD)$<br>  Do $M$ và $P$ lần lượt là trung điểm của $SA$ và $SC$.<br>  $\\Rightarrow MP$ là đường trung bình của tam giác $SAC$ và $MP \\parallel AC$.<br>  Mà $AC \\subset (ABCD)$ nên $MP \\parallel (ABCD)$. (1)<br>- Xét khẳng định: $(MNP) \\parallel (ABCD)$<br>  Do $M$ và $N$ lần lượt là trung điểm của $SA$ và $SB$.<br>  $\\Rightarrow MN$ là đường trung bình của tam giác $SAB$ và $MN \\parallel AB$.<br>  Mà $AB \\subset (ABCD)$ nên $MN \\parallel (ABCD)$. (2)<br>  Từ (1) và (2) suy ra $(MNP) \\parallel (ABCD)$.<br>- Xét khẳng định: $PN \\parallel BC$<br>  Do $P$ và $N$ lần lượt là trung điểm của $SC$ và $SB$.<br>  $\\Rightarrow PN \\parallel BC$ mà $BC \\parallel AD$ (do $ABCD$ là hình bình hành) nên $PN \\parallel AD$. <br>  Từ các chứng minh trên nên $MN \\parallel BC$ là sai."
+    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS6_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Xét khẳng định: $MP \\parallel (ABCD)$<br>  Do $M$ và $P$ lần lượt là trung điểm của $SA$ và $SC$.<br>  $\\Rightarrow MP$ là đường trung bình của tam giác $SAC$ và $MP \\parallel AC$.<br>  Mà $AC \\subset (ABCD)$ nên $MP \\parallel (ABCD)$. (1)<br>- Xét khẳng định: $(MNP) \\parallel (ABCD)$<br>  Do $M$ và $N$ lần lượt là trung điểm của $SA$ và $SB$.<br>  $\\Rightarrow MN$ là đường trung bình của tam giác $SAB$ và $MN \\parallel AB$.<br>  Mà $AB \\subset (ABCD)$ nên $MN \\parallel (ABCD)$. (2)<br>  Từ (1) và (2) suy ra $(MNP) \\parallel (ABCD)$.<br>- Xét khẳng định: $PN \\parallel BC$<br>  Do $P$ và $N$ lần lượt là trung điểm của $SC$ và $SB$.<br>  $\\Rightarrow PN \\parallel BC$ mà $BC \\parallel AD$ (do $ABCD$ là hình bình hành) nên $PN \\parallel AD$. <br>  Từ các chứng minh trên nên $MN \\parallel BC$ là sai."
   },
   {
     "id": "1H431TN9",
@@ -111,11 +111,11 @@ window.tracNghiem1H43 = [
       "$MN // \\left(SAB\\right)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS9_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $MN$ là đường trung bình của tam giác $SBD$ nên $MN//BD\\subset \\left(ABCD\\right)$.<br>  Vậy $MN//\\left(ABCD\\right)$"
+    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS9_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $MN$ là đường trung bình của tam giác $SBD$ nên $MN//BD\\subset \\left(ABCD\\right)$.<br>  Vậy $MN//\\left(ABCD\\right)$"
   },
   {
     "id": "1H432TN8",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $A'C'$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1H4/im1H43/loc_ghk1nq_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $A'C'$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1H4/im1H43/loc_ghk1nq_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(A'AC)$",
       "$(BDB')$",
@@ -139,7 +139,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H431TN1",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$, $M$ là trung điểm $SA$ (tham khảo hình vẽ bên dưới). Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$, $M$ là trung điểm $SA$ (tham khảo hình vẽ bên dưới). Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$OM\\parallel(SCD)$",
       "$OM\\parallel(SAB)$",
@@ -159,11 +159,11 @@ window.tracNghiem1H43 = [
       "$GH\\parallel(SMC)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $GH\\not\\subset (SAC) \\text{ và } GH\\parallel SC~\\left(\\text{vì}~\\dfrac{MH}{MS}=\\dfrac{MG}{MC}=\\dfrac{1}{3}\\right) \\text{ và } SC\\subset (SAC)\\Rightarrow GH\\parallel (SAC)$."
+    "explain": "<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $GH\\not\\subset (SAC) \\text{ và } GH\\parallel SC~\\left(\\text{vì}~\\dfrac{MH}{MS}=\\dfrac{MG}{MC}=\\dfrac{1}{3}\\right) \\text{ và } SC\\subset (SAC)\\Rightarrow GH\\parallel (SAC)$."
   },
   {
     "id": "1H431TN12",
-    "question": "Cho tứ diện $ABCD$. Gọi $E$, $F$ lần lượt là trung điểm của các cạnh $AB$ và $AC$ (hình vẽ sau)  <br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây đúng?",
+    "question": "Cho tứ diện $ABCD$. Gọi $E$, $F$ lần lượt là trung điểm của các cạnh $AB$ và $AC$ (hình vẽ sau)  <br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây đúng?",
     "options": [
       "$EF\\parallel(ABC)$",
       "$EF\\parallel(ACD)$",
@@ -183,11 +183,11 @@ window.tracNghiem1H43 = [
       "$HG \\parallel (SAB)$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $O$ là tâm hình bình hành $ABCD$. Khi đó $CO$ là trung tuyến của $\\triangle BCD$. <br>  Xét $\\triangle BCD$ có $CO$ và $DM$ là hai đường trung tuyến cắt nhau tại $H$. <br>  Suy ra $H$ là trọng tâm $\\triangle BCD$. <br>  Gọi $I$ là trung điểm $CD$. Ta có $S$, $G$, $I$ thẳng hàng và $B$, $H$, $I$ thẳng hàng. <br>  Theo tính chất trọng tâm: $\\dfrac{IG}{IS} = \\dfrac{1}{3}$ và $\\dfrac{IH}{IB} = \\dfrac{1}{3}$. <br>  Xét $\\triangle SIB$ có $\\dfrac{IG}{IS} = \\dfrac{IH}{IB} \\Rightarrow HG \\parallel SB$ (Ta-lét đảo). <br>  Khi đó:  <br>- $HG \\parallel SB \\subset (SBC) \\Rightarrow HG \\parallel (SBC)$ (Đúng).<br>- $HG \\parallel SB \\subset (SAB) \\Rightarrow HG \\parallel (SAB)$ (Đúng).<br>- $HG \\parallel SB \\subset (SBD) \\Rightarrow HG \\parallel (SBD)$ (Đúng).  Xét khẳng định A: Do $SB \\cap (SAD) = S$ nên đường thẳng $HG$ (song song với $SB$) cũng sẽ cắt mặt phẳng $(SAD)$. Vậy $HG \\parallel (SAD)$ là khẳng định <strong>sai</strong>."
+    "explain": "<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $O$ là tâm hình bình hành $ABCD$. Khi đó $CO$ là trung tuyến của $\\triangle BCD$. <br>  Xét $\\triangle BCD$ có $CO$ và $DM$ là hai đường trung tuyến cắt nhau tại $H$. <br>  Suy ra $H$ là trọng tâm $\\triangle BCD$. <br>  Gọi $I$ là trung điểm $CD$. Ta có $S$, $G$, $I$ thẳng hàng và $B$, $H$, $I$ thẳng hàng. <br>  Theo tính chất trọng tâm: $\\dfrac{IG}{IS} = \\dfrac{1}{3}$ và $\\dfrac{IH}{IB} = \\dfrac{1}{3}$. <br>  Xét $\\triangle SIB$ có $\\dfrac{IG}{IS} = \\dfrac{IH}{IB} \\Rightarrow HG \\parallel SB$ (Ta-lét đảo). <br>  Khi đó:  <br>- $HG \\parallel SB \\subset (SBC) \\Rightarrow HG \\parallel (SBC)$ (Đúng).<br>- $HG \\parallel SB \\subset (SAB) \\Rightarrow HG \\parallel (SAB)$ (Đúng).<br>- $HG \\parallel SB \\subset (SBD) \\Rightarrow HG \\parallel (SBD)$ (Đúng).  Xét khẳng định A: Do $SB \\cap (SAD) = S$ nên đường thẳng $HG$ (song song với $SB$) cũng sẽ cắt mặt phẳng $(SAD)$. Vậy $HG \\parallel (SAD)$ là khẳng định <strong>sai</strong>."
   },
   {
     "id": "1H431TN7",
-    "question": "Cho hình chóp $S.ABCD$, đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M$ là trung điểm $SB$. Mặt phẳng $(P)$ chứa $DM$ và song song với $AC$; cắt $SA, SC$ lần lượt tại $H$ và $K$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$, đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M$ là trung điểm $SB$. Mặt phẳng $(P)$ chứa $DM$ và song song với $AC$; cắt $SA, SC$ lần lượt tại $H$ và $K$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1H4/im1H43/loc2_1_TN_DS_TL_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{SH}{SA}=\\dfrac{3}{4}$",
       "$\\dfrac{SH}{SA}=\\dfrac{SK}{SC}=\\dfrac{1}{3}$",
@@ -199,7 +199,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H432TN9",
-    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Hãy chọn kết luận <strong>sai</strong>  <br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_Cum_lien_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Hãy chọn kết luận <strong>sai</strong>  <br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_Cum_lien_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$A'B\\parallel (CDD'C')$",
       "$CC' \\parallel (ABB'A')$",
@@ -211,7 +211,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H431TN14",
-    "question": "Cho hình chóp tứ giác $S.ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $SB$ và $BD$. Khẳng định nào sau đây đúng.<br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_THPT_Yen_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp tứ giác $S.ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $SB$ và $BD$. Khẳng định nào sau đây đúng.<br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_THPT_Yen_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$MN\\parallel(SAD)$",
       "$MN\\parallel(SBC)$",
@@ -231,11 +231,11 @@ window.tracNghiem1H43 = [
       "$O_1O_2$ song song với $(EFM)$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Chuyen_B_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dễ thấy $O_1O_2$ là đường trung bình của tam giác $ACE\\Rightarrow O_1O_2\\parallel CE\\Rightarrow O_1O_2\\parallel (BEC)$.<br>  Tương tự $O_1O_2\\parallel DF\\Rightarrow O_1O_2\\parallel (ADF)$.<br>  Từ đó suy ra $O_1O_2\\parallel (CDFE)$ hay $O_1O_2\\parallel (EFM)$.<br>  Do đó khẳng định $MO_2$ cắt $(BEC)$ là khẳng định <strong>sai</strong>."
+    "explain": "<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Chuyen_B_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dễ thấy $O_1O_2$ là đường trung bình của tam giác $ACE\\Rightarrow O_1O_2\\parallel CE\\Rightarrow O_1O_2\\parallel (BEC)$.<br>  Tương tự $O_1O_2\\parallel DF\\Rightarrow O_1O_2\\parallel (ADF)$.<br>  Từ đó suy ra $O_1O_2\\parallel (CDFE)$ hay $O_1O_2\\parallel (EFM)$.<br>  Do đó khẳng định $MO_2$ cắt $(BEC)$ là khẳng định <strong>sai</strong>."
   },
   {
     "id": "1H432TN10",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật. Gọi $M$, $N$ theo thứ tự là trọng tâm $\\triangle SAB$, $\\triangle SCD$. Khi đó $MN$ song song với mặt phẳng<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Lien_cap_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật. Gọi $M$, $N$ theo thứ tự là trọng tâm $\\triangle SAB$, $\\triangle SCD$. Khi đó $MN$ song song với mặt phẳng<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Lien_cap_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAC)$",
       "$(SBD)$",

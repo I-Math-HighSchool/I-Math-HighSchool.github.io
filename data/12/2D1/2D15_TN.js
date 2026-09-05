@@ -7,7 +7,7 @@
 window.tracNghiem2D15 = [
   {
     "id": "2D151TN1",
-    "question": "Đồ thị hàm số $y = x^3 - 3x + 2$ là hình nào trong $4$ hình dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số $y = x^3 - 3x + 2$ là hình nào trong $4$ hình dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hình $1$",
       "Hình $2$",
@@ -31,7 +31,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN3",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Đồ thị là của hàm số nào trong các hàm số dưới đây  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Đồ thị là của hàm số nào trong các hàm số dưới đây  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x^2+x+2$",
       "$y=-x^3-3x^2+x+2$",
@@ -43,7 +43,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN4",
-    "question": "Đường cong trong hình bên là đồ thị của hàm số nào sau đây?   <br><img src=\"data/12/2D1/im2D1/2D15_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của hàm số nào sau đây?   <br><img src=\"data/12/2D1/im2D1/2D15_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x+1$",
       "$y=\\dfrac{x}{x+1}$",
@@ -55,7 +55,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN5",
-    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x^2+3x-5}{x-1}$",
       "$y=x^3-3x+1$",
@@ -67,7 +67,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN6",
-    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x-2}{x+1}$",
       "$y=\\dfrac{x+1}{x-1}$",
@@ -79,7 +79,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN7",
-    "question": "Biết đường cong trong hình bên dưới là đồ thị của một trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D dưới đây. Hàm số đó là hàm số nào?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Biết đường cong trong hình bên dưới là đồ thị của một trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D dưới đây. Hàm số đó là hàm số nào?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3+3x^2+2$",
       "$y=x^3-3x^2-x+2$",
@@ -91,7 +91,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN8",
-    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x^2-4x+5}{x-1}$",
       "$\\dfrac{x^2-4x-1}{x+1}$",
@@ -103,7 +103,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN9",
-    "question": "Bảng biến thiên dưới đây là của hàm số nào trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng biến thiên dưới đây là của hàm số nào trong bốn hàm số được liệt kê ở bốn phương án A, B, C, D  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x^2-1$",
       "$y=x^3+3x^2+1$",
@@ -115,7 +115,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN10",
-    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d}$ có đồ thị như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây là mệnh đề đúng?",
+    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d}$ có đồ thị như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây là mệnh đề đúng?",
     "options": [
       "$ad &lt; 0 &lt; bc$",
       "$bc &lt; ad&lt; 0$",
@@ -139,7 +139,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN12",
-    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x^2$",
       "$y=x^3-3x$",
@@ -175,7 +175,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN15",
-    "question": "Đường cong ở hình bên là đồ thị của hàm số nào trong các hàm số cho sau<br><img src=\"data/12/2D1/im2D1/2D15_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở hình bên là đồ thị của hàm số nào trong các hàm số cho sau<br><img src=\"data/12/2D1/im2D1/2D15_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = x^3+3x+1$",
       "$y = \\dfrac{x^2-1}{3x+5}$",
@@ -199,7 +199,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN17",
-    "question": "Cho hàm số bậc ba $f(x)$ có đồ thị là đường cong như hình bên. Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $f(x)=m$ có 3 nghiệm thực phân biệt?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $f(x)$ có đồ thị là đường cong như hình bên. Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $f(x)=m$ có 3 nghiệm thực phân biệt?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_024.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$5$",
       "$4$",
@@ -207,7 +207,7 @@ window.tracNghiem2D15 = [
       "$3$"
     ],
     "answer": 3,
-    "explain": "Số nghiệm của phương trình $f(x)=m$ bằng số giao điểm của đồ thị hàm số và đường thẳng $y=m$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ, ta thấy phương trình $f(x)=m$ có ba nghiệm thực phân biệt khi đường thẳng $d:y=m$ cắt đồ thị hàm số $y=f(x)$ tại ba điểm phân biệt, tức là $-3&lt;m&lt;1$. <br>  Mà $m\\in\\mathbb{Z}$ nên $m\\in\\{-2;-1;0\\}$."
+    "explain": "Số nghiệm của phương trình $f(x)=m$ bằng số giao điểm của đồ thị hàm số và đường thẳng $y=m$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào hình vẽ, ta thấy phương trình $f(x)=m$ có ba nghiệm thực phân biệt khi đường thẳng $d:y=m$ cắt đồ thị hàm số $y=f(x)$ tại ba điểm phân biệt, tức là $-3&lt;m&lt;1$. <br>  Mà $m\\in\\mathbb{Z}$ nên $m\\in\\{-2;-1;0\\}$."
   },
   {
     "id": "2D151TN18",
@@ -223,7 +223,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D152TN19",
-    "question": "Cho hàm số $y=\\dfrac{x+3}{x+1}$ có đồ thị như hình vẽ bên. Tìm tọa độ tâm đối xứng $I$ của đồ thị trên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{x+3}{x+1}$ có đồ thị như hình vẽ bên. Tìm tọa độ tâm đối xứng $I$ của đồ thị trên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$I(1;1)$",
       "$I(-3;3)$",
@@ -235,7 +235,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN20",
-    "question": "Hình bên dưới là đồ thị của hàm số nào trong các hàm số dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình bên dưới là đồ thị của hàm số nào trong các hàm số dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^2+1$",
       "$y=x^3+x+1$",
@@ -247,7 +247,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN21",
-    "question": "Cho hàm số $y=ax^3+bx^2+cx+d$ có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=ax^3+bx^2+cx+d$ có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_034.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a&gt;0$, $b&gt;0$, $c&lt;0$, $d&gt;0$",
       "$a&gt;0$, $b&lt;0$, $c&lt;0$, $d&gt;0$",
@@ -259,7 +259,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN22",
-    "question": "Đường cong trong hình bên là đồ thị của hàm số<br><img src=\"data/12/2D1/im2D1/2D15_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của hàm số<br><img src=\"data/12/2D1/im2D1/2D15_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3+3x^2-2$",
       "$y=-x^3+3x^2-2$",
@@ -271,7 +271,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D153TN23",
-    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị là đường cong trong hình bên. Số nghiệm thực của phương trình $f(x)=-1$ là<br><img src=\"data/12/2D1/im2D1/2D15_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị là đường cong trong hình bên. Số nghiệm thực của phương trình $f(x)=-1$ là<br><img src=\"data/12/2D1/im2D1/2D15_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$2$",
       "$1$",
@@ -279,11 +279,11 @@ window.tracNghiem2D15 = [
       "$3$"
     ],
     "answer": 3,
-    "explain": "Vẽ đường thẳng $y=-1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường thẳng $y=-1$ cắt đồ thị hàm số tại $3$ điểm nên phương trình $f(x)=-1$ có $3$ nghiệm."
+    "explain": "Vẽ đường thẳng $y=-1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường thẳng $y=-1$ cắt đồ thị hàm số tại $3$ điểm nên phương trình $f(x)=-1$ có $3$ nghiệm."
   },
   {
     "id": "2D151TN24",
-    "question": "Đồ thị dưới đây là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị dưới đây là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3+x-1$",
       "$y=x^2+x-1$",
@@ -295,7 +295,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN25",
-    "question": "Cho hàm số $y=\\dfrac{ax+3}{bx+c}$ có đồ thị là đường cong trong hình vẽ.  Tính giá trị $M=a+b+c$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{ax+3}{bx+c}$ có đồ thị là đường cong trong hình vẽ.  Tính giá trị $M=a+b+c$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$0$",
       "$4$",
@@ -307,7 +307,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN26",
-    "question": "Cho hàm số đa thức bậc ba $y=f(x)$ có đồ thị như hình vẽ bên.  Biết phương trình $f(x)-m=0$ có duy nhất một nghiệm. Tìm tất cả giá trị của $m$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số đa thức bậc ba $y=f(x)$ có đồ thị như hình vẽ bên.  Biết phương trình $f(x)-m=0$ có duy nhất một nghiệm. Tìm tất cả giá trị của $m$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_041.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$m \\in \\mathbb{R}$",
       "$m \\in(-\\infty;-1) \\cup(3 ;+\\infty)$",
@@ -315,11 +315,11 @@ window.tracNghiem2D15 = [
       "$m \\in\\{3 ;-1\\}$"
     ],
     "answer": 1,
-    "explain": "Ta có $f(x)-m=0 \\Leftrightarrow f(x)=m\\quad (1)$.<br>  $(1)$ có nghiệm duy nhất khi đồ thị hàm số $y=f(x)$ cắt đường thẳng $y=m$ tại duy nhất một điểm.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Dựa vào đồ thị hàm số $y=f(x)$ ta có kết quả $m&lt;-1$ hoặc $m&gt;3$."
+    "explain": "Ta có $f(x)-m=0 \\Leftrightarrow f(x)=m\\quad (1)$.<br>  $(1)$ có nghiệm duy nhất khi đồ thị hàm số $y=f(x)$ cắt đường thẳng $y=m$ tại duy nhất một điểm.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_042.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Dựa vào đồ thị hàm số $y=f(x)$ ta có kết quả $m&lt;-1$ hoặc $m&gt;3$."
   },
   {
     "id": "2D151TN27",
-    "question": "Cho hàm số $y=\\dfrac{a x+b}{c x+d}$ (với $c\\neq 0, ad-bc\\neq 0$) có đồ thị như hình vẽ bên. Khẳng định nào sau đây đúng?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{a x+b}{c x+d}$ (với $c\\neq 0, ad-bc\\neq 0$) có đồ thị như hình vẽ bên. Khẳng định nào sau đây đúng?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Đồ thị hàm số có hai điểm cực trị",
       "$\\lim\\limits_{x\\rightarrow-\\infty}f(x)=+\\infty$ và $\\lim\\limits_{x\\rightarrow+\\infty}f(x)=-\\infty$",
@@ -343,7 +343,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN29",
-    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_046.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x^2+2 x-1}{x-1}$",
       "$y=\\dfrac{2 x-1}{x-1}$",
@@ -355,7 +355,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN30",
-    "question": "Đường cong ở hình sau là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở hình sau là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+4x^2-1$",
       "$y=x^3-2x^2-2x-1$",
@@ -367,7 +367,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D155TN31",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và đồ thị hàm số $y=f'(x)$ như hình vẽ bên. Phát biểu nào sau đây đúng?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và đồ thị hàm số $y=f'(x)$ như hình vẽ bên. Phát biểu nào sau đây đúng?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số đã cho nghịch biến trên $(-1;2)$",
       "Hàm số đã cho nghịch biến trên $(0;1)$",
@@ -379,7 +379,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D152TN32",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tâm đối xứng của đồ thị hàm số $y=f(x)$ có tọa độ là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tâm đối xứng của đồ thị hàm số $y=f(x)$ có tọa độ là",
     "options": [
       "$(2;2)$",
       "$(2;-2)$",
@@ -391,7 +391,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN33",
-    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ dưới đây. Hàm số $f(x)$ đồng biến trên khoảng nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ dưới đây. Hàm số $f(x)$ đồng biến trên khoảng nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_054.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(0; 4)$",
       "$(0; 2)$",
@@ -403,7 +403,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN34",
-    "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_058.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_058.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{2 x-1}{x+2}$",
       "$y=-x^3+3 x+2$",
@@ -427,7 +427,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN36",
-    "question": "Hàm số nào dưới đây có đồ thị là hình vẽ bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào dưới đây có đồ thị là hình vẽ bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x+1}{x-1}$",
       "$y=\\dfrac{x}{x-1}$",
@@ -439,7 +439,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN37",
-    "question": "Đường cong sau là đồ thị của hàm số nào trong các hàm số cho dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong sau là đồ thị của hàm số nào trong các hàm số cho dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x-1}{x-1}$",
       "$y=\\dfrac{2x+1}{x-1}$",
@@ -451,7 +451,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN38",
-    "question": "Hỏi hàm số nào là hàm số có đồ thị như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_066.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hỏi hàm số nào là hàm số có đồ thị như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_066.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x^2+2x+2}{x+1}$",
       "$y=\\dfrac{x^2-2x-2}{x-1}$",
@@ -463,7 +463,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN39",
-    "question": "Bảng biến thiên dưới đây là của hàm số nào trong số các hàm số được cho trong các đáp án A, B, C, D?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_067.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng biến thiên dưới đây là của hàm số nào trong số các hàm số được cho trong các đáp án A, B, C, D?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_067.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{2x-3}{x-1}$",
       "$y=\\dfrac{x-1}{x-2}$",
@@ -487,7 +487,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN41",
-    "question": "Đồ thị của hàm số nào dưới đây có dạng như đường cong trong hình bên?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_069.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị của hàm số nào dưới đây có dạng như đường cong trong hình bên?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_069.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3-3x+1$",
       "$y=x^3-3x^2+1$",
@@ -511,7 +511,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN43",
-    "question": "Đường cong trong hình là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_070.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x-1}{x+1}$",
       "$y=\\dfrac{-2x+1}{2x+2}$",
@@ -523,7 +523,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D155TN44",
-    "question": "Cho đồ thị của ba hàm số $y=f(x)$, $y=f'(x)$, $y=f''(x)$ được vẽ mô tả ở hình dưới đây.<br>  Hỏi đồ thị các hàm số $y=f(x)$, $y=f'(x)$ và $y=f''(x)$ theo thứ tự, lần lượt tương ứng với đường cong nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị của ba hàm số $y=f(x)$, $y=f'(x)$, $y=f''(x)$ được vẽ mô tả ở hình dưới đây.<br>  Hỏi đồ thị các hàm số $y=f(x)$, $y=f'(x)$ và $y=f''(x)$ theo thứ tự, lần lượt tương ứng với đường cong nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_071.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(C_3)$; $(C_1)$; $(C_2)$",
       "$(C_1)$; $(C_3)$; $(C_2)$",
@@ -547,7 +547,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN46",
-    "question": "Đường cong trong hình bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_073.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_073.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+x$",
       "$y=\\dfrac{x+1}{x-1}$",
@@ -559,7 +559,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN47",
-    "question": "Đường cong ở bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_076.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_076.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^{2}-4$",
       "$y=-x^{2}-3x-4$",
@@ -571,7 +571,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN48",
-    "question": "Đồ thị có dạng đường cong như hình bên dưới là của hàm số nảo?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị có dạng đường cong như hình bên dưới là của hàm số nảo?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^4-2x^2$",
       "$y=x^4-2x^2+1$",
@@ -583,7 +583,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN49",
-    "question": "Đường cong ở hình bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_085.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở hình bên là đồ thị của hàm số nào?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_085.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-x^2-4$",
       "$y=-x^3+6x-4$",
@@ -595,7 +595,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN50",
-    "question": "Đồ thị của hàm số nào dưới đây có dạng như đường cong như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_087.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị của hàm số nào dưới đây có dạng như đường cong như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_087.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = x^3 - 3x - 1$",
       "$y = -x^3 - 2x^2 + x - 2$",
@@ -607,7 +607,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN51",
-    "question": "Đường cong trong hình vẽ bên là của đồ thị hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là của đồ thị hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_092.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x+2}{x-2}$",
       "$y=-x^3+3x^2-1$",
@@ -619,7 +619,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN52",
-    "question": "Đường cong trong hình vẽ bên là của đồ thị hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình vẽ bên là của đồ thị hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_093.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x^2-2$",
       "$y=-x^3+3x^2-2$",
@@ -631,7 +631,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D152TN53",
-    "question": "Hình vẽ bên là đồ thị của hàm số $y=\\dfrac{a x+b}{c x+d}$.  Tâm đối xứng của đồ thị hàm số có tọa độ là<br><img src=\"data/12/2D1/im2D1/2D15_tikz_095.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình vẽ bên là đồ thị của hàm số $y=\\dfrac{a x+b}{c x+d}$.  Tâm đối xứng của đồ thị hàm số có tọa độ là<br><img src=\"data/12/2D1/im2D1/2D15_tikz_095.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-1;-1)$",
       "$(1; 1)$",
@@ -643,7 +643,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN54",
-    "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_096.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x+1}{x-1}$",
       "$y=\\dfrac{2x-1}{x-1}$",
@@ -657,17 +657,17 @@ window.tracNghiem2D15 = [
     "id": "2D151TN55",
     "question": "Đồ thị của hàm số $y=\\dfrac{x^2+2x+2}{x+1}$ là đường cong nào trong các đường cong sau?",
     "options": [
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_100.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_100.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"
     ],
     "answer": 1,
     "explain": "Đồ thị hàm số $y=\\dfrac{x^2+2x+2}{x+1}$ có tiệm cận đứng $x=-1$. <br>  Ta có $y=\\dfrac{x^2+2x+2}{x+1}=x+1+\\dfrac{1}{x+1}$. <br>  Vì $\\lim\\limits_{x\\to-\\infty} \\left(\\dfrac{x^2+2x+2}{x+1}-(x+1)\\right)=\\lim\\limits_{x\\to-\\infty} \\dfrac{1}{x+1}=0$ nên đồ thị hàm số có đường tiệm cận xiên là $y=x+1$."
   },
   {
     "id": "2D151TN56",
-    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_101.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_101.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3-3 x^2+4$",
       "$y=x^3-3 x^2-4$",
@@ -679,7 +679,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN57",
-    "question": "Hàm số nào dưới đây có bảng biến thiên như sau?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_102.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào dưới đây có bảng biến thiên như sau?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_102.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x$",
       "$y=-x^3+3x$",
@@ -691,7 +691,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN58",
-    "question": "Hàm số nào trong các hàm số sau có đồ thị như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_103.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào trong các hàm số sau có đồ thị như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_103.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x+2$",
       "$y=\\dfrac{x+2}{x+1}$",
@@ -715,7 +715,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN60",
-    "question": "Đồ thị của hàm số nào dưới đây có dạng đường cong như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_107.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị của hàm số nào dưới đây có dạng đường cong như hình bên?<br><img src=\"data/12/2D1/im2D1/2D15_tikz_107.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = -x^3 + 3x^2 - 1$",
       "$y = x^3 - 3x^2 - 1$",
@@ -727,7 +727,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN61",
-    "question": "Hàm số nào dưới đây có dạng đồ thị như hình vẽ?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_108.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào dưới đây có dạng đồ thị như hình vẽ?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_108.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3+3x+2$",
       "$y=-x^3+3x+2$",
@@ -739,7 +739,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN62",
-    "question": "Đồ thị hàm số nào dưới đây có dạng đường cong như hình vẽ?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_111.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số nào dưới đây có dạng đường cong như hình vẽ?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_111.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+3x+1$",
       "$y=\\dfrac{x-1}{x+2}$",
@@ -751,7 +751,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN63",
-    "question": "Hình vẽ bên là đồ thị của hàm số nào sau đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_116.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình vẽ bên là đồ thị của hàm số nào sau đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_116.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y = x^3 + 3x^2 - 2$",
       "$y = -x^3 + 3x^2 - 2$",
@@ -775,7 +775,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN65",
-    "question": "Cho đồ thị như hình vẽ bên dưới. Hỏi đồ thị là của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_117.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị như hình vẽ bên dưới. Hỏi đồ thị là của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_117.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+3x^2-4$",
       "$y=-x^3+3x^2-2$",
@@ -787,7 +787,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN66",
-    "question": "Đường cong ở hình sau là đồ thị của hàm số nào?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_118.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở hình sau là đồ thị của hàm số nào?  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_118.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+3 x^2-4$",
       "$y=\\dfrac{x+1}{x-1}$",
@@ -799,7 +799,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN67",
-    "question": "Cho hàm số đa thức bậc ba $y=f(x)$ có đồ thị như hình vẽ bên. <br>  Biết phương trình $f(x)-m=0$ có duy nhất một nghiệm. Tìm tất cả giá trị của $m$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_121.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số đa thức bậc ba $y=f(x)$ có đồ thị như hình vẽ bên. <br>  Biết phương trình $f(x)-m=0$ có duy nhất một nghiệm. Tìm tất cả giá trị của $m$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_121.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$m \\in \\mathbb{R}$",
       "$m \\in \\left\\{-3;-1\\right\\}$",
@@ -807,11 +807,11 @@ window.tracNghiem2D15 = [
       "$m \\in \\left(-1;3\\right)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_122.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo giả thiết, phương trình $f(x)=m$ có duy nhất một nghiệm.<br>  Theo hình vẽ, đồ thị hàm số $y=f(x)$ cắt đường thẳng $y=m$ tại một điểm khi và chỉ khi $m \\in \\left(-\\infty;-1\\right) \\cup \\left(3;+\\infty\\right)$."
+    "explain": "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_122.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo giả thiết, phương trình $f(x)=m$ có duy nhất một nghiệm.<br>  Theo hình vẽ, đồ thị hàm số $y=f(x)$ cắt đường thẳng $y=m$ tại một điểm khi và chỉ khi $m \\in \\left(-\\infty;-1\\right) \\cup \\left(3;+\\infty\\right)$."
   },
   {
     "id": "2D151TN68",
-    "question": "Cho hàm số $y=\\dfrac{ax+3}{bx+c}$ có đồ thị là đường cong như trong hình vẽ dưới đây.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_123.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính giá trị $M=a+b+c$.",
+    "question": "Cho hàm số $y=\\dfrac{ax+3}{bx+c}$ có đồ thị là đường cong như trong hình vẽ dưới đây.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_123.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính giá trị $M=a+b+c$.",
     "options": [
       "$-1$",
       "$4$",
@@ -823,7 +823,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN69",
-    "question": "Đường cong ở hình bên là đồ thị của hàm số $ y=\\dfrac{ax+b}{cx+d}$ với $a$ , $b$ , $c$ , $d$ là các số thực. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong ở hình bên là đồ thị của hàm số $ y=\\dfrac{ax+b}{cx+d}$ với $a$ , $b$ , $c$ , $d$ là các số thực. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ y' &gt; 0$, $\\forall x\\ne 2$",
       "$ y' &gt; 0$, $\\forall x\\ne 3$",
@@ -835,7 +835,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN70",
-    "question": "Bảng biến thiên sau là của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng biến thiên sau là của hàm số nào dưới đây?  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ y=\\dfrac{x^2+2x-2}{x-1}$",
       "$ y=\\dfrac{x^2+2x-2}{x+1}$",
@@ -847,7 +847,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN71",
-    "question": "Cho hàm số $y=ax^3+3x+d$ có đồ thị như hình bên. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=ax^3+3x+d$ có đồ thị như hình bên. Mệnh đề nào dưới đây đúng?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$a&gt;0; d&lt;0$",
       "$a&gt;0; d&gt;0$",
@@ -859,7 +859,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN72",
-    "question": "Hàm số nào trong các hàm số sau có đồ thị như hình vẽ bên.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS13_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hàm số nào trong các hàm số sau có đồ thị như hình vẽ bên.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS13_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-3x+2$",
       "$y=\\dfrac{x+2}{x+1}$",
@@ -871,7 +871,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN73",
-    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình vẽ?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS2_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình vẽ?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS2_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{2x-1}{x+1}$",
       "$y=\\dfrac{x^2+2x-2}{x-1}$",
@@ -883,7 +883,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN74",
-    "question": "Bảng biến thiên trong hình bên dưới là của hàm số nào sau đây?  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS2_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Bảng biến thiên trong hình bên dưới là của hàm số nào sau đây?  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS2_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ y=\\dfrac{x+3}{x-1}$",
       "$ y=\\dfrac{-x-2}{x-1}$",
@@ -895,7 +895,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN75",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Đồ thị đó có thể là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS20_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Đồ thị đó có thể là đồ thị của hàm số nào sau đây?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS20_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3+3x-1$",
       "$y=\\dfrac{x^2-x+1}{x-1}$",
@@ -907,7 +907,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN76",
-    "question": "Biết rằng đường cong ở hình bên là đồ thị của một trong các hàm số dưới đây, đó là hàm số nào?% Đồ thị hàm y=ax^3+bx^2+cx+d. Nếu hệ số lớn cần điều chỉnh hệ trục, vùng lưới, domain và lệnh \\clip  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS4_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Biết rằng đường cong ở hình bên là đồ thị của một trong các hàm số dưới đây, đó là hàm số nào?% Đồ thị hàm y=ax^3+bx^2+cx+d. Nếu hệ số lớn cần điều chỉnh hệ trục, vùng lưới, domain và lệnh \\clip  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS4_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x^3-2x^2$",
       "$y=x^3-5x^2+6x$",
@@ -919,7 +919,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D153TN77",
-    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị là đường cong trong hình bên. Số nghiệm thực của phương trình $f(x)=1$ là<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị là đường cong trong hình bên. Số nghiệm thực của phương trình $f(x)=1$ là<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$0$",
@@ -931,7 +931,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D152TN2",
-    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d}$ có đồ thị như đường cong trong hình bên. Tâm đối xứng của đồ thị hàm số có tọa độ là<br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d}$ có đồ thị như đường cong trong hình bên. Tâm đối xứng của đồ thị hàm số có tọa độ là<br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\left(2;0\\right)$",
       "$\\left(-1;2\\right)$",
@@ -955,7 +955,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN2",
-    "question": "Đường cong trong hình dưới là đồ thị của hàm số nào?  <br><img src=\"data/12/2D1/im2D15/loc8_TT_KSCL_Cum_lien_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đường cong trong hình dưới là đồ thị của hàm số nào?  <br><img src=\"data/12/2D1/im2D15/loc8_TT_KSCL_Cum_lien_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=-x^3+3x^2-4$",
       "$y=-x^3+3x^2+1$",
@@ -967,7 +967,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN77",
-    "question": "Đồ thị dưới đây là của hàm số nào?<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị dưới đây là của hàm số nào?<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{x^2+4x+1}{x+2}$",
       "$y=\\dfrac{x^2+4x+5}{-x-2}$",
@@ -979,7 +979,7 @@ window.tracNghiem2D15 = [
   },
   {
     "id": "2D151TN78",
-    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $[-1;5]$ và có đồ thị như hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenKh_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập giá trị của hàm số $y=f(x)$ trên đoạn $[-1;5]$ là",
+    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $[-1;5]$ và có đồ thị như hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenKh_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập giá trị của hàm số $y=f(x)$ trên đoạn $[-1;5]$ là",
     "options": [
       "$[-1;5]$",
       "$[1;3]$",

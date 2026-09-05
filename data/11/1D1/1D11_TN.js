@@ -62,11 +62,11 @@ window.tracNghiem1D11 = [
       "$\\dfrac{5 \\pi}{3}+k \\pi$, $k \\in \\mathbb{Z}$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1D1/im1D1/1D11_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ hình vẽ ta thấy các góc lượng giác $(OA, OM)$ được tạo bởi tia đầu là tia $OA$, tia cuối là tia $OM$ và quay theo chiều âm một góc $\\dfrac{\\pi}{3}$ và chỉ có duy nhất một điểm $M$ trên đường tròn lượng giác nên có số đo của các góc lượng giác $(OA, OM) =-\\dfrac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$."
+    "explain": "<br><img src=\"data/11/1D1/im1D1/1D11_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ hình vẽ ta thấy các góc lượng giác $(OA, OM)$ được tạo bởi tia đầu là tia $OA$, tia cuối là tia $OM$ và quay theo chiều âm một góc $\\dfrac{\\pi}{3}$ và chỉ có duy nhất một điểm $M$ trên đường tròn lượng giác nên có số đo của các góc lượng giác $(OA, OM) =-\\dfrac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$."
   },
   {
     "id": "1D115TN6",
-    "question": "Số đo của các góc lượng giác $(Ou, Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Số đo của các góc lượng giác $(Ou, Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(Ou, Ov)=-60^{\\circ}+k 360^{\\circ}$ $(k \\in \\mathbb{Z})$",
       "$(Ou, Ov)=60^{\\circ}+k 360^{\\circ}$ $(k \\in \\mathbb{Z})$",
@@ -78,7 +78,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN7",
-    "question": "Trên đường tròn lượng giác sau, hai điểm $M$, $N$ là hai điểm biểu diễn của góc lượng giác có số đo là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác sau, hai điểm $M$, $N$ là hai điểm biểu diễn của góc lượng giác có số đo là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=\\dfrac{\\pi}{3}+k\\dfrac{\\pi}{2}$",
       "$x=-\\dfrac{\\pi}{3}+k\\pi$",
@@ -138,7 +138,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN12",
-    "question": "Trên hình vẽ bên hai điểm $M$, $N$ biểu diễn góc lượng giác nào sau đây?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên hình vẽ bên hai điểm $M$, $N$ biểu diễn góc lượng giác nào sau đây?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=\\dfrac{\\pi}{3}+k2\\pi$, $(k\\in \\mathbb{Z})$",
       "$x=-\\dfrac{\\pi}{3}+k\\pi$, $(k\\in \\mathbb{Z})$",
@@ -318,7 +318,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D116TN27",
-    "question": "Một chiếc đồng hồ có kim chỉ giờ $OG$ chỉ số $3$ và kim phút $OP$ chỉ số $12$. Số đo của góc lượng giác $(OG, OP)$ là<br><img src=\"data/11/1D1/im1D1/1D11_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một chiếc đồng hồ có kim chỉ giờ $OG$ chỉ số $3$ và kim phút $OP$ chỉ số $12$. Số đo của góc lượng giác $(OG, OP)$ là<br><img src=\"data/11/1D1/im1D1/1D11_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90^\\circ + k360^\\circ, k \\in \\mathbb{Z}$",
       "$-270^\\circ + k180^\\circ, k \\in \\mathbb{Z}$",
@@ -342,7 +342,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN29",
-    "question": "Trên đường tròn lượng giác với điểm gốc $A(1;0)$. Trong các số đo được cho bên dưới, số đo nào là số đo của góc lượng giác $(OA, OB)$ với $B(0;1)$?  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác với điểm gốc $A(1;0)$. Trong các số đo được cho bên dưới, số đo nào là số đo của góc lượng giác $(OA, OB)$ với $B(0;1)$?  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{3\\pi}{4}$",
       "$\\dfrac{\\pi}{2}$",
@@ -354,7 +354,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN30",
-    "question": "Trên đường tròn lượng giác có điểm gốc là $A$. Điểm $M$ thuộc đường tròn sao cho cung lượng giác $AM$ có số đo $45^\\circ$. Gọi $N$ là điểm đối xứng với $M$ qua trục $Ox$, số đo cung lượng giác $AN$ bằng<br><img src=\"data/11/1D1/im1D1/1D11_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác có điểm gốc là $A$. Điểm $M$ thuộc đường tròn sao cho cung lượng giác $AM$ có số đo $45^\\circ$. Gọi $N$ là điểm đối xứng với $M$ qua trục $Ox$, số đo cung lượng giác $AN$ bằng<br><img src=\"data/11/1D1/im1D1/1D11_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-45^\\circ + k 180^\\circ$, $k \\in \\mathbb{Z}$",
       "$135^\\circ + k 360^\\circ$, $k \\in \\mathbb{Z}$",
@@ -366,7 +366,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN31",
-    "question": "Xác định số đo của góc lượng giác $(Ou,Ov)$ được biểu diễn trong hình bên.<br><img src=\"data/11/1D1/im1D1/1D11_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Xác định số đo của góc lượng giác $(Ou,Ov)$ được biểu diễn trong hình bên.<br><img src=\"data/11/1D1/im1D1/1D11_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-420^\\circ$",
       "$510^\\circ$",
@@ -450,7 +450,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN38",
-    "question": "Công thức số đo tổng quát của góc lượng giác $(OA,OM)$ theo độ trong hình bên là<br><img src=\"data/11/1D1/im1D1/1D11_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Công thức số đo tổng quát của góc lượng giác $(OA,OM)$ theo độ trong hình bên là<br><img src=\"data/11/1D1/im1D1/1D11_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-60^\\circ+k360^\\circ (k \\in \\mathbb{Z})$",
       "$60^\\circ+k180^\\circ (k \\in \\mathbb{Z})$",
@@ -498,7 +498,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN42",
-    "question": "Cho góc hình học $\\widehat{uOv} = 90^\\circ$. Số đo của góc lượng giác $(\\overrightarrow{Ou}, \\overrightarrow{Ov})$ trong hình bên bằng  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho góc hình học $\\widehat{uOv} = 90^\\circ$. Số đo của góc lượng giác $(\\overrightarrow{Ou}, \\overrightarrow{Ov})$ trong hình bên bằng  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$270^\\circ$",
       "$-90^\\circ$",
@@ -522,7 +522,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN44",
-    "question": "[Chuyên Vĩnh Phúc - Phú Thọ]  Cho góc hình học $uOv$ có số đo bằng $60^\\circ$ như hình vẽ. Số đo của các góc lượng giác $\\left(Ou,Ov\\right)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "[Chuyên Vĩnh Phúc - Phú Thọ]  Cho góc hình học $uOv$ có số đo bằng $60^\\circ$ như hình vẽ. Số đo của các góc lượng giác $\\left(Ou,Ov\\right)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\text{sđ}\\left(Ou,Ov\\right)=60^\\circ+k\\cdot 360^\\circ,\\ k\\in\\mathbb{Z}$",
       "$\\text{sđ}\\left(Ou,Ov\\right)=60^\\circ+k\\cdot 180^\\circ,\\ k\\in\\mathbb{Z}$",
@@ -582,7 +582,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN49",
-    "question": "Số đo của các góc lượng giác $(Ou,Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Số đo của các góc lượng giác $(Ou,Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(Ou,Ov)=-60^\\circ+k360^\\circ\\ (k \\in \\mathbb{Z})$",
       "$(Ou,Ov)=60^\\circ+k360^\\circ\\ (k \\in \\mathbb{Z})$",
@@ -594,7 +594,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN50",
-    "question": "Số đo của các góc lượng giác $(Ou,Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Số đo của các góc lượng giác $(Ou,Ov)$ trong hình sau là bao nhiêu?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(Ou,Ov)=-60^{\\circ}+k360^{\\circ}\\,(k\\in\\mathbb{Z})$",
       "$(Ou,Ov)=60^{\\circ}+k360^{\\circ}\\,(k\\in\\mathbb{Z})$",
@@ -630,7 +630,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN53",
-    "question": "Trên đường tròn lượng giác, điểm $M$ trong hình vẽ bên biểu diễn góc $\\alpha$ có số đo bằng bao nhiêu biết $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trên đường tròn lượng giác, điểm $M$ trong hình vẽ bên biểu diễn góc $\\alpha$ có số đo bằng bao nhiêu biết $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$?<br><img src=\"data/11/1D1/im1D1/1D11_tikz_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{\\pi}{6}$",
       "$\\dfrac{\\pi}{3}$",
@@ -654,7 +654,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN55",
-    "question": "Cho hình vẽ bên dưới, số đo của góc lượng giác $(OA, OM)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình vẽ bên dưới, số đo của góc lượng giác $(OA, OM)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-150^\\circ+k360^\\circ, k\\in\\mathbb{Z}$",
       "$150^\\circ+k360^\\circ, k\\in\\mathbb{Z}$",
@@ -690,7 +690,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN58",
-    "question": "Trên đường tròn lượng giác  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong các số đo được cho bên dưới, số đo nào là số đo của góc lượng giác $(OA, OB)$?",
+    "question": "Trên đường tròn lượng giác  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Trong các số đo được cho bên dưới, số đo nào là số đo của góc lượng giác $(OA, OB)$?",
     "options": [
       "$\\dfrac{3\\pi}{4}$",
       "$\\dfrac{\\pi}{2}$",
@@ -702,7 +702,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN59",
-    "question": "Cho góc hình học $\\widehat{uOv} = 40^\\circ$. Số đo của góc lượng giác $(Ou, Ov)$ như hình vẽ bên dưới bằng bao nhiêu độ?  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho góc hình học $\\widehat{uOv} = 40^\\circ$. Số đo của góc lượng giác $(Ou, Ov)$ như hình vẽ bên dưới bằng bao nhiêu độ?  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$140^\\circ$",
       "$-140^\\circ$",
@@ -726,7 +726,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN61",
-    "question": "Cho hình vẽ bên dưới, số đo của góc lượng giác $(OA,OM)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình vẽ bên dưới, số đo của góc lượng giác $(OA,OM)$ là  <br><img src=\"data/11/1D1/im1D1/1D11_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-30^\\circ + k360^\\circ$, $k\\in \\mathbb{Z}$",
       "$150^\\circ + k360^\\circ$, $k\\in \\mathbb{Z}$",
@@ -846,7 +846,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D115TN4",
-    "question": "Trong hệ tọa độ $Oxy$, cho bốn điểm $A$; $B$; $C$; $D$ nằm trên đường tròn lượng giác như hình vẽ. Khi đó, điểm $B$ biểu diễn các góc lượng giác nào?<br><img src=\"data/11/1D1/im1D11/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong hệ tọa độ $Oxy$, cho bốn điểm $A$; $B$; $C$; $D$ nằm trên đường tròn lượng giác như hình vẽ. Khi đó, điểm $B$ biểu diễn các góc lượng giác nào?<br><img src=\"data/11/1D1/im1D11/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-\\dfrac{\\pi}{2}+k2\\pi(k\\in\\mathbb{Z})$",
       "$-\\dfrac{\\pi}{2}+k\\pi(k\\in\\mathbb{Z})$",

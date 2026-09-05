@@ -17,7 +17,7 @@ window.traLoiNgan2D61 = [
   },
   {
     "id": "2D614TL3",
-    "question": "Một công ty dược phẩm muốn so sánh tác dụng điều trị bệnh X của hai loại thuốc M và N. Công ty đã tiến hành thử nghiệm với $4\\,000$ bệnh nhân mắc bệnh X trong đó có $2\\,400$ bệnh nhân dùng thuốc M, $1\\,600$ bệnh nhân dùng thuốc N. Kết quả được cho trong bảng sau  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS34_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Chọn ngẫu nhiên một bệnh nhân trong số $4\\,000$ bệnh nhân thử nghiệm sau khi uống thuốc. Xác suất bệnh nhân đó uống thuốc M, biết rằng bệnh nhân đó khỏi bệnh là $\\dfrac{a}{b}$. Tính $a+b$.",
+    "question": "Một công ty dược phẩm muốn so sánh tác dụng điều trị bệnh X của hai loại thuốc M và N. Công ty đã tiến hành thử nghiệm với $4\\,000$ bệnh nhân mắc bệnh X trong đó có $2\\,400$ bệnh nhân dùng thuốc M, $1\\,600$ bệnh nhân dùng thuốc N. Kết quả được cho trong bảng sau  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS34_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Chọn ngẫu nhiên một bệnh nhân trong số $4\\,000$ bệnh nhân thử nghiệm sau khi uống thuốc. Xác suất bệnh nhân đó uống thuốc M, biết rằng bệnh nhân đó khỏi bệnh là $\\dfrac{a}{b}$. Tính $a+b$.",
     "answer": "11",
     "explain": "Gọi $A$ là biến cố “ Bệnh nhân uống thuốc M”.<br>  Gọi $B$ là biến cố “ Bệnh nhân khỏi bệnh”.<br>  Yêu cầu bài toán là tính $\\mathrm{P}(A\\mid B)$.<br>  Ta có $n(B)=1\\,600+1\\,200=2\\,800$, $n(AB)=1\\,600$.<br>  Xác suất cần tìm là  \\[\\mathrm{P}(A\\mid B)=\\dfrac{n(AB)}{n(B)}=\\dfrac{1\\,600}{2\\,800}=\\dfrac{4}{7}.\\]"
   }

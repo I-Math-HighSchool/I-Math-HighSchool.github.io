@@ -7,7 +7,7 @@
 window.tracNghiem2D31 = [
   {
     "id": "2D312TN1",
-    "question": "Khảo sát thời gian tập thể dục của một số học sinh khối $11$ thu được mẫu số liệu ghép nhóm sau:    <br><img src=\"data/12/2D3/im2D3/2D31_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
+    "question": "Khảo sát thời gian tập thể dục của một số học sinh khối $11$ thu được mẫu số liệu ghép nhóm sau:    <br><img src=\"data/12/2D3/im2D3/2D31_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
     "options": [
       "$80$",
       "$60$",
@@ -19,7 +19,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN2",
-    "question": "Mức thưởng tết (triệu đồng) cho các nhân viên của một công ty được thống kê trong bảng sau:    <br><img src=\"data/12/2D3/im2D3/2D31_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
+    "question": "Mức thưởng tết (triệu đồng) cho các nhân viên của một công ty được thống kê trong bảng sau:    <br><img src=\"data/12/2D3/im2D3/2D31_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
     "options": [
       "$20$",
       "$25$",
@@ -31,7 +31,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN3",
-    "question": "Cho bảng phân bố tần số ghép lớp sau    Chiều cao của $40$ học sinh nam ở một trường THPT<br>  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
+    "question": "Cho bảng phân bố tần số ghép lớp sau    Chiều cao của $40$ học sinh nam ở một trường THPT<br>  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
     "options": [
       "$31$",
       "$15,5$",
@@ -43,7 +43,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN4",
-    "question": "Thời gian truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
+    "question": "Thời gian truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
     "options": [
       "$26$",
       "$14$",
@@ -55,7 +55,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D313TN5",
-    "question": "Khảo sát về cân nặng của các học sinh lớp 11D3 người ta được một mẫu dữ liệu ghép nhóm như sau  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng tứ phân vị của bảng số liệu ghép nhóm trên là",
+    "question": "Khảo sát về cân nặng của các học sinh lớp 11D3 người ta được một mẫu dữ liệu ghép nhóm như sau  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng tứ phân vị của bảng số liệu ghép nhóm trên là",
     "options": [
       "$17$",
       "$14.5$",
@@ -67,7 +67,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D313TN6",
-    "question": "Trung tâm ngoại ngữ thống kê bảng điểm môn Tiếng Anh của một khóa học trong bảng bên dưới  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng tứ phân vị của mẫu số liệu ghép nhóm này là (làm tròn đến hàng phần trăm)",
+    "question": "Trung tâm ngoại ngữ thống kê bảng điểm môn Tiếng Anh của một khóa học trong bảng bên dưới  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng tứ phân vị của mẫu số liệu ghép nhóm này là (làm tròn đến hàng phần trăm)",
     "options": [
       "$2{,}92$",
       "$2{,}93$",
@@ -79,7 +79,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D314TN7",
-    "question": "Ở một phòng điều trị nội trú của bệnh viện, dữ liệu thống kê thời gian ngủ hằng đêm của một bệnh nhân trong suốt một tháng được tổng hợp bởi bảng dưới đây<br><img src=\"data/12/2D3/im2D3/2D31_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Ở một phòng điều trị nội trú của bệnh viện, dữ liệu thống kê thời gian ngủ hằng đêm của một bệnh nhân trong suốt một tháng được tổng hợp bởi bảng dưới đây<br><img src=\"data/12/2D3/im2D3/2D31_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$75{,}53$",
       "$84{,}83$",
@@ -91,7 +91,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN8",
-    "question": "Thời gian hoàn thành bài kiểm tra môn Toán của các bạn trong lớp $12$C được cho trong bảng sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
+    "question": "Thời gian hoàn thành bài kiểm tra môn Toán của các bạn trong lớp $12$C được cho trong bảng sau:  <br><img src=\"data/12/2D3/im2D3/2D31_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tìm khoảng biến thiên của mẫu số liệu ghép nhóm trên.",
     "options": [
       "$24$",
       "$15$",
@@ -103,7 +103,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN9",
-    "question": "Chiều cao của $40$ học sinh lớp 12A được ghi lại như sau  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS11_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
+    "question": "Chiều cao của $40$ học sinh lớp 12A được ghi lại như sau  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS11_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
     "options": [
       "$30$",
       "$5$",
@@ -127,7 +127,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN11",
-    "question": "Khảo sát chiều cao của một nhóm $10$ học sinh lớp 12A. Ta có được mẫu số liệu ghép nhóm như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS12_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
+    "question": "Khảo sát chiều cao của một nhóm $10$ học sinh lớp 12A. Ta có được mẫu số liệu ghép nhóm như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS12_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
     "options": [
       "$20$",
       "$25$",
@@ -151,7 +151,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D313TN13",
-    "question": "Khảo sát thời gian tập thể dục trong ngày của một số học sinh khối 10 thu được mẫu số liệu ghép nhóm.  Nhóm chứa tứ phân vị thứ nhất là<br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS13_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Khảo sát thời gian tập thể dục trong ngày của một số học sinh khối 10 thu được mẫu số liệu ghép nhóm.  Nhóm chứa tứ phân vị thứ nhất là<br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS13_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$[20; 40)$",
       "$[0; 20)$",
@@ -163,7 +163,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN14",
-    "question": "Số đo cân nặng của một số học sinh lớp 12T được cho trong bảng sau  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS13_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên là",
+    "question": "Số đo cân nặng của một số học sinh lớp 12T được cho trong bảng sau  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS13_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên là",
     "options": [
       "$30$",
       "$5$",
@@ -175,7 +175,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN15",
-    "question": "Cho mẫu số liệu ghép nhóm thời gian sử dụng internet trong $10$ ngày (tính bằng đơn vị giờ) của $30$ em học sinh lớp $12$ trường THPT Quế Sơn như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS14_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
+    "question": "Cho mẫu số liệu ghép nhóm thời gian sử dụng internet trong $10$ ngày (tính bằng đơn vị giờ) của $30$ em học sinh lớp $12$ trường THPT Quế Sơn như sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS14_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
     "options": [
       "$30$",
       "$9$",
@@ -235,7 +235,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN20",
-    "question": "Số tiền mà sinh viên chi cho thanh toán cước điện thoại trong tháng:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS21_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
+    "question": "Số tiền mà sinh viên chi cho thanh toán cước điện thoại trong tháng:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS21_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
     "options": [
       "$R = 250$",
       "$R = 50$",
@@ -247,7 +247,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D314TN21",
-    "question": "Các bạn học sinh lớp 10A trả lời $40$ câu hỏi trong một bài kiểm tra. Kết quả được thống kê ở bảng sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS25_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định nhóm có tần số lớn nhất.",
+    "question": "Các bạn học sinh lớp 10A trả lời $40$ câu hỏi trong một bài kiểm tra. Kết quả được thống kê ở bảng sau:  <br><img src=\"data/12/2D3/im2D31/dlts_12_DLTS25_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xác định nhóm có tần số lớn nhất.",
     "options": [
       "$[26; 31)$",
       "$[21; 26)$",
@@ -259,7 +259,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN21",
-    "question": "Một vườn thú ghi lại tuổi thọ (đơn vị: năm) của $20$ con hổ và thu được kết quả như sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên (đơn vị: năm) của mẫu số liệu ghép nhóm trên bảng số liệu đã cho là",
+    "question": "Một vườn thú ghi lại tuổi thọ (đơn vị: năm) của $20$ con hổ và thu được kết quả như sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên (đơn vị: năm) của mẫu số liệu ghép nhóm trên bảng số liệu đã cho là",
     "options": [
       "$6$",
       "$5$",
@@ -271,7 +271,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D313TN2",
-    "question": "Khảo sát thời gian tập thể dục trong ngày của một số học sinh khối $10$ thu được mẫu số liệu ghép nhóm sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất là",
+    "question": "Khảo sát thời gian tập thể dục trong ngày của một số học sinh khối $10$ thu được mẫu số liệu ghép nhóm sau  <br><img src=\"data/12/2D3/im2D31/loc2_2_TL_TN_THPT_Bin_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất là",
     "options": [
       "$[40;60)$",
       "$[20;40)$",
@@ -283,7 +283,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN22",
-    "question": "Bảng sau thống kê cân nặng của $50$ quả xoài được lựa chọn ngẫu nhiên sau khi thu hoạch ở một nông trường  <br><img src=\"data/12/2D3/im2D31/loc3_2_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
+    "question": "Bảng sau thống kê cân nặng của $50$ quả xoài được lựa chọn ngẫu nhiên sau khi thu hoạch ở một nông trường  <br><img src=\"data/12/2D3/im2D31/loc3_2_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu trên là",
     "options": [
       "$200$",
       "$350$",
@@ -295,7 +295,7 @@ window.tracNghiem2D31 = [
   },
   {
     "id": "2D312TN23",
-    "question": "Mỗi ngày bác Bình đều đi bộ để rèn luyện sức khỏe. Quãng đường đi bộ mỗi ngày (đơn vị: km) của bác Bình trong $20$ ngày được thống kê ở bảng sau:  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
+    "question": "Mỗi ngày bác Bình đều đi bộ để rèn luyện sức khỏe. Quãng đường đi bộ mỗi ngày (đơn vị: km) của bác Bình trong $20$ ngày được thống kê ở bảng sau:  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
     "options": [
       "$1{,}2$",
       "$0{,}362$",

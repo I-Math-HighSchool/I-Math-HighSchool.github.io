@@ -7,7 +7,7 @@
 window.tracNghiem2D14 = [
   {
     "id": "2D141TN1",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị của hàm số đã cho có mấy đường tiệm cận?",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị của hàm số đã cho có mấy đường tiệm cận?",
     "options": [
       "$4$",
       "$3$",
@@ -19,7 +19,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN2",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận của đồ thị hàm số đã cho là",
     "options": [
       "$1$",
       "$2$",
@@ -67,7 +67,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN6",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường tiệm cận đứng của đồ thị hàm số đã cho có phương trình là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường tiệm cận đứng của đồ thị hàm số đã cho có phương trình là",
     "options": [
       "$x=0$",
       "$y=0$",
@@ -91,7 +91,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN8",
-    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d},\\,(a, b, c, d \\in \\mathbb{R}$, $c \\neq 0$, $a d-b c \\neq 0)$ có đồ thị là đường cong trong hình bên. Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{ax+b}{cx+d},\\,(a, b, c, d \\in \\mathbb{R}$, $c \\neq 0$, $a d-b c \\neq 0)$ có đồ thị là đường cong trong hình bên. Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=-1$",
       "$y=-1$",
@@ -103,7 +103,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN9",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường tiệm cận ngang của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đường tiệm cận ngang của đồ thị hàm số đã cho là",
     "options": [
       "$x = 3$",
       "$x = -3$",
@@ -127,7 +127,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN11",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là đúng?",
     "options": [
       "Đồ thị hàm số có hai đường tiệm cận ngang",
       "Đồ thị hàm số có tiệm cận đứng $x=1$, tiệm cận ngang $y=-1$",
@@ -187,7 +187,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN16",
-    "question": "Cho hàm số $y=\\dfrac{ax+b}{x+c}$ ($a$, $b$, $c$ là các hằng số thực) có đồ thị như hình vẽ bên. Hai đường tiệm cận của đồ thị hàm số cắt nhau tại $I$. Tọa độ của điểm $I$ là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{ax+b}{x+c}$ ($a$, $b$, $c$ là các hằng số thực) có đồ thị như hình vẽ bên. Hai đường tiệm cận của đồ thị hàm số cắt nhau tại $I$. Tọa độ của điểm $I$ là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(2;2)$",
       "$(1;2)$",
@@ -211,7 +211,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN18",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Đồ thị hàm số đã cho có đường tiệm cận đứng là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Đồ thị hàm số đã cho có đường tiệm cận đứng là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=0$",
       "$y=1$",
@@ -283,7 +283,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN24",
-    "question": "Cho hàm số $y=\\dfrac{a x+b}{c x+d}$ có đồ thị như hình dưới.   Giá trị $\\dfrac{a}{c}-\\dfrac{d}{c}$ bằng<br><img src=\"data/12/2D1/im2D1/2D14_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">6",
+    "question": "Cho hàm số $y=\\dfrac{a x+b}{c x+d}$ có đồ thị như hình dưới.   Giá trị $\\dfrac{a}{c}-\\dfrac{d}{c}$ bằng<br><img src=\"data/12/2D1/im2D1/2D14_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">6",
     "options": [
       "$-1$",
       "$-2$",
@@ -295,7 +295,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN25",
-    "question": "Cho hàm số $y=f(x)$ xác định, có đạo hàm trên $(-2;+\\infty)\\setminus \\{0\\}$ và có bảng biến thiên như hình vẽ dưới đây  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị của hàm số là bao nhiêu?",
+    "question": "Cho hàm số $y=f(x)$ xác định, có đạo hàm trên $(-2;+\\infty)\\setminus \\{0\\}$ và có bảng biến thiên như hình vẽ dưới đây  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị của hàm số là bao nhiêu?",
     "options": [
       "$2$",
       "$3$",
@@ -307,7 +307,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN26",
-    "question": "Cho hàm số $y=\\dfrac{x^2-1}{x}$ có đồ thị như hình vẽ bên. Khẳng định nào sau đây đúng?<br><img src=\"data/12/2D1/im2D1/2D14_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{x^2-1}{x}$ có đồ thị như hình vẽ bên. Khẳng định nào sau đây đúng?<br><img src=\"data/12/2D1/im2D1/2D14_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Đồ thị hàm số có đúng một tiệm cận xiên là $y=x$",
       "Đồ thị hàm số có tiệm cận đứng là $x=0$ và tiệm cận xiên là $y=x$",
@@ -319,7 +319,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN27",
-    "question": "Hàm số $y=f(x)$ xác định trên $\\mathbb{R}\\setminus\\{-1;1\\}$, có đạo hàm trên $\\mathbb{R}\\setminus\\{-1;1\\}$ và có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị hàm số $y=f(x)$ có bao nhiêu tiệm cận (tiệm cận đứng và tiệm cận ngang)?",
+    "question": "Hàm số $y=f(x)$ xác định trên $\\mathbb{R}\\setminus\\{-1;1\\}$, có đạo hàm trên $\\mathbb{R}\\setminus\\{-1;1\\}$ và có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_020.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đồ thị hàm số $y=f(x)$ có bao nhiêu tiệm cận (tiệm cận đứng và tiệm cận ngang)?",
     "options": [
       "$2$",
       "$3$",
@@ -343,7 +343,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN29",
-    "question": "Cho hàm số $ y=f(x) $ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $ y=f(x) $ có bảng biến thiên như sau:  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
     "options": [
       "$3$",
       "$2$",
@@ -451,7 +451,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN38",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
     "options": [
       "$4$",
       "$1$",
@@ -463,7 +463,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN39",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau.   <br><img src=\"data/12/2D1/im2D1/2D14_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau.   <br><img src=\"data/12/2D1/im2D1/2D14_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
     "options": [
       "$2$",
       "$3$",
@@ -475,7 +475,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN40",
-    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
     "options": [
       "$1$",
       "$2$",
@@ -595,7 +595,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN50",
-    "question": "Hình vẽ bên là đồ thị của hàm số $y=\\dfrac{a x+b}{c x+d}$.  Đường tiệm cận đứng của đồ thị hàm số có phương trình là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Hình vẽ bên là đồ thị của hàm số $y=\\dfrac{a x+b}{c x+d}$.  Đường tiệm cận đứng của đồ thị hàm số có phương trình là<br><img src=\"data/12/2D1/im2D1/2D14_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=1$",
       "$x=2$",
@@ -607,7 +607,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN51",
-    "question": "Trong các hàm số sau, hàm số nào có bảng biến thiên như hình vẽ dưới đây:<br><img src=\"data/12/2D1/im2D1/2D14_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong các hàm số sau, hàm số nào có bảng biến thiên như hình vẽ dưới đây:<br><img src=\"data/12/2D1/im2D1/2D14_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\dfrac{-x-1}{x-2}$",
       "$y=\\dfrac{x+3}{x-2}$",
@@ -679,7 +679,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN57",
-    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R} \\setminus\\{-1; 1\\}$, liên tục trên mỗi khoảng xác định và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $(C)\\colon y=f(x)$ là",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R} \\setminus\\{-1; 1\\}$, liên tục trên mỗi khoảng xác định và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $(C)\\colon y=f(x)$ là",
     "options": [
       "$4$",
       "$3$",
@@ -691,7 +691,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN58",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Phát biểu nào sau đây đúng?",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_044.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Phát biểu nào sau đây đúng?",
     "options": [
       "Đồ thị hàm số đã cho có đường tiệm cận đứng là $x=0$",
       "Đồ thị hàm số đã cho không có tiệm cận đứng",
@@ -727,7 +727,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN61",
-    "question": "Cho hàm số bậc ba $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_047.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho là",
+    "question": "Cho hàm số bậc ba $y = f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_047.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đã cho là",
     "options": [
       "$f(x) = -x^3 + 3x^2 -2$",
       "$f(x) = x^3 + 3x -2$",
@@ -763,7 +763,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN64",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và đường tiệm cận ngang của đồ thị hàm số là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.  <br><img src=\"data/12/2D1/im2D1/2D14_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận đứng và đường tiệm cận ngang của đồ thị hàm số là",
     "options": [
       "$4$",
       "$3$",
@@ -787,7 +787,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN66",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Tiệm cận đứng của đồ thị là<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS1_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Tiệm cận đứng của đồ thị là<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS1_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=-1$",
       "$x=1$",
@@ -799,7 +799,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN67",
-    "question": "Đồ thị hàm số $y=f(x)$ có tiệm cận xiên là đường thẳng<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS1_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đồ thị hàm số $y=f(x)$ có tiệm cận xiên là đường thẳng<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS1_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=x$",
       "$y=x-1$",
@@ -823,7 +823,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN69",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS2_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Số đường tiệm cận ngang của đồ thị hàm số $y=f(x)$",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS2_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Số đường tiệm cận ngang của đồ thị hàm số $y=f(x)$",
     "options": [
       "$1$",
       "$4$",
@@ -967,7 +967,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN81",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình bên. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho bằng<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS8_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình bên. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho bằng<br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS8_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$1$",
       "$2$",
@@ -1015,7 +1015,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN84",
-    "question": "[Phan Ngọc Hiền - Lớp 12 - Đề cuối học kì 1 - Cà Mau]%[Phạm Văn Long]  Cho hàm số $y=\\dfrac{ax+b}{cx+d},\\,(a, b, c, d \\in \\mathbb{R}$, $c \\neq 0$, $a d-b c \\neq 0)$ có đồ thị là đường cong trong hình bên. Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là<br><img src=\"data/12/2D1/im2D14/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "[Phan Ngọc Hiền - Lớp 12 - Đề cuối học kì 1 - Cà Mau]%[Phạm Văn Long]  Cho hàm số $y=\\dfrac{ax+b}{cx+d},\\,(a, b, c, d \\in \\mathbb{R}$, $c \\neq 0$, $a d-b c \\neq 0)$ có đồ thị là đường cong trong hình bên. Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là<br><img src=\"data/12/2D1/im2D14/loc3_2_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x=-1$",
       "$y=-1$",
@@ -1051,7 +1051,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN87",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Tiệm cận ngang của đồ thị hàm số là đường thẳng có phương trình<br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_AnDuong__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Tiệm cận ngang của đồ thị hàm số là đường thẳng có phương trình<br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_AnDuong__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ x=-1 $",
       "$ x=1 $",
@@ -1087,7 +1087,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D141TN6",
-    "question": "Cho hàm số $y=f(x)$ có tập xác định $\\mathscr{D}=(-\\infty;5]$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tiệm cận ngang của đồ thị hàm số $y=f(x)$ là đường thẳng có phương trình là",
+    "question": "Cho hàm số $y=f(x)$ có tập xác định $\\mathscr{D}=(-\\infty;5]$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tiệm cận ngang của đồ thị hàm số $y=f(x)$ là đường thẳng có phương trình là",
     "options": [
       "$y=4$",
       "$y=-2$",
@@ -1111,7 +1111,7 @@ window.tracNghiem2D14 = [
   },
   {
     "id": "2D143TN8",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenVi_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenVi_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là",
     "options": [
       "$1$",
       "$2$",

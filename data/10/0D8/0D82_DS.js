@@ -6,7 +6,7 @@
 window.dungSai0D82 = [
   {
     "id": "0D821DS1",
-    "question": "Cho $10$ điểm cùng nằm trên một đường tròn như hình bên dưới  <br><img src=\"data/10/0D8/im0D82/loc3_0_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho $10$ điểm cùng nằm trên một đường tròn như hình bên dưới  <br><img src=\"data/10/0D8/im0D82/loc3_0_TL_TN_DS_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Số vectơ khác $\\overrightarrow{0}$ có điểm đầu và điểm cuối thuộc các điểm đã cho là $ \\mathrm{C}_{10}^2$",

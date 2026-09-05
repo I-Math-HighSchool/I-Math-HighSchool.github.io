@@ -235,7 +235,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN15",
-    "question": "Một sân cầu lông có kích thước cho trong hình bên dưới, với hệ trục tọa độ $O x y z$ được đã chọn.   <br><img src=\"data/12/2D2/im2H2/2H22_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Tọa độ của vec-tơ $\\overrightarrow{AB}$ là",
+    "question": "Một sân cầu lông có kích thước cho trong hình bên dưới, với hệ trục tọa độ $O x y z$ được đã chọn.   <br><img src=\"data/12/2D2/im2H2/2H22_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Tọa độ của vec-tơ $\\overrightarrow{AB}$ là",
     "options": [
       "$\\overrightarrow{AB}=(6{,}1 ; 3{,}9 ; 0)$",
       "$\\overrightarrow{AB}=(6{,}7 ; 0 ; 0)$",
@@ -391,7 +391,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN25",
-    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho hình lập phương $ABCD.A'B'C'D'$ có độ dài các cạnh bằng $1$, điểm $A$ trùng với gốc tọa độ (như hình vẽ). Vectơ $\\overrightarrow{A'C'}$ có tọa độ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho hình lập phương $ABCD.A'B'C'D'$ có độ dài các cạnh bằng $1$, điểm $A$ trùng với gốc tọa độ (như hình vẽ). Vectơ $\\overrightarrow{A'C'}$ có tọa độ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(1;1;1)$",
       "$(1;0;1)$",
@@ -459,7 +459,7 @@ window.tracNghiem2H22 = [
       "$4a$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{OA'} + \\overrightarrow{OB'} + \\overrightarrow{OC'} + \\overrightarrow{OD'}=2\\overrightarrow{OO'}+2\\overrightarrow{OO'}=4\\overrightarrow{OO'}$.<br>  Khi đó $\\left|\\overrightarrow{OA'} + \\overrightarrow{OB'} + \\overrightarrow{OC'} + \\overrightarrow{OD'}\\right|=\\left| 4\\overrightarrow{OO'}\\right|=4OO'=4AA'=4a$."
+    "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_016.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{OA'} + \\overrightarrow{OB'} + \\overrightarrow{OC'} + \\overrightarrow{OD'}=2\\overrightarrow{OO'}+2\\overrightarrow{OO'}=4\\overrightarrow{OO'}$.<br>  Khi đó $\\left|\\overrightarrow{OA'} + \\overrightarrow{OB'} + \\overrightarrow{OC'} + \\overrightarrow{OD'}\\right|=\\left| 4\\overrightarrow{OO'}\\right|=4OO'=4AA'=4a$."
   },
   {
     "id": "2H224TN30",
@@ -475,7 +475,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H222TN31",
-    "question": "Cho hình hộp chữ nhật $OABC.O'A'B'C'$ có cạnh $OA=4$, $OC=6$, $OO'=3$. Chọn hệ trục tọa độ $Oxyz$ có gốc tọa độ $O$; các điểm $A$, $C$, $O'$ lần lượt nằm trên các tia $Ox$, $Oy$, $Oz$. Xác định tọa độ điểm $B$?<br><img src=\"data/12/2D2/im2H2/2H22_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp chữ nhật $OABC.O'A'B'C'$ có cạnh $OA=4$, $OC=6$, $OO'=3$. Chọn hệ trục tọa độ $Oxyz$ có gốc tọa độ $O$; các điểm $A$, $C$, $O'$ lần lượt nằm trên các tia $Ox$, $Oy$, $Oz$. Xác định tọa độ điểm $B$?<br><img src=\"data/12/2D2/im2H2/2H22_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$B(4;6;0)$",
       "$B(6;4;3)$",
@@ -619,7 +619,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H222TN43",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh bằng $4$, $SA=6$ và $SA \\perp(ABCD)$. Chọn hệ trục $Oxyz$ có gốc tọa độ tại $A$; các điểm $B$, $D$, $S$ lần lượt trên các tia $Ox$, $Oy$, $Oz$. Biết tọa độ của điểm $C(a;b;c)$ Khi đó $a-b+4c$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh bằng $4$, $SA=6$ và $SA \\perp(ABCD)$. Chọn hệ trục $Oxyz$ có gốc tọa độ tại $A$; các điểm $B$, $D$, $S$ lần lượt trên các tia $Ox$, $Oy$, $Oz$. Biết tọa độ của điểm $C(a;b;c)$ Khi đó $a-b+4c$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$4$",
       "$0$",
@@ -871,7 +871,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H222TN64",
-    "question": "Trong không gian $Oxyz$, cho hình bình hành $OBCD$ có $B(2;1;2)$ và $D(1;-1;1)$. Khi đó tọa độ của điểm $C$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, cho hình bình hành $OBCD$ có $B(2;1;2)$ và $D(1;-1;1)$. Khi đó tọa độ của điểm $C$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(3;0;3)$",
       "$(-1;-2;-1)$",
@@ -943,7 +943,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN70",
-    "question": "Trong không gian với hệ tọa độ $O x y z$, cho hình lập phương $ABCD.A'B'C'D'$ có độ dài cạnh bằng $1$ như hình vẽ. Tọa độ của vectơ $\\vec{AC'}$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian với hệ tọa độ $O x y z$, cho hình lập phương $ABCD.A'B'C'D'$ có độ dài cạnh bằng $1$ như hình vẽ. Tọa độ của vectơ $\\vec{AC'}$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(0 ; 1 ; 1)$",
       "$(1 ; 1 ; 1)$",
@@ -991,7 +991,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H224TN74",
-    "question": "Trong không gian, cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai vectơ $\\overrightarrow{BD}, \\overrightarrow{B'C}$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian, cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai vectơ $\\overrightarrow{BD}, \\overrightarrow{B'C}$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$60^\\circ$",
       "$30^\\circ$",
@@ -1039,7 +1039,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN78",
-    "question": "Trong không gian với hệ toạ độ $Oxyz$, cho hình lập phương $ABCD.A'B'C'D'$ có đỉnh $A$ trùng với gốc toạ độ $O$, điểm $B(1; 0; 0)$, $D(0; 1; 0)$, $D'(0; 1;-1)$. Toạ độ vectơ $\\overrightarrow{CA'}$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian với hệ toạ độ $Oxyz$, cho hình lập phương $ABCD.A'B'C'D'$ có đỉnh $A$ trùng với gốc toạ độ $O$, điểm $B(1; 0; 0)$, $D(0; 1; 0)$, $D'(0; 1;-1)$. Toạ độ vectơ $\\overrightarrow{CA'}$ là<br><img src=\"data/12/2D2/im2H2/2H22_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-1;1;0)$",
       "$(1;-1;-1)$",
@@ -1207,7 +1207,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H222TN95",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $4$, $SA=6$ và $SA \\perp (ABCD)$. Chọn hệ trục tọa độ $Oxyz$ có gốc tọa độ tại $A$, các điểm $B$, $D$, $S$ lần lượt trên các tia $Ox$, $Oy$, $Oz$. Biết tọa độ của điểm $C(a;b;c)$. Khi đó $a-b+4c$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $4$, $SA=6$ và $SA \\perp (ABCD)$. Chọn hệ trục tọa độ $Oxyz$ có gốc tọa độ tại $A$, các điểm $B$, $D$, $S$ lần lượt trên các tia $Ox$, $Oy$, $Oz$. Biết tọa độ của điểm $C(a;b;c)$. Khi đó $a-b+4c$ bằng<br><img src=\"data/12/2D2/im2H2/2H22_tikz_078.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$4$",
       "$-16$",
@@ -1299,7 +1299,7 @@ window.tracNghiem2H22 = [
       "$B'(8;4;10)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS19_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $ABCD$ là hình bình hành nên $\\overrightarrow{AD}=\\overrightarrow{BC} \\Rightarrow x_D-2=(-1)-4 \\text{ và } y_D-4=4-0 \\text{ và } z_D-0=(-7)-0 \\Rightarrow x_D=-3 \\text{ và } y_D=8 \\text{ và } z_D=-7.$<br>  Hay $D(-3;8;-7)$.<br>  Vì $BDD'B'$ nên $\\overrightarrow{BB'}=\\overrightarrow{DD'} \\Rightarrow x_B'-4=6-(-3) \\text{ và } y_B'-0=8-8 \\text{ và } z_B'-0=10-(-7) \\Rightarrow x_B'=13 \\text{ và } y_B'=0 \\text{ và } z_B'=17.$<br>  Vậy $B'(13;0;17)$."
+    "explain": "<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS19_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $ABCD$ là hình bình hành nên $\\overrightarrow{AD}=\\overrightarrow{BC} \\Rightarrow x_D-2=(-1)-4 \\text{ và } y_D-4=4-0 \\text{ và } z_D-0=(-7)-0 \\Rightarrow x_D=-3 \\text{ và } y_D=8 \\text{ và } z_D=-7.$<br>  Hay $D(-3;8;-7)$.<br>  Vì $BDD'B'$ nên $\\overrightarrow{BB'}=\\overrightarrow{DD'} \\Rightarrow x_B'-4=6-(-3) \\text{ và } y_B'-0=8-8 \\text{ và } z_B'-0=10-(-7) \\Rightarrow x_B'=13 \\text{ và } y_B'=0 \\text{ và } z_B'=17.$<br>  Vậy $B'(13;0;17)$."
   },
   {
     "id": "2H223TN103",
@@ -1447,7 +1447,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN115",
-    "question": "Cho hình lập phương $A B C D . A' B' C' D'$. Có thể lập một hệ toạ độ $Oxyz$ có gốc $ O $ trùng với đỉnh $C$ và $ B $, $ D $, $ C'$ lần lượt thuộc trục $ Ox $, $ Oy $, $ Oz $. Giả sử $ A'(3 ; 2 ;4)$ . Tìm tọa độ đỉnh $ B' $.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $A B C D . A' B' C' D'$. Có thể lập một hệ toạ độ $Oxyz$ có gốc $ O $ trùng với đỉnh $C$ và $ B $, $ D $, $ C'$ lần lượt thuộc trục $ Ox $, $ Oy $, $ Oz $. Giả sử $ A'(3 ; 2 ;4)$ . Tìm tọa độ đỉnh $ B' $.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$B'(3;-2;4)$",
       "$B'(3;2;0)$",
@@ -1459,7 +1459,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H223TN116",
-    "question": "Trong không gian $Oxyz$, tìm tọa độ của các vectơ $\\overrightarrow{A _1A}$ ở hình vẽ sau đây, biết $ A\\left(4;5;3\\right) $.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian $Oxyz$, tìm tọa độ của các vectơ $\\overrightarrow{A _1A}$ ở hình vẽ sau đây, biết $ A\\left(4;5;3\\right) $.<br><img src=\"data/12/2D2/im2H22/dlts_12_DLTS6_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$ (0,0,3) $",
       "$ (0,0,-3) $",

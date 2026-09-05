@@ -66,7 +66,7 @@ window.tracNghiem1H42 = [
   },
   {
     "id": "1H422TN1",
-    "question": "Cho tứ diện $ABCD$, gọi $M$ và $N$ lần lượt là trung điểm của $AC$ và $AD$. Đường thẳng $MN$ song song với đường nào?<br><img src=\"data/11/1H4/im1H42/loc_ghk1nq_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$, gọi $M$ và $N$ lần lượt là trung điểm của $AC$ và $AD$. Đường thẳng $MN$ song song với đường nào?<br><img src=\"data/11/1H4/im1H42/loc_ghk1nq_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AB$",
       "$BC$",
@@ -98,11 +98,11 @@ window.tracNghiem1H42 = [
       "$MN$ song song $CD$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có:   $MP$ không song song $AC$ vì trong tam giác $SAC$ có $M$ là trung điểm $SA$ và $ P$ không là trung điểm $SC$"
+    "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có:   $MP$ không song song $AC$ vì trong tam giác $SAC$ có $M$ là trung điểm $SA$ và $ P$ không là trung điểm $SC$"
   },
   {
     "id": "1H422TN5",
-    "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi $M$ là trung điểm của $SA$ (tham khảo hình vẽ). Giao tuyến của mặt phẳng ($CMD$) và mặt phẳng ($SAB$) là đường thẳng song song với đường thẳng nào sau đây?  <br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi $M$ là trung điểm của $SA$ (tham khảo hình vẽ). Giao tuyến của mặt phẳng ($CMD$) và mặt phẳng ($SAB$) là đường thẳng song song với đường thẳng nào sau đây?  <br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$CM$",
       "$CD$",
@@ -114,7 +114,7 @@ window.tracNghiem1H42 = [
   },
   {
     "id": "1H423TN4",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành (hình vẽ). Hai đường thẳng $SB$ và $CD$ là hai đường thẳng  <br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành (hình vẽ). Hai đường thẳng $SB$ và $CD$ là hai đường thẳng  <br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "song song",
       "cắt nhau",
@@ -134,7 +134,7 @@ window.tracNghiem1H42 = [
       "$SB$"
     ],
     "answer": 1,
-    "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">   Gọi $H, K$ lần lượt là trung điểm của $AB$ và $BC$. <br>  Vì $M$ là trọng tâm $\\triangle SAB$ nên $M \\in SH$ và $\\dfrac{SM}{SH} = \\dfrac{2}{3}$. <br>  Vì $N$ là trọng tâm $\\triangle SBC$ nên $N \\in SK$ và $\\dfrac{SN}{SK} = \\dfrac{2}{3}$. <br>  Xét $\\triangle SHK$ có $\\dfrac{SM}{SH} = \\dfrac{SN}{SK} = \\dfrac{2}{3} \\Rightarrow MN \\parallel HK$ (định lí Ta-lét đảo). <br>  Lại có $HK$ là đường trung bình của $\\triangle ABC \\Rightarrow HK \\parallel AC$. <br>  Do đó $MN \\parallel AC$."
+    "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Gọi $H, K$ lần lượt là trung điểm của $AB$ và $BC$. <br>  Vì $M$ là trọng tâm $\\triangle SAB$ nên $M \\in SH$ và $\\dfrac{SM}{SH} = \\dfrac{2}{3}$. <br>  Vì $N$ là trọng tâm $\\triangle SBC$ nên $N \\in SK$ và $\\dfrac{SN}{SK} = \\dfrac{2}{3}$. <br>  Xét $\\triangle SHK$ có $\\dfrac{SM}{SH} = \\dfrac{SN}{SK} = \\dfrac{2}{3} \\Rightarrow MN \\parallel HK$ (định lí Ta-lét đảo). <br>  Lại có $HK$ là đường trung bình của $\\triangle ABC \\Rightarrow HK \\parallel AC$. <br>  Do đó $MN \\parallel AC$."
   },
   {
     "id": "1H423TN5",

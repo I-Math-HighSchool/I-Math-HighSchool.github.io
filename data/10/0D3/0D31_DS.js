@@ -100,7 +100,7 @@ window.dungSai0D31 = [
   },
   {
     "id": "0D314DS5",
-    "question": "Cho đồ thị hàm số $y=f(x)$ có đồ thị như hình bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D31/dlts_sbh_ds10cd34_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị hàm số $y=f(x)$ có đồ thị như hình bên. Các mệnh đề sau đúng hay sai?<br><img src=\"data/10/0D3/im0D31/dlts_sbh_ds10cd34_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị hàm số đi qua điểm $A(1;0)$",
@@ -445,7 +445,7 @@ window.dungSai0D31 = [
   },
   {
     "id": "0D314DS1",
-    "question": "Thành phố Hồ Chí Minh ghi nhận số ca mắc mới Covid-19 trong các tuần đầu năm 2023 như biểu đồ dưới đây.  <br><img src=\"data/10/0D3/im0D31/loc2_0_TN_DS_TLN_Chuy_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt $y$ là số ca mắc mới Covid-19 tương ứng với với tuần thứ $x$ thì phép đặt đó cho ta một hàm số $y=f(x)$.",
+    "question": "Thành phố Hồ Chí Minh ghi nhận số ca mắc mới Covid-19 trong các tuần đầu năm 2023 như biểu đồ dưới đây.  <br><img src=\"data/10/0D3/im0D31/loc2_0_TN_DS_TLN_Chuy_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt $y$ là số ca mắc mới Covid-19 tương ứng với với tuần thứ $x$ thì phép đặt đó cho ta một hàm số $y=f(x)$.",
     "subQuestions": [
       {
         "text": "$f(3)=16$",

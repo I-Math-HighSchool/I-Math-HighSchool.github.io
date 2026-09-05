@@ -41,7 +41,7 @@ window.dungSai2D15 = [
         "answer": true
       },
       {
-        "text": "Bảng biến thiên của hàm số đã cho là<br>     <br><img src=\"data/12/2D1/im2D1/2D15_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Bảng biến thiên của hàm số đã cho là<br>     <br><img src=\"data/12/2D1/im2D1/2D15_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": false
       },
       {
@@ -49,7 +49,7 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Ta có $y'=\\dfrac{-2x^2-8x-6}{(x+2)^2}$.<br>- Ta có $y= \\dfrac{-2x^2+3x+12}{x+2} = -2x + 7 - \\dfrac{2}{x+2}$.<br>  Vậy tiệm cận đứng là $x=-2$ và tiệm cận xiên là $y=-2x+7$.<br>- Ta có $y'=0\\Leftrightarrow -2x^2 - 8x - 6 =0\\Leftrightarrow x=-1 \\text{ hoặc } x=-3.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $A(-3;15)$ và $B(-1;7)$ là 2 điểm cực trị.<br>  Ta có $\\overrightarrow{AB}=(2;-8)\\Rightarrow AB=2\\sqrt{17}$.<br>  Phương trình đường thẳng $AB\\colon \\dfrac{x+3}{2}=\\dfrac{y-15}{-8}$ hay $AB\\colon 4x+y-3=0$.<br>  Ta có $S_{OAB}=\\dfrac{1}{2}\\cdot \\mathrm{d}[O,AB]\\cdot AB=\\dfrac{1}{2}\\cdot \\dfrac{3}{\\sqrt{17}}\\cdot 2\\sqrt{17}=3$."
+    "explain": "<br>- Ta có $y'=\\dfrac{-2x^2-8x-6}{(x+2)^2}$.<br>- Ta có $y= \\dfrac{-2x^2+3x+12}{x+2} = -2x + 7 - \\dfrac{2}{x+2}$.<br>  Vậy tiệm cận đứng là $x=-2$ và tiệm cận xiên là $y=-2x+7$.<br>- Ta có $y'=0\\Leftrightarrow -2x^2 - 8x - 6 =0\\Leftrightarrow x=-1 \\text{ hoặc } x=-3.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Gọi $A(-3;15)$ và $B(-1;7)$ là 2 điểm cực trị.<br>  Ta có $\\overrightarrow{AB}=(2;-8)\\Rightarrow AB=2\\sqrt{17}$.<br>  Phương trình đường thẳng $AB\\colon \\dfrac{x+3}{2}=\\dfrac{y-15}{-8}$ hay $AB\\colon 4x+y-3=0$.<br>  Ta có $S_{OAB}=\\dfrac{1}{2}\\cdot \\mathrm{d}[O,AB]\\cdot AB=\\dfrac{1}{2}\\cdot \\dfrac{3}{\\sqrt{17}}\\cdot 2\\sqrt{17}=3$."
   },
   {
     "id": "2D151DS3",
@@ -76,7 +76,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS4",
-    "question": "Cho hàm số $f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đã cho nghịch biến trên $(-\\infty;1)$",
@@ -118,7 +118,7 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=3x^2-3$, $y''=6x$, $y''=0\\Leftrightarrow x=0$, $y(0)=2$. Khi đó điểm $(0;2)$ là tâm đối xứng của đồ thị hàm số.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có hàm số đã cho là hàm số bậc ba có $y'=0\\Leftrightarrow x=\\pm 1$ nên hàm số đã cho có hai điểm cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Tập xác định của hàm số đã cho là $\\mathbb{R}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. <br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra hàm số đạt cực tiểu tại $x=1$."
+    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=3x^2-3$, $y''=6x$, $y''=0\\Leftrightarrow x=0$, $y(0)=2$. Khi đó điểm $(0;2)$ là tâm đối xứng của đồ thị hàm số.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có hàm số đã cho là hàm số bậc ba có $y'=0\\Leftrightarrow x=\\pm 1$ nên hàm số đã cho có hai điểm cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Tập xác định của hàm số đã cho là $\\mathbb{R}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. <br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra hàm số đạt cực tiểu tại $x=1$."
   },
   {
     "id": "2D151DS6",
@@ -137,11 +137,11 @@ window.dungSai2D15 = [
         "answer": false
       },
       {
-        "text": "Hàm số có đồ thị như hình sau<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Hàm số có đồ thị như hình sau<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": true
       }
     ],
-    "explain": "<br>- Ta có tập xác định của hàm số là $\\mathscr{D}=\\mathbb{R}\\setminus\\{1\\}$.<br>  $y'=\\dfrac{-3}{(x-1)^2}&lt;0$ nên hàm số nghịch biến trên các khoảng $(-\\infty; 1)$ và $(1;+\\infty)$.<br>- Xét $\\lim\\limits_{x\\to1^+}\\dfrac{2x+1}{x-1}=+\\infty$ do đó $x=1$ là đường tiệm cận đứng của đồ thị hàm số.<br>  Ta có $\\lim\\limits_{x\\to -\\infty} \\dfrac{2x+1}{x-1}=2$ và $\\lim\\limits_{x\\to +\\infty} \\dfrac{2x+1}{x-1}=2$ nên $y=2$ là đường tiệm cận ngang của đồ thị hàm số.<br>- Do hàm số nghịch biến trên từng khoảng xác định nên $\\max\\limits_{[2;3]}y=y(2)=5, \\min\\limits_{[-2;-1]}y=y(-1)=\\dfrac{1}{2}.$  Suy ra $\\max\\limits_{[2;3]}y+\\min\\limits_{[-2;-1]}y=5+\\dfrac{1}{2}=\\dfrac{11}{2}$.<br>- Đồ thị hàm số đã cho là   <br><img src=\"data/12/2D1/im2D1/2D15_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">"
+    "explain": "<br>- Ta có tập xác định của hàm số là $\\mathscr{D}=\\mathbb{R}\\setminus\\{1\\}$.<br>  $y'=\\dfrac{-3}{(x-1)^2}&lt;0$ nên hàm số nghịch biến trên các khoảng $(-\\infty; 1)$ và $(1;+\\infty)$.<br>- Xét $\\lim\\limits_{x\\to1^+}\\dfrac{2x+1}{x-1}=+\\infty$ do đó $x=1$ là đường tiệm cận đứng của đồ thị hàm số.<br>  Ta có $\\lim\\limits_{x\\to -\\infty} \\dfrac{2x+1}{x-1}=2$ và $\\lim\\limits_{x\\to +\\infty} \\dfrac{2x+1}{x-1}=2$ nên $y=2$ là đường tiệm cận ngang của đồ thị hàm số.<br>- Do hàm số nghịch biến trên từng khoảng xác định nên $\\max\\limits_{[2;3]}y=y(2)=5, \\min\\limits_{[-2;-1]}y=y(-1)=\\dfrac{1}{2}.$  Suy ra $\\max\\limits_{[2;3]}y+\\min\\limits_{[-2;-1]}y=5+\\dfrac{1}{2}=\\dfrac{11}{2}$.<br>- Đồ thị hàm số đã cho là   <br><img src=\"data/12/2D1/im2D1/2D15_tikz_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"
   },
   {
     "id": "2D158DS7",
@@ -164,11 +164,11 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Hàm số có đạo hàm là $f'(x)=-0{,}3x^2+12x$.<br>- Ta có $f'(x)=0\\Leftrightarrow x=0 \\text{ hoặc } x=40$, ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta thấy $f(x)$ đồng biến trên khoảng $(0;40)$ nên khi tăng số tiền quảng cáo trong khoảng từ $(0;40)$ thì lợi nhuận cũng tăng.<br>- Lợi nhuận đạt lớn nhất là $3\\,600$ khi $x=40$.<br>- Đường thẳng $y=800$ cắt đồ thị hàm số $f(x)$ tại hai điểm trong khoảng $(0;+\\infty)$ nên có hai phương án dùng số tiền để quảng cáo sao cho lợi nhuận thu về là $800$."
+    "explain": "<br>- Hàm số có đạo hàm là $f'(x)=-0{,}3x^2+12x$.<br>- Ta có $f'(x)=0\\Leftrightarrow x=0 \\text{ hoặc } x=40$, ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta thấy $f(x)$ đồng biến trên khoảng $(0;40)$ nên khi tăng số tiền quảng cáo trong khoảng từ $(0;40)$ thì lợi nhuận cũng tăng.<br>- Lợi nhuận đạt lớn nhất là $3\\,600$ khi $x=40$.<br>- Đường thẳng $y=800$ cắt đồ thị hàm số $f(x)$ tại hai điểm trong khoảng $(0;+\\infty)$ nên có hai phương án dùng số tiền để quảng cáo sao cho lợi nhuận thu về là $800$."
   },
   {
     "id": "2D155DS8",
-    "question": "Cho hàm số $y=f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình bên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình bên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số $y=f(x)$ đồng biến trên khoảng $(-\\infty;-2)$",
@@ -187,11 +187,11 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ nghịch biến trên khoảng $(-\\infty;-2)$.<br>- Hàm số $y=f(x)$ có một cực trị.<br>- Trên đoạn $[-3;1]$, hàm số $y=f(x)$ nghịch biến nên hàm số đạt giá trị lớn nhất bằng $f(-3)$.<br>- Ta có $f'(x)=a(x+2)^2(x-1)$.<br>  Do $f'(0)=-4\\Leftrightarrow -4a=-4\\Leftrightarrow a=1$.<br>  Vậy $f'(x)=(x+2)^2(x-1)$.<br>  Nên $g(x)=\\dfrac{x+2}{(x+2)^2(x-1)}=\\dfrac{1}{(x+2)(x-1)}$.<br>  Do $\\lim\\limits_{x\\to 1+}g(x)=+\\infty$ và $\\lim\\limits_{x\\to (-2)^-}g(x)=+\\infty$ nên  đồ thị hàm số có hai đường tiệm đứng là $x=-2$ và $x=1$.<br>  Do $\\lim\\limits_{x\\to \\pm\\infty}g(x)=0$ nên đồ thị hàm số có đường tiệm cận ngang là $y=0$.<br>  Vậy đồ thị hàm số $y=g(x)$ có $3$ đường tiệm cận."
+    "explain": "<br>- Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_023.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số $y=f(x)$ nghịch biến trên khoảng $(-\\infty;-2)$.<br>- Hàm số $y=f(x)$ có một cực trị.<br>- Trên đoạn $[-3;1]$, hàm số $y=f(x)$ nghịch biến nên hàm số đạt giá trị lớn nhất bằng $f(-3)$.<br>- Ta có $f'(x)=a(x+2)^2(x-1)$.<br>  Do $f'(0)=-4\\Leftrightarrow -4a=-4\\Leftrightarrow a=1$.<br>  Vậy $f'(x)=(x+2)^2(x-1)$.<br>  Nên $g(x)=\\dfrac{x+2}{(x+2)^2(x-1)}=\\dfrac{1}{(x+2)(x-1)}$.<br>  Do $\\lim\\limits_{x\\to 1+}g(x)=+\\infty$ và $\\lim\\limits_{x\\to (-2)^-}g(x)=+\\infty$ nên  đồ thị hàm số có hai đường tiệm đứng là $x=-2$ và $x=1$.<br>  Do $\\lim\\limits_{x\\to \\pm\\infty}g(x)=0$ nên đồ thị hàm số có đường tiệm cận ngang là $y=0$.<br>  Vậy đồ thị hàm số $y=g(x)$ có $3$ đường tiệm cận."
   },
   {
     "id": "2D151DS9",
-    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình dưới đây  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có đồ thị như hình dưới đây  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_026.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số đồng biến trên khoảng $(-1;+\\infty)$",
@@ -225,11 +225,11 @@ window.dungSai2D15 = [
         "answer": true
       },
       {
-        "text": "Bảng biến thiên của hàm số đã cho là<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Bảng biến thiên của hàm số đã cho là<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": true
       },
       {
-        "text": "Đồ thị hàm số đã cho là<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Đồ thị hàm số đã cho là<br>  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": true
       }
     ],
@@ -237,7 +237,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS11",
-    "question": "Cho hàm số $f(x)$ xác định trên $\\mathbb{R} \\setminus \\{1\\}$ và có bảng biến thiên như hình dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)$ xác định trên $\\mathbb{R} \\setminus \\{1\\}$ và có bảng biến thiên như hình dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$f(x)$ đạt cực đại tại $x=0$",
@@ -279,11 +279,11 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Hàm số có TXĐ: $\\mathscr{D}=\\mathbb{R}\\setminus\\{-1\\}$.<br> $y'=\\dfrac{x^2+2x-8}{(x+1)^2}$, $y'=0 \\Leftrightarrow x=-4 \\text{ hoặc } x=2.$<br> Bảng biến thiên <br><img src=\"data/12/2D1/im2D1/2D15_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Từ bảng biến thiên ta có hàm số đồng biến trên các khoảng $(-\\infty;-4)$ và $(2;+\\infty)$.<br>- Tiệm cận xiên của hàm số có dạng $y=ax+b$.<br> + $a = \\lim\\limits_{x\\to +\\infty}\\dfrac{f(x)}{x}=1$.<br> + $b = \\lim\\limits_{x\\to +\\infty}(f(x)-x)=\\lim\\limits_{x\\to +\\infty} \\dfrac{-3x+6}{x+1}=-3$.<br> Vậy tiệm cận xiên của hàm số là $y = x - 3$, và đường thẳng này đi qua $M(4;1)$.<br>- $f(0)=6$; $f(9)=\\dfrac{69}{10}$.<br> Từ bảng biến thiên ta có $\\max\\limits_{[0;9]}f(x)=\\max\\{f(0);f(9)\\}=\\dfrac{69}{10}$.<br>- Xét hàm số $g(x)=x \\cdot[f(x)]^2$.<br> Tập xác định: $D = \\mathbb{R} \\setminus \\{-1\\}$.<br> $g'(x)=[f(x)]^2+2x\\cdot f(x)\\cdot f'(x)=f(x) [f(x) + 2x f'(x)]$.<br> Cho $g'(x) = 0 \\Leftrightarrow f(x) = 0 (1) \\text{ hoặc } f(x) + 2x f'(x) = 0 (2).$ <br>- $(1)\\Leftrightarrow \\dfrac{x^2-2x+6}{x+1}=0 \\Leftrightarrow x^2-2x+6 =0$ (vô nghiệm).<br>- Xét phương trình $(2)$ $(2) \\Leftrightarrow \\dfrac{x^2-2x+6}{x+1}+25\\left(\\dfrac{x^2+2x-8}{(x+1)^2}\\right)=0$<br>$\\Leftrightarrow 3x^3+3x^2-12x+6 =0 \\Leftrightarrow x=1 \\text{ hoặc } x=-1\\pm\\sqrt{3}.$ Vậy phương trình $g'(x) = 0$ có 3 nghiệm đơn phân biệt khác $-1$.<br> Do $g'(x)$ đổi dấu qua 3 nghiệm này, nên hàm số $g(x)$ có đúng $3$ điểm cực trị."
+    "explain": "<br>- Hàm số có TXĐ: $\\mathscr{D}=\\mathbb{R}\\setminus\\{-1\\}$.<br> $y'=\\dfrac{x^2+2x-8}{(x+1)^2}$, $y'=0 \\Leftrightarrow x=-4 \\text{ hoặc } x=2.$<br> Bảng biến thiên <br><img src=\"data/12/2D1/im2D1/2D15_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"> Từ bảng biến thiên ta có hàm số đồng biến trên các khoảng $(-\\infty;-4)$ và $(2;+\\infty)$.<br>- Tiệm cận xiên của hàm số có dạng $y=ax+b$.<br> + $a = \\lim\\limits_{x\\to +\\infty}\\dfrac{f(x)}{x}=1$.<br> + $b = \\lim\\limits_{x\\to +\\infty}(f(x)-x)=\\lim\\limits_{x\\to +\\infty} \\dfrac{-3x+6}{x+1}=-3$.<br> Vậy tiệm cận xiên của hàm số là $y = x - 3$, và đường thẳng này đi qua $M(4;1)$.<br>- $f(0)=6$; $f(9)=\\dfrac{69}{10}$.<br> Từ bảng biến thiên ta có $\\max\\limits_{[0;9]}f(x)=\\max\\{f(0);f(9)\\}=\\dfrac{69}{10}$.<br>- Xét hàm số $g(x)=x \\cdot[f(x)]^2$.<br> Tập xác định: $D = \\mathbb{R} \\setminus \\{-1\\}$.<br> $g'(x)=[f(x)]^2+2x\\cdot f(x)\\cdot f'(x)=f(x) [f(x) + 2x f'(x)]$.<br> Cho $g'(x) = 0 \\Leftrightarrow f(x) = 0 (1) \\text{ hoặc } f(x) + 2x f'(x) = 0 (2).$ <br>- $(1)\\Leftrightarrow \\dfrac{x^2-2x+6}{x+1}=0 \\Leftrightarrow x^2-2x+6 =0$ (vô nghiệm).<br>- Xét phương trình $(2)$ $(2) \\Leftrightarrow \\dfrac{x^2-2x+6}{x+1}+25\\left(\\dfrac{x^2+2x-8}{(x+1)^2}\\right)=0$<br>$\\Leftrightarrow 3x^3+3x^2-12x+6 =0 \\Leftrightarrow x=1 \\text{ hoặc } x=-1\\pm\\sqrt{3}.$ Vậy phương trình $g'(x) = 0$ có 3 nghiệm đơn phân biệt khác $-1$.<br> Do $g'(x)$ đổi dấu qua 3 nghiệm này, nên hàm số $g(x)$ có đúng $3$ điểm cực trị."
   },
   {
     "id": "2D151DS13",
-    "question": "Cho hàm số $y=f(x)=\\dfrac{ax+b}{cx+1}$ với $a$, $b$, $c\\in\\mathbb{R}$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=\\dfrac{ax+b}{cx+1}$ với $a$, $b$, $c\\in\\mathbb{R}$ có đồ thị như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_045.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đạo hàm của hàm số $f'(x)&lt;0,\\,\\,\\forall x\\in\\mathbb{R}$",
@@ -306,7 +306,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS14",
-    "question": "Cho hàm số $f(x)=\\dfrac{ax^2+bx+c}{x+n}$ (với $a \\ne 0$) có đồ thị là đường cong như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $f(x)=\\dfrac{ax^2+bx+c}{x+n}$ (với $a \\ne 0$) có đồ thị là đường cong như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số có tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus \\{-2\\}$",
@@ -329,7 +329,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS15",
-    "question": "Cho hàm số $y=-x^3+6x^2-9x+1$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=-x^3+6x^2-9x+1$.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_055.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị hàm số cắt trục tung tại điểm $(0; 1)$",
@@ -348,7 +348,7 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "Xét $f'(x)=-3x^2+12x-9$, cho $f'(x)=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên của hàm số  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Cho $x=0$ suy ra $y=-0^3+6\\cdot 0^2-9\\cdot 0+1=1$.<br>  Vậy đồ thị hàm số cắt trục tung tại điểm $(0;1)$.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(1;3)$.<br>- Hàm số đã cho có hai điểm cực trị dương, nằm bên phải trục $Oy$.<br>  Do đó, hình vẽ đã cho không phải là đồ thị của hàm số.<br>- Bảng biến thiên của hàm số trên $(-\\infty;5)$  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số không có giá trị nhỏ nhất trên khoảng $(-\\infty;5)$."
+    "explain": "Xét $f'(x)=-3x^2+12x-9$, cho $f'(x)=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên của hàm số  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_056.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Cho $x=0$ suy ra $y=-0^3+6\\cdot 0^2-9\\cdot 0+1=1$.<br>  Vậy đồ thị hàm số cắt trục tung tại điểm $(0;1)$.<br>- Dựa vào bảng biến thiên, hàm số đồng biến trên khoảng $(1;3)$.<br>- Hàm số đã cho có hai điểm cực trị dương, nằm bên phải trục $Oy$.<br>  Do đó, hình vẽ đã cho không phải là đồ thị của hàm số.<br>- Bảng biến thiên của hàm số trên $(-\\infty;5)$  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, hàm số không có giá trị nhỏ nhất trên khoảng $(-\\infty;5)$."
   },
   {
     "id": "2D151DS16",
@@ -394,7 +394,7 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=\\dfrac{(2x+4)(x-1)-(x^2+4x-1)}{(x-1)^2}=\\dfrac{x^2-2x-3}{(x-1)^2}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $y'=0\\Rightarrow x=-1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra hàm số có hai cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.  <br>- $y=f(x)=\\dfrac{x^2+4x-1}{x-1}=x+5+\\dfrac{4}{x-1}$.<br>- Đồ thị hàm số có đường tiệm cận đứng là $x=1$.<br>- Đồ thị hàm số có đường tiệm cận xiên là $y=x+5$.  Điểm $I(1;6)$ là giao điểm của hai đường tiệm cận của đồ thị hàm số $(C)$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đường thẳng đi qua hai điểm cực trị là $\\Delta\\colon y=2x+4$.<br>  Đường thẳng $\\Delta$ tạo với hai trục tọa độ một tam giác $OAB$ với $A(-2;0)$, $B(0;4)$.<br>  Ta có $S_{OAB}=\\dfrac{1}{2}\\cdot OA\\cdot OB=\\dfrac{1}{2}\\cdot 2\\cdot 4=4$."
+    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=\\dfrac{(2x+4)(x-1)-(x^2+4x-1)}{(x-1)^2}=\\dfrac{x^2-2x-3}{(x-1)^2}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $y'=0\\Rightarrow x=-1 \\text{ hoặc } x=3.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_063.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra hàm số có hai cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.  <br>- $y=f(x)=\\dfrac{x^2+4x-1}{x-1}=x+5+\\dfrac{4}{x-1}$.<br>- Đồ thị hàm số có đường tiệm cận đứng là $x=1$.<br>- Đồ thị hàm số có đường tiệm cận xiên là $y=x+5$.  Điểm $I(1;6)$ là giao điểm của hai đường tiệm cận của đồ thị hàm số $(C)$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đường thẳng đi qua hai điểm cực trị là $\\Delta\\colon y=2x+4$.<br>  Đường thẳng $\\Delta$ tạo với hai trục tọa độ một tam giác $OAB$ với $A(-2;0)$, $B(0;4)$.<br>  Ta có $S_{OAB}=\\dfrac{1}{2}\\cdot OA\\cdot OB=\\dfrac{1}{2}\\cdot 2\\cdot 4=4$."
   },
   {
     "id": "2D151DS18",
@@ -417,7 +417,7 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Kiểm tra đạo hàm&lt;/strong&gt;  $  y' = \\dfrac{(2x + 1)(x + 2) - (x^2 + x + 7)}{(x + 2)^2} = \\dfrac{x^2 + 4x - 5}{(x + 2)^2}.  $<br>- &lt;strong&gt;Xác định điểm cực trị&lt;/strong&gt;<br>  Giải phương trình $y' = 0 \\Leftrightarrow x^2 + 4x - 5 = 0 \\Leftrightarrow x=-5 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta có điểm $A(-5; -9)$, $B(1; 3)$ lần lượt là điểm cực đại và điểm cực tiểu của đồ thị hàm số.<br>- &lt;strong&gt;Tìm tiệm cận xiên&lt;/strong&gt;  $  y = \\dfrac{x^2 + x + 7}{x + 2} = (x - 1) + \\dfrac{9}{x + 2}.  $  Suy ra tiệm cận xiên $y = x - 1$.<br>- &lt;strong&gt;Đếm điểm nguyên:&lt;/strong&gt;<br>  Điều kiện: $x + 2$ phải là ước của $9$ (vì $y = x - 1 + \\dfrac{9}{x + 2}$).<br>  Các ước $\\pm 1, \\pm 3, \\pm 9$ $\\Rightarrow$ $6$ giá trị $x$:   $x = -11, -5, -3, -1, 1, 7$.<br>  Tương ứng $6$ điểm nguyên:   $(-11; -13)$, $(-5; -9)$, $(-3; -13)$, $(-1; 7)$, $(1; 3)$, $(7; 7)$.<br>  Suy ra chỉ có $6$ điểm có toạ độ nguyên."
+    "explain": "<br>- &lt;strong&gt;Kiểm tra đạo hàm&lt;/strong&gt;  $  y' = \\dfrac{(2x + 1)(x + 2) - (x^2 + x + 7)}{(x + 2)^2} = \\dfrac{x^2 + 4x - 5}{(x + 2)^2}.  $<br>- &lt;strong&gt;Xác định điểm cực trị&lt;/strong&gt;<br>  Giải phương trình $y' = 0 \\Leftrightarrow x^2 + 4x - 5 = 0 \\Leftrightarrow x=-5 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta có điểm $A(-5; -9)$, $B(1; 3)$ lần lượt là điểm cực đại và điểm cực tiểu của đồ thị hàm số.<br>- &lt;strong&gt;Tìm tiệm cận xiên&lt;/strong&gt;  $  y = \\dfrac{x^2 + x + 7}{x + 2} = (x - 1) + \\dfrac{9}{x + 2}.  $  Suy ra tiệm cận xiên $y = x - 1$.<br>- &lt;strong&gt;Đếm điểm nguyên:&lt;/strong&gt;<br>  Điều kiện: $x + 2$ phải là ước của $9$ (vì $y = x - 1 + \\dfrac{9}{x + 2}$).<br>  Các ước $\\pm 1, \\pm 3, \\pm 9$ $\\Rightarrow$ $6$ giá trị $x$:   $x = -11, -5, -3, -1, 1, 7$.<br>  Tương ứng $6$ điểm nguyên:   $(-11; -13)$, $(-5; -9)$, $(-3; -13)$, $(-1; 7)$, $(1; 3)$, $(7; 7)$.<br>  Suy ra chỉ có $6$ điểm có toạ độ nguyên."
   },
   {
     "id": "2D158DS19",
@@ -440,11 +440,11 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. <br>  Ta có $v(t)=s'(t)=3t^2-6t+8$. Suy ra $v'(t)=6t-6$.<br>  Cho $v'(t)=0 \\Leftrightarrow t=1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc nhỏ nhất của chất điểm là $5$\\,m/s.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $s(t)=13 \\Leftrightarrow t^3-3t^2+8t+1=13 \\Leftrightarrow t=2$.<br>  khi đó $v(2)=8$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có $a(t)=v'(t)=6t-6$.<br>  Thời điểm chất điểm đạt vận tốc nhỏ nhất là $t=1$ nên $a(1)=0$\\,m/s$^2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  $v(3)=17$\\,m/s."
+    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. <br>  Ta có $v(t)=s'(t)=3t^2-6t+8$. Suy ra $v'(t)=6t-6$.<br>  Cho $v'(t)=0 \\Leftrightarrow t=1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc nhỏ nhất của chất điểm là $5$\\,m/s.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $s(t)=13 \\Leftrightarrow t^3-3t^2+8t+1=13 \\Leftrightarrow t=2$.<br>  khi đó $v(2)=8$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có $a(t)=v'(t)=6t-6$.<br>  Thời điểm chất điểm đạt vận tốc nhỏ nhất là $t=1$ nên $a(1)=0$\\,m/s$^2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  $v(3)=17$\\,m/s."
   },
   {
     "id": "2D151DS20",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ bên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_075.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ bên.<br><img src=\"data/12/2D1/im2D1/2D15_tikz_075.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $[-1; 2]$ bằng $-1$ đạt được chỉ khi $x=2$",
@@ -486,7 +486,7 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Đúng.<br>  Ta có $y'=f'(x)=-3x^2-6x$; $f'(x)=0\\Leftrightarrow x=0$ hoặc $x=-2$.<br>- Sai.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_077.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy, hàm số đạt cực tiểu tại điểm $x=-2$ và đạt cực đại tại điểm $x=0$.<br>- Sai.<br>  Ta có $f''(x)=-6x-6$; $f''(x)=0\\Leftrightarrow x=-1$. Do đó tâm đối xứng của đồ thị hàm số là điểm $(-1;2)$.<br>- Đúng<br>  Tọa độ hai điểm cực trị của đồ thị hàm số là $A(-2;0)$ và $B(0;4)$. Đường thẳng $AB$ có phương trình  $\\dfrac{x}{-2}+\\dfrac{y}{4}=1\\Leftrightarrow 2x-y+4=0.$  Khoảng cách từ $O$ đến đường thẳng $AB$ là  $\\mathrm{d}(O;AB)=\\dfrac{|2\\cdot 0-0+4|}{\\sqrt{2^2+(-1)^2}}=\\dfrac{4\\sqrt{5}}{5}.$"
+    "explain": "<br>- Đúng.<br>  Ta có $y'=f'(x)=-3x^2-6x$; $f'(x)=0\\Leftrightarrow x=0$ hoặc $x=-2$.<br>- Sai.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_077.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy, hàm số đạt cực tiểu tại điểm $x=-2$ và đạt cực đại tại điểm $x=0$.<br>- Sai.<br>  Ta có $f''(x)=-6x-6$; $f''(x)=0\\Leftrightarrow x=-1$. Do đó tâm đối xứng của đồ thị hàm số là điểm $(-1;2)$.<br>- Đúng<br>  Tọa độ hai điểm cực trị của đồ thị hàm số là $A(-2;0)$ và $B(0;4)$. Đường thẳng $AB$ có phương trình  $\\dfrac{x}{-2}+\\dfrac{y}{4}=1\\Leftrightarrow 2x-y+4=0.$  Khoảng cách từ $O$ đến đường thẳng $AB$ là  $\\mathrm{d}(O;AB)=\\dfrac{|2\\cdot 0-0+4|}{\\sqrt{2^2+(-1)^2}}=\\dfrac{4\\sqrt{5}}{5}.$"
   },
   {
     "id": "2D151DS22",
@@ -509,11 +509,11 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Tập xác định của hàm số là $(-\\infty;+\\infty)$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=x^2-4x+3$.<br>  $y'=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Khi đó hàm số đã cho có hai điểm cực trị.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có bảng biến thiên của hàm số đã cho  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_084.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đạt cực đại tại $x=1$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Đường thẳng $y=-\\dfrac{4}{3}$ song song với trục hoành, không đi qua điểm cực trị của đồ thị hàm số đã cho nên nó không là tiếp tuyến của đồ thị $(C)$."
+    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Tập xác định của hàm số là $(-\\infty;+\\infty)$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $y'=x^2-4x+3$.<br>  $y'=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Khi đó hàm số đã cho có hai điểm cực trị.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có bảng biến thiên của hàm số đã cho  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_084.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đạt cực đại tại $x=1$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Đường thẳng $y=-\\dfrac{4}{3}$ song song với trục hoành, không đi qua điểm cực trị của đồ thị hàm số đã cho nên nó không là tiếp tuyến của đồ thị $(C)$."
   },
   {
     "id": "2D151DS23",
-    "question": "Cho đồ thị hàm số bậc ba như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị hàm số bậc ba như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_086.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Điểm cực đại của đồ thị hàm số là $(-1;2)$",
@@ -536,7 +536,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS24",
-    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như hàm số dưới đây. Xét tính đúng sai của các khẳng định sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_088.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên như hàm số dưới đây. Xét tính đúng sai của các khẳng định sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_088.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Phương trình $f(x) = 4$ có $4$ nghiệm phân biệt",
@@ -559,7 +559,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D155DS25",
-    "question": "Cho hàm số $y = f(x)$. Biết đạo hàm của $y = f(x)$ là hàm số $y = f'(x) = x^3 - 3x + 2$ có đồ thị là đường cong trong hình vẽ. Xét tính đúng sai của các khẳng định sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$. Biết đạo hàm của $y = f(x)$ là hàm số $y = f'(x) = x^3 - 3x + 2$ có đồ thị là đường cong trong hình vẽ. Xét tính đúng sai của các khẳng định sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_089.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Điểm cực đại của đồ thị hàm số $y = f'(x)$ là $(-1;4)$",
@@ -578,7 +578,7 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "Ta có $f'(x) = 0 \\Leftrightarrow x^3 - 3x + 2 = 0 \\Leftrightarrow x = 1 \\text{ hoặc } x = -2.$<br>  Bảng biến thiên của hàm số $y = f(x)$  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_090.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Dựa vào đồ thị của $f'(x)$, ta thấy điểm cực đại của đồ thị hàm số $y = f'(x)$ là $(-1;4)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Vì phương trình $f'(x)$ chỉ đổi dấu từ âm sang dương khi đi qua $x = -2$ nên chỉ có $x = -2$ là cực trị của hàm số.<br>  Vậy hàm số $y = f(x)$ chỉ có một điểm cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Dựa vào bảng biến thiên, ta thấy hàm số $y = f(x)$ đồng biến trên $(-2;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Dựa vào kết quả tìm nghiệm từ phương trình $f'(x) = 0$, ta thấy $f'(1) = 0$."
+    "explain": "Ta có $f'(x) = 0 \\Leftrightarrow x^3 - 3x + 2 = 0 \\Leftrightarrow x = 1 \\text{ hoặc } x = -2.$<br>  Bảng biến thiên của hàm số $y = f(x)$  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_090.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Dựa vào đồ thị của $f'(x)$, ta thấy điểm cực đại của đồ thị hàm số $y = f'(x)$ là $(-1;4)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Vì phương trình $f'(x)$ chỉ đổi dấu từ âm sang dương khi đi qua $x = -2$ nên chỉ có $x = -2$ là cực trị của hàm số.<br>  Vậy hàm số $y = f(x)$ chỉ có một điểm cực trị.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Dựa vào bảng biến thiên, ta thấy hàm số $y = f(x)$ đồng biến trên $(-2;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Dựa vào kết quả tìm nghiệm từ phương trình $f'(x) = 0$, ta thấy $f'(1) = 0$."
   },
   {
     "id": "2D151DS26",
@@ -605,7 +605,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS27",
-    "question": "Cho hàm số $y=\\dfrac{a x+1}{b x+c}$ ($a, b, c \\in R$ và $b \\neq 0$) có bảng biến thiên như hình bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_104.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=\\dfrac{a x+1}{b x+c}$ ($a, b, c \\in R$ và $b \\neq 0$) có bảng biến thiên như hình bên dưới.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_104.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số không có giá trị lớn nhất trên $(-1; 5]$",
@@ -670,7 +670,7 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus\\{-1\\}$.<br>  Ta có $y'=\\dfrac{2^2+2x-3}{(x+1)^2}$. <br>  Xét $y'=0\\Leftrightarrow x=-3 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_109.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đồng biến trên khoảng $(-\\infty;-3)$ và $(1;+\\infty)$.<br>- Hàm số không có giá trị lớn nhất trên $\\mathscr{D}$.<br>- Hai điểm cực trị của đồ thị hàm số là $(-3;-2)$ và $(1;6)$. Dễ thấy hai điểm này nằm về hai phía của đường thẳng $\\Delta\\colon y=-1$.<br>- Đồ thị hàm số có đường tiệm cận đứng là $x=-1$, đường tiệm cận xiên là $y=x+3$.<br>  Vậy hai trục đối xứng của đồ thị hàm số đi qua điểm $I(-1; 2)$ và hai trục đối xứng này vuông góc nhau."
+    "explain": "<br>- Tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus\\{-1\\}$.<br>  Ta có $y'=\\dfrac{2^2+2x-3}{(x+1)^2}$. <br>  Xét $y'=0\\Leftrightarrow x=-3 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_109.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số đồng biến trên khoảng $(-\\infty;-3)$ và $(1;+\\infty)$.<br>- Hàm số không có giá trị lớn nhất trên $\\mathscr{D}$.<br>- Hai điểm cực trị của đồ thị hàm số là $(-3;-2)$ và $(1;6)$. Dễ thấy hai điểm này nằm về hai phía của đường thẳng $\\Delta\\colon y=-1$.<br>- Đồ thị hàm số có đường tiệm cận đứng là $x=-1$, đường tiệm cận xiên là $y=x+3$.<br>  Vậy hai trục đối xứng của đồ thị hàm số đi qua điểm $I(-1; 2)$ và hai trục đối xứng này vuông góc nhau."
   },
   {
     "id": "2D151DS30",
@@ -685,11 +685,11 @@ window.dungSai2D15 = [
         "answer": true
       },
       {
-        "text": "Bảng biến thiên của hàm số đã cho là\\newline  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_119.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Bảng biến thiên của hàm số đã cho là\\newline  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_119.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": false
       },
       {
-        "text": "Đồ thị hàm số đã cho là \\newline  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_120.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+        "text": "Đồ thị hàm số đã cho là \\newline  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_120.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
         "answer": false
       }
     ],
@@ -697,7 +697,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS31",
-    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d, (a\\neq 0)$ có đồ thị như hình bên. Xét tính đúng, sai của các mệnh đề sau.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d, (a\\neq 0)$ có đồ thị như hình bên. Xét tính đúng, sai của các mệnh đề sau.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_013.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hệ số $a&gt;0$",
@@ -720,7 +720,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS32",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị $(C)$ như hình vẽ bên<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị $(C)$ như hình vẽ bên<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS1_014.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị $(C)$ cắt trục $Oy$ tại điểm có tung độ bằng $2$",
@@ -785,11 +785,11 @@ window.dungSai2D15 = [
         "answer": true
       }
     ],
-    "explain": "<br>- Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là $C(50)=8\\cdot 50^2+40\\cdot 50+1400=23400$ (nghìn đồng).<br>- Tổng số tiền thu được sau khi bán $q$ sản phẩm là $q\\cdot \\left(1400-2q\\right)=-2q^2+1400q$. <br>  Do đó, lợi nhuận khi bán $q$ sản phẩm là \\[ F(q)=-2q^2+1400q-8q^2-40q-1400 =-10q^2+1360q-1400 \\text{ (nghìn đồng)}\\]<br>- Áp dụng công thức tọa độ đỉnh $I$ của parabol ta có:  \\[I \\left(\\dfrac{-b}{2a};\\dfrac{-\\Delta}{4a} \\right)=\\left(\\dfrac{-1360}{2\\cdot (-10)};\\dfrac{4\\cdot (-10)\\cdot (-1400)-1360^2}{4\\cdot (-10)} \\right)=(68;44840)\\]  Vì hàm lợi nhuận là một parabol có hệ số $a &lt; 0$ nên giá trị lớn nhất của hàm số là $y_I=44840$ (nghìn đồng).<br>- Xét hàm số $F(q)=-10q^2+1360q-1400$ trên khoảng $(60;70)$. <br>  $F^{\\prime}(q)=-20q+1360$ <br>  $F^{\\prime}(q)=0\\Leftrightarrow q=68$. <br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS4_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44200$ đến $44840$ (nghìn đồng)."
+    "explain": "<br>- Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là $C(50)=8\\cdot 50^2+40\\cdot 50+1400=23400$ (nghìn đồng).<br>- Tổng số tiền thu được sau khi bán $q$ sản phẩm là $q\\cdot \\left(1400-2q\\right)=-2q^2+1400q$. <br>  Do đó, lợi nhuận khi bán $q$ sản phẩm là \\[ F(q)=-2q^2+1400q-8q^2-40q-1400 =-10q^2+1360q-1400 \\text{ (nghìn đồng)}\\]<br>- Áp dụng công thức tọa độ đỉnh $I$ của parabol ta có:  \\[I \\left(\\dfrac{-b}{2a};\\dfrac{-\\Delta}{4a} \\right)=\\left(\\dfrac{-1360}{2\\cdot (-10)};\\dfrac{4\\cdot (-10)\\cdot (-1400)-1360^2}{4\\cdot (-10)} \\right)=(68;44840)\\]  Vì hàm lợi nhuận là một parabol có hệ số $a &lt; 0$ nên giá trị lớn nhất của hàm số là $y_I=44840$ (nghìn đồng).<br>- Xét hàm số $F(q)=-10q^2+1360q-1400$ trên khoảng $(60;70)$. <br>  $F^{\\prime}(q)=-20q+1360$ <br>  $F^{\\prime}(q)=0\\Leftrightarrow q=68$. <br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS4_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44200$ đến $44840$ (nghìn đồng)."
   },
   {
     "id": "2D151DS35",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau.<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$",
@@ -812,7 +812,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D151DS1",
-    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D15/loc3_2_TL_TN_DS_THPT__009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$",
@@ -835,7 +835,7 @@ window.dungSai2D15 = [
   },
   {
     "id": "2D155DS1",
-    "question": "Cho hàm số $y = f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y = f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đồ thị hàm số $g(x) = f(x) - \\dfrac{1}{2}x^2 + x + 2\\,025$ cắt đường thẳng $y = m$ tại bốn điểm phân biệt khi và chỉ khi $g(-1) &lt; m &lt; \\min\\{g(-3);g(1)\\}$",
@@ -854,11 +854,11 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Ta có $g'(x) = f'(x) - x + 1$. <br>  Vẽ đường thẳng $d\\colon y=x-1$ trên cùng hệ trục tọa độ với $y=f'(x)$.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ đồ thị hàm số ta thấy $g'(x)=0\\Leftrightarrow x=-3 \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Để đồ thị hàm số $g(x)$ và đường thẳng $y=m$ cắt nhau tại $4$ điểm phân biệt thì  \\[\\min\\{g(-3), g(1)\\} &lt; m &lt; g(-1). \\]<br>- Đặt $f'(x)=a x^3+bx^2+cx+d$ $(a\\ne 0)$.<br>  Vì $f'(x)=0$ nên $x=-2 \\text{ hoặc } x=1.$<br>  Tập xác định của hàm số $h(x)$ là $\\mathscr{D}=\\mathbb{R}\\setminus \\{-2;1\\}$.<br>  Ta có  <br>- $\\lim\\limits_{x\\to \\pm\\infty}h(x)=0$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận ngang là $y=0$.<br>- Vì $\\lim\\limits_{x\\to (-2)^-}(2x+1)=-3&lt;0 \\text{ và } f'(-2)=0 \\text{ và } f'(x)&lt;0\\;,\\forall x&lt;-2$ nên $\\lim\\limits_{x\\to (-2)^-}h(x)=+\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=-2$.<br>- Vì $\\lim\\limits_{x\\to 1^-}(2x+1)=3&gt;0 \\text{ và } f'(1)=0 \\text{ và } f'(x)&lt;0\\;, \\forall x&lt;1$ nên $\\lim\\limits_{x\\to 1^-}h(x)=-\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=1$.  Vậy đồ thị của hàm số $h(x)$ có $3$ đường tiệm cận.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)&gt;0,\\; \\forall x&gt;1$ nên hàm số $y = f(x)$ đồng biến trên khoảng $(1;+\\infty)$.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)$ chỉ đổi dấu từ “ âm”~sang “ dương”~khi $x$ qua điểm $x_0=1$ nên đồ thị hàm số $y=f(x)$ có một điểm cực trị."
+    "explain": "<br>- Ta có $g'(x) = f'(x) - x + 1$. <br>  Vẽ đường thẳng $d\\colon y=x-1$ trên cùng hệ trục tọa độ với $y=f'(x)$.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ đồ thị hàm số ta thấy $g'(x)=0\\Leftrightarrow x=-3 \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Để đồ thị hàm số $g(x)$ và đường thẳng $y=m$ cắt nhau tại $4$ điểm phân biệt thì  \\[\\min\\{g(-3), g(1)\\} &lt; m &lt; g(-1). \\]<br>- Đặt $f'(x)=a x^3+bx^2+cx+d$ $(a\\ne 0)$.<br>  Vì $f'(x)=0$ nên $x=-2 \\text{ hoặc } x=1.$<br>  Tập xác định của hàm số $h(x)$ là $\\mathscr{D}=\\mathbb{R}\\setminus \\{-2;1\\}$.<br>  Ta có  <br>- $\\lim\\limits_{x\\to \\pm\\infty}h(x)=0$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận ngang là $y=0$.<br>- Vì $\\lim\\limits_{x\\to (-2)^-}(2x+1)=-3&lt;0 \\text{ và } f'(-2)=0 \\text{ và } f'(x)&lt;0\\;,\\forall x&lt;-2$ nên $\\lim\\limits_{x\\to (-2)^-}h(x)=+\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=-2$.<br>- Vì $\\lim\\limits_{x\\to 1^-}(2x+1)=3&gt;0 \\text{ và } f'(1)=0 \\text{ và } f'(x)&lt;0\\;, \\forall x&lt;1$ nên $\\lim\\limits_{x\\to 1^-}h(x)=-\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=1$.  Vậy đồ thị của hàm số $h(x)$ có $3$ đường tiệm cận.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)&gt;0,\\; \\forall x&gt;1$ nên hàm số $y = f(x)$ đồng biến trên khoảng $(1;+\\infty)$.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)$ chỉ đổi dấu từ “ âm”~sang “ dương”~khi $x$ qua điểm $x_0=1$ nên đồ thị hàm số $y=f(x)$ có một điểm cực trị."
   },
   {
     "id": "2D151DS36",
-    "question": "Cho hàm số $y=f(x)=\\dfrac{ax+b}{cx+1}$ với $a,b,c\\in \\mathbb{R}$ có đồ thị như hình vẽ dưới.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)=\\dfrac{ax+b}{cx+1}$ với $a,b,c\\in \\mathbb{R}$ có đồ thị như hình vẽ dưới.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_012.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Đạo hàm của hàm số $f'(x)&lt;0,\\forall x\\in \\mathbb{R}$",
@@ -900,11 +900,11 @@ window.dungSai2D15 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Ta có $\\lim\\limits_{x \\to 2^-} \\dfrac{x^2-x+2}{x-2} = -\\infty$; $\\lim\\limits_{x \\to 2^+} \\dfrac{x^2-x+2}{x-2} = +\\infty$.<br>  Do đó đồ thị $(C)$ có tiệm cận đứng là $x=2$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Ta có $y' = \\dfrac{x^2-4x}{(x-2)^2}$; $y'=0 \\Leftrightarrow x=0$ hoặc $x=4$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Lien_cap_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên suy ra hàm số nghịch biến trên $(0; 2)$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Khi đó $y = \\dfrac{x^2-x+2}{x-2} = x+1 + \\dfrac{4}{x-2}$.<br>  Ta có $\\lim\\limits_{x \\to +\\infty} \\left[y - (x + 1)\\right] = \\lim\\limits_{x \\to \\infty} \\dfrac{4}{x-2} = 0$.<br>  Vậy đường thẳng $y=x+1$ là tiệm cận xiên của đồ thị $(C)$.<br>- Dựa vào bảng biến thiên, ta có đường thẳng $y=m$ cắt đồ thị $(C)$ tại hai điểm phân biệt khi $m &gt; 7$ hoặc $m &lt; -1$.<br>  Kết hợp điều kiện $m \\in [0; 2\\,025]$ và $m \\in \\mathbb{Z}$, ta cần tìm $m$ nguyên sao cho $m \\in (7; 2\\,025]$.<br>  Suy ra các giá trị $m$ thỏa mãn thuộc tập $\\{8; 9; \\dots, 2\\,025\\}$.<br>  Vậy có $2\\,025 - 8 + 1 = 2\\,018$ số nguyên $m$ thỏa mãn."
+    "explain": "<br>- Ta có $\\lim\\limits_{x \\to 2^-} \\dfrac{x^2-x+2}{x-2} = -\\infty$; $\\lim\\limits_{x \\to 2^+} \\dfrac{x^2-x+2}{x-2} = +\\infty$.<br>  Do đó đồ thị $(C)$ có tiệm cận đứng là $x=2$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Ta có $y' = \\dfrac{x^2-4x}{(x-2)^2}$; $y'=0 \\Leftrightarrow x=0$ hoặc $x=4$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Lien_cap_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên suy ra hàm số nghịch biến trên $(0; 2)$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Khi đó $y = \\dfrac{x^2-x+2}{x-2} = x+1 + \\dfrac{4}{x-2}$.<br>  Ta có $\\lim\\limits_{x \\to +\\infty} \\left[y - (x + 1)\\right] = \\lim\\limits_{x \\to \\infty} \\dfrac{4}{x-2} = 0$.<br>  Vậy đường thẳng $y=x+1$ là tiệm cận xiên của đồ thị $(C)$.<br>- Dựa vào bảng biến thiên, ta có đường thẳng $y=m$ cắt đồ thị $(C)$ tại hai điểm phân biệt khi $m &gt; 7$ hoặc $m &lt; -1$.<br>  Kết hợp điều kiện $m \\in [0; 2\\,025]$ và $m \\in \\mathbb{Z}$, ta cần tìm $m$ nguyên sao cho $m \\in (7; 2\\,025]$.<br>  Suy ra các giá trị $m$ thỏa mãn thuộc tập $\\{8; 9; \\dots, 2\\,025\\}$.<br>  Vậy có $2\\,025 - 8 + 1 = 2\\,018$ số nguyên $m$ thỏa mãn."
   },
   {
     "id": "2D151DS38",
-    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenVi_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenVi_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Hàm số $f(x)$ nghịch biến trên khoảng $(-1;1)$",

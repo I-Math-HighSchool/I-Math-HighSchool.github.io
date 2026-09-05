@@ -7,7 +7,7 @@
 window.tracNghiem1H82 = [
   {
     "id": "1H821TN1",
-    "question": "Để làm đường dẫn lên bắc qua một con kênh, người ta đúc một khối bê tông hình lăng trụ tam giác biết tam giác $ABC$ vuông tại $B$, các tứ giác $ABED$, $BCEF$ và $ACFD$ là các hình chữ nhật (tham khảo hình vẽ). Khẳng định nào sau đây là <strong>sai</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS20_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Để làm đường dẫn lên bắc qua một con kênh, người ta đúc một khối bê tông hình lăng trụ tam giác biết tam giác $ABC$ vuông tại $B$, các tứ giác $ABED$, $BCEF$ và $ACFD$ là các hình chữ nhật (tham khảo hình vẽ). Khẳng định nào sau đây là <strong>sai</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS20_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BE \\perp (ABC)$",
       "$DF \\perp (ABED)$",
@@ -31,7 +31,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H821TN3",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA$ vuông góc với mặt phẳng đáy. Mệnh đề nào sau đây <strong>đúng</strong>?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS21_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BA\\perp \\left(SAC\\right)$",
       "$BA\\perp \\left(SCD\\right)$",
@@ -55,7 +55,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H824TN5",
-    "question": "Cho hình chóp $S. ABC$ có $SA\\perp AB$ và $SA\\perp AC$. Đường thẳng $SA$ vuông góc với đường thẳng nào sau đây?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS22_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S. ABC$ có $SA\\perp AB$ và $SA\\perp AC$. Đường thẳng $SA$ vuông góc với đường thẳng nào sau đây?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS22_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BC$",
       "$SC$",
@@ -91,7 +91,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H821TN8",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi tâm $O$. Biết rằng $SA=SC$, $SB=SD$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS23_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi tâm $O$. Biết rằng $SA=SC$, $SB=SD$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS23_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$CD\\perp (SBD)$",
       "$CD\\perp AC$",
@@ -103,7 +103,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H824TN9",
-    "question": "Cho hình chóp $S.ABC$ có đáy là tam giác vuông tại $B$, $SA$ vuông góc với đáy. Đường thẳng $BC$ vuông góc với mặt phẳng nào sau đây?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS24_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$ có đáy là tam giác vuông tại $B$, $SA$ vuông góc với đáy. Đường thẳng $BC$ vuông góc với mặt phẳng nào sau đây?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS24_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAB)$",
       "$(SBC)$",
@@ -115,7 +115,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H821TN10",
-    "question": "Cho hình chóp $S. ABCD$ có đáy $ABCD$ là hình chữ nhật, $SA \\perp(ABCD)$. Mệnh đề nào sau đây là đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS25_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S. ABCD$ có đáy $ABCD$ là hình chữ nhật, $SA \\perp(ABCD)$. Mệnh đề nào sau đây là đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS25_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AC\\perp(SAD)$",
       "$AB\\perp(SAD)$",
@@ -171,11 +171,11 @@ window.tracNghiem1H82 = [
       "$BD \\perp (SAB)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS28_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $AB \\perp AD \\quad \\text{(vì $ABCD$ là hình chữ nhật)} \\text{ và } AB \\perp SA \\quad \\text{(vì $SA \\perp (ABCD)$, $AB \\subset (ABCD)$} \\text{ và } \\text{Trong $(SAD)$, $AD \\cap SA=A$.}$<br>  $\\Rightarrow AB \\perp (SAD)$."
+    "explain": "<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS28_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $AB \\perp AD \\quad \\text{(vì $ABCD$ là hình chữ nhật)} \\text{ và } AB \\perp SA \\quad \\text{(vì $SA \\perp (ABCD)$, $AB \\subset (ABCD)$} \\text{ và } \\text{Trong $(SAD)$, $AD \\cap SA=A$.}$<br>  $\\Rightarrow AB \\perp (SAD)$."
   },
   {
     "id": "1H821TN15",
-    "question": "Cho hình chóp $S.ABCD$ có $SA\\perp(ABCD)$ và đáy $ABCD$ là hình vuông và $H$ là hình chiếu vuông góc của $A$ lên $SD$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS32_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có $SA\\perp(ABCD)$ và đáy $ABCD$ là hình vuông và $H$ là hình chiếu vuông góc của $A$ lên $SD$. Khẳng định nào sau đây đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS32_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$AH\\perp(SBD)$",
       "$SD\\perp(HAC)$",
@@ -187,7 +187,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H824TN16",
-    "question": "Cho hình lập phương $ABCD\\cdot A'B'C'D'$. Đường thẳng nào sau đây vuông góc với đường thẳng $BC$?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS32_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD\\cdot A'B'C'D'$. Đường thẳng nào sau đây vuông góc với đường thẳng $BC$?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS32_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$BD'$",
       "$A'B'$",
@@ -211,7 +211,7 @@ window.tracNghiem1H82 = [
   },
   {
     "id": "1H821TN18",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\\perp(ABCD)$. Gọi $AE, AF$ lần  lượt là các đường cao của tam giác $SAB$ và tam giác $SAD$. Khẳng định nào sau đây là đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS33_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\\perp(ABCD)$. Gọi $AE, AF$ lần  lượt là các đường cao của tam giác $SAB$ và tam giác $SAD$. Khẳng định nào sau đây là đúng?<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS33_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$SC\\perp(AFB)$",
       "$SC\\perp(AEC)$",
@@ -231,11 +231,11 @@ window.tracNghiem1H82 = [
       "$O$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS36_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét $BD$ và $(SAC)$, ta có  $ BD \\perp AC \\text{ (Do } ABCD \\text{ là hình vuông}) \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AC\\subset (SAC), \\ SA\\subset (SAC), \\ SA \\cap AC = A. $  Do đó $BD\\perp (SAC)$. Suy ra $DO \\perp (SAC)$ nên $O$ là hình chiếu của $D$ lên $(SAC)$."
+    "explain": "<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS36_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét $BD$ và $(SAC)$, ta có  $ BD \\perp AC \\text{ (Do } ABCD \\text{ là hình vuông}) \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AC\\subset (SAC), \\ SA\\subset (SAC), \\ SA \\cap AC = A. $  Do đó $BD\\perp (SAC)$. Suy ra $DO \\perp (SAC)$ nên $O$ là hình chiếu của $D$ lên $(SAC)$."
   },
   {
     "id": "1H824TN1",
-    "question": "Cho hình chóp $S.ABC$, biết $SA\\perp (ABC)$ và tam giác $ABC$ vuông tại $A$. Đường thẳng $AB$ vuông góc với mặt phẳng nào sau đây?<br><img src=\"data/11/1H8/im1H82/loc8_TT_KSCL_THPT_Yen_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABC$, biết $SA\\perp (ABC)$ và tam giác $ABC$ vuông tại $A$. Đường thẳng $AB$ vuông góc với mặt phẳng nào sau đây?<br><img src=\"data/11/1H8/im1H82/loc8_TT_KSCL_THPT_Yen_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAB)$",
       "$(SAC)$",

@@ -18,7 +18,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H413TN2",
-    "question": "Cho hình chóp $S.ABCD$ với $ABCD$ là hình bình hành. Khi đó giao tuyến của hai mặt phẳng $(SAC)$ và $(SAD)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS14_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ với $ABCD$ là hình bình hành. Khi đó giao tuyến của hai mặt phẳng $(SAC)$ và $(SAD)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS14_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Đường thẳng $SB$",
       "Đường thẳng $SD$",
@@ -42,7 +42,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H413TN4",
-    "question": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AC$, $CD$. Giao tuyến của hai mặt phẳng $(MBD)$ và $(ABN)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS15_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AC$, $CD$. Giao tuyến của hai mặt phẳng $(MBD)$ và $(ABN)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS15_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "đường thẳng $AH$($H$ là trực tâm tam giác $ACD$)",
       "đường thẳng $BG$($G$ là trọng tâm tam giác $ACD$)",
@@ -86,7 +86,7 @@ window.tracNghiem1H41 = [
       "$BC$ và $AD$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS4_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $SA$ và $BC$ không có mặt phẳng chung nào chứa cả hai nên chúng chéo nhau."
+    "explain": "<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS4_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  $SA$ và $BC$ không có mặt phẳng chung nào chứa cả hai nên chúng chéo nhau."
   },
   {
     "id": "1H411TN8",
@@ -126,7 +126,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H415TN11",
-    "question": "Một hình chóp có đáy là ngũ giác có số mặt và số cạnh lần lượt là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một hình chóp có đáy là ngũ giác có số mặt và số cạnh lần lượt là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$5$ mặt, $5$ cạnh",
       "$6$ mặt, $5$ cạnh",
@@ -138,7 +138,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H413TN12",
-    "question": "Cho tứ diện $ABCD$. Gọi $I$ là trung điểm của $AD$, $J$ là trung điểm của $BC$. Giao tuyến của hai mặt phẳng $(IBC)$ và $(JAD)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$. Gọi $I$ là trung điểm của $AD$, $J$ là trung điểm của $BC$. Giao tuyến của hai mặt phẳng $(IBC)$ và $(JAD)$ là<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$IJ$",
       "$AJ$",
@@ -146,11 +146,11 @@ window.tracNghiem1H41 = [
       "$CI$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $I \\in (IBC) \\text{ và } I \\in AD \\subset (JAD) \\Rightarrow I \\in (IBC) \\cap (JAD)$. (1)<br>  và $J \\in (JAD) \\text{ và } J \\in BC \\subset (IBC) \\Rightarrow J \\in (IBC) \\cap (JAD)$. (2)<br>  Từ (1) và (2) suy ra giao tuyến của hai mặt phẳng $(IBC)$ và $(JAD)$ là đường thẳng $IJ$."
+    "explain": "<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $I \\in (IBC) \\text{ và } I \\in AD \\subset (JAD) \\Rightarrow I \\in (IBC) \\cap (JAD)$. (1)<br>  và $J \\in (JAD) \\text{ và } J \\in BC \\subset (IBC) \\Rightarrow J \\in (IBC) \\cap (JAD)$. (2)<br>  Từ (1) và (2) suy ra giao tuyến của hai mặt phẳng $(IBC)$ và $(JAD)$ là đường thẳng $IJ$."
   },
   {
     "id": "1H413TN13",
-    "question": "Cho tứ diện $ABCD$, $I$ và $J$ theo thứ tự là trung điểm của $AD$ và $AC$, $G$ là trọng tâm tam giác $BCD$. Giao tuyến của hai mặt phẳng $(GIJ)$ và $(BCD)$ là đường thẳng<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$, $I$ và $J$ theo thứ tự là trung điểm của $AD$ và $AC$, $G$ là trọng tâm tam giác $BCD$. Giao tuyến của hai mặt phẳng $(GIJ)$ và $(BCD)$ là đường thẳng<br><img src=\"data/11/1D4/im1H41/dlts_11_DLTS6_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "qua $G$ và song song với $CD$",
       "qua $J$ và song song với $BD$",
@@ -186,7 +186,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H412TN2",
-    "question": "Cho hình chóp ngũ giác $S.ABCDE$. Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp ngũ giác $S.ABCDE$. Khẳng định nào sau đây là đúng?  <br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Điểm $B$ thuộc mặt phẳng $(SAB)$",
       "Điểm $D$ thuộc mặt phẳng $(SBC)$",
@@ -198,7 +198,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H415TN3",
-    "question": "Trong không gian, hình chóp tứ giác (hình vẽ) có bao nhiêu mặt bên?  <br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong không gian, hình chóp tứ giác (hình vẽ) có bao nhiêu mặt bên?  <br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$6$",
       "$3$",
@@ -218,7 +218,7 @@ window.tracNghiem1H41 = [
       "$MN$, với $N$ là trung điểm $SD$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $M$ là điểm chung thứ nhất của hai mặt phẳng $(MBC)$ và $(SAD)$. <br>  Mặt khác: $\\begin{cases} (MBC) \\supset BC \\\\ (SAD) \\supset AD \\\\ BC \\parallel AD \\text{ (giả thiết hình thang)} \\end{cases}$ <br>  Suy ra giao tuyến của hai mặt phẳng là đường thẳng đi qua $M$ và song song với $AD$. <br>  Trong tam giác $SAD$, gọi $N$ là trung điểm của $SD$. Khi đó $MN$ là đường trung bình của tam giác $SAD$ nên $MN \\parallel AD$. <br>  Vậy giao tuyến cần tìm là $MN$."
+    "explain": "<br><img src=\"data/11/1H4/im1H41/loc2_1_TN_DS_TL_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $M$ là điểm chung thứ nhất của hai mặt phẳng $(MBC)$ và $(SAD)$. <br>  Mặt khác: $\\begin{cases} (MBC) \\supset BC \\\\ (SAD) \\supset AD \\\\ BC \\parallel AD \\text{ (giả thiết hình thang)} \\end{cases}$ <br>  Suy ra giao tuyến của hai mặt phẳng là đường thẳng đi qua $M$ và song song với $AD$. <br>  Trong tam giác $SAD$, gọi $N$ là trung điểm của $SD$. Khi đó $MN$ là đường trung bình của tam giác $SAD$ nên $MN \\parallel AD$. <br>  Vậy giao tuyến cần tìm là $MN$."
   },
   {
     "id": "1H415TN13",
@@ -246,7 +246,7 @@ window.tracNghiem1H41 = [
   },
   {
     "id": "1H415TN14",
-    "question": "Cho hình chóp $S.ABCDEF$ như hình vẽ.  <br><img src=\"data/11/1H4/im1H41/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hình chóp đã cho có bao nhiêu mặt?",
+    "question": "Cho hình chóp $S.ABCDEF$ như hình vẽ.  <br><img src=\"data/11/1H4/im1H41/loc3_1_TL_TN_DS_THPT__000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hình chóp đã cho có bao nhiêu mặt?",
     "options": [
       "$4$",
       "$6$",

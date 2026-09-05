@@ -6,7 +6,7 @@
 window.tracNghiem0D12 = [
   {
     "id": "0D123TN1",
-    "question": "Phần không bị gạch trên trục số dưới đây biểu diễn tập hợp $X$ là một tập con của tập số thực.  Mệnh đề nào dưới đây là đúng?<br><img src=\"data/10/0D1/im0D12/dlts_sbh_giuakii1_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần không bị gạch trên trục số dưới đây biểu diễn tập hợp $X$ là một tập con của tập số thực.  Mệnh đề nào dưới đây là đúng?<br><img src=\"data/10/0D1/im0D12/dlts_sbh_giuakii1_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$X = (-3; 2)$",
       "$X = [-3; 2]$",
@@ -270,7 +270,7 @@ window.tracNghiem0D12 = [
   },
   {
     "id": "0D123TN15",
-    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ sau đây là biểu diễn của tập hợp nào?  <br><img src=\"data/10/0D1/im0D12/loc3_0_TN_DS_THPT_chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ sau đây là biểu diễn của tập hợp nào?  <br><img src=\"data/10/0D1/im0D12/loc3_0_TN_DS_THPT_chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(-\\infty;2] \\cup (5;+\\infty)$",
       "$(-\\infty;2] \\cup [5;+\\infty)$",

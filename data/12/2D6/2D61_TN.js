@@ -17,7 +17,7 @@ window.tracNghiem2D61 = [
   },
   {
     "id": "2D612TN2",
-    "question": "Trong một cuộc khảo sát trên một nhóm gồm $50$ học sinh chơi cầu lông, thu được kết quả nư bảng số liệu sau. Chọn ngẫu nhiên một học sinh trong nhóm này. Tính xác suất để học sinh đươc chọn là nam, biết học sinh đó thuận tay phải.<br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS29_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Trong một cuộc khảo sát trên một nhóm gồm $50$ học sinh chơi cầu lông, thu được kết quả nư bảng số liệu sau. Chọn ngẫu nhiên một học sinh trong nhóm này. Tính xác suất để học sinh đươc chọn là nam, biết học sinh đó thuận tay phải.<br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS29_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\dfrac{32}{43}$",
       "$\\dfrac{32}{37}$",
@@ -49,7 +49,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{8}{29}$"
     ],
     "answer": 1,
-    "explain": "Ta có sơ đồ cây minh họa các dữ kiện bài toán  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $A$ là biến cố “ người sử dụng smartphone”, $B$ là biến cố “ người dùng mạng xã hội”.<br>  Suy ra, $A|B$ là biến cố “ người đó là người sử dụng smartphone, biết rằng người đó đã sử dụng mạng xã hội”.<br>  Khi đó $\\mathrm{P}(A) = \\dfrac{120}{200}=0{,}6$; $\\mathrm{P}\\left(B|A\\right) = 70\\%=0{,}7$; $\\mathrm{P}\\left(B|\\overline{A}\\right) = 40\\%=0{,}4$.<br>  Ta có $\\mathrm{P}\\left(\\overline{A}\\right) = 1-0{,}6=0{,}4$.<br>  Ta có $\\mathrm{P}(B) = \\mathrm{P}(A)\\cdot\\mathrm{P}\\left(B|A\\right) + \\mathrm{P}\\left(\\overline{A}\\right) \\cdot\\mathrm{P}\\left(B|\\overline{A}\\right)=0{,}6 \\cdot 0{,}7 + 0{,}4 \\cdot 0{,}4 = 0{,}42 + 0{,}16 = 0{,}58$.<br>  Vậy $\\mathrm{P}\\left(A|B\\right) = \\dfrac{\\mathrm{P}(AB)}{\\mathrm{P}(B)} = \\dfrac{0{,}6 \\cdot 0{,}7}{0{,}58} = \\dfrac{0{,}42}{0{,}58} = \\dfrac{21}{29}$.<br>"
+    "explain": "Ta có sơ đồ cây minh họa các dữ kiện bài toán  <br><img src=\"data/12/2D6/im2D61/dlts_12_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $A$ là biến cố “ người sử dụng smartphone”, $B$ là biến cố “ người dùng mạng xã hội”.<br>  Suy ra, $A|B$ là biến cố “ người đó là người sử dụng smartphone, biết rằng người đó đã sử dụng mạng xã hội”.<br>  Khi đó $\\mathrm{P}(A) = \\dfrac{120}{200}=0{,}6$; $\\mathrm{P}\\left(B|A\\right) = 70\\%=0{,}7$; $\\mathrm{P}\\left(B|\\overline{A}\\right) = 40\\%=0{,}4$.<br>  Ta có $\\mathrm{P}\\left(\\overline{A}\\right) = 1-0{,}6=0{,}4$.<br>  Ta có $\\mathrm{P}(B) = \\mathrm{P}(A)\\cdot\\mathrm{P}\\left(B|A\\right) + \\mathrm{P}\\left(\\overline{A}\\right) \\cdot\\mathrm{P}\\left(B|\\overline{A}\\right)=0{,}6 \\cdot 0{,}7 + 0{,}4 \\cdot 0{,}4 = 0{,}42 + 0{,}16 = 0{,}58$.<br>  Vậy $\\mathrm{P}\\left(A|B\\right) = \\dfrac{\\mathrm{P}(AB)}{\\mathrm{P}(B)} = \\dfrac{0{,}6 \\cdot 0{,}7}{0{,}58} = \\dfrac{0{,}42}{0{,}58} = \\dfrac{21}{29}$.<br>"
   },
   {
     "id": "2D612TN5",
@@ -209,7 +209,7 @@ window.tracNghiem2D61 = [
   },
   {
     "id": "2D612TN18",
-    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất của biến cố $A$ với điều kiện $B$ là",
+    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất của biến cố $A$ với điều kiện $B$ là",
     "options": [
       "$\\dfrac{9}{16}$",
       "$\\dfrac{15}{19}$",
@@ -221,7 +221,7 @@ window.tracNghiem2D61 = [
   },
   {
     "id": "2D612TN19",
-    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất của biến cố $B$ với điều kiện $A$ là",
+    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất của biến cố $B$ với điều kiện $A$ là",
     "options": [
       "$\\dfrac{9}{16}$",
       "$\\dfrac{15}{19}$",
@@ -233,7 +233,7 @@ window.tracNghiem2D61 = [
   },
   {
     "id": "2D612TN20",
-    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất xảy ra it nhất một trong hai biến cố $A$ và $B$ là",
+    "question": "Toàn thể nhân viên của một công ty được hỏi ý kiến về một dự thảo chính sách phúc lợi mới. Kết quả được ghi lại ở bảng bên. Chọn ngẫu nhiên một nhân viên của công ty.<br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_table1.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\"><br>Gọi $A$ là biến cố \"Nhân viên đó là nam giới\" và $B$ là biến cố \"Nhân viên đó ủng hộ dự thảo chính sách phúc lợi mới\". Xác suất xảy ra it nhất một trong hai biến cố $A$ và $B$ là",
     "options": [
       "0,45",
       "0,67",

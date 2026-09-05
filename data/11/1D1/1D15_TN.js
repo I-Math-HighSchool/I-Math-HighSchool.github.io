@@ -487,7 +487,7 @@ window.tracNghiem1D15 = [
   },
   {
     "id": "1D155TN41",
-    "question": "Phương trình nào dưới đây có tập nghiệm biểu diễn trên đường tròn lượng giác là hai điểm $M,N$?  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phương trình nào dưới đây có tập nghiệm biểu diễn trên đường tròn lượng giác là hai điểm $M,N$?  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$2\\sin 2x = 1$",
       "$2\\cos 2x = 1$",
@@ -547,7 +547,7 @@ window.tracNghiem1D15 = [
   },
   {
     "id": "1D154TN46",
-    "question": "Nghiệm của phương trình $\\tan x = -\\dfrac{\\sqrt{3}}{3}$ được biểu diễn trên đường tròn lượng giác ở hình bên là những điểm nào?  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Nghiệm của phương trình $\\tan x = -\\dfrac{\\sqrt{3}}{3}$ được biểu diễn trên đường tròn lượng giác ở hình bên là những điểm nào?  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Điểm $C$, điểm $D$, điểm $F$, điểm $E$",
       "Điểm $D$, điểm $F$",
@@ -835,7 +835,7 @@ window.tracNghiem1D15 = [
   },
   {
     "id": "1D155TN70",
-    "question": "Cho đồ thị hàm số $y=\\sin x$ trên đoạn $\\left[-\\dfrac{5\\pi}{2};\\dfrac{5\\pi}{2}\\right]$.   Gọi $S$ là tập hợp các giá trị của $x$ trên đoạn đó thỏa mãn $\\sin x=0$.   Số phần tử của $S$ là  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho đồ thị hàm số $y=\\sin x$ trên đoạn $\\left[-\\dfrac{5\\pi}{2};\\dfrac{5\\pi}{2}\\right]$.   Gọi $S$ là tập hợp các giá trị của $x$ trên đoạn đó thỏa mãn $\\sin x=0$.   Số phần tử của $S$ là  <br><img src=\"data/11/1D1/im1D15/1D15_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$3$",
       "$5$",

@@ -13,11 +13,11 @@ window.tracNghiem2D62 = [
       "$0{,}89$"
     ],
     "answer": 1,
-    "explain": "Gọi biến cố $A$“ máy bay xuất hiện ở vị trí $X$”<br>  Biến cố $B$“ máy bay bị bắn rơi”.<br>  Ta cần tính $\\mathrm{P}(\\overline{A}|B)$.<br>  Ta có sơ đồ hình cây   <br><img src=\"data/12/2D6/im2D62/dlts_12_DLTS29_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\mathrm{P}(\\overline{A}|B)=\\dfrac{P(\\overline{A})\\mathrm{P}(B|\\overline{A})}{\\mathrm{P}(B)}=\\dfrac{0{,}45\\cdot0{,}8}{0{,}55\\cdot0{,}96+0{,}45\\cdot0{,}8}\\approx 0{,}41$."
+    "explain": "Gọi biến cố $A$“ máy bay xuất hiện ở vị trí $X$”<br>  Biến cố $B$“ máy bay bị bắn rơi”.<br>  Ta cần tính $\\mathrm{P}(\\overline{A}|B)$.<br>  Ta có sơ đồ hình cây   <br><img src=\"data/12/2D6/im2D62/dlts_12_DLTS29_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\mathrm{P}(\\overline{A}|B)=\\dfrac{P(\\overline{A})\\mathrm{P}(B|\\overline{A})}{\\mathrm{P}(B)}=\\dfrac{0{,}45\\cdot0{,}8}{0{,}55\\cdot0{,}96+0{,}45\\cdot0{,}8}\\approx 0{,}41$."
   },
   {
     "id": "2D622TN2",
-    "question": "Cho $A$, $B$ là hai biến cố của một phép thử có sơ đồ hình cây như sau  Xác suất của biến cố $B$ là<br><img src=\"data/12/2D6/im2D62/dlts_12_DLTS30_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho $A$, $B$ là hai biến cố của một phép thử có sơ đồ hình cây như sau  Xác suất của biến cố $B$ là<br><img src=\"data/12/2D6/im2D62/dlts_12_DLTS30_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\mathrm{P}(B)=0{,}4\\cdot0{,}3$",
       "$\\mathrm{P}(B)=0{,}6\\cdot0{,}4$",
@@ -109,7 +109,7 @@ window.tracNghiem2D62 = [
       "$0{,}3$"
     ],
     "answer": 0,
-    "explain": "Một người bệnh được chọn ngẫu nhiên từ hai phòng khám.<br>  Gọi $X$ là biến cố “ Người đó đến từ phòng khám A” \\, và $Y$, $\\overline{Y}$ lần lượt là biến cố “ Người đó là nam” \\; và “ Người đó không là nam”.<br>  Ta có sơ đồ hình cây sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(X|Y)=\\dfrac{P(X)P(Y|X)}{P(X)P(Y|X)+P(\\overline{X})P(Y|\\overline{X})}=\\dfrac{0{,}3}{0{,}3+0{,}2}=0{,}6.$  Vậy với một người bệnh được chọn ngẫu nhiêu từ hai phòng khám và biết người này là nam, xác suất để người đó đến từ phòng A là $0{,}6$."
+    "explain": "Một người bệnh được chọn ngẫu nhiên từ hai phòng khám.<br>  Gọi $X$ là biến cố “ Người đó đến từ phòng khám A” \\, và $Y$, $\\overline{Y}$ lần lượt là biến cố “ Người đó là nam” \\; và “ Người đó không là nam”.<br>  Ta có sơ đồ hình cây sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(X|Y)=\\dfrac{P(X)P(Y|X)}{P(X)P(Y|X)+P(\\overline{X})P(Y|\\overline{X})}=\\dfrac{0{,}3}{0{,}3+0{,}2}=0{,}6.$  Vậy với một người bệnh được chọn ngẫu nhiêu từ hai phòng khám và biết người này là nam, xác suất để người đó đến từ phòng A là $0{,}6$."
   },
   {
     "id": "2D622TN10",
@@ -133,7 +133,7 @@ window.tracNghiem2D62 = [
       "$\\dfrac{2}{7}$"
     ],
     "answer": 2,
-    "explain": "Một bệnh nhân đến một bệnh viên để xét nghiệm.<br>  Gọi $A$ là biến cố “ Bệnh nhân bị nhiễm virus $X$” \\, và $B$, $\\overline{B}$ lần lượt là biến cố “ Kết quả xét nghiệm dương tính” \\; và “ Kết quả xét nghiệm âm tính”.<br>  Ta xét sơ đồ hình cây như sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(A|B)=\\dfrac{P(A)P(B|A)}{P(A)P(B|A)+P(\\overline{A})P(B|\\overline{A})}=\\dfrac{0{,}0475}{0{,}0475+0{,}019}=\\dfrac{5}{7}.$   Vậy với một bệnh nhân có kết quả xét nghiệm dương tính, xác suất để bệnh nhân đó thực sự bị nhiễm virus $X$ là $\\dfrac{5}{7}$."
+    "explain": "Một bệnh nhân đến một bệnh viên để xét nghiệm.<br>  Gọi $A$ là biến cố “ Bệnh nhân bị nhiễm virus $X$” \\, và $B$, $\\overline{B}$ lần lượt là biến cố “ Kết quả xét nghiệm dương tính” \\; và “ Kết quả xét nghiệm âm tính”.<br>  Ta xét sơ đồ hình cây như sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(A|B)=\\dfrac{P(A)P(B|A)}{P(A)P(B|A)+P(\\overline{A})P(B|\\overline{A})}=\\dfrac{0{,}0475}{0{,}0475+0{,}019}=\\dfrac{5}{7}.$   Vậy với một bệnh nhân có kết quả xét nghiệm dương tính, xác suất để bệnh nhân đó thực sự bị nhiễm virus $X$ là $\\dfrac{5}{7}$."
   },
   {
     "id": "2D622TN12",
@@ -145,6 +145,6 @@ window.tracNghiem2D62 = [
       "$0{,}59375$"
     ],
     "answer": 0,
-    "explain": "Một bệnh nhân trên 40 tuổi ở địa phương X đến bác sĩ để khám bệnh ung thư.<br>  Gọi $A$ là biến cố “ Người đó mắc bệnh ung thư” \\, và $B$, $\\overline{B}$ lần lượt là biến cố “ Bác sĩ chẩn đoán người đó bị ung thư” \\;và “ Bác sĩ chẩn đoán người đó không bị ung thư”.<br>  Ta xét sơ đồ hình cây như sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(A|B)=\\dfrac{P(A)P(B|A)}{P(A)P(B|A)+P(\\overline{A})P(B|\\overline{A})}=\\dfrac{0{,}039}{0{,}039+0{,}057}=0{,}40625.$   Vậy xác suất để một người thật sự mắc bệnh ung thư khi nhận được kết quả chẩn đoán bị ung thư bằng $0{,}40625$."
+    "explain": "Một bệnh nhân trên 40 tuổi ở địa phương X đến bác sĩ để khám bệnh ung thư.<br>  Gọi $A$ là biến cố “ Người đó mắc bệnh ung thư” \\, và $B$, $\\overline{B}$ lần lượt là biến cố “ Bác sĩ chẩn đoán người đó bị ung thư” \\;và “ Bác sĩ chẩn đoán người đó không bị ung thư”.<br>  Ta xét sơ đồ hình cây như sau<br>  <br><img src=\"data/12/2D6/im2D61/dlts_sbh_xsontap_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo công thức Bayes, ta có $P(A|B)=\\dfrac{P(A)P(B|A)}{P(A)P(B|A)+P(\\overline{A})P(B|\\overline{A})}=\\dfrac{0{,}039}{0{,}039+0{,}057}=0{,}40625.$   Vậy xác suất để một người thật sự mắc bệnh ung thư khi nhận được kết quả chẩn đoán bị ung thư bằng $0{,}40625$."
   }
 ];

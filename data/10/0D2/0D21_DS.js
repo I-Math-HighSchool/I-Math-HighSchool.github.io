@@ -8,7 +8,7 @@
 window.dungSai0D21 = [
   {
     "id": "0D212DS1",
-    "question": "Cho bất phương trình $2 x-5 y&gt;5$ $(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $2 x-5 y&gt;5$ $(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình $(1)$ là bất phương trình bậc nhất hai ẩn",
@@ -31,7 +31,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS2",
-    "question": "Cho bất phương trình: $x+y+1&lt;0$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình: $x+y+1&lt;0$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình đã cho là bất phương trình bậc nhất một ẩn",
@@ -54,7 +54,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS3",
-    "question": "Cho bất phương trình $9 x+8 y \\leq 6(x+y+1)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $9 x+8 y \\leq 6(x+y+1)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình $(1)$ không là bất phương trình bậc nhất hai ẩn",
@@ -77,7 +77,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS4",
-    "question": "Cho bất phương trình $3(x-1)+4(y-2)&lt;5 x-3$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $3(x-1)+4(y-2)&lt;5 x-3$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình đã cho là bất phương trình bậc nhất hai ẩn",
@@ -100,7 +100,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS5",
-    "question": "Cho bất phương trình bậc nhất hai ẩn $3 x+5 y \\leq 6$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình bậc nhất hai ẩn $3 x+5 y \\leq 6$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Cặp $(3; 3)$ là một nghiệm của bất phương trình",
@@ -123,7 +123,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS6",
-    "question": "Cho bất phương trình $3(x-2 y)+1&gt;2 x-8\\left(y-\\dfrac{5}{8}\\right)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $3(x-2 y)+1&gt;2 x-8\\left(y-\\dfrac{5}{8}\\right)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$(1)$ là bất phương trình bậc nhất hai ẩn",
@@ -146,7 +146,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS7",
-    "question": "Cho bất phương trình $x+3+2(2 y+5)&lt;2(1-x)$ $(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $x+3+2(2 y+5)&lt;2(1-x)$ $(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "$(1)$ là bất phương trình bậc nhất hai ẩn",
@@ -169,7 +169,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS8",
-    "question": "Cho bất phương trình $x+2 y&gt;4$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $x+2 y&gt;4$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình đã cho là bất phương trình bật nhất hai ẩn",
@@ -192,7 +192,7 @@ window.dungSai0D21 = [
   },
   {
     "id": "0D212DS9",
-    "question": "Cho bất phương trình $x+3+2(2 y+5)&lt;2(1-x)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho bất phương trình $x+3+2(2 y+5)&lt;2(1-x)(1)$. Khi đó<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd44_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
         "text": "Bất phương trình $(1)$ là bất phương trình bậc nhất hai ẩn",
