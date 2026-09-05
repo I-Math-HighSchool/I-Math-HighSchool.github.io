@@ -425,12 +425,21 @@ function renderQuiz(deThi) {
             document.querySelectorAll('.raw-input-group').forEach(group => {
                 const inputs = group.querySelectorAll('.short-box');
                 inputs.forEach((input, iIdx) => {
-                    input.addEventListener('keyup', (e) => {
-                        if ((e.key >= 0 && e.key <= 9) || e.key === '-') {
+                    // Dùng sự kiện 'input' thay vì 'keyup' để bàn phím ảo
+                    // trên điện thoại (Gboard, bàn phím Samsung...) cũng tự
+                    // nhảy ô được — nhiều bàn phím di động không báo đúng
+                    // e.key khi gõ nên dùng keyup bị đứng, không nhảy ô.
+                    input.addEventListener('input', () => {
+                        if (input.value.length >= 1) {
                             if (inputs[iIdx + 1]) inputs[iIdx + 1].focus();
                         }
-                        if (e.key === 'Backspace') {
-                            if (inputs[iIdx - 1]) inputs[iIdx - 1].focus();
+                    });
+                    input.addEventListener('keydown', (e) => {
+                        if (e.key === 'Backspace' && input.value === '') {
+                            if (inputs[iIdx - 1]) {
+                                inputs[iIdx - 1].focus();
+                                inputs[iIdx - 1].value = '';
+                            }
                         }
                     });
                 });
