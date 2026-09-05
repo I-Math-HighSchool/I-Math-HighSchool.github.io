@@ -60,19 +60,19 @@ window.traLoiNgan2D62 = [
   {
     "id": "2D622TL10",
     "question": "Một vận động viên bóng bàn thắng $60 \\%$ các séc đấu anh ta được ra bóng trước và $45 \\%$ các séc đấu anh ta không được ra bóng trước. Trong một séc đấu, trọng tài gieo một đồng xu cân đối để xác định ai là người ra bóng trước.  Tính xác suất vận động viên đó thắng séc đấu.",
-    "answer": "0,525",
-    "explain": ""
+    "answer": "0,53",
+    "explain": "Gọi $B$ là biến cố \"vận động viên được ra bóng trước\". Vì đồng xu cân đối nên $P(B)=P(\\overline{B})=0{,}5$. Theo đề bài, $P(\\text{Thắng}\\mid B)=0{,}6$ và $P(\\text{Thắng}\\mid \\overline{B})=0{,}45$. Theo công thức xác suất toàn phần: $P(\\text{Thắng})=P(B)\\cdot P(\\text{Thắng}\\mid B)+P(\\overline{B})\\cdot P(\\text{Thắng}\\mid \\overline{B})=0{,}5\\cdot 0{,}6+0{,}5\\cdot 0{,}45=0{,}3+0{,}225=0{,}525$. Làm tròn đến hàng phần trăm cho khớp khung đáp án, ta được $0{,}53$."
   },
   {
     "id": "2D622TL11",
     "question": "Người ta quan sát một nhóm người trưởng thành trong 5 năm. Ở thời điểm bắt đầu quan sát, có $30 \\%$ số người được quan sát thường xuyên hút thuốc. Sau 5 năm, người ta nhận thấy tỉ lệ tử vong trong số những người thường xuyên hút thuốc cao gấp 3 lần ti lệ này trong nhóm những người còn lại. Chọn ngẫu nhiên một người trong nhóm và thấy người này từ vong trong 5 năm quan sát, tính xác suất người đó thường xuyên hút thuốc.",
-    "answer": "0,5625",
-    "explain": ""
+    "answer": "0,56",
+    "explain": "Gọi $A$ là biến cố 'người được chọn hút thuốc thường xuyên', $D$ là biến cố 'người được chọn tử vong trong 5 năm quan sát'. Ta có $P(A)=0{,}3,\\ P(\\overline{A})=0{,}7$. Đặt $x=P(D\\mid \\overline{A})$, theo đề bài $P(D\\mid A)=3x$. Theo công thức Bayes: $P(A\\mid D)=\\dfrac{P(A)\\cdot P(D\\mid A)}{P(A)\\cdot P(D\\mid A)+P(\\overline{A})\\cdot P(D\\mid \\overline{A})}=\\dfrac{0{,}3\\cdot 3x}{0{,}3\\cdot 3x+0{,}7\\cdot x}=\\dfrac{0{,}9x}{1{,}6x}=\\dfrac{0{,}9}{1{,}6}=0{,}5625$. Làm tròn đến hàng phần trăm cho khớp khung đáp án, ta được $0{,}56$."
   },
   {
     "id": "2D622TL12",
     "question": "Hộp thứ nhất chứa 5 viên bi xanh và 1 viên bi đỏ. Hộp thứ hai chứa 4 viên bi đỏ. Chọn ngẫu nhiên 3 viên bi từ hộp thứ nhất và bỏ vào hộp thứ hai, rồi từ hộp thứ hai chọn ra ngẫu nhiên 2 viên bi.  \\item Tính xác suất của biến cố 2 viên bi lấy ra ở hộp thứ hai có cùng màu.",
-    "answer": "0,476",
-    "explain": ""
+    "answer": "0,48",
+    "explain": "Hộp thứ nhất có $5$ bi xanh và $1$ bi đỏ (tổng $6$ bi), chọn ngẫu nhiên $3$ bi bỏ sang hộp thứ hai. Vì hộp thứ nhất chỉ có $1$ bi đỏ nên số bi đỏ được chuyển sang chỉ có thể là $0$ hoặc $1$.<br>- Xác suất chuyển đúng $0$ bi đỏ (tức chuyển $3$ bi xanh): $P_0=\\dfrac{C_5^3}{C_6^3}=\\dfrac{10}{20}=0{,}5$; khi đó hộp thứ hai có $4$ đỏ, $3$ xanh (tổng $7$ bi).<br>- Xác suất chuyển đúng $1$ bi đỏ (và $2$ bi xanh): $P_1=\\dfrac{C_1^1\\cdot C_5^2}{C_6^3}=\\dfrac{10}{20}=0{,}5$; khi đó hộp thứ hai có $5$ đỏ, $2$ xanh (tổng $7$ bi).<br>Xác suất lấy $2$ bi cùng màu từ hộp thứ hai trong từng trường hợp: $P(\\text{cùng màu}\\mid 0)=\\dfrac{C_4^2+C_3^2}{C_7^2}=\\dfrac{6+3}{21}=\\dfrac{9}{21}$; $P(\\text{cùng màu}\\mid 1)=\\dfrac{C_5^2+C_2^2}{C_7^2}=\\dfrac{10+1}{21}=\\dfrac{11}{21}$.<br>Theo công thức xác suất toàn phần: $P(\\text{cùng màu})=P_0\\cdot\\dfrac{9}{21}+P_1\\cdot\\dfrac{11}{21}=0{,}5\\cdot\\dfrac{9}{21}+0{,}5\\cdot\\dfrac{11}{21}=0{,}5\\cdot\\dfrac{20}{21}=\\dfrac{10}{21}\\approx 0{,}4762$. Làm tròn đến hàng phần trăm cho khớp khung đáp án, ta được $0{,}48$."
   }
 ];

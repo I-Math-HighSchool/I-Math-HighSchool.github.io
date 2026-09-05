@@ -407,15 +407,14 @@ function renderQuiz(deThi) {
     if (deThi.traLoiNgan.length > 0) {
         container.innerHTML += `<div class="part-header">PHẦN III. Câu trắc nghiệm trả lời ngắn</div>`;
         deThi.traLoiNgan.forEach((q, idx) => {
-            const soLuongOTL = (q.answer || '').trim().length || 4;
-            const oTraLoiNganHtml = Array.from({ length: soLuongOTL }).map(() =>
-                '<input type="text" maxlength="1" class="form-control text-center fw-bold short-box">'
-            ).join('');
             container.innerHTML += `
                 <div class="question-item">
                     <p class="question-text"><strong>Câu ${idx + 1}. [${q.id}]</strong> ${q.question}</p>
                     <div class="d-flex align-items-center gap-2 my-3 raw-input-group" data-qidx="${idx}">
-                        ${oTraLoiNganHtml}
+                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
+                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
+                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
+                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
                         <span class="tl-result-icon"></span>
                     </div>
                     <div class="explain-box"><strong>Lời giải chi tiết:</strong><br>Đáp án: <strong>${q.answer}</strong><br>${q.explain}</div>
