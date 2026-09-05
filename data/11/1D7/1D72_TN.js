@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D72 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D72 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D72 = [
   {
@@ -266,5 +268,89 @@ window.tracNghiem1D72 = [
     ],
     "answer": 1,
     "explain": "Gọi $M(x_0;y_0)$ là tiếp điểm của tiếp tuyến với đồ thị hàm số.<br>  Xét hàm số $y=\\ln\\dfrac{x}{x+1}$, ta có $y'=\\dfrac{\\left(\\dfrac{x}{x+1}\\right)'}{\\dfrac{x}{x+1}}=\\dfrac{\\dfrac{1}{(x+1)^2}}{\\dfrac{x}{x+1}}=\\dfrac{1}{x(x+1)}$."
+  },
+  {
+    "id": "1D725TN1",
+    "question": "Đạo hàm của hàm số $y=3^x$ là",
+    "options": [
+      "$y'=\\dfrac{3^x}  {\\ln 3}$",
+      "$y'=\\dfrac{-3^x}  {\\ln 3}$",
+      "$y'=-3^x\\ln 3$",
+      "$y'=3^x\\ln 3$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $y=3^x\\Rightarrow y'=3^x\\ln 3$."
+  },
+  {
+    "id": "1D725TN2",
+    "question": "Cho $a$, $b$ là hai số thực dương khác $1$ thỏa mãn đồ thị hàm số $y=f(x)=\\log_a x+\\log_b x$ luôn đi qua điểm $M(\\mathrm{e};20)$. Tính đạo hàm của hàm số tại điểm $x=5$.",
+    "options": [
+      "$15$",
+      "$\\dfrac{1}{15}$",
+      "$4$",
+      "$\\dfrac{e}{4}$"
+    ],
+    "answer": 2,
+    "explain": "Tập xác định $\\mathscr{D}=(0;+\\infty)$.<br>  Do đồ thị hàm số luôn đi qua điểm $M(\\mathrm{e};20)$ nên   $20=f(\\mathrm{e})=\\log_a \\mathrm{e}+\\log_b \\mathrm{e}=\\dfrac{1}{\\ln a}+\\dfrac{1}{\\ln b}.$  Ta có $y'=f'(x)=\\dfrac{1}{x\\cdot \\ln a}+\\dfrac{1}{x\\cdot \\ln b}$.<br>   Khi đó $y'(5)=f'(5)=\\dfrac{1}{5\\ln a}+\\dfrac{1}{5\\ln b}=\\dfrac{1}{5}\\cdot \\left(\\dfrac{1}{\\ln a}+\\dfrac{1}{\\ln b} \\right)=\\dfrac{1}{5}\\cdot 20=4.$"
+  },
+  {
+    "id": "1D722TN22",
+    "question": "Tiếp tuyến của đồ thị hàm số $y=\\dfrac{2x+3}{x-2}$ tại điểm có hoành độ bằng $3$ có phương trình là",
+    "options": [
+      "$y=7x+13$",
+      "$y=30-7x$",
+      "$y=3x+9$",
+      "$y=-\\dfrac{4}{3} x-2$"
+    ],
+    "answer": 1,
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus \\{2\\}$.<br>  Ta có $y'=\\dfrac{-7}{\\left(x-2\\right)^2}$ suy ra $y'(3)=\\dfrac{-7}{\\left(3-2\\right)^2}=-7$, $y(3)=\\dfrac{2\\cdot 3+3}{3-2}=9$.<br>  Tiếp tuyến của đồ thị hàm số $y=\\dfrac{2x+3}{x-2}$ tại điểm có hoành độ bằng $3$ có phương trình là $y=-7\\left(x-3\\right)+9\\Leftrightarrow y=-7x+30.$"
+  },
+  {
+    "id": "1D722TN23",
+    "question": "Đạo hàm của hàm số $ y=\\dfrac{1}{3}x^3-x^2+1$ là",
+    "options": [
+      "$y'=x^2-2x$",
+      "$y'=x^2-2x+1$",
+      "$y'=x^3-2x$",
+      "$y'=\\dfrac{1}{3}x^2-2x$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $y'=\\left(\\dfrac{1}{3}x^3-x^2+1 \\right)'=\\dfrac{1}{3}\\cdot 3x^2-2x=x^2-2x$."
+  },
+  {
+    "id": "1D722TN24",
+    "question": "Tiếp tuyến của đồ thị hàm số $y=x^2+4x-5$ tại điểm có hoành độ bằng $1$ là",
+    "options": [
+      "$y=6x+1$",
+      "$y=6x+6$",
+      "$y=6x-1$",
+      "$y=6x-6$"
+    ],
+    "answer": 3,
+    "explain": "Khi $ x=1\\Rightarrow y=0$.<br>  Ta có $y'=2x+4$<br>  Tiếp tuyến của đồ thị hàm số tại điểm $( 1;0 )$ là<br>  $ y=y'( 1 )\\cdot ( x-1 )+0=6( x-1 )=6x-6.$"
+  },
+  {
+    "id": "1D726TN6",
+    "question": "Cho một chất điểm chuyển động có phương trình $s=2 t^2+3 t$ ($t$ tính bằng giây, $s$ tính bằng mét). Vận tốc của chất điểm tại thời điểm $t_0=2$ (giây) bằng",
+    "options": [
+      "$19$ (m$ / $s)",
+      "$22$ (m$ / $s)",
+      "$11$ (m$ / $s)",
+      "$9$ (m$ / $s)"
+    ],
+    "answer": 2,
+    "explain": "Ta có $v(t)=s'(t)=4 t+3$.<br>  Vận tốc của chất điểm tại thời điểm $t_0=2$ là $v(2)=4\\cdot 2+3=11$ (m$ / $s)."
+  },
+  {
+    "id": "1D722TN25",
+    "question": "Cho hàm số $y=\\dfrac{2x-1}{x+1}$. Giá trị $f'(3)$ bằng",
+    "options": [
+      "$\\dfrac{4}{5}$",
+      "$\\dfrac{3}{16}$",
+      "$\\dfrac{2}{9}$",
+      "$\\dfrac{1}{6}$"
+    ],
+    "answer": 1,
+    "explain": "Tập xác định của hàm số đã cho là $\\mathscr{D}=\\mathbb{R} \\setminus \\{-1\\}$.<br>  Ta có $y=f(x)=\\dfrac{2x-1}{x+1}\\Rightarrow f'(x)=\\dfrac{3}{(x+1)^2}$.<br>  Khi đó $f'(3)=\\dfrac{3}{(3+1)^2}=\\dfrac{3}{16}$."
   }
 ];

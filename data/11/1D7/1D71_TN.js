@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D71 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D71 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D71 = [
   {
@@ -62,5 +64,17 @@ window.tracNghiem1D71 = [
     ],
     "answer": 3,
     "explain": "Ta có $s(t)=-\\dfrac{1}{2}t^3+12t^2\\Rightarrow v(t)=s'(t)=-\\dfrac{3}{2}t^2+24t$ .<br>  Vận tốc tức thời tại thời điểm $t=10$ giây là $v(10)=-\\dfrac{3}{2}\\cdot 10^2+24\\cdot 10=90$(m/s)."
+  },
+  {
+    "id": "1D714TN1",
+    "question": "Cho hàm số $y=-x^3+3x^2+9x-1$. Hệ số góc lớn nhất của tiếp tuyến với đồ thị hàm số là",
+    "options": [
+      "$9$",
+      "$12$",
+      "$6$",
+      "$8$"
+    ],
+    "answer": 1,
+    "explain": "Hệ số góc của tiếp tuyến với đồ thị hàm số tại điểm $A(x_A,y_A)$ là $k=f'(x_A)$.<br>  Ta có $y'=-3x^2+6x+9=-3(x-1)^2+12\\le12,\\forall x\\in\\mathbb{R}$.<br>  Do đó hệ số góc lớn nhất của tiếp tuyến với đồ thị hàm số là $12$, đạt tại $x=1$."
   }
 ];

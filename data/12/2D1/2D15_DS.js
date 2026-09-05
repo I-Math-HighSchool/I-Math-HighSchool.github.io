@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D15 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D15 = [
   {
@@ -831,5 +832,97 @@ window.dungSai2D15 = [
       }
     ],
     "explain": "<br>- Đúng.<br>  Hàm số nghịch biến trên các khoảng $\\left(-\\infty ;3\\right)$ và $\\left(3;+\\infty\\right)$.<br>- Sai. <br>  Hàm số không có giá trị lớn nhất của hàm số trên khoảng $\\left(-\\infty ;3\\right)$.<br>- Sai. <br>  Đồ thị có tiệm cận đứng $ x=3 $ và không có tiệm cận xiên.<br>- Sai. <br>  Tại $ x=3 $, hàm số không xác định."
+  },
+  {
+    "id": "2D155DS1",
+    "question": "Cho hàm số $y = f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(x)$ là hàm số bậc ba có đồ thị là đường cong trong hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Đồ thị hàm số $g(x) = f(x) - \\dfrac{1}{2}x^2 + x + 2\\,025$ cắt đường thẳng $y = m$ tại bốn điểm phân biệt khi và chỉ khi $g(-1) &lt; m &lt; \\min\\{g(-3);g(1)\\}$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số $h(x) = \\dfrac{2x+1}{f'(x)}$ có $3$ đường tiệm cận",
+        "answer": true
+      },
+      {
+        "text": "Hàm số $y = f(x)$ đồng biến trên khoảng $(0;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $y = f(x)$ có hai điểm cực trị",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có $g'(x) = f'(x) - x + 1$. <br>  Vẽ đường thẳng $d\\colon y=x-1$ trên cùng hệ trục tọa độ với $y=f'(x)$.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ đồ thị hàm số ta thấy $g'(x)=0\\Leftrightarrow x=-3 \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Chuyen_B_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Để đồ thị hàm số $g(x)$ và đường thẳng $y=m$ cắt nhau tại $4$ điểm phân biệt thì  \\[\\min\\{g(-3), g(1)\\} &lt; m &lt; g(-1). \\]<br>- Đặt $f'(x)=a x^3+bx^2+cx+d$ $(a\\ne 0)$.<br>  Vì $f'(x)=0$ nên $x=-2 \\text{ hoặc } x=1.$<br>  Tập xác định của hàm số $h(x)$ là $\\mathscr{D}=\\mathbb{R}\\setminus \\{-2;1\\}$.<br>  Ta có  <br>- $\\lim\\limits_{x\\to \\pm\\infty}h(x)=0$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận ngang là $y=0$.<br>- Vì $\\lim\\limits_{x\\to (-2)^-}(2x+1)=-3&lt;0 \\text{ và } f'(-2)=0 \\text{ và } f'(x)&lt;0\\;,\\forall x&lt;-2$ nên $\\lim\\limits_{x\\to (-2)^-}h(x)=+\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=-2$.<br>- Vì $\\lim\\limits_{x\\to 1^-}(2x+1)=3&gt;0 \\text{ và } f'(1)=0 \\text{ và } f'(x)&lt;0\\;, \\forall x&lt;1$ nên $\\lim\\limits_{x\\to 1^-}h(x)=-\\infty$. Suy ra đồ thị hàm số $h(x)$ có một đường tiệm cận đứng là $x=1$.  Vậy đồ thị của hàm số $h(x)$ có $3$ đường tiệm cận.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)&gt;0,\\; \\forall x&gt;1$ nên hàm số $y = f(x)$ đồng biến trên khoảng $(1;+\\infty)$.<br>- Quan sát đồ thị hàm số, ta thấy $f'(x)$ chỉ đổi dấu từ \\lq\\lq âm\\rq\\rq~sang \\lq\\lq dương\\rq\\rq~khi $x$ qua điểm $x_0=1$ nên đồ thị hàm số $y=f(x)$ có một điểm cực trị."
+  },
+  {
+    "id": "2D151DS36",
+    "question": "Cho hàm số $y=f(x)=\\dfrac{ax+b}{cx+1}$ với $a,b,c\\in \\mathbb{R}$ có đồ thị như hình vẽ dưới.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Đạo hàm của hàm số $f'(x)&lt;0,\\forall x\\in \\mathbb{R}$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $y=f(x)$ nghịch biến trên mỗi khoảng xác định",
+        "answer": true
+      },
+      {
+        "text": "Đồ thị hàm số $y=f(x)$ có đường tiệm cận đứng là $x=1$ và đường tiệm cận ngang là $y=-1$",
+        "answer": true
+      },
+      {
+        "text": "Tổng $a+b+c=5$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Dựa vào hình vẽ, đạo hàm của hàm số $f'(x)&lt;0,\\forall x\\ne 1$.<br>- Từ đồ thị ta có hàm số $y=f(x)$ nghịch biến trên khoảng $(-\\infty ;1)$ và $(1;+\\infty )$.<br>- Đồ thị hàm số $y=f(x)$ có đường tiệm cận đứng là $x=1$ và đường tiệm cận ngang là $y=-1$.<br>- Đồ thị hàm số có đường tiệm cận đúng $x=-\\dfrac{1}{c}=1\\Rightarrow c=-1$.<br>  Đồ thị hàm số có đường tiệm cận ngang $y=\\dfrac{a}{c}=-1\\Rightarrow a=1$.<br>  Đồ thị hàm số cắt trục tung tại điểm $(0;-2)\\Rightarrow b=-2$.<br>  Vậy $a+b+c=1-2-1=-2$."
+  },
+  {
+    "id": "2D151DS37",
+    "question": "Cho hàm số $y=f(x)=\\dfrac{x^2-x+2}{x-2}$ có đồ thị $(C)$.",
+    "subQuestions": [
+      {
+        "text": "Tiệm cận đứng của đồ thị $(C)$ là $x=2$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số đồng biến trên $(0; 2)$",
+        "answer": false
+      },
+      {
+        "text": "Đường thẳng $y=x+1$ là tiệm cận xiên của đồ thị $(C)$",
+        "answer": true
+      },
+      {
+        "text": "Có $2\\,024$ giá trị nguyên của $m \\in [0; 2025]$ để đường thẳng $y=m$ cắt đồ thị $(C)$ tại hai điểm phân biệt",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có $\\lim\\limits_{x \\to 2^-} \\dfrac{x^2-x+2}{x-2} = -\\infty$; $\\lim\\limits_{x \\to 2^+} \\dfrac{x^2-x+2}{x-2} = +\\infty$.<br>  Do đó đồ thị $(C)$ có tiệm cận đứng là $x=2$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Ta có $y' = \\dfrac{x^2-4x}{(x-2)^2}$; $y'=0 \\Leftrightarrow x=0$ hoặc $x=4$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Lien_cap_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên suy ra hàm số nghịch biến trên $(0; 2)$.<br>- Điều kiện xác định $x \\ne 2$.<br>  Khi đó $y = \\dfrac{x^2-x+2}{x-2} = x+1 + \\dfrac{4}{x-2}$.<br>  Ta có $\\lim\\limits_{x \\to +\\infty} \\left[y - (x + 1)\\right] = \\lim\\limits_{x \\to \\infty} \\dfrac{4}{x-2} = 0$.<br>  Vậy đường thẳng $y=x+1$ là tiệm cận xiên của đồ thị $(C)$.<br>- Dựa vào bảng biến thiên, ta có đường thẳng $y=m$ cắt đồ thị $(C)$ tại hai điểm phân biệt khi $m &gt; 7$ hoặc $m &lt; -1$.<br>  Kết hợp điều kiện $m \\in [0; 2\\,025]$ và $m \\in \\mathbb{Z}$, ta cần tìm $m$ nguyên sao cho $m \\in (7; 2\\,025]$.<br>  Suy ra các giá trị $m$ thỏa mãn thuộc tập $\\{8; 9; \\dots, 2\\,025\\}$.<br>  Vậy có $2\\,025 - 8 + 1 = 2\\,018$ số nguyên $m$ thỏa mãn."
+  },
+  {
+    "id": "2D151DS38",
+    "question": "Cho hàm số bậc ba $y=f(x)$ có đồ thị như hình vẽ.<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenVi_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Hàm số $f(x)$ nghịch biến trên khoảng $(-1;1)$",
+        "answer": true
+      },
+      {
+        "text": "Trên đoạn $[-2;2]$ hàm số $f(x)$ đạt giá trị lớn nhất bằng $2$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $f(x)$ có hai điểm cực trị",
+        "answer": true
+      },
+      {
+        "text": "$f(x)=x^3-3x+1$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Từ đồ thị hàm số, ta có đồ thị hàm số \\lq\\lq đi xuống\\rq\\rq\\ trên khoảng $(-1;1)$ nên hàm số $y = f(x)$ nghịch biến trên khoảng $(-1;1)$.<br>- Từ đồ thị hàm số, ta có trên đoạn $[-2;2]$ hàm số $f(x)$ đạt giá trị lớn nhất bằng $3$ tại $x=-1$ và $x=2$.<br>- Từ đồ thị hàm số ta có hàm số $y = f(x)$ có hai điểm cực trị là $x=-1$ và $x=1$.<br>- Gọi hàm số bậc ba có đồ thị như hình có dạng $y=f(x)=ax^3+bx^2+cx+d$.<br>  Ta có đồ thị hàm số đi qua điểm $(0;1)$ nên $d=1$.<br>  Đồ thị hàm số đi qua các điểm có tọa độ $(-1;3)$; $(1;-1)$ và $(2;3)$ nên ta có hệ phương trình  \\[  a \\cdot (-1)^3+b \\cdot (-1)^2+c \\cdot (-1)+1 = 3 \\text{ và } a \\cdot 1^3+b \\cdot 1^2+c \\cdot 1+1 = -1 \\text{ và } a \\cdot 2^3+b \\cdot 2^2+c \\cdot 2+1 = 3  \\Leftrightarrow  -a+b - c = 2 \\text{ và } a+b+c = -2 \\text{ và } 8a+4b+2c = 2  \\Leftrightarrow  a = 1 \\text{ và } b = 0 \\text{ và } c = -3.  \\]  Vậy hàm số cần tìm là $f(x)=x^3-3x+1$."
   }
 ];

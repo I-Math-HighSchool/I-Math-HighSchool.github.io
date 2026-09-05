@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D64 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D64 - Trả lời ngắn
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D64 = [
   {
@@ -38,5 +40,17 @@ window.traLoiNgan1D64 = [
     "question": "Một học sinh ôn thi tốt nghiệp và ghi nhớ toàn bộ nội dung một bài học vào ngày đầu tiên. Giả sử lượng kiến thức còn nhớ sau $t$ ngày (khi chưa ôn tập lại) của học sinh này được xác định bởi công thức $R(t)=100\\mathrm{e}^{-0{,}3t} (\\%)$. Hỏi sau bao nhiêu ngày thì lượng kiến thức còn nhớ là $30\\%$? <em>(làm tròn đến hàng đơn vị)</em>.",
     "answer": "4",
     "explain": "Theo đề ta có   $100\\mathrm{e}^{-0{,}3t}=30\\Leftrightarrow \\mathrm{e}^{-0{,}3t} =\\dfrac{3}{10} \\Leftrightarrow t=\\dfrac{\\ln\\dfrac{3}{10}}{-0{,}3}\\approx 4.$<br>  Vậy sau $4$ ngày thì lượng kiến thức còn nhớ là $30\\%$."
+  },
+  {
+    "id": "1D642TL1",
+    "question": "Giá trị còn lại của một chiếc xe theo thời gian khấu hao được xác định bởi công thức   $V(t)=15\\,000\\mathrm{e}^{-0{,}15t}$, trong đó $V(t)$ được tính bằng USD và $t$ được tính bằng năm. Hỏi sau bao năm, giá trị còn lại của chiếc xe chỉ là $4\\,518$ USD? <em> (kết quả được làm tròn đến hàng đơn vị)</em>.",
+    "answer": "8",
+    "explain": "Ta có $4\\,518=15\\,000{\\mathrm{e}^{-0{,}15t}}  \\Rightarrow {\\mathrm{e}^{-0{,}15t}}=\\dfrac{4\\,518}{15\\,000}$\\Rightarrow t=\\dfrac{\\ln \\left( \\dfrac{4\\,518}{15\\,000} \\right)}{-0{,}15}\\approx 8$ (năm)."
+  },
+  {
+    "id": "1D646TL5",
+    "question": "Trong một phòng thí nghiệm, số lượng của một vi khuẩn $X$ được biểu diễn theo công thức $S(t)=A\\mathrm{e}^{rt}$, trong đó $A$ là số lượng vi khuẩn tại thời điểm chọn mốc thời gian, $r$ là tỉ lệ tăng trưởng ($r&gt;0$), $t$ là thời gian tăng trưởng (tính theo giờ). Lúc $0$ giờ sáng, số lượng vi khuẩn $X$ là $150$ con. Sau $3$ giờ, số lượng vi khuẩn $X$ là $450$ con. Cùng thời điểm $0$ giờ, số lượng vi khuẩn $Y$ là $300$ con. Biết rằng số lượng vi khuẩn $Y$ tăng $5\\%$ mỗi giờ. Hỏi vào lúc mấy giờ thì số lượng vi khuẩn $X$ bằng số lượng vi khuẩn $Y$ (làm tròn kết quả đến hàng phần trăm)?",
+    "answer": "2{,}18",
+    "explain": "Ta có $S(0)=150 \\Rightarrow A=150$ nên $S(t)=150\\mathrm{e}^{rt}$.<br>  Vì $S(3)=450$ nên  \\[150\\mathrm{e}^{3r}=450  \\Rightarrow \\mathrm{e}^{3r}=3  \\Rightarrow r=\\dfrac{\\ln 3}{3}.  \\]   Suy ra  \\[S(t)=150\\mathrm{e}^{\\tfrac{\\ln 3}{3}t}=150\\left(\\sqrt[3]{3}\\right)^t.  \\]   Số vi khuẩn $Y$ tăng $5\\%$ mỗi giờ nên $R(t)=300(1{,}05)^t$.<br>   Khi $S(t)=R(t)$, tức là  \\[  \\begin{array}{rcl}  150\\left(\\sqrt[3]{3}\\right)^t = 300(1{,}05)^t &\\Leftrightarrow&\\left(\\sqrt[3]{3}\\right)^t = 2(1{,}05)^t \\\\  &\\Leftrightarrow&\\left(\\dfrac{\\sqrt[3]{3}}{1{,}05}\\right)^t = 2\\\\  &\\Leftrightarrow& t\\ln\\!\\left(\\dfrac{\\sqrt[3]{3}}{1{,}05}\\right)=\\ln 2\\\\  &\\Leftrightarrow&t=\\dfrac{\\ln 2}{\\ln\\!\\left(\\dfrac{\\sqrt[3]{3}}{1{,}05}\\right)}\\approx 2{,}18.  \\end{array}  \\]  Vậy sau khoảng $2{,}18$ giờ thì số lượng vi khuẩn $X$ bằng số lượng vi khuẩn $Y$."
   }
 ];

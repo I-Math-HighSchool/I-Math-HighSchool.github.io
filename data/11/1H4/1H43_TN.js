@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1H43 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H43 = [
   {
@@ -195,5 +196,53 @@ window.tracNghiem1H43 = [
     ],
     "answer": 2,
     "explain": "Gọi $I = SO \\cap DM$. Trong $\\Delta SBD$, $SO$ và $DM$ là hai đường trung tuyến, suy ra $I$ là trọng tâm $\\Delta SBD$.  Do đó $\\dfrac{SI}{SO} = \\dfrac{2}{3}$.<br>  Ta có $(P) \\parallel AC \\text{ và } AC \\subset (SAC) \\text{ và } M \\in (P) \\cap (SAC)$.<br>  Giao tuyến của $(P)$ và $(SAC)$ là đường thẳng qua $I$ và song song với $AC$, cắt $SA$, $SC$ tại $H$, $K$.<br>  Theo định lý Thales: $\\dfrac{SK}{SC} = \\dfrac{SI}{SO} = \\dfrac{2}{3}$.<br>  Suy ra $\\dfrac{KC}{SC} = 1 - \\dfrac{2}{3} = \\dfrac{1}{3}$."
+  },
+  {
+    "id": "1H432TN9",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Hãy chọn kết luận <strong>sai</strong>  <br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_Cum_lien_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$A'B\\parallel (CDD'C')$",
+      "$CC' \\parallel (ABB'A')$",
+      "$BD\\parallel A'C'$",
+      "$(ABCD)\\parallel (A'B'C'D')$"
+    ],
+    "answer": 2,
+    "explain": "Dựa vào tính chất hình lập phương có<br>  $A'B\\parallel (CDD'C')$, $CC' \\parallel (ABB'A')$, $(ABCD)\\parallel (A'B'C'D')$ là các mệnh đề đúng. <br>  Mặt khác $BD$, $A'C'$ là hai đường chéo nhau.<br>  Do đó $BD\\parallel A'C'$ là kết luận <strong>sai</strong>."
+  },
+  {
+    "id": "1H431TN14",
+    "question": "Cho hình chóp tứ giác $S.ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $SB$ và $BD$. Khẳng định nào sau đây đúng.<br><img src=\"data/11/1H4/im1H43/loc8_TT_KSCL_THPT_Yen_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$MN\\parallel(SAD)$",
+      "$MN\\parallel(SBC)$",
+      "$MN\\parallel(SAB)$",
+      "$MN\\parallel(SAC)$"
+    ],
+    "answer": 0,
+    "explain": "Do $M$ và $N$ lần lượt là trung điểm của $SB$ và $BD$ nên $MN$ là đường trung bình tam giác $SBD$ nên $ MN\\parallel SD$.<br>  Mà $SD\\subset ( SAD ) \\text{ và } MN\\not\\subset ( SAD )\\Rightarrow MN\\parallel (SAD)$."
+  },
+  {
+    "id": "1H432TN3",
+    "question": "Cho hai hình bình hành $ABCD$ và $ABEF$ không cùng nằm trong một mặt phẳng. Gọi $O_1$, $O_2$ lần lượt là tâm của $ABCD$, $ABEF$. $M$ là trung điểm của $CD$. Chọn khẳng định <strong>sai</strong> trong các khẳng định sau:",
+    "options": [
+      "$MO_2$ cắt $(BEC)$",
+      "$O_1O_2$ song song với $(ADF)$",
+      "$O_1O_2$ song song với $(BEC)$",
+      "$O_1O_2$ song song với $(EFM)$"
+    ],
+    "answer": 0,
+    "explain": "<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Chuyen_B_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dễ thấy $O_1O_2$ là đường trung bình của tam giác $ACE\\Rightarrow O_1O_2\\parallel CE\\Rightarrow O_1O_2\\parallel (BEC)$.<br>  Tương tự $O_1O_2\\parallel DF\\Rightarrow O_1O_2\\parallel (ADF)$.<br>  Từ đó suy ra $O_1O_2\\parallel (CDFE)$ hay $O_1O_2\\parallel (EFM)$.<br>  Do đó khẳng định $MO_2$ cắt $(BEC)$ là khẳng định <strong>sai</strong>."
+  },
+  {
+    "id": "1H432TN10",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật. Gọi $M$, $N$ theo thứ tự là trọng tâm $\\triangle SAB$, $\\triangle SCD$. Khi đó $MN$ song song với mặt phẳng<br><img src=\"data/11/1H4/im1H43/loc8_TT_THPT_Lien_cap_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$(SAC)$",
+      "$(SBD)$",
+      "$(SAB)$",
+      "$(ABCD)$"
+    ],
+    "answer": 3,
+    "explain": "Gọi $I$, $J$ lần lượt là trung điểm của $AB$ và $CD$.<br>  Do $M$, $N$ là trọng tâm $\\triangle SAB$ và $\\triangle SCD$ nên $M \\in SI$, $N \\in SJ$ và ta có tỉ lệ  $\\dfrac{SM}{SI} = \\dfrac{SN}{SJ} = \\dfrac{2}{3}.$  Theo định lý Ta-lét đảo trong $\\triangle SIJ$, suy ra $MN \\parallel IJ$.<br>  Mà $IJ \\subset (ABCD)$ nên $MN \\parallel (ABCD)$."
   }
 ];

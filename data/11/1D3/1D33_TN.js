@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D33 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D33 = [
   {
@@ -87,5 +88,17 @@ window.tracNghiem1D33 = [
     ],
     "answer": 0,
     "explain": "$\\text{Hàm số }f(x)\\text{ liên tục tại điểm }x=-1 \\Leftrightarrow \\lim\\limits_{x\\to-1^{-}}f(x)=f(-1)$<br>$\\Leftrightarrow \\lim\\limits_{x\\to-1^{-}}\\dfrac{x^2-2024x-2025}{x+1}=2026a\\cdot (-1)$<br>$\\Leftrightarrow -2026=-2026a$<br>$\\Leftrightarrow a=-1.$"
+  },
+  {
+    "id": "1D332TN8",
+    "question": "Hàm số nào sau đây liên tục tại $ x=1$?  \\def\\dotEX{}",
+    "options": [
+      "$ f( x )=\\dfrac{{x^2}-1}{x-1}\\text{ khi }x&lt;1 \\text{ và } 2x+1\\text{ khi }x\\ge 1.$",
+      "$ f( x )=\\dfrac{{x^2}-1}{x-1} \\text{ khi }x&lt;1 \\text{ và } 2x \\text{ khi }x\\ge 1.$",
+      "$f( x )=\\dfrac{{x^2}-1}{x-1}\\text{ khi }x&lt;1 \\text{ và } 2x-1\\text{ khi }x\\ge 1.$",
+      "$f( x )=\\dfrac{{x^2}-1}{x-1} \\text{ khi }x&lt;1 \\text{ và } x-1 \\text{ khi }x\\ge 1.$"
+    ],
+    "answer": 1,
+    "explain": "Xét hàm số $ f( x )=\\dfrac{{x^2}-1}{x-1} \\text{ khi }x&lt;1 \\text{ và } 2x \\text{ khi }x\\ge 1$, ta có <br>- $\\lim\\limits_{x \\to 1^-} f \\left( x \\right) = \\lim\\limits_{x \\to 1^-} \\dfrac{x^2 - 1}{x - 1} = \\lim\\limits_{x \\to 1^-} \\left( x + 1 \\right) = 2$;<br>- $ \\lim\\limits_{x \\to 1^+} f \\left( x \\right) = \\lim\\limits_{x \\to 1^+} 2x = 2$. Vì $\\lim\\limits_{x \\to 1^+} f \\left( x \\right) = \\lim\\limits_{x \\to 1^-} f \\left( x \\right) = 2 $ nên hàm số liên tục tại $x = 1$."
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H21 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2H21 = [
   {
@@ -440,5 +441,28 @@ window.dungSai2H21 = [
       }
     ],
     "explain": "<br>- <strong>Đúng</strong>. Vì $\\overrightarrow{OA}=3 \\cdot \\vec{i}+0 \\cdot \\vec{j}-1 \\cdot \\vec{k}$ nên $A(3; 0;-1)$.<br>- <strong>Sai</strong>. Ta có $\\overrightarrow{AB}=(-4;2;4)$, $\\overrightarrow{AC}=(-2;4;2)$.<br>  Giả sử tồn tại $k\\in \\mathbb{R}$ sao cho: $\\overrightarrow{AB}=k\\cdot \\overrightarrow{AC} \\Leftrightarrow\\left\\{\\begin{aligned}&-4=-2 k\\\\&2=4k\\\\&4=2k\\end{aligned} \\Leftrightarrow\\left\\{\\begin{aligned}&k=2 \\\\&k=\\frac{1}{2}\\end{aligned} \\Leftrightarrow k=\\varnothing\\right.\\right.$ hệ này vô nghiệm. Suy ra $\\overrightarrow{AB}, \\overrightarrow{AC}$ không cùng phương, do đó $A,B,C$ không thẳng hàng.<br>- <strong>Đúng</strong>. Vì $D$ là điểm đối xứng với $A$ qua $B$ nên $B$ là trung điểm của $A D$.<br>  Ta có $\\left\\{\\begin{aligned}&x_D=2 x_B-x_A=-5 \\\\& y_D=2y_B-y_A=4 \\\\& z_D=2 z_B-z_A=7 .\\end{aligned}\\right.$ suy ra $D(-5;4;7)$. Do đó $a=-5, b=4, c=7$.<br>  Vậy $a+b+c=6$.<br>- <strong>Sai</strong>. Gọi $I(x;y;z)$ là điểm thỏa mãn $\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}=\\overrightarrow{0}$.<br>  Khi đó: $\\left\\{\\begin{aligned}&3-x-1-x+1-x=0\\\\& 0-y+2-y+4-y=0 \\\\& -1-z+3-z+1-z=0\\end{aligned} \\Leftrightarrow\\left\\{\\begin{aligned}&x=1 \\\\&y=2 \\\\&z=1\\end{aligned} \\Rightarrow I(1;2;1)\\right.\\right.$<br>  Ta có: $MA^2+MB^2+MC^2=(\\overrightarrow{MI}+\\overrightarrow{IA})^2+(\\overrightarrow{MI}+\\overrightarrow{IB})^2+(\\overrightarrow{MI}+\\overrightarrow{IC})^2$<br>  $=3MI^2+IA^2+IB^2+IC^2+2\\overrightarrow{MI}(\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC})=3 MI^2+IA^2+IB^2+IC^2$.<br>  Do $IA^2+IB^2+IC^2$ không thay đổi nên $MA^2+MB^2+MC^2$ nhỏ nhất khi $MI$ nhỏ nhất hay $M$ là hình chiếu vuông góc của điểm $I$ trên mặt phẳng $(O x y)$.<br>  Do đó $M(1;2;0)$ suy ra $m=1, n=2, p=0$.<br>  Vậy $m+n+p=1+2+0=3$."
+  },
+  {
+    "id": "2H213DS1",
+    "question": "Cho hình chóp $S.ABC$ có tam giác $ABC$ vuông tại $B$, $BC=3$, $BA=2$, $SA$ vuông góc với mặt phẳng $(ABC)$ và $SA=2$.",
+    "subQuestions": [
+      {
+        "text": "Thể tích khối chóp $S . ABC$ bằng $6$",
+        "answer": false
+      },
+      {
+        "text": "Khoảng cách từ $C$ đến mặt phẳng $(SAB)$ bằng $5$",
+        "answer": false
+      },
+      {
+        "text": "Số đo góc nhị diện $[S, BC, A]$ bằng $45^{\\circ}$",
+        "answer": true
+      },
+      {
+        "text": "$\\vec{SB} \\cdot \\vec{AC}=4$",
+        "answer": true
+      }
+    ],
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Diện tích tam giác $ABC$ là $S_{ABC}=\\dfrac{1}{2} BC \\cdot BA=\\dfrac{1}{2} \\cdot 3\\cdot 2=3$.<br>  Thể tích của hình chóp $S.ABC$ có công thức là $V_{S.ABC}=\\dfrac{1}{3} \\cdot S \\cdot h=\\dfrac{1}{3} \\cdot 3 \\cdot 2=2$.<br>- Vì $SA \\perp(ABC)$ nên $SA \\perp BC$.<br>  Ta cũng có $AB \\perp BC$ nên $BC \\perp(SAB)$.<br>  Suy ra $\\mathrm{d}\\left(C,(SAB)\\right)=BC=3$.<br>- Vì $BC \\perp(SAB)$ nên $BC \\perp SB$. Ta cũng có $AB \\perp BC$ nên góc nhị diện $[S, BC, A]$ có số đo bằng với góc phẳng nhị diện $\\widehat{SBA}$.<br>  Xét $\\triangle SAB$ vuông tại $A$, có $AB=2$ và $SA=2$ nên $\\widehat{SBA}=45^{\\circ}$.<br>- Ta có $\\vec{SB} \\cdot \\vec{AC}=\\left(\\vec{SA}+\\vec{AB}\\right) \\cdot \\vec{AC}=\\vec{SA} \\cdot \\vec{AC}+\\vec{AB} \\cdot \\vec{AC}$.<br>  Mà $SA \\perp(ABC)$ nên $SA \\perp AC$. Suy ra $\\vec{SA} \\cdot \\vec{AC}=0$.<br>  Vậy $\\vec{SB} \\cdot \\vec{AC}=\\vec{AB} \\cdot \\vec{AC}=AB \\cdot AC \\cdot \\cos \\widehat{BAC}=AB \\cdot AB=4$."
   }
 ];

@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D92 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D92 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D92 = [
   {
@@ -122,5 +124,17 @@ window.tracNghiem1D92 = [
     ],
     "answer": 1,
     "explain": "Gọi $A$ là biến cố lấy được hai quyển sách Toán.<br>  Gọi $B$ là biến cố lấy được hai quyển sách Văn.<br>  Theo đề bài, ta có $\\mathrm{P}(A)=\\dfrac{7}{20}$ và $\\mathrm{P}(B)=\\dfrac{19}{30}$.<br>  Vì hai biến cố $A$ và $B$ là xung khắc nên ta có  $\\mathrm{P}(A \\cup B)=\\mathrm{P}(A)+\\mathrm{P}(B) =\\dfrac{7}{20}+\\dfrac{19}{30}=\\dfrac{59}{60}$."
+  },
+  {
+    "id": "1D922TN11",
+    "question": "Từ một hộp gồm $13$ quả cầu cân đối và đồng chất, trong đó có $8$ quả cầu màu trắng và $5$ quả cầu màu đen. Lấy ngẫu nhiên đồng thời $2$ quả cầu từ hộp. Tính xác suất lấy được $2$ quả cầu cùng màu.",
+    "options": [
+      "$\\dfrac{3}{13}$",
+      "$\\dfrac{20}{39} $",
+      "$\\dfrac{19}{39}$",
+      "$\\dfrac{17}{39}$"
+    ],
+    "answer": 2,
+    "explain": "Lấy ngẫu nhiên $2$ quả cầu từ $13$ quả cầu, số phần tử của không gian mẫu là $n(\\Omega) = \\mathrm{C}_{13}^2 = 78$.<br>  Gọi $A$ là biến cố \\lq\\lq Lấy được $2$ quả cầu cùng màu\\rq\\rq.<br>  Số kết quả thuận lợi cho biến cố $A$ (hoặc lấy được $2$ quả trắng, hoặc lấy được $2$ quả đen) là  $n(A) = \\mathrm{C}_8^2 + \\mathrm{C}_5^2 = 28 + 10 = 38.$  Xác suất của biến cố $A$ là $\\mathrm{P}(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{38}{78} = \\dfrac{19}{39}$."
   }
 ];

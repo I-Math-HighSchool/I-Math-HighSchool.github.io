@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H84 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H84 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H84 = [
   {
@@ -98,5 +100,17 @@ window.tracNghiem1H84 = [
     ],
     "answer": 2,
     "explain": "Ta có $BC\\perp AB \\text{ và } BC\\perp SA\\Rightarrow BC\\perp (SAB)\\Rightarrow (SBC)\\perp (SAB)$."
+  },
+  {
+    "id": "1H843TN7",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi và $SB$ vuông góc với mặt phẳng  $\\left(ABCD\\right)$. Mặt phẳng nào sau đây vuông góc với mặt phẳng $\\left(SBD\\right)$?<br><img src=\"data/11/1H8/im1H84/loc8_TT_THPT_DaoDuyTu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\left(SAD\\right)$",
+      "$\\left(SCD\\right)$",
+      "$\\left(SAC\\right)$",
+      "$\\left(SBC\\right)$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $AC\\perp BD \\text{ và } AC\\perp SB$ nên $AC\\perp (SBD)$.<br>  Do đó $(SBD)\\perp (SAC)$."
   }
 ];

@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 2D61 - Đúng/Sai (bổ sung từ nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 2D61 - Đúng sai
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D61 = [
   {
@@ -140,5 +142,28 @@ window.dungSai2D61 = [
       }
     ],
     "explain": ""
+  },
+  {
+    "id": "2D612DS5",
+    "question": "An và Bình rủ nhau đi câu cá vào ngày nghỉ cuối tuần. Xác suất câu được cá của An là $0{,}6$. Xác suất câu được cá của Bình là $0{,}3$. Khi đó ta có",
+    "subQuestions": [
+      {
+        "text": "Xác suất An không câu được cá bằng $0{,}4$",
+        "answer": true
+      },
+      {
+        "text": "Xác suất có đúng $1$ người câu được cá bằng $0{,}34$",
+        "answer": false
+      },
+      {
+        "text": "Xác suất để cả $2$ người đều không câu được cá bằng $0{,}3$",
+        "answer": false
+      },
+      {
+        "text": "Xác suất có ít nhất $1$ người câu được cá bằng $0{,}72$",
+        "answer": true
+      }
+    ],
+    "explain": "Gọi $A$ là biến cố \\lq \\lq An câu được cá \\rq \\rq \\, và $B$ là biến cố \\lq \\lq Bình câu được cá\\rq \\rq.<br>  Suy ra $\\overline{A}$ là biến cố \\lq \\lq An không câu được cá\\rq \\rq \\, và $\\overline{B}$ là biến cố \\lq \\lq Bình không câu được cá\\rq \\rq.<br>  Theo giả thiết $\\mathrm{\\mathrm{P}(}A)=0{,}6 \\Rightarrow \\mathrm{P}\\left(\\overline{A}\\right)=1-0{,}6=0{,}4$; $\\mathrm{P}(B)=0{,}3 \\Rightarrow \\mathrm{P}\\left(\\overline{B}\\right)=1-0{,}3=0{,}7$.  <br>- Xác suất An không câu được cá là $\\mathrm{P}\\left(\\overline{A}\\right)=0{,}4$.<br>- Biến cố \\lq \\lq Có đúng $1$ người câu được cá\\rq \\rq \\, là $A\\overline{B} \\cup \\overline{A}B$.<br>  Do $A$, $B$ là hai biến cố độc lập nên  $\\mathrm{P}(A\\overline{B} \\cup \\overline{A}B) = \\mathrm{P}(A\\overline{B})+\\mathrm{P}\\left(\\overline{A}B\\right)$<br>$= \\mathrm{P}(A) \\cdot \\mathrm{P}\\left(\\overline{B}\\right)+\\mathrm{P}\\left(\\overline{A}\\right) \\cdot \\mathrm{P}(B)$<br>$= 0{,}6 \\cdot 0{,}7+0{,}4 \\cdot 0{,}3=0{,}54.$<br>- Biến cố \\lq \\lq Cả $2$ người đều không câu được cá\\rq \\rq \\, là $\\overline{A}\\overline{B}$.<br>  Do $A$, $B$ là hai biến cố độc lập nên  $\\mathrm{P}\\left(\\overline{A}\\overline{B}\\right) = \\mathrm{P}\\left(\\overline{A}\\right) \\cdot \\mathrm{P}\\left(\\overline{B})\\right)$<br>$= 0{,}4 \\cdot 0{,}7=0{,}28.$<br>- Biến cố $C$ \\lq \\lq Có ít nhất $1$ người câu được cá\\rq \\rq.<br>  Biến cố đối $\\overline{C}$ \\lq \\lq Không ai câu được cá\\rq \\rq, ta có $\\overline{C}=\\overline{A}\\overline{B}$.<br>  $\\mathrm{P}(C) = 1-\\mathrm{P}\\left(\\overline{C}\\right)$<br>$= 1-0{,}28=0{,}72.$"
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D15 = [
   {
@@ -670,5 +671,28 @@ window.dungSai1D15 = [
       }
     ],
     "explain": "Ta có $f(x)=\\cos(-x)=\\cos x$ (do hàm $\\cos$ là hàm chẵn).  <br>- Hàm số $f(x)=\\cos x$ có tập xác định $D=\\mathbb{R}$.<br>- $f(x)=\\cos(-x)=\\cos x$.<br>- $f(x)=1\\Leftrightarrow\\cos x=1\\Leftrightarrow x=k2\\pi, k\\in\\mathbb{Z}$.<br>- Có $f(x)=1\\Leftrightarrow x=k2\\pi(k\\in\\mathbb{Z})$ trên đoạn $[-\\pi;6\\pi]$.<br>  Ta có $-\\pi\\le k2\\pi\\le 6\\pi\\Leftrightarrow-\\dfrac{1}{2}\\le k\\le 3$. Vì $k\\in\\mathbb{Z}$, nên $k\\in\\{0; 1; 2; 3\\}$.<br>  Các nghiệm là $x=0$, $x=2\\pi$, $x=4\\pi$, $x=6\\pi$.<br>  Tổng các nghiệm là $0+2\\pi+4\\pi+6\\pi=12\\pi$."
+  },
+  {
+    "id": "1D151DS2",
+    "question": "Cho phương trình lượng giác $2\\sin x=\\sqrt{2}$.\\qquad $(1)$",
+    "subQuestions": [
+      {
+        "text": "Phương trình $(1)$ tương đương với phương trình $\\sin x=\\sin\\left(\\dfrac{\\pi}{4}\\right)$",
+        "answer": true
+      },
+      {
+        "text": "Phương trình $(1)$ có nghiệm là $x=\\dfrac{3\\pi}{4}+k2\\pi$; $x=\\dfrac{\\pi}{4}+k2\\pi$ $\\left(k\\in\\mathbb{Z}\\right)$",
+        "answer": true
+      },
+      {
+        "text": "Phương trình $(1)$ có nghiệm dương nhỏ nhất bằng $\\dfrac{3\\pi}{4}$",
+        "answer": false
+      },
+      {
+        "text": "Số nghiệm của phương trình $(1)$ trong khoảng $\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)$ là hai nghiệm",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có $2\\sin x=\\sqrt{2}\\Leftrightarrow\\sin x=\\dfrac{\\sqrt{2}}{2}\\Leftrightarrow\\sin x=\\sin\\left(\\dfrac{\\pi}{4}\\right)$.<br>- Ta có $\\sin x=\\sin\\left(\\dfrac{\\pi}{4}\\right)\\Leftrightarrow x=\\dfrac{\\pi}{4}+k2\\pi \\text{ hoặc } x=\\pi-\\dfrac{\\pi}{4}+k2\\pi\\Leftrightarrow x=\\dfrac{\\pi}{4}+k2\\pi \\text{ hoặc } x=\\dfrac{3\\pi}{4}+k2\\pi$ ($k\\in\\mathbb{Z}$).<br>  Vậy phương trình $(1)$ có các nghiệm là $x=\\dfrac{3\\pi}{4}+k2\\pi$; $ x=\\dfrac{\\pi}{4}+k2\\pi \\left(k\\in\\mathbb{Z}\\right)$.<br>- Xét $x=\\dfrac{3\\pi}{4}+k2\\pi$ $\\left(k\\in\\mathbb{Z}\\right)$ thì nghiệm dương nhỏ nhất là $x=\\dfrac{3\\pi}{4}$.<br>  Xét $x=\\dfrac{\\pi}{4}+k2\\pi$ $\\left(k\\in\\mathbb{Z}\\right)$ thì nghiệm dương nhỏ nhất là $x=\\dfrac{\\pi}{4}$. <br>  Vậy suy ra nghiệm dương nhỏ nhất của phương trình (1) là $x=\\dfrac{\\pi}{4}$.<br>- Xét $x\\in \\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)$, ta có  <br>- Với $x=\\dfrac{3\\pi}{4}+k2\\pi$ thì $-\\dfrac{\\pi}{2}&lt;\\dfrac{3\\pi}{4}+k2\\pi&lt;\\dfrac{\\pi}{2}\\Leftrightarrow -\\dfrac{5}{8}&lt; k&lt; -\\dfrac{1}{8}$.<br>  Mà $k\\in \\mathbb{Z}$ suy ra $k\\in \\emptyset$.<br>- Với $x=\\dfrac{\\pi}{4}+k2\\pi$ thì $-\\dfrac{\\pi}{2}&lt;\\dfrac{\\pi}{4}+k2\\pi&lt;\\dfrac{\\pi}{2}\\Leftrightarrow -\\dfrac{3}{8}&lt; k&lt;\\dfrac{1}{8}$.<br>  Mà $k\\in \\mathbb{Z}$ suy ra $k=0\\Rightarrow x=\\dfrac{\\pi}{4}$.  Phương trình (1) có đúng một nghiệm thuộc khoảng $\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)$ là $x=\\dfrac{\\pi}{4}$."
   }
 ];

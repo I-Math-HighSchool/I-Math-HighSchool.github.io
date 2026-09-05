@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D31 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D31 = [
   {
@@ -159,5 +160,17 @@ window.tracNghiem1D31 = [
     ],
     "answer": 3,
     "explain": "Ta có<br>   $\\lim\\limits_{n\\to +\\infty}\\left(u_n+v_n\\right)=\\lim\\limits_{n\\to +\\infty}u_n+\\lim\\limits_{n\\to +\\infty}v_n=3+(-1)=2\\Rightarrow$ Đúng.<br>   $\\lim\\limits_{n\\to +\\infty}\\left(\\dfrac{u_n}{v_n}\\right)=\\dfrac{\\lim\\limits_{n\\to +\\infty}u_n}{\\lim\\limits_{n\\to +\\infty}v_n}=\\dfrac{3}{-1}=-3\\Rightarrow$ Đúng.<br>   $\\lim\\limits_{n\\to +\\infty}\\left(u_n\\cdot v_n\\right)=\\lim\\limits_{n\\to +\\infty}u_n\\cdot \\lim\\limits_{n\\to +\\infty}v_n=3\\cdot (-1)=-3\\Rightarrow$ Đúng.<br>   $\\lim\\limits_{n\\to +\\infty}\\left(u_n-v_n\\right)=\\lim\\limits_{n\\to +\\infty}u_n-\\lim\\limits_{n\\to +\\infty}v_n=3-(-1)=4\\Rightarrow$ Sai."
+  },
+  {
+    "id": "1D312TN13",
+    "question": "Giá trị của giới hạn $\\lim\\left(\\sqrt[3]{n^3-2n^2}-n\\right)$ bằng",
+    "options": [
+      "$\\dfrac{1}{3}$",
+      "$-\\dfrac{2}{3}$",
+      "$1$",
+      "$0$"
+    ],
+    "answer": 1,
+    "explain": "Ta có  $\\lim\\left(\\sqrt[3]{n^3-2n^2}-n\\right)  = \\lim\\dfrac{n^3-2n^2-n^3}{\\sqrt[3]{(n^3-2n^2)^2}+n\\sqrt[3]{n^3-2n^2}+n^2}$<br>$= \\lim\\dfrac{-2n^2}{\\sqrt[3]{(n^3-2n^2)^2}+n\\sqrt[3]{n^3-2n^2}+n^2}$<br>$= \\lim\\dfrac{-2}{\\sqrt[3]{\\left(1-\\dfrac{2}{n}\\right)^2}+\\sqrt[3]{1-\\dfrac{2}{n}}+1}$<br>$= -\\dfrac{2}{3}.$"
   }
 ];

@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D91 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D91 - Trả lời ngắn
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D91 = [
   {
@@ -26,5 +28,11 @@ window.traLoiNgan1D91 = [
     "question": "Bạn An làm bài thi phần trắc nghiệm đúng sai gồm $4$ câu hỏi mỗi câu $1$ điểm, trong đó bạn làm chắc chắn đúng hai câu còn hai câu còn lại bạn chọn ngẫu nhiên đúng hoặc sai. Tính xác suất để bạn An được $3{,}5$ điểm phần trắc nghiệm đúng sai (<em>Làm tròn kết quả đến hàng phần trăm</em>).",
     "answer": "0{,}03",
     "explain": "Quy ước $2$ câu hỏi còn lại là X, Y.<br>  Trong mỗi câu đó có $4$ ý. Mỗi ý có $2$ khả năng Đúng hoặc Sai nên xác suất chọn đúng mỗi ý là $\\dfrac{1}{2}$ và xác suất chọn sai mỗi ý là $\\dfrac{1}{2}$.<br>  Để bạn An được $3{,}5$ điểm tức là An làm đúng hoàn toàn $1$ trong $2$ câu X, Y và sai $1$ ý trong $1$ câu còn lại.<br>  Xác suất để An đúng $1$ trong $2$ câu X, Y là $\\mathrm{C}_2^1\\cdot \\left(\\dfrac{1}{2}\\right)^4 = \\dfrac{1}{8}$.<br>  Xác suất để An sai $1$ ý trong câu còn lại là $\\mathrm{C}_4^1\\cdot\\dfrac{1}{2}\\cdot \\left(\\dfrac{1}{2}\\right)^3 = \\dfrac{1}{4}$.<br>  Vậy xác suất để An được $3{,}5$ điểm phần trắc nghiệm là $\\dfrac{1}{8}\\cdot\\dfrac{1}{4} = \\dfrac{1}{32} \\approx 0{,}03$."
+  },
+  {
+    "id": "1D912TL5",
+    "question": "Cho hai hộp đựng bi, đựng hai loại bi là bi xanh và bi đỏ, tổng số bi của cả hai hộp là $15$ bi và hộp thứ nhất đựng nhiều bi hơn hộp thứ hai, đồng thời số bi xanh ở hộp một nhiều hơn số bi xanh ở hộp hai. Lấy ngẫu nhiên từ mỗi hộp một bi. Nếu xác suất để lấy được $2$ bi xanh là $\\dfrac{5}{28}$ thì xác suất để lấy được $2$ bi đỏ là $\\dfrac{a}{b}$ với $\\dfrac{a}{b}$ là phân số tối giản. Khi đó $D=a+b$ bằng",
+    "answer": "71",
+    "explain": "Gọi số bi của hộp $1$ và hộp $2$ lần lượt là $m$, $n$. Theo giả thiết ta có $m+n=15$ và $m&gt;n$.<br>  Gọi số bi xanh của hộp $1$ và hộp $2$ lần lượt là $x$, $y$ với $x&gt;y$.<br>  Theo giả thiết xác suất lấy được $2$ bi xanh là $\\dfrac{5}{28}$ nên ta có  <br>- $\\dfrac{x}{m}\\cdot\\dfrac{y}{n}=\\dfrac{5}{28}=\\dfrac{10}{56}\\Rightarrow mn=56=7\\cdot 8\\Rightarrow m=8 \\text{ và } n=7$;<br>- $xy=10=2\\cdot 5\\Rightarrow x=5 \\text{ và } y=2. $  Vậy số bi xanh của hộp $1$ và hộp $2$ lần lượt là $5$ và $2$.<br>  Xác suất để lấy được $2$ bi đỏ là  \\[\\dfrac{8-5}{8}\\cdot\\dfrac{7-2}{7}=\\dfrac{3}{8}\\cdot\\dfrac{5}{7}=\\dfrac{15}{56}.\\]  Từ đó suy ra $a=15$, $b=56$.<br>  Vậy $D=a+b=71$."
   }
 ];

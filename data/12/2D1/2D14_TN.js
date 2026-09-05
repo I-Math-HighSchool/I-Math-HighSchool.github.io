@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D14 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D14 = [
   {
@@ -1023,5 +1024,125 @@ window.tracNghiem2D14 = [
     ],
     "answer": 2,
     "explain": "Tiệm cận ngang của đồ thị hàm số đã cho có phương trình là $y=1$."
+  },
+  {
+    "id": "2D141TN85",
+    "question": "Tiệm cận đứng của đồ thị hàm số $y=\\dfrac{5}{x-1}$ là đường thẳng có phương trình",
+    "options": [
+      "$x=5$",
+      "$y=0$",
+      "$y=1$",
+      "$x=1$"
+    ],
+    "answer": 3,
+    "explain": "Ta có: $\\lim\\limits_{x\\to 1^-}y=-\\infty$; $\\lim\\limits_{x\\to 1^+}y=+\\infty$. <br>  Suy ra $x=1$ là đường tiệm cận đứng của đồ thị hàm số."
+  },
+  {
+    "id": "2D141TN86",
+    "question": "Đường tiệm cận ngang của đồ thị hàm số $y = \\dfrac{2x-4}{x-1}$ có phương trình là",
+    "options": [
+      "$x=1$",
+      "$y=2$",
+      "$x=2$",
+      "$y=4$"
+    ],
+    "answer": 1,
+    "explain": "$\\lim\\limits_{x\\to\\infty} \\dfrac{2x-4}{x-1} = 2$ nên $y = 2$ là đường tiệm cận ngang của đồ thị hàm số."
+  },
+  {
+    "id": "2D141TN87",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Tiệm cận ngang của đồ thị hàm số là đường thẳng có phương trình<br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_AnDuong__000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$ x=-1 $",
+      "$ x=1 $",
+      "$ y=2 $",
+      "$ y=-2 $"
+    ],
+    "answer": 2,
+    "explain": "Tiệm cận ngang của đồ thị hàm số là $y=2$."
+  },
+  {
+    "id": "2D141TN88",
+    "question": "Cho đồ thị hàm số $y=\\dfrac{2x^2+x-5}{x+3}$ có đường tiệm cận xiên là đường thẳng $\\Delta\\colon y=ax+b$ với $a$, $b\\in \\mathbb{R}$, $a\\ne 0$. Giá trị của tổng $a+b$ bằng",
+    "options": [
+      "$3$",
+      "$-5$",
+      "$7$",
+      "$-3$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $ y=\\dfrac{2x^2+x-5}{x+3}=2x-5+\\dfrac{10}{x+3}$ nên $\\Delta\\colon y=2x-5$.<br>  Khi đó $a+b=2-5=-3$."
+  },
+  {
+    "id": "2D141TN89",
+    "question": "Tiệm cận đứng của đồ thị hàm số $y=\\dfrac{2x+4}{x-1}$ là",
+    "options": [
+      "$x=1$",
+      "$x=-1$",
+      "$x=2$",
+      "$x=-2$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\lim\\limits_{x \\to 1^+} \\dfrac{2x+4}{x-1} = +\\infty$ và $\\lim\\limits_{x \\to 1^-} \\dfrac{2x+4}{x-1} = -\\infty$.<br>  Suy ra $x=1$ là tiệm cận đứng của đồ thị hàm số."
+  },
+  {
+    "id": "2D141TN6",
+    "question": "Cho hàm số $y=f(x)$ có tập xác định $\\mathscr{D}=(-\\infty;5]$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tiệm cận ngang của đồ thị hàm số $y=f(x)$ là đường thẳng có phương trình là",
+    "options": [
+      "$y=4$",
+      "$y=-2$",
+      "$y=5$",
+      "$x=5$"
+    ],
+    "answer": 1,
+    "explain": "Từ bảng biến thiên suy ra hàm số $\\lim\\limits_{x \\to-\\infty} f(x)=-2\\Rightarrow y=-2$ là tiệm cận ngang của đồ thị hàm số $y=f(x)$ trên $\\mathscr{D}=\\left(-\\infty; 5\\right]$."
+  },
+  {
+    "id": "2D141TN90",
+    "question": "Đường tiệm cận xiên của đồ thị hàm số $y=\\dfrac{x^2+2x-2}{x-2}$ là",
+    "options": [
+      "$y=-x+3$",
+      "$y=x+3$",
+      "$y=x-3$",
+      "$y=x+4$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $y = \\dfrac{x^2+2x-2}{x-2} = x + 4 + \\dfrac{6}{x-2}$.<br>  Vì $\\lim\\limits_{x \\to \\infty} [y - (x+4)] = \\lim\\limits_{x \\to \\infty} \\dfrac{6}{x-2} = 0$, nên đường thẳng $y=x+4$ là tiệm cận xiên của đồ thị hàm số."
+  },
+  {
+    "id": "2D143TN8",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenVi_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tổng số đường tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là",
+    "options": [
+      "$1$",
+      "$2$",
+      "$4$",
+      "$3$"
+    ],
+    "answer": 1,
+    "explain": "Dựa vào bảng biến thiên ta có  <br>- $\\lim\\limits_{x\\to 0^+} f(x) = +\\infty$ nên $x=0$ là đường tiệm cận đứng của đồ thị hàm số.<br>- $\\lim\\limits_{x\\to -\\infty} f(x) = 2$ nên $y=2$ là đường tiệm cận ngang của đồ thị hàm số.  Vậy đồ thị hàm số đã cho có $2$ đường tiệm cận đứng và ngang."
+  },
+  {
+    "id": "2D141TN9",
+    "question": "Tiệm cận xiên của đồ thị hàm số $y = f(x) = \\dfrac{-x^2+x+3}{1-x}$ đi qua điểm nào dưới đây?",
+    "options": [
+      "$N(2;1)$",
+      "$Q(1;1)$",
+      "$P(2;-2)$",
+      "$M(1;2)$"
+    ],
+    "answer": 1,
+    "explain": "Điều kiện xác định $x \\ne 1$.<br>  Khi đó $y = f(x) = \\dfrac{-x^2+x+3}{1-x} = x - \\dfrac{3}{1-x}$.<br>  Ta có $\\lim\\limits_{x \\to \\pm\\infty} \\left[f(x) - x\\right] = \\lim\\limits_{x \\to \\pm\\infty} \\dfrac{3}{1 - x} = 0$.<br>  Suy ra đường tiệm cận xiên của đồ thị hàm số là $y=x$.<br>  Thay $x = 1$ vào phương trình $y = x$ ta được $y = 1$.<br>  Vậy đường tiệm cận xiên của đồ thị hàm số đi qua điểm $Q(1;1)$."
+  },
+  {
+    "id": "2D141TN91",
+    "question": "Phương trình đường tiệm cận ngang của đồ thị hàm số $y = f(x) =\\dfrac{-2x-1}{x-2}$ là",
+    "options": [
+      "$y = -2$",
+      "$x = 2$",
+      "$x = -2$",
+      "$y = 2$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $\\lim\\limits_{x\\to +\\infty} y = \\lim\\limits_{x\\to +\\infty} \\dfrac{-2x-1}{x-2} = -2$ và $\\lim\\limits_{x\\to -\\infty} y = \\lim\\limits_{x\\to -\\infty} \\dfrac{-2x-1}{x-2} = -2$.<br>  Vậy $y = -2$ là tiệm cận ngang của đồ thị hàm số."
   }
 ];

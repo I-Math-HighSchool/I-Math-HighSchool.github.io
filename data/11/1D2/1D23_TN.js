@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D23 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D23 = [
   {
@@ -159,5 +160,29 @@ window.tracNghiem1D23 = [
     ],
     "answer": 3,
     "explain": "Gọi số đo bốn góc của tứ giác (tính bằng độ) lần lượt là $u_1, u_2, u_3, u_4$.  Vì chúng tạo thành cấp số nhân với công bội $q=2$, ta có:  $u_1, u_2=2u_1, u_3=4u_1, u_4=8u_1$.  Tổng số đo bốn góc của một tứ giác bằng $360^{\\circ}$, nên ta có:  $u_1+u_2+u_3+u_4=360$  $\\Leftrightarrow u_1+2u_1+4u_1+8u_1=360$  $\\Leftrightarrow 15u_1=360$  $\\Leftrightarrow u_1=24.$  Vậy góc lớn nhất là $u_4=8u_1=8\\cdot 24=192^{\\circ}$."
+  },
+  {
+    "id": "1D234TN1",
+    "question": "Tìm số hạng tổng quát của cấp số nhân lùi vô hạn khi có tổng bằng $3$ và công bội bằng $\\dfrac{2}{3}$.",
+    "options": [
+      "$\\left(\\dfrac{2}{3}\\right)^{n-1}$",
+      "$\\left(\\dfrac{2}{3}\\right)^{n+1}$",
+      "$\\left(\\dfrac{2}{3}\\right)^n$",
+      "$\\left(\\dfrac{2}{3}\\right)^{n+2}$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $S=\\dfrac{u_1}{1-q}=3\\Rightarrow\\dfrac{u_1}{1-\\dfrac{2}{3}}=3\\Rightarrow u_1=1$.<br>  Số hạng tổng quát là $u_n=u_1q^{n-1}=1\\cdot\\left(\\dfrac{2}{3}\\right)^{n-1}=\\left(\\dfrac{2}{3}\\right)^{n-1}$."
+  },
+  {
+    "id": "1D232TN13",
+    "question": "Cho cấp số nhân $(u_n)$ có $u_1=2$ và công bội $q=3$. Giá trị của $u_4$ bằng",
+    "options": [
+      "$54$",
+      "$162$",
+      "$24$",
+      "$48$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $u_4 = u_1 \\cdot q^3 = 2 \\cdot 3^3 = 54$."
   }
 ];

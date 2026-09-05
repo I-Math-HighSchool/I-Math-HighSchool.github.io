@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D22 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D22 = [
   {
@@ -210,5 +211,28 @@ window.dungSai1D22 = [
       }
     ],
     "explain": "Ta có $S_n=n^2+3n$.  <br>- $S_1=1^2+3\\cdot1=4$ và $S_2=2^2+3\\cdot2=10$.<br>- Ta có $u_1=S_1=4$; $u_2=S_2-S_1=10-4=6$.  Công sai $d=u_2-u_1=6-4=2$.<br>- Số hạng tổng quát của cấp số cộng là \\[u_n=u_1+(n-1)d=4+(n-1)2=4+2n-2=2n+2.\\]<br>- Xét $u_n=46\\Leftrightarrow 2n+2=46\\Leftrightarrow 2n=44\\Leftrightarrow n=22$.<br>  Vậy $46$ là số hạng thứ $22$ của cấp số cộng."
+  },
+  {
+    "id": "1D223DS1",
+    "question": "Một hộp chứa các viên bi có kích thước và khối lượng như nhau gồm $5$ bi trắng, $6$ bi đỏ và $7$ bi xanh. Chọn ngẫu nhiên $6$ viên bi từ hộp; trong đó có $x$ viên bi trắng, $y$ viên bi đỏ và $z$ viên bi xanh.",
+    "subQuestions": [
+      {
+        "text": "Xác suất chọn được $6$ viên bi đủ ba màu, đồng thời ba số $x-y$, $y-z$, $z-x$ theo thứ tự lập thành cấp số cộng là $\\dfrac{40}{221}$",
+        "answer": true
+      },
+      {
+        "text": "Xác suất chọn được ít nhất một viên bi màu xanh nhỏ hơn $0{,}95$",
+        "answer": false
+      },
+      {
+        "text": "Xác suất chọn được $6$ viên bi toàn màu xanh là $\\dfrac{1}{2\\,652}$",
+        "answer": true
+      },
+      {
+        "text": "Xác suất chọn được ít nhất $5$ viên bi màu xanh là $\\dfrac{1}{78}$",
+        "answer": true
+      }
+    ],
+    "explain": "Số cách chọn ngẫu nhiên $6$ viên bi từ $18$ viên là $n (\\Omega)=\\mathrm{C}_{18}^6=18\\,564$.  <br>- Do $6$ viên bi đủ ba màu nên ta có điều kiện sau $1\\le x\\le 5 \\text{ và } 1\\le y\\le 6 \\text{ và } 1\\le z\\le 7 \\text{ và } x+y+z=6$.<br> Ba số $x-y$, $y-z$, $z-x$ lập thành cấp số cộng nên \\[ y-z=\\dfrac{(x-y)+(z-x)}{2} \\Leftrightarrow 2(y-z)=-y+z \\Leftrightarrow 3y = 3z \\Rightarrow y= z.  \\] Kết hợp hai điều kiện $x+y+z=6 \\text{ và } y=z \\text{ và } 1\\le x\\le 5 \\text{ và } 1\\le y\\le 6 \\text{ và } 1\\le z\\le 7\\Rightarrow x+2y=6 \\text{ và } 1\\le x\\le 5 \\text{ và } 1\\le y\\le 6.$<br> Ta xét các cặp $\\left(x, y\\right)$ nguyên dương.  <br>- Nếu $y=1 \\Rightarrow x=6-2\\cdot 1=4$, có cặp $(x, y, z) = (4, 1, 1)$.<br>- Nếu $y=2 \\Rightarrow x=6-2\\cdot 2=2$, có cặp $(x, y, z) = (2, 2, 2)$.<br>- Nếu $y=3 \\Rightarrow x=6-2\\cdot 3=0$, loại do $x \\geq 1$. Các trường hợp thỏa mãn <br>- Với cặp $(x, y, z) = (4, 1, 1)$: $4$ trắng, $1$ đỏ, $1$ xanh.<br> Số cách chọn là $\\mathrm{C}_5^4 \\cdot \\mathrm{C}_6^1 \\cdot \\mathrm{C}_7^1 = 5 \\cdot 6 \\cdot 7 = 210$.<br>- Với cặp $(x, y, z) = (2, 2, 2)$: $2$ trắng, $2$ đỏ, $2$ xanh.<br> Số cách chọn là $\\mathrm{C}_5^2 \\cdot \\mathrm{C}_6^2 \\cdot \\mathrm{C}_7^2 = 10 \\cdot 15 \\cdot 21 = 3\\,150$. Gọi $A$ là biến cố \\lq\\lq $6$ viên bi được chọn có đủ ba màu \\rq\\rq. <br>  Số kết quả thuận lợi cho biến cố $A$ là $n(A)=210+3\\,150=3\\,360$. <br>  Xác suất biến cố $A$ là $\\mathrm{P} (A) = \\dfrac{3\\,360}{18\\,564} = \\dfrac{40}{221}$.<br>- Biến cố $B$ \\lq\\lq Chọn được ít nhất một viên bi màu xanh\\rq\\rq.<br> $\\overline{B}$ là \\lq\\lq Không chọn được viên bi màu xanh nào ($6$ viên đều là trắng hoặc đỏ) \\rq\\rq. <br> Tổng số bi trắng và đỏ là $5 + 6 = 11$ (viên).<br> Vậy $n \\left(\\overline{B} \\right)=\\mathrm{C}_{11}^6=462$. <br>  Xác suất $\\mathrm{P} \\left(\\overline{B} \\right)$ là $\\mathrm{P} \\left(\\overline{B} \\right)=\\dfrac{n \\left(\\overline{B} \\right)}{n \\left(\\Omega \\right)}=\\dfrac{462}{18\\,564} = \\dfrac{11}{442}$. <br>  Xác suất $\\mathrm{P} (B)$ là $\\mathrm{P} (B)=1-\\mathrm{P} \\left(\\overline{B} \\right)=1-\\dfrac{11}{442} \\approx 0{,}97511 \\approx 0{,}98&gt; 0{,}95$.<br>- Xét biến cố $C$ là \\lq\\lq Chọn được 6 viên bi toàn màu xanh \\rq\\rq $\\Rightarrow n(C)=\\mathrm{C}_7^6=7$. <br>  Xác suất của biến cố $C$ là $\\mathrm{P} (C) = \\dfrac{7}{18\\,564}= \\dfrac{1}{2\\,652}$.<br>- Xét biến cố $D$ là \\lq\\lq Chọn được ít nhất $5$ viên bi màu xanh \\rq\\rq.<br> Biến cố này gồm hai trường hợp  <br>- Lấy $5$ viên xanh và $1$ viên (trắng hoặc đỏ từ $5+6=11$ viên). <br> Số cách lấy là $\\mathrm{C}_7^5 \\cdot \\mathrm{C}_{11}^1=21 \\cdot 11=231$ (cách).<br>- Lấy $6$ viên xanh và $0$ viên (trắng hoặc đỏ), có $\\mathrm{C}_7^6 \\cdot \\mathrm{C}_{11}^0=7\\cdot 1=7$ (cách). Số kết quả thuận lợi cho biến cố $D$ là $231+7=238$. <br>  Xác suất $\\mathrm{P} (D)$ là $\\mathrm{P} (D)=\\dfrac{n(D)}{n(\\Omega)}=\\dfrac{238}{18\\,564}=\\dfrac{1}{78}$."
   }
 ];

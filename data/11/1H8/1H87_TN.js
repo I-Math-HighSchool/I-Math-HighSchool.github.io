@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H87 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H87 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H87 = [
   {
@@ -98,5 +100,17 @@ window.tracNghiem1H87 = [
     ],
     "answer": 2,
     "explain": "Ta có $AA'=\\sqrt{AB'^2-A'B'^2}=\\sqrt{(a\\sqrt{5})^2-a^2}=2a.$<br>  Thể tích khối lăng trụ đứng đã cho là $V=AB\\cdot AD\\cdot AA'=a\\cdot a\\sqrt{2}\\cdot 2a=2a^3\\sqrt{2}.$"
+  },
+  {
+    "id": "1H874TN1",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Biết $SA\\perp(ABCD)$ và $SA=a\\sqrt{3}$. Thể tích của khối chóp $S.ABCD$ là",
+    "options": [
+      "$a^3\\sqrt{3}$",
+      "$\\dfrac{a^3\\sqrt{3}}  {3}$",
+      "$\\dfrac{a^3}{4}$",
+      "$\\dfrac{a^3\\sqrt{3}}{12}$"
+    ],
+    "answer": 1,
+    "explain": "Vì $ABCD$ là hình vuông cạnh $a$ nên $S_{ABCD}=a^2$.<br>  Mà $SA\\perp(ABCD)$ nên $SA$ là đường cao và $SA=a\\sqrt{3}$.<br>  Thể tích của khối chóp $S.ABCD$ là $V=\\dfrac{1}{3}S_{ABCD}\\cdot SA=\\dfrac{1}{3}a^2\\cdot a\\sqrt{3}=\\dfrac{a^3\\sqrt{3}}{3}$."
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D15 = [
   {
@@ -207,5 +208,11 @@ window.traLoiNgan1D15 = [
     "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Nghiệm dương nhỏ nhất của phương trình $\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1=0$ có dạng $x = \\dfrac{a}{b}\\pi$ với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=a+b$.",
     "answer": "9",
     "explain": "Ta có   $\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1=0$<br>$\\Leftrightarrow \\cos\\left(\\dfrac{\\pi}{4}-x\\right)=-1$<br>$\\Leftrightarrow \\dfrac{\\pi}{4}-x = \\pi +k2\\pi, k \\in \\mathbb{Z}$<br>$\\Leftrightarrow x = -\\dfrac{3\\pi}{4} - k2\\pi, k \\in \\mathbb{Z}$  Để tìm nghiệm dương nhỏ nhất nên thay $k=-1$, ta được $x=\\dfrac{5\\pi}{4}$.<br>  Suy ra $a=5$; $b=4$.<br>  Vậy $T=a+b = 9$."
+  },
+  {
+    "id": "1D155TL1",
+    "question": "Biết tổng các nghiệm của phương trình $\\sin \\left(\\pi \\sin 2x\\right)=1$ trên đoạn $[0;2\\pi]$ bằng $a\\pi$. Tìm $a$.",
+    "answer": "3",
+    "explain": "Ta có  $\\sin \\left(\\pi \\sin 2x\\right)=1 \\Leftrightarrow \\pi \\sin 2x=\\dfrac{\\pi}{2}+k2\\pi$<br>$\\Leftrightarrow \\sin 2x=\\dfrac{1}{2}+2k\\; \\left(k\\in \\mathbb{Z}\\right).$  Do $\\sin 2x\\in \\left[-1;1\\right]$ nên $-1\\le \\dfrac{1}{2}+2k \\le 1\\Leftrightarrow-\\dfrac{3}{4} \\le k\\le \\dfrac{1}{4}$, vì $k\\in \\mathbb{Z}$ nên $k=0$.<br>  Với $k=0$ ta có phương trình $\\sin 2x=\\dfrac{1}{2} \\Leftrightarrow 2x=\\dfrac{\\pi}{6}+l2\\pi \\text{ hoặc } 2x=\\dfrac{5\\pi}{6}+l2\\pi \\left(l\\in \\mathbb{Z}\\right)\\Leftrightarrow x=\\dfrac{\\pi}{12}+l\\pi \\text{ hoặc } x=\\dfrac{5\\pi}{12}+l\\pi.$<br>  Do $x\\in \\left[0;2\\pi \\right]$ nên $x\\in\\left\\{\\dfrac{\\pi}{12};\\dfrac{13\\pi}{12};\\dfrac{5\\pi}{12};\\dfrac{17\\pi}{12} \\right\\}$.<br>  Suy ra tổng các nghiệm của phương trình $\\sin \\left(\\pi \\sin 2x\\right)=1$ trên đoạn $\\left[0;\\; 2\\pi \\right]$ bằng $\\dfrac{\\pi}{12}+\\dfrac{13\\pi}{12}+\\dfrac{5\\pi}{12}+\\dfrac{17\\pi}{12}=3\\pi.$  Vậy $a=3$."
   }
 ];

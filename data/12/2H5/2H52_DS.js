@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H52 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2H52 = [
   {
@@ -187,5 +188,28 @@ window.dungSai2H52 = [
       }
     ],
     "explain": "Một véc-tơ chỉ phương của $d$ là $\\overrightarrow{u}=(2;-3;4)$ và một véc-tơ pháp tuyến của mặt phẳng $(P)$ là $\\overrightarrow{n}_1=(1;-2;1)$.  <br>- Đường thẳng $d$ có véc-tơ chỉ phương là $\\overrightarrow{u}=(2;-3;4)$.<br>- Thay điểm $M(1;2;3)$ vào phương trình $\\dfrac{x-1}{2}=\\dfrac{y+3}{-3}=\\dfrac{z}{4}$ ta thấy không thỏa suy ra $M\\notin d$.<br>- Khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ là $\\mathrm{d}\\left(A,(P)\\right)=\\dfrac{\\left|1\\cdot1+2\\cdot3+1\\right|}{\\sqrt{1+1+4}}=\\dfrac{4\\sqrt{6}}{3}$.<br>- Vì mặt phẳng $(Q)$ vuông góc với mặt phẳng $(P)$ và chứa $d$ nên véc-tơ pháp tuyến của $(Q)$ là $\\overrightarrow{n}=\\left[\\overrightarrow{u},\\overrightarrow{n}_1\\right]=(5;2;-1)$.<br>  Vì $(Q)$ chứa $d$ nên $(Q)$ đi qua điểm $N(1;-3;0)$. Phương trình mặt phẳng $(Q)$ là  \\[5(x-1)+2(y+3)-(z-0)=0\\Leftrightarrow 5x+2y-z+1=0.\\]"
+  },
+  {
+    "id": "2H523DS9",
+    "question": "Trong không gian $Oxyz$, cho tam giác $ABC$ với $A(1;1;2)$, $B(5;1;-2)$ và $C(3;5;0)$.",
+    "subQuestions": [
+      {
+        "text": "Tọa độ vectơ $\\overrightarrow{BC}$ là $(-2;4;2)$",
+        "answer": true
+      },
+      {
+        "text": "$\\overrightarrow{AB} \\cdot \\overrightarrow{BC}=0$",
+        "answer": false
+      },
+      {
+        "text": "Điểm $G\\left(\\dfrac{7}{3};\\dfrac{9}{3};0\\right)$ là trọng tâm tam giác $ABC$",
+        "answer": false
+      },
+      {
+        "text": "Điểm $H(a;b;c)$ là chân đường cao hạ từ $A$ xuống $BC$. Khi đó $a+b-c=8$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có $\\overrightarrow{BC}=(-2;4;2)$.<br>- Ta có $\\overrightarrow{AB}=(4;0;-4)$, $\\overrightarrow{BC}=(-2;4;2)$. <br> Do đó $\\overrightarrow{AB} \\cdot \\overrightarrow{BC}=-16$.<br>- $G$ là trọng tâm tam giác $ABC$ nên $G\\left(3;\\dfrac{7}{3};0\\right)$.<br>- Phương trình đường thẳng $BC$ có một vectơ chỉ phương $\\overrightarrow{u}=(1;-2;-1)$ và đi qua điểm $B(5;1;-2)$ là $x=5+t \\text{ và } y=1-2t \\text{ và } z=-2-t$ với $t \\in \\mathbb{R}$. <br> Điểm $H$ thuộc $BC$ nên $H(5+t;1-2t;-2-t)$. <br>  Vậy $\\overrightarrow{AH}=(4+t;-2t;-4-t)$. <br>  Do $AH$ vuông góc $BC$ nên  \\[ \\overrightarrow{AH} \\cdot \\overrightarrow{BC}=0 \\Leftrightarrow -2 \\cdot (4+t)-4 \\cdot 2t+2 \\cdot (-4-t)=0 \\Rightarrow t=-\\dfrac{4}{3} \\Rightarrow H \\left(\\dfrac{11}{3}; \\dfrac{11}{3}; - \\dfrac{2}{3} \\right).  \\] Vậy $a=\\dfrac{11}{3}$, $b=\\dfrac{11}{3}$, $c=- \\dfrac{2}{3}$ nên $a+b-c=\\dfrac{11}{3} + \\dfrac{11}{3} - \\left(- \\dfrac{2}{3}\\right)=8$."
   }
 ];

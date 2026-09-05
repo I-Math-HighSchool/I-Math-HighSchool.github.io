@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H21 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2H21 = [
   {
@@ -1131,5 +1132,125 @@ window.tracNghiem2H21 = [
     ],
     "answer": 1,
     "explain": "$\\overrightarrow{DA}+\\overrightarrow{DB}=\\overrightarrow 0$ là phát biểu sai."
+  },
+  {
+    "id": "2H211TN1",
+    "question": "Trong không gian, cho hai vectơ $\\overrightarrow{u}$ và $\\overrightarrow{v}$ thỏa mãn $\\left|\\overrightarrow{u}\\right|=5$, $\\left|\\overrightarrow{v}\\right|=8$ và $\\left(\\overrightarrow{u},\\overrightarrow{v}\\right)=120^\\circ$. Khẳng định nào dưới đây là đúng?",
+    "options": [
+      "$\\overrightarrow{u}\\cdot \\overrightarrow{v}=20$",
+      "$\\overrightarrow{u}\\cdot \\overrightarrow{v}=-20\\sqrt{3}$",
+      "$\\overrightarrow{u}\\cdot \\overrightarrow{v}=-20$",
+      "$\\overrightarrow{u}\\cdot \\overrightarrow{v}=40$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\vec{u}\\cdot \\vec{v}=\\left|\\vec{u}\\right|\\cdot \\left|\\vec{v}\\right|\\cdot \\cos \\left(\\vec{u},\\vec{v}\\right)=5\\cdot 8\\cdot \\cos 120^{\\circ}=-20$."
+  },
+  {
+    "id": "2H213TN79",
+    "question": "Cho hình chóp $S.ABCD$, có đáy $ABCD$ là hình thoi, $SA=AB=2$, $\\widehat{ABC}=60^{\\circ}$, $SA$ vuông góc với mặt đáy. Gọi $H$ là trung điểm của $SA$. Tính $D=\\left|2\\overrightarrow{SH}+\\overrightarrow{AD}-2\\overrightarrow{BH}\\right|$.",
+    "options": [
+      "$2\\sqrt{7}$",
+      "$2\\sqrt{2}$",
+      "$\\sqrt{5}$",
+      "$4$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $ABCD$ là hình thoi $\\Rightarrow BA=BC$ $\\Rightarrow \\triangle ABC$ cân tại $B$.<br>  Lại có $\\widehat{ABC}=60^{\\circ}$ $\\Rightarrow \\triangle ABC$ cân là tam giác đều $\\Rightarrow BA=BC=AC=2$.<br>  Suy ra $\\triangle SAB=\\triangle SAC$ (c-g-c) $\\Rightarrow SB=SC$.<br>  Do đó $\\triangle SBC$ cân tại $S$.<br>  Gọi $I$ là trung điểm của $BC$ thì ta có<br>  $SI\\perp BC\\Rightarrow SI^2=SB^2-BI^2=SA^2+AB^2-\\left(\\dfrac{1}{2} BC\\right)^2=2^2+2^2-1^2=7$.<br>   $2\\overrightarrow{SH}+\\overrightarrow{AD}-2\\overrightarrow{BH}=2\\left(\\overrightarrow{SH}+\\overrightarrow{HB}\\right)+\\overrightarrow{BC}=\\overrightarrow{SB}+\\overrightarrow{SB}+\\overrightarrow{BC}=\\overrightarrow{SB}+\\overrightarrow{SC}=2\\overrightarrow{SI}$.<br>  Suy ra $D^2=\\left(\\left|2\\overrightarrow{SI}\\right|\\right)^2=2^2\\cdot 7\\Rightarrow D=2\\sqrt{7}$."
+  },
+  {
+    "id": "2H211TN3",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $O$ là tâm của hình lập phương. Khẳng định nào sau  đây là đúng?",
+    "options": [
+      "$\\overrightarrow{AO} = \\dfrac{1}{3}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$",
+      "$\\overrightarrow{AO} = \\dfrac{1}{2}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$",
+      "$\\overrightarrow{AO} = \\dfrac{2}{3}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$",
+      "$\\overrightarrow{AO} = \\dfrac{1}{4}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$"
+    ],
+    "answer": 1,
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_QV1_TT1_LVT_B_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Theo quy tắc hình hộp ta có $\\overrightarrow{AC'} = \\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'}$ mà $\\overrightarrow{AC'} = 2\\overrightarrow{AO}$.<br>  Suy ra $\\overrightarrow{AO} = \\dfrac{1}{2}\\left(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}\\right)$."
+  },
+  {
+    "id": "2H211TN92",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Mệnh đề nào sau đây <strong>sai</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_AnDuong__005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}$",
+      "$\\overrightarrow{AB}=\\overrightarrow{CD}$",
+      "$|\\overrightarrow{AB}|=|\\overrightarrow{CD}|$",
+      "$\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC'}$"
+    ],
+    "answer": 1,
+    "explain": "Mệnh đề sai là $\\overrightarrow{AB}=\\overrightarrow{CD}$ vì $\\overrightarrow{AB}$ và $\\overrightarrow{CD}$ là hai vectơ đối nhau."
+  },
+  {
+    "id": "2H212TN92",
+    "question": "Cho hình lập phương $ABCD.A'B'C'D'$.  Vecto nào dưới đây bằng $\\overrightarrow{AD}$?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\overrightarrow{BC'}$",
+      "$\\overrightarrow{DC}$",
+      "$\\overrightarrow{B'C'}$",
+      "$\\overrightarrow{AB}$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\overrightarrow{AD}=\\overrightarrow{BC}=\\overrightarrow{A'D'}=\\overrightarrow{B'C'}$."
+  },
+  {
+    "id": "2H211TN6",
+    "question": "Cho tứ diện $ABCD$. Gọi $G$ là trọng tâm của tam giác $ABC$. Phát biểu nào sau đây là <strong>sai</strong>?",
+    "options": [
+      "$\\overrightarrow{DA}+\\overrightarrow{DB}+\\overrightarrow{DC}=3\\overrightarrow{DG}$",
+      "$\\overrightarrow{GD}-\\overrightarrow{GA}=\\overrightarrow{AD}$",
+      "$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\overrightarrow{0}$",
+      "$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\overrightarrow{0}$"
+    ],
+    "answer": 3,
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $J$ là trọng tâm tứ diện $ABCD$, ta có $\\overrightarrow{JA}+\\overrightarrow{JB}+\\overrightarrow{JC}+\\overrightarrow{JD}=\\overrightarrow{0}$.<br>  Suy ra $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=4\\overrightarrow{GJ}\\ne\\overrightarrow{0}$."
+  },
+  {
+    "id": "2H211TN7",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (như hình vẽ). Khẳng định nào trong các khẳng định sau đây là đúng?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Lien_cap_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\overrightarrow{B C}+\\overrightarrow{B A}+\\overrightarrow{B D'}=\\overrightarrow{B B'}$",
+      "$\\overrightarrow{A D}+\\overrightarrow{D' C'}+\\overrightarrow{C C'}=\\overrightarrow{A C'}$",
+      "$\\overrightarrow{B C}+\\overrightarrow{B A}=\\overrightarrow{D' A'}+\\overrightarrow{D' C'}$",
+      "$\\overrightarrow{B A}+\\overrightarrow{D D'}+\\overrightarrow{B D'}=\\overrightarrow{B C}$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\overrightarrow{A D}+\\overrightarrow{D' C'}+\\overrightarrow{C C'}=\\overrightarrow{A D}+\\overrightarrow{A B}+\\overrightarrow{A A'}=\\overrightarrow{A C'}$."
+  },
+  {
+    "id": "2H211TN8",
+    "question": "Trong không gian, cho hình lăng trụ $ABC.A'B'C'$. Khẳng định nào dưới đây đúng?",
+    "options": [
+      "$\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{A' C}$",
+      "$\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{A' C'}$",
+      "$\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{BC'}$",
+      "$\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{B' C'}$"
+    ],
+    "answer": 0,
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overrightarrow{A' B}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' B'}+\\overrightarrow{B' C'}=\\overrightarrow{A' A}+\\overrightarrow{A' C'}=\\overrightarrow{A' C}$."
+  },
+  {
+    "id": "2H211TN93",
+    "question": "Cho lăng trụ $ABC.A'B'C'$. Khẳng định nào sau đây <strong>đúng</strong>?<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$",
+      "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC'}$",
+      "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{C'B}$",
+      "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{B'C}$"
+    ],
+    "answer": 1,
+    "explain": "Trong lăng trụ $ABC.A'B'C'$, ta có $\\overrightarrow{A'C'} = \\overrightarrow{AC}$.<br>  Khi đó $\\overrightarrow{BA} + \\overrightarrow{A'C'} = \\overrightarrow{BA} + \\overrightarrow{AC} = \\overrightarrow{BC}$."
+  },
+  {
+    "id": "2H212TN93",
+    "question": "Cho hình lăng trụ $ABC.A'B'C'$. Đặt $\\overrightarrow{a}=\\overrightarrow{AA'}$, $\\overrightarrow{b}=\\overrightarrow{AB}$, $\\overrightarrow{c}=\\overrightarrow{AC}$. Gọi $G'$ là trọng tâm của tam giác $A'B'C'$. Vectơ $\\overrightarrow{AG'}$ bằng<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenVi_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\dfrac{1}{3}\\left(\\overrightarrow{a}+\\overrightarrow{b}+3\\overrightarrow{c}\\right)$",
+      "$\\dfrac{1}{3}\\left(\\overrightarrow{a}+3\\overrightarrow{b}+\\overrightarrow{c}\\right)$",
+      "$\\dfrac{1}{3}\\left(\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}\\right)$",
+      "$\\dfrac{1}{3}\\left(3\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}\\right)$"
+    ],
+    "answer": 3,
+    "explain": "Gọi $M$ là trung điểm của $B'C'$.<br>  Ta có $\\begin{aligned}[t]  \\overrightarrow{AG'} &= \\overrightarrow{AA'} + \\overrightarrow{A'G'} \\\\  &= \\overrightarrow{AA'} + \\dfrac{2}{3}\\overrightarrow{A'M} \\\\  &= \\overrightarrow{AA'} + \\dfrac{1}{3}\\left(\\overrightarrow{A'B'} + \\overrightarrow{A'C'}\\right) \\\\  &= \\dfrac{1}{3}\\left(3\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c}\\right).  \\end{aligned}$<br>  Vậy $\\overrightarrow{AG'} = \\dfrac{1}{3}\\left(3\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}\\right)$"
   }
 ];

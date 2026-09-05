@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D64 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D64 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D64 = [
   {
@@ -266,5 +268,53 @@ window.tracNghiem1D64 = [
     ],
     "answer": 0,
     "explain": "Điều kiện $2x-1&gt;0\\Leftrightarrow x&gt;\\dfrac{1}{2}$.<br>  Bất phương trình tương đương $2x-1&lt;27^\\frac{1}{3}=3\\Leftrightarrow 2x&lt;4\\Leftrightarrow x&lt;2$.<br>  Kết hợp điều kiện ta được $\\dfrac{1}{2}&lt;x&lt;2$."
+  },
+  {
+    "id": "1D644TN23",
+    "question": "Tập nghiệm của bất phương trình $\\log_3 (x+1)\\le 2$ là",
+    "options": [
+      "$(1;9)$",
+      "$(-1;7]$",
+      "$(-\\infty;9]$",
+      "$(-1;8]$"
+    ],
+    "answer": 3,
+    "explain": "Điều kiện là $x+1&gt; 0\\Leftrightarrow x &gt;-1$.<br>   $\\log_3 (x+1)\\le 2\\Leftrightarrow x+1\\le 9\\Leftrightarrow x\\le 8$.<br>  Kết hợp với điều kiện, bất phương trình có tập nghiệm là $S=(-1;8]$."
+  },
+  {
+    "id": "1D643TN2",
+    "question": "Nghiệm của phương trình $\\log_2 x=3$ là",
+    "options": [
+      "$x=2$",
+      "$x=9$",
+      "$x=8$",
+      "$x=3$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\log_2 x=3$ suy ra $x=2^3=8$."
+  },
+  {
+    "id": "1D642TN3",
+    "question": "Giả sử nhiệt độ của một loại đồ uống được xác định theo công thức $T=22+50\\mathrm{e}^{-\\dfrac{1}{8}t}$, $t\\ge 0$,  trong đó $t$ (phút) là khoảng thời gian tính từ lúc pha chế đồ uống đó xong. Hỏi sau bao lâu kể từ lúc pha chế xong thì nhiệt độ của đồ uống đó là $50^{\\circ}$ C (kết quả làm tròn đến hàng đơn vị)?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$8$",
+      "$7$"
+    ],
+    "answer": 1,
+    "explain": "Ta có   $50=22+50\\mathrm{e}^{-\\dfrac{1}{8}t} \\Leftrightarrow \\mathrm{e}^{-\\dfrac{1}{8}t}=\\dfrac{14}{25}$<br>$\\Leftrightarrow -\\dfrac{1}{8}t=\\ln \\dfrac{14}{25}$<br>$\\Leftrightarrow t=-8\\ln \\dfrac{14}{25}\\approx 5.$"
+  },
+  {
+    "id": "1D643TN4",
+    "question": "Nghiệm của phương trình $2^{x-1}=3$ là",
+    "options": [
+      "$x=3$",
+      "$x=1+\\log_2 3$",
+      "$x=\\log_3 6$",
+      "$x=2$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $2^{x-1}=3 \\Leftrightarrow x-1 = \\log_2 3 \\Leftrightarrow x = 1 + \\log_2 3$."
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D13 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D13 = [
   {
@@ -927,5 +928,125 @@ window.tracNghiem2D13 = [
     ],
     "answer": 0,
     "explain": "Dựa vào bảng biến thiên của hàm số, giá trị nhỏ nhất của hàm số là $-7$, đạt được tại $x=-2$ hoặc $x=2$."
+  },
+  {
+    "id": "2D136TN74",
+    "question": "Một cửa hàng buôn giày nhập một đôi với giá là $40$ đôla. Cửa hàng ước tính rằng nếu đôi giày được bán với giá $x$ đôla thì mỗi tháng khách hàng sẽ mua $\\left(120-x\\right)$ đôi. Hỏi cửa hàng bán một đôi giày giá bao nhiêu thì thu được nhiều lãi nhất?",
+    "options": [
+      "$80$ USD",
+      "$160$ USD",
+      "$40$ USD",
+      "$240$ USD"
+    ],
+    "answer": 0,
+    "explain": "Lãi mỗi đôi giày là $x-40$ đôla $(40\\le x\\le 120)$.<br>   Tiền lãi khi bán được $\\left(120-x\\right)$ đôi giày là $f(x)=\\left(x-40\\right)\\cdot \\left(120-x\\right)=-x^2+160x-4800.$   Ta có $f'(x)=-2x+160$.<br>  $f'(x)=0\\Leftrightarrow-2x+160=0\\Leftrightarrow x=80$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy cửa hàng cần bán giày với giá $80$ USD một đôi thì thu được nhiều lãi nhất."
+  },
+  {
+    "id": "2D131TN77",
+    "question": "Giá trị nhỏ nhất của hàm số $y=(x-3)^2 \\mathrm{e}^x$ trên đoạn $[0;2]$ bằng",
+    "options": [
+      "$9$",
+      "$\\mathrm{e}^2$",
+      "$0$",
+      "$4\\mathrm{e}$"
+    ],
+    "answer": 1,
+    "explain": "Hàm số $y=(x-3)^2 \\mathrm{e}^x$ liên tục trên đoạn $[0;2]$. <br>  Ta có $y' = 2(x-3)\\mathrm{e}^x +(x-3)^2 \\mathrm{e}^x = \\mathrm{e}^x (x-3)(x-1)$. <br>  Khi đó $y'=0 \\Leftrightarrow \\mathrm{e}^x (x-3)(x-1)=0 \\Leftrightarrow x=3 \\notin [0;2] \\text{ hoặc } x=1 \\in [0;2].$<br>  Do đó $y(0) = 9$; $y(1) = 4\\mathrm{e}$ ; $y(2) = \\mathrm{e}^2$. <br>  Vậy giá trị nhỏ nhất của hàm số là $y(2) = \\mathrm{e}^2$."
+  },
+  {
+    "id": "2D131TN78",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1;3]$ và có đồ thị như hình vẽ. Gọi $M$ và $m$ lần  lượt là giá trị lớn nhất và nhỏ nhất của hàm số đã cho trên $[-1;3]$. Tính giá trị $M-m$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$4$",
+      "$0$",
+      "$1$",
+      "$5$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $M-m=3-(-2)=5$."
+  },
+  {
+    "id": "2D131TN79",
+    "question": "Xét hàm số $y=\\dfrac{x-1}{2x+1}$ trên $\\left[0; 1\\right]$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$\\max\\limits_{\\left[0; 1\\right]} y=0$",
+      "$\\min\\limits_{\\left[0; 1\\right]} y=-\\dfrac{1}{2}$",
+      "$\\min\\limits_{\\left[0; 1\\right]} y=\\dfrac{1}{2}$",
+      "$\\max\\limits_{\\left[0; 1\\right]} y=1$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $y'=\\dfrac{3}{(2x+1)^2}&gt;0$, $\\forall x\\in \\left[0; 1\\right]$ nên $\\max\\limits_{\\left[0; 1\\right]} y=y(1)=0$."
+  },
+  {
+    "id": "2D132TN6",
+    "question": "Bạn Nga có một tấm bìa hình vuông cạnh $20$ cm. Bạn muốn cắt ở mỗi góc một hình  vuông nhỏ để gấp và dán lại thành một cái hộp đựng đồ dùng học tập không có nắp (mép dán không đáng kể).  Để cái hộp có thể tích lớn nhất thì hình vuông nhỏ cắt đi có độ dài cạnh là  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$20$ cm",
+      "$\\dfrac{10}{3}$ cm",
+      "$\\dfrac{20}{3}$ cm",
+      "$10$ cm"
+    ],
+    "answer": 1,
+    "explain": "Gọi $ x $ là cạnh hình vuông bị cắt ($ 0\\le x\\le 10 $).<br>  Khi đó thể tích của khối hình chữ nhật tạo thành là   \\[V(x)=x\\cdot \\left(20-2x\\right)^2= 4x^3-80x^2+400x.\\]  Suy ra $V'(x)=12 x^2-160 x+400$; $ V'(x)=0\\Leftrightarrow x=10 \\text{ hoặc } x=\\dfrac{10}{3}. $<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_DaoDuyTu_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy thể tích khối hộp chữ nhật lớn nhất khi cạnh hình vuông bị cắt là $\\dfrac{10}{3}$ cm."
+  },
+  {
+    "id": "2D131TN80",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình bên. Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-3; 2]$ đạt được tại $x$ bằng<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_Lien_cap_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$4$",
+      "$2$",
+      "$-3$",
+      "$0$"
+    ],
+    "answer": 2,
+    "explain": "Quan sát đồ thị ta thấy giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-3; 2]$ là $4$ và đạt được tại $x = -3$."
+  },
+  {
+    "id": "2D131TN81",
+    "question": "Giá trị lớn nhất của hàm số $f(x)=\\dfrac{2x-3}{x+1}$ trên đoạn $[0; 2]$ là",
+    "options": [
+      "$-3$",
+      "$3$",
+      "$\\dfrac{1}{3}$",
+      "$1$"
+    ],
+    "answer": 2,
+    "explain": "Tập xác định: $\\mathscr{D}=\\mathbb{R} \\setminus\\{-1\\}$.<br>  $f'(x)=\\dfrac{5}{(x+1)^2} &gt; 0, \\forall x \\neq-1$.<br>  Suy ra hàm số $f(x)$ đồng biến trên đoạn $[0;2]$.<br>  Vậy $\\max\\limits_{[0;2]} f(x)=f(2)=\\dfrac{1}{3}$."
+  },
+  {
+    "id": "2D131TN9",
+    "question": "Giá trị nhỏ nhất của hàm số $f(x)=x^4-8x^2+a$, ($a \\in \\mathbb{R}$) trên đoạn $[-1;3]$ bằng",
+    "options": [
+      "$-6$",
+      "$a$",
+      "$-16+a$",
+      "$9+a$"
+    ],
+    "answer": 2,
+    "explain": "Xét hàm số $f(x)=x^4-8x^2+a$ trên đoạn $[-1;3]$.<br>  Ta có $f'(x)=4x^3-16x$; $f'(x)=0 \\Leftrightarrow 4x(x^2-4)=0 \\Leftrightarrow x=0 \\in [-1;3] \\text{ hoặc } x=2 \\in [-1;3] \\text{ hoặc } x=-2 \\notin [-1;3].$<br>  Tính các giá trị:  <br>- $f(-1) = (-1)^4 - 8(-1)^2 + a = a-7$.<br>- $f(0) = a$.<br>- $f(2) = 2^4 - 8 \\cdot 2^2 + a = a-16$.<br>- $f(3) = 3^4 - 8 \\cdot 3^2 + a = a+9$.  So sánh các giá trị trên, ta thấy $\\min\\limits_{x \\in [-1;3]} f(x) = f(2) = a-16 = -16+a$."
+  },
+  {
+    "id": "2D131TN82",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1;5]$ và có đồ thị như hình vẽ bên. Trên đoạn $[1;5]$, hàm số đã cho đạt giá trị lớn nhất tại điểm<br><img src=\"data/12/2D1/im2D13/loc8_TT_THPT_NguyenVi_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$x=4$",
+      "$x=2$",
+      "$x=5$",
+      "$x=1$"
+    ],
+    "answer": 1,
+    "explain": "Dựa vào đồ thị hàm số, trên đoạn $[1;5]$ hàm số đạt giá trị lớn nhất bằng $4$ tại $x=2$."
+  },
+  {
+    "id": "2D131TN83",
+    "question": "Giá trị nhỏ nhất của hàm số $y=x^4-2x^2-1$ trên đoạn $[0;2]$ bằng",
+    "options": [
+      "$7$",
+      "$-2$",
+      "$1$",
+      "$-1$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $y=x^4-2x^2-1$.<br>  Suy ra $y' = 4x^3-4x$.<br>  Khi đó $y'=0 \\Leftrightarrow x=0\\in[0;2] \\text{ hoặc } x=1\\in[0;2] \\text{ hoặc } x=-1\\notin[0;2].$<br>  Xét trên đoạn $[0;2]$ ta có  <br>- $f(0)=-1$.<br>- $f(1)=-2$.<br>- $f(2)=7$.  Vậy giá trị nhỏ nhất của hàm số $y=x^4-2x^2-1$ trên đoạn $[0;2]$ bằng $-2$ đạt được tại $x = 1$."
   }
 ];

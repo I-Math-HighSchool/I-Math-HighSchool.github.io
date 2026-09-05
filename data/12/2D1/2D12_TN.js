@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D12 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D12 = [
   {
@@ -831,5 +832,113 @@ window.tracNghiem2D12 = [
     ],
     "answer": 2,
     "explain": "Ta có $f'(x)=0\\Leftrightarrow x=-2 \\text{ hoặc } x=-1 \\text{ hoặc } x=0.$<br>  Bảng xét dấu  <br><img src=\"data/12/2D1/im2D12/dlts_12_DLTS8_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng xét dấu, thấy có $2$ lần $f'(x)$ đổi dấu từ âm sang dương nên hàm số có $2$ điểm cực tiểu"
+  },
+  {
+    "id": "2D122TN70",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ bên dưới. Mệnh đề nào dưới đây đúng?  <br><img src=\"data/12/2D1/im2D12/loc8_TT_KSCL_Cum_lien_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\min\\limits_{\\mathbb{R}} y=4$",
+      "$y_{\\text{CT}}=0$",
+      "$\\max\\limits_{\\mathbb{R}} y=5$",
+      "$ y_{\\text{CĐ}}=5$"
+    ],
+    "answer": 3,
+    "explain": "Dựa vào bảng biến thiên giá trị cực đại của hàm số là $ y_{\\text{CĐ}}=5$."
+  },
+  {
+    "id": "2D122TN71",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đạo hàm là $f'(x)=x^2\\left(x^2-5x+4\\right)$, $\\forall x\\in \\mathbb{R}$. Hàm số $f(x)$ có bao nhiêu điểm cực tiểu?",
+    "options": [
+      "$0$",
+      "$2$",
+      "$1$",
+      "$3$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $f'(x)=x^2\\left(x^2-5x+4\\right)=0\\Leftrightarrow x=0 \\,\\text{(nghiệm kép)} \\text{ hoặc } x=4 \\text{ hoặc } x=1.$<br>  Bảng xét dấu  <br><img src=\"data/12/2D1/im2D12/loc8_TT_KSCL_THPT_Le__001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số có $1$ điểm cực tiểu."
+  },
+  {
+    "id": "2D122TN72",
+    "question": "Cho hàm số $y = f(x)$ có bảng biến thiên sau  <br><img src=\"data/12/2D1/im2D12/loc8_TT_QV1_TT1_LVT_B_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị cực đại của hàm số $y = f(x)$ là",
+    "options": [
+      "$1$",
+      "$-3$",
+      "$5$",
+      "$0$"
+    ],
+    "answer": 3,
+    "explain": "Dựa vào bảng biến thiên, giá trị cực đại của hàm số $y=f(x)$ là $0$. <br>"
+  },
+  {
+    "id": "2D122TN4",
+    "question": "Cho hàm số $y=f(x)$ có $f'(x)=\\left(\\mathrm{e}^x-1\\right)\\left(x^2-x\\right)$, $\\forall x\\in \\mathbb{R}$. Số điểm cực trị của hàm số  $y=f(x)$ là",
+    "options": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $f'(x)=0\\Leftrightarrow \\left(\\mathrm{e}^x-1\\right)\\left(x^2-x\\right)=0\\Leftrightarrow \\mathrm{e}^x-1=0 \\text{ hoặc } x^2-x=0\\Leftrightarrow x=0 \\text{ hoặc } x=1.$<br>  Bảng xét dấu của $f'(x)$  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_DaoDuyTu_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra hàm số đã cho có một điểm cực trị."
+  },
+  {
+    "id": "2D122TN73",
+    "question": "Cho hàm số $y=ax^3+bx^2+cx+d$ có đồ thị như hình vẽ. Khẳng định nào dưới đây  đúng?<br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_DaoDuyTu_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "Hàm số đã cho có hai điểm cực trị",
+      "$a &gt; 0$, $d &lt; 0$",
+      "$a &lt; 0$, $d &gt; 0$",
+      "Hàm số đã cho đồng biến trên khoảng $\\left(-\\infty;+\\infty \\right)$"
+    ],
+    "answer": 0,
+    "explain": "Dựa vào đồ thị ta có hàm số đã cho có hai điểm cực trị."
+  },
+  {
+    "id": "2D122TN74",
+    "question": "Giá trị cực tiểu của hàm số $f(x)=\\dfrac{2x^2-3x+6}{x-2}$ là?",
+    "options": [
+      "$0$",
+      "$-3$",
+      "$4$",
+      "$13$"
+    ],
+    "answer": 3,
+    "explain": "$f'(x)=\\dfrac{2x^2-8x}{(x-2)^2}; f'(x)=0\\Leftrightarrow x=0 \\text{ hoặc } x=4.$  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenKh_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Điểm cực tiểu của hàm số là $x=4$ nên giá trị cực tiểu $y=13$"
+  },
+  {
+    "id": "2D122TN75",
+    "question": "Cho $f(x)$ là hàm số bậc ba có $f'(x)=3(x+2)(x-3)$ khẳng định nào dưới đây <strong>sai</strong>?",
+    "options": [
+      "Hàm số $f(x)$ có hai điểm cực trị",
+      "Hàm số $f(x)$ đạt cực đại tại điểm $x_0=-2$",
+      "Hàm số $f(x)$ đạt cực tiểu tại điểm $x_0=3$",
+      "Hàm số $f(x)$ đạt cực tiểu tại điểm $x_0=-2$"
+    ],
+    "answer": 3,
+    "explain": "Từ giả thiết ta có $f'(x)=3(x+2)(x-3)=0\\Leftrightarrow x=-2 \\text{ hoặc } x=3.$.  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenKh_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hàm số đạt cực đại tại $x=-2$."
+  },
+  {
+    "id": "2D122TN76",
+    "question": "Giá trị cực đại của hàm số $f(x)=2x^3-9x^2-24x+1$ là",
+    "options": [
+      "$-1$",
+      "$14$",
+      "$4$",
+      "$111$"
+    ],
+    "answer": 1,
+    "explain": "Tập xác định $\\mathscr{D} = \\mathbb{R}$.<br>  Đạo hàm $f'(x)=6x^2-18x-24$.<br>  Cho $f'(x)=0 \\Leftrightarrow x=-1 \\text{ hoặc } x=4.$<br>  Bảng biến thiên:  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenKh_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, giá trị cực đại của hàm số là $y_{\\text{CĐ}} = 14$ tại $x = -1$."
+  },
+  {
+    "id": "2D122TN77",
+    "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenVi_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Điểm cực đại của hàm số $y=f(x)$ là",
+    "options": [
+      "$x=-7$",
+      "$x=-6$",
+      "$x=-4$",
+      "$x=-3$"
+    ],
+    "answer": 2,
+    "explain": "Dựa vào bảng biến thiên ta thấy điểm cực đại của hàm số là $x=-4$."
   }
 ];

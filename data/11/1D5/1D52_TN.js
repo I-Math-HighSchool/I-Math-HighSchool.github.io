@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D52 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D52 = [
   {
@@ -99,5 +100,29 @@ window.tracNghiem1D52 = [
     ],
     "answer": 2,
     "explain": "Bảng phân bố tần số ghép nhóm có tần số tích lũy  <br><img src=\"data/11/1D5/im1D52/loc2_2_TN_DS_TL_SGD_H_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng $\\dfrac{45}{4}=11{,}25$ là nhóm $[44;48)$.<br>  Vậy nhóm chứa tứ phân vị thứ nhất là $[44;48)$."
+  },
+  {
+    "id": "1D522TN8",
+    "question": "Khi thống kê điểm môn toán của $30$ học sinh lớp $11$, ta thu được mẫu số liệu ghép nhóm được cho ở bảng sau  <br><img src=\"data/11/1D5/im1D52/loc8_TT_KSCL_THPT_Yen_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa tứ phân vị thứ nhất là",
+    "options": [
+      "$[2;4)$",
+      "$[4;6)$",
+      "$[6;8)$",
+      "$[8;10]$"
+    ],
+    "answer": 1,
+    "explain": "Cỡ mẫu $n=30$.<br>  Ta có $\\dfrac{n}{4}=7{,}5$.<br>  Khi đó ta thấy tại nhóm $[4;6)$ là nhóm đầu tiên có tần số tích lũy là $10&gt;7{,}5$ nên nhóm chứa tứ phân vị thứ nhất là $[4;6)$."
+  },
+  {
+    "id": "1D523TN8",
+    "question": "Khảo sát thời gian tập thể dục của một số học sinh khối $11$ thu được mẫu số liệu ghép nhóm sau:<br>  <br><img src=\"data/11/1D5/im1D52/loc8_TT_THPT_Chuyen_B_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Trung vị mẫu số liệu trên gần số nào nhất?",
+    "options": [
+      "$41{,}23$",
+      "$51{,}54$",
+      "$40{,}55$",
+      "$50{,}44$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $n=5+9+13+10+6=43$.<br>  Vị trí trung vị $\\dfrac{n}{2}=21{,}5$ nằm trong lớp $[40;60)\\Rightarrow M_e=40+\\dfrac{21{,}5-14}{13}\\cdot20\\approx51{,}54$."
   }
 ];

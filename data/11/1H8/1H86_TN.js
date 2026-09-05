@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H86 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H86 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H86 = [
   {
@@ -158,5 +160,41 @@ window.tracNghiem1H86 = [
     ],
     "answer": 2,
     "explain": "Vì $SA\\perp(ABCD)$ nên $AB$ là hình chiếu của $SB$ lên $(ABCD)$. <br>  Khi đó $\\widehat{\\left(SB; (ABCD)\\right)}=\\widehat{SBA}$.<br>  Ta có $\\tan\\phi=\\dfrac{SA}{AB}=\\dfrac{a}{2a}=\\dfrac{1}{2}$."
+  },
+  {
+    "id": "1H863TN11",
+    "question": "Cho hình lăng trụ đều $ABC.A'B'C'$ có cạnh đáy bằng $2a$, cạnh bên bằng $a$. Tính số đo của góc nhị diện $[A,B'C',A']$.<br><img src=\"data/11/1H8/im1H86/loc8_TT_KSCL_THPT_Yen_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": 0,
+    "explain": "Gọi $I$ là trung điểm của $B'C'$.<br>  Do $\\Delta A'B'C'$ đều cạnh $2a$ nên $A'I \\perp B'C'$ và $A'I = \\dfrac{2a\\sqrt{3}}{2} = a\\sqrt{3}$.<br>  Mặt khác, hình lăng trụ đều nên $AA' \\perp (A'B'C') \\Rightarrow AA' \\perp B'C'$.<br>  Từ đó suy ra $B'C' \\perp (AA'I) \\Rightarrow B'C' \\perp AI$.<br>  Góc phẳng nhị diện $[A, B'C', A']$ chính là góc $\\widehat{AIA'}$.<br>  Trong tam giác vuông $AA'I$ vuông tại $A'$ ta có  $\\tan \\widehat{AIA'} = \\dfrac{AA'}{A'I} = \\dfrac{a}{a\\sqrt{3}} = \\dfrac{1}{\\sqrt{3}}.$  Suy ra $\\widehat{AIA'} = 30^\\circ$."
+  },
+  {
+    "id": "1H862TN14",
+    "question": "Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác đều cạnh $a$. Tính góc tạo bởi $B'C$ và mặt phẳng $\\left(ABB'A'\\right)$ biết $BB' = \\dfrac{a\\sqrt{2}}{2}$.",
+    "options": [
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$30^\\circ$"
+    ],
+    "answer": 0,
+    "explain": "<br><img src=\"data/11/1H8/im1H86/loc8_TT_QV1_TT1_LVT_B_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $H$ là hình chiếu của $C$ lên $AB$ nên $CH \\perp AB$, $CH = \\dfrac{a\\sqrt{3}}{2}$ và $HA = HB = \\dfrac{a}{2}$. <br>  Ta có $BB' \\perp (ABC)\\Rightarrow BB' \\perp CH$ nên $CH \\perp (ABB'A')\\Rightarrow CH \\perp B'H$. <br>  Do đó, $B'H$ là hình chiếu của $B'C$ lên mặt phẳng $(ABB'A') \\Rightarrow \\widehat{\\left[B'C,(ABB'A')\\right]} = \\widehat{(B'C, BH)} = \\widehat{HB'C}$. <br>  Trong $\\triangle BB'H$ vuông tại $B$, ta có $B'H = \\sqrt{BB'^2 + HB^2} = \\sqrt{\\left(\\dfrac{a\\sqrt{2}}{2}\\right)^2 + \\left(\\dfrac{a}{2}\\right)^2} = \\sqrt{\\dfrac{2a^2}{4} + \\dfrac{a^2}{4}} = \\sqrt{\\dfrac{3a^2}{4}} = \\dfrac{a\\sqrt{3}}{2}.$ <br>  Mặt khác, $B'H = CH = \\dfrac{a\\sqrt{3}}{2}$ nên $\\triangle B'CH$ vuông cân tại $H$ nên $\\widehat{HB'C} = 45^\\circ$. <br>"
+  },
+  {
+    "id": "1H863TN3",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AD=a$, cạnh bên $SA$ vuông góc với đáy và $SA=a \\sqrt{3}$. Số đo của góc nhị diện $[S,DC,B]$ bằng<br><img src=\"data/11/1H8/im1H86/loc8_TT_THPT_AnDuong__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$90^\\circ$",
+      "$60^\\circ$",
+      "$30^\\circ$",
+      "$45^\\circ$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $S \\in(SDC), B \\in(ABCD),(SCD) \\cap(ABCD)=C D$.<br>  $CD \\perp AD$ (giả thiết) suy ra $CD \\perp SD$ (Định lí ba đường vuông góc).<br>  Mặt khác, $AD \\perp CD$ (giả thiết).<br>  Suy ra $[S,DC,B]=\\widehat{SDA}$.<br>  Xét tam giác vuông $SAD$ có $\\tan \\widehat{SDA}=\\dfrac{SA}{AD}=\\dfrac{a \\sqrt{3}}{a}=\\sqrt{3}$.<br>  Vậy $\\widehat{SDA}=60^\\circ$."
   }
 ];

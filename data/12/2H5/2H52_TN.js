@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H52 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2H52 = [
   {
@@ -3327,5 +3328,17 @@ window.tracNghiem2H52 = [
     ],
     "answer": 1,
     "explain": "Đường thẳng này vuông góc với mặt phẳng $Oxz$ nên $\\overrightarrow{u}=\\overrightarrow{n}_{(Oxz)}=(0;1;0)$.<br>  Khi đó phương trình tham số của đường thẳng này là $x=3 \\text{ và } y=-1+t \\text{ và } z=0.$"
+  },
+  {
+    "id": "2H523TN1",
+    "question": "Trong không gian $Oxyz$, cho điểm $A(-3;1;-4)$, $B(1;-5;2)$. Đường thẳng $AB$ cắt mặt phẳng $(Oxy)$ tại điểm",
+    "options": [
+      "$M\\left(-\\dfrac{1}{3};-3;0\\right)$",
+      "$N\\left(\\dfrac{1}{3};3;0\\right)$",
+      "$P(0;3;1)$",
+      "$Q(-3;1;0)$"
+    ],
+    "answer": 0,
+    "explain": "Véc-tơ chỉ phương của đường thẳng $AB$ là $\\overrightarrow{AB} = (4;-6;6) = 2(2;-3;3)$.<br>  Phương trình tham số của đường thẳng $AB$ là $x=-3+2t \\text{ và } y=1-3t \\text{ và } z=-4+3t.$<br>  Gọi $M=AB\\cap (Oxy)$, khi đó $M$ có tọa độ là $M\\left(-3+2t,1-3t,-4+3t\\right)$.<br>  Ta có $M\\in (Oxy)$ nên ta có $-4+3t=0 \\Leftrightarrow t = \\dfrac{4}{3}$.<br>  Vậy giao điểm là $M\\left(-\\dfrac{1}{3};-3;0\\right)$."
   }
 ];

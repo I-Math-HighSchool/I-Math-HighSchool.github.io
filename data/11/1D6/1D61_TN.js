@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D61 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D61 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D61 = [
   {
@@ -194,5 +196,17 @@ window.tracNghiem1D61 = [
     ],
     "answer": 2,
     "explain": "Ta có $\\sqrt[5]{8\\sqrt{2\\sqrt[3]{2}}}=\\sqrt[5]{8\\sqrt{2\\cdot 2^{\\frac{1}{3}}}}=\\sqrt[5]{8\\sqrt{2^{\\frac{4}{3}}}}=\\sqrt[5]{2^3\\cdot 2^{\\frac{2}{3}}}=\\sqrt[5]{2^{\\frac{11}{3}}}=2^{\\frac{11}{15}}$.<br>  Khi đó $m=11$, $n=15$ và $P=m+n^2=11+15^2=236\\in(230;240)$."
+  },
+  {
+    "id": "1D612TN17",
+    "question": "Cho biểu thức $T=x^{-\\tfrac{3}{4}}\\cdot \\sqrt [4]{{x^5}}$, $(x&gt;0)$. Khẳng định nào sau đây đúng?",
+    "options": [
+      "$T=x^{-\\tfrac{1}{2}}$",
+      "$T=x^{-2}$",
+      "$T=x^{\\tfrac{1}{2}}$",
+      "$T=x^2 $"
+    ],
+    "answer": 2,
+    "explain": "Ta có $T=x^{-\\tfrac{3}{4}}\\cdot \\sqrt [4]{{x^5}}={x^{-\\tfrac{3}{4}}}\\cdot {x^{\\tfrac{5}{4}}}={x^{\\tfrac{1}{2}}}$."
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D13 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D13 = [
   {
@@ -509,5 +510,143 @@ window.dungSai2D13 = [
       }
     ],
     "explain": "<br>- Ta có $f(0)=\\sin0-0=0$; $f\\left(\\dfrac{\\pi }{2}\\right)=\\sin\\pi -\\dfrac{\\pi }{2}=-\\dfrac{\\pi }{2}$.<br>- Ta có $f'(x)=(\\sin2x)'-x'=2\\cos2x-1$.<br>- $f'(x)=0\\Rightarrow \\cos2x=\\dfrac{1}{2}\\Rightarrow x=\\pm \\dfrac{\\pi }{6}+k\\pi $.<br>  Do đó, nghiệm của phương trình $f'(x)=0$ trên đoạn $\\left[0;\\dfrac{\\pi }{2}\\right]$ là $\\dfrac{\\pi }{6}$.<br>- Ta có $f(0)=0$; $f\\left(\\dfrac{\\pi }{2}\\right)=-\\dfrac{\\pi }{2}$; $f\\left(\\dfrac{\\pi }{6}\\right)=\\dfrac{\\sqrt{3}}{2}-\\dfrac{\\pi }{6}$.<br>  Do đó, giá trị lớn nhất của $f(x)$ trên đoạn $\\left[0;\\dfrac{\\pi }{2}\\right]$ là $\\dfrac{\\sqrt{3}}{2}-\\dfrac{\\pi }{6}$."
+  },
+  {
+    "id": "2D131DS20",
+    "question": "Cho hàm số $y=f(x)=ax^3+bx^2+cx+d$ có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_Cum_lien_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
+    "subQuestions": [
+      {
+        "text": "Hàm số có hệ số $a&lt;0$",
+        "answer": true
+      },
+      {
+        "text": "Đồ thị hàm số đi qua hai điểm $(1;2)$, $(3;4)$",
+        "answer": true
+      },
+      {
+        "text": "$f'(x)=0$ tại các giá trị $x=2$, $x=4$",
+        "answer": false
+      },
+      {
+        "text": "Giá trị nhỏ nhất của hàm số trên $[2;4]$ bằng $\\dfrac{7}{2}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Từ bảng biến thiên, ta có $\\displaystyle \\lim_{x \\to +\\infty} f(x)=-\\infty \\Rightarrow a &lt; 0$.<br>- Đồ thị hàm số có hai điểm cực trị $A(1;2)$ và $B(3;4)$ nên đi qua hai điểm $(1;2)$ và $(3;4)$.<br>- Dựa vào bảng biến thiên, ta thấy $f'(x)=0 \\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>- Ta có $y'=f'(x)=3ax^2+2bx+c$. <br>  Vì đồ thị hàm số có hai điểm cực trị $A(1;2)$ và $B(3;4)$ nên  $f'(1)=0 \\text{ và } f(1)=2 \\text{ và } f'(3)=0 \\text{ và } f(3)=4 \\Leftrightarrow 3a+2b+c=0 \\text{ và } a+b+c+d=2 \\text{ và } 27a+6b+c=0 \\text{ và } 27a+9b+3c+d=4 \\Leftrightarrow a=-\\dfrac{1}{2} \\text{ và } b=3 \\text{ và } c=-\\dfrac{9}{2} \\text{ và } d=4.$  $\\Rightarrow f(x)=-\\dfrac{1}{2}x^3+3x^2-\\dfrac{9}{2}x+4$. <br>  Trên đoạn $[2;4]$, ta tính được $f(2)=3$, $f(3)=4$, $f(4)=2$. <br>  $\\Rightarrow \\displaystyle \\min_{[2;4]} f(x)=2$."
+  },
+  {
+    "id": "2D136DS2",
+    "question": "Lợi nhuận thu được $P$ (nghìn USD) của một công ty khi dùng số tiền $x$ (nghìn USD) chi cho quảng cáo được cho bởi công thức $P(x) = -\\dfrac{1}{10}x^3 + 6x^2 + 400$ với $x \\ge 0$.",
+    "subQuestions": [
+      {
+        "text": "Lợi nhuận của công ty tăng khi số tiền chi cho quảng cáo tăng",
+        "answer": false
+      },
+      {
+        "text": "Có hai phương án giúp công ty có thể thu được lợi nhuận bằng $800$ nghìn USD",
+        "answer": true
+      },
+      {
+        "text": "Hàm số $P = P(x)$ có hai điểm cực trị",
+        "answer": false
+      },
+      {
+        "text": "Lợi nhuận tối đa mà công ty thu được bằng $3{,}6$ triệu USD",
+        "answer": true
+      }
+    ],
+    "explain": "Ta có $P'(x) = -\\dfrac{3}{10}x^2 + 12x=0 \\Leftrightarrow x=0 \\text{ hoặc } x=40.$<br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Khi $x &gt; 40$ thì lợi nhuận giảm.<br>- Xét phương trình $P(x)=800 \\Leftrightarrow -\\dfrac{1}{10}x^3 + 6x^2 + 400=800 \\Leftrightarrow x\\approx 58{,}84 \\text{ hoặc } x \\approx 8{,}84.$<br>  Vậy có $2$ phương án giúp công ty có thể thu được lợi nhuận bằng $800$ nghìn USD.<br>- Dựa vào bảng biến thiên ở trên, ta thấy hàm số $P=P(x)$ có $1$ điểm cực trị.<br>- Dựa vào bảng biến thiên, $\\max\\limits_{[0;+\\infty)} P(x) = P(40) = 3600$ (nghìn USD) $= 3{,}6$ (triệu USD)."
+  },
+  {
+    "id": "2D132DS23",
+    "question": "Bạn An làm đèn lồng bằng cách dùng một sợi dây đồng dài $28$ dm cắt thành ba đoạn để uốn làm khung đèn. Đoạn thứ nhất uốn thành hình vuông $ABCD$ có cạnh bằng $x$ (dm) để làm đáy, hai đoạn còn lại có độ dài bằng nhau uốn thành các đường gấp khúc $ASC$ và $BSD$. Khung đèn sau khi hoàn thiện có hình dạng là một hình chóp tứ giác đều $S.ABCD$ và bề mặt ngoài của đèn được dán giấy màu để trang trí, không dán mặt đáy (<em>xem các mối nối, dán là không đáng kể</em>).",
+    "subQuestions": [
+      {
+        "text": "Độ dài cạnh bên của khung đèn bằng $(7 - x)$ dm với $0 &lt; x &lt; 7$",
+        "answer": true
+      },
+      {
+        "text": "Khi $x = 4$ thì độ dài đường cao của khung đèn là $1$ dm",
+        "answer": true
+      },
+      {
+        "text": "Khi các cạnh bằng nhau thì diện tích giấy màu cần dùng là $14\\sqrt{3}$ dm$^2$",
+        "answer": false
+      },
+      {
+        "text": "Thể tích phần không gian của đèn lồng lớn nhất khi $x \\approx 3{,}25$ dm",
+        "answer": true
+      }
+    ],
+    "explain": "<br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khối chóp tứ giác đều có $4$ cạnh đáy bằng $x$ và $4$ cạnh bên bằng $l$. <br>  Tổng chiều dài dây: $4x + 4l = 28 \\Rightarrow l = 7 - x$. <br>  Chiều cao khối chóp: $h = \\sqrt{l^2 - \\left(\\dfrac{x\\sqrt{2}}{2}\\right)^2} = \\sqrt{(7-x)^2 - \\dfrac{x^2}{2}}$.  <br>- Do $l = 7 - x &gt; 0 \\Rightarrow 0 &lt; x &lt; 7$.<br>- Thay $x = 4 \\Rightarrow h = \\sqrt{3^2 - \\dfrac{4^2}{2}} = 1$ dm.<br>- Vì các cạnh bằng nhau nên $x = 7 - x \\Leftrightarrow x = 3{,}5$. <br>  Diện tích giấy dán ($4$ mặt bên) là $S = 4 \\cdot \\dfrac{x^2\\sqrt{3}}{4} =\\dfrac{49\\sqrt{3}}{4}$ (dm$^2$).<br>- Thể tích đèn: $V = \\dfrac{1}{3}x^2\\sqrt{(7-x)^2 - \\dfrac{x^2}{2}} = \\dfrac{1}{3}\\sqrt{\\dfrac{x^6}{2} - 14x^5 + 49x^4}$. <br>  Xét hàm số $f(x) = \\dfrac{1}{2}x^6 - 14x^5 + 49x^4$ trên $(0;7)$. <br>  Ta có $f'(x) = x^3(3x^2 - 70x + 196) = 0 \\Rightarrow x= \\dfrac{35 - \\sqrt{637}}{3} \\approx 3{,}25 \\in (0;7)$. <br>  <br><img src=\"data/12/2D1/im2D13/loc8_TT_KSCL_THPT_Le__008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy $V$ đạt giá trị lớn nhất tại $x \\approx 3{,}25$ dm."
+  },
+  {
+    "id": "2D136DS22",
+    "question": "Nhà ông $A$ cần làm một bể chứa nước có dạng khối hộp chữ nhật không nắp, có đáy là hình chữ nhật và chiều dài gấp ba lần chiều rộng, khối hộp tương ứng có thể tích bằng $1\\,152$ (dm$^3$). Giả sử bề dày của thành bể và đáy bể là không đáng kể. Giá thuê công nhân để làm bể là $400\\,000$ (đồng/m$^2$). Gọi $x$ là chiều rộng của đáy bể ($x$ là số dương và có đơn vị là dm).",
+    "subQuestions": [
+      {
+        "text": "Chiều cao của bể nước là $\\dfrac{384}{x^2}$ (dm)",
+        "answer": true
+      },
+      {
+        "text": "Diện tích xung quanh của bể chứa nước là $\\dfrac{3\\,072}{x}$ (dm$^2$)",
+        "answer": true
+      },
+      {
+        "text": "Tổng diện tích cần làm của bể chứa nước là $\\dfrac{3\\,072}{x}+6x^2$ (dm$^2$)",
+        "answer": false
+      },
+      {
+        "text": "Chi phí thấp nhất mà ông $A$ trả cho công nhân làm bể nước theo yêu cầu là $3\\,072\\,000$ (đồng)",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Theo bài ra, ta có chiều dài của đáy bể nước là $3x$. <br> Gọi $h$ là chiều cao của bể nước (đơn vị dm), điều kiện $h&gt;0$. <br> Theo giả thiết, ta có thể tích của bể nước là $1\\,152$ (dm$^3$) hay $x \\cdot 3x \\cdot h = 1\\,152 \\Rightarrow h= \\dfrac{384}{x^2}$. <br>  Vậy chiều cao của bể là $\\dfrac{384}{x^2}$ (dm).<br>- Diện tích xung quanh của bể chứa nước là $2 \\cdot (x+3x) \\cdot \\dfrac{384}{x^2}=\\dfrac{3\\,072}{x}$ (dm$^2$).<br>- Vậy, tổng diện tích cần làm của bể chứa nước là $S(x)=\\dfrac{3\\,072}{x}+3x^2$ (dm$^2$).<br>- Ta có $S'(x) = \\dfrac{-3\\,072+6x^3}{x^2}$. <br>  $S'(x)=0 \\Rightarrow x=8$.  <br><img src=\"data/12/2D1/im2D13/loc8_TT_QV1_TT1_LVT_B_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Từ bảng biến thiên, ta suy ra $\\min\\limits_{(0; +\\infty)} S(x)=S(8)=576$ (dm$^2$) $=5{,}76$ (m$^2$). <br> Chi phí thấp nhất là $5{,}76 \\cdot 400\\,000=2\\,304\\,000$ (đồng)."
+  },
+  {
+    "id": "2D131DS5",
+    "question": "Cho hàm số $y = \\left(9-x^2\\right)^{\\tfrac{1}{3}} + \\ln(1-x)$.",
+    "subQuestions": [
+      {
+        "text": "Tập xác định của hàm số là $(-\\infty;1)$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số có đạo hàm $y' = \\dfrac{1}{3\\sqrt[3]{\\left(9-x^2\\right)^2}} - \\dfrac{1}{1-x}$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số nghịch biến trên khoảng $(0;1)$",
+        "answer": true
+      },
+      {
+        "text": "Giá trị nhỏ nhất của hàm số trên đoạn $\\left[\\dfrac{1}{4};\\dfrac{1}{2}\\right]$ bằng $\\dfrac{1}{2}\\sqrt[3]{70} - \\ln 2$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Hàm số xác định khi và chỉ khi $9-x^2&gt;0 \\text{ và } 1-x&gt;0\\Leftrightarrow -3&lt;x&lt;3 \\text{ và } x&lt;1\\Leftrightarrow -3&lt;x&lt;1$.<br>  Vậy tập xác định của hàm số là $\\mathscr{D}=(-3;1)$.<br>- Ta có  $y = \\left(9-x^2\\right)^{\\tfrac{1}{3}} + \\ln(1-x)$<br>$\\Rightarrow y' = \\dfrac{1}{3}\\left(9-x^2\\right)^{-\\tfrac{2}{3}}\\cdot \\left(9-x^2\\right)'+\\dfrac{(1-x)'}{1-x}$<br>$= \\dfrac{-2x}{3\\sqrt[3]{\\left(9-x^2\\right)^2}}- \\dfrac{1}{1-x}.$<br>- Vì $y'= \\dfrac{-2x}{3\\sqrt[3]{\\left(9-x^2\\right)^2}}- \\dfrac{1}{1-x}$ nên với mọi $x\\in (0;1)$, ta có  \\[\\dfrac{-2x}{3\\sqrt[3]{\\left(9-x^2\\right)^2}}&lt;0 \\text{ và } -\\dfrac{1}{1-x}&lt;0\\Rightarrow y'&lt;0\\; \\forall x\\in (0;1).\\]  Vậy hàm số đã cho nghịch biến trên khoảng $(0;1)$.<br>- Vì $\\left[\\dfrac{1}{4};\\dfrac{1}{2}\\right]\\subset (0;1)$ nên hàm số đã cho nghịch biến trên $\\left[\\dfrac{1}{4};\\dfrac{1}{2}\\right]$.<br>  Vậy $\\min\\limits_{\\left[\\tfrac{1}{4};\\tfrac{1}{2}\\right]}y=y\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}\\sqrt[3]{70} - \\ln 2$."
+  },
+  {
+    "id": "2D136DS6",
+    "question": "Một công ty robotics thử nghiệm một xe tự hành giao hàng chuyển động thẳng trên đoạn đường thí nghiệm. Quãng đường $s(t)$ (mét) mà xe đã đi được tính từ lúc bắt đầu chuyển động tới thời điểm $t$ (giây) được mô tả bởi công thức $s(t)=-\\dfrac{1}{3}t^3+4t^2+9t$.",
+    "subQuestions": [
+      {
+        "text": "Trong khoảng thời gian $8$ giây kể từ lúc bắt đầu chuyển động, vận tốc lớn nhất của xe là $26$ (m/s)",
+        "answer": false
+      },
+      {
+        "text": "Vận tốc của xe tại thời điểm $t=3$ giây là $21$ (m/s)",
+        "answer": false
+      },
+      {
+        "text": "Quãng đường mà xe đi được trong $8$ giây đầu (làm tròn đến hàng đơn vị) là $157$ mét",
+        "answer": true
+      },
+      {
+        "text": "Trong khoảng thời gian $t \\in [0;10]$ (giây), có thời điểm xe dừng lại",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Hàm số biểu diễn vận tốc của xe là $v(t)=s'(t)=-t^2+8t+9$.<br>  Ta có $v'(t)=-2t+8$; $v'(t)=0 \\Leftrightarrow t=4$.<br>  Xét hàm số $v(t)$ trên đoạn $[0;8]$ ta có $v(0) = 9$; $v(4) = 25$; $v(8) = 9$.<br>  Suy ra vận tốc lớn nhất của xe là $25$ (m/s) tại thời điểm $t = 4$ (giây).<br>- Tại thời điểm $t=3$ (giây) thì $v(3) = -3^2+8\\cdot 3+9 = 24$ (m/s).<br>- Quãng đường mà xe đi được trong $8$ giây đầu là  \\[  s(8) = -\\dfrac{1}{3} \\cdot 8^3+4 \\cdot 8^2+9 \\cdot 8 = \\dfrac{472}{3} \\approx 157 \\ \\text{mét}.  \\]<br>- Khi xe dừng lại, ta có $v(t)=0 \\Leftrightarrow -t^2+8t+9=0 \\Leftrightarrow t=9$ hoặc $t=-1$ (loại).<br>  Thời điểm $t=9$ giây thuộc khoảng $[0;10]$.<br>  Vậy xe dừng lại vào thời điểm $9$ (giây)."
   }
 ];

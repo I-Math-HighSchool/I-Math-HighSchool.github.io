@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D31 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D31 = [
   {
@@ -118,5 +119,28 @@ window.dungSai2D31 = [
       }
     ],
     "explain": "<br>- Khoảng biến thiên của mẫu số liệu trên là $R=50-10=40$.<br>- Cỡ mẫu $n=26$. Ta có $\\dfrac{26}{4}=6{,}5$ suy ra nhóm $[15;20)$ chứa $Q_1$.<br>  Ta có $Q_1=15+\\dfrac{6{,}5-3}{4}\\cdot5\\approx19{,}4$.<br>- $cf_3=3+4+3=10$.<br>- Ta có số trung bình $\\overline{x}=\\dfrac{3\\cdot12{,}5+4\\cdot17{,}5+3\\cdot22{,}5+5\\cdot27{,}5+6\\cdot32{,}5+2\\cdot37{,}5+2\\cdot42{,}5+1\\cdot47{,}5}{26}=27{,}5.$  Phương sai của mẫu số liệu là   $s^2=\\dfrac{3\\cdot\\left(12{,}5-27{,}5\\right)^2+4\\cdot\\left(17{,}5-27{,}5\\right)^2+\\cdots+1\\cdot\\left(47{,}5-27{,}5\\right)^2}{26}\\approx90{,}38.$"
+  },
+  {
+    "id": "2D313DS1",
+    "question": "Khảo sát chiều cao của $20$ học sinh nam lớp $12$A của một trường THPT X, người ta được kết quả thống kê trong bảng sau  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Gọi $x_1$; $x_2$; \\ldots; $x_{20}$ là mẫu số liệu gốc gồm chiều cao của $20$ học sinh trên được xếp theo thứ tự không giảm. Khi đó $x_3 \\in[165 ; 170)$ và $x_9 \\in[170 ; 175)$",
+        "answer": false
+      },
+      {
+        "text": "Tứ phân vị thứ ba của mẫu số liệu ghép nhóm đã cho bằng $175$",
+        "answer": true
+      },
+      {
+        "text": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm đã cho bằng $8{,}5$",
+        "answer": false
+      },
+      {
+        "text": "Chọn ngẫu nhiên một học sinh trong nhóm khảo sát nói trên, xác suất chọn được học sinh có chiều cao từ 175 cm trở lên bằng $0{,}25$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Cỡ mẫu $n=20$.<br>  Gọi $x_1$; $x_2$; \\ldots; $x_{20}$ là mẫu số liệu gốc gồm chiều cao của $20$ học sinh trên được xếp theo thứ tự không giảm.<br>  Ta có $x_1$; $x_2$; $x_3 \\in[160 ; 165)$; $x_4$; \\ldots; $x_8 \\in[165 ; 170)$; $x_9$; \\ldots; $x_{15} \\in[170 ; 175)$; $x_{16}$; \\ldots; $x_{19} \\in[175 ; 180)$; $x_{20} \\in[180 ; 185)$.<br>  Do đó $x_3 \\notin[165 ; 170)$ và $x_9 \\in[170 ; 175)$.<br>- Tứ phân vị thứ nhất của mẫu số liệu gốc là $\\dfrac{1}{2}\\left(x_5+x_6\\right) \\in[165 ; 170)$.<br>  Tứ phân vị thứ nhất của mẫu số liệu ghép nhóm đã cho là $Q_1=165+\\dfrac{\\dfrac{20}{4}-3}{5}\\cdot5=167$.<br>  Tứ phân vị thứ ba của mẫu số liệu gốc là $\\dfrac{1}{2}\\left(x_{15}+x_{16}\\right)$, giá trị $x_{15} \\in[170 ; 175)$, giá trị $x_{16}\\in[175 ; 180)$.<br>  Do đó tứ phân vị thứ ba của mẫu số liệu ghép nhóm đã cho là $Q_3=175$.<br>- Khoảng tứ phân vị của mẫu số liệu ghép nhóm $\\Delta Q=Q_3-Q_1=175-167=8$.<br>- Vì học sinh có chiều cao từ $175$ cm trở lên nên có $5$ học sinh.<br>  Gọi $A$ là biến cố \\lq\\lq học sinh có chiều cao từ $175$ cm trở lên\\rq\\rq.<br>  Do đó $\\mathrm{P}(A)=\\dfrac{5}{20}=\\dfrac{1}{4}=0{,}25$"
   }
 ];

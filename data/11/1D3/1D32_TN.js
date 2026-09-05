@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D32 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D32 = [
   {
@@ -135,5 +136,17 @@ window.tracNghiem1D32 = [
     ],
     "answer": 3,
     "explain": "$\\lim\\limits_{x\\to 1}\\dfrac{x^3-x^2}{7x-7}$<br>$= \\lim\\limits_{x\\to 1}\\dfrac{x^2\\left(x-1\\right)}{7(x-1)}$<br>$= \\lim\\limits_{x\\to 1}\\dfrac{x^2}{7}$<br>$= \\dfrac{1}{7}.$"
+  },
+  {
+    "id": "1D324TN1",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên.  Khi đó, $\\lim\\limits_{x \\to+\\infty} f(x)$ bằng<br><img src=\"data/11/1D3/im1D32/loc8_TT_THPT_AnDuong__004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$-\\infty$",
+      "$+\\infty$",
+      "$ 1 $",
+      "$ -1 $"
+    ],
+    "answer": 3,
+    "explain": "Dựa vào hình ảnh đồ thị hàm số, ta có $\\lim\\limits_{x \\to+\\infty} f(x)=-1$."
   }
 ];

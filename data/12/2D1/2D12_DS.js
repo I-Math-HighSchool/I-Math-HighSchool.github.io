@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D12 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D12 = [
   {
@@ -417,5 +418,97 @@ window.dungSai2D12 = [
       }
     ],
     "explain": "<br>- Cứ tăng giá thêm $1$ (nghìn đồng) thì số chiếc khăn bán ra giảm $100$ chiếc nên tăng $x$ (nghìn đồng) thì số khăn bán ra giảm $100x$ chiếc.<br>   Do đó tổng số khăn bán ra mỗi tháng là $3\\,000-100x$ chiếc.<br>- Lúc đầu bán với giá $30$ (nghìn đồng), mỗi chiếc khăn có lãi $12$ (nghìn đồng). Sau khi tăng giá, mỗi chiếc khăn thu được số lãi là $12+x$ (nghìn đồng).<br>   Do đó tổng số lợi nhuận một tháng thu được sau khi tăng giá là $f(x)=(3\\,000-100x)(12+x)=-100x^2+1\\,800x+36\\,000$ (nghìn đồng).<br>- Xét hàm số $f(x)=-100x^2+1\\,800x+36\\,000$ trên $(0;+\\infty)$.<br>   Ta có $f'(x)=0\\Leftrightarrow -200x+1\\,800=0\\Leftrightarrow x=9$.<br>   Lập bảng biến thiên của hàm số $f(x)$ trên $(0;+\\infty)$ ta thấy hàm số đạt giá trị lớn nhất khi $x=9$.<br>- Để thu được lợi nhuận cao nhất thì cơ sở sản xuất cần tăng giá bán mỗi chiếc khăn là $9\\,000$ đồng tức là mỗi chiếc khăn bán với giá mới là $39\\,000$ đồng."
+  },
+  {
+    "id": "2D122DS1",
+    "question": "Cho hàm số $y = f(x) = \\dfrac{x^2+2x+4}{x+2}$.",
+    "subQuestions": [
+      {
+        "text": "Hàm số đã cho đồng biến trên khoảng $(0;+\\infty)$",
+        "answer": true
+      },
+      {
+        "text": "Gọi $A, B$ là các điểm cực đại, cực tiểu của đồ thị hàm số. Diện tích của tam giác $OAB$ bằng $8$, trong đó $O$ là gốc tọa độ",
+        "answer": false
+      },
+      {
+        "text": "Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số là $y = 2x +2$",
+        "answer": true
+      },
+      {
+        "text": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $[-3;3]$ bằng $-3{,}2$",
+        "answer": false
+      }
+    ],
+    "explain": "Tập xác định: $\\mathscr{D} = \\mathbb{R} \\setminus \\{-2\\}$. <br>  Ta có $y' = \\dfrac{x^2+4x}{(x+2)^2} = 0 \\Leftrightarrow x = 0 \\text{ hoặc } x = -4.$<br>  Ta có bảng biến thiên:  <br><img src=\"data/12/2D1/im2D12/loc8_TT_KSCL_THPT_Le__005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Dựa vào bảng biến thiên ta thấy hàm số đồng biến trên khoảng $(0;+\\infty)$.<br>- Các điểm cực trị là $A(-4;-6)$ và $B(0;2)$. <br>  Vì $B \\in Oy$ nên $S_{\\triangle OAB} = \\dfrac{1}{2} \\cdot OB \\cdot \\mathrm{d}(A,Oy) = \\dfrac{1}{2} \\cdot 2 \\cdot 4 = 4 \\ne 8$.<br>- Phương trình đường thẳng đi qua $2$ điểm $A(-4;-6)$ và $B(0;2)$ là $d\\colon \\dfrac{x}{4}=\\dfrac{y-2}{8}$. <br>  Suy ra $d\\colon y=2x+2$.<br>- Hàm số không xác định tại $x = -2 \\in [-3;3]$ nên không tồn tại $\\max$, $\\min$ trên đoạn này."
+  },
+  {
+    "id": "2D127DS2",
+    "question": "Một doanh nghiệp kinh doanh sản xuất đồng hồ có đồ thị hàm tổng chi phí theo số sản phẩm, là một phần của đồ thị hàm số $f(x)=\\dfrac{ax^2+bx+c}{x+e}$ như hình vẽ (mỗi đơn vị trên trục hoành tương ứng với $100$ sản phẩm, mỗi đơn vị trên trục tung tương ứng với $1\\,000$ USD). Biết rằng tâm đối xứng của đồ thị hàm số đó là điểm $I\\left(-1;\\dfrac{2}{3}\\right)$ và đường tiệm cận xiên của đồ thị đó đi qua điểm $B(3;2)$  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_AnDuong__012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Hàm số đồng biến trên khoảng $(0;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số có đường tiệm cận đứng là $x=1$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số có thể viết lại dưới dạng $f(x)=\\dfrac{1}{3}x+1+\\dfrac{d}{x+1}$ với $d$ là số thực thuộc $\\mathbb{R}$",
+        "answer": false
+      },
+      {
+        "text": "Theo khảo sát, tổng doanh thu của doanh nghiệp này được mô tả bằng hàm số $R(x)=x^2+2x$ và lợi nhuận thu về khi bán $200$ sản phẩm là $5\\,250$ USD. Khi chi phí theo số sản phẩm đạt giá trị nhỏ nhất, số sản phẩm sản xuất được (làm tròn đến hàng đơn vị) là $25$ sản phẩm",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- <strong>Sai</strong>.<br>  Dựa vào hình vẽ, ta thấy đồ thị hàm số $f(x)$ đồng biến trên khoảng $(a;+\\infty)$ với $a&gt;0$.<br>- <strong>Đúng</strong>.<br>  Vì tâm đối xứng của đồ thị hàm số là giao điểm của tiệm cận đứng và tiệm cận xiên nên tiệm cận đứng của đồ thị hàm số là $x=-1$.<br>- <strong>Đúng</strong>.<br>  Vì tâm đối xứng của đồ thị hàm số là giao điểm của tiệm cận đứng và tiệm cận xiên nên tiệm cận đứng của đồ thị hàm số là $x=-1$.<br>  Mà tiệm cận đứng của đồ thị hàm số $f(x)$ là $x=-e$. Do đó $e=-1$.<br>  Ta lại có tiệm cận xiên của đồ thị $f(x)$ có dạng $y=ax+b$ đi qua tâm đối xứng $I\\left(-1;\\dfrac{2}{3}\\right)$ và điểm $B(3;2)$.<br>  Nên ta được hệ sau $-1\\cdot a+b=\\dfrac{2}{3} \\text{ và } 3\\cdot a+b=2\\Leftrightarrow a=\\dfrac{1}{3} \\text{ và } b=1.$<br>  Khi đó, tiệm cận xiên của đồ thị $f(x)$ là $y=\\dfrac{1}{3}x+1$.<br>  Vậy hàm số $f(x)=\\dfrac{ax^2+bx+c}{x+e}$ được viết lại dưới dạng $f(x)=\\dfrac{1}{3}x+1+\\dfrac{d}{x+1}$ với $d\\in\\mathbb{R}$.<br>- <strong>Sai</strong>.<br>  Tổng doanh thu của doanh nghiệp là $R(x)=x^2+2x$.<br>  Tổng chi phí của doanh nghiệp theo số sản phẩm là $f(x)=\\dfrac{1}{3}x+1+\\dfrac{d}{x+1}$.<br>  Gọi tổng lợi nhuận của doanh nghiệp là \\[P(x)=R(x)-f(x)=x^2+2x-\\dfrac{1}{3}x-1-\\dfrac{d}{x+1}.\\]  Do lợi nhuận thu về khi bán $200$ sản phẩm là $5\\,250$ USD (mỗi đơn vị trên trục hoành tương ứng với $100$ sản phẩm, mỗi đơn vị trên trục tung tương ứng với $1\\,000$ USD) nên   $P(2)=5{,}25 \\Leftrightarrow 2^2+2\\cdot2-\\dfrac{1}{3}\\cdot2-1-\\dfrac{d}{2+1}=5{,}25$<br>$\\Leftrightarrow \\dfrac{19}{3}-\\dfrac{d}{3}=5{,}25$<br>$\\Leftrightarrow d=\\left(\\dfrac{19}{3}-5{,}25\\right)\\cdot3$<br>$\\Leftrightarrow d=\\dfrac{13}{4}=3{,}25.$  Suy ra tổng chi phí của doanh nghiệp theo sản phẩm là $f(x)=\\dfrac{1}{3}x+1+\\dfrac{3{,}25}{x+1}$.<br>  Ta có $f'(x)=\\dfrac{1}{3}-\\dfrac{3{,}25}{(x+1)^2}$.<br>  Khi đó $f'(x)=0\\Leftrightarrow x=-\\dfrac{\\sqrt{39}+2}{2}\\text{ (loại)} \\text{ hoặc } x=\\dfrac{\\sqrt{39}-2}{2}\\text{ (nhận)}.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_AnDuong__013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy chi phí đạt giá trị nhỏ nhất khi doanh nghiệp bán được $\\dfrac{\\sqrt{39}-2}{2}\\cdot100\\approx212$ sản phẩm."
+  },
+  {
+    "id": "2D122DS18",
+    "question": "Cho hàm số $f(x)=x^3-2x^2+x-3$.",
+    "subQuestions": [
+      {
+        "text": "$f'(x)=3x^2-4x+1, \\forall x \\in \\mathbb{R}$",
+        "answer": true
+      },
+      {
+        "text": "$f'(x) &gt; 0, \\forall x \\in \\mathbb{R}$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $f(x)$ đồng biến trên khoảng $(0;+\\infty)$",
+        "answer": false
+      },
+      {
+        "text": "Giá trị cực đại của hàm số $f(x)$ là $f_{\\text{CĐ}}=-3$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Ta có $f'(x)=\\left(x^3-2x^2+x-3\\right)'=3x^2-4x+1$.<br>- Ta có: $f'(x)=0\\Leftrightarrow 3x^2-4x+1=0\\Leftrightarrow x_1=1 \\text{ hoặc } x_2=\\dfrac{1}{3}.$<br>  Vậy hàm số $f(x)$ có bảng biến thiên sau:  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenKh_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"><br>- Dựa vào bảng biến thiên ta thấy hàm số $f(x)$ không đồng biến trên khoảng $(0;+\\infty)$.<br>- Giá trị cực đại của hàm số $f(x)$ đạt được tại $x=\\dfrac{1}{3} \\Rightarrow f\\left(\\dfrac{1}{3}\\right)=-\\dfrac{77}{27}$."
+  },
+  {
+    "id": "2D121DS4",
+    "question": "Cho hàm số $g(x)=\\dfrac{2x^2+x+7}{x+1}$.",
+    "subQuestions": [
+      {
+        "text": "Tập xác định của hàm số $g(x)$ là $\\mathscr{D}=\\mathbb{R} \\setminus\\{1\\}$",
+        "answer": false
+      },
+      {
+        "text": "$g'(x) &gt; 0, \\forall x &gt; 1$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số $g(x)$ không có điểm cực trị",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $g(x)$ nghịch biến trên khoảng $(-3;1)$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Tập xác định của hàm số $g(x)$ là $\\mathscr{D}=\\mathbb{R} \\setminus\\{-1\\}$.<br>- Có $g'(x)=\\dfrac{2x^2+4x-6}{(x+1)^2} \\Rightarrow g'(x) &gt; 0\\Leftrightarrow2x^2+4x-6&gt; 0 \\text{ và } x \\neq-1 \\Leftrightarrow x &gt; 1 \\text{ hoặc } x &lt;-3 \\text{ và } x \\neq-1.$<br>  Suy ra $\\forall x&gt;1, g'(x)&gt;0$.<br>- $g'(x)=0\\Leftrightarrow x=1 \\text{ hoặc } x=-3$ nên hàm số đã cho có hai điểm cực trị.<br>- Ta có:  $g'(x) &lt; 0\\Leftrightarrow2x^2+4x-6&lt; 0 \\text{ và } x \\neq -1 \\Leftrightarrow-3&lt; x &lt; 1 \\text{ và } x \\neq -1.$<br>  Hàm số đã cho nghịch biến trên mỗi khoảng $(-3;-1)$ và $(1;+\\infty)$."
   }
 ];

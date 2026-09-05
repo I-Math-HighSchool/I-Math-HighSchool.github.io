@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D23 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D23 = [
   {
@@ -45,5 +46,11 @@ window.traLoiNgan1D23 = [
     "question": "[Dự án đề kiểm tra Toán 11 GHKI NH25-26- Hieu Hieu Minh Minh]%[THPT Nguyen Binh Khiem - Ha Noi]  Cho hình vuông $a_1$ có độ dài cạnh là $40\\,m$. Người ta chia mỗi cạnh của hình vuông thành 4 phần bằng nhau và nối các điểm chia một cách thích hợp để được hình vuông $a_2$. Cứ tiếp tục như vậy ta được các hình vuông tương ứng $a_3,a_4,...$ (hình vẽ). Diện tích hình vuông thứ 15 là $a$ ($m^2$). Tìm giá trị của $a$ (làm tròn kết quả đến hàng phần trăm).<br><img src=\"data/11/1D2/im1D23/loc3_1_TL_TN_DS_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "2{,}22",
     "explain": "Giả sử $a_i$ là cạnh hình vuông $\\left(C_i\\right)$ ($i\\in \\{1,2,\\ldots\\}$).<br>  Ta có $a_1=40$, hình vuông thứ $(C_{i+1})$ có cạnh bằng cạnh huyền của tam giác vuông với một cạnh tam giác bằng $\\dfrac{1}{4}$ cạnh hình vuông $(C_i)$ và cạnh còn lại bằng $\\dfrac{3}{4}$ cạnh hình vuông $(C_i)$.<br>  Do đó $a_{i+1}= \\sqrt{\\left(\\dfrac{a_i}{4}\\right)^2 + \\left(\\dfrac{3a_i}{4}\\right)^2} =\\sqrt{\\dfrac{a_i^2}{16} + \\dfrac{9a_i^2}{16}} = \\sqrt{\\dfrac{5}{8}a_i^2}$.<br>  Vì vậy $S_1=a_1^2=1600$, $S_{i+1}=a_{i+1}^2 = \\dfrac{5}{8}a_i^2 = \\dfrac{5}{8}S_i$ với mọi $i\\in \\mathbb{N}^*$.<br>  Suy ra $(S_n)$ lập thành cấp số nhân với $S_1=1600$, công bội $q=\\dfrac{5}{8}$.<br>  Công thức tính số hạng thứ \\(n\\) của cấp số nhân là $S_{n}=S_{1}\\cdot q^{n-1}$. <br>  Vậy diện tích hình vuông thứ $15$ là $S_{15}=S_{1}\\cdot q^{15-1}=1600 \\cdot \\left(\\dfrac{5}{8}\\right)^{14}\\approx 2{,}22$."
+  },
+  {
+    "id": "1D235TL1",
+    "question": "Một loại thuốc được dùng mỗi ngày một lần. Lúc đầu nồng độ thuốc trong máu của bệnh nhân tăng nhanh, nhưng mỗi liều kế tiếp có tác dụng ít hơn liều trước đó. Lượng thuốc trong máu ở ngày thứ nhất là $50$ mg, và mỗi ngày sau đó giảm chỉ còn một nửa so với ngày kề trước đó. Tính tổng lượng thuốc (tính bằng mg) trong máu của bệnh nhân sau khi dùng thuốc $10$ ngày liên tiếp <em>(kết quả được làm tròn đến hàng phần mười)</em>.",
+    "answer": "99,9",
+    "explain": "Lượng thuốc trong máu của bệnh nhân mỗi ngày lập thành một cấp số nhân có số hạng đầu $u_1 = 50$ và công bội $q = \\dfrac{1}{2}$.<br>  Tổng lượng thuốc trong máu sau $10$ ngày là tổng của $10$ số hạng đầu của cấp số nhân đó:  $S_{10} = \\dfrac{u_1 \\cdot\\left(1 - q^{10}\\right)}{1 - q}$<br>$= \\dfrac{50 \\cdot\\left(1 - \\left(\\dfrac{1}{2}\\right)^{10}\\right)}{1 - \\dfrac{1}{2}}$<br>$= 100 \\cdot \\left(1 - \\dfrac{1}{1024}\\right)$<br>$= \\dfrac{102\\,300}{1024}$<br>$\\approx 99{,}902.$  Làm tròn đến hàng phần mười, ta được kết quả là $99{,}9$ mg."
   }
 ];

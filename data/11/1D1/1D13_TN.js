@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D13 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D13 = [
   {
@@ -831,5 +832,17 @@ window.tracNghiem1D13 = [
     ],
     "answer": 3,
     "explain": "Ta có   $P=\\dfrac{\\cos 3x+\\cos x}{\\cos x}\\ =\\dfrac{2\\cos 2x\\cos x}{\\cos x }=2\\cos 2x.$  Vậy $a=2$."
+  },
+  {
+    "id": "1D133TN62",
+    "question": "Rút gọn biểu thức $T=\\sin \\left( \\dfrac{\\pi }{3}+x\\right)-\\sin \\left( \\dfrac{\\pi }{3}-x \\right)$ ta được kết quả là",
+    "options": [
+      "$T=\\dfrac{\\sqrt {3}}{2}$",
+      "$T=\\sin 2x$",
+      "$T=\\sqrt {3}\\cos x$",
+      "$T=\\sin x$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $T=\\sin \\left( \\dfrac{\\pi }{3}+x \\right)-\\sin \\left( \\dfrac{\\pi }{3}-x \\right)=2\\cdot \\cos \\dfrac{\\pi }{3}\\cdot \\sin x=\\sin x$."
   }
 ];

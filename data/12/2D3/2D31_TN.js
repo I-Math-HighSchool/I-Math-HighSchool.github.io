@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D31 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D31 = [
   {
@@ -291,5 +292,17 @@ window.tracNghiem2D31 = [
     ],
     "answer": 0,
     "explain": "Khoảng biến thiên của mẫu số liệu trên là $450-250=200$."
+  },
+  {
+    "id": "2D312TN23",
+    "question": "Mỗi ngày bác Bình đều đi bộ để rèn luyện sức khỏe. Quãng đường đi bộ mỗi ngày (đơn vị: km) của bác Bình trong $20$ ngày được thống kê ở bảng sau:  <br><img src=\"data/12/2D3/im2D31/loc8_TT_THPT_NguyenKh_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khoảng biến thiên của mẫu số liệu ghép nhóm trên bằng",
+    "options": [
+      "$1{,}2$",
+      "$0{,}362$",
+      "$13{,}39$",
+      "$1{,}5$"
+    ],
+    "answer": 3,
+    "explain": "Khoảng biến thiên của mẫu số liệu ghép nhóm là $R = 4{,}2 - 2{,}7 = 1{,}5$."
   }
 ];

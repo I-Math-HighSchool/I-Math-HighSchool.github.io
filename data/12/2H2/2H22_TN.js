@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H22 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2H22 = [
   {
@@ -1515,5 +1516,101 @@ window.tracNghiem2H22 = [
     ],
     "answer": 3,
     "explain": "Điểm $D$ sao cho tứ giác $ABCD$ là hình bình hành suy ra $\\overrightarrow{AB}=\\overrightarrow{DC}\\Rightarrow D(-4;-2;9)$."
+  },
+  {
+    "id": "2H226TN2",
+    "question": "Trong không gian, chọn hệ trục tọa độ cho trước, đơn vị đo lấy kilômét, ra đa phát hiện một máy  bay di chuyển với vận tốc và hướng không đổi từ điểm $A(100;50;5)$ đến điểm $B(200;100;10)$  trong $10$ phút. Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì tọa độ của máy bay  sau $10$ phút tiếp theo là điểm nào?",
+    "options": [
+      "$M (100;50;5)$",
+      "$N(200;150;-15)$",
+      "$D(-300;150;15)$",
+      "$C(300;150;15)$"
+    ],
+    "answer": 3,
+    "explain": "Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì sau $10$ phút tiếp theo máy bay sẽ bay đến một vị trí mới $(x;y;z)$ sao cho $B (200;100;10)$ là trung điểm của đoạn nối $A(100;50;5)$ với vị trí đó.<br>  Nên ta có  $100+ x = 400 \\text{ và } 50+ y = 200 \\text{ và } 5 + z = 20 \\Leftrightarrow x = 300 \\text{ và } y = 150 \\text{ và } z = 15.$<br>  Vậy điểm cần tìm có tọa độ là $(300;150;15)$."
+  },
+  {
+    "id": "2H223TN119",
+    "question": "Trong không gian $Oxyz$, cho biểu diễn của $\\overrightarrow{a}$ qua các vecto đơn vị là $\\overrightarrow{a} = 2\\overrightarrow{i} + \\overrightarrow{k} - 3\\overrightarrow{j}$. Tọa độ của $\\overrightarrow{a}$ là",
+    "options": [
+      "$(2;1;-3)$",
+      "$(1; -3; 2)$",
+      "$(2;-3;1)$",
+      "$(1;2;-3)$"
+    ],
+    "answer": 2,
+    "explain": "$\\overrightarrow{a}=2\\overrightarrow{i}+\\overrightarrow{k}-3\\overrightarrow{j} \\Leftrightarrow \\overrightarrow{a} = (2;-3;1)$."
+  },
+  {
+    "id": "2H223TN120",
+    "question": "Trong không gian $Oxyz$, cho hình bình hành $ABCD$ có $A(2; 1;-3)$, $B(0;-2; 2)$, $C(4;-3; 0)$. Toạ độ điểm $D$ là",
+    "options": [
+      "$(2; 0;-5)$",
+      "$(6; 0;-5)$",
+      "$(2; 0; 5)$",
+      "$(6; 0; 5)$"
+    ],
+    "answer": 1,
+    "explain": "Gọi $D(x, y; z)$.<br>  Vì $ABCD$ là hình bình hành nên ta có $\\overrightarrow{BA}=\\overrightarrow{CD}$, tức là $x-4=2 \\text{ và } y+3=3 \\text{ và } z=-5$, suy ra $x=6 \\text{ và } y=0 \\text{ và } z=-5.$<br>  Vậy $D(6; 0;-5)$."
+  },
+  {
+    "id": "2H224TN5",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho hai vectơ $\\overrightarrow{m}=(1; 1; 4)$, $\\overrightarrow{n}=(4; 1; 1)$. Vectơ nào dưới đây vuông góc với cả hai vectơ $\\overrightarrow{m}$ và $\\overrightarrow{n}$?",
+    "options": [
+      "$\\overrightarrow{a}=(1; 5; 1)$",
+      "$\\overrightarrow{b}=(1;-5; 1)$",
+      "$\\overrightarrow{c}=(1; 5;-1)$",
+      "$\\overrightarrow{d}=(-1; 5; 1)$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $\\overrightarrow{m} \\cdot \\overrightarrow{b}=1 \\cdot 1+1 \\cdot(-5)+4 \\cdot 1=0$ và $\\overrightarrow{n} \\cdot \\overrightarrow{b}=1 \\cdot 4+1 \\cdot(-5)+1 \\cdot 1=0$ nên $\\overrightarrow{b}$ vuông góc với cả hai vectơ $\\overrightarrow{m}$ và $\\overrightarrow{n}$."
+  },
+  {
+    "id": "2H224TN6",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, tích vô hướng của hai véc tơ $\\overrightarrow{a}=(2;-1; 3)$ và $\\overrightarrow{b}=(4;-8; 3)$?",
+    "options": [
+      "$\\overrightarrow{a} \\cdot \\overrightarrow{b}=5$",
+      "$\\overrightarrow{a} \\cdot \\overrightarrow{b}=\\sqrt{53}$",
+      "$\\overrightarrow{a} \\cdot \\overrightarrow{b}=3$",
+      "$\\overrightarrow{a} \\cdot \\overrightarrow{b}=25$"
+    ],
+    "answer": 3,
+    "explain": "$\\overrightarrow{a} \\cdot \\overrightarrow{b}=8+8+9=25$."
+  },
+  {
+    "id": "2H223TN121",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho các điểm $M$ và $N$ thoả mãn các điều kiện sau: $\\overrightarrow{OM}=2\\overrightarrow{i}-3\\overrightarrow{j}+\\overrightarrow{k}; \\overrightarrow{ON}=5\\overrightarrow{j}-2\\overrightarrow{k}$. Toạ độ của vectơ $\\overrightarrow{MN}$ là",
+    "options": [
+      "$(2;-8; 3)$",
+      "$(3; 3;-3)$",
+      "$(-2; 8;-3)$",
+      "$(-3;-3; 3)$"
+    ],
+    "answer": 2,
+    "explain": "$\\overrightarrow{OM}=2\\overrightarrow{i}-3\\overrightarrow{j}+\\overrightarrow{k}$ nên $M(2;-3; 1)$.<br>  $\\overrightarrow{ON}=5\\overrightarrow{j}-2\\overrightarrow{k}$ nên $N(0; 5;-2)$.<br>  Vậy $\\overrightarrow{MN}=(-2; 8;-3)$."
+  },
+  {
+    "id": "2H223TN122",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho hình bình hành $ABCD$ có điểm $A(1; 2;-3)$, $C(2; 0; 1)$, $D(-5; 2; 1)$. Tìm tọa độ đỉnh $B$.",
+    "options": [
+      "$(8; 0;-3)$",
+      "$(-6; 4;-3)$",
+      "$(-4; 0; 5)$",
+      "$(-2; 4;-1)$"
+    ],
+    "answer": 0,
+    "explain": "Gọi $B\\left(a;b;c\\right)$.<br>  Ta có $\\overrightarrow{AB}=(a-1; b-2; c+3); \\overrightarrow{DC}=(7;-2; 0)$.<br>  $ABCD$ là hình bình hành $\\Leftrightarrow \\overrightarrow{AB}=\\overrightarrow{DC} \\Leftrightarrow a-1=7 \\text{ và } b-2=-2 \\text{ và } c+3=0 \\Leftrightarrow a=8 \\text{ và } b=0 \\text{ và } c=-3 \\Rightarrow D(8; 0;-3)$."
+  },
+  {
+    "id": "2H223TN123",
+    "question": "Trong không gian $Oxyz$, cho các điểm $A(1;1;2)$, $B(3;1;0)$. Trung điểm của đoạn thẳng $AB$ có tọa độ là",
+    "options": [
+      "$(2;1;1)$",
+      "$(4;2;2)$",
+      "$(2;0;-2)$",
+      "$(1;0;-1)$"
+    ],
+    "answer": 0,
+    "explain": "Tọa độ trung điểm $M(x_M; y_M; z_M)$ của đoạn thẳng $AB$ là  \\[ x_M = \\dfrac{1+3}{2} = 2 \\text{ và } y_M = \\dfrac{1+1}{2} = 1 \\text{ và } z_M = \\dfrac{2+0}{2} = 1. \\]  Vậy trung điểm của đoạn thẳng $AB$ có tọa độ là $(2;1;1)$."
   }
 ];

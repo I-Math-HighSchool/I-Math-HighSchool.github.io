@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D15 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D15 = [
   {
@@ -141,5 +142,29 @@ window.traLoiNgan2D15 = [
     "question": "Cho hàm số $y=\\dfrac{ax-b}{x+c}$ với $a$, $b$, $c \\in\\mathbb{Z},\\,\\,ac+b\\ne 0$ và có đồ thị như hình bên. Giá trị của $a+b-c$ bằng bao nhiêu?<br><img src=\"data/12/2D1/im2D15/dlts_12_DLTS9_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "4",
     "explain": "Theo đề bài ta có<br>  Tiệm cận ngang $y=a=1$, tiệm cận đứng $x=-c=2\\Rightarrow c=-2$.<br>  Giao điểm của đồ thị với trục $Ox$ là $\\left(1;0\\right)$ nên $\\dfrac{b}{a}=1\\Rightarrow b=1$.<br>  Vậy $a+b-c=1+1-(-2)=4$."
+  },
+  {
+    "id": "2D151TL1",
+    "question": "Chú kiến bị lạc tổ, chú đang loay hoay để tìm tổ. Chú đi theo suy đoán và đặt hệ trục tọa độ $Oxy$ thì đường đi của chú có quỹ đạo là một phần đường cong đồ thị hàm số có công thức $y=f(x)=a(x-b)^2$ (với $a$, $b$ là các số thực dương).<br>  Hàm số $y=f(x)$ có tính chất: Với số thực $k$ gọi hàm số $g(k)=\\max\\limits_{[k;k+2]} f(x)-\\min\\limits_{[k;k+2]} f(x)$. Hàm số $g(k)$ thỏa mãn $g(3)=a \\text{ và } g(2)+g(6)=32.$  Biết tổ của chú nằm ngay tại gốc tọa độ $O$. Thời điểm $9$ h sáng chú đang ở vị trí $A$ như hình vẽ.  Khoảng cách giữa chú kiến và tổ của mình là bao nhiêu (kết quả làm tròn đến hàng phần chục)?<br><img src=\"data/12/2D1/im2D15/loc8_TT_KSCL_Cum_lien_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "19{,}3",
+    "explain": "Ta có $g(3)=\\max\\limits_{[3;5]} f(x)-\\min\\limits_{[3;5]} f(x)=a \\left[ \\max\\limits_{[3;5]} (x-b)^2-\\min\\limits_{[3;5]} (x-b)^2 \\right]$.<br>  Theo giả thiết $g(3)=a \\Leftrightarrow \\max\\limits_{[3;5]} (x-b)^2-\\min\\limits_{[3;5]} (x-b)^2=1$.<br>  +) Nếu $b \\le 3$ thì hàm số $(x-b)^2$ đồng biến trên $[3;5]$, khi đó  $(5-b)^2-(3-b)^2=1 \\Leftrightarrow -4b+16=1 \\Leftrightarrow b=\\dfrac{15}{4} \\text{ (loại vì } b gt; 3).$  +) Nếu $b \\ge 5$ thì hàm số $(x-b)^2$ nghịch biến trên $[3;5]$, khi đó  $(3-b)^2-(5-b)^2=1 \\Leftrightarrow 4b-16=1 \\Leftrightarrow b=\\dfrac{17}{4} \\text{ (loại vì } b lt; 5).$  +) Nếu $3 &lt; b &lt; 5$ thì $\\min\\limits_{[3;5]} (x-b)^2=0$ tại $x=b$. Khi đó  $\\max \\{(3-b)^2; (5-b)^2\\}=1 \\Leftrightarrow (3-b)^2=1 \\text{ hoặc } (5-b)^2=1 \\Leftrightarrow b=2 \\text{ (loại)} \\text{ hoặc } b=4 \\text{ (nhận)} \\text{ hoặc } b=6 \\text{ (loại).}$  Vậy $b=4$.<br>  Lại có  <br>- $g(2)=a \\left[ \\max\\limits_{[2;4]} (x-4)^2-\\min\\limits_{[2;4]} (x-4)^2 \\right]=a \\left[ (2-4)^2-0 \\right]=4a$.<br>- $g(6)=a \\left[ \\max\\limits_{[6;8]} (x-4)^2-\\min\\limits_{[6;8]} (x-4)^2 \\right]=a \\left[ (8-4)^2-(6-4)^2 \\right]=12a$.  Từ giả thiết $g(2)+g(6)=32 \\Leftrightarrow 4a+12a=32 \\Leftrightarrow 16a=32 \\Leftrightarrow a=2$.<br>  Do đó $f(x)=2(x-4)^2$. <br>  Tại vị trí $A$ có hoành độ $x=7$, suy ra tung độ $y_A=f(7)=2(7-4)^2=18 \\Rightarrow A(7; 18)$.<br>  Khoảng cách giữa chú kiến và tổ (gốc $O$) là  $OA=\\sqrt{7^2+18^2}=\\sqrt{373} \\approx 19{,}3.$"
+  },
+  {
+    "id": "2D156TL2",
+    "question": "Cho hàm số $y=\\dfrac{2x-1}{x+1}$ có đồ thị $(C)$ và $I$ là giao điểm của hai đường tiệm cận. Giả sử $M(x_0;y_0)$ là điểm trên đồ thị $(C)$ có hoành độ dương sao cho tiếp tuyến tại $M$ với $(C)$ cắt tiệm cận đứng và tiệm cận ngang lần lượt tại hai điểm $A$, $B$ thỏa mãn $IA^2+IB^2=40$. Tính giá trị của biểu thức $P=x_0^2+y_0^2+x_0y_0$ ?",
+    "answer": "7",
+    "explain": "Đồ thị $(C)\\colon y=\\dfrac{2x-1}{x+1}$ có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=2$ nên $I(-1;2)$.<br>  Vì $M\\in (C)$ nên $M\\left(x_0;\\dfrac{2x_0-1}{x_0+1} \\right)$, $(x_0&gt;0)$<br>  Phương trình tiếp tuyến với $(C)$ tại $M$ là $y=\\dfrac{3}{(x_0+1)^2}(x-x_0)+\\dfrac{2x_0-1}{x_0+1}$.<br>  $\\Rightarrow A\\left(-1;\\dfrac{2x_0-4}{x_0+1} \\right),B(2x_0+1;2)$.<br>  Ta có $IA=\\left| \\dfrac{6}{x_0+1} \\right|$ và $IB=2|x_0+1|$.<br>  Khi đó   $IA^2+IB^2=40 \\Leftrightarrow \\dfrac{36}{(x_0+1)^2}+4(x_0+1)^2=40,\\, x_0 gt;0$<br>$\\Leftrightarrow (x_0+1)^4-10(x_0+1)^2+9=0$<br>$\\Leftrightarrow (x_0+1)^2=1 \\text{ hoặc } (x_0+1)^2=9$<br>$\\Leftrightarrow x_0=0 \\text{ (loại)} \\text{ hoặc } x_0=-2 \\text{ (loại)} \\text{ hoặc } x_0=2 \\text{ (nhận)} \\text{ hoặc } x_0=-4 \\text{ (loại)}$<br>$\\Leftrightarrow x_0=2\\Rightarrow y_0=1.$  Suy ra $M(2;1)$ và giá trị của biểu thức $P=x_0^2+y_0^2+x_0y_0=7$."
+  },
+  {
+    "id": "2D151TL24",
+    "question": "Hai thành phố $A$ và $B$ cách nhau một con sông. Người ta xây dựng một cây cầu $EF$ bắc qua sông biết rằng thành phố $A$ cách con sông một khoảng $4 \\text{ km}$ và thành phố $B$ cách con sông một khoảng $6 \\text{ km}$ (được mô hình hóa như hình vẽ), biết $HE+KF=20 \\text{ km}$ và độ dài $EF$ không đổi. Hỏi độ dài $EH$ bằng bao nhiêu kilomet để đường đi từ thành phố $A$ đến thành phố $B$ là ngắn nhất (đi theo đường $AEFB$)?",
+    "answer": "8",
+    "explain": "<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Lien_cap_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt $HE = x$, $FK = y$ với $x$, $y&gt;0$.<br>   Ta có   <br>- $HE+KF=20 \\Rightarrow x+y=20$.<br>- $AE = \\sqrt{16+x^2}$.<br>- $BF = \\sqrt{36+y^2} = \\sqrt{36+(20-x)^2}$  Vì $EF$ không đổi nên $AB$ ngắn nhất khi $AE+BF$ nhỏ nhất.<br>  Ta có $AE+BF = \\sqrt{16+x^2} + \\sqrt{36+(20-x)^2} = \\sqrt{16+x^2} + \\sqrt{x^2-40x+436}$.<br>  Đặt $f(x)=\\sqrt{16+x^2} + \\sqrt{x^2-40x+436}$.<br>  Ta có $f'(x) = \\dfrac{x}{\\sqrt{x^2+16}}-\\dfrac{x-20}{\\sqrt{x^2-40x+436}} = 0 \\Rightarrow x=8,\\ \\forall x \\in (0;20)$.  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_Lien_cap_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy để đường đi từ $A$ đến $B$ nhỏ nhất thì $HE=x=8$ (km)."
+  },
+  {
+    "id": "2D156TL4",
+    "question": "Cho hàm số $y = \\dfrac{6x - 4}{3x + 1}$ có đồ thị $(C)$ và $I$ là giao điểm của hai đường tiệm cận. Gọi $M$ là giao điểm của đồ thị $(C)$ và trục tung. Tiếp tuyến của $(C)$ tại $M$ cắt các đường tiệm cận tại hai điểm $A$ và $B$. Tính diện tích tam giác $IAB$.",
+    "answer": "4",
+    "explain": "Tọa độ giao điểm $M$ của $(C)$ với trục tung là $M(0; -4)$.<br>  Ta có $y = \\dfrac{6x - 4}{3x + 1} \\Rightarrow y' = \\dfrac{18}{(3x + 1)^2}$.<br>  Hệ số góc của tiếp tuyến tại $M(0; -4)$ là $k = y'(0) = 18$.<br>  Phương trình tiếp tuyến $\\Delta$ của $(C)$ tại $M$ có dạng  $y - y_M = k(x - x_M) \\Rightarrow \\Delta\\colon y = 18x - 4.$  Tiệm cận đứng của đồ thị hàm số là đường thẳng $x = -\\dfrac{1}{3}$.<br>  Tiệm cận ngang của đồ thị hàm số là đường thẳng $y = 2$.<br>  Giao điểm $I$ của hai tiệm cận là $I\\left( -\\dfrac{1}{3}; 2 \\right)$.<br>  Giao điểm $A$ của tiếp tuyến $\\Delta$ và tiệm cận đứng là $A\\left( -\\dfrac{1}{3}; -10 \\right)$.<br>  Giao điểm $B$ của tiếp tuyến $\\Delta$ và tiệm cận ngang là $B\\left( \\dfrac{1}{3}; 2 \\right)$.<br>  Tam giác $IAB$ là tam giác vuông tại $I$ nên $S_{\\triangle IAB} = \\dfrac{1}{2} \\cdot IA \\cdot IB$.<br>  Ta có $IA = \\left|y_A - y_I\\right| = \\left|-10 - 2\\right| = 12$.<br>  Lại có $IB = \\left|x_B - x_I\\right| = \\left| \\dfrac{1}{3} - \\left( -\\dfrac{1}{3} \\right) \\right| = \\dfrac{2}{3}$.<br>  Suy ra diện tích tam giác $IAB$ là $S_{\\triangle IAB} = \\dfrac{1}{2} \\cdot 12 \\cdot \\dfrac{2}{3} = 4$ (đvdt)."
   }
 ];

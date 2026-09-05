@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H51 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2H51 = [
   {
@@ -2655,5 +2656,17 @@ window.tracNghiem2H51 = [
     ],
     "answer": 2,
     "explain": "Mặt phẳng $y-2z+1=0$ có vectơ pháp tuyến $\\overrightarrow{n}=(0;1;-2)$ và $\\overrightarrow{n}\\cdot \\overrightarrow{i}=0$ nên song song hoặc chứa trục $Ox$. <br>  Tuy nhiên $O(0;0;0) \\in Ox$ nhưng $O \\notin y-2z+1=0$ nên đây là mặt phẳng song song với trục $Ox$."
+  },
+  {
+    "id": "2H515TN1",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, khoảng cách từ điểm $A(-3;-6; 2)$ đến mặt phẳng tọa độ $(Oxz)$ là",
+    "options": [
+      "$3$",
+      "$6$",
+      "$2$",
+      "$7$"
+    ],
+    "answer": 1,
+    "explain": "Mặt phẳng tọa độ $(Ox z)$ có phương trình là: $y=0$.  $\\mathrm{d}(A,(Oxz))=\\dfrac{\\big|-6\\big|}{1}=6.$"
   }
 ];

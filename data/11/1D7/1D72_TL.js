@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D72 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D72 - Trả lời ngắn
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1D72 = [
   {
@@ -80,5 +82,11 @@ window.traLoiNgan1D72 = [
     "question": "Một công ty xác định rằng tổng chi phí của họ, tính theo nghìn đô-la, để sản xuất $x$ mặt hàng là $C(x)=\\sqrt{5x^2+60}$, và công ty lên kế hoạch nâng sản lượng trong $t$ tháng kể từ nay theo hàm số $x(t)=20t+40$. Tính tốc độ tăng của chi phí sau $4$ tháng kể từ nay? (Làm tròn kết quả đến hàng phần chục, đơn vị nghìn đô-la trên tháng)",
     "answer": "44{,}7",
     "explain": "Ta có $C(t)=\\sqrt{5(20t+40)^2+60}=\\sqrt{2000t^2+8000t+8060}$<br>  $C'(t)=\\dfrac{4000t+8000}{2\\sqrt{2000t^2+8000t+8060}}$.<br>  Vậy tốc độ tăng chi phí sau $4$ tháng là $C'(4)=\\dfrac{4000\\cdot 4+8000}{2\\sqrt{2000\\cdot 4^2+8000\\cdot 4+8060}}\\approx 44{,}7$."
+  },
+  {
+    "id": "1D722TL1",
+    "question": "Hàm số $f(x)=\\dfrac{x}{\\sqrt {9x^2+5}-1}$. Tập nghiệm của bất phương trình $f'(x)\\ge 0$ là $S=[a;b]$. Tính giá trị của biểu thức $S=a^2+b^2$<em> (kết quả được làm tròn đến hàng phần mười)</em>.",
+    "answer": "4,4",
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có  $f'(x) = \\left(\\dfrac{x}{\\sqrt {9x^2+5}-1}\\right)'$<br>$= \\dfrac{\\sqrt{9x^2+5}-1-x\\left(\\sqrt{9x^2+5}-1 \\right)'}{\\left( \\sqrt{9x^2+5}-1\\right)^2}$<br>$= \\dfrac{\\sqrt{9x^2+5}-1-\\dfrac{x^2}{\\sqrt{9x^2+5}} }{\\left( \\sqrt{9x^2+5}-1\\right)^2}$<br>$= \\dfrac{5-\\sqrt {9{x^2}+5}}{{{\\left( \\sqrt {9{x^2}+5}-1 \\right)}^2}\\sqrt {9{x^2}+5}}$   Vì ${{\\left( \\sqrt {9{x^2}+5}-1 \\right)}^2}\\sqrt {9{x^2}+5}&gt;0$ với mọi $ x\\in \\mathbb{R}$ <br>  nên $f'( x )\\ge 0$ khi $5-\\sqrt {9{x^2}+5}\\ge 0\\Rightarrow -\\dfrac{2\\sqrt {5}}{3}\\le x\\le \\dfrac{2\\sqrt {5}}{3}$.<br>  Do đó $ a=-\\dfrac{2\\sqrt {5}}{3}$ và $b=\\dfrac{2\\sqrt {5}}{3}$.<br>  Vậy $S={a^2}+{b^2}=\\dfrac{40}{9}\\approx 4{,}4$."
   }
 ];

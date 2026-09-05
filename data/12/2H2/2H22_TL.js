@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H22 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2H22 = [
   {
@@ -423,5 +424,29 @@ window.traLoiNgan2H22 = [
     "question": "Trong không gian $Oxyz$, cho điểm $A(0;-2;-3), B(-4;-4;1), C(2;-3;3)$. Giả sử điểm $M(a;0;c)$ trong mặt phẳng $Oxz$ thỏa mãn $P=MA^2+MB^2+2MC^2$ đạt giá trị nhỏ nhất. Tính $ a^2-c^2 $.",
     "answer": "-1",
     "explain": "Giả sử $ I $ thỏa mãn $ \\overrightarrow{IA} +\\overrightarrow{IB} +2\\overrightarrow{IC} =\\overrightarrow{0}$.<br>  Khi đó tọa độ điểm $ I $ là $ \\left(0;-3;1\\right) $ và $ P=4MI^2+ IA^2+IB^2+2IC^2$.<br>  Vì $ I $ cố định nên $ P $ đạt giá trị nhỏ nhất khi $ MI $ nhỏ nhất, hay $ M $ là hình chiếu của $ I $ trên $ (Oxz) $.<br>  Vậy tọa độ điểm $M$ là $M(0; 0; 1).$"
+  },
+  {
+    "id": "2H223TL1",
+    "question": "Cho hình chóp $S.ABC$ có $SA=4$ và $SA \\perp (ABC)$. Tam giác $ABC$ vuông tại $C$ có cạnh $BC$ bằng $3$. Tính khoảng cách giữa $SB$ và $AC$.<br><img src=\"data/12/2H2/im2H22/loc8_TT_KSCL_Cum_lien_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "2{,}4",
+    "explain": "Chọn hệ trục tọa độ $Oxyz$ như hình vẽ, với $C$ trùng với gốc tọa độ $O(0;0;0)$.<br>  Các tia $CB$, $CA$, $Cz$ lần lượt nằm trên các trục $Ox$, $Oy$, $Oz$ ($Cz \\parallel AS$).<br>  Đặt $CA = a$ ($a &gt; 0$).<br>  Khi đó ta có  $C(0;0;0)$; $S(0;a;4)$; $A(0;a;0)$; $B(3;0;0)$.<br>  Ta có các vectơ  <br>- $\\overrightarrow{SB} = (3;-a;-4)$.<br>- $\\overrightarrow{AC} = (0;-a;0)$.<br>- $\\overrightarrow{SC} = (0;-a;-4)$.  Tích có hướng của hai vectơ $\\overrightarrow{SB}$ và $\\overrightarrow{AC}$ là  $\\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] = (-4a;0;-3a).$  Tích hỗn tạp $\\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\cdot \\overrightarrow{SC} = 0 + 0 + 12a = 12a$.<br>  Khoảng cách giữa hai đường thẳng chéo nhau $SB$ và $AC$ là  $\\mathrm{d}(SB,AC) = \\dfrac{\\left| \\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\cdot \\overrightarrow{SC} \\right|}{\\left| \\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\right|}$<br>$= \\dfrac{12|a|}{\\sqrt{16a^2 + 9a^2}} = \\dfrac{12|a|}{5|a|} = \\dfrac{12}{5} = 2{,}4.$"
+  },
+  {
+    "id": "2H223TL72",
+    "question": "Một chú chim bồ câu đang ở vị trí $M$ được mô hình hóa trong không gian $Oxyz$ như hình vẽ sau.  Gọi $H$ là hình chiếu của $M$ xuống mặt phẳng $(Oxy)$. Biết $OM=50\\sqrt{2}$, $\\left(\\overrightarrow{i},\\overrightarrow{OH}\\right)=60^{\\circ}$ và $\\left(\\overrightarrow{OH},\\overrightarrow{OM}\\right)=45^{\\circ}$. Nếu điểm $M\\left(a;b;c\\right)$ thì giá trị của $a+b\\sqrt{3}+c$ bằng bao nhiêu?<br><img src=\"data/12/2H2/im2H22/loc8_TT_KSCL_THPT_Le__011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "150",
+    "explain": "Tam giác $OMH$ vuông cân tại $H$ nên $MH=OH=\\dfrac{OM}{\\sqrt{2}}=\\dfrac{50\\sqrt{2}}{\\sqrt{2}}=50$.<br>  Tam giác $OAH$ vuông tại $A$ nên $OA=OH\\cdot \\cos 60^{\\circ}=50\\cdot \\dfrac{1}{2}=25$.<br>  Tam giác $OBH$ vuông tại $B$ nên $OB=OH\\cdot \\sin 60^{\\circ}=50\\cdot \\dfrac{\\sqrt{3}}{2}=25\\sqrt{3}$.<br>  Do đó $M\\left(25;25\\sqrt{3};50\\right)$ suy ra $a=25 \\text{ và } b=25\\sqrt{3} \\text{ và } c=50.$<br>  Vậy $a+b\\sqrt{3}+c=25+25\\sqrt{3}\\cdot \\sqrt{3}+50=150$."
+  },
+  {
+    "id": "2H226TL3",
+    "question": "Một chiếc máy bay đang bay trong hệ trục tọa độ $Oxyz$ với mặt phẳng $(Oxy)$ là mặt đất như hình vẽ bên. Biết rằng khi đang ở độ cao $8\\,000$ mét so với mặt đất (vị trí $A$) thì máy bay chuyển động đều với vận tốc $\\overrightarrow{v}=(100;110;200)$ (đơn vị m/s). Hỏi sau $30$ giây thì máy bay đã lên đến độ cao bao nhiêu km so với mặt đất?<br><img src=\"data/12/2H2/im2H22/loc8_TT_QV1_TT1_LVT_B_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "14",
+    "explain": "Sau $30$ giây, vectơ độ dời của máy bay là \\[\\overrightarrow{AB}=30\\overrightarrow{v}=(3\\,000;3\\,300;6\\,000). \\] Độ cao tăng thêm là \\[\\Delta z =z_B-z_A= 6\\,000\\text{ m}. \\] Ban đầu máy bay ở độ cao $z_A=8\\,000$ mét nên độ cao sau $30$ giây là \\[z_B=8\\,000+6\\,000=14\\,000\\text{ m}=14\\text{ km}. \\] Vậy sau $30$ giây máy bay ở độ cao $14$ km."
+  },
+  {
+    "id": "2H223TL4",
+    "question": "Trong không gian $Oxyz$, cho tam giác $ABC$ có $A(-4;-1;2)$, $B(3;5;-6)$ và $C(a;b;c)$. Biết trung điểm cạnh $AC$ thuộc trục tung, trung điểm cạnh $BC$ thuộc mặt phẳng $(Oxz)$. Tính $T=2a+b-c$.",
+    "answer": "5",
+    "explain": "Gọi $M$ là trung điểm cạnh $AC \\Rightarrow M\\left(\\dfrac{a-4}{2}; \\dfrac{b-1}{2}; \\dfrac{c+2}{2}\\right)$.<br> Vì $M \\in Oy \\Rightarrow \\dfrac{a-4}{2} = 0, \\text{ và } \\dfrac{c+2}{2} = 0 \\Rightarrow a = 4, \\text{ và } c = -2.$<br> Gọi $N$ là trung điểm cạnh $BC \\Rightarrow N\\left(\\dfrac{a+3}{2}; \\dfrac{b+5}{2}; \\dfrac{c-6}{2}\\right)$.<br> Vì $N \\in (Oxz)$ nên $\\dfrac{b+5}{2} = 0 \\Rightarrow b = -5$.<br> Do đó $T = 2\\cdot 4 + (-5) - (-2) = 5.$"
   }
 ];

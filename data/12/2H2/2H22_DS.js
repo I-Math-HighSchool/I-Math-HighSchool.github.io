@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H22 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2H22 = [
   {
@@ -946,5 +947,74 @@ window.dungSai2H22 = [
       }
     ],
     "explain": "<br>- <strong>Sai</strong>. Ta có $\\overrightarrow{AB}=(1;2;-3)$, $\\overrightarrow{AC}=(3;3;-3)$, $\\overrightarrow{AD}=(-2;0;-2)$.<br>  Suy ra $\\left[\\overrightarrow{AB},\\overrightarrow{AC}\\right]\\cdot\\overrightarrow{AD}=0$ nên $A$, $B$, $C$, $D$ đồng phẳng.<br>- <strong>Đúng</strong>. Ta có $\\overrightarrow{AC}\\cdot\\overrightarrow{AD}=0 \\text{ và } AC=3\\sqrt{3}\\neq AD=2\\sqrt{2}$ nên tam giác $ACD$ vuông tại $A$.<br>- <strong>Sai</strong>. Ta có $\\overrightarrow{CD}=(-5;-3;1)\\Rightarrow CD=\\sqrt{35}$, $\\overrightarrow{AB}=(1;2;-3)\\Rightarrow AB=\\sqrt{14}$.<br>   Ta có $\\cos\\left(\\overrightarrow{AB},\\overrightarrow{CD}\\right)=\\dfrac{\\overrightarrow{AB}\\cdot \\overrightarrow{CD}}{AB\\cdot CD}=\\dfrac{-\\sqrt{10}}{5}$.<br>  Vậy góc giữa hai véctơ $\\overrightarrow{A B}$ và $\\overrightarrow{CD}$ là góc tù.<br>- <strong>Đúng</strong>. Ta có $\\overrightarrow{AB}=(1;2;-3)\\Rightarrow AB=\\sqrt{14} \\text{ và } \\overrightarrow{BD}=(-3;-2;1)\\Rightarrow BD=\\sqrt{14}$. Vậy $\\triangle{ABD}$ cân tại $B$."
+  },
+  {
+    "id": "2H226DS1",
+    "question": "Hình vẽ sau mô tả vị trí của máy bay vào thời điểm $9$ giờ $30$ phút. Biết các đơn vị trên hình tính theo đơn vị km.  <br><img src=\"data/12/2H2/im2H22/loc8_TT_THPT_AnDuong__011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Phi công để máy bay ở chế độ tự động với vận tốc theo hướng đông là $750$\\,km/h, độ cao không đổi. Biết rằng gió thỏi theo hướng đông với vận tốc $10$\\,m/s. Giả sử vận tốc và hướng gió không đổi thì lúc $10$ giờ $30$ phút máy bay ở tọa độ $(150;1\\,086;9)$",
+        "answer": true
+      },
+      {
+        "text": "Tọa độ của máy bay vào lúc $9$ giờ $30$ phút là $(300;150;9)$",
+        "answer": false
+      },
+      {
+        "text": "Vào thời điểm $9$ giờ $30$ phút máy bay ở độ cao $9$\\,km",
+        "answer": true
+      },
+      {
+        "text": "Sau khi bay đến vị trí lúc $10$ giờ $30$ phút thì máy bay bay ngược lại với vận tốc $800$\\,km/h với độ cao không đổi, biết lúc đó trời lặng gió thì lúc $11$ giờ máy bay ở tọa độ $(686;150;9)$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Ta có $v=10\\,m/s=10\\cdot3,6=36\\,km/h$.<br>  Lại có tọa độ máy bay theo hình vẽ là $(150;300;9)$.<br>  Vì cả máy bay và gió đều cùng hướng Đóng nên vận tốc tổng là $v=750+36=786$\\,km/h.<br>  Quãng đường máy bay bay từ $9$ giờ $30$ phút đến $10$ giờ $30$ phút là $s=786\\cdot 1=786$\\,km.<br>  Khi đó máy bay đã di chuyển được thêm được theo hướng Đông là $300+786=1\\,086$\\,km.<br>  Vậy tọa độ máy bay lúc $10$ giờ $30$ phút là $(150;1\\,086;9)$<br>- <strong>Sai</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay đang ở tọa độ $(150;300;9)$.<br>- <strong>Đúng</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay vào lúc $9$ giờ $30$ phút đang ở độ cao $9$\\,km.<br>- <strong>Sai</strong>.<br>  Quãng đường máy bay quay ngược lại từ $10$ giờ $30$ phút đến $11$ giờ là $s=v\\cdot t=800\\cdot0{,}5=400$\\,km.<br>  Vì lúc đó trời lặng gió và máy bay ở độ cao không đổi nên vị trí máy bay quay người lại là $1\\,086-400=686$\\,km.<br>  Vậy tọa độ của máy bay lúc $11$ giờ là $(150;686;9)$."
+  },
+  {
+    "id": "2H223DS42",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho ba điểm $A(-3; 2;-1)$, $B(-1;-1;-3)$, $C(-2; 4;-3)$.",
+    "subQuestions": [
+      {
+        "text": "Điểm $I(-1; 1;-2)$ là trung điểm của đoạn thẳng $BC$",
+        "answer": false
+      },
+      {
+        "text": "$AB=\\sqrt{17}$ và $AC=\\sqrt{3}$",
+        "answer": false
+      },
+      {
+        "text": "Tam giác $ABC$ là một tam giác vuông",
+        "answer": true
+      },
+      {
+        "text": "Diện tích tam giác $ABC$ là $S_{ABC}=\\dfrac{3\\sqrt{17}}{4}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Trung điểm của đoạn thẳng $BC$ là $I\\left(-\\dfrac{3}{2}; \\dfrac{3}{2};-3\\right)$.<br>- $  \\begin{aligned}  & A B=\\sqrt{\\left(x_B-x_A\\right)^2+\\left(y_B-y_A\\right)^2+\\left(z_B-z_A\\right)^2}=\\sqrt{2^2+(-3)^2+(-2)^2}=\\sqrt{17} \\\\  & A C=\\sqrt{\\left(x_C-x_A\\right)^2+\\left(y_C-y_A\\right)^2+\\left(z_C-z_A\\right)^2}=\\sqrt{1+2^2+(-2)^2}=3.  \\end{aligned}  $<br>- Ta có: $\\overrightarrow{AB}=(2;-3;-2), \\overrightarrow{AC}=(1; 2;-2)$.<br>  $\\overrightarrow{AB} \\cdot \\overrightarrow{AC}=0\\Rightarrow AB\\perp AC$ nên tam giác $ABC$ là tam giác vuông tại $A$.<br>- Tam giác $ABC$ là tam giác vuông tại $A$ nên   \\[S_{ABC}=\\dfrac{1}{2} \\cdot AB\\cdot AC=\\dfrac{1}{2} \\cdot \\sqrt{17} \\cdot 3=\\dfrac{3\\sqrt{17}}{2}.\\]"
+  },
+  {
+    "id": "2H226DS3",
+    "question": "Trong không gian $Oxyz$, xem mặt đất là mặt phẳng $(Oxy)$; trục $Oz$ hướng lên (đơn vị trên mỗi trục là một kilomet). Tại cùng một thời điểm, một radar phát hiện một máy bay tại $A(0; 0; 10)$ bay theo hướng $\\vec{v}=(-4; 3; 0)$ không đổi và một xe tăng tại $O$ di chuyển theo hướng $\\vec{u}=(3; 4; 0)$ không đổi. Sau $20$ giây radar xác định được vị trí máy bay tại $B(-8; 6; 10)$ và xe tăng tại $E\\left(\\dfrac{3}{20}; \\dfrac{1}{5}; 0\\right)$.",
+    "subQuestions": [
+      {
+        "text": "Nếu máy bay và xe tăng tiếp tục giữ nguyên hướng và vận tốc không đổi thì 10 giây tiếp theo vị trí máy bay và xe tăng lần lượt là $C(-12; 9; 10)$, $F\\left(\\dfrac{9}{40}; \\dfrac{3}{10}; 0\\right)$",
+        "answer": true
+      },
+      {
+        "text": "Khoảng cách giữa máy bay và xe tăng sau $20$ giây kể từ lúc radar phát hiện là $15$ km (kết quả làm tròn đến hàng đơn vị)",
+        "answer": false
+      },
+      {
+        "text": "Vận tốc trung bình của xe tăng trong 20 giây đầu tiên là $12{,}5$ m/s",
+        "answer": true
+      },
+      {
+        "text": "Một lúc sau, radar phát hiện máy bay vẫn giữ nguyên hướng bay ban đầu và cách $A$ một khoảng $27$ km, tốc độ máy bay lúc đó $1\\,800$ km/h, đồng thời xe tăng đang di chuyển theo hướng ban đầu và cách $O$ $1$ kilomet với tốc độ $60$ km/h. Tốc độ thay đổi khoảng cách giữa máy bay và xe tăng lúc này là $1\\,689$ km/h (kết quả làm tròn đến hàng đơn vị)",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Vì máy bay giữ nguyên hướng và tốc độ nên sau $10$ giây máy bay đến vị trí $C$, ta có $\\vec{AB}=2\\vec{BC}$.<br>  Gọi $C(a; b; c) \\Rightarrow \\vec{BC}=(a+8; b-6; c-10)$; $\\vec{AB}=(-8; 6; 0)$. Ta có  $\\vec{AB}=2 \\vec{BC} \\Rightarrow-8=2(a+8) \\text{ và } 6=2(b-6) \\text{ và } 0=2(c-10)\\Leftrightarrow a=-12 \\text{ và } b=9 \\text{ và } c=10\\Rightarrow C(-12; 9; 10).$  Tương tự, xe tăng giữ nguyên hướng và vận tốc nên sau $10$ giây đến vị trí $F$, ta có $\\vec{OE}=2 \\vec{EF}$.<br>  Gọi $F(a;b;c)\\Rightarrow \\vec{EF}=\\left(a-\\dfrac{3}{20}; b-\\dfrac{1}{5}; c\\right)$. Ta có   $\\vec{OE}=2 \\vec{EF} \\Rightarrow\\dfrac{3}{20}=2\\left(a-\\dfrac{3}{20}\\right) \\text{ và } \\dfrac{1}{5}=2\\left(b-\\dfrac{1}{5}\\right) \\text{ và } 0=2c\\Leftrightarrow a=\\dfrac{9}{40} \\text{ và } b=\\dfrac{3}{10} \\text{ và } c=10\\Rightarrow F\\left(\\dfrac{9}{40}; \\dfrac{3}{10}; 0\\right).$<br>- Khoảng cách giữa máy bay và xe tăng là<br> $BE=\\sqrt{\\left(\\dfrac{3}{20}+8\\right)^2+\\left(\\dfrac{1}{5}+6\\right)^2+(-10)^2} \\approx 14$ km.<br>- Quãng đường xe tăng đi được trong $20$ giây đầu tiên là  $OE=\\sqrt{\\left(\\dfrac{3}{20}\\right)^2+\\left(\\dfrac{1}{5}\\right)^2+0^2}=0{,}25 \\text{ km}=250 \\text{ m} \\Rightarrow v_{tb}=12{,}5 \\text{ m/s}.$<br>- Giả sử sau thời gian $t$ máy bay đang ở vị trí $D$ và xe tăng đang ở vị trí $K$.<br>  Vectơ vận tốc của máy bay là $\\vec{v}_1=1\\,800 \\cdot \\dfrac{\\vec{v}}{|\\vec{v}|}=(-1\\,440; 1\\,080; 0)$.<br>  Ta có $\\vec{AD}=t \\cdot \\vec{v}_1 \\Rightarrow D(-1\\,440t; 1\\,080t; 0)$.<br>  Vectơ vận tốc của xe tăng là $\\vec{u}_1=60 \\cdot \\dfrac{\\vec{u}}{|\\vec{u}|}=(36; 48; 0) \\Rightarrow \\vec{OK}=t \\cdot \\vec{u}_1 \\Rightarrow K(36t; 48t; 0)$.<br>  Khoảng cách giữa máy bay và xe tăng là  $DK=\\sqrt{1\\,476^2 t^2+1\\,032^2 t^2+100}=f(t)$  Thời gian máy bay di chuyển $27$ km là $\\dfrac{27}{1\\,800}=0{,}015$ giờ.<br>  Tốc độ thay đổi khoảng cách giữa máy bay và xe tăng lúc này là $f'(0{,}015)=1\\,689$ km/h."
   }
 ];

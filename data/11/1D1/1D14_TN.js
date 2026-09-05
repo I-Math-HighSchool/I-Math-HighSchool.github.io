@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D14 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D14 = [
   {
@@ -1191,5 +1192,17 @@ window.tracNghiem1D14 = [
     ],
     "answer": 3,
     "explain": "Dựa vào đồ thị, ta có hàm số $y=\\cos x$ nghịch biến trên $(0; \\pi)$."
+  },
+  {
+    "id": "1D146TN1",
+    "question": "Tập giá trị của hàm số $y=\\cot x$ là",
+    "options": [
+      "$(-1;1)$",
+      "$[-1;1]$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;0)$"
+    ],
+    "answer": 2,
+    "explain": "Tập giá trị của hàm số $y=\\cot x$ là $\\mathbb{R}$."
   }
 ];

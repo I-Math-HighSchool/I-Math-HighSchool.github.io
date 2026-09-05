@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D51 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D51 = [
   {
@@ -159,5 +160,41 @@ window.tracNghiem1D51 = [
     ],
     "answer": 0,
     "explain": "<br><img src=\"data/11/1D5/im1D51/loc3_1_TL_TN_DS_THPT__003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  $\\overline{x}=\\dfrac{12{,}5\\cdot 2+17{,}5\\cdot 5+22{,}5\\cdot 15+27{,}5\\cdot 8+32{,}5\\cdot 9+37{,}5\\cdot 1}{40}=25$."
+  },
+  {
+    "id": "1D512TN8",
+    "question": "Một cuộc khảo sát thực hiện để điều tra số giờ sử dụng điện thoại và tivi của 40 học sinh lớp 11A trong một tuần. Thu được kết quả như sau  \\renewcommand{\\arraystretch}{1.5} % Tăng độ cao hàng lên gấp 1.5 lần  <br><img src=\"data/11/1D5/im1D51/loc8_TT_KSCL_Cum_lien_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Nhóm chứa mốt là",
+    "options": [
+      "$[4;6)$",
+      "$[0;2)$",
+      "$[2;4)$",
+      "$[6;8)$"
+    ],
+    "answer": 2,
+    "explain": "Nhóm $[2;4)$ có tần số lớn nhất (18 học sinh) trong bảng số liệu, nên đây là nhóm chứa mốt."
+  },
+  {
+    "id": "1D513TN13",
+    "question": "Doanh thu bán hàng trong $ 20 $ ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):  <br><img src=\"data/11/1D5/im1D51/loc8_TT_THPT_AnDuong__002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Số trung bình của mẫu số liệu trên thuộc khoảng nào trong các khoảng dưới đây?",
+    "options": [
+      "$[11; 13)$",
+      "$[13; 15)$",
+      "$[9; 11)$",
+      "$[7; 9)$"
+    ],
+    "answer": 2,
+    "explain": "Ta có số trung bình của mẫu số liệu ghép nhóm đã cho là  $\\bar{x}=\\dfrac{6\\cdot 2+8\\cdot 7+10\\cdot 7+12\\cdot 3+14\\cdot 1}{2+7+7+3+1}=9{,}4 \\in[9; 11).$"
+  },
+  {
+    "id": "1D513TN14",
+    "question": "Tìm hiểu thời gian hoàn thành một bài tập (đơn vị: phút) của một số học sinh thu được kết quả sau  <br><img src=\"data/11/1D5/im1D51/loc8_TT_THPT_Lien_cap_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính thời gian trung bình (phút) để hoàn thành bài tập của các em học sinh.",
+    "options": [
+      "$7$",
+      "$11{,}3$",
+      "$10{,}4$",
+      "$12{,}5$"
+    ],
+    "answer": 2,
+    "explain": "Giá trị đại diện cho các nhóm lần lượt là $x_1 = 2$, $x_2 = 6$, $x_3 = 10$, $x_4 = 14$, $x_5 = 18$.<br>  Số trung bình cộng là  \\[\\overline{x} = \\dfrac{2 \\cdot 2 + 6 \\cdot 4 + 10 \\cdot 7 + 14 \\cdot 4 + 18 \\cdot 3}{20} = \\dfrac{4 + 24 + 70 + 56 + 54}{20} = \\dfrac{208}{20} = 10{,}4.\\]"
   }
 ];

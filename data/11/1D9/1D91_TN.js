@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D91 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D91 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D91 = [
   {
@@ -146,5 +148,17 @@ window.tracNghiem1D91 = [
     ],
     "answer": 2,
     "explain": "Vì $A$ và $B$ là hai biến cố độc lập nên $\\mathrm{P}(A\\cap B)=\\mathrm{P}(A)\\cdot \\mathrm{P}(B)=0,7\\cdot 0,5=0,35.$<br>  Lại có $\\mathrm{P}(A\\cup B)=\\mathrm{P}(A)+P(B)-P(A\\cap B)=0,7+0,5-0,35=0,85$."
+  },
+  {
+    "id": "1D913TN1",
+    "question": "Hai xạ thủ A và B cùng bắn súng một cách độc lập. Xác suất bắn trúng bia   của hai xạ thủ A và B lần lượt bằng $\\dfrac{1}{3}$ và $\\dfrac{2}{5}$. Xác suất để cả hai xạ thủ A và B cùng bắn trúng bia là",
+    "options": [
+      "$\\dfrac{13}{15}$",
+      "$\\dfrac{11}{15}$",
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{2}{15}$"
+    ],
+    "answer": 3,
+    "explain": "Gọi $A$, $B$ lần lượt là các biến cố xạ thủ A, B bắn trúng bia. Ta có $\\mathrm{P}(A) = \\dfrac{1}{3}$, $\\mathrm{P}(B) = \\dfrac{2}{5}$.<br>  Vì hai xạ thủ bắn độc lập nên xác suất cả hai cùng bắn trúng bia là  $\\mathrm{P}(A \\cap B) = \\mathrm{P}(A) \\cdot \\mathrm{P}(B) = \\dfrac{1}{3} \\cdot \\dfrac{2}{5} = \\dfrac{2}{15}.$"
   }
 ];

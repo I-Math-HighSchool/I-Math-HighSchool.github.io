@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D12 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D12 = [
   {
@@ -237,5 +238,29 @@ window.traLoiNgan2D12 = [
     "question": "Vị trí của một vật chuyển động $s(t)$ (tính theo mét) vật đi được sau khoảng thời gian $t$ (tính theo giây), $t \\geq 0$, được mô tả là một hàm số bậc ba có đồ thị như hình vẽ dưới đây. Trong 50 giây đầu tiên, vật chuyển động nhanh dần bắt đầu từ thời điểm giây thứ mấy?<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS10_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "6",
     "explain": "Vật chuyển động nhanh dần khi gia tốc $a(t)$ cùng dấu với vận tốc $v(t)$.   <br>  Dựa vào đồ thị hàm số ta xác định được:  $s(t) = \\dfrac{1}{6}t^3 - 2.5t^2 + 12t$.  <br>  Vận tốc được tính bằng đạo hàm của $s(t)$:  $v(t) = s'(t) = \\dfrac{1}{2}t^2 - 5t + 12.$  <br>  Gia tốc là đạo hàm của vận tốc:  \\[  a(t) = v'(t) = t - 5.  \\]  Ta có $v^\\prime=0 \\Leftrightarrow t=5$.<br>  Với $t &lt; 5$: $a(t) &lt; 0$ (vật chậm dần nếu $v(t) &gt; 0$, nhanh dần nếu $v(t) &lt; 0$).<br>  Với $t &gt; 5$: $a(t) &gt; 0$ (vật nhanh dần nếu $v(t) &gt; 0$, chậm dần nếu $v(t) &lt; 0$).  <br>  <strong>Thời điểm vật chuyển động nhanh dần</strong><br>  Tại $t = 6$: $v(6) &lt; 0$ và $a(6) &gt; 0$ $\\Rightarrow$ vật nhanh dần.  <br>  Vậy trong 50 giây đầu tiên, vật bắt đầu chuyển động nhanh dần từ giây thứ 6."
+  },
+  {
+    "id": "2D123TL1",
+    "question": "Tính tổng tất cả các giá trị nguyên của tham số $m$ để hàm số $y=\\dfrac{x^{2}+(m-1)x+3-2m}{x+m}$ đạt cực tiểu tại $x=-1$.",
+    "answer": "2",
+    "explain": "Tập xác định $\\mathscr{D} = \\mathbb{R} \\setminus \\{-m\\}$.<br> Ta có <br>- $y= x - 1 + \\dfrac{3-m}{x+m}$.<br>- $y'= 1 - \\dfrac{3-m}{(x+m)^2}$.<br>- $y''= \\dfrac{2(3-m)}{(x+m)^3}$. Để hàm số đạt cực tiểu tại $x=-1$ thì \\[ y'(-1)=0 \\text{ và } y''(-1)&gt;0 \\Leftrightarrow 1-\\dfrac{3-m}{(-1+m)^{2}}=0 \\quad (1) \\text{ và } \\dfrac{2(3-m)}{(-1+m)^{3}}&gt;0. \\quad (2) \\] Giải phương trình $(1)$, ta được \\[ (-1+m)^2 = 3-m \\Leftrightarrow m^2 - 2m + 1 = 3 - m \\Leftrightarrow m^2 - m - 2 = 0 \\Leftrightarrow m=-1 \\text{ hoặc } m=2. \\] Thay lần lượt các giá trị của $m$ vào bất phương trình $(2)$, ta được <br>- Với $m=-1 \\Rightarrow y''(-1) = \\dfrac{2(3 - (-1))}{(-1 - 1)^3} = \\dfrac{8}{-8} = -1 &lt; 0$ (loại vì đây là điểm cực đại).<br>- Với $m=2 \\Rightarrow y''(-1) = \\dfrac{2(3 - 2)}{(-1 + 2)^3} = \\dfrac{2}{1} = 2 &gt; 0$ (thỏa mãn điều kiện cực tiểu). Vậy $m=2$ là giá trị duy nhất thỏa mãn bài toán. Tổng tất cả các giá trị nguyên của $m$ là $2$."
+  },
+  {
+    "id": "2D122TL39",
+    "question": "Cho $M(a;b)$ là điểm nằm trên đường thẳng đi qua hai điểm cực trị của đồ thị hàm số $y=x^3-3x$ và hai điểm $A(1;2)$, $B(2;1)$. Khi $MA+MB$ ngắn nhất thì giá trị $b-a$ bằng bao nhiêu?",
+    "answer": "1",
+    "explain": "Tọa độ hai điểm cực trị của đồ thị hàm số $y=x^3-3x$ là $(-1;2)$; $(1;-2)$.<br>  Phương trình đường thẳng đi qua $2$ điểm cực trị là $d\\colon 2x+y=0$.<br>  Ta thấy hai điểm $A$, $B$ nằm cùng phía đối với $d$. Gọi $A'$ là điểm đối xứng với $A$ qua $d$.<br>  Khi đó $MA+MB=MA'+MB\\ge A'B$.<br>  Do đó $MA+MB$ ngắn nhất thì $M$, $A'$, $B$ thẳng hàng hay $M=A'B\\cap d$.<br>  Gọi $\\Delta $ là đường thẳng đi qua $A$ và vuông góc $d$ nên có phương trình  $\\Delta (x-1)-2(y-2)=0 \\Leftrightarrow x-2y+3=0.$  Gọi $I$ là giao điểm của $d$ và $\\Delta \\Rightarrow I\\left(-\\dfrac{3}{5};\\dfrac{6}{5} \\right) \\Rightarrow A'\\left(-\\dfrac{11}{5};\\dfrac{2}{5} \\right)$.<br>  Suy ra $\\overrightarrow{A'B}=\\left(\\dfrac{21}{5};\\dfrac{3}{5} \\right)$. Vậy đường thẳng $A'B$ có véctơ pháp tuyến $\\overrightarrow{n}=(3;-21)$.<br>  Phương trình $A'B\\colon 3(x-2)-21(y-1)=0 \\Leftrightarrow 3x-21y+15=0$.<br>  Vì $M=A'B\\cap d\\Rightarrow M\\left(-\\dfrac{1}{3};\\dfrac{2}{3} \\right)$ nên $a=-\\dfrac{1}{3};b=\\dfrac{2}{3}$.<br>  Khi đó $b-a=\\dfrac{2}{3}-\\left(-\\dfrac{1}{3} \\right)=1$."
+  },
+  {
+    "id": "2D127TL3",
+    "question": "Khi loại thuốc $A$ được tiêm vào bệnh nhân, nồng độ mg/l của thuốc trong máu sau $x$ phút (kể từ khi bắt đầu tiêm) được xác định bởi công thức $C(x)=\\dfrac{30x}{x^2+2}$. Để đưa ra những lời khuyên và cách xử lí phù hợp cho bệnh nhân, ta cần tìm khoảng thời gian mà nồng độ của thuốc trong máu đang tăng. Em hãy cho biết hàm nồng độ thuốc trong máu $C(x)$ đạt giá trị cực đại là bao nhiêu trong khoảng thời gian $6$ phút sau khi tiêm. (kết quả làm tròn đến hàng phần mười)",
+    "answer": "10,6",
+    "explain": "Ta có $C'(x)=\\dfrac{-30x^2+60}{\\left(x^2+2\\right)^2}$.<br>   Suy ra   $C'(x)=0 \\Leftrightarrow -30x^2+60=0$<br>$\\Leftrightarrow x=\\sqrt{2}\\Rightarrow C(x)=\\dfrac{15\\sqrt{2}}{2}\\approx 10{,}6 \\text{ hoặc } x=-\\sqrt{2} \\notin [0;6].$  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_Lien_cap_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy $C(x)$ đạt cực đại trên khoảng thời gian $6$ phút sau khi tiêm bằng $10{,}6$ (mg/l)."
+  },
+  {
+    "id": "2D122TL4",
+    "question": "Cho hàm số $f(x)$ có đạo hàm $f'(x)=\\left(x-1\\right)\\left(x^2-3\\right)\\left(x^4-1\\right)$, $\\forall x\\in \\mathbb{R}$. Tìm số điểm cực đại của hàm số $y=f(x)$.",
+    "answer": "1",
+    "explain": "Xét phương trình:  $f'(x)=0 \\Leftrightarrow \\left(x-1\\right)\\left(x^2-3\\right)\\left(x^4-1\\right)=0 \\Leftrightarrow x-1=0 \\text{ hoặc } x^2-3=0 \\text{ hoặc } x^4-1=0 \\Leftrightarrow x=1 \\text{ hoặc } x=\\sqrt{3} \\text{ hoặc } x=-\\sqrt{3} \\text{ hoặc } x=-1.$<br>  Bảng xét dấu:  <br><img src=\"data/12/2D1/im2D12/loc8_TT_THPT_NguyenVi_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $f'(x)$ đổi dấu từ dương sang âm $1$ lần tại $x=-1$ nên hàm số $f(x)$ có $1$ điểm cực đại."
   }
 ];

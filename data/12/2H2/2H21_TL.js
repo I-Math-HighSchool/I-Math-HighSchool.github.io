@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2H21 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2H21 = [
   {
@@ -159,5 +160,35 @@ window.traLoiNgan2H21 = [
     "question": "Một chiếc máy bay cất cánh tại một điểm trên mặt đất với vận tốc trung bình $200$ (km/h). Sau thời gian $12$ phút bay, chiếc máy bay cách điểm xuất phát về phía Bắc $31$ (km) và về phía Đông $25$ (km). Khi đó máy bay cách mặt đất bao nhiêu $km$ (Làm tròn đến hàng phần trăm). Biết máy bay bay theo một đường thẳng.<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS8_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "3{,}74",
     "explain": "Giả sử $\\overrightarrow{OB}$ là hướng đông suy ra $\\overrightarrow{OD}$ là hướng bắc.<br>  Suy ra ta có $OB=25$, $OD=31$.<br>  Đổi $12$ phút $=0{,}2$ giờ.<br>  Quãng đường máy bay đi được trong $12$ phút là $OH=0{,}2\\cdot 200=40$ (km).<br>  Khi đó, $HE$ là khoảng cách máy bay cách mặt đất.<br>  Ta có   $  HE=\\sqrt{OH^2-OE^2}=\\sqrt{OH^2-(OB^2+OD^2)}=\\sqrt{40^2-(31^2+25^2)}=\\sqrt{14}\\approx 3{,}74~\\text{(km)}.  $"
+  },
+  {
+    "id": "2H212TL1",
+    "question": "Người ta xây dựng một chân tháp bằng bê tông có dạng khối chóp cụt tứ giác đều. Cạnh đáy dưới dài $5$ m, cạnh đáy trên dài $2$ m, cạnh bên dài $3$ m. Biết rằng chân tháp được làm bằng bê tông tươi với giá tiền $1\\,470\\,000$ đồng/m$^3$. Tính số tiền để mua bê tông tươi làm chân tháp theo đơn vị triệu đồng (làm tròn đến hàng phần chục).  <br><img src=\"data/12/2H2/im2H21/loc8_TT_KSCL_Cum_lien_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "40{,}5",
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_KSCL_Cum_lien_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $I$, $J$ lần lượt là hình chiếu vuông góc của $H$, $F$ lên mặt phẳng $(ABCD)$.  $\\Rightarrow BJ = DI=\\dfrac{1}{2}(BD-IJ)=\\dfrac{1}{2}(5\\sqrt{2}-2\\sqrt{2})=\\dfrac{3\\sqrt{2}}{2}.$<br>$\\Rightarrow HI = \\sqrt{DH^2-DI^2}=\\dfrac{3\\sqrt{2}}{2}.$  Thể tích khối bê tông $V=\\dfrac{h}{3}(S+S'+\\sqrt{S \\cdot S'})=\\dfrac{117\\sqrt{2}}{6}$ (m$^3$).<br>  Số tiền $T=\\dfrac{117\\sqrt{2}}{6} \\cdot 1\\,470\\,000=4\\,053\\,8431{,}77$ đồng $\\approx 40{,}5$ triệu đồng."
+  },
+  {
+    "id": "2H212TL2",
+    "question": "Trọng lực $\\vec{P}$ là lực hấp dẫn do Trái Đất tác dụng lên một vật được tính bởi công thức $\\vec{P} = m\\vec{g}$, trong đó $m$ là khối lượng của vật (đơn vị: kg), $\\vec{g}$ là vecto gia tốc rơi tự do, có hướng đi xuống và có độ lớn $g = 9,8m/s^2$. Xác định độ lớn của trọng lực (đơn vị: N) tác dụng lên quả bóng có khối lượng $450$ gam (làm tròn đến hàng phần trăm).",
+    "answer": "4,41",
+    "explain": "Quả bóng có khối lượng $m = 450 (gam) = 0{,}45 (kg)$.<br>   Do $\\vec{P} = m\\vec{g} \\Rightarrow |\\vec{P}| = m|\\vec{g}| = 0{,}45 \\cdot 9{,}8 \\approx 4{,}41 (N)$."
+  },
+  {
+    "id": "2H213TL3",
+    "question": "Cho hai vectơ $\\overrightarrow{a}$, $\\overrightarrow{b}$ sao cho $\\left|\\overrightarrow{a}\\right|=\\sqrt{2}$, $\\left|\\overrightarrow{b}\\right|=2$ và hai vectơ $\\overrightarrow{x}=\\overrightarrow{a}+\\overrightarrow{b}$, $\\overrightarrow{y}=2\\overrightarrow{a}-\\overrightarrow{b}$ vuông góc với nhau. Tính góc giữa hai vectơ $\\overrightarrow{a}$ và $\\overrightarrow{b}$ (đơn vị độ).",
+    "answer": "90",
+    "explain": "Theo giả thiết, ta có $\\overrightarrow{x}$ vuông góc với $\\overrightarrow{y}$ nên tích vô hướng của chúng bằng $0$, tức là $\\overrightarrow{x} \\cdot \\overrightarrow{y} = 0$.  $\\left(\\overrightarrow{a}+\\overrightarrow{b}\\right) \\cdot \\left(2\\overrightarrow{a}-\\overrightarrow{b}\\right) = 0$<br>$\\Leftrightarrow\\ 2\\overrightarrow{a}^2 - \\overrightarrow{a} \\cdot \\overrightarrow{b} + 2\\overrightarrow{a} \\cdot \\overrightarrow{b} - \\overrightarrow{b}^2 = 0$<br>$\\Leftrightarrow\\ 2\\left|\\overrightarrow{a}\\right|^2 + \\overrightarrow{a} \\cdot \\overrightarrow{b} - \\left|\\overrightarrow{b}\\right|^2 = 0$<br>$\\Leftrightarrow\\ 2\\left(\\sqrt{2}\\right)^2 + \\overrightarrow{a} \\cdot \\overrightarrow{b} - 2^2 = 0$<br>$\\Leftrightarrow\\ 4 + \\overrightarrow{a} \\cdot \\overrightarrow{b} - 4 = 0$<br>$\\Leftrightarrow\\ \\overrightarrow{a} \\cdot \\overrightarrow{b} = 0.$  Vì tích vô hướng $\\overrightarrow{a} \\cdot \\overrightarrow{b} = 0$ và cả hai vectơ đều khác vectơ-không nên $\\overrightarrow{a} \\perp \\overrightarrow{b}$.<br>  Vậy góc giữa hai vectơ $\\overrightarrow{a}$ và $\\overrightarrow{b}$ bằng $90^\\circ$."
+  },
+  {
+    "id": "2H212TL4",
+    "question": "Một chiếc ô tô được đặt trên mặt đáy dưới của một khung sắt dạng hình hộp chữ nhật với đáy trên là hình chữ nhật $ABCD$, mặt phẳng $(ABCD)$ song song với mặt phẳng nằm ngang. Khung sắt đó được đặt vào móc $E$ của chiếc cần cẩu sao cho các đoạn dây cáp $EA$, $EB$, $EC$, $ED$ bằng nhau và cùng tạo với mặt phẳng $(ABCD)$ một góc $\\alpha$. Chiếc cần cẩu kéo khung sắt lên theo phương thẳng đứng. Biết các lực căng $\\overrightarrow{F}_{1}, \\overrightarrow{F}_{2}, \\overrightarrow{F}_{3}, \\overrightarrow{F}_{4}$ đều có cường độ là $4\\,800$ N, trọng lượng của cả khung sắt chứa xe ô tô là $7\\,200\\sqrt{6}$ N. Tính $\\sin\\alpha$ (làm tròn kết quả đến chữ số hàng phần trăm).<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "0{,}92",
+    "explain": "Gọi $O$ là tâm của hình chữ nhật $ABCD$. Vì $EA=EB=EC=ED$ nên hình chiếu vuông góc của $E$ lên mặt phẳng $(ABCD)$ trùng với tâm $O$.  <br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $EO \\perp (ABCD)$ và $EO$ có phương thẳng đứng.<br>  Góc giữa dây cáp (ví dụ $EA$) và mặt phẳng $(ABCD)$ là góc giữa $EA$ và $AO$, tức là $\\widehat{EAO} = \\alpha$.<br>  Khung sắt và xe ô tô cân bằng dưới tác dụng của trọng lực $\\overrightarrow{P}$ (hướng thẳng đứng xuống dưới) và $4$ lực căng dây $\\overrightarrow{F}_1, \\overrightarrow{F}_2, \\overrightarrow{F}_3, \\overrightarrow{F}_4$ (có hướng dọc theo các sợi cáp từ đỉnh hình chữ nhật về phía $E$).<br>  Ta có phương trình cân bằng lực  \\[ \\overrightarrow{P} + \\overrightarrow{F}_1 + \\overrightarrow{F}_2 + \\overrightarrow{F}_3 + \\overrightarrow{F}_4 = \\overrightarrow{0} \\Rightarrow \\overrightarrow{F}_1 + \\overrightarrow{F}_2 + \\overrightarrow{F}_3 + \\overrightarrow{F}_4 = -\\overrightarrow{P} \\]  Chiếu phương trình vectơ lên phương thẳng đứng $EO$, các thành phần nằm ngang của $4$ lực căng dây bị triệt tiêu. Thành phần thẳng đứng của mỗi lực căng dây là $\\left|\\overrightarrow{F}_i\\right| \\sin \\alpha$.<br>  Do tính đối xứng và cường độ các lực bằng nhau nên  $4 \\left|\\overrightarrow{F}_1\\right| \\sin \\alpha = \\left|\\overrightarrow{P}\\right|$<br>$\\Leftrightarrow 4 \\cdot 4\\,800 \\cdot \\sin \\alpha = 7\\,200\\sqrt{6}$<br>$\\Leftrightarrow 19\\,200 \\sin \\alpha = 7\\,200\\sqrt{6}$<br>$\\Leftrightarrow \\sin \\alpha = \\dfrac{7\\,200\\sqrt{6}}{19\\,200} = \\dfrac{3\\sqrt{6}}{8} \\approx 0{,}92.$"
+  },
+  {
+    "id": "2H213TL5",
+    "question": "Trong không gian, cho hình lập phương $ABCD. A'B'C'D'$ có cạnh bằng $5$. Tính tích vô hướng của hai vectơ $\\overrightarrow{AB'}$ và $\\overrightarrow{C'B}$.",
+    "answer": "-25",
+    "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_NguyenKh_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Đặt hệ trục tọa độ $Oxyz$ như hình trên.<br>  Ta có: $A(0; 0; 0)$, $B'(5; 0; 5)$ nên $\\overrightarrow{AB'}=(5; 0; 5)$.<br>  Nên $C'(5; 5; 5)$, $B(5; 0; 0)$ nên $\\overrightarrow{C'B}=(0;-5;-5)$.<br>  Suy ra $\\overrightarrow{AB'} \\cdot \\overrightarrow{C'B}=5\\cdot 0+0\\cdot (-5)+5\\cdot (-5)=-25$.<br>  \\textbf{\\underline{\\color{red} Cách khác:}}   $\\overrightarrow{AB'} \\cdot \\overrightarrow{C' B} = \\left(\\overrightarrow{AB}+\\overrightarrow{AA'}\\right) \\cdot \\overrightarrow{D' A}$<br>$= \\left(\\overrightarrow{AB}+\\overrightarrow{AA'}\\right) \\cdot\\left(-\\overrightarrow{AD}-\\overrightarrow{AA'}\\right)$<br>$= \\left(\\overrightarrow{AB}+\\overrightarrow{AA'}\\right) \\cdot\\left(-\\overrightarrow{AD}-\\overrightarrow{AA'}\\right)$<br>$= -\\overrightarrow{AB} \\cdot \\overrightarrow{AD}-\\overrightarrow{AA'} \\cdot \\overrightarrow{AD}-\\overrightarrow{AB} \\cdot \\overrightarrow{AA'}+{\\overrightarrow{AA'}}^2$<br>$= -AA'^2$<br>$= -25.$"
   }
 ];

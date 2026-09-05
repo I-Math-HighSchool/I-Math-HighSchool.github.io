@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H85 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H85 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H85 = [
   {
@@ -110,5 +112,17 @@ window.tracNghiem1H85 = [
     ],
     "answer": 2,
     "explain": "Gọi $M$ là hình chiếu của $A$ lên $BC$.<br>  Ta có $BC\\perp AM \\text{ và } BC\\perp SA\\Rightarrow BC\\perp (SAM)\\Rightarrow (SAM)\\perp(SBC)$.<br>  Lại có $(SAM)\\cap (SBC)=SM$ nên gọi $H$ là hình chiếu của $A$ lên $SM$ thì $AH\\perp (SBC)$ nên $\\mathrm{d}(A,(SBC))=AH$.<br>  Ta có $\\tan\\widehat{ABC}=\\dfrac{AC}{AB}\\Rightarrow AB=\\dfrac{AC}{\\tan30^\\circ}=\\dfrac{a\\sqrt{3}}{\\frac{1}{\\sqrt{3}}}=3a$.<br>  Góc giữa $SC$ và $(ABC)$ là $\\widehat{SCA}=60^\\circ$.<br>  Ta có $\\tan\\widehat{SCA}=\\dfrac{SA}{AC}\\Rightarrow SA=AC\\cdot \\tan60^\\circ=a\\sqrt{3}\\cdot \\sqrt{3}=3a.$<br>  Trong tam giác vuông $SAM$ ta có  $\\dfrac{1}{AH^2}=\\dfrac{1}{AS^2}+\\dfrac{1}{AM^2}=\\dfrac{1}{AS^2}+\\dfrac{1}{AB^2}+\\dfrac{1}{AC^2}=\\dfrac{1}{9a^2}+\\dfrac{1}{9a^2}+\\dfrac{1}{3a^2}=\\dfrac{5}{9a^2}.$  Suy ra $AH=\\dfrac{3a}{\\sqrt{5}}$.<br>  Vậy $\\mathrm{d}(A, (SBC))=\\dfrac{3a}{\\sqrt{5}}$"
+  },
+  {
+    "id": "1H853TN10",
+    "question": "Cho hình chóp tứ giác đều $S.ABCD$, có cạnh đáy bằng $a$ và chiều cao bằng $a\\sqrt{2}$. Tính  khoảng cách từ $A$ đến mặt bên $\\left(SCD\\right)$.<br><img src=\"data/11/1H8/im1H85/loc8_TT_THPT_DaoDuyTu_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$\\dfrac{2a\\sqrt{2}}{3}$",
+      "$\\dfrac{a\\sqrt{10}}{5}$",
+      "$BD$",
+      "$SM$"
+    ],
+    "answer": 0,
+    "explain": "Gọi $H$ là trung điểm của $AC$.<br>  Ta có  $\\mathrm{d}(A,(SCD)) =2\\mathrm{d}(H,(SCD))$<br>$=2HK=\\dfrac{2\\cdot SH\\cdot HM}{\\sqrt{SH^2+HM^2}}$<br>$=\\dfrac{2\\cdot a\\sqrt{2}\\cdot \\dfrac{a}{2}}{\\sqrt{2a^2+\\dfrac{a^2}{4}}}=\\dfrac{2a\\sqrt{2}}{3}.$"
   }
 ];

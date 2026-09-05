@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H82 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H82 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1H82 = [
   {
@@ -230,5 +232,17 @@ window.tracNghiem1H82 = [
     ],
     "answer": 3,
     "explain": "<br><img src=\"data/11/1D8/im1H82/dlts_11_DLTS36_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét $BD$ và $(SAC)$, ta có  $ BD \\perp AC \\text{ (Do } ABCD \\text{ là hình vuông}) \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AC\\subset (SAC), \\ SA\\subset (SAC), \\ SA \\cap AC = A. $  Do đó $BD\\perp (SAC)$. Suy ra $DO \\perp (SAC)$ nên $O$ là hình chiếu của $D$ lên $(SAC)$."
+  },
+  {
+    "id": "1H824TN1",
+    "question": "Cho hình chóp $S.ABC$, biết $SA\\perp (ABC)$ và tam giác $ABC$ vuông tại $A$. Đường thẳng $AB$ vuông góc với mặt phẳng nào sau đây?<br><img src=\"data/11/1H8/im1H82/loc8_TT_KSCL_THPT_Yen_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$(SAB)$",
+      "$(SAC)$",
+      "$(SBC)$",
+      "$(ABC)$"
+    ],
+    "answer": 1,
+    "explain": "Ta có $AB\\perp AC \\text{ và } AB\\perp SA\\Rightarrow AB\\perp (SAC)$."
   }
 ];

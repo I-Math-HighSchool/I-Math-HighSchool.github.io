@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D22 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D22 = [
   {
@@ -243,5 +244,65 @@ window.tracNghiem1D22 = [
     ],
     "answer": 1,
     "explain": "Ba số $-x$; $12$; $2x-1$ lần lượt là ba số hạng liên tiếp của một cấp số cộng khi và chỉ khi:  $(-x)+(2x-1) = 2\\cdot 12$<br>$\\Leftrightarrow x-1 = 24$<br>$\\Leftrightarrow x = 25.$"
+  },
+  {
+    "id": "1D222TN20",
+    "question": "Công sai $d$ của cấp số cộng $(u_n)$, $n\\in\\mathbb{N}^*$ có $u_1=1$; $u_4=13$ là",
+    "options": [
+      "$d=\\dfrac{1}  {3}$",
+      "$d=3$",
+      "$d=\\dfrac{1}{4}$",
+      "$d=4$"
+    ],
+    "answer": 3,
+    "explain": "Ta có $u_1=1 \\text{ và } u_4=13\\Leftrightarrow u_4=u_1+3d\\Leftrightarrow d=\\dfrac{u_4-u_1}{3}=\\dfrac{13-1}{3}=4$."
+  },
+  {
+    "id": "1D222TN21",
+    "question": "Cấp số cộng $\\left(u_n \\right)$ có $u_1=-1$ và $u_2=3$. Số hạng $u_5$ của cấp số cộng bằng",
+    "options": [
+      "$15$",
+      "$5$",
+      "$9$",
+      "$13$"
+    ],
+    "answer": 0,
+    "explain": "Ta có $u_5=u_1+4d=-1+4\\cdot 4=15$."
+  },
+  {
+    "id": "1D224TN3",
+    "question": "Cho $(u_n)$ là cấp số cộng có số hạng đầu bằng $2$, công sai bằng $5$. Tổng $10$ số hạng đầu tiên của cấp số cộng đó bằng?",
+    "options": [
+      "$-410$",
+      "$-205$",
+      "$245$",
+      "$-230$"
+    ],
+    "answer": 2,
+    "explain": "Cấp số cộng đã cho có $u_1=2$ và $d=5$.<br>  Ta có $S_{10}=10\\cdot 2+\\dfrac{10\\cdot 9\\cdot 5}{2}=245$."
+  },
+  {
+    "id": "1D222TN4",
+    "question": "Cho cấp số cộng $\\left(u_n\\right)$ có số hạng đầu $u_1=3$ và công sai $d=-4$. Số hạng thứ năm của cấp số cộng là",
+    "options": [
+      "$ -3072 $",
+      "$ -13 $",
+      "$ -17 $",
+      "$ 768 $"
+    ],
+    "answer": 1,
+    "explain": "Số hạng thứ năm của cấp số cộng là $u_5=u_1+4 d=3+4\\cdot (-4)=-13$."
+  },
+  {
+    "id": "1D224TN5",
+    "question": "Cho cấp số cộng $(u_n)$ với $u_1=-1$, công sai $d=3$. Tổng năm số hạng đầu tiên của cấp số cộng đó bằng",
+    "options": [
+      "$11$",
+      "$25$",
+      "$5$",
+      "$50$"
+    ],
+    "answer": 1,
+    "explain": "Tổng $5$ số hạng đầu tiên của cấp số cộng được tính theo công thức:  \\[ S_5 = \\dfrac{5 \\cdot [2u_1 + (5-1)d]}{2} = \\dfrac{5 \\cdot [2 \\cdot (-1) + 4 \\cdot 3]}{2} = \\dfrac{5 \\cdot 10}{2} = 25. \\]  Vậy tổng năm số hạng đầu tiên bằng $25$."
   }
 ];

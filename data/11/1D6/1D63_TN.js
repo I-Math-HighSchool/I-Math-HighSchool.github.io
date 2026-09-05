@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D63 - Trắc nghiệm (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D63 - Trắc nghiệm
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D63 = [
   {
@@ -302,5 +304,29 @@ window.tracNghiem1D63 = [
     ],
     "answer": 0,
     "explain": "Điều kiện $x^2+4x+4&gt;0\\Leftrightarrow x\\ne -2$.<br>  Vậy tập xác định là $\\mathscr{D}=\\Bbb{R}\\setminus\\{-2\\}$."
+  },
+  {
+    "id": "1D634TN20",
+    "question": "Tìm $a$ để hàm số $\\log_a x\\,(0&lt;a \\neq 1)$ có đồ thị là hình bên.<br><img src=\"data/11/1D6/im1D63/loc8_TT_THPT_AnDuong__006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$a=2$",
+      "$a=\\sqrt{2}$",
+      "$a=-\\dfrac{1}{2}$",
+      "$a=\\dfrac{1}{2}$"
+    ],
+    "answer": 1,
+    "explain": "Đồ thị hàm số đi qua điểm $(2; 2) \\Rightarrow \\log_a 2=2 \\Rightarrow a^2=2 \\Rightarrow a=\\sqrt{2}$."
+  },
+  {
+    "id": "1D633TN2",
+    "question": "Tập xác định của hàm số $y=(x-1)^{\\frac{1}{6}}+\\log(4-x^2)$ là",
+    "options": [
+      "$[1;2)$",
+      "$(-2;2)$",
+      "$(1;2]$",
+      "$(1;2)$"
+    ],
+    "answer": 3,
+    "explain": "Điều kiện xác định $x-1&gt;0 \\text{ và } 4-x^2&gt;0\\Leftrightarrow x&gt;1 \\text{ và } -2&lt;x&lt;2\\Leftrightarrow 1&lt;x&lt;2$.<br>  Vậy tập xác định của hàm số là $\\mathscr{D}=(1;2)$."
   }
 ];

@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1D72 - Đúng/Sai (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1D72 - Đúng sai
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1D72 = [
   {
@@ -186,5 +188,28 @@ window.dungSai1D72 = [
       }
     ],
     "explain": "<br>- <strong>Đúng</strong>.<br>- <strong>Đúng</strong>. Ta có $f'(x)=(x^3-2x)'=3x^2-2$.<br>- <strong>Sai</strong>. Ta có $f'(2) = 3\\cdot 2^2 - 2 = 10$.<br>- <strong>Sai</strong>. Phương trình tiếp tuyến của $(C)$ tại điểm $M(2;4)$ là   $ y=f'(2)(x-2) + 4   \\Leftrightarrow y=10(x-2)+4   \\Leftrightarrow y=10x-6. $"
+  },
+  {
+    "id": "1D726DS8",
+    "question": "Một vật chuyển động với vận tốc ban đầu là $v_0$ (m/s) sau đó dừng lại, phương trình quãng đường của vật là $s=s\\left(t\\right)=-t^3+6t^2+15t$ trong đó $t$ tính bằng giây và $s$ tính bằng mét.",
+    "subQuestions": [
+      {
+        "text": "Vận tốc của vật tại thời điểm $t=2\\left(s\\right)$ là $v=18$ (m/s)",
+        "answer": false
+      },
+      {
+        "text": "Vận tốc của vật tại thời điểm $t$ là $v\\left(t\\right)=-3t^2+12t+15$ (m/s)",
+        "answer": true
+      },
+      {
+        "text": "Vật đạt vận tốc lớn nhất tại thời điểm $t=2$ (s)",
+        "answer": true
+      },
+      {
+        "text": "Vật dừng lại sau $4$ (s) kể từ lúc bắt đầu chuyển động",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Vận tốc $v\\left(t\\right)=s'\\left(t\\right)=-3t^2+12t+15\\left(m/s\\right)$. <br>  Vận tốc của vật tại thời điểm $t=2\\left(s\\right)$ là $v=-3\\cdot 2^2+12\\cdot 2+15=27\\left(m/s\\right)$.<br>- Vận tốc của vật tại thời điểm $t$ là $v\\left(t\\right)=-3t^2+12t+15\\left(m/s\\right)$.<br>- Vận tốc $v\\left(t\\right)=-3t^2+12t+15\\left(m/s\\right)$. <br>  Bảng biến thiên của $v\\left(t\\right)$  <br><img src=\"data/11/1D7/im1D72/loc8_TT_KSCL_THPT_Yen_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vận tốc đạt lớn nhất khi $t=\\dfrac{-12}{2\\cdot\\left(-3\\right)}=2$ (s).<br>- Vật dừng lại khi $v\\left(t\\right)=0\\Leftrightarrow -3t^2+12t+15=0\\Rightarrow t=5\\vee t=-1$. <br>  Vậy vật dừng lại sau $5$ giây kể từ lúc bắt đầu chuyển động."
   }
 ];

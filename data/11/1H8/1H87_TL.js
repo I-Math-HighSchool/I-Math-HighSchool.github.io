@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H87 - Trả lời ngắn (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H87 - Trả lời ngắn
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan1H87 = [
   {
@@ -32,5 +34,29 @@ window.traLoiNgan1H87 = [
     "question": "Một khối gỗ dạng hình chóp tứ giác đều có cạnh đáy $8$ cm, cạnh bên tạo với đáy một góc $\\alpha$ mà $\\tan\\alpha=\\sqrt{2}$. Người thợ cắt khối chóp bởi một mặt phẳng song song với đáy và qua trung điểm một cạnh bên để được một hình chóp $S.A'B'C'D'$ và một hình chóp cụt đều $ABCD.A'B'C'D'$. Gọi $V_1$ là thể tích của khối chóp $S.A'B'C'D'$ và $V_2$ là thể tích khối chóp cụt đều $ABCD.A'B'C'D'$. Biết $\\dfrac{V_1}{V_2}=\\dfrac{a}{b}$ với $a$, $b \\in \\mathbb{Z}$ và $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=2a+3b$.",
     "answer": "23",
     "explain": "<br><img src=\"data/11/1D8/im1H87/dlts_11_DLTS36_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  {\\bf Nhận xét}: Giả thiết cạnh đáy và góc giữa cạnh bên với đáy là không cần thiết.<br>  Ta có $\\dfrac{V_{S.A'B'C'}}{V_{S.ABC}}=\\dfrac{SA'}{SA}\\cdot \\dfrac{SB'}{SB}\\cdot \\dfrac{SC'}{SC}=\\dfrac{1}{2}\\cdot \\dfrac{1}{2}\\cdot \\dfrac{1}{2}=\\dfrac{1}{8}$.<br>  Tương tự ta có $\\dfrac{V_{S.A'D'C'}}{V_{S.ADC}}=\\dfrac{1}{8}$.<br>  Vậy $\\dfrac{V_{S.A'B'C'D'}}{V_{S.ABCD}}=\\dfrac{1}{8}$.<br>  Mà $V_{S.ABCD}=V_{S.A'B'C'D'}+V_{ABCD.A'B'C'D'}$ nên $\\dfrac{V_1}{V_2}=\\dfrac{1}{7}$.<br>  Vậy $a=1$, $b=7$ suy ra $2a+3b=23$."
+  },
+  {
+    "id": "1H874TL6",
+    "question": "Một vật lưu niệm làm bằng thủy tinh có dạng hình lăng trụ đều có đáy $ABCD$ là hình vuông cạnh $AB=10$ (cm). Phía bên trong làm bằng nhựa đặc là hình chóp cụt đều $MNPQ.ABCD$ có $MN=5$ (cm) và chiều cao bằng chiều cao của lăng trụ như hình vẽ. Biết rằng khoảng cách từ điểm $B$ đến mặt phẳng $(CDQP)$ bằng $3\\sqrt{10}$ (cm). Phần khoảng trống bên trong vật lưu niệm người ta bơm chất lỏng có màu sắc (xem độ dày thành vật thể không đáng kể). Khi đó thể tích phần chất lỏng bơm vào là $\\dfrac{a}{b}$ (lít) với $\\dfrac{a}{b}$ là phân số tối giản. Khi đó $a+b$ bằng<br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_THPT_Le__013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "21",
+    "explain": "<br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_THPT_Le__014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Kéo dài $PQ$ cắt $B'C'$ tại $H$, kẻ $BL\\perp CH$.<br>  Mà $CD\\perp BL$ (do $CD\\perp(BCC'B')$)<br>  Nên $BL\\perp(CDQP)$.<br>  Suy ra $\\mathrm{d}\\left[B;(CDQP)\\right]=BL=3\\sqrt{10}$.<br>  Xét $\\triangle LBC$ và $\\triangle C'CH$ có   <br>- $\\widehat{BLC}=\\widehat{CC'H}=90^{\\circ}$;<br>- $\\widehat{BCL}=\\widehat{C'HC}$ (cùng phụ $\\widehat{HCC'}$).  Vậy $\\triangle LBC\\backsim\\triangle C'CH$ (g-g).<br>  $\\Rightarrow\\dfrac{BL}{C'C}=\\dfrac{BC}{CH}\\Rightarrow\\dfrac{3\\sqrt{10}}{C'C}=\\dfrac{10}{\\sqrt{C'C^2+2{,}5^2}}\\Rightarrow C'C=\\dfrac{15}{2}$.<br>  Thể tích phần khối chóp cụt là  $V_{\\text{chóp cụt}} = \\dfrac{C'C}{3}\\left(S_1+S_2+\\sqrt{S_1\\cdot S_2}\\right)$<br>$= \\dfrac{5}{2}\\left(10^2+5^2+\\sqrt{10^2\\cdot 5^2}\\right)=\\dfrac{875}{2}\\;\\text{ (cm}^3\\text{)}.$  Thể tích phần chất lỏng bơm vào là  \\[V_{\\text{chất lỏng}}=10^2\\cdot\\dfrac{15}{2}-V_{\\text{chóp cụt}}=\\dfrac{625}{2}\\text{(cm}^3\\text{)}=\\dfrac{5}{16}\\;\\text{(lít)}.\\]  Suy ra $a=5$, $b=16\\Rightarrow a+b=21$."
+  },
+  {
+    "id": "1H874TL7",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, cạnh bằng $1$. Hình chiếu của đỉnh $S$ lên mặt phẳng $(ABCD)$ là trung điểm $H$ của $AB$. Góc tạo bởi $SC$ và mặt phẳng $(ABCD)$ bằng $60^\\circ$. Tính thể tích khối chóp $S.ABCD$ <em>(kết quả được làm tròn đến hàng phần trăm)</em>.",
+    "answer": "0,65",
+    "explain": "<br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_THPT_Yen_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích đáy $S_{ABCD} = 1^2 = 1$.<br>  Ta có hình chiếu vuông góc của $S$ lên ($ABCD$) là $H$, do đó hình chiếu vuông góc của $SC$ lên ($ABCD$) là $HC$. Suy ra $(SC,(ABCD))=(SC,HC)=\\widehat{SCH}=60^\\circ$.<br>  Xét tam giác $BCH$ vuông tại $B$, ta có  $HC = \\sqrt{BC^2 + BH^2} = \\sqrt{1^2 + \\left(\\frac{1}{2}\\right)^2} = \\frac{\\sqrt{5}}{2}.$  Trong tam giác $SHC$ vuông tại $H$ ta có  $SH = HC \\cdot \\tan 60^\\circ = \\dfrac{\\sqrt{5}}{2} \\cdot \\sqrt{3} = \\dfrac{\\sqrt{15}}{2}.$  Thể tích khối chóp $S.ABCD$ là   $V = \\frac{1}{3} \\cdot S_{ABCD} \\cdot SH = \\frac{1}{3} \\cdot 1 \\cdot \\frac{\\sqrt{15}}{2} = \\frac{\\sqrt{15}}{6} \\approx 0{,}64.$"
+  },
+  {
+    "id": "1H872TL3",
+    "question": "Một người cần sơn các mặt của một cái bục (trừ đáy lớn) để đặt một bức tượng. Bục có dạng hình chóp cụt tứ giác đều có cạnh đáy lớn $1$\\,m, cạnh bên và cạnh đáy nhỏ bằng $0,7$\\,m. Tính tổng diện tích cần sơn (tính theo đơn vị $m^2$) <em>(kết quả được làm tròn đến hàng phần trăm)</em>",
+    "answer": "2,81",
+    "explain": "<br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_THPT_Yen_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Các mặt cần sơn bao gồm $4$ mặt bên (là các hình thang cân giống nhau) và 1 mặt đáy nhỏ.<br>  Diện tích đáy nhỏ là $S_{MNPQ} = 0{,}7^2 = 0{,}49$ ($m^2$).<br>  Xét một mặt bên là hình thang cân có hai cạnh đáy lần lượt là $1$\\,m và $0{,}7$\\,m, cạnh bên là $0,7$\\,m.<br>  Ta có $AH=\\dfrac{1-0{,}7}{2}=0{,}15$.  Chiều cao của hình thang cân này là  $h = \\sqrt{0{,}7^2 - 0{,}15^2} = \\sqrt{0{,}4675} \\, (m).$  Diện tích xung quanh của hình chóp cụt là  $S_{xq} =S_{MQDA}=\\dfrac{(MQ+AD)\\cdot MH}{2}= 4 \\cdot \\frac{(1 + 0{,}7) \\cdot \\sqrt{0{,}4675}}{2} \\approx 2{,}3247 \\, (m^2).$  Tổng diện tích cần sơn là  $S = S_{xq} + S_{MNPQ} \\approx 2{,}3247 + 0{,}49 = 2{,}8147 \\, (m^2).$  Làm tròn đến hàng phần trăm, ta được $S \\approx 2{,}81 \\, (m^2)$."
+  },
+  {
+    "id": "1H872TL4",
+    "question": "Một miếng pho mát có dạng khối lăng trụ đứng với chiều cao $10 \\text{ cm}$ và đáy là tam giác vuông cân có cạnh góc vuông bằng $12 \\text{ cm}$. Tính khối lượng của miếng pho mát theo đơn vị gam, biết  khối lượng riêng của loại pho mát đó là $3 \\text{ g/cm}^3$.<br><img src=\"data/11/1H8/im1H87/loc8_TT_THPT_Lien_cap_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "answer": "720",
+    "explain": "Thể tích khối pho mát là   \\[V = \\dfrac{1}{3} S_{ABC} \\cdot AA' = \\dfrac{1}{3} \\cdot \\dfrac{1}{2} AB \\cdot AC \\cdot AA' = \\dfrac{1}{6} \\cdot 12 \\cdot 12 \\cdot 10 = 240\\ (\\text{cm}^3).\\]  Suy ra khối lượng của miếng pho mát là $m = \\rho V = 3 \\cdot 240 = 720\\ \\text{gam}.$"
   }
 ];

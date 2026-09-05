@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 1D15 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 5), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem1D15 = [
   {
@@ -1023,5 +1024,41 @@ window.tracNghiem1D15 = [
     ],
     "answer": 0,
     "explain": "Ta có   $\\sin 3x=\\sin \\dfrac{\\pi}{3}$<br>$\\Leftrightarrow 3x=\\dfrac{\\pi}{3}+k2\\pi \\text{ hoặc } 3x=\\pi- \\dfrac{\\pi}{3}+k2\\pi$<br>$\\Leftrightarrow 3x=\\dfrac{\\pi}{3}+k2\\pi \\text{ hoặc } 3x=\\dfrac{2 \\pi}{3}+k2\\pi$<br>$\\Leftrightarrow x=\\dfrac{\\pi}{9}+\\dfrac{k2\\pi}{3} \\text{ hoặc } x=\\dfrac{2\\pi}{9}+\\dfrac{k2\\pi}{3}(k \\in \\mathbb{Z}).$"
+  },
+  {
+    "id": "1D153TN81",
+    "question": "Phương trình $\\sin x=-\\dfrac{\\sqrt{3}}{2}$ có tổng nghiệm dương nhỏ nhất và nghiệm âm lớn nhất bằng",
+    "options": [
+      "$2\\pi$",
+      "$\\dfrac{\\pi}  {3}$",
+      "$\\dfrac{4\\pi}{3}$",
+      "$\\pi$"
+    ],
+    "answer": 3,
+    "explain": "$\\sin x=-\\dfrac{\\sqrt{3}}{2}=\\sin\\left(-\\dfrac{\\pi}{3}\\right)\\Leftrightarrow\\begin{cases}x=-\\dfrac{\\pi}{3}+k2\\pi\\\\x=\\pi-\\left(-\\dfrac{\\pi}{3}\\right)+k2\\pi\\end{cases}\\Leftrightarrow\\begin{cases}x=-\\dfrac{\\pi}{3}+k2\\pi\\\\x=\\dfrac{4\\pi}{3}+k2\\pi\\end{cases}(k\\in\\mathbb{Z})$. <br>  Do đó, tổng nghiệm dương nhỏ nhất và nghiệm âm lớn nhất của phương trình là<br> $\\dfrac{4\\pi}{3}+\\left(-\\dfrac{\\pi}{3}\\right)=\\pi.$"
+  },
+  {
+    "id": "1D153TN82",
+    "question": "Nghiệm của phương trình $\\cos x = \\dfrac{1}{2}$ là",
+    "options": [
+      "$x = -\\dfrac{2\\pi}{3}+k2\\pi$, $x=\\dfrac{2\\pi}{3}+k2\\pi$",
+      "$x = \\dfrac{\\pi}{3}+k\\pi$, $x=-\\dfrac{\\pi}{3}+k\\pi$",
+      "$x = \\dfrac{\\pi}{3}+k2\\pi$, $x = -\\dfrac{\\pi}{3}+k2\\pi$",
+      "$x = -\\dfrac{\\pi}{6}+k2\\pi$, $x=\\dfrac{5\\pi}{6}+k2\\pi$"
+    ],
+    "answer": 2,
+    "explain": "Ta có $\\cos x = \\dfrac{1}{2} \\Leftrightarrow x = \\pm \\dfrac{\\pi}{3} + k2\\pi$ ($k\\in\\mathbb{Z}$)."
+  },
+  {
+    "id": "1D153TN83",
+    "question": "Nghiệm của phương trình $\\sqrt{3}+3 \\tan x=0$ là",
+    "options": [
+      "$x=\\dfrac{\\pi}{2}+k \\pi\\,(k \\in \\mathbb{Z})$",
+      "$x=-\\dfrac{\\pi}{6}+k \\pi\\,(k \\in \\mathbb{Z})$",
+      "$x=\\dfrac{\\pi}{3}+k \\pi\\,(k \\in \\mathbb{Z})$",
+      "$x=\\dfrac{\\pi}{2}+k 2 \\pi\\,(k \\in \\mathbb{Z})$"
+    ],
+    "answer": 1,
+    "explain": "Ta có  $\\sqrt{3}+3 \\tan x=0 \\Leftrightarrow \\tan x=-\\dfrac{\\sqrt{3}}{3}$<br>$\\Leftrightarrow \\tan x=\\tan \\left(-\\dfrac{\\pi}{6}\\right)$<br>$\\Leftrightarrow x=-\\dfrac{\\pi}{6}+k \\pi\\,(k \\in \\mathbb{Z}).$"
   }
 ];

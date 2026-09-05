@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D14 - Đúng sai
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai2D14 = [
   {
@@ -647,5 +648,120 @@ window.dungSai2D14 = [
       }
     ],
     "explain": "<br>- Ta có $\\lim\\limits_{x\\to +\\infty} y=\\dfrac{x^2-2x-3}{x(x-1)}=1$, $\\lim\\limits_{x\\to +\\infty} (y-x)=\\lim\\limits_{x\\to +\\infty} \\dfrac{-x-3}{x-1}=-1$. <br>  Vậy đồ thị hàm số đã cho có một đường tiệm cận xiên là $y=x-1$.<br>- Xét hàm số $y=\\dfrac{x^2-2x-3}{x-1}$. <br>  Ta có $y'=\\dfrac{(2x-2)(x-1)-(x^2-2x-3)}{(x-1)^2}=\\dfrac{x^2-2x+5}{(x-1)^2}&gt;0$ với mọi $x\\neq 1$. <br>  Vậy hàm số đã cho không có điểm cực trị.<br>- Xét phương trình hoành độ giao điểm  $\\dfrac{x^2-2x-3}{x-1}=0\\Rightarrow x^2-2x-3=0\\Rightarrow x=-1 \\text{ hoặc } x=3.$  Vậy giao điểm của đồ thị hàm số với trục hoành là $A(-1;0)$ và $B(3;0)$. <br>  Ta có $y(0)=3$, vậy giao điểm của đồ thị hàm số với trục tung là $C(0;3)$. <br>  Ta có $\\mathrm{d}(C,AB)=3$, vậy diện tích tam giác $ABC$ là $S_{ABC}=\\dfrac{1}{2}\\cdot 4\\cdot 3=6$.<br>- $a_1=\\tan \\dfrac{3\\pi}{8}$, $b_1=-\\tan \\dfrac{3\\pi}{8}$, $a_2=-\\cot \\dfrac{3\\pi}{8}$, $b_2=\\cot \\dfrac{3\\pi}{8}$."
+  },
+  {
+    "id": "2D142DS1",
+    "question": "Cho hàm số $y=f(x)=\\dfrac{ax^2+bx+c}{x+d}$ có đồ thị là đường cong như hình vẽ bên dưới. Biết đường tiệm cận xiên của đồ thị hàm số đi qua hai điểm $(0;1)$ và $(1;0)$. <br><img src=\"data/12/2D1/im2D14/loc8_TT_QV1_TT1_LVT_B_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Hàm số đồng biến trên khoảng $(-4;0)$",
+        "answer": false
+      },
+      {
+        "text": "Tập xác định của hàm số là $\\mathbb{R}\\setminus \\left\\{2\\right\\}$",
+        "answer": false
+      },
+      {
+        "text": "Ta có $a+b+c+d=-2$",
+        "answer": true
+      },
+      {
+        "text": "Tiếp tuyến tại điểm $M$ thuộc đồ thị hàm số cắt các đường tiệm cận lần lượt tại $A$ và $B$. Khi đó $MA \\cdot MB$ đạt giá trị nhỏ nhất là $8\\sqrt{2}-8$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Trên khoảng $(-4;0)$, hàm số không liên tục nên hàm số không đồng biến trên khoảng $(-4;0)$.<br>- Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R}\\setminus \\left\\{-2\\right\\}$.<br>- Ta có đường tiệm cận xiên có phương trình $d_1 \\colon y=-x+1$ và đường tiệm cận đứng $d_2 \\colon x=-2$. Vậy ta có $y=f(x)=-x+1+\\dfrac{m}{x+2}$. <br>  Mà đồ thị hàm số đi qua điểm $(-4;7)$, nên $m=-4$. <br>  Vậy $y=f(x)=-x+1+\\dfrac{-4}{x+2}=\\dfrac{-x^2-x-2}{x+2}$. <br> Khi đó $a=-1$, $b=-1$, $c=-2$, $d=2$. <br>  Vậy $a+b+c+d=-2$.<br>- Gọi $M\\left(x_0;-x_0+1-\\dfrac{4}{x_0+2}\\right)$. <br>  Tiếp tuyến với đồ thị hàm số tại điểm $M$ có phương trình là  \\[ \\Delta \\colon y=\\left(-1+\\dfrac{4}{(x_0+2)^2}\\right)(x-x_0)+\\dfrac{-x_0^2-x_0-2}{x_0+2}.  \\] Gọi $A$ là giao điểm của $d_1\\cap \\Delta$, nên tọa độ điểm $A$ là nghiệm của hệ phương trình  \\[ y=\\left(-1+\\dfrac{4}{(x_0+2)^2}\\right)(x-x_0)+\\dfrac{-x_0^2-x_0-2}{x_0+2} \\text{ và } y=-x+1\\Leftrightarrow x=2x_0+2 \\text{ và } y=-2x_0-1 \\Rightarrow A (2x_0+2;-2x_0-1).  \\] Gọi $B$ là giao điểm của $d_2\\cap \\Delta$, nên tọa độ điểm $B$ là nghiệm của hệ phương trình  \\[ y=\\left(-1+\\dfrac{4}{(x_0+2)^2}\\right)(x-x_0)+\\dfrac{-x_0^2-x_0-2}{x_0+2} \\text{ và } x=-2\\Leftrightarrow x=-2 \\text{ và } y=\\dfrac{3x_0-2}{x_0+2} \\Rightarrow B\\left(-2;\\dfrac{3x_0-2}{x_0+2}\\right).  \\] Ta có  $MA =\\sqrt{(x_0+2)^2+\\left(-x_0-2+\\dfrac{4}{x_0+2}\\right)^2}$<br>$MB =\\sqrt{(-x_0-2)^2+\\left(\\dfrac{-x_0^2-x_0-2-3x_0+2}{x_0+2}\\right)^2}$<br>$=\\sqrt{(-x_0-2)^2+\\left(-x_0-2+\\dfrac{4}{x_0+2}\\right)^2}$<br>$=\\sqrt{(x_0+2)^2+\\left(-(x_0+2)+\\dfrac{4}{x_0+2}\\right)^2}.$ Vậy $MA \\cdot MB=(-x_0-2)^2+\\left(-x_0-2+\\dfrac{4}{x_0+2}\\right)^2$. <br>  Đặt $t=x_0+2$, theo bất đẳng thức Cauchy, ta có \\[ MA\\cdot MB=t^2+\\left(t-\\dfrac{4}{t}\\right)^2=2t^2+\\dfrac{16}{t^2}-8\\ge 2\\sqrt{2t^2 \\cdot \\dfrac{16}{t^2}}-8=8\\sqrt{2}-8.  \\] Khi đó $MA\\cdot MB$ đạt giá trị nhỏ nhất là $8\\sqrt{2}-8$."
+  },
+  {
+    "id": "2D141DS29",
+    "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ sau.  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_DaoDuyTu_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau:",
+    "subQuestions": [
+      {
+        "text": "Hàm số $y=f(x)$ nghịch biến trên khoảng $(0;+\\infty )$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số $y=f(x)$ đạt cực đại tại $x=0$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số $y=f(x)$ có giá trị lớn nhất bằng 1",
+        "answer": false
+      },
+      {
+        "text": "Đồ thị hàm số $y=\\dfrac{1}{f(x)-1}$ có $a$ đường tiệm cận đứng và $b$ đường tiệm cận ngang. Khi đó $a^2+b^2=5$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Từ bảng biến thiên, ta thấy hàm số nghịch biến trên khoảng $(0;+\\infty )$.<br>- Từ bảng biến thiên, ta thấy hàm số không xác định tại $x=0$ nên không đạt cực đại tại đó.<br>- Từ bảng biến thiên, ta thấy hàm số không có giá trị lớn nhất và giá trị nhỏ nhất.<br>- Dựa vào bảng biến thiên ta có $\\lim\\limits_{x\\to +\\infty }f(x)=-\\infty \\Rightarrow \\lim\\limits_{x\\to +\\infty }\\dfrac{1}{f(x)-1}=0$.<br>  Do đó đồ thị hàm số có $1$ đường tiệm cận ngang là $y=0$.<br>  Dựa vào bảng biến thiên là có tồn tại $x_1\\in ( -2;0 )$ sao cho $f(x_1)=1$ và $\\lim\\limits_{x\\to 0^+} f(x)=1$<br>  $\\Rightarrow \\lim\\limits_{x\\to x_1^+}\\dfrac{1}{f(x)-1}=+\\infty $; $\\lim\\limits_{x\\to x_1^-}\\dfrac{1}{f(x)-1}=-\\infty $, $\\lim\\limits_{x\\to 0^+}\\dfrac{1}{f(x)-1}=-\\infty $.<br>  Suy ra đồ thị hàm số có $2$ đường tiệm cận đứng là $x=x_1,x=0$.<br>  Do đó $a=2,b=1\\Rightarrow a^2+b^2=5$."
+  },
+  {
+    "id": "2D141DS30",
+    "question": "Cho hàm số $y=\\dfrac{2x^2+5x}{x+3}$ có đồ thị $(C)$.",
+    "subQuestions": [
+      {
+        "text": "Tập xác định $\\mathscr{D}=\\mathbb{R}\\backslash \\{-3\\}$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số có hai cực trị có tổng hoành độ của cực trị bằng $-6$",
+        "answer": true
+      },
+      {
+        "text": "Đồ thị hàm số có tiệm cận ngang $y=-3$",
+        "answer": false
+      },
+      {
+        "text": "Khoảng cách từ điểm $M(2;1)$ đến đường tiệm cận xiên của đồ thị $(C)$ bằng $\\dfrac{2\\sqrt{5}}{5}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Tập xác định $\\mathscr{D}=\\mathbb{R}\\backslash \\{-3\\}$.<br>- Ta có $y=\\dfrac{2x^2+5x}{x+3}=2x-1+\\dfrac{3}{x+3}\\Rightarrow y'=2-\\dfrac{3}{(x+3)^2}$.<br>  Suy ra $y'=0\\Leftrightarrow 2-\\dfrac{3}{(x+3)^2}=0\\Leftrightarrow \\dfrac{2x^2+12x+15}{(x+3)^2}=0\\Leftrightarrow 2x^2+12x+15=0$ có hai nghiệm phân biệt.<br>  Vậy hàm số có hai cực trị có tổng hoành độ của cực trị bằng $\\dfrac{-12}{2}=-6$.<br>- Ta có $\\lim\\limits_{x\\to +\\infty }\\dfrac{2x^2+5x}{x+3}=+\\infty , \\lim\\limits_{x\\to -\\infty }\\dfrac{2x^2+5x}{x+3}=-\\infty $, nên đồ thị hàm số không có tiệm cận ngang.<br>- Ta có $\\lim\\limits_{x\\to +\\infty }\\left[y-(2x-1)\\right]= \\lim\\limits_{x\\to +\\infty }\\dfrac{3}{x+3}=0; \\lim\\limits_{x\\to -\\infty }\\left[y-(2x-1)\\right]= \\lim\\limits_{x\\to -\\infty }\\dfrac{3}{x+3}=0$.<br>  Nên đồ thị hàm số có tiệm cận xiên là $\\Delta \\colon y=2x-1\\Leftrightarrow 2x-y-1=0$.<br>  Khoảng cách từ điểm $M(2;1)$ đến $\\Delta $ là   $\\mathrm{d}(M,\\Delta )=\\dfrac{| 2\\cdot 2-1-1 |}{\\sqrt{2^2+(-1)^2}}=\\dfrac{2\\sqrt{5}}{5}.$"
+  },
+  {
+    "id": "2D141DS31",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenKh_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "subQuestions": [
+      {
+        "text": "Đồ thị hàm số đã cho có hai đường tiệm cận ngang",
+        "answer": true
+      },
+      {
+        "text": "Giá trị nhỏ nhất của hàm số trên $(-\\infty ;+\\infty)$ bằng $8$",
+        "answer": true
+      },
+      {
+        "text": "Hàm số đồng biến trên $(8 ; 38)$",
+        "answer": false
+      },
+      {
+        "text": "Giá trị lớn nhất của hàm số trên $\\mathbb{R}$ bằng $142$",
+        "answer": false
+      }
+    ],
+    "explain": "<br>- Dựa vào bảng biến thiên ta có $\\lim\\limits_{x \\to-\\infty} f(x)=142$ suy ra đường thẳng có phương trình $y=142$ là một đường tiệm cận ngang của đồ thị hàm số.<br> Tương tự $\\lim\\limits_{x \\to+\\infty} f(x)=14$ suy ra đường thẳng $y=14$ cũng là một đường tiệm cận ngang.<br>- Trên $\\mathbb{R}$ ta có $f(x) \\geq f(-1)=8$ vậy giá trị nhỏ nhất của hàm số bằng $8$.<br>- Ta có $f'(x)&gt;0 \\Leftrightarrow x \\in(-1 ; 1)$ nên hàm số đồng biến trên $(-1;1)$ mà $(8 ; 38) \\not \\subset(-1 ; 1)$.<br>- Vì $\\lim\\limits_{x \\to-\\infty} f(x)=142$ và $f(x)&lt;142, \\forall x \\in \\mathbb{R}$ nên hàm số không có giá trị lớn nhất trên $\\mathbb{R}$."
+  },
+  {
+    "id": "2D143DS5",
+    "question": "Cho hàm số $y = f(x) = \\dfrac{x^2+3x+3}{x+2}$.",
+    "subQuestions": [
+      {
+        "text": "Phương trình tiếp tuyến của đồ thị hàm số đã cho song song với đường thẳng $y=-3x-11$ đi qua điểm $B(1;-6)$",
+        "answer": true
+      },
+      {
+        "text": "Tổng giá trị cực đại và giá trị cực tiểu của hàm số đã cho bằng $-4$",
+        "answer": false
+      },
+      {
+        "text": "Đường tiệm cận xiên của đồ thị hàm số đã cho đi qua điểm $A(0;2)$",
+        "answer": false
+      },
+      {
+        "text": "Hàm số đã cho đồng biến trên $(-\\infty;-3)$ và $(-1;+\\infty)$",
+        "answer": true
+      }
+    ],
+    "explain": "<br>- Ta có $y'=\\dfrac{x^2+4x+3}{(x+2)^2}$.<br>  Vì tiếp tuyến của đồ thị hàm số đã cho song song với đường thẳng $y=-3x-11$ nên ta có:  $\\dfrac{x^2+4x+3}{(x+2)^2}=-3\\Rightarrow x^2+4x+3=-3x^2-12x-12$<br>$\\Leftrightarrow 4x^2+16x+15=0 \\Leftrightarrow x=-\\dfrac{3}{2} \\text{ hoặc } x=-\\dfrac{5}{2}.$  Với $x=-\\dfrac{5}{2}$ suy ra $y\\left(-\\dfrac{5}{2}\\right)=-\\dfrac{7}{2}$.<br>  Phương trình tiếp tuyến là $y=-3\\left(x+\\dfrac{5}{2}\\right)-\\dfrac{7}{2}=-3x-11$.<br>  Với $x=-\\dfrac{3}{2} \\Rightarrow y\\left(-\\dfrac{3}{2}\\right)=\\dfrac{3}{2}$.<br>  Phương trình tiếp tuyến là $y=-3\\left(x+\\dfrac{3}{2}\\right)+\\dfrac{3}{2}=-3x-3$.<br>  Ta thấy điểm $B(1 ;-6)$ thuộc đường thẳng $y=-3x-3$.<br>- Điều kiện xác định $x \\ne -2$.<br>  Ta có $y'= \\dfrac{x^2+4x+3}{(x+2)^2}$; $y' = 0 \\Leftrightarrow x=-1 \\text{ hoặc } x=-3.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D14/loc8_TT_THPT_NguyenVi_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, hàm số có $y_\\text{CĐ}=-3$; $y_\\text{CT}=1$.<br>  Ta có $y_\\text{CĐ}+y_\\text{CT}=-3+1=-2$.<br>- Khi đó $y = \\dfrac{x^2+3x+3}{x+2} = x+1+\\dfrac{1}{x+2}$. <br>  Ta có $\\lim\\limits_{x \\to \\pm\\infty} \\left[f(x)-(x+1)\\right] = \\lim\\limits_{x \\to \\pm\\infty} \\dfrac{1}{x+2} = 0$.<br>   $\\Rightarrow y=x+1$ là đường tiệm cận xiên của đồ thị hàm số.<br>  Thay tọa độ điểm $A(0;2)$ vào phương trình đường tiệm cận xiên ta được $0+1=2$ (Vô lí).<br>  Do đó đường tiệm cận xiên của đồ thị hàm số đã cho không đi qua điểm $A(0;2)$.<br>- Từ bảng biến thiên hàm số đã cho đồng biến trên các khoảng $(-\\infty;-3)$ và $(-1;+\\infty)$."
   }
 ];

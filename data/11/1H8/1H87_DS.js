@@ -1,6 +1,8 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: 1H87 - Đúng/Sai (nguồn DeLuyenTap)
-// Nguồn: DeLuyenTap (chuyển từ LaTeX)
+// KHỐI DỮ LIỆU: 1H87 - Đúng sai
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.dungSai1H87 = [
   {
@@ -163,5 +165,51 @@ window.dungSai1H87 = [
       }
     ],
     "explain": "<br><img src=\"data/11/1D8/im1H87/dlts_11_DLTS36_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Vì $SA\\perp (ABCD)$ nên $A$ là hình chiếu của $S$ lên $(ABCD)$. Mà $C$ là hình chiếu của $C$ lên $(ABCD)$ nên $AC$ là hình chiếu của $SC$ lên $(ABCD)$. <br>  Do đó góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ là góc $\\widehat{SCA}$.<br>- <strong>Sai</strong>. Trong mặt phẳng $(ABCD)$, kẻ $AH \\perp BD$ tại $H$. Xét $BD$ và $(SAH)$, ta có  $ BD \\perp AH \\text{ và } BD \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BD\\subset (ABCD)) \\text{ và } AH\\subset (SAH), \\ SA\\subset (SAH), \\ SA \\cap AH = A. $  Do đó $BD\\perp (SAH)$. Mà $BD\\subset (SBD)$ nên $(SBD) \\perp (SAH)$. <br>   Ta có $(SAC) \\cap (SAH) = SA$. Giả sử $(SBD)\\perp(SAC)$. Khi đó, $SA \\perp (SBD)$. <br>  Điều này vô lí vì đường thẳng $SA$ không vuông góc với đường thẳng $SD$ nằm trong mặt phẳng $(SBD)$. <br>   Do đó hai mặt phẳng $(SBD)$ và $(SAC)$ không vuông góc với nhau.<br>- <strong>Đúng</strong>. Xét $BC$ và $(SAB)$, ta có  $ BC \\perp AB \\text{ (Do } ABCD \\text{ là hình chữ nhật}) \\text{ và } BC \\perp SA \\text{ (Do } SA\\perp (ABCD) \\text{ và } BC\\subset (ABCD)) \\text{ và } AB\\subset (SAB), \\ SA\\subset (SAB), \\ SA \\cap AB = A. $  Do đó $BC\\perp (SAB)$. Mà $BC\\subset (SBC)$ nên $(SBC) \\perp (SAB)$.<br>- <strong>Đúng</strong>. Ta có $S_{ABCD}= AB\\cdot AD = a \\cdot 3a = 3a^2$. Suy ra   $ V_{S.ABCD}=\\dfrac{1}{3}\\cdot SA \\cdot S_{ABCD}=\\dfrac{1}{3} \\cdot 4a \\cdot 3a^2 = 4a^3. $"
+  },
+  {
+    "id": "1H874DS1",
+    "question": "Từ một tấm bìa mỏng hình lục giác đều $ABCDEF$ cạnh $4$ cm, bên trong có một lục giác đều nhỏ hơn. Các đường chéo $AD$, $BE$, $CF$ cắt nhau tại $O$, cắt cạnh lục giác đều nhỏ tại $M$ (như hình vẽ). Đặt $OM=x$ (cm). Bạn Khôi cắt bỏ $6$ tam giác cân bằng nhau có cạnh đáy là cạnh của lục giác đều ban đầu và đỉnh là đỉnh của lục giác đều nhỏ phía trong rồi gấp lên sao cho các đỉnh $A$, $B$, $C$, $D$, $E$, $F$ trùng nhau tạo thành một khối chóp lục giác đều.  <br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_Cum_lien_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
+    "subQuestions": [
+      {
+        "text": "Tam giác $OAB$ đều có cạnh bằng $4$ cm",
+        "answer": true
+      },
+      {
+        "text": "Cạnh đáy của khối chóp lục giác đều bằng $\\dfrac{x\\sqrt{3}}{6}$ (cm)",
+        "answer": false
+      },
+      {
+        "text": "Đường cao của khối chóp lục giác đều bằng $\\sqrt{16-8x}$ (cm)",
+        "answer": true
+      },
+      {
+        "text": "Thể tích lớn nhất của khối chóp lục giác đều có thể đạt được là $\\dfrac{256\\sqrt{10}}{375}$ (cm$^3$)",
+        "answer": false
+      }
+    ],
+    "explain": "<br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_Cum_lien_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br><img src=\"data/11/1H8/im1H87/loc8_TT_KSCL_Cum_lien_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Lục giác đều $ABCDEF$ cạnh $4$ cm chia thành $6$ tam giác đều có đỉnh $O$, do đó tam giác $OAB$ đều cạnh $4$ cm.<br>- Gọi cạnh đáy của khối chóp là $a$. <br>  Vì $OM=x$ là độ dài đường cao của tam giác $OC'D'$ đều cạnh $a$, ta có<br>  $x=\\dfrac{a\\sqrt{3}}{2} \\Rightarrow a=\\dfrac{2x}{\\sqrt{3}}=\\dfrac{2\\sqrt{3}}{3}x$.<br>- Gọi $h$ là chiều cao của khối chóp, ta có $h=OA$.<br>  Ta có $AM=OA-OM=4-x$.<br>  Áp dụng định lý Pythagore cho tam giác $OAM$ vuông tại $O$, ta có<br>  $h=\\sqrt{AM^2-OM^2}=\\sqrt{(4-x)^2-x^2}=\\sqrt{16-8x}$ (cm).<br>- Diện tích đáy lục giác đều là $S=6 \\cdot \\dfrac{a^2\\sqrt{3}}{4}=\\dfrac{3\\sqrt{3}}{2} \\cdot \\left(\\dfrac{2x}{\\sqrt{3}}\\right)^2=2\\sqrt{3}x^2$.<br>  Thể tích khối chóp: $V=\\dfrac{1}{3} S \\cdot h=\\dfrac{2\\sqrt{3}}{3}x^2 \\sqrt{16-8x}=\\dfrac{2\\sqrt{3}}{3} \\sqrt{x^4(16-8x)}$.<br>  Xét hàm $f(x)=16x^4-8x^5$ trên $(0;2)$, ta có $f'(x)=64x^3-40x^4$.<br>  $f'(x)=0 \\Leftrightarrow x=\\dfrac{8}{5}$.<br>  Khi đó $V_{\\max}=\\dfrac{512\\sqrt{15}}{375}$ (cm$^3$)."
+  },
+  {
+    "id": "1H874DS2",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB=a$, $BC=2a$, $SA$ vuông góc với mặt phẳng đáy và $SA=a$.",
+    "subQuestions": [
+      {
+        "text": "Khoảng cách giữa hai đường thẳng $AC$ và $SB$ bằng $\\dfrac{2a}{3}$",
+        "answer": true
+      },
+      {
+        "text": "Thể tích khối chóp $S.ABD$ bằng $2a^3$",
+        "answer": false
+      },
+      {
+        "text": "$BC \\perp (SAB)$",
+        "answer": true
+      },
+      {
+        "text": "$\\sin$ góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng $\\dfrac{\\sqrt{3}}{6}$",
+        "answer": false
+      }
+    ],
+    "explain": "<br><img src=\"data/11/1H8/im1H87/loc8_TT_THPT_NguyenVi_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Trên mặt phẳng $(ABCD)$, gọi $E$ sao cho $ACBE$ là hình bình hành.<br>  Khi đó $AC \\parallel BE$, $AC \\not\\subset (SBE)$ và $BE \\subset (SBE)$ nên $AC \\parallel (SBE)$.<br>  Mà $SB \\subset (SBE)$ nên ta có  \\[  \\mathrm{d}(AC, SB) = \\mathrm{d}\\left(AC, (SBE)\\right) = \\mathrm{d}\\left(A, (SBE)\\right).  \\]  Gọi $K$ là hình chiếu của $A$ trên $BE$, ta có  <br>- $BE \\perp AK$ và $AK \\subset (SAK)$;<br>- $SA \\perp (ABCD)$, $BE \\subset (ABCD)$ nên $BE \\perp SA$, đồng thời $SA \\subset (SAK)$;<br>- $AK \\cap AK = A$.  Suy ra $BE \\perp (SAK)$.<br>  Gọi $H$ là hình chiếu của $A$ trên $SK$, ta có  <br>- $AH \\perp SK$ và $SK \\subset (SBE)$;<br>- Do $BE \\perp (SAK)$ và $AH \\subset (SAK)$ nên $AH \\perp BE$, đồng thời $BE \\subset (SBE)$;<br>- $SK \\cap BE = K$.  Suy ra $AH \\perp (SBE)$.<br>  Do đó $\\mathrm{d}\\left(A, (SBE)\\right) = AH$.<br>  Ta có $ACBE$ là hình bình hành nên $AE \\parallel BC$ và $AE = BC = 2a$.<br>  Mà $BC \\perp AB$ nên $AE \\perp AB$.<br>  Do đó ta có  \\[  \\dfrac{1}{AH^2} = \\dfrac{1}{SA^2}+\\dfrac{1}{AK^2} = \\dfrac{1}{SA^2}+\\dfrac{1}{AE^2}+\\dfrac{1}{AB^2} = \\dfrac{1}{a^2}+\\dfrac{1}{(2a)^2}+\\dfrac{1}{a^2} = \\dfrac{9}{4a^2}.  \\]  Suy ra $AH = \\dfrac{2a}{3}$.<br>  Vậy khoảng cách giữa hai đường thẳng $AC$ và $SB$ bằng $\\dfrac{2a}{3}$.<br>- Ta có $V_{S.ABCD}=\\dfrac{1}{3}S_{ABCD}\\cdot SA=\\dfrac{1}{3}AB\\cdot BC\\cdot SA=\\dfrac{1}{3}a\\cdot2a\\cdot a=\\dfrac{2a^3}{3}$.<br>  $\\Rightarrow V_{S.ABD}=\\dfrac{1}{2}V_{S.ABCD}=\\dfrac{1}{2}\\cdot \\dfrac{2a^3}{3}=\\dfrac{a^3}{3}$.<br>- Ta có $BC \\perp AB$ ($ABCD$ là hình chữ nhật) và $AB \\subset (SAB)$.<br>  Do $SA \\perp (ABCD)$ (giả thiết) và $BC \\subset (ABCD)$ nên $BC \\perp SA$, đồng thời $SA \\subset (SAB)$.<br>  Ta có $AB \\cap SA = A$.<br>  Vậy $BC \\perp (SAB)$.<br>- Ta có $SA \\perp (ABCD)$ nên $A$ là hình chiếu của $S$ trên mặt phẳng $(ABCD)$.<br>  Do đó $AC$ là hình chiếu của $SC$ trên mặt phẳng $(ABCD)$.<br>  Khi đó $\\left(SC, (ABCD)\\right) = (SC, AC) = \\widehat{SCA}$.<br>  Ta có $AC = \\sqrt{AB^2+BC^2} = \\sqrt{a^2+(2a)^2} = a\\sqrt{5}$.<br>  Xét $\\triangle SAC$ vuông tại $C$, ta có $SC = \\sqrt{SA^2+AC^2} = \\sqrt{a^2+\\left(a\\sqrt5\\right)^2} = a\\sqrt{6}$.<br>  Khi đó $\\sin\\widehat{SCA} = \\dfrac{SA}{SC} = \\dfrac{a}{a\\sqrt6} = \\dfrac{\\sqrt6}{6}$."
   }
 ];

@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D15 - Trắc nghiệm
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.tracNghiem2D15 = [
   {
@@ -939,5 +940,53 @@ window.tracNghiem2D15 = [
     ],
     "answer": 1,
     "explain": "Dựa vào đồ thị ta có tiệm cận ngang là $ y=2 $ và tiệm cận đứng là $ x=-1 $.<br>  Suy ra tâm đối xứng của đồ thị có tọa độ $\\left(-1;2\\right)$."
+  },
+  {
+    "id": "2D154TN1",
+    "question": "Số giao điểm của đồ thị hai hàm số $y=x^2-3x-1$ và $y=x^3-1$ là",
+    "options": [
+      "$1$",
+      "$0$",
+      "$3$",
+      "$2$"
+    ],
+    "answer": 0,
+    "explain": "Xét phương trình hoành độ giao điểm<br>  $x^3-1=x^2-3x-1\\Leftrightarrow x^3-x^2+3x=0\\Leftrightarrow x(x^2-x+3)=0$.<br>  Phương trình $x^2-x+3=0$ có $\\Delta=(-1)^2-4(1)(3)=1-12=-11&lt; 0$, nên vô nghiệm. <br>  Vậy phương trình ban đầu có nghiệm duy nhất $x=0$."
+  },
+  {
+    "id": "2D151TN2",
+    "question": "Đường cong trong hình dưới là đồ thị của hàm số nào?  <br><img src=\"data/12/2D1/im2D15/loc8_TT_KSCL_Cum_lien_005.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$y=-x^3+3x^2-4$",
+      "$y=-x^3+3x^2+1$",
+      "$y=x^3-3x^2+1$",
+      "$y=-x^3+2x^2-1$"
+    ],
+    "answer": 1,
+    "explain": "Đồ thị hàm số đã cho có dạng hàm số bậc ba <br>  $y=ax^3+bx^2+cx+d\\Rightarrow y'=3ax^2+2bx+c$.<br>  Dựa vào đồ thị ta có hệ phương trình<br>  $y(0)=1 \\text{ và } y(2)=5 \\text{ và } y'(0)=0 \\text{ và } y'(2)=0\\Rightarrow d=1 \\text{ và } 8a+4b+2c+d=5 \\text{ và } c=0 \\text{ và } 12a+4b+c=0\\Rightarrow a=-1 \\text{ và } b=3 \\text{ và } c=0 \\text{ và } d=1\\Rightarrow y=-x^3+3x^2+1$."
+  },
+  {
+    "id": "2D151TN77",
+    "question": "Đồ thị dưới đây là của hàm số nào?<br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_DaoDuyTu_000.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "options": [
+      "$y=\\dfrac{x^2+4x+1}{x+2}$",
+      "$y=\\dfrac{x^2+4x+5}{-x-2}$",
+      "$y=\\dfrac{x^2+4x+5}{x+2}$",
+      "$y=\\dfrac{x^2+4x+5}{x-2}$"
+    ],
+    "answer": 2,
+    "explain": "<br>- Ta có $x=-2$ là tiệm cận đứng của đồ thị hàm số nên loại $y=\\dfrac{x^2+4x+5}{x-2}$.<br>- Đồ thị đi qua điểm $(-1;2)$ nên chọn $y=\\dfrac{x^2+4x+5}{x+2}$ vì $2=\\dfrac{(-1)^2+4\\cdot(-1)+5}{-1+2}$ đúng."
+  },
+  {
+    "id": "2D151TN78",
+    "question": "Cho hàm số $y=f(x)$ xác định trên đoạn $[-1;5]$ và có đồ thị như hình vẽ.  <br><img src=\"data/12/2D1/im2D15/loc8_TT_THPT_NguyenKh_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tập giá trị của hàm số $y=f(x)$ trên đoạn $[-1;5]$ là",
+    "options": [
+      "$[-1;5]$",
+      "$[1;3]$",
+      "$[-1;3]$",
+      "$[1;5]$"
+    ],
+    "answer": 2,
+    "explain": "Dựa vào đồ thị hàm số trên đoạn $[-1;5]$, ta thấy tập giá trị của hàm số là $[-1;3]$."
   }
 ];

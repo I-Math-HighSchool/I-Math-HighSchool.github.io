@@ -1,7 +1,8 @@
 // =========================================================================
 // KHỐI DỮ LIỆU: 2D14 - Trả lời ngắn
-// Nguồn: Đề thi Giữa Kì/Cuối Kì thật từ các trường THPT (thư mục LocID/BANK-25-26,
-// đợt 3), giữ nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
+// Nguồn: Đề thi thử KSCL thật từ các trường/cụm trường THPT trên cả nước
+// (thư mục 3-KV-gui/26_TongHopDuAn/data/SP_dot_1_New, năm học 25-26), giữ
+// nguyên nội dung gốc, chỉ định dạng lại cho khớp cấu trúc dữ liệu.
 // =========================================================================
 window.traLoiNgan2D14 = [
   {
@@ -153,5 +154,23 @@ window.traLoiNgan2D14 = [
     "question": "Người ta muốn làm một cái bể dạng hình hộp chữ nhật không nắp (như hình vẽ) có thể tích bằng $5$ m$^{3}$. Chiều cao của bể là $10$ dm, các kích thước khác là $x$ mét, $y$ mét với $x&gt;0$ và $y&gt;0$. Diện tích toàn phần của bể (không kể nắp) là hàm số $S(x)$ trên khoảng $(0;+\\infty)$. Đường tiệm cận xiên của đồ thị hàm số $S(x)$ là đường thẳng $y=ax+b$. Tính giá trị của biểu thức $P=a^{2}+b^{2}$.  <br><img src=\"data/12/2D1/im2D14/dlts_12_DLTS2_014.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "29",
     "explain": "Ta có $10$ dm = $1$ m.  Do thể tích của bể là $5$ m$^{3}$ nên $1 \\cdot x\\cdot y=5 \\Leftrightarrow xy=5$.<br>  Diện tích toàn phần của bể là $S(x)=x\\cdot y+2\\cdot1\\cdot x+2\\cdot1\\cdot y=5+2x+\\dfrac{10}{x}$, $(x&gt;0)$.<br>  Ta có $\\lim\\limits_{x \\to+\\infty}(S(x)-(5+2x))=\\lim\\limits_{x \\to+\\infty} \\dfrac{10}{x}=0$.<br>  Suy ra đồ thị hàm số $S(x)$ có đường tiệm cận xiên là $y=2x+5 \\Rightarrow a=2$, $b=5$.<br>  Ta có $P=a^{2}+b^{2}=2^{2}+5^{2}=29$."
+  },
+  {
+    "id": "2D141TL1",
+    "question": "Cho hàm số $y= \\dfrac{2x+3}{1-x}$. Gọi đường thẳng tiệm cận đứng và tiệm cận ngang của đồ thị hàm số lần lượt có phương trình $x=a$; $y=b$. Khi đó tổng $a+3b$ bằng bao nhiêu?",
+    "answer": "-5",
+    "explain": "Tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y=\\dfrac{2x+3}{1-x} $ lần lượt là $x=1$; $y=-2$.<br>  Suy ra $a=1$; $b=-2$.<br>   Vậy $a+3b=1+3\\cdot (-2)=-5$."
+  },
+  {
+    "id": "2D142TL2",
+    "question": "Cho hàm số $f\\left( x \\right)$ liên tục trên $\\mathbb{R}$ và $\\lim\\limits_{x\\to -\\infty }\\,f\\left( x \\right)=1$; $\\lim\\limits_{x\\to +\\infty}\\,f\\left(x\\right)=+\\infty$. Có bao nhiêu giá trị nguyên của tham số $m$ thuộc $\\left[ -2\\,020;2\\,020 \\right]$ để đồ thị hàm số $g\\left( x \\right)=\\dfrac{\\sqrt{x^2+1\\,000x}+x}{\\sqrt{2f\\left( x \\right)-f^2\\left(x\\right)}+m}$ có tiệm cận ngang nằm dưới đường thẳng $y=-1$.",
+    "answer": "499",
+    "explain": "Ta có   <br>- $\\lim\\limits_{x\\to +\\infty }f\\left( x \\right)=+\\infty \\Rightarrow \\lim\\limits_{x\\to +\\infty }\\left[ 2f\\left( x \\right)-f^2\\left( x \\right) \\right]=-\\infty$.<br>  Do đó không tồn tại $\\lim\\limits_{x\\to +\\infty }g\\left( x \\right)$.<br>- $\\lim\\limits_{x\\to -\\infty }f\\left( x \\right)=1\\Rightarrow \\lim\\limits_{x\\to -\\infty }\\left[\\sqrt{2f\\left( x \\right)-f^2\\left( x \\right)}+m \\right]=1+m$.  Ta có   $\\lim\\limits_{x\\to -\\infty }\\,\\left[ \\sqrt{x^2+1\\,000x}+x \\right] = \\lim\\limits_{x\\to -\\infty }\\,\\left[ \\dfrac{1\\,000x}{\\sqrt{x^2+1\\,000x}-x} \\right]$<br>$= \\lim\\limits_{x\\to -\\infty }\\,\\left[ \\dfrac{1\\,000}{-\\sqrt{1+\\dfrac{1\\,000}{x}}-1} \\right]=-500.$  Do đó $\\lim\\limits_{x\\to -\\infty }\\,g\\left( x \\right)=\\dfrac{-500}{1+m}\\,\\left( m\\ne -1 \\right)$ suy ra tiệm cận ngang của đồ thị hàm số $g\\left( x \\right)$ là đường thẳng $y=\\dfrac{-500}{1+m}$.<br>  Để đồ thị hàm số $g\\left( x \\right)$ có tiệm cận ngang nằm dưới đường thẳng $y=-1$ khi và chỉ khi   $\\dfrac{-500}{1+m}&lt;-1\\Leftrightarrow \\dfrac{m-499}{m+1}&lt;0\\Leftrightarrow -1&lt;m&lt;499.$   Mà $m$ nguyên thuộc $\\left[ -2020;2020 \\right]$ nên $m\\in \\left\\{ 0;1;2;\\ldots;498 \\right\\}$.<br>  Vậy có $498-0+1=499$ giá trị nguyên của $m$."
+  },
+  {
+    "id": "2D141TL25",
+    "question": "Đồ thị hàm số $y=\\dfrac{3x-1}{x+4}$ có đường tiệm cận đứng cắt đường tiệm cận ngang tại điểm $I$. Tính khoảng cách từ điểm $I$ đến gốc tọa độ $O$.",
+    "answer": "5",
+    "explain": "Tiệm cận đứng là $x=-4$.<br>  Tiệm cận ngang là $y=\\dfrac{3}{1}=3$.<br>  Giao điểm của hai đường tiệm cận là $I(-4; 3)$.<br>  Khoảng cách từ điểm $I$ đến điểm $O$ là $IO=\\sqrt{(0+4)^2+(0-3)^2}=5$."
   }
 ];
