@@ -26,7 +26,7 @@ window.traLoiNgan1H87 = [
   {
     "id": "1H874TL4",
     "question": "Một ống khói có cấu trúc gồm một khối chóp cụt tứ giác đều có thể tích $V_1$ và một khối lăng trụ tứ giác đều có thể tích $V_2$ ghép lại với nhau (hình 1). Cho biết khối chóp cụt đều này có một mặt bên là tứ giác $ABCD$ và khối lăng trụ tứ giác đều này có một mặt bên là tứ giác $MNBA$ (hình 2): $DC = 2x$, $AB = x$, $NB = 3x$, $\\widehat{ADC} = 60^\\circ$. Tính tỉ số thể tích $\\dfrac{V_1}{V_2}$ (<em>Làm tròn kết quả đến hàng phần trăm</em>).<br><img src=\"data/11/1D8/im1H87/dlts_11_DLTS35_006.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}67",
+    "answer": "0,67",
     "explain": "Gọi $h$ là chiều cao của khối chóp cụt $(h &gt; 0)$.<br>  Ta có $h = \\dfrac{x}{2}\\cdot\\tan 60^\\circ = \\dfrac{x\\sqrt{3}}{2}$.<br>  Thể tích khối chóp cụt là  $ V_1 = \\dfrac{1}{3}h\\left(x^2 + \\sqrt{x^2\\cdot (2x)^2} + (2x)^2\\right) = \\dfrac{7\\sqrt{3}x^2}{6}. $  Thể tích khối hộp chữ nhật là  $ V_2 = x\\cdot x\\cdot 3x = 3x^2.$  Do đó  $ \\dfrac{V_1}{V_2} = \\dfrac{\\dfrac{7\\sqrt{3}x^2}{6}}{3x^2} = \\dfrac{7\\sqrt{3}}{18} \\approx 0{,}67. $"
   },
   {

@@ -12,7 +12,7 @@ window.traLoiNgan1H86 = [
   {
     "id": "1H864TL2",
     "question": "Cho hình chóp $S.ABC$ có đáy là tam giác vuông tại $B$, cạnh bên $SA$ vuông góc với mặt phẳng $(ABC)$, $SA = AB = a$, $BC = a\\sqrt{2}$. Gọi $\\alpha$ là góc giữa cạnh $SB$ và mặt phẳng $(SAC)$.  Tính $\\sin \\alpha$? (làm tròn kết quả đến hàng phần trăm)<br><img src=\"data/11/1D8/im1H86/dlts_11_DLTS27_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}58",
+    "answer": "0,58",
     "explain": "Trong mặt phẳng $(ABC)$, kẻ $BK \\perp AC$ tại $K$.<br>  Vì $SA \\perp (ABC)$ nên $SA \\perp BK$.<br>  Ta có $BK \\perp AC \\text{ và } BK \\perp SA \\text{ và } SA \\cap AC=A.$<br>  Suy ra $BK \\perp (SAC)$.<br>  Do đó, $SK$ là hình chiếu vuông góc của $SB$ lên mặt phẳng $(SAC)$.<br>  Khi đó, góc $\\alpha$ giữa cạnh $SB$ và mặt phẳng $(SAC)$ chính là góc $\\widehat{BSK}$.<br>  Trong tam giác $ABC$ vuông tại $B$, có $BK$ là đường cao<br>  $\\dfrac{1}{BK^2} = \\dfrac{1}{AB^2} + \\dfrac{1}{BC^2} = \\dfrac{1}{a^2} + \\dfrac{1}{(a\\sqrt{2})^2}= \\dfrac{3}{2a^2}$.<br>  Suy ra $BK^2 = \\dfrac{2a^2}{3}$ hay $BK = \\dfrac{a\\sqrt{6}}{3}$.<br>  Xét tam giác $SAB$ vuông cân tại $A$ (do $SA \\perp (ABC) \\Rightarrow SA \\perp AB$) có $AB=a$<br>  Suy ra $SB= a\\sqrt{2}$.<br>  Xét $\\triangle SBK$ vuông tại $K$ có<br>  $\\sin \\alpha = \\dfrac{BK}{SB} = \\dfrac{\\dfrac{a\\sqrt{6}}{3}}{a\\sqrt{2}} = \\dfrac{\\sqrt{3}}{3}\\approx 0{,}58$."
   },
   {

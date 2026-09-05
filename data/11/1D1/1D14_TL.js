@@ -25,19 +25,19 @@ window.traLoiNgan1D14 = [
   {
     "id": "1D147TL4",
     "question": "Cho hai điểm $A$, $B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0;\\pi]$. Các điểm $C$, $D$ thuộc trục $Ox$ thoả mãn $ABCD$ là hình chữ nhật và $CD=\\dfrac{\\pi}{3}$. Độ dài cạnh $BC$ là bao nhiêu (kết quả làm tròn đến hàng phần trăm)?<br><img src=\"data/11/1D1/im1D14/1D14_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}87",
+    "answer": "0,87",
     "explain": "Vì $CD=\\dfrac{\\pi}{3} \\Rightarrow OD=\\dfrac{\\pi}{3}$.<br>  $\\Rightarrow x_D=x_A=\\dfrac{\\pi}{3} \\Rightarrow y_A=\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt{3}}{2}$.<br>  Ta có $AD=\\dfrac{\\sqrt{3}}{2} \\Rightarrow BC=\\dfrac{\\sqrt{3}}{2}\\approx 0{,}87$.<br>"
   },
   {
     "id": "1D146TL5",
     "question": "Tìm giá trị nhỏ nhất $m$ của hàm số $y=-\\sqrt{3}\\cos (2024 x+2025)$ (kết quả làm tròn đến hàng phần mười).",
-    "answer": "-1{,}7",
+    "answer": "-1,7",
     "explain": "Hàm số đã cho có miền xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Với mọi $x \\in \\mathbb{R}$, ta luôn có  $\\cos (2024 x+2025) \\le 1$<br>$-\\sqrt{3}\\cos (2024 x+2025) \\ge -\\sqrt{3}.$  Do đó  $  m = \\min\\limits_{x \\in \\mathbb{R}} y = -\\sqrt{3} \\approx -1{,}7.  $"
   },
   {
     "id": "1D148TL6",
     "question": "Hội Lim (tỉnh Bắc Ninh) là lễ hội mùa xuân nổi tiếng có trò chơi đánh đu truyền thống. Khi người chơi nhún đều, cây đu sẽ đưa người đu dao động quanh vị trí cân bằng. Giả sử khoảng cách $h$ (m) từ người chơi đu đến vị trí cân bằng theo thời gian $t$ (s) (với $t \\ge 0$) được mô tả bởi công thức $h = \\left| d \\right|$ với $d(t)=3{,}5 \\cos \\left(\\dfrac{2 \\pi}{3} t -\\dfrac{\\pi}{3}\\right)$, trong đó ta quy ước $d&gt;0$ khi vị trí cân bằng ở phía sau lưng người đu và $d&lt;0$ trong trường hợp ngược lại. Tìm khoảng cách lớn nhất của người đu so với vị trí cân bằng.  {<br><img src=\"data/11/1D1/im1D14/1D14_tikz_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">}",
-    "answer": "3{,}5",
+    "answer": "3,5",
     "explain": "Với mọi $t \\ge 0$, ta có  $-1 \\le \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) \\le 1$<br>$\\Leftrightarrow -3{,}5 \\le 3{,}5 \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) \\le 3{,}5$<br>$\\Leftrightarrow -3{,}5 \\le d(t) \\le 3{,}5.$  Vậy $h(t)=\\left| d (t) \\right| \\le 3{,}5$, $\\forall t \\ge 0$.<br>  Dấu bằng xảy ra khi và chỉ khi $\\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) =-1 \\text{ hoặc } \\cos \\left(\\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3} \\right) =1 \\Leftrightarrow \\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3}= \\pi +k2 \\pi \\text{ hoặc } \\dfrac{2 \\pi}{3} t-\\dfrac{\\pi}{3}= k2 \\pi \\Leftrightarrow t=2+3k \\text{ hoặc } t=\\dfrac{1}{2}+3k. \\; (k \\in \\mathbb{Z})$  Vậy $h(t)$ đạt giá trị lớn nhất bằng $3{,}5$ khi và chỉ khi $t=2+3k \\text{ hoặc } t=\\dfrac{1}{2}+3k \\; (k \\in \\mathbb{Z}).$  <br>  Do đó khoảng cách lớn nhất của người đu so với vị trí cân bằng là $3{,5}$(m)."
   },
   {
@@ -157,7 +157,7 @@ window.traLoiNgan1D14 = [
   {
     "id": "1D146TL26",
     "question": "[Chuyên Vĩnh Phúc - Phú Thọ]  Hàm số $y=\\sin x+\\cos x$ có giá trị nhỏ nhất bằng <em>(làm tròn đến hàng phần mười)</em>.",
-    "answer": "-1{,}4",
+    "answer": "-1,4",
     "explain": "Ta có  \\[  \\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\dfrac{\\pi}{4}\\right).  \\]  Vì $-1 \\le \\sin\\left(x+\\dfrac{\\pi}{4}\\right) \\le 1 $, $\\forall x \\mathbb{R}$ nên   \\[  -\\sqrt{2} \\le \\sin x+\\cos x \\le \\sqrt{2},\\, \\forall x \\mathbb{R}  \\]  Do đó giá trị nhỏ nhất của $y=\\sin x+\\cos x$ là $-\\sqrt{2} \\approx -1{,}4$."
   },
   {
@@ -181,7 +181,7 @@ window.traLoiNgan1D14 = [
   {
     "id": "1D141TL30",
     "question": "Hằng ngày, Mặt Trời chiếu sáng, bóng của một toà chung cư cao $40$ mét in trên mặt đất, độ dài bóng của toà nhà này được tính bằng công thức $S(t)=40\\left|\\cot\\dfrac{\\pi}{12} t\\right|$, ở đó $S$ được tính bằng mét, còn $t$ là số giờ chênh so với mốc $6$ giờ sáng. Tìm độ dài bóng của toà nhà tại thời điếm $8$ giờ sáng (làm tròn kết quả đến phần mười).",
-    "answer": "69{,}3",
+    "answer": "69,3",
     "explain": "Tại thời điểm $8$ giờ sáng, tức là với $t=2$, độ dài bóng của tòa nhà là  $S(2)=40\\left|\\cot\\dfrac{\\pi}{12}\\cdot 2\\right|=40\\sqrt{3}\\approx 69{,}3.$"
   },
   {

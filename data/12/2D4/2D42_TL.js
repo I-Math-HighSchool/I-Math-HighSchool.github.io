@@ -109,7 +109,7 @@ window.traLoiNgan2D42 = [
   {
     "id": "2D423TL3",
     "question": "Cho $f(x)=\\dfrac{1}{\\sin ^2 x}$. Biết rằng $F(x)$ là một nguyên hàm của $f(x)$ thỏa $F\\left(\\dfrac{\\pi}{6}\\right)=0$. Tính $F\\left(\\dfrac{\\pi}{3}\\right)$. Kết quả được làm tròn đến hàng phần trăm.",
-    "answer": "1{,}15",
+    "answer": "1,15",
     "explain": "Ta có   $\\displaystyle\\int\\limits_{\\dfrac{\\pi}{6}}^{\\dfrac{\\pi}{3}} f(x) \\mathrm{\\,d}x=\\dfrac{2}{\\sqrt{3}} \\Leftrightarrow F\\left(\\dfrac{\\pi}{3}\\right)-F\\left(\\dfrac{\\pi}{6}\\right)=\\dfrac{2}{\\sqrt{3}} \\Leftrightarrow F\\left(\\dfrac{\\pi}{3}\\right) = \\dfrac{2}{\\sqrt{3}} +F\\left(\\dfrac{\\pi}{6}\\right)=\\dfrac{2}{\\sqrt{3}} \\approx 1{,}15.$"
   }
 ];

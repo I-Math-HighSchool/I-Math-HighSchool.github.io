@@ -37,7 +37,7 @@ window.traLoiNgan0D21 = [
   {
     "id": "0D213TL4",
     "question": "Một cửa hàng bán hai loại gạo, bán mỗi kg loại $I$ lãi $3\\,000$ đồng, mỗi kg loại $II$ lãi $2\\,000$ đồng. Giả sử cửa hàng bán $x$ kg gạo loại $I$ và $y$ kg gạo loại $II$. Bất phương trình biểu thị mối liên hệ giữa $x$ và $y$ để cửa hàng đó thu được số lãi lớn hơn $100\\,000$ đồng có dạng $ax+by &gt; 10$. Khi đó $a+b$ bằng?",
-    "answer": "0{,}5",
+    "answer": "0,5",
     "explain": "Gọi số tiền lãi thu được là $L$.<br>  Ta có $L = 3\\,000x + 2\\,000y$.<br>  Theo đề bài, số lãi thu được lớn hơn $100\\,000$ đồng nên ta có bất phương trình  $3\\,000x + 2\\,000y gt; 100\\,000$<br>$\\Leftrightarrow 3x + 2y gt; 100$<br>$\\Leftrightarrow \\dfrac{3}{10}x + \\dfrac{2}{10}y gt; 10$<br>$\\Leftrightarrow 0,3x + 0,2y gt; 10$  Suy ra $a = 0{,}3$ và $b = 0{,}2$.<br>  Vậy $a+b = 0{,}3 + 0{,}2 = 0{,}5$."
   },
   {

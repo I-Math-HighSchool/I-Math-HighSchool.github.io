@@ -14,7 +14,7 @@ window.tracNghiem2D32 = [
       "$\\overline x=\\dfrac{n_1c_1+n_2c_2+\\ldots+n_k{c_k}}{n}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Với mẫu số liệu ghép nhóm gồm $k$ nhóm, nhóm thứ $i$ có tần số $n_i$ và giá trị đại diện (trung điểm) $c_i$ $(i=1,2,\\ldots,k)$, cỡ mẫu $n=n_1+n_2+\\ldots+n_k$.<br>Số trung bình của mẫu số liệu ghép nhóm được tính theo công thức<br>$\\overline x=\\dfrac{n_1c_1+n_2c_2+\\ldots+n_kc_k}{n}$.<br>Đây chính là công thức ở phương án D."
   },
   {
     "id": "2D322TN2",

@@ -1,10 +1,5 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: window.traLoiNgan (batch 2 - từ nguồn LaTeX C1.1-DonDieu)
-// Nguồn: TaiLieuThamKhao/BANK-25-26/Lop12/C1.1-DonDieu.tex (chuyển từ LaTeX)
-// Hình vẽ (bảng biến thiên, đồ thị...) đã được biên dịch sẵn bằng LaTeX/TikZ
-// thành ảnh PNG tĩnh, lưu tại data/12/2D1/im2D1/ (không phụ thuộc TikzJax).
-// =========================================================================
-window.traLoiNgan2D11_2 = [
+// KHỐI DỮ LIỆU: window.traLoiNgan2D11_2 = [
   {
     "id": "2D115TL7",
     "question": "Người ta thấy rằng trong $36$ tháng tính từ đầu năm 2020, giá thành $P$ của một loại sản phẩm vào tháng thứ $t$ thay đổi theo công thức $P(t)=80t^3-4\\,200t^2+60\\,000t+200\\,000$ (đồng) với $0\\le t\\le 36$. Biết giá thành đạt cực đại vào thời điểm $t_1$ và giá thành đạt cực tiểu vào thời điểm $t_2$. Tìm $2t_1-t_2$.",
@@ -44,13 +39,13 @@ window.traLoiNgan2D11_2 = [
   {
     "id": "2D115TL13",
     "question": "Một chuyển động được xác định bởi phương trình $S(t) = -\\dfrac{1}{3}t^3 + \\dfrac{3}{2}t^2 - 2t + 15$ với $t \\geq 0$, trong đó $t$ tính bằng giây và $S$ tính bằng mét. Kể từ giây thứ bao nhiêu trở đi thì vận tốc của vật giảm?",
-    "answer": "1{,}5",
+    "answer": "1,5",
     "explain": "Ta có $v(t) = s'(t) = -t^2 + 3t - 2$.<br>  Xét hàm số $v(t) = -t^2 + 3t - 2$ với $t \\geq 0$.<br>  Ta có $v'(t) = -2t + 3$.<br>  Suy ra $v'(t) = 0 \\Leftrightarrow -2t + 3 = 0 \\Leftrightarrow t = \\dfrac{3}{2}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_030.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy kể từ khi $t \\geq \\dfrac{3}{2} = 1{,}5$ giây thì vận tốc giảm."
   },
   {
     "id": "2D112TL14",
     "question": "Cho điểm $A$ di động trên nửa đường tròn tâm $O$ đường kính $MN = 20$cm, $MOA = \\alpha$ ($0 &lt; \\alpha &lt; \\pi$). Lấy điểm $B$ thuộc nửa đường tròn và $C, D$ thuộc đường kính $MN$ sao cho $ABCD$ là hình chữ nhật. Khi $A$ di động từ trái sang phải, khi đó trong các khoảng $(a;b]$ và $[c;d]$ của $\\alpha$ thì diện tích của hình chữ nhật $ABCD$ tăng. Tính $a+b+c+d$ (kết quả làm tròn đến hàng phần trăm).<br><img src=\"data/12/2D1/im2D1/2D11_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "4{,}71",
+    "answer": "4,71",
     "explain": "Gọi R là bán kính đường tròn, ta có ${R = \\dfrac{MN}{2} = \\dfrac{20}{2} = 10 cm}$.<br>  Trong tam giác vuông $ADO$, ta có:<br>  ${OD =\\cos \\alpha = R \\cos \\alpha = 10 \\cos \\alpha}$<br>  ${AD =\\sin \\alpha = R \\sin \\alpha = 10 \\sin \\alpha}$.<br>  Suy ra ${CD = 2OD = 2 \\cdot 10 \\cos \\alpha = 20 \\cos \\alpha}$.<br>  Diện tích hình chữ nhật $ABCD$ là<br>  ${S(\\alpha) = AD \\cdot CD = (10 \\sin \\alpha) \\cdot (20 \\cos \\alpha) = 200 \\sin \\alpha \\cos \\alpha = 100 \\sin(2\\alpha)}$.<br>  Để diện tích hình chữ nhật tăng, ta cần ${S' (\\alpha) \\ge 0}$.<br>  ${S'(\\alpha) = 100 \\cdot \\cos(2\\alpha) = 200 \\cos(2\\alpha)}$.<br>  ${S' (\\alpha) \\ge 0 \\Leftrightarrow 200 \\cos(2\\alpha) &gt; 0 \\Leftrightarrow \\cos(2\\alpha) \\ge 0}$.  <br>- Với $0 &lt; \\alpha &lt; \\dfrac{\\pi}{2}$, ta có $0 &lt; 2\\alpha &lt; \\pi$.<br>  Suy ra $\\cos(2\\alpha) \\ge 0$ khi $\\alpha \\in \\left(0;\\dfrac{\\pi}{4}\\right]$.<br>- Với $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$, ta có $0 &lt; \\pi -\\alpha&lt; \\dfrac{\\pi}{2}$.<br>  Diện tích hình chữ nhật $ABCD$ là $100\\sin2(\\pi-\\alpha)$.<br>  $S'(\\alpha) = -100 \\cdot \\cos2(\\pi-\\alpha) = -200 \\cos2(\\pi-\\alpha)$.<br>  Suy ra $S' (\\alpha) \\ge 0$ khi $\\alpha \\in \\left[ \\dfrac{\\pi}{2}; \\dfrac{3\\pi}{4}\\right]$.  Vậy các khoảng cần tìm là $\\left(a;b\\right] = \\left(0;\\dfrac{\\pi}{4}\\right]$ và $[c;d] = \\left[ \\dfrac{\\pi}{2}; \\dfrac{3\\pi}{4}\\right]$.<br>  $a = 0$, $b = \\dfrac{\\pi}{4}$, $c = \\dfrac{\\pi}{2}$, $d = \\dfrac{3\\pi}{4}$.<br>  Vậy ${a+b+c+d = 0 + \\dfrac{\\pi}{4} +\\dfrac{\\pi}{2}+ \\dfrac{3\\pi}{4}\\approx 4{,}71}$."
   },
   {

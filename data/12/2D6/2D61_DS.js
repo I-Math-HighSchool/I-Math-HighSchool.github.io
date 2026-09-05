@@ -111,14 +111,14 @@ window.dungSai2D61 = [
       },
       {
         "text": "Xác suất của biến cố $A$ với điều kiện $B$ là 0,25",
-        "answer": false
+        "answer": true
       },
       {
         "text": "$A$ và $B$ là hai biến cố độc lập",
         "answer": true
       }
     ],
-    "explain": ""
+    "explain": "Gọi $A$: \"Lá bài đầu tiên rút ra là chất cơ\", $B$: \"Lá bài thứ hai rút ra là lá $Q$\". Bộ bài có $52$ lá, gồm $13$ lá cơ và $4$ lá $Q$ (trong đó có đúng $1$ lá vừa là cơ vừa là $Q$).<br>a) $P(A)=\\dfrac{13}{52}=0{,}25$. Đúng.<br>b) Xét các trường hợp thuận lợi cho $A\\cap B$: nếu lá đầu là $Q$ cơ ($1$ cách) thì lá thứ hai là $1$ trong $3$ lá $Q$ còn lại (trong $51$ lá); nếu lá đầu là $1$ trong $12$ lá cơ khác $Q$ thì lá thứ hai là $1$ trong $4$ lá $Q$ (trong $51$ lá). Số kết quả thuận lợi là $1\\cdot 3+12\\cdot 4=51$ trên tổng số $52\\cdot 51$ kết quả, nên $P(A\\cap B)=\\dfrac{51}{52\\cdot 51}=\\dfrac{1}{52}\\approx 0{,}019\\ne 0{,}25$. Sai.<br>c) Do mỗi vị trí rút đều có xác suất như nhau nhận mỗi lá trong bộ bài nên $P(B)=\\dfrac{4}{52}=\\dfrac{1}{13}$. Do đó $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{1/52}{1/13}=\\dfrac{1}{4}=0{,}25$. Đúng (lưu ý: đáp án gốc trong ngân hàng ghi ý này là Sai, đã kiểm tra lại và sửa thành Đúng cho khớp với kết quả tính toán).<br>d) Vì $P(A)\\cdot P(B)=0{,}25\\cdot\\dfrac{1}{13}=\\dfrac{1}{52}=P(A\\cap B)$ nên $A$ và $B$ độc lập. Đúng."
   },
   {
     "id": "2D613DS6",

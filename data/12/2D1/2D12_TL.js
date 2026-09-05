@@ -68,7 +68,7 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D122TL11",
     "question": "Tính khoảng cách giữa 2 điểm cực trị của đồ thị hàm số $y=x^3-3x+2$? (kết quả làm tròn đến hàng phần trăm).",
-    "answer": "4{,}47",
+    "answer": "4,47",
     "explain": "Ta có $y'=3x^2-3$.<br>  Xét $y'=0\\Leftrightarrow x=\\pm 1 $.<br>  Ta có $y(1)=1^3-3\\cdot 1+2=0$ và $y(-1)=(-1)^3-3\\cdot (-1)+2=4$.<br>  Tọa độ hai điểm cực trị là $(1;0) $ và $(-1;4)$.<br>  Vậy khoảng cách giữa hai điểm cực trị là $\\sqrt{(-1-1)^2+(4-0)^2}=2\\sqrt{5}\\approx 4{,}47$."
   },
   {
@@ -116,7 +116,7 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D124TL19",
     "question": "Biết đường thằng $d\\colon y=(3 m+1)x+3$ vuông góc với đường thẳng đi qua hai điểm cực trị của đồ thị hàm số $y=x^3-3 x^2-1$. Giá trị của $m$ bằng bao nhiêu? (làm tròn đến hàng phần chục).",
-    "answer": "-0{,}2",
+    "answer": "-0,2",
     "explain": "&lt;strong&gt;Phương pháp giải:&lt;/strong&gt;  <br>- Giải phương trình $y'=0$, từ đó xác định $2$ điểm cực trị của đồ thị hàm số $A\\left(x_1 ; y_1\\right), B\\left(x_2 ; y_2\\right)$.<br>- Phương trình đường thẳng đi qua $2$ điểm $A$, $B$ là $AB\\colon \\dfrac{x-x_1}{x_2-x_1}=\\dfrac{y-y_1}{y_2-y_1}$.<br>- Hai đường thẳng $d\\colon y=a x+b$ và $d'\\colon y=a' x+b'$ vuông góc với nhau khi $a \\cdot a'=-1$.   &lt;strong&gt;Giải chi tiết&lt;/strong&gt;<br>  Ta có $y=x^3-3 x^2-1 \\Rightarrow y'=3 x^2-6 x$.<br>  Cho $y'=0 \\Leftrightarrow 3 x(x-2)=0 \\Leftrightarrow x=0 \\Rightarrow y=-1 \\text{ hoặc } x=2 \\Rightarrow y=1.$<br>  Do đó đồ thị hàm số đã cho có $2$ điểm cực trị $A(0 ;-1) ; B(2 ;-5)$.<br>  Phương trình đường thẳng $A B$ là $\\dfrac{x-0}{2-0}=\\dfrac{y+1}{-5+1} \\Leftrightarrow y=-2 x-1$.<br>  Do $AB \\perp d$ nên được $(3 m+1) \\cdot(-2)=-1 \\Leftrightarrow 3 m+1=\\dfrac{1}{2} \\Leftrightarrow m=-\\dfrac{1}{6}\\approx -0{,}2$."
   },
   {
@@ -158,13 +158,13 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D121TL26",
     "question": "Để giảm nhiệt độ phòng từ $28^\\circ$C, một hệ thống làm mát được phép hoạt động trong $ 10 $ phút. Gọi $T$ (đơn vị $^\\circ$C) là nhiệt độ phòng ở phút thứ $t$ được cho bởi công thức $T= - 0{,}008t^{3} - 0{,}16t + 28$ $(t \\in [1;10])$. Tìm nhiệt độ thấp nhất trong phòng đạt được trong $ 10 $ phút kể từ khi hệ thống làm mát bắt đầu hoạt động.",
-    "answer": "32{,}6",
+    "answer": "32,6",
     "explain": "Yêu cầu đề bài là tìm giá trị nhỏ nhất của $T(t) = -0{,}008t^{3} - 0{,}16t + 28$ trong $ [1;10] $.<br>  Ta có $ T'(t) = -0{,}024t^2 - 0{,}16 &lt;0$, $ \\forall t \\in [0;10] $.<br>  Dẫn đến $ T $ là hàm nghịch biến trên $ [0;10] $.<br>  Vậy nhiệt độ thấp nhất là $T(10)= 18{,}4 ^\\circ$C."
   },
   {
     "id": "2D127TL27",
     "question": "Công ty nước sạch Bình An đang cần lắp đặt đường ống dẫn nước từ nhà máy nước tới hòn đảo nhỏ trong sơ đồ (đường ống được xuất phát từ nhà máy đến điểm $T$ rồi đi ra đảo). Bến tàu cách đảo $ 1 $ km, đó chính là vị trí trên đất liền gần với đảo nhất. Nhà máy nước cách bờ biển $ 4 $ km. Biết rằng chi phí đặt một ki-lô-mét ống dẫn nước trên đất liền là $ 30 $ triệu đồng và còn lại đặt dưới nước là $ 50 $ triệu đồng. Khoảng cách từ điểm $T$ đến nhà máy nước là bao nhiêu ki-lô-mét để tổng chi phí lắp đặt là nhỏ nhất?<br><img src=\"data/12/2D1/im2D1/2D12_tikz_066.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}75",
+    "answer": "0,75",
     "explain": "<br><img src=\"data/12/2D1/im2D1/2D12_tikz_067.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Gọi $ BT=x $ (km) ($ 0&lt;x&lt;4 $).<br> Chi phí $C(x)=30\\cdot (4 - x) + 50\\sqrt{x^{2}+1}=120 - 30x + 50\\sqrt{x^{2}+1}$.<br> Khi đó, ta có $C'(x)= -30 + \\dfrac{50x}{\\sqrt{x^{2}+1}}$.<br> Cho $ C'(x)=0 \\Leftrightarrow \\dfrac{50x}{\\sqrt{x^{2}+1}} = 30 25x^{2} = 9(x^{2}+1) \\Leftrightarrow 16x^{2} = 9 \\Leftrightarrow x=-0{,}75 \\text{(nhận)} \\text{ hoặc } x=0{,}75 \\text{(nhận)}.$<br> Ta có bảng biến thiên như sau <br><img src=\"data/12/2D1/im2D1/2D12_tikz_068.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Vậy khoảng cách từ điểm $ T $ đến nhà máy nước là $ 0{,}75 $ km để tổng chi phí là thấp nhất."
   },
   {
@@ -182,7 +182,7 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D122TL30",
     "question": "Gọi $A$, $B$ là các điểm cực trị của đồ thị hàm số $y=x^3+ax^2+b$ biết $A(1;2)$. Tính diện tích của tam giác $OAB$ (với $O$ là gốc tọa độ) bằng bao nhiêu?",
-    "answer": "1{,}25",
+    "answer": "1,25",
     "explain": "Hàm số $y=x^3+ax^2+b$ xác định với mọi $x\\in\\mathbb{R}$.<br>  Ta có $y'=3x^2+2ax$.<br>  Vì $A(1;2)$ là điểm cực trị của đồ thị hàm số đã cho nên \\[y'(1)=0 \\text{ và } y(1)=2\\Leftrightarrow3+2a=0 \\text{ và } 1+a+b=2\\Leftrightarrow a=-\\dfrac{3}{2} \\text{ và } b=\\dfrac{5}{2}.\\]  Với $a=-\\dfrac{3}{2}$, $b=\\dfrac{5}{2}$ thì $y=x^3-\\dfrac{3}{2}x^2+\\dfrac{5}{2}$.<br>  Ta có $y'=3x^2-3x$; $y'=0\\Leftrightarrow x=1 \\text{ hoặc } x=0.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_087.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, suy ra $A(1;2)$ và $B\\left(0;\\dfrac{5}{2}\\right)$ là các điểm cực trị của đồ thị hàm số đã cho.<br>  Mặt khác $\\overrightarrow{OA}=(1;2)$, $\\overrightarrow{AB}=\\left(-1;\\dfrac{1}{2}\\right)$.<br>  Vì $\\overrightarrow{OA}\\cdot\\overrightarrow{AB}=-1\\cdot 1+2\\cdot\\dfrac{1}{2}=0$ nên $\\overrightarrow{OA}\\perp \\overrightarrow{OB}$ hay $\\triangle OAB$ vuông tại $A$.<br>  Vậy diện tích $\\triangle OAB$ là $S=\\dfrac{1}{2}OA\\cdot AB=\\dfrac{1}{2}\\cdot\\sqrt{1^2+2^2}\\cdot\\sqrt{(-1)^2+\\left(\\dfrac{1}{2}\\right)^2}=\\dfrac{5}{4}=1{,}25$."
   },
   {
@@ -218,7 +218,7 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D121TL36",
     "question": "Tìm giá trị cực tiểu của hàm số $y=x^3+6x^2-15x+2\\,033$.",
-    "answer": "2\\,025",
+    "answer": "2025",
     "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có  $y'=3x^2+12x-15=3\\left(x^2+4 x-5\\right)=3(x+5)(x-1) \\Leftrightarrow x+5=0 \\text{ hoặc } x-1=0\\Leftrightarrow x=-5 \\text{ hoặc } x=1$.<br>  Bảng biến thiên:<br>  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_101.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có giá trị cực tiểu của hàm số là $2\\,025$."
   },
   {

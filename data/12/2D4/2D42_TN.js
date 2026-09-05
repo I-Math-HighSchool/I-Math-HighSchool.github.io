@@ -14,7 +14,7 @@ window.tracNghiem2D42 = [
       "$\\displaystyle\\int\\limits_{a}^{b}f(x)\\mathrm{d}x=-\\displaystyle\\int\\limits_{b}^{a}f(x)\\mathrm{d}x$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ba mệnh đề $\\displaystyle\\int_a^bf(x)\\mathrm{d}x=F(b)-F(a)$, $\\displaystyle\\int_a^bf(x)\\mathrm{d}x=-\\int_b^af(x)\\mathrm{d}x$ và tính chất tích phân với cận bằng nhau đều đúng.<br>Riêng mệnh đề \"$\\displaystyle\\int_a^bf(x)\\mathrm{d}x\\ne\\int_a^bf(t)\\mathrm{d}t$\" là SAI, vì giá trị tích phân xác định không phụ thuộc vào tên biến lấy tích phân (biến $x$ hay $t$ chỉ là biến chạy hình thức), nên hai tích phân này luôn BẰNG nhau."
   },
   {
     "id": "2D421TN2",
@@ -50,7 +50,7 @@ window.tracNghiem2D42 = [
       "$3$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_0^2f=\\int_0^6f-\\int_2^6f=4-(-3)=7$.<br>Vậy $\\displaystyle\\int_0^2[f(v)-3]\\mathrm{d}v=\\int_0^2f(v)\\mathrm{d}v-3\\int_0^2\\mathrm{d}v=7-3\\cdot 2=1$."
   },
   {
     "id": "2D421TN5",
@@ -98,7 +98,7 @@ window.tracNghiem2D42 = [
       "$\\displaystyle\\int\\limits_b^ca f(x)\\mathrm{d}x=-a \\int\\limits_c^bf(x)\\mathrm{d}x$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Kiểm tra từng mệnh đề dựa trên tính chất $\\int_a^c=\\int_a^b+\\int_b^c$: đáp án A, C, D đều tương đương tính chất này (viết lại dưới các dạng khác nhau, đều đúng).<br>Riêng đáp án B viết $\\int_b^c=\\int_a^c+\\int_a^b$ trong khi công thức đúng phải là $\\int_b^c=\\int_a^c-\\int_a^b$ (dấu trừ chứ không phải dấu cộng), nên B là mệnh đề sai."
   },
   {
     "id": "2D421TN9",
@@ -110,7 +110,7 @@ window.tracNghiem2D42 = [
       "$7$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_{-1}^2f(x)\\mathrm{d}x=\\int_{-1}^1f(t)\\mathrm{d}t+\\int_1^2f(u)\\mathrm{d}u=-3+4=1$."
   },
   {
     "id": "2D424TN10",
@@ -134,7 +134,7 @@ window.tracNghiem2D42 = [
       "vô số"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_0^a(2x+5)\\mathrm{d}x=\\Big[x^2+5x\\Big]_0^a=a^2+5a$.<br>Phương trình: $a^2+5a=a-4\\Leftrightarrow a^2+4a+4=0\\Leftrightarrow (a+2)^2=0\\Leftrightarrow a=-2$.<br>Vậy chỉ có $1$ giá trị của $a$ thỏa mãn (là $a=-2$)."
   },
   {
     "id": "2D421TN12",
@@ -146,7 +146,7 @@ window.tracNghiem2D42 = [
       "$I=2020\\left(\\text{e}^{\\textstyle \\frac{1}{2020}}-1\\right)$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle I=\\int_0^1 e^{x/2020}\\mathrm{d}x=\\Big[2020\\,e^{x/2020}\\Big]_0^1=2020\\left(e^{1/2020}-1\\right)$."
   },
   {
     "id": "2D423TN13",
@@ -182,7 +182,7 @@ window.tracNghiem2D42 = [
       "$-3$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Theo công thức Newton-Leibniz: $\\displaystyle\\int_{-2}^1f'(x)\\mathrm{d}x=f(1)-f(-2)=-2-1=-3$."
   },
   {
     "id": "2D423TN16",
@@ -206,7 +206,7 @@ window.tracNghiem2D42 = [
       "$9$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_2^5[f(x)+g(x)]\\mathrm{d}x=\\int_2^5f(x)\\mathrm{d}x+\\int_2^5g(x)\\mathrm{d}x=7+(-2)=5$."
   },
   {
     "id": "2D421TN18",
@@ -230,7 +230,7 @@ window.tracNghiem2D42 = [
       "$3a+b$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_1^2(2ax+b)\\mathrm{d}x=\\Big[ax^2+bx\\Big]_1^2=(4a+2b)-(a+b)=3a+b$."
   },
   {
     "id": "2D424TN20",
@@ -242,7 +242,7 @@ window.tracNghiem2D42 = [
       "$P=-\\dfrac{3}{2}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_1^3\\dfrac{1}{2x+3}\\mathrm{d}x=\\left[\\dfrac12\\ln|2x+3|\\right]_1^3=\\dfrac12(\\ln9-\\ln5)=\\dfrac12(2\\ln3-\\ln5)=\\ln3-\\dfrac12\\ln5$.<br>Vậy $m=-\\dfrac12,\\ n=1$, nên $P=m-n=-\\dfrac12-1=-\\dfrac32$."
   },
   {
     "id": "2D423TN21",
@@ -254,7 +254,7 @@ window.tracNghiem2D42 = [
       "$I=2$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Vì $\\sin x,\\cos x$ tuần hoàn chu kì $2\\pi$ và $2021\\pi=1010\\cdot 2\\pi+\\pi$, nên $\\displaystyle\\int_0^{2021\\pi}(\\sin x+\\cos x)\\mathrm{d}x=\\int_0^{\\pi}(\\sin x+\\cos x)\\mathrm{d}x$.<br>$=\\Big[-\\cos x+\\sin x\\Big]_0^{\\pi}=(1+0)-(-1+0)=2$."
   },
   {
     "id": "2D423TN22",
@@ -266,7 +266,7 @@ window.tracNghiem2D42 = [
       "$J=29\\cot a$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle J=\\int_0^a\\dfrac{29}{\\cos^2x}\\mathrm{d}x=29\\Big[\\tan x\\Big]_0^a=29\\tan a$."
   },
   {
     "id": "2D423TN23",
@@ -278,7 +278,7 @@ window.tracNghiem2D42 = [
       "$I = \\dfrac{\\sqrt{2}}{21}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Dùng công thức tích thành tổng: $\\cos2x\\cos5x=\\dfrac12(\\cos3x+\\cos7x)$.<br>$\\displaystyle I=\\dfrac12\\left[\\dfrac{\\sin3x}{3}+\\dfrac{\\sin7x}{7}\\right]_{\\pi/2}^{2020\\pi}$.<br>Tại $x=2020\\pi$: $\\sin(6060\\pi)=\\sin(14140\\pi)=0$ (đều là bội của $2\\pi$), giá trị $=0$.<br>Tại $x=\\pi/2$: $\\sin(3\\pi/2)=-1$, $\\sin(7\\pi/2)=\\sin(3\\pi/2)=-1$ (do tuần hoàn $2\\pi$), giá trị $=\\dfrac12\\left(-\\dfrac13-\\dfrac17\\right)=-\\dfrac{5}{21}$.<br>Vậy $I=0-\\left(-\\dfrac{5}{21}\\right)=\\dfrac{5}{21}$."
   },
   {
     "id": "2D423TN24",
@@ -290,7 +290,7 @@ window.tracNghiem2D42 = [
       "$I = \\dfrac{4}{15}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Dùng công thức tích thành tổng: $\\sin x\\sin4x=\\dfrac12(\\cos3x-\\cos5x)$.<br>$\\displaystyle I=\\dfrac12\\left[\\dfrac{\\sin3x}{3}-\\dfrac{\\sin5x}{5}\\right]_{\\pi/2}^{2020\\pi}$.<br>Tại $x=2020\\pi$: $\\sin(6060\\pi)=\\sin(10100\\pi)=0$, giá trị $=0$.<br>Tại $x=\\pi/2$: $\\sin(3\\pi/2)=-1$, $\\sin(5\\pi/2)=\\sin(\\pi/2)=1$, giá trị $=\\dfrac12\\left(-\\dfrac13-\\dfrac15\\right)=-\\dfrac{4}{15}$.<br>Vậy $I=0-\\left(-\\dfrac{4}{15}\\right)=\\dfrac{4}{15}$."
   },
   {
     "id": "2D423TN25",
@@ -302,7 +302,7 @@ window.tracNghiem2D42 = [
       "$ \\dfrac{\\pi^2 + 6\\pi + 8}{8} $"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Vì $f'(x)=2\\cos^2x+3=(1+\\cos2x)+3=4+\\cos2x$, ta có $\\displaystyle f(x)=f(0)+\\int_0^x(4+\\cos2t)\\mathrm{d}t=4+4x+\\dfrac12\\sin2x$.<br>$\\displaystyle\\int_0^{\\pi/4}f(x)\\mathrm{d}x=\\left[4x+2x^2-\\dfrac14\\cos2x\\right]_0^{\\pi/4}=\\left(\\pi+\\dfrac{\\pi^2}{8}-0\\right)-\\left(-\\dfrac14\\right)=\\pi+\\dfrac{\\pi^2}{8}+\\dfrac14=\\dfrac{\\pi^2+8\\pi+2}{8}$."
   },
   {
     "id": "2D423TN26",
@@ -326,7 +326,7 @@ window.tracNghiem2D42 = [
       "$S=4$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Dùng $1+\\cos x=2\\cos^2\\dfrac{x}{2}$, ta có $\\dfrac{1}{1+\\cos x}=\\dfrac12\\sec^2\\dfrac{x}{2}$.<br>$\\displaystyle I=\\int_0^{\\pi/6}\\dfrac12\\sec^2\\dfrac{x}{2}\\mathrm{d}x=\\Big[\\tan\\dfrac{x}{2}\\Big]_0^{\\pi/6}=\\tan\\dfrac{\\pi}{12}=2-\\sqrt3$.<br>Vậy $a=-1,\\ b=3,\\ c=2$, nên $S=a+b+c=4$."
   },
   {
     "id": "2D423TN28",
@@ -338,7 +338,7 @@ window.tracNghiem2D42 = [
       "$S=4$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Nhân với $\\dfrac{1-\\sin x}{1-\\sin x}$: $\\dfrac{1}{1+\\sin x}=\\dfrac{1-\\sin x}{\\cos^2x}=\\sec^2x-\\sec x\\tan x$.<br>$\\displaystyle I=\\Big[\\tan x-\\sec x\\Big]_0^{\\pi/4}=(1-\\sqrt2)-(0-1)=2-\\sqrt2$.<br>Vậy $a=-1,\\ b=2,\\ c=2$, nên $S=a+b+c=3$."
   },
   {
     "id": "2D423TN29",
@@ -350,7 +350,7 @@ window.tracNghiem2D42 = [
       "$S = 5$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Dùng $1-\\cos2x=2\\sin^2x$, và trên $[0;\\pi/6]$ thì $\\sin x\\ge0$ nên $\\sqrt{1-\\cos2x}=\\sqrt2\\sin x$.<br>$\\displaystyle I=\\sqrt2\\int_0^{\\pi/6}\\sin x\\,\\mathrm{d}x=\\sqrt2\\Big[-\\cos x\\Big]_0^{\\pi/6}=\\sqrt2\\left(1-\\dfrac{\\sqrt3}{2}\\right)=\\sqrt2-\\dfrac{\\sqrt6}{2}=\\dfrac{2\\sqrt2-\\sqrt6}{2}$.<br>Vậy $a=2,\\ b=-1,\\ c=2$, nên $S=a+b+c=3$."
   },
   {
     "id": "2D423TN30",
@@ -422,7 +422,7 @@ window.tracNghiem2D42 = [
       "$ 5 $"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Đặt $t=\\sqrt{3x+1}\\Rightarrow x=\\dfrac{t^2-1}{3}, \\mathrm{d}x=\\dfrac{2t}{3}\\mathrm{d}t$; đổi cận $x=1\\to t=2$, $x=5\\to t=4$.<br>$\\displaystyle I=\\int_2^4\\dfrac{1}{\\frac{t^2-1}{3}\\cdot t}\\cdot\\dfrac{2t}{3}\\mathrm{d}t=\\int_2^4\\dfrac{2}{t^2-1}\\mathrm{d}t=\\int_2^4\\left(\\dfrac{1}{t-1}-\\dfrac{1}{t+1}\\right)\\mathrm{d}t=\\Big[\\ln|t-1|-\\ln|t+1|\\Big]_2^4$<br>$=(\\ln3-\\ln5)-(\\ln1-\\ln3)=2\\ln3-\\ln5$.<br>Vậy $a=2,\\ b=-1$, nên $2a+b^2=4+1=5$."
   },
   {
     "id": "2D424TN36",
@@ -434,7 +434,7 @@ window.tracNghiem2D42 = [
       "$ 4 $"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Đặt $u=4e^x-3\\Rightarrow \\mathrm{d}u=4e^x\\mathrm{d}x$, và $e^x=\\dfrac{u+3}{4}$; đổi cận $x=0\\to u=1$, $x=\\ln2\\to u=5$.<br>$5e^{2x}\\sqrt u\\,\\mathrm{d}x=5e^x\\sqrt u\\cdot(e^x\\mathrm{d}x)=5\\cdot\\dfrac{u+3}{4}\\sqrt u\\cdot\\dfrac{\\mathrm{d}u}{4}=\\dfrac{5(u+3)\\sqrt u}{16}\\mathrm{d}u$.<br>$\\displaystyle I=\\dfrac{5}{16}\\int_1^5\\left(u^{3/2}+3u^{1/2}\\right)\\mathrm{d}u=\\dfrac{5}{16}\\Big[\\dfrac25u^{5/2}+2u^{3/2}\\Big]_1^5=\\dfrac{5}{16}\\left[(10\\sqrt5+10\\sqrt5)-\\left(\\dfrac25+2\\right)\\right]=\\dfrac{5}{16}\\left(20\\sqrt5-\\dfrac{12}{5}\\right)=\\dfrac{25\\sqrt5-3}{4}$.<br>Vậy $a=25,\\ b=-3$, nên $a+b^3=25-27=-2$."
   },
   {
     "id": "2D423TN37",
@@ -602,7 +602,7 @@ window.tracNghiem2D42 = [
       "$I=\\dfrac{\\sqrt{3}}{3}\\displaystyle\\int\\limits_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\dfrac{1}{t} \\textrm{d}t$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Đặt $x=\\sqrt3\\tan t\\Rightarrow \\mathrm{d}x=\\sqrt3\\sec^2t\\,\\mathrm{d}t$, $x^2+3=3\\sec^2t$; đổi cận $x=\\sqrt3\\to t=\\pi/4$, $x=3\\to t=\\pi/3$.<br>$\\displaystyle I=\\int_{\\pi/4}^{\\pi/3}\\dfrac{\\sqrt3\\sec^2t}{3\\sec^2t}\\mathrm{d}t=\\dfrac{\\sqrt3}{3}\\int_{\\pi/4}^{\\pi/3}\\mathrm{d}t$."
   },
   {
     "id": "2D423TN51",
@@ -614,7 +614,7 @@ window.tracNghiem2D42 = [
       "$I=\\displaystyle\\int\\limits_0^{\\tfrac{\\pi}{4}}\\dfrac{1}{a}\\mathrm{\\,d}t$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Với $x=a\\tan t$: $\\mathrm{d}x=a(1+\\tan^2t)\\mathrm{d}t$ (đúng, vì $\\sec^2t=1+\\tan^2t$) và $a^2+x^2=a^2(1+\\tan^2t)$ (đúng).<br>Đổi cận đúng phải là $x=0\\to t=0$, $x=a\\to t=\\pi/4$, nên $\\displaystyle I=\\int_0^{\\pi/4}\\dfrac1a\\mathrm{d}t$ (đây chính là đáp án D, đúng).<br>Đáp án A viết cận là $0$ đến $a$ (biến $t$) thay vì $0$ đến $\\pi/4$ là sai — đây là mệnh đề sai cần chọn."
   },
   {
     "id": "2D425TN52",
@@ -626,7 +626,7 @@ window.tracNghiem2D42 = [
       "$a=3$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Đặt $x=2\\sin\\theta\\Rightarrow \\mathrm{d}x=2\\cos\\theta\\,\\mathrm{d}\\theta$, $\\sqrt{4-x^2}=2\\cos\\theta$.<br>$\\displaystyle\\int\\sqrt{4-x^2}\\,\\mathrm{d}x=\\int 4\\cos^2\\theta\\,\\mathrm{d}\\theta=2\\theta+\\sin2\\theta+C$, với $\\theta=\\arcsin\\dfrac{x}{2}$.<br>Với $a=\\sqrt2$: $\\theta=\\arcsin\\dfrac{\\sqrt2}{2}=\\dfrac{\\pi}{4}$, giá trị tích phân $=2\\cdot\\dfrac{\\pi}{4}+\\sin\\dfrac{\\pi}{2}=\\dfrac{\\pi}{2}+1$, đúng bằng vế phải.<br>Vậy $a=\\sqrt2$."
   },
   {
     "id": "2D425TN53",
@@ -650,7 +650,7 @@ window.tracNghiem2D42 = [
       "6"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Đặt $x=\\tan\\theta\\Rightarrow \\sqrt{x^2+1}=\\sec\\theta$, $\\mathrm{d}x=\\sec^2\\theta\\,\\mathrm{d}\\theta$; đổi cận $x=\\tfrac1{\\sqrt3}\\to\\theta=\\pi/6$, $x=1\\to\\theta=\\pi/4$.<br>Biểu thức dưới dấu tích phân trở thành $\\dfrac{\\sec\\theta\\cdot\\sec^2\\theta}{\\tan^4\\theta}\\mathrm{d}\\theta=\\dfrac{\\cos\\theta}{\\sin^4\\theta}\\mathrm{d}\\theta$.<br>Đặt $u=\\sin\\theta$: $\\displaystyle\\int\\dfrac{\\mathrm{d}u}{u^4}=-\\dfrac{1}{3u^3}+C=-\\dfrac{1}{3\\sin^3\\theta}+C$.<br>Tại $\\theta=\\pi/4$: $\\sin^3\\theta=\\dfrac{\\sqrt2}{4}$, giá trị $=-\\dfrac{2\\sqrt2}{3}$. Tại $\\theta=\\pi/6$: $\\sin^3\\theta=\\dfrac18$, giá trị $=-\\dfrac83$.<br>Tích phân $=-\\dfrac{2\\sqrt2}{3}-\\left(-\\dfrac83\\right)=\\dfrac{8-2\\sqrt2}{3}=-\\dfrac13(2\\sqrt2-8)$.<br>Vậy $a=3,\\ b=2,\\ c=8$, nên $a+b+c=13$."
   },
   {
     "id": "2D423TN55",
@@ -842,7 +842,7 @@ window.tracNghiem2D42 = [
       "$3$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int_1^5\\dfrac{1}{2x-1}\\mathrm{d}x=\\left[\\dfrac12\\ln|2x-1|\\right]_1^5=\\dfrac12(\\ln9-\\ln1)=\\dfrac12\\ln9=\\ln3$.<br>Vậy $\\ln a=\\ln3\\Rightarrow a=3$."
   },
   {
     "id": "2D424TN71",
@@ -854,7 +854,7 @@ window.tracNghiem2D42 = [
       "$-20$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{x-1}{x+3}=1-\\dfrac{4}{x+3}$.<br>$\\displaystyle\\int_1^2\\left(1-\\dfrac{4}{x+3}\\right)\\mathrm{d}x=\\Big[x-4\\ln|x+3|\\Big]_1^2=(2-4\\ln5)-(1-4\\ln4)=1+4\\ln\\dfrac45$.<br>Vậy $a=4,\\ b=5$, nên $2a+b=8+5=13$."
   },
   {
     "id": "2D422TN72",
@@ -878,7 +878,7 @@ window.tracNghiem2D42 = [
       "$0$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Ta có $x^2-5x+6=(x-2)(x-3)$, và $\\dfrac{1}{(x-2)(x-3)}=\\dfrac{-1}{x-2}+\\dfrac{1}{x-3}$.<br>$\\displaystyle\\int_0^1\\left(\\dfrac{-1}{x-2}+\\dfrac{1}{x-3}\\right)\\mathrm{d}x=\\Big[-\\ln|x-2|+\\ln|x-3|\\Big]_0^1=(0+\\ln2)-(-\\ln2+\\ln3)=2\\ln2-\\ln3$.<br>Vậy $a=2,\\ b=-1$, nên $a+b=1$."
   },
   {
     "id": "2D424TN74",
@@ -902,7 +902,7 @@ window.tracNghiem2D42 = [
       "$S=4$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{x^2}{x+1}=x-1+\\dfrac{1}{x+1}$ (vì $x^2=(x+1)(x-1)+1$).<br>$\\displaystyle\\int_1^2\\left(x-1+\\dfrac{1}{x+1}\\right)\\mathrm{d}x=\\left[\\dfrac{x^2}{2}-x+\\ln|x+1|\\right]_1^2=\\ln3-\\left(-\\dfrac12+\\ln2\\right)=\\dfrac12-\\ln2+\\ln3$.<br>Vậy $a=\\dfrac12,\\ b=-1,\\ c=1$, nên $S=2a-b+c=1+1+1=3$."
   },
   {
     "id": "2D424TN76",
@@ -914,7 +914,7 @@ window.tracNghiem2D42 = [
       "$2(a+b+c)=5$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{x-1}{x+2}=1-\\dfrac{3}{x+2}$, nên $\\left(\\dfrac{x-1}{x+2}\\right)^2=1-\\dfrac{6}{x+2}+\\dfrac{9}{(x+2)^2}$.<br>$\\displaystyle\\int_0^1\\left[1-\\dfrac{6}{x+2}+\\dfrac{9}{(x+2)^2}\\right]\\mathrm{d}x=\\left[x-6\\ln|x+2|-\\dfrac{9}{x+2}\\right]_0^1=(-2-6\\ln3)-(-6\\ln2-4{,}5)=\\dfrac52+6\\ln2-6\\ln3$.<br>Vậy $a=\\dfrac52,\\ b=6,\\ c=-6$, kiểm tra: $2(a+b+c)=2\\cdot\\dfrac52=5$ — đây chính là đẳng thức đúng."
   },
   {
     "id": "2D424TN77",
@@ -950,7 +950,7 @@ window.tracNghiem2D42 = [
       "$S=2$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{x^2+x+1}{x+1}=x+\\dfrac{1}{x+1}$ (vì $x^2+x+1=x(x+1)+1$).<br>$\\displaystyle\\int_3^5\\left(x+\\dfrac{1}{x+1}\\right)\\mathrm{d}x=\\left[\\dfrac{x^2}{2}+\\ln|x+1|\\right]_3^5=\\left(\\dfrac{25}{2}+\\ln6\\right)-\\left(\\dfrac92+\\ln4\\right)=8+\\ln\\dfrac64=8+\\ln\\dfrac32$.<br>Vậy $a=8,\\ b=3$, nên $S=a-2b=8-6=2$."
   },
   {
     "id": "2D424TN80",
@@ -962,7 +962,7 @@ window.tracNghiem2D42 = [
       "$-1$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{2x+1}{x+1}=2-\\dfrac{1}{x+1}$.<br>$\\displaystyle\\int_1^2\\left(2-\\dfrac{1}{x+1}\\right)\\mathrm{d}x=\\Big[2x-\\ln|x+1|\\Big]_1^2=(4-\\ln3)-(2-\\ln2)=2-\\ln3+\\ln2$.<br>Vậy $a=2,\\ b=-1,\\ c=1$, nên $abc=2\\cdot(-1)\\cdot1=-2$."
   },
   {
     "id": "2D424TN81",
@@ -974,7 +974,7 @@ window.tracNghiem2D42 = [
       "10"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Chia đa thức: $2x^2-3x+1=(2x+1)(x-2)+3$, nên $\\dfrac{2x^2-3x+1}{2x+1}=x-2+\\dfrac{3}{2x+1}$.<br>$\\displaystyle\\int_1^2\\left(x-2+\\dfrac{3}{2x+1}\\right)\\mathrm{d}x=\\left[\\dfrac{x^2}{2}-2x+\\dfrac32\\ln|2x+1|\\right]_1^2=\\left(-2+\\dfrac32\\ln5\\right)-\\left(-\\dfrac32+\\dfrac32\\ln3\\right)=-\\dfrac12+\\dfrac32\\ln\\dfrac53$.<br>Vậy $a=\\dfrac32,\\ b=\\dfrac12$, nên $a+b=2$."
   },
   {
     "id": "2D424TN82",
@@ -986,7 +986,7 @@ window.tracNghiem2D42 = [
       "$-1$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phân tích $\\dfrac{x}{(x-1)(x+2)}=\\dfrac{1/3}{x-1}+\\dfrac{2/3}{x+2}$ (đồng nhất hệ số).<br>$\\displaystyle I=\\int_2^3\\left(\\dfrac{1/3}{x-1}+\\dfrac{2/3}{x+2}\\right)\\mathrm{d}x=\\left[\\dfrac13\\ln|x-1|+\\dfrac23\\ln|x+2|\\right]_2^3=\\left(\\dfrac13\\ln2+\\dfrac23\\ln5\\right)-\\dfrac43\\ln2=\\dfrac23\\ln5-\\ln2$.<br>Vậy $a=\\dfrac23,\\ b=-1$, nên $a+b=-\\dfrac13$."
   },
   {
     "id": "2D424TN83",
@@ -1058,7 +1058,7 @@ window.tracNghiem2D42 = [
       "$\\dfrac{5}{6}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $x^3-x^2=x^2(x-1)$. Phân tích $\\dfrac{1}{x^2(x-1)}=\\dfrac{-1}{x}-\\dfrac{1}{x^2}+\\dfrac{1}{x-1}$ (đồng nhất hệ số).<br>$\\displaystyle I=\\int_2^3\\left(-\\dfrac1x-\\dfrac1{x^2}+\\dfrac1{x-1}\\right)\\mathrm{d}x=\\left[-\\ln|x|+\\dfrac1x+\\ln|x-1|\\right]_2^3=\\left(-\\ln3+\\dfrac13+\\ln2\\right)-\\left(-\\ln2+\\dfrac12\\right)=2\\ln2-\\ln3-\\dfrac16$.<br>Vậy $a=-1,\\ b=2,\\ c=-\\dfrac16$, nên $a+b+c=\\dfrac56$."
   },
   {
     "id": "2D422TN89",
@@ -1094,7 +1094,7 @@ window.tracNghiem2D42 = [
       "$-1$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Xét $f(x)=\\dfrac{x}{x^2-5|x|+6}$: thay $x$ bởi $-x$ ta được $f(-x)=\\dfrac{-x}{x^2-5|x|+6}=-f(x)$, nên $f$ là hàm số lẻ.<br>Trên $[-1;1]$, mẫu số $x^2-5|x|+6>0$ (không có điểm gián đoạn) nên tích phân xác định.<br>Do $f$ lẻ và cận đối xứng qua $0$, ta có $\\displaystyle\\int_{-1}^1f(x)\\mathrm{d}x=0$."
   },
   {
     "id": "2D422TN92",
@@ -1106,7 +1106,7 @@ window.tracNghiem2D42 = [
       "$ 0$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Trên $[0;1]$, $|3x-1|=1-3x$ với $x\\in[0;1/3)$ và $=3x-1$ với $x\\in[1/3;1]$; $|x|=x$.<br>$\\displaystyle I=\\int_0^{1/3}(1-5x)\\mathrm{d}x+\\int_{1/3}^1(x-1)\\mathrm{d}x=\\Big[x-\\dfrac{5x^2}{2}\\Big]_0^{1/3}+\\Big[\\dfrac{x^2}{2}-x\\Big]_{1/3}^1=\\dfrac1{18}+\\left(-\\dfrac12\\right)-\\left(\\dfrac1{18}-\\dfrac13\\right)$.<br>Tính cụ thể: số hạng thứ nhất $=\\dfrac1{18}$; số hạng thứ hai $=-\\dfrac12-\\left(-\\dfrac{5}{18}\\right)=-\\dfrac29$. Vậy $I=\\dfrac1{18}-\\dfrac29=-\\dfrac16$."
   },
   {
     "id": "2D422TN93",
@@ -1118,7 +1118,7 @@ window.tracNghiem2D42 = [
       "$\\dfrac{176}{3}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Hàm dưới dấu trị tuyệt đối là hàm chẵn nên $\\displaystyle I=2\\int_0^3|4x^2-4|\\mathrm{d}x=2\\left[\\int_0^1(4-4x^2)\\mathrm{d}x+\\int_1^3(4x^2-4)\\mathrm{d}x\\right]$.<br>$\\displaystyle\\int_0^1(4-4x^2)\\mathrm{d}x=\\Big[4x-\\dfrac{4x^3}{3}\\Big]_0^1=\\dfrac83$.<br>$\\displaystyle\\int_1^3(4x^2-4)\\mathrm{d}x=\\Big[\\dfrac{4x^3}{3}-4x\\Big]_1^3=24-\\left(-\\dfrac83\\right)=\\dfrac{80}{3}$.<br>Vậy $I=2\\left(\\dfrac83+\\dfrac{80}{3}\\right)=2\\cdot\\dfrac{88}{3}=\\dfrac{176}{3}$."
   },
   {
     "id": "2D424TN94",
@@ -1154,7 +1154,7 @@ window.tracNghiem2D42 = [
       "$I=\\dfrac{1}{3}-\\dfrac{\\alpha^3}{3}+\\dfrac{\\alpha^2}{2}$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Vì $\\alpha>2>1$ nên trên $[2;\\alpha]$ ta có $x-1>0$, do đó $|x-1|=x-1$ và $x|x-1|=x^2-x$.<br>$\\displaystyle I=\\int_2^{\\alpha}(x^2-x)\\mathrm{d}x=\\left[\\dfrac{x^3}{3}-\\dfrac{x^2}{2}\\right]_2^{\\alpha}=\\left(\\dfrac{\\alpha^3}{3}-\\dfrac{\\alpha^2}{2}\\right)-\\left(\\dfrac83-2\\right)=\\dfrac{\\alpha^3}{3}-\\dfrac{\\alpha^2}{2}-\\dfrac23$."
   },
   {
     "id": "2D422TN97",
@@ -1166,7 +1166,7 @@ window.tracNghiem2D42 = [
       "$ 10 $"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $x^3-2x^2+x=x(x-1)^2$, nên $\\sqrt{x^3-2x^2+x}=|x-1|\\sqrt x$ ($=(1-x)\\sqrt x$ trên $[0;1]$, $=(x-1)\\sqrt x$ trên $[1;3]$).<br>$\\displaystyle\\int_0^1(1-x)\\sqrt x\\,\\mathrm{d}x=\\Big[\\dfrac23x^{3/2}-\\dfrac25x^{5/2}\\Big]_0^1=\\dfrac23-\\dfrac25=\\dfrac{4}{15}$.<br>$\\displaystyle\\int_1^3(x-1)\\sqrt x\\,\\mathrm{d}x=\\Big[\\dfrac25x^{5/2}-\\dfrac23x^{3/2}\\Big]_1^3=\\dfrac{8\\sqrt3}{5}-\\left(-\\dfrac{4}{15}\\right)=\\dfrac{8\\sqrt3}{5}+\\dfrac{4}{15}$.<br>Vậy $I=\\dfrac4{15}+\\dfrac{8\\sqrt3}{5}+\\dfrac4{15}=\\dfrac{8}{15}+\\dfrac{24\\sqrt3}{15}=\\dfrac{24\\sqrt3+8}{15}$.<br>Vậy $a=24,\\ b=3,\\ c=8$, nên $a+b+c=35$."
   },
   {
     "id": "2D422TN98",
@@ -1778,7 +1778,7 @@ window.tracNghiem2D42 = [
       "$\\displaystyle\\int x^3\\,\\mathrm{d}x = \\dfrac{2}{3}x^3 + C$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Áp dụng công thức $\\displaystyle\\int x^n\\,\\mathrm{d}x=\\dfrac{x^{n+1}}{n+1}+C$ với $n=3$: $\\displaystyle\\int x^3\\,\\mathrm{d}x=\\dfrac{x^4}{4}+C$."
   },
   {
     "id": "2D422TN149",

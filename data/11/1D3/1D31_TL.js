@@ -13,7 +13,7 @@ window.traLoiNgan1D31 = [
   {
     "id": "1D312TL2",
     "question": "Một bệnh nhân hàng ngày phải uống một viên thuốc $8$ mg. Sau ngày đầu, trước mỗi lần uống, hàm lượng thuốc cũ trong cơ thể vẫn còn 5\\%. Ước tính lượng thuốc có trong cơ thể nếu bệnh nhân sử dụng thuốc trong một thời gian dài. (Kết quả làm tròn đến hàng phần trăm).",
-    "answer": "8{,}42",
+    "answer": "8,42",
     "explain": "Gọi $Q_n$ là lượng thuốc (tính bằng mg) có trong cơ thể ngay sau khi uống viên thuốc thứ $n$.  <br>- Sau ngày đầu tiên: $Q_1 = 8$ mg.<br>- Sau ngày thứ hai: $Q_2 = 8 + 0{,}05 \\cdot 8 = 8(1 + 0{,}05)$.<br>- $\\ldots$<br>- Sau ngày thứ $n$: $Q_n = 8(1 + 0{,}05 + 0{,}05^2 + \\ldots + 0{,}05^{n-1})$.  Đây là tổng của một cấp số nhân với số hạng đầu $a = 1$, công bội $q=0{,}05$.<br>  Vậy $Q_n =8\\cdot \\dfrac{1}{1 - 0{,}05} \\approx 8{,}42$ mg."
   }
 ];

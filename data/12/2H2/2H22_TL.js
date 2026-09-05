@@ -50,7 +50,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H224TL6",
     "question": "Ở một sân bay, vị trí của máy bay được xác định bởi điểm $P$ trong không gian $Oxyz$ (như hình vẽ).  Gọi $H$ là hình chiếu vuông góc của $P(a;b;c)$ xuống mặt phẳng $(Oxy)$. Cho biết $OP=41$, $\\left(\\overrightarrow{i},\\overrightarrow{OH}\\right)=52^{\\circ}$, $\\left(\\overrightarrow{OH},\\overrightarrow{OP}\\right)=46^{\\circ}$. Tính giá trị của biểu thức $S=a+b+c$ (kết quả làm tròn đến hàng phần mười).<br><img src=\"data/12/2D2/im2H2/2H22_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "64{,}7",
+    "answer": "64,7",
     "explain": "Ta có $OC=PH=OP \\cdot \\sin \\left(\\overrightarrow{OH}, \\overrightarrow{OP}\\right)=41 \\cdot \\sin 46^{\\circ} \\approx 29{,}49$.<br>  $OH=OP \\cdot \\cos \\left(\\overrightarrow{OH}, \\overrightarrow{OP}\\right)=41 \\cdot \\cos 46^{\\circ}\\approx 28{,}48$. <br>  $OA=OH \\cdot \\cos \\left(\\overrightarrow{i}, \\overrightarrow{OH}\\right)=28{,}48 \\cdot \\cos 52^{\\circ}\\approx 17{,}53$.<br>  $OB=OH \\cdot \\cos \\left(90^{\\circ}-\\left(\\overrightarrow{i}, \\overrightarrow{OH}\\right)\\right)=22{,}48 \\cdot \\cos \\left(90^{\\circ}-52^{\\circ}\\right)=22{,}48 \\cdot \\cos 38^{\\circ} \\approx 17{,}71$.<br>  Suy ra $M(17{,}53;17{,}71;29{,}49)$ $\\Rightarrow S=a+b+c=17{,}53+17{,}71+29{,}49=64{,}73 \\approx 64{,}7$."
   },
   {
@@ -74,13 +74,13 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL12",
     "question": "Một phòng khách có thiết kế dạng hình hộp chữ nhật với chiều dài là $6$ m, chiều rộng là $4$ m và chiều cao là $4$ m. Một quạt trần được treo tại chính giữa trần nhà của phòng khách. Xét hệ trục tọa độ $Oxyz$ có gốc $O$ trùng với một góc phòng và mặt phẳng $(Oxy)$ trùng với mặt sàn, đơn vị đo được lấy theo mét (Hình vẽ).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính khoảng cách từ điểm treo quạt trần đến gốc $O$ theo đơn vị mét (kết quả làm tròn đến hàng phần mười).",
-    "answer": "5{,}4",
+    "answer": "5,4",
     "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $B'$ là vị trí treo quạt trần. Ta có tọa độ $B'$ là $B'(2;3;4)$.<br>  Do đó khoảng cách từ $O$ đến vị trí treo quạt trần là $OB'=\\sqrt{2^2+3^2+4^2}\\approx 5{,}4$ (m)."
   },
   {
     "id": "2H223TL13",
     "question": "Trong không gian với hệ tọa độ $Oxyz$, một máy bay đang bay ở tại vị trí $A(400; 200; 10)$. Theo hành trình dự định, máy bay sẽ phải bay qua vị trí $B(700; 200; 10)$. Tuy nhiên do thời tiết xấu, máy bay phải chuyển hướng bay đến vị trí $C(800; 400; 8)$. Trong quãng thời gian tránh vùng thời tiết xấu, máy bay đã phải bay chệch hướng dự định một góc $a^{\\circ}$. Tìm $a$. (kết quả làm tròn đến hàng phần mười).",
-    "answer": "26{,}6",
+    "answer": "26,6",
     "explain": "Ta có $\\overrightarrow{AB}=(300;0;0)$, $\\overrightarrow{AC}=(400;200;-2)$.<br>  \\[\\cos a=\\cos \\left(\\overrightarrow{AB},\\overrightarrow{AC}\\right)=\\dfrac{300 \\cdot 400+0\\cdot200+0\\cdot(-2)}{\\sqrt{300^2+0^2+0^2}\\cdot \\sqrt{400^2+200^2+(-2)^2}}=\\dfrac{400}{\\sqrt{200\\,004}}.\\]  Suy ra góc lệch giữa phương thực tế và dự định là $\\widehat{a}\\approx26{,}6^\\circ$."
   },
   {
@@ -98,7 +98,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL16",
     "question": "Trong không gian $Oxyz$, cho tam giác $ABC$ có tọa độ $A(507;525;502)$, $B(500;501;502)$,$C(520;516;502)$. Tính độ dài $HK$ với $H$ là chân đường cao hạ từ đỉnh $A$ xuống cạnh $BC,K$ là chân đường phân giác của góc $B,(K\\in AC)$, (<em>không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười</em>).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "7{,}9",
+    "answer": "7,9",
     "explain": "Gọi $H\\left( x_H;y_H;z_H\\right),K\\left( x_K;y_k;z_k\\right)$.<br> Vì $H$ là chân đường cao hạ từ đỉnh $A$ xuống $BC$ nên  tồn tại $k\\in\\mathbb{R}$ sao cho $\\vec{BH}=k\\vec{BC}$, suy ra $H\\left( 500+20k;501+15k;502\\right)$. <br> Mặt khác, ta cũng có $\\vec{AH}\\cdot\\vec{BC}=0\\Leftrightarrow 4(20k-2)+3(15k-24)=0\\Leftrightarrow k=\\dfrac{4}{5}$. Do đó $H(516;513;502)$.<br>  Vì $K$ là chân đường phân giác của góc $B$ nên ta có $\\vec{KA}=-\\dfrac{BA}{BC}\\cdot\\vec{KC}$, suy ra $K$ là trung điểm $AC$. Do đó $K\\left( \\dfrac{1027}{2};\\dfrac{1041}{2};502\\right) $. Vậy $HK=\\dfrac{5\\sqrt{10}}{2}\\approx 7{,}9$."
   },
   {
@@ -122,7 +122,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H226TL20",
     "question": "Trong không gian với hệ tọa độ cho trước, một con ong bay từ điểm $A(2;4;1)$ không đổi với vận tốc và hướng bay đến điểm $B(10;12;5)$ trong $5$ giây. Nếu con ong tiếp tục giữ nguyên vận tốc và hướng bay thì tọa độ của con ong sau $3$ giây tiếp theo đạt tại vị trí $M(a;b;c)$. Tính $5a - b - c$ (làm tròn kết quả đến hàng phần mười).",
-    "answer": "49{,}8",
+    "answer": "49,8",
     "explain": "Ta có $\\overrightarrow{AB}= (10 - 2;12 - 4; 5 - 1) = (8;8;4)$.<br>  Vì con ong tiếp tục giữ nguyên vận tốc và hướng bay thì tọa độ của con ong sau $3$ giây tiếp theo đạt tại vị trí $M(a;b;c)$<br>  nên $\\overrightarrow{BM} =\\dfrac{3}{5}\\overrightarrow{AB} $.<br>  Suy ra tọa độ điểm $M$ là $\\left( 10 + \\dfrac{24}{5}, 12 + \\dfrac{24}{5}, 5 + \\dfrac{12}{5} \\right)   = \\left( 14{,}8; 16{,}8; 7{,}4 \\right)$.<br>  Vậy $5a - b - c= 5\\cdot (14{,}8) - 16{,}8 - 7{,}4 = 74 - 16{,}8 - 7{,}4 = 49{,}8$."
   },
   {
@@ -158,13 +158,13 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL26",
     "question": "Hình bên dưới minh họa một cái lều hai mái là hai hình chữ nhật giống nhau trong không gian $Oxyz$, với điểm $A$ nằm trên $Ox$, điểm $C$ nằm trên $Oy$. Biết các kích thước của mái lều là $SA=5$ m, $A B=10$ m, độ cao từ $S$ xuống mặt đất là $4$ m. Bạn An muốn trang trí chiếc lều bằng cách treo các sợi dây cờ trang trí từ các góc lều $O$, $A$, $B$, $C$ đến một chiếc đèn treo từ vị trí chính giữa của $SQ$, cách $SQ$ một khoảng là $70$ cm. Hỏi tổng chiều dài sợi dây cờ trang trí tối thiểu bạn An cần mua là bao nhiêu mét? (kết quả làm tròn đến hàng phần mười)   <br><img src=\"data/12/2D2/im2H2/2H22_tikz_031.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "26{,}8",
+    "answer": "26,8",
     "explain": "Gắn hệ trục tọa độ $Oxyz$ như hình vẽ.   <br><img src=\"data/12/2D2/im2H2/2H22_tikz_032.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $I$, $K$ lần lượt là trung điểm của $OA$, $SQ$.<br>  Ta có $O A=2 I A=2 \\sqrt{5^2-4^2}=6$.<br>  Gọi $H$ là vị trí chiếc đèn, $KH=70 \\mathrm{~cm}=0,7$ m. Gọi $G$ là giao điểm của hai đường chéo của hình chữ nhật $OABC$, suy ra $HG=4-0{,}7=3,3$ m. Do đó $H(3;5;3{,}3)$.<br>  Ta thấy $OH=AH=CH=BH$ nên tổng chiều dài sợi dây màu xanh tối thiểu bạn An cần mua là $4 OH$.<br>  Ta có $\\overrightarrow{OH}=(3;5;3{,}3) \\Rightarrow 4 OH=4 \\cdot \\sqrt{3^2+5^2+(3{,}3)^2}=26{,}8$ (m)."
   },
   {
     "id": "2H226TL27",
     "question": "Hệ thống định vị toàn cầu GPS (Global Positioning System) là một hệ thống cho phép xác định vị trí của một vật thể trong không gian. Trong cùng một thời điểm, vị trí của một điểm $M$ trong không gian sẽ đươc xác định bởi bốn vệ tinh cho trước nhờ các bộ thu phát tín hiệu đặt trên các vệ tinh. Giả sử trong không gian với hệ trục tọa độ $Oxyz$, có bốn vệ tinh đặt tại các điểm có tọa độ lần lượt là $A(0;4;5)$, $B(-3;-1;3)$, $C(-2;8;9)$, $D(-7;2;-3)$ đang tiến hành theo dõi vật thể $M$ (coi là một chất điểm). Tại một thời điểm, cả bốn vệ tinh đồng thời phát tín hiệu về điểm $M$ và ngay lập tức nhận lại tín hiệu phản hồi sau những khoảng thời gian lần lượt là $t_A=0{,}2\\ \\mathrm{ms}$, $t_B=\\dfrac{1}{3}\\ \\mathrm{ms}$, $t_C=0{,}6\\ \\mathrm{ms}$, $t_D=\\dfrac{2}{3} ms$. Biết rằng vận tốc của sóng điện từ bằng vận tốc ánh sáng $c=3\\cdot10^8\\ \\mathrm{m/s}$. Tính khoảng cách từ $M$ đến $O$ biết một đơn vị độ dài trên các trục bằng $10\\ \\mathrm{km}$ thực tế (đơn vị: $\\mathrm{km}$, kết quả làm tròn đến hàng phần chục).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_036.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "37{,}4",
+    "answer": "37,4",
     "explain": "Gọi $M(x;y;z)$.<br>  Do mỗi vệ tinh gửi tín hiệu đến $M$ và nhận lại phản hồi sau thời gian $t$, tức tín hiệu đi từ vệ tinh đến $M$ và quay về nên quãng đường đi được là gấp đôi nên<br>  $MA=\\dfrac{0{,}2\\cdot 10^{-3}\\cdot3\\cdot10^8}{2}=30\\ 000\\ \\mathrm{m}=30\\ \\mathrm{km}$;<br>  $MB=\\dfrac{\\dfrac{1}{3}\\cdot10^{-3}\\cdot3\\cdot10^8}{2}=50\\ 000\\ \\mathrm{m}=50\\ \\mathrm{km}$;<br>  $MC=\\dfrac{0{,}6\\cdot10^{-3}\\cdot3\\cdot10^8}{2}=90\\ 000\\ \\mathrm{m}=90\\ \\mathrm{km}$;<br>  $MD=\\dfrac{\\dfrac{2}{3}\\cdot10^{-3}\\cdot3\\cdot10^8}{2}=100\\ 000\\ \\mathrm{m}=100\\ \\mathrm{km}$.<br>  Do mỗi đơn vị độ dài trên các trục bằng $10\\ \\mathrm{km}$ nên<br> $x^2+(y-4)^2+(z-5)^2=3^2 \\text{ và } (x+3)^2+(y+1)^2+(z-3)^2=5^2 \\text{ và } (x+2)^2+(y-8)^2+(z-9)^2=9^2 \\text{ và } (x+7)^2+(y-2)^2+(z+3)^2=10^2\\Leftrightarrow x^2+y^2+z^2-8y-10z=-32 \\text{ và } x^2+y^2+z^2+6x+2y-6z=6 \\text{ và } x^2+y^2+z^2+4x-16y-18z=-68 \\text{ và } x^2+y^2+z^2+14x-4y+6z=38$<br>  $\\Leftrightarrow-6x-10y-4z=-38 \\text{ và } -4x+8y+8z=36 \\text{ và } -14x-4y-16z=-70\\Leftrightarrow x=1 \\text{ và } y=2 \\text{ và } z=3$.<br>  Suy ra $OM=\\sqrt{1^2+2^2+3^2}=\\sqrt{14}$.<br>  Vậy khoảng cách từ $O$ đến $M$ là $\\sqrt{14}\\cdot10\\approx37{,}4\\mathrm{km}$."
   },
   {
@@ -194,13 +194,13 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H224TL32",
     "question": "Cho lăng trụ $A B C . A' B' C'$ có đáy $A B C$ là tam giác vuông tại $A$ và hình chiếu vuông góc của điểm $A'$ lên mặt phẳng $(A B C)$ trùng với tâm của đường tròn ngoại tiếp $\\triangle A B C$. Gọi $G$ là trọng tâm của $\\triangle A B C$. Biết $A B=2$, $A C=4$, $A A'=\\sqrt{14}$. Tính $\\cos \\widehat{B' G C'}$ (làm tròn kết quả đến hàng phần chục).<br><img src=\"data/12/2D2/im2H2/2H22_tikz_043.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}6",
+    "answer": "0,6",
     "explain": "Gọi $ M $ là trung điểm $ BC $ và do tam giác $ ABC $ vuông tại $ A $ nên $ M $ là tâm đường tròn ngoại tiếp tam giác $ ABC $.<br>  Do đó $ A'M \\perp (ABC) $.<br>  Ta có $ BC=\\sqrt{AB^2+AC^2}=\\sqrt{2^2+4^2}=2\\sqrt{5} $.<br>  Khi đó $ AM=\\dfrac{BC}{2}=\\sqrt{5} $.<br>  Do $ \\triangle AMA' $ vuông tại $ M $ nên  $ A'M=\\sqrt{AA'^2-AM^2}=3. $  Ta xét hệ trục tọa độ với $ A(0;0;0) $ là trục tọa độ.<br>  Trục hoành là $ Ax $ và với $ C(4;0;0) $.<br>  Trục tung là $ Ay $ và với $ B(0;2;0) $.<br>  Dẫn đến $M=\\left(\\dfrac{4+0}{2};\\dfrac{0+2}{2};\\dfrac{0+0}{2}\\right)=(2;1;0)$.<br>  Trục cao là $ Mz $ vuông góc với mặt phẳng $ (ABC) $.<br>  Do đó $ A'\\left(2;1;3\\right) $ vì $ M$ là hình chiếu của $ A' $ lên $ (ABC) $.  Do $ G $ là trọng tâm tam giác $ ABC $ nên  $x_G=\\dfrac{0+0+4}{3}=0 \\text{ và } y_G=\\dfrac{0+2+0}{3}=\\dfrac{2}{3} \\text{ và } z_G=\\dfrac{0+0+0}{3}=0 \\Rightarrow G\\left(\\dfrac{4}{3};\\dfrac{2}{3};0\\right).$  Ta có $ \\overrightarrow{AC}=\\overrightarrow{A'C'} \\Rightarrow C'(6;1;3)$.<br>  Tương tự do $ \\overrightarrow{AB}=\\overrightarrow{A'B'} \\Rightarrow B'(2;3;3)$.<br>  Ta tính được $ \\overrightarrow{GB'}=\\left(\\dfrac{2}{3};\\dfrac{7}{3};3\\right) $ và $\\overrightarrow{GC'}=\\left(\\dfrac{14}{3};\\dfrac{1}{3};3\\right) $.<br>  Do đó  $\\cos \\widehat{B'GC'}=\\cos\\left(\\overrightarrow{GB'},\\overrightarrow{GC'}\\right)=\\dfrac{\\overrightarrow{GB'}\\cdot\\overrightarrow{GC'}}{\\left|\\overrightarrow{GB'}\\right|\\cdot \\left|\\overrightarrow{GC'}\\right|}\\approx 0{,}6$."
   },
   {
     "id": "2H223TL33",
     "question": "Trong không gian $O x y z$, cho tam giác $A B C$ có ba đỉnh $A$, $B$, $C$ lần lượt thuộc ba trục tọa độ $O x$, $O y$, $O z$ và có trọng tâm $G\\left(\\dfrac{1}{3} ;-\\dfrac{2}{3} ; \\dfrac{4}{3}\\right)$. Tính chu vi tam giác $A B C$ (làm tròn kết quả đến hàng phần chục).",
-    "answer": "10{,}8",
+    "answer": "10,8",
     "explain": "Do $A$, $B$, $C$ lần lượt thuộc ba trục tọa độ $O x$, $O y$, $O z$ nên $ A(a;0;0) $, $ B(0;b;0) $ và $ C(0;0;c) $.<br>  Do $ G\\left(\\dfrac{1}{3} ;-\\dfrac{2}{3} ; \\dfrac{4}{3}\\right) $ là trọng tâm tam giác $ ABC $ nên  $ \\dfrac{a}{3}=\\dfrac{1}{3} \\text{ và } \\dfrac{b}{3}=-\\dfrac{2}{3} \\text{ và } \\dfrac{c}{3}=\\dfrac{4}{3}\\Leftrightarrow a=1 \\text{ và } b=-2 \\text{ và } c=4. $  Khi đó $ \\overrightarrow{AB}=(-1;-2;0) \\Rightarrow AB=\\sqrt{5}$;<br>  $ \\overrightarrow{AC}= (-1;0;4)\\Rightarrow AC=\\sqrt{17}$;<br>  $ \\overrightarrow{BC}=(0;2;4) \\Rightarrow BC=\\sqrt{20}$.<br>  Vậy chu vi tam giác $ ABC $ là $ AB+BC+CA\\approx 10{,}8 $."
   },
   {
@@ -218,7 +218,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL36",
     "question": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ như hình vẽ. Đặt một vật tại đỉnh $A$, khi đó tác động vào vật bởi những lực $\\overrightarrow{F_1}$, $\\overrightarrow{F_2}$, $\\overrightarrow{F_3}$ với $\\left| \\overrightarrow{F_1}\\right| = 2$ N, $\\left| \\overrightarrow{F_2}\\right| = 3$ N, $\\left| \\overrightarrow{F_3}\\right| = 4$ N. Hãy xác định độ lớn của hợp lực $\\overrightarrow{F}$ tác động lên vật (làm tròn đến hàng phần trăm).<br><img src=\"data/12/2D2/im2H2/2H22_tikz_047.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "5{,}39",
+    "answer": "5,39",
     "explain": "Theo quy tắc hình hộp, ta có $\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC'}$.<br>  Do đó $\\overrightarrow{F}=\\overrightarrow{F_1}+\\overrightarrow{F_2}+\\overrightarrow{F_3}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\overrightarrow{AC'}$.<br>  Ta có $AC'=\\sqrt{CC'^2+AC^2}=\\sqrt{AA'^2+AB^2+AD^2}=\\sqrt{\\left| \\overrightarrow{F_1}\\right|^2+\\left| \\overrightarrow{F_2}\\right|^2+\\left| \\overrightarrow{F_3}\\right|^2}=\\sqrt{2^2+3^2+4^2}$  Do đó $\\left|\\overrightarrow{F} \\right|=AC' \\approx 5{,}39$ N."
   },
   {
@@ -260,7 +260,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL43",
     "question": "Hai chiếc Flycam được điều khiển cùng bay lên tại một địa điểm. Sau một thời gian bay, chiếc flycam thứ nhất bay đến vị trí điểm $A$, chiếc flycam thứ hai bay đến điểm $B$. Chọn hệ trục tọa độ $Oxyz$ với gốc $O$ đặt tại điểm xuất phát của hai chiếc flycam, mặt phẳng $Oxy$ trùng với mặt đất (coi như phẳng) có trục $Ox$ hướng về phía nam, trục $Oy$ hướng về phía đông và trục $Oz$ hướng thẳng đứng lên trời (đơn vị đo mỗi trục là mét).  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Biết điểm $A$ cách mặt đất $4$m, cách điểm xuất phát $5$m về phía nam và $6$m về phía đông.<br>  Vectơ $\\overrightarrow{OB}$ có độ dài bằng $10$ và hợp với các vectơ đơn vị trên các trục tọa độ $Ox$, $Oy$, $Oz$ các góc lần lượt là $135^\\circ$, $120^\\circ$, $60^\\circ$. Khoảng cách giữa hai chiếc flycam lúc đó là bao nhiêu mét? (làm tròn đến hàng chục).",
-    "answer": "16{,}4",
+    "answer": "16,4",
     "explain": "Chọn hệ trục $Oxyz$ như đề bài với trục $Ox$ hướng về phía nam, $Oy$ hướng về phía đông, $Oz$ hướng thẳng lên trên. Đơn vị mét.  <br><img src=\"data/12/2D2/im2H2/2H22_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Điểm $A$ cách mặt đất $4$ m, cách điểm xuất phát $5$ m về phía nam và $6$ m về phía đông, nên tọa độ của $A$ là $A(5,\\,6,\\,4)$.<br>  Gọi $\\overrightarrow{OB}$ có độ dài $10$ và các góc lần lượt với các trục $Ox$, $Oy$, $Oz$ là $135^\\circ$, $120^\\circ$, $60^\\circ$. Do đó cosin hướng của $\\overrightarrow{OB}$ là  \\[  \\cos\\alpha=\\cos135^\\circ=-\\dfrac{\\sqrt2}{2},\\qquad  \\cos\\beta=\\cos120^\\circ=-\\dfrac{1}{2},\\qquad  \\cos\\gamma=\\cos60^\\circ=\\dfrac{1}{2}.  \\]  Vậy thành phần tọa độ của $B$ là  \\[  B\\left(10\\cos\\alpha,\\;10\\cos\\beta,\\;10\\cos\\gamma\\right)   =\\left( -5\\sqrt2,\\,-5,\\;5\\right).  \\]  Khoảng cách giữa hai điểm \\(A\\) và \\(B\\) là  $AB = \\sqrt{(x_A-x_B)^2+(y_A-y_B)^2+(z_A-z_B)^2}$<br>$= \\sqrt{\\big(5-(-5\\sqrt2)\\big)^2+(6-(-5))^2+(4-5)^2}$<br>$= \\sqrt{\\big(5+5\\sqrt2\\big)^2+11^2+(-1)^2}$<br>$= \\sqrt{25(1+2\\sqrt2+2)+121+1}$<br>$= \\sqrt{75+50\\sqrt2+122}$<br>$= \\sqrt{197+50\\sqrt2}.$  Số gần đúng  \\[  AB\\approx\\sqrt{197+50\\sqrt2}\\approx 16{,}4\\ \\text{m}.  \\]  Khoảng cách giữa hai chiếc flycam là  \\[  AB=\\sqrt{197+50\\sqrt2}\\approx16{,}4\\ \\text{m}.  \\]"
   },
   {
@@ -272,7 +272,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H224TL45",
     "question": "Cho hình chóp $S.ABCD$ có đáy hình vuông. Cho tam giác $SAB$ vuông tại $S$ và góc $SBA$ bằng $30^{\\circ}$. Mặt phẳng $(SAB)$ vuông góc mặt phẳng đáy. Gọi $M$, $N$ là trung điểm $A B$, $B C$. Tìm cosin góc tạo bởi hai đường thẳng $(SM, DN)$. (Làm tròn kết quả đến hàng phần trăm)",
-    "answer": "0{,}45",
+    "answer": "0,45",
     "explain": "<br><img src=\"data/12/2D2/im2H2/2H22_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\"> Gọi hệ trục tọa độ $Oxyz$ như hình vẽ. Đặt cạnh hình vuông $ABCD$ là $a$.<br> Trong $\\triangle SAB$ kẻ $SH\\perp AB$ tại $H$ mà $AB=(SAB)\\cap (ABCD)$ và $(SAB)\\perp (ABCD)$ nên $SH\\perp (ABCD)$.<br> Xét $\\triangle ABC$ vuông tại $S$,ta có $SB=AB\\cos B=AB\\cdot \\cos 30= a\\dfrac{\\sqrt{3}}{2}$.<br> Trong $\\triangle SHB$ vuông tại $H$, ta có $SH=SB\\cdot \\sin B=a\\dfrac{\\sqrt{3}}{2}\\cdot \\sin 30=a\\dfrac{\\sqrt{3}}{4}$.<br> Trong $\\triangle ABC$ vuông tại $S$, có $SM$ là đường trung tuyến, nên $SM=AM=MB=\\dfrac{AB}{2}=\\dfrac{a}{2}$.<br> Trong $\\triangle SMH$ vuông tại $H$, ta có $HM=\\sqrt{S M^2-S H^2}=\\sqrt{\\dfrac{a^2}{4}-\\dfrac{3 a^2}{16}}=\\dfrac{a}{4}$.<br> Ta có $H B=A M+M B=\\dfrac{a}{4}+\\dfrac{a}{2}=\\dfrac{3 a}{4} \\text{ và } A H=A M-A M=\\dfrac{a}{2}-\\dfrac{a}{4}=\\dfrac{a}{4}.$<br> Khi đó ta có $H(0;0;0)$, $A\\left(-\\dfrac{a}{4};0;0\\right)$, $M\\left(\\dfrac{a}{4};0;0\\right)$, $B\\left(\\dfrac{3a}{4};0;0\\right)$, $S\\left(0;0;\\dfrac{a\\sqrt{3}}{4}\\right)$, $N\\left(\\dfrac{3a}{4};\\dfrac{2}{2};0;\\right)$, $D\\left(-\\dfrac{a}{4};a;0\\right)$.<br> Ta có $\\overrightarrow{S M}=\\left(\\dfrac{a}{4}; 0; -\\dfrac{a \\sqrt{3}}{4}\\right) \\text{ và } \\overrightarrow{DN}=\\left(a; -\\dfrac{a}{2}; 0\\right)\\Rightarrow[\\overrightarrow{S M}; \\overrightarrow{D N}]=\\left(-\\dfrac{a^2 \\sqrt{3}}{8};-\\dfrac{a^2 \\sqrt{3}}{4};-\\dfrac{a^2}{8}\\right)$.<br> Suy ra $\\cos\\left[\\overrightarrow{SM}; \\overrightarrow{DN}\\right]=\\dfrac{|\\overrightarrow{SM} \\cdot \\overrightarrow{DN}|}{|\\overrightarrow{SM}| \\cdot|\\overrightarrow{DN}|}=\\dfrac{\\dfrac{a^2}{4}}{\\dfrac{a}{2} \\cdot \\dfrac{a \\sqrt{5}}{2}}=\\dfrac{\\sqrt{5}}{5}\\approx 0{,}45$."
   },
   {
@@ -284,7 +284,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL47",
     "question": "Trong không gian $Oxyz$, cho hình bình hành $ABCD$ có $A(-1;1;2)$, $B(3;5;-1)$, $C(2;-1;4)$. Tính độ dài của $\\overrightarrow{BD}$. (Kết quả làm tròn đến hàng phần chục).",
-    "answer": "13{,}7",
+    "answer": "13,7",
     "explain": "Ta có $\\overrightarrow{AB}=(4;4;-3)$.<br>  Đặt $D(x;y;z)$, suy ra $\\overrightarrow{DC}=(2-x;-1-y;4-z)$.<br>  Do $ABCD$ là hình bình hành nên $\\overrightarrow{AB}=\\overrightarrow{DC}$.<br>  Khi đó  \\[2-x=4 \\text{ và } -1-y=4 \\text{ và } 4-z=-3\\Leftrightarrow x=-2 \\text{ và } y=-5 \\text{ và } z=7\\Rightarrow D(-2;-5;7).\\]  Suy ra $\\overrightarrow{BD}=(-5;-10;8)$ và $BD=\\sqrt{25+100+64}=3\\sqrt{21}\\approx13{,}7$."
   },
   {
@@ -428,7 +428,7 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H223TL1",
     "question": "Cho hình chóp $S.ABC$ có $SA=4$ và $SA \\perp (ABC)$. Tam giác $ABC$ vuông tại $C$ có cạnh $BC$ bằng $3$. Tính khoảng cách giữa $SB$ và $AC$.<br><img src=\"data/12/2H2/im2H22/loc8_TT_KSCL_Cum_lien_010.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "2{,}4",
+    "answer": "2,4",
     "explain": "Chọn hệ trục tọa độ $Oxyz$ như hình vẽ, với $C$ trùng với gốc tọa độ $O(0;0;0)$.<br>  Các tia $CB$, $CA$, $Cz$ lần lượt nằm trên các trục $Ox$, $Oy$, $Oz$ ($Cz \\parallel AS$).<br>  Đặt $CA = a$ ($a &gt; 0$).<br>  Khi đó ta có  $C(0;0;0)$; $S(0;a;4)$; $A(0;a;0)$; $B(3;0;0)$.<br>  Ta có các vectơ  <br>- $\\overrightarrow{SB} = (3;-a;-4)$.<br>- $\\overrightarrow{AC} = (0;-a;0)$.<br>- $\\overrightarrow{SC} = (0;-a;-4)$.  Tích có hướng của hai vectơ $\\overrightarrow{SB}$ và $\\overrightarrow{AC}$ là  $\\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] = (-4a;0;-3a).$  Tích hỗn tạp $\\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\cdot \\overrightarrow{SC} = 0 + 0 + 12a = 12a$.<br>  Khoảng cách giữa hai đường thẳng chéo nhau $SB$ và $AC$ là  $\\mathrm{d}(SB,AC) = \\dfrac{\\left| \\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\cdot \\overrightarrow{SC} \\right|}{\\left| \\left[ \\overrightarrow{SB}, \\overrightarrow{AC} \\right] \\right|}$<br>$= \\dfrac{12|a|}{\\sqrt{16a^2 + 9a^2}} = \\dfrac{12|a|}{5|a|} = \\dfrac{12}{5} = 2{,}4.$"
   },
   {

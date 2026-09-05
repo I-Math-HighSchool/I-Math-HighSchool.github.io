@@ -18,7 +18,7 @@ window.traLoiNgan1D62 = [
   {
     "id": "1D622TL3",
     "question": "Công thức $h = -19{,}4 \\cdot \\log \\dfrac{P}{P_0}$ là mô hình đơn giản cho phép tính độ cao $h$ so với mặt nước biển của một vị trí trong không trung (tính bằng kilômét) theo áp suất không khí $P$ tại điểm đó và áp suất $P_0$ của không khí tại mặt nước biển (cùng tính bằng Pa - đơn vị áp suất, đọc là Pascal).<br>  Áp suất không khí tại đỉnh của ngọn núi A bằng $\\dfrac{4}{5}$ lần áp suất không khí tại đỉnh của ngọn núi B.  Độ chênh lệch độ cao giữa hai ngọn núi là bao nhiêu kilômét? (Làm tròn kết quả đến hàng phần mười.)",
-    "answer": "1{,}9",
+    "answer": "1,9",
     "explain": "Gọi $h_A$ và $P_A$ là độ cao và áp suất không khí tại đỉnh núi $A$.<br>  Gọi $h_B$ và $P_B$ là độ cao và áp suất không khí tại đỉnh núi $B$.<br>  Theo công thức đã cho:<br>  $h_A = -19{,}4 \\cdot \\log \\dfrac{P_A}{P_0}$ <br>  $h_B = -19{,}4 \\cdot \\log \\dfrac{P_B}{P_0}$ <br>  Độ chênh lệch độ cao giữa hai ngọn núi là $\\Delta h = |h_A - h_B|$.<br>  $h_A - h_B = \\left(-19{,}4 \\cdot \\log \\dfrac{P_A}{P_0}\\right) - \\left(-19{,}4 \\cdot \\log \\dfrac{P_B}{P_0}\\right)$ <br>  $h_A - h_B = -19{,}4 \\left( \\log \\dfrac{P_A}{P_0} - \\log \\dfrac{P_B}{P_0} \\right)$ <br>  $h_A - h_B = -19{,}4 \\cdot \\log \\dfrac{P_A}{P_B}$. <br>  Theo đề bài, áp suất không khí tại đỉnh ngọn núi A bằng $\\dfrac{4}{5}$ lần áp suất không khí tại đỉnh ngọn núi B, tức là $P_A = \\dfrac{4}{5} P_B$.<br>  Suy ra $\\dfrac{P_A}{P_B} = \\dfrac{4}{5}$. <br>  Do đó, $h_A - h_B = -19{,}4 \\cdot \\log \\dfrac{4}{5}$.<br>  $h_A - h_B = -19{,}4 \\cdot \\log \\dfrac{4}{5} \\approx 1{,}9$ km.<br>  Độ chênh lệch độ cao là $|h_A - h_B| \\approx 1{,}9$ km.<br>"
   }
 ];

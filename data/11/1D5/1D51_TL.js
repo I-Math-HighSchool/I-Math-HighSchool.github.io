@@ -19,7 +19,7 @@ window.traLoiNgan1D51 = [
   {
     "id": "1D513TL3",
     "question": "Quãng đường (km) các cầu thủ (không tính thủ môn) chạy trong một trận bóng đá tại giải ngoại hạng Anh được cho trong bảng thống kê sau:  <br><img src=\"data/11/1D5/im1D51/dlts_11_DLTS20_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính quãng đường trung bình một cầu thủ chạy trong trận đấu này. (Kết quả làm tròn đến hàng phần trăm).",
-    "answer": "7{,}48",
+    "answer": "7,48",
     "explain": "Giá trị đại diện của các nhóm:<br>  Nhóm $[2;4)$ là $\\dfrac{2+4}{2} = 3$ km.<br>  Nhóm $[4;6)$ là $\\dfrac{4+6}{2} = 5$ km.<br>  Nhóm $[6;8)$ là $\\dfrac{6+8}{2} = 7$ km.<br>  Nhóm $[8;10)$ là $\\dfrac{8+10}{2} = 9$ km.<br>  Nhóm $[10;12)$ là $\\dfrac{10+12}{2} = 11$ km.<br>  Tổng số cầu thủ là $N = 2 + 5 + 6 + 9 + 3 = 25$.<br>  Quãng đường trung bình $(\\bar{x})$ được tính bằng công thức trung bình cộng có trọng số:<br>  $\\bar{x} = \\dfrac{2 \\cdot 3 + 5 \\cdot 5 + 6 \\cdot 7 + 9 \\cdot 9 + 3 \\cdot 11}{25}= \\dfrac{187}{25}= 7{,}48$ km.<br>  Vậy quãng đường trung bình một cầu thủ chạy trong trận đấu này là $7{,}48$ km."
   },
   {

@@ -26,7 +26,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL4",
     "question": "Người ta muốn làm một chiếc hộp hình hộp chữ nhật có đáy hình vuông và thể tích là $10$ lít. Diện tích toàn phần nhỏ nhất của hộp là bao nhiêu? (làm tròn kết quả đến hàng phần mười)",
-    "answer": "27{,}8",
+    "answer": "27,8",
     "explain": "Gọi cạnh đáy là $a$ (dm), chiều cao là $h$ (dm). <br>  Thể tích: $V = a^2h = 10 \\Rightarrow h = \\dfrac{10}{a^2}$. <br>  Diện tích toàn phần: $S = 2a^2 + 4ah = 2a^2 + 4a \\cdot \\dfrac{10}{a^2} = 2a^2 + \\dfrac{40}{a}$.<br>  Xét hàm số $S(a) = 2a^2 + \\dfrac{40}{a}$ với $a &gt; 0$  $S'(a) = 4a - \\dfrac{40}{a^2} = \\dfrac{4a^3 - 40}{a^2}$  $S'(a) = 0 \\Leftrightarrow 4a^3 - 40 = 0 \\Leftrightarrow a^3 = 10 \\Leftrightarrow a = \\sqrt[3]{10}$  $S(\\sqrt[3]{10}) = 2(\\sqrt[3]{10})^2 + \\dfrac{40}{\\sqrt[3]{10}}\\approx 27{,}8$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Căn cứ vào bảng biến thiên, ta thấy<br>  Trên khoảng $(0;+\\infty)$ hàm số $S(x)$ đạt giá trị nhỏ nhất bằng $27{,}8$ tại $x=\\sqrt[3]{10}$.<br>  Vậy diện tích toàn phần nhỏ nhất là $27{,}8$ dm$^2$."
   },
   {
@@ -44,7 +44,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL7",
     "question": "Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\dfrac{x}{x+1}$ trên đoạn $[0;2]$. Tính giá trị $M+m$ (kết quả làm tròn đến hàng phần trăm).",
-    "answer": "0{,}67",
+    "answer": "0,67",
     "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R} \\setminus \\{-1\\}$.<br>  Ta có $y'=\\dfrac{1}{(x+1)^2}&gt;0$, $\\forall x \\in \\mathscr{D}$.<br>  Lại có $y(0)=0$, $y(2)=\\dfrac{2}{3}$.<br>  Do đó ta có $m=0$, $M=\\dfrac{2}{3}$.<br>  Vậy $M+m=\\dfrac{2}{3} \\approx 0{,}67$."
   },
   {
@@ -62,7 +62,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL10",
     "question": "Từ một miếng bìa có độ dài hai cạnh là $0{,}9$ m và $1{,}5$ m như hình bên. Bạn Minh cắt đi phần tô màu xám và gấp lại để được một hình hộp chữ nhật. Tìm $x$ để hình hộp tạo thành có thể tích lớn nhất.",
-    "answer": "0{,}3",
+    "answer": "0,3",
     "explain": "Theo đề bài, ta có  <br>- Chiều dài đáy của hình hộp chữ nhật là $0{,}9 - 2x$ (m).<br>- Chiều rộng đáy của hình hộp chữ nhật là $x$ (m).<br>- Chiều cao của hình hộp chữ nhật là $x$ (m).  Thể tích của hình hộp chữ nhật là  $ V = x^2(0{,}9 - 2x) \\text{ (m$^3$).} $  Xét hàm số $V(x) = x^2(0{,}9 - 2x)$.<br>  Ta có $V'(x) = -6x^2 + 1{,}8x$.<br>  Suy ra $V'(x) = 0 \\Leftrightarrow -6x^2 + 1{,}8x = 0 \\Leftrightarrow x = 0 \\text{ hoặc } x = 0{,}3.$<br>  Vì miếng bìa có chiều rộng là $0{,}9$ m nên $0 &lt; x &lt; \\dfrac{9}{2} = 0{,}45$ nên $x = 0{,}3$ thỏa mãn.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy hàm số $V(x)$ đạt giá trị lớn nhất là $0{,}027$ tại $x = 0{,}3$.<br>  Vậy $x = 0{,}3$ m thì thể tích của hình hộp chữ nhật tạo thành là lớn nhất."
   },
   {
@@ -98,7 +98,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL16",
     "question": "Người ta dùng một thanh thép có chiều dài $4$ m để uốn thành khung viền của một cửa sổ có dạng một hình chữ nhật ghép với nửa hình tròn có các kích thước được cho trên hình bên. Diện tích của cửa sổ lớn nhất khi $x$ bằng bao nhiêu? Viết kết quả dưới dạng một số thập phân được làm tròn đến hàng phần trăm.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}56",
+    "answer": "0,56",
     "explain": "Thanh thép để uốn thành khung viền cửa sổ có chiều dài $4$ m nên $0&lt;x {,}\\,y&lt;4$.<br>  Vì chu vi của cửa sổ bằng $4$ m nên ta có $\\pi x+(2x+2y)=4\\Leftrightarrow y=\\dfrac{4-\\pi x-2x}{2}\\quad (1)$.<br>  Diện tích của cửa sổ là  $S(x)=\\dfrac{\\pi x^2}{2}+2x\\cdot \\dfrac{4-\\pi x-2x}{2}\\Leftrightarrow S(x)=4x-2x^2-\\dfrac{\\pi x^2}{2}=-\\left(2+\\dfrac{\\pi}{2}\\right)x^2+4x$.  Bài toán trở thành tìm giá trị lớn nhất của $S(x)$ trên $(0;4)$.<br>  Do $S(x)$ là hàm số bậc hai có hệ số của $x^2$ âm nên nó đạt giá trị lớn nhất khi  $x=-\\dfrac{4}{2\\cdot \\left[-\\left(2+\\dfrac{\\pi}{2}\\right)\\right]}=\\dfrac{4}{4+\\pi}\\approx 0{,}56$."
   },
   {
@@ -110,13 +110,13 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D136TL18",
     "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản suất mỗi ngày được $x$ mét vải lụa ($1 \\leq x \\leq 18$). Tổng chi phí sản xuất $x$ mét vải lụa cho bởi hàm chi phí $C(x)=x^3-3 x^2-20 x+500$ (đơn vị nghìn đồng). Giả sử hộ làm nghề dệt này bán hết sản phẩm mỗi ngày với giá $220$ nghìn đồng/mét. Gọi $L(x)$ là lợi nhuận thu được khi bán $x$ mét vải lụa. Hỏi lợi nhuận tối đa của hộ làm nghề dệt vải lụa tơ tằm đó trong một ngày bằng bao nhiêu (đơn vị nghìn đồng)?",
-    "answer": "1\\,200",
+    "answer": "1200",
     "explain": "Gọi số tiền bán $x$ sản phẩm trong 1 ngày là $B(x)=220x$. <br>  Số tiền chi phí cho $x$ sản phẩm trong 1 ngày là $C(x)=x^3-3x^2-20x+500$. <br>   Khi đó lợi nhuận của một ngày là \\[L(x)=B(x)-C(x)=220x-\\left(x^3-3x^2-20x+500\\right)=-x^3+3x^2+240x-500.\\]  Khảo sát hàm số $L(x)=-x^3+3x^2+240x-500$.<br>  Bảng biến thiên<br>  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_048.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có $\\max\\limits L(x)=1\\,200$ khi $x=10$ (nghìn đồng)."
   },
   {
     "id": "2D136TL19",
     "question": "Trong một thí nghiệm y học, người ta cấy $1\\,000 $ vi khuẩn vào môi trường dinh dưỡng. Bằng thực nghiệm, người ta xác định được số lượng vi khuẩn thay đổi theo thời gian bởi công thức:  $N(t)=1\\,000+\\dfrac{100 t}{100+t^2}$ (con), trong đó $t$ là thời gian tính bằng giây. Tính số lượng vi khuẩn lớn nhất kể từ khi thực hiện cấy vi khuẩn vào môi trường dinh dưỡng.",
-    "answer": "1\\,005",
+    "answer": "1005",
     "explain": "Xét hàm số $N(t)=1\\,000+\\dfrac{100 t}{100+t^2}(t&gt;0)$.<br>  Ta có $N'(t)=\\dfrac{100 \\cdot\\left(100+t^2\\right)-100 t \\cdot 2 t}{\\left(100+t^2\\right)^2}=\\dfrac{100 \\cdot\\left(100-t^2\\right)}{\\left(100+t^2\\right)^2}$.<br>  Khi đó, với $t&gt;0, N'(t)=0 \\Leftrightarrow 100-t^2=0 \\Leftrightarrow t^2=100 \\Leftrightarrow t=10$.<br>  Bảng biến thiên của hàm số $N(t)$ như sau:  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Căn cứ bảng biến thiên, ta thấy: Trên khoảng $(0 ;+\\infty)$, hàm số $N(t)$ đạt giá trị lớn nhất bằng $1\\,005$ tại $t=10$.<br>  Vậy số lượng vi khuẩn lớn nhất kể từ khi thực hiện cấy vi khuẩn vào môi trường dinh dưỡng là $1\\,005$ con."
   },
   {
@@ -146,7 +146,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL24",
     "question": "Từ một thanh sắt dài $24$ m người ta cần cắt ra thành $ 12 $ đoạn để lắp ghép lại thành các cạnh đáy và các cạnh bên của một hình hộp chữ nhật có chiều dài bằng hai lần chiều rộng. Bỏ qua bề dày của thanh sắt và các mối nối, tính thể tích lớn nhất của khối hộp chữ nhật (làm tròn kết quả đến hàng phần trăm).",
-    "answer": "7{,} 11",
+    "answer": "7,11",
     "explain": "Gọi $ x $ là chiều rộng của hình hộp chữ nhật $ (x&gt;0) $.<br>  Khi đó chiều dài của hình hộp là $ 2x $.<br>  Gọi $ h $ là chiều cao của hình hộp chữ nhật.<br>  Theo đề, ta có $ 4\\cdot (x+2x+h)=24 \\Rightarrow h=6-3x $ và điều kiện $ 6-3x&gt;0 \\Leftrightarrow x&lt;2 $.<br>  Khi đó thể tích của khối hộp chữ nhật là $ V(x)=x\\cdot 2x \\cdot (6-3x)=-6x^3+12x^2$ (m$ ^3 $).<br>  Yêu cầu bài toán tương ứng với tìm giá trị lớn nhất của $ V(x) $ trên $ (0;2) $.<br>  Khi đó $ V'(x)=-18x^2+24x $. Cho $ V'(x)=0 \\Leftrightarrow x=0 \\text{ hoặc } x=\\dfrac{4}{3}. $<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_058.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy thể tích lớn nhất xấp xỉ là $ 7{,}11 $."
   },
   {
@@ -170,7 +170,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL28",
     "question": "Tính tích giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\dfrac{2 x+5}{x-2}$ trên đoạn $[-4 ; 1]$.",
-    "answer": "-3{,}5",
+    "answer": "-3,5",
     "explain": "Hàm số $y=\\dfrac{2 x+5}{x-2}$ có đạo hàm $y' = -\\dfrac{9}{\\left(x-2\\right)^2} &lt; 0$, $\\forall x\\in\\left[-4;1\\right]$ nên nó nghịch biến trên $\\left[-4;1\\right]$.<br>  Suy ra giá trị lớn nhất $M = y\\left(-4\\right) = \\dfrac{1}{2}$ và giá trị nhỏ nhất $m = y\\left(1\\right) = -7$.<br>  Vậy tích giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\dfrac{2 x+5}{x-2}$ trên đoạn $[-4 ; 1]$ là $-\\dfrac{7}{2} = -3{,}5$."
   },
   {
@@ -230,25 +230,25 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D136TL38",
     "question": "Thầy Nam muốn làm một bể cá cảnh dạng hình hộp chữ nhật không nắp (tham khảo hình minh họa). Biết mặt đáy của bể là hình chữ nhật có kích thước chiều dài gấp $2$ lần chiều rộng, thể tích của bể là $1$ m$^3$. Chi phí làm mỗi m$^2$ mặt đáy là $1$ triệu đồng và chi phí làm mỗi m$^2$ phần xung quanh của bể là $400$ nghìn đồng. Thầy Nam đã thiết kế kích thước của bể tối ưu giúp chi phí làm bể là ít nhất. Trên cơ sở đó thầy dự tính số tiền làm bể là $a$ triệu đồng. Số $a$ là bao nhiêu? (<em>làm tròn kết quả đến hàng phần trăm</em>)<br><img src=\"data/12/2D1/im2D1/2D13_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "2{,}69",
+    "answer": "2,69",
     "explain": "Gọi $x$ (m) là chiều rộng của mặt đáy bể; $h$ (m) là chiều cao của bể $(x, h &gt; 0)$.<br>  Chiều dài của mặt đáy bể là $2x$ (m).<br>  Thể tích của bể là $V = 2x\\cdot x\\cdot h = 2x^2h$ (m$^3$).<br>  Vì thể tích của bể là $1$ m$^3$ nên  $ V = 1 \\Leftrightarrow 2x^2h = 1 \\Leftrightarrow h = \\dfrac{1}{2x^2} \\text{ (m).} $  Đổi $400$ nghìn đồng $= 0{,}4$ triệu đồng.<br>  Vì chi phí làm mỗi m$^2$ mặt đáy là $1$ triệu đồng và chi phí làm mỗi m$^2$ phần xung quanh của bể là $0{,}4$ triệu đồng nên tổng chi phí làm bể là  $ f(x) = 2x^2\\cdot 1 + 2(x + 2x)h\\cdot 0{,}4 = 2x^2 + \\dfrac{1{,}2}{x} \\text{ (triệu đồng).} $  &lt;strong&gt;Cách 1. Khảo sát hàm số&lt;/strong&gt;<br>  Với $x &gt; 0$, ta có $f'(x) = 4x - \\dfrac{1{,}2}{x^2}$.<br>  Suy ra $f'(x) = 0 \\Leftrightarrow 4x - \\dfrac{1{,}2}{x^2} = 0 \\Leftrightarrow x^3 = \\dfrac{3}{10} \\Leftrightarrow x = \\sqrt[3]{\\dfrac{3}{10}}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy hàm số đạt giá trị nhỏ nhất tại $f\\left(\\sqrt[3]{\\dfrac{3}{10}}\\right) \\approx 2{,}69$.<br>  Vậy $a \\approx 2{,}69$.<br>  &lt;strong&gt;Cách 2. Đánh giá qua bất đẳng thức&lt;/strong&gt;<br>  Ta có  $ f(x) = 2x^2 + \\dfrac{1{,}2}{x} = 2x^2 + \\dfrac{0{,}6}{x} + \\dfrac{0{,}6}{x} \\geq 3\\cdot \\sqrt[3]{2\\cdot 0{,}6\\cdot 0{,}6} \\approx 2{,}69 \\text{ (triệu đồng).} $  Vậy $a \\approx 2{,}69$."
   },
   {
     "id": "2D131TL39",
     "question": "Cho hàm số $y=f(x)=(x^2-2x+2) \\cdot \\mathrm{e}^x$. Giá trị nhỏ nhất của $f(x)$ trên $[-2;1]$ bằng bao nhiêu (làm tròn đến hàng phần trăm)?",
-    "answer": "0{,}35",
+    "answer": "0,35",
     "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=x^2 \\cdot \\mathrm{e}^x$<br>  Trên khoảng $(-2;1)$ ta có $y'=0 \\Leftrightarrow x^2 \\cdot \\mathrm{e}^x=0 \\Leftrightarrow x=0 \\, \\text{(nhận)}$.<br>  Ta có $y(-2)=\\dfrac{10}{\\mathrm{e}^2}$, $y(0)=2$, $y(1)=\\mathrm{e}$.<br>  Vậy giá trị nhỏ nhất của hàm số trên đoạn $[-2;1]$ là $\\dfrac{10}{\\mathrm{e}^2} \\approx 0{,}35$."
   },
   {
     "id": "2D136TL40",
     "question": "Một giếng dầu ngoài khơi được đặt ở vị trí $A$ cách bờ biển $3$ km, $B$ là vị trí trên bờ biền gần giếng dầu nhất. Nhà máy lọc dầu được đặt ở vị trí $C$ trên bờ biển, cách vị trí $B$ một khoảng $4$ km (như hình vẽ). Người ta dự định lắp đặt đường ống dẫn dầu gồm hai đoạn thẳng $AD$ và $DC$ ($D$ là một vị trí nằm giữa $B$ và $C$). Biết rằng mỗi mét đường ống đặt dưới biển có chi phí lắp đặt cao gấp đôi so với mỗi mét đường ống đặt trên bờ. Để chi phí lắp đặt là thấp nhất thì vị trí của $D$ phải cách $C$ bao nhiêu km (làm tròn kết quả đến hàng phần trăm)?  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_100.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "2{,}27",
+    "answer": "2,27",
     "explain": "Gọi khoảng cách $BD$ là $x$ (km), $(0\\le x\\le 4)$.<br>  Khi đó khoảng cách $DC$ là $4-x$ (km).<br>  Khoảng cách $AD$ là $\\sqrt{9+x^2}$ (km).<br>  Gọi chi phí lắp đặt mỗi mét đường ống đặt trên bờ là $a$ $(a&gt;0)$ triệu đồng.<br>  Khi đó chi phí lắp đặt đường ống là $t(x)=a(4-x)+2a\\sqrt{9+x^2}$ (triệu đồng).<br>  Bài toán trở thành tìm $x\\in[0;4]$ để $f(x)=(4-x)+2\\sqrt{9+x^2}$ đạt giá trị nhỏ nhất.<br>  Ta có $f'(x)=-1+\\dfrac{2x}{\\sqrt{9+x^2}}$.  $f'(x)=0 \\Leftrightarrow -1+\\dfrac{2x}{\\sqrt{9+x^2}}=0$<br>$\\Leftrightarrow -\\sqrt{9+x^2}+2x=0$<br>$\\Leftrightarrow \\sqrt{9+x^2}=2x$<br>$\\Leftrightarrow x\\ge 0 \\text{ và } 9+x^2=4x^2 \\Leftrightarrow x=\\sqrt{3}\\in(0;4).$  Ta có $f(0)=10$; $f(\\sqrt{3})=4+3\\sqrt{3}$; $f(4)=10$.<br>  Do đó chi phí nhỏ nhất để lắp dây điện là $(4+3\\sqrt{3})a$ triệu đồng khi $C$ cách $D$ một đoạn $4-\\sqrt{3}\\approx 2{,}27$ km trên đoạn $BC$."
   },
   {
     "id": "2D131TL41",
     "question": "Người ta muốn làm một chiếc hộp hình hộp chữ nhật có đáy là hình vuông và thể tích là $10\\ \\mathrm{l}$. Diện tích toàn phần nhỏ nhất của hộp là bao nhiêu? (đơn vị $\\mathrm{dm^2}$ và làm tròn kết quả đến hàng phần mười)",
-    "answer": "27{,}8",
+    "answer": "27,8",
     "explain": "Gọi $x$ là độ dài cạnh hình vuông $(x&gt;0)$.<br>  Độ dài cạnh bên của hình hộp chữ nhật $\\dfrac{10}{x^2}$.<br>  Diện tích toàn phần của hình hộp chữ nhật<br>  $S=\\dfrac{10}{x^2}\\cdot 4x+2x^2=2x^2+\\dfrac{40}{x}$.<br>  Đặt $S(x)=2x^2+\\dfrac{40}{x}$ có $S'(x)=4x-\\dfrac{40}{x^2}$.<br>  Giải phương trình $S'(x)=0$ ta được $x=\\sqrt[3]{10}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_102.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên ta có giá trị nhỏ nhất bằng $S(\\sqrt[3]{10})\\approx 27{,}8\\ \\mathrm{dm}$."
   },
   {
@@ -290,7 +290,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D136TL48",
     "question": "Một công ty chi một trăm triệu đồng để sản xuất các thùng sơn hình trụ có dung tích $5$ lít. Biết rằng chi phí để làm mặt xung quanh thùng đó là $100\\,000$ đ/m$^2$, chi phí để làm mỗi mặt đáy của thùng đó là $120\\,000$ đ/m$^2$. Hãy tính số thùng sơn tối đa mà công ty đó sản xuất được (giả sử chi phí các mối nối không đáng kể).",
-    "answer": "5\\,813",
+    "answer": "5813",
     "explain": "Gọi $r$, $h$ (m) lần lượt là bán kính đáy và chiều cao của thùng sơn hình trụ ($r,h&gt;0$). <br>  Do thùng sơn có thể tích $5$ lít nên $\\pi r^2 h = 5\\cdot 10^{-3}\\Leftrightarrow h = \\dfrac{5\\cdot 10^{-3}}{\\pi r^2}$. <br>  Diện tích xung quanh thùng là $S_\\text{xq} = 2\\pi rh = 2\\pi r \\cdot \\dfrac{5\\cdot 10^{-3}}{\\pi r^2} = \\dfrac{10^{-2}}{r}$. <br>  Diện tích đáy thùng là $S_\\text{đáy} = \\pi r^2$. <br>  Chi phí sản xuất thùng sơn là  $100\\cdot S_\\text{xq} + 120\\cdot 2\\cdot S_\\text{đáy}$<br>$= 100\\cdot \\dfrac{10^{-2}}{r} + 120\\cdot 2\\cdot \\pi r^2$<br>$= \\dfrac{1}{r} + 240\\pi r^2$<br>$= C(r) \\ \\text{(nghìn đồng)}.$  Ta có $C'(r) = \\dfrac{-1}{r^2} + 480\\pi r$. Khi đó $C'(r) = 0\\Leftrightarrow 480\\pi r = \\dfrac{1}{r^2}\\Leftrightarrow r = \\sqrt[3]{\\dfrac{1}{480\\pi}} = r_0$. <br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_113.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta suy ra chi phí sản xuất thùng sơn thấp nhất là $C(r_0) \\approx 17{,}2$ (nghìn đồng). <br>  Do đó số thùng sơn mà công ty sản xuất được là $\\dfrac{100\\cdot 10^6}{17{,}2\\cdot 10^3} \\approx 5\\,813{,}6$. <br>  Vậy số thùng sơn tối đa mà công ty sản xuất được là $5\\,813$."
   },
   {
@@ -302,7 +302,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL50",
     "question": "Một người đang ờ vị trí $A$ muốn đi đến vị trí $B$ trên bờ hồ như hình vẽ với $AC=400$ m và $CB=500$ m. Biết rằng người đó chèo thuyền với tốc độ $60$ m/phút và chạy bộ với tốc độ $120$ m/phút. Người đó đã thông qua các phép toán tìm được vị trí $D$ nằm giữa $B$ và $C$. Khi chèo thuyền thẳng từ điểm $A$ đến điểm $D$, rồi chạy bộ thẳng đến $B$ thì người đó sẽ tốn ít thời gian di chuyền nhất. Khi đó, thời gian người đó chạy bộ là bao nhiêu phút (làm tròn kết quà đến hàng phần mười)?<br><img src=\"data/12/2D1/im2D1/2D13_tikz_117.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "2{,}2",
+    "answer": "2,2",
     "explain": "Đặt $CD=x$ (m), điều kiện $0&lt;x&lt;500$.<br>  Quãng đường chèo thuyền là $AD=\\sqrt{AC^2+CD^2}=\\sqrt{400^2+x^2}$ (m).<br>  Quãng đường chạy bộ $DB=500-x$ (m).<br>  Tổng thời gian di chuyển từ $A$ đến $D$ rồi đến $B$ là $T=\\dfrac{\\sqrt{400^2+x^2}}{60}+\\dfrac{500-x}{120}$ (phút).<br>  Ta có $T'=\\dfrac{x}{60\\sqrt{x^2+400^2}}-\\dfrac{1}{120}$.<br>  Xét phương trình $T'=0\\Leftrightarrow x=\\dfrac{400\\sqrt{3}}{3}$ (thỏa mãn).<br>  Bảng biến thiên.  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_118.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên thì thời gian di chuyển ít nhất khi $CD=x=\\dfrac{400\\sqrt{3}}{3}$.<br>  Khi đó, thời gian chạy bộ là $\\left(500-\\dfrac{400\\sqrt{3}}{3}\\right):120\\approx 2{,}2$ phút."
   },
   {
@@ -344,7 +344,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D136TL57",
     "question": "Ông Vinh đang ở trong rừng để đào vàng. Ông ta tìm thấy vàng ở $X$, cách điểm $A$ một khoảng $3$ km. Điểm $A$ nằm trên đường bờ biển (đường bờ biển là đường thẳng). Trại của Ông Vinh nằm ở $Y$, cách điểm $B$ một khoảng $3$ km. Điểm $B$ cũng thuộc đường bờ biển. Biết rằng $AB=18$ km, $AM=NB=x$ km và $AX=BY=3$ km (như hình vẽ sau).  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS1_018.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Khi đang đào vàng, ông Vinh bị rắn cắn, chất độc lan vào máu. Sau khi bị cắn, nồng độ chất độc trong máu tăng theo thời gian được tính theo phương trình  $y=50 \\log \\left(t+2\\right),$ trong đó $y$ là nồng độ, $t$ là thời gian tính bằng giờ sau khi bị rắn cắn.  Ông Vinh cần quay trở lại trại để lấy thuốc giải độc. Ông ấy chạy trong rừng và trên bãi biển với vận tốc lần lượt là $5\\text{km/h}$ và $13\\text{km/h}$. Để về đến trại Ông Vinh cần chạy từ trong rừng qua điểm $M$, $N$ trên bãi biển. Tính nồng độ chất độc trong máu thấp nhất khi ông Vinh về đến trại (làm tròn đáp án đến hàng phần chục).",
-    "answer": "32{,}6",
+    "answer": "32,6",
     "explain": "Nồng độ chất độc trong máu thấp nhất khi thời gian di chuyển về đến trại ít nhất. Vậy nên Quãng đường ông Vinh di chuyển về đến trại phải ngắn nhất.  Theo bài ra, ông Vinh sẽ đi qua các quãng đường $XM+MN+NY$.  Ta có   $XM=NY=\\sqrt{9+x^2};\\quad MN=18-2x.$  Thời gian Ông Vinh chạy đến trại nghỉ là $T(x)=2\\left(\\dfrac{\\sqrt{9+x^2}}{5}+\\dfrac{9-x}{13}\\right), x\\in (0;9).$  Ta có $T'(x)=2\\left(\\dfrac{\\sqrt{x}}{5\\sqrt{9+x^2}}-\\dfrac{1}{13}\\right)$ nên $T'(x)=0$ khi $x=\\dfrac{5}{4}$.  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS1_019.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy giá trị nhỏ nhất của $T(x)$ nhỏ nhất $T\\left(\\dfrac{5}{4}\\right)=\\dfrac{162}{65}$.  Vậy nồng độ chất độc trong máu thấp nhất là $50 \\log \\left(\\dfrac{162}{65}+2\\right)\\approx 32{,}6$."
   },
   {
@@ -356,7 +356,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D136TL60",
     "question": "Một đường cáp điện được kéo từ một trạm điện $A$ ở một bên sông rộng 900 mét đến một nhà máy $B$ ở bờ bên kia của sông, nhà máy cách trạm điện $3\\,000$ mét tính xuôi theo bờ sông. Đường cáp này được mô hình hóa thành đường gấp khúc $APB$ như hình vẽ, trong đó đoạn $PB$ đặt trên bờ sông. Giả định rằng tỉ lệ giữa chi phí để kéo $1$ mét cáp dưới nước và chi phí kéo 1 mét cáp trên bờ bằng $1,25$. Hỏi để tiết kiệm chi phí nhất thì vị trí $P$ cách nhà máy $B$ bao nhiêu mét?<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS18_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "1\\,800",
+    "answer": "1800",
     "explain": "Đặt $BP=x \\Rightarrow PA = \\sqrt{900^2+(3\\,000-x)^2}$.<br>  Gọi $t_1$ là chi phí kéo 1 mét cáp trên bờ và $t_2$ là chi phí để kéo $1$ mét cáp dưới nước. <br>  Theo bài cho $t_2=1{,}25t_1$ với $t_1,t_2&gt;0$.<br>  Chi phí là $f(x)=xt_1+1{,}25t_1 \\cdot\\sqrt{900^2+(3\\,000-x)^2} = t_1\\left(x+1{,}25\\sqrt{900^2+(3\\,000-x)^2}\\right)$. <br>   Để chi phí là tiết kiệm nhất thì $f(x)$ đạt giá trị nhỏ nhất hay $\\left(x+1{,}25\\sqrt{900^2+(3\\,000-x)^2}\\right)$ đạt giá trị nhỏ nhất.<br>  Xét $g(x)=x+1{,}25\\sqrt{900^2+(3\\,000-x)^2}$ với $x \\in (0;3\\,000]$.<br>  Ta có $g'(x)=1-1{,}25\\cdot\\dfrac{3\\,000-x}{\\sqrt{900^2+(3\\,000-x)^2}} \\Rightarrow g'(x)=0 \\Leftrightarrow x = 1\\,800$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS18_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta tìm được $g(x)_{\\min}=g(1\\,800)=3\\,675$ khi $x=1\\,800$.<br>  Vậy để tiết kiệm chi phí nhất thì vị trí $P$ cách nhà máy $B$ là $1\\,800 m$."
   },
   {
@@ -368,7 +368,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL62",
     "question": "Một thành phố nằm trên một con sông chảy qua hẻm núi. Hẻm có chiều ngang 80m, một bên cao $40\\text{m}$ và một bên cao $30\\text{m}$. Một cây cầu sẽ được xây dựng bắc qua sông và hẻm núi. Sơ đồ thiết kế của cây cầu được gắn hệ trục tọa độ như hình vẽ dưới đây.  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS2_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Con đường $XY$ xuyên qua hẻm núi được mô hình hóa bằng phương trình $y=\\dfrac{x^3}{25600}-\\dfrac{3x}{16}+35.$  Hai cột đỡ dọc $MN$ và $PQ$ (song song với trục $Oy$) là đoạn nối giữa khung của Parabol và đường $XY$. Tính tổng độ dài đoạn $MN$ và $PQ$ biết rằng $N$ và $Q$ là hai điểm đối xứng qua $Oy$; $MN$ là đoạn có độ dài lớn nhất (làm tròn kết quả đến hàng phần chục).",
-    "answer": "49{,}5",
+    "answer": "49,5",
     "explain": "Theo bài ra ta có phương trình của parabol là $y=60-\\dfrac{3}{80}{x^2}$. Phương trình hoành độ giao điểm của parabol và đường xuyên núi $XY$ là  \\[ \\frac{x^3}{25600}-\\frac{3x}{16}+35=60-\\frac{3}{80}x^2 \\Leftrightarrow x\\approx -964{,}29 \\text{ hoặc } x\\approx 27{,}99 \\text{ hoặc } x\\approx -23{,}71. \\]  Từ đó nếu $x\\in\\left(-23,71;27,99\\right)$ là hoành độ của $N$ thì độ dài đoạn $MN$ là   $g(x)=60-\\dfrac{3}{80}{x^2}-\\left(\\dfrac{x^3}{25600}-\\dfrac{3x}{16}+35\\right).$  Xét $g'(x)=-\\dfrac{3x^2}{25600}-\\dfrac{3}{40}x+\\dfrac{3}{16}$, suy ra $g'(x)=0$ khi $x\\approx 2{,}49$. Bảng biến thiên  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS2_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, $MN$ là đoạn có độ dài lớn nhất nên $MN\\approx g(2{,}49)\\approx 25,23$.  Vì $N$ và $Q$ là hai điểm đối xứng qua $Oy$ nên $Q$ có hoành độ là $-2{,}49$. Do đó $PQ=g(-2{,}49)\\approx 24{,}3$.  Tổng độ dài $MN+PQ=49{,}5$."
   },
   {
@@ -386,7 +386,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL65",
     "question": "Người ta cần cắt một tấm tôn có hình dạng là một elip với độ dài trục lớn bằng $10$, độ dài trục bé bằng $8$ để được một tấm tôn có dạng hình chữ nhật nội tiếp elip. Sau đó gò tấm tôn hình chữ nhật đó thu được một hình trụ không có đáy như hình vẽ dưới đây. Thể tích lớn nhất của khối trụ thu được bằng bao nhiêu? (Làm tròn kết quả đến hàng phần mười.)",
-    "answer": "24{,}5",
+    "answer": "24,5",
     "explain": "<br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS3_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $A$, $B$, $C$, $D$ là các đỉnh của hình chữ nhật nội tiếp elip đã cho.<br>  Phương trình chính tắc của elip $(E)$ là $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$.<br>  Theo hình vẽ, ta có $AB=h$, $C\\left(x_C;-\\dfrac{h}{2}\\right)$ ($0&lt;h&lt;8$).<br>  Thay tọa độ điểm $C$ vào phương trình elip ta được $\\dfrac{x_C^2}{25}+\\dfrac{h^2}{4 \\cdot 16}=1 \\Rightarrow x_C^2=25\\left(1-\\dfrac{h^2}{64}\\right)$.<br>  $\\Rightarrow x_C=5\\sqrt{1-\\dfrac{h^2}{64}}=\\dfrac{5}{8}\\sqrt{64-h^2} \\Rightarrow C\\left(\\dfrac{5}{8}\\sqrt{64-h^2}; -\\dfrac{h}{2}\\right)$.<br>  Suy ra $AD=2\\mathrm{d}(C,Oy)=2x_C=2\\cdot \\dfrac{5}{8}\\cdot \\sqrt{64-h^2}=\\dfrac{5}{4}\\sqrt{64-h^2}$.<br>  Khi gò tấm tôn lại ta sẽ được đáy của tấm tôn có hình tròn và $AD$ chính là chu vi của hình tròn đó. Gọi $R$ là bán kính của hình tròn đáy thì ta có $2\\pi R=\\dfrac{5}{4}\\sqrt{64-h^2}\\Rightarrow R=\\dfrac{5}{8\\pi}\\sqrt{64-h^2}$.<br>  Thể tích của khối trụ là $V=\\pi R^2h=\\pi \\dfrac{25}{64\\pi^2}\\left(64-h^2\\right)h=\\dfrac{25}{64\\pi}\\left(64h-h^3\\right)$.<br>  Xét hàm số $f(h)=64h-h^3 \\Rightarrow f^{\\prime}(h)=64-3h^2$.<br>  $f^{\\prime}(h)=0 \\Leftrightarrow h=\\dfrac{8\\sqrt{3}}{3} \\quad (\\text{thỏa mãn}) \\text{ hoặc } h=-\\dfrac{8\\sqrt{3}}{3}\\quad (\\text{loại})$.<br>  Ta có bảng biến thiên của hàm số $f(h)$ như sau:  <br><img src=\"data/12/2D1/im2D13/dlts_12_DLTS3_009.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy $V_{\\max}=\\dfrac{25}{64\\pi}\\cdot \\dfrac{512\\sqrt{3}}{3}\\approx 24{,}5$."
   },
   {
@@ -416,7 +416,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL70",
     "question": "Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $f(x)=3x^3-9x^2+5x+2$ trên đoạn $\\left[\\dfrac{1}{2};\\dfrac{5}{2}\\right]$. Giá trị $M+m$ bằng bao nhiêu? (kết quả viết dưới dạng số thập phân và làm tròn đến hàng phần trăm).",
-    "answer": "4{,}35",
+    "answer": "4,35",
     "explain": "$f'(x)=9x^2-18x+5$.<br>  $f'(x)=0\\Leftrightarrow 9x^2-18x+5=0\\Leftrightarrow x=\\dfrac{5}{3} \\text{ hoặc } x=\\dfrac{1}{3} \\text{ (loại)}.$<br>  Ta có $f\\left(\\dfrac{5}{3}\\right)=-\\dfrac{7}{9}$, $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{21}{8}$, $f\\left(\\dfrac{5}{2}\\right)=\\dfrac{41}{8}$.<br>  Vậy $M=\\dfrac{41}{8},\\,\\,m=-\\dfrac{7}{9}$ nên $M+m=\\dfrac{41}{8}+\\left(-\\dfrac{7}{9}\\right)=\\dfrac{313}{72}\\approx 4{,}35$."
   },
   {
@@ -476,7 +476,7 @@ window.traLoiNgan2D13 = [
   {
     "id": "2D131TL71",
     "question": "Cho hàm số $y=f(x)=a x^3+b x^2+c x+d$ có đồ thị cắt trục hoành tại ba điểm phân biệt có hoành độ lần lượt là $-1$; $1$; $2$. Biết rằng giá trị nhỏ nhất của hàm số $f(x)$ trên đoạn $\\left[0; \\dfrac{1}{2}\\right]$ bằng $\\dfrac{45}{8}$. Tính tổng $a^2+b^2+c^2+d^2$.",
-    "answer": "79{,}1",
+    "answer": "79,1",
     "explain": "Đồ thị hàm số $y=f(x)=a x^3+b x^2+c x+d$ cắt trục hoành tại ba điểm phân biệt có hoành độ là $-1; 1; 2$ nên $f(x)=a(x+1)(x-1)(x-2)$.<br>  Khai triển biểu thức trên, ta có: $f(x)=a\\left(x^2-1\\right)(x-2)=a\\left(x^3-2x^2-x+2\\right)$.<br>  Ta có: $f'(x)=a\\left(3x^2-4x-1\\right)$.<br>  Giải phương trình $f'(x)=0\\Leftrightarrow 3x^2-4x-1=0$ (vì $a \\neq 0$ do hàm số là bậc ba).<br>  Ta được hai nghiệm: $x_1=\\dfrac{2-\\sqrt{7}}{3} \\approx -0{,}22$ và $x_2=\\dfrac{2+\\sqrt{7}}{3} \\approx 1{,}55$.<br>  Cả hai nghiệm này đều không thuộc đoạn $\\left[0; \\dfrac{1}{2}\\right]$. Do đó, GTNN của hàm số trên đoạn này sẽ đạt được tại một trong hai đầu mút $x=0$ hoặc $x=\\dfrac{1}{2}$.<br>  $f(0)=2a; f\\left(\\dfrac{1}{2}\\right)=\\dfrac{9a}{8}$.  <br>- TH1: nếu $a &gt; 0\\Rightarrow 2a &gt; \\dfrac{9a}{8}$ nên $\\min\\limits_{\\left[0; \\dfrac{1}{2}\\right]} f(x)=f\\left(\\dfrac{1}{2}\\right)=\\dfrac{9a}{8}$.<br>  Theo đề bài: $\\dfrac{9a}{8}=-\\dfrac{45}{8} \\Rightarrow a=-5$.<br>  Điều này mâu thuẫn với giả thiết $a &gt; 0$.<br>- TH2: Nếu $a &lt; 0\\Rightarrow 2a &lt; \\dfrac{9a}{8}$ nên $\\min\\limits_{\\left[0;\\dfrac{1}{2}\\right]} f(x)=f(0)=2a$.<br>  Theo đề bài: $2a=-\\dfrac{45}{8} \\Rightarrow a=-\\dfrac{45}{16}$. Điều này thỏa mãn giả thiết $a &lt; 0$.<br>- Ta có $f(x)=-\\dfrac{45}{16} x^3+\\dfrac{45}{8} x^2+\\dfrac{45}{16} x-\\dfrac{45}{8}$.  Tổng $S=a^2+b^2+c^2+d^2=\\left(-\\dfrac{45}{16}\\right)^2+\\left(\\dfrac{45}{8}\\right)^2+\\left(\\dfrac{45}{16}\\right)^2+\\left(-\\dfrac{45}{8}\\right)^2=\\dfrac{10\\,125}{128} \\approx 79{,}1$."
   },
   {

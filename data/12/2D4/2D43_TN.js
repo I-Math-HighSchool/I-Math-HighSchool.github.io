@@ -14,7 +14,7 @@ window.tracNghiem2D43 = [
       "$S=a\\mathrm{e}^a-\\mathrm{e}^a+1$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Vì $a>0$ nên trên $[0;a]$ ta có $x\\mathrm{e}^x\\ge 0$. Diện tích $S=\\displaystyle\\int_0^a x\\mathrm{e}^x\\,\\mathrm{d}x$. Đặt $u=x,\\ \\mathrm{d}v=\\mathrm{e}^x\\mathrm{d}x\\Rightarrow \\mathrm{d}u=\\mathrm{d}x,\\ v=\\mathrm{e}^x$, ta có $\\displaystyle\\int x\\mathrm{e}^x\\,\\mathrm{d}x=x\\mathrm{e}^x-\\mathrm{e}^x+C$. Do đó $S=\\Big[x\\mathrm{e}^x-\\mathrm{e}^x\\Big]_0^a=(a\\mathrm{e}^a-\\mathrm{e}^a)-(0-1)=a\\mathrm{e}^a-\\mathrm{e}^a+1$."
   },
   {
     "id": "2D431TN2",
@@ -26,7 +26,7 @@ window.tracNghiem2D43 = [
       "$S=\\displaystyle\\int\\limits_{-2}^1 f(x)\\mathrm{\\, d}x$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Dựa vào đồ thị, trên $[-2;0]$ đồ thị nằm phía trên trục hoành nên $f(x)\\ge 0$, phần diện tích tương ứng bằng $\\displaystyle\\int\\limits_{-2}^0 f(x)\\,\\mathrm{d}x$. Trên $[0;1]$ đồ thị nằm phía dưới trục hoành nên $f(x)\\le 0$, phần diện tích tương ứng bằng $-\\displaystyle\\int\\limits_0^1 f(x)\\,\\mathrm{d}x$. Vậy diện tích cần tìm là $S=\\displaystyle\\int\\limits_{-2}^0f(x)\\,\\mathrm{d}x-\\displaystyle\\int\\limits_0^1f(x)\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN3",
@@ -38,7 +38,7 @@ window.tracNghiem2D43 = [
       "$S=\\displaystyle\\int\\limits_a^c f(x)\\mathrm{\\,d}x+\\displaystyle\\int\\limits_c^b f(x)\\mathrm{\\,d}x$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Dựa vào đồ thị, trên $[a;c]$ đồ thị nằm phía dưới trục hoành nên $f(x)\\le 0$, phần diện tích tương ứng bằng $-\\displaystyle\\int\\limits_a^c f(x)\\,\\mathrm{d}x$. Trên $[c;b]$ đồ thị nằm phía trên trục hoành nên $f(x)\\ge 0$, phần diện tích tương ứng bằng $\\displaystyle\\int\\limits_c^b f(x)\\,\\mathrm{d}x$. Vậy $S=-\\displaystyle\\int\\limits_a^c f(x)\\,\\mathrm{d}x+\\displaystyle\\int\\limits_c^b f(x)\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN4",
@@ -50,7 +50,7 @@ window.tracNghiem2D43 = [
       "$S=\\displaystyle\\int\\limits_{-3}^{0}f(x)\\textrm{\\,d}x+\\displaystyle\\int\\limits_{4}^{0}f(x)\\mathrm{\\,d}x$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Dựa vào đồ thị, trên $[-3;0]$ đồ thị nằm phía trên trục hoành nên $f(x)\\ge 0$, phần diện tích tương ứng bằng $\\displaystyle\\int\\limits_{-3}^0 f(x)\\,\\mathrm{d}x$. Trên $[0;4]$ đồ thị nằm phía dưới trục hoành nên $f(x)\\le 0$, phần diện tích tương ứng bằng $-\\displaystyle\\int\\limits_0^4 f(x)\\,\\mathrm{d}x=\\displaystyle\\int\\limits_4^0 f(x)\\,\\mathrm{d}x$. Vậy $S=\\displaystyle\\int\\limits_{-3}^{0}f(x)\\,\\mathrm{d}x+\\displaystyle\\int\\limits_{4}^{0}f(x)\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN5",
@@ -62,7 +62,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{ 32}{3}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Từ đồ thị, parabol có đỉnh $(0;4)$ và cắt trục hoành tại $x=-2,\\ x=2$ nên có phương trình $y=4-x^2$. Diện tích hình phẳng giới hạn bởi parabol và trục hoành là $S=\\displaystyle\\int_{-2}^{2}(4-x^2)\\,\\mathrm{d}x=\\left[4x-\\dfrac{x^3}{3}\\right]_{-2}^{2}=\\dfrac{16}{3}-\\left(-\\dfrac{16}{3}\\right)=\\dfrac{32}{3}$."
   },
   {
     "id": "2D431TN6",
@@ -74,7 +74,7 @@ window.tracNghiem2D43 = [
       "$=0$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $f(2)-f(-1)=\\displaystyle\\int_{-1}^{2}f'(x)\\,\\mathrm{d}x=\\displaystyle\\int_{-1}^{0}f'(x)\\,\\mathrm{d}x+\\displaystyle\\int_{0}^{2}f'(x)\\,\\mathrm{d}x$. Trên đoạn ứng với $(K)$ đồ thị $y=f'(x)$ nằm phía trên trục hoành nên $\\displaystyle\\int_{-1}^{0}f'(x)\\,\\mathrm{d}x=S_{(K)}=\\dfrac{5}{12}$; trên đoạn ứng với $(H)$ đồ thị nằm phía dưới trục hoành nên $\\displaystyle\\int_{0}^{2}f'(x)\\,\\mathrm{d}x=-S_{(H)}=-\\dfrac{8}{3}$. Suy ra $f(2)-f(-1)=\\dfrac{5}{12}-\\dfrac{8}{3}=\\dfrac{5}{12}-\\dfrac{32}{12}=-\\dfrac{27}{12}=-\\dfrac{9}{4}$. Vậy $f(2)=f(-1)-\\dfrac{9}{4}=\\dfrac{19}{12}-\\dfrac{27}{12}=-\\dfrac{8}{12}=-\\dfrac{2}{3}$."
   },
   {
     "id": "2D431TN7",
@@ -86,7 +86,7 @@ window.tracNghiem2D43 = [
       "$k=\\dfrac{2}{3}\\ln 4$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Diện tích toàn phần của $(H)$ là $S=\\displaystyle\\int_0^{\\ln 4}\\mathrm{e}^x\\,\\mathrm{d}x=\\Big[\\mathrm{e}^x\\Big]_0^{\\ln4}=4-1=3$. Với $x=k$, $S_1=\\displaystyle\\int_0^k \\mathrm{e}^x\\,\\mathrm{d}x=\\mathrm{e}^k-1$ và $S_2=\\displaystyle\\int_k^{\\ln4}\\mathrm{e}^x\\,\\mathrm{d}x=4-\\mathrm{e}^k$. Từ $S_1=2S_2$ ta có $\\mathrm{e}^k-1=2(4-\\mathrm{e}^k)\\Leftrightarrow 3\\mathrm{e}^k=9\\Leftrightarrow \\mathrm{e}^k=3\\Leftrightarrow k=\\ln 3$."
   },
   {
     "id": "2D431TN8",
@@ -134,7 +134,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{1}{3}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $x^2+2x+3=(x+1)^2+2>0$ với mọi $x$ nên trên $[-2;1]$, $x^2+2x+3>0$. Do đó $S=\\displaystyle\\int_{-2}^1(x^2+2x+3)\\,\\mathrm{d}x=\\Big[\\dfrac{x^3}{3}+x^2+3x\\Big]_{-2}^1=\\Big(\\dfrac13+1+3\\Big)-\\Big(-\\dfrac83+4-6\\Big)=\\dfrac{13}{3}-\\Big(-\\dfrac{14}{3}\\Big)=9$."
   },
   {
     "id": "2D431TN12",
@@ -146,7 +146,7 @@ window.tracNghiem2D43 = [
       "$S=\\bigg|\\displaystyle \\int\\limits_{a}^{b} f(x) \\; \\mathrm{d}x\\bigg|$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Theo công thức tính diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x)$, trục $Ox$ và hai đường thẳng $x=a,x=b$, ta có $S=\\displaystyle\\int\\limits_a^b\\big|f(x)\\big|\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN13",
@@ -158,7 +158,7 @@ window.tracNghiem2D43 = [
       "\\(S=\\displaystyle\\int\\limits_a^b\\big[f^2(x)-g^2(x)\\big]\\,\\mathrm{d}x\\)"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Theo công thức tính diện tích hình thang cong giới hạn bởi hai đồ thị $y=f(x),\\ y=g(x)$ và hai đường thẳng $x=a,x=b$, ta có $S=\\displaystyle\\int\\limits_a^b\\big|f(x)-g(x)\\big|\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN14",
@@ -170,7 +170,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{1}{2}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Đồ thị $y=\\ln x$ cắt $Ox$ tại điểm $(1;0)$. Ta có $y'=\\dfrac1x$ nên hệ số góc tiếp tuyến tại $x=1$ là $y'(1)=1$. Phương trình tiếp tuyến: $y=1\\cdot(x-1)+0=x-1$. Tiếp tuyến cắt $Oy$ tại $(0;-1)$ và cắt $Ox$ tại $(1;0)$, cùng với gốc tọa độ $O$ tạo thành tam giác vuông có hai cạnh góc vuông bằng $1$ và $1$. Vậy $S=\\dfrac12\\cdot1\\cdot1=\\dfrac12$."
   },
   {
     "id": "2D431TN15",
@@ -182,7 +182,7 @@ window.tracNghiem2D43 = [
       "$\\dfrac{2}{3}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phương trình hoành độ giao điểm: $x^2-x+1=x+1\\Leftrightarrow x^2-2x=0\\Leftrightarrow x=0$ hoặc $x=2$. Diện tích $S=\\displaystyle\\int_0^2\\big|(x+1)-(x^2-x+1)\\big|\\,\\mathrm{d}x=\\displaystyle\\int_0^2(2x-x^2)\\,\\mathrm{d}x=\\Big[x^2-\\dfrac{x^3}{3}\\Big]_0^2=4-\\dfrac83=\\dfrac43$ (vì $2x-x^2\\ge0$ trên $[0;2]$)."
   },
   {
     "id": "2D431TN16",
@@ -194,7 +194,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{1}{3}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phương trình hoành độ giao điểm: $x^3=x^5\\Leftrightarrow x^3(1-x^2)=0\\Leftrightarrow x=0,\\ x=\\pm1$. Diện tích $S=\\displaystyle\\int_{-1}^1\\big|x^3-x^5\\big|\\,\\mathrm{d}x=2\\displaystyle\\int_0^1(x^3-x^5)\\,\\mathrm{d}x$ (vì $x^3-x^5\\ge0$ trên $[0;1]$ và hàm dưới dấu trị tuyệt đối là hàm chẵn) $=2\\Big[\\dfrac{x^4}{4}-\\dfrac{x^6}{6}\\Big]_0^1=2\\Big(\\dfrac14-\\dfrac16\\Big)=2\\cdot\\dfrac{1}{12}=\\dfrac16$."
   },
   {
     "id": "2D431TN17",
@@ -206,7 +206,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{3}{2}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phương trình hoành độ giao điểm (với $x\\ge0$): $\\sqrt{x}=x^3\\Leftrightarrow \\sqrt{x}\\,(1-x^{5/2})=0\\Leftrightarrow x=0$ hoặc $x=1$. Trên $[0;1]$, $\\sqrt{x}\\ge x^3$ nên $S=\\displaystyle\\int_0^1\\big(\\sqrt{x}-x^3\\big)\\,\\mathrm{d}x=\\Big[\\dfrac23x^{3/2}-\\dfrac{x^4}{4}\\Big]_0^1=\\dfrac23-\\dfrac14=\\dfrac{5}{12}$."
   },
   {
     "id": "2D431TN18",
@@ -230,7 +230,7 @@ window.tracNghiem2D43 = [
       "$\\left(0;3\\right)$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phương trình hoành độ giao điểm: $x^2+1=mx+1\\Leftrightarrow x^2-mx=0\\Leftrightarrow x=0$ hoặc $x=m$ (vì $m\\ge0$). Diện tích $S=\\displaystyle\\int_0^m\\big|x^2-mx\\big|\\,\\mathrm{d}x=\\displaystyle\\int_0^m(mx-x^2)\\,\\mathrm{d}x=\\Big[\\dfrac{mx^2}{2}-\\dfrac{x^3}{3}\\Big]_0^m=\\dfrac{m^3}{2}-\\dfrac{m^3}{3}=\\dfrac{m^3}{6}$. Theo giả thiết $\\dfrac{m^3}{6}=36\\Leftrightarrow m^3=216\\Leftrightarrow m=6$. Vậy $m=6\\in(5;8)$."
   },
   {
     "id": "2D431TN20",
@@ -326,7 +326,7 @@ window.tracNghiem2D43 = [
       "$S=9$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Từ đồ thị, parabol đi qua gốc tọa độ và qua hai điểm $A(-2;4),\\ B(2;4)$ nên có phương trình $y=x^2$. Đoạn thẳng $AC$ nối $A(-2;4)$ và $C(0;2)$ nằm trên đường thẳng $y=-x+2$; đoạn thẳng $CB$ nối $C(0;2)$ và $B(2;4)$ nằm trên đường thẳng $y=x+2$, tức là trên $[-2;2]$ đường gấp khúc $ACB$ có phương trình $y=|x|+2$. Diện tích cần tìm là $S=\\displaystyle\\int_{-2}^{2}\\Big[(|x|+2)-x^2\\Big]\\mathrm{d}x=2\\displaystyle\\int_{0}^{2}(x+2-x^2)\\,\\mathrm{d}x=2\\left[\\dfrac{x^2}{2}+2x-\\dfrac{x^3}{3}\\right]_0^2=2\\cdot\\dfrac{10}{3}=\\dfrac{20}{3}$."
   },
   {
     "id": "2D431TN28",
@@ -338,7 +338,7 @@ window.tracNghiem2D43 = [
       "$S=\\dfrac{1}{12}$ (đvdt)"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Tiếp tuyến của $(C):y=x^2$ tại $x_\\circ=1$ có hệ số góc $y'(1)=2$ và đi qua điểm $(1;1)$ nên có phương trình $y=2x-1$; tiếp tuyến này cắt $Ox$ tại $x=\\dfrac12$. Trên $[0;\\tfrac12]$, cận trên là parabol, cận dưới là trục hoành; trên $[\\tfrac12;1]$, cận trên là parabol, cận dưới là tiếp tuyến. Vậy $S=\\displaystyle\\int_0^{1/2}x^2\\,\\mathrm{d}x+\\displaystyle\\int_{1/2}^1\\big[x^2-(2x-1)\\big]\\,\\mathrm{d}x=\\displaystyle\\int_0^{1/2}x^2\\,\\mathrm{d}x+\\displaystyle\\int_{1/2}^1(x-1)^2\\,\\mathrm{d}x=\\dfrac{1}{24}+\\dfrac{1}{24}=\\dfrac{1}{12}$."
   },
   {
     "id": "2D431TN29",
@@ -362,7 +362,7 @@ window.tracNghiem2D43 = [
       "$S=\\displaystyle\\int\\limits_0^1x^3\\mathrm{\\, d}x+\\int\\limits_1^2(x-2)\\mathrm{\\, d}x$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Xét giao điểm của $y=x^3$ và $y=2-x$: $x^3+x-2=0\\Leftrightarrow(x-1)(x^2+x+2)=0\\Leftrightarrow x=1$ (vì $x^2+x+2>0$ với mọi $x$). Hình phẳng giới hạn bởi $y=x^3,\\ y=2-x,\\ y=0$ được chia bởi $x=1$: với $x\\in[0;1]$ cận trên là $y=x^3$, cận dưới là $y=0$; với $x\\in[1;2]$ cận trên là $y=2-x$, cận dưới là $y=0$. Do đó $S=\\displaystyle\\int_0^1x^3\\,\\mathrm{d}x+\\displaystyle\\int_1^2(2-x)\\,\\mathrm{d}x$. Vì $\\displaystyle\\int_1^2(2-x)\\,\\mathrm{d}x=\\dfrac12$ (diện tích tam giác vuông có cạnh góc vuông bằng $1$) nên $S=\\dfrac12+\\displaystyle\\int_0^1x^3\\,\\mathrm{d}x$."
   },
   {
     "id": "2D431TN31",
@@ -386,7 +386,7 @@ window.tracNghiem2D43 = [
       "$S = \\dfrac{211}{2}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Gọi tiếp điểm $(t;2t^2+4t+3)$, hệ số góc tiếp tuyến là $y'(t)=4t+4$. Tiếp tuyến tại điểm này: $y=(4t+4)(x-t)+2t^2+4t+3$. Vì tiếp tuyến đi qua $A(-3;-23)$ nên $-23=(4t+4)(-3-t)+2t^2+4t+3\\Leftrightarrow -2t^2-12t-9=-23\\Leftrightarrow t^2+6t-7=0\\Leftrightarrow t=1$ hoặc $t=-7$. Với $t=1$: tiếp tuyến $y=8x+1$; với $t=-7$: tiếp tuyến $y=-24x-95$. Vì parabol nằm phía trên hai tiếp tuyến này, và hai tiếp tuyến cắt nhau tại $x=-3$, ta có $(P)-y_{t=-7}=2(x+7)^2$ trên $[-7;-3]$ và $(P)-y_{t=1}=2(x-1)^2$ trên $[-3;1]$. Do đó $S=\\displaystyle\\int_{-7}^{-3}2(x+7)^2\\,\\mathrm{d}x+\\displaystyle\\int_{-3}^{1}2(x-1)^2\\,\\mathrm{d}x=\\dfrac{128}{3}+\\dfrac{128}{3}=\\dfrac{256}{3}$."
   },
   {
     "id": "2D431TN33",
@@ -422,7 +422,7 @@ window.tracNghiem2D43 = [
       "$V=\\pi \\displaystyle\\int\\limits_{a}^{b} S(x) \\mathrm{\\,d}x$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Theo công thức tính thể tích vật thể bằng phương pháp mặt cắt (tiết diện $S(x)$ vuông góc với trục $Ox$), thể tích $V$ của vật thể $(H)$ được tính bởi $V=\\displaystyle\\int\\limits_a^b S(x)\\,\\mathrm{d}x$."
   },
   {
     "id": "2D435TN36",
@@ -494,7 +494,7 @@ window.tracNghiem2D43 = [
       "$\\dfrac{12\\pi}{15}$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Từ đồ thị, parabol cắt trục hoành tại $x=0,\\ x=2$ và có đỉnh $(1;1)$ nên $y=f(x)=-x^2+2x=-(x-1)^2+1$. Thể tích khối tròn xoay khi quay hình phẳng giới hạn bởi $y=f(x)$ và $Ox$ quanh trục $Ox$ là $V=\\pi\\displaystyle\\int_{0}^{2}\\big[f(x)\\big]^2\\,\\mathrm{d}x=\\pi\\displaystyle\\int_{0}^{2}(x^2-2x)^2\\,\\mathrm{d}x=\\pi\\displaystyle\\int_{0}^{2}(x^4-4x^3+4x^2)\\,\\mathrm{d}x=\\pi\\left[\\dfrac{x^5}{5}-x^4+\\dfrac{4x^3}{3}\\right]_0^2=\\pi\\left(\\dfrac{32}{5}-16+\\dfrac{32}{3}\\right)=\\dfrac{16\\pi}{15}$."
   },
   {
     "id": "2D435TN42",
@@ -506,7 +506,7 @@ window.tracNghiem2D43 = [
       "$V=\\pi \\displaystyle \\int \\limits_a^b \\big(f_1(x)- f_2(x)\\big)^2\\textrm{d}x$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Theo công thức tính thể tích khối tròn xoay tạo bởi hình phẳng giới hạn bởi hai đồ thị $y=f_1(x),\\ y=f_2(x)$ (với $f_1(x)\\ge f_2(x)\\ge0$ trên $[a;b]$) và hai đường thẳng $x=a,x=b$ khi quay quanh $Ox$, ta có $V=\\pi\\displaystyle\\int\\limits_a^b\\big(f_1^2(x)-f_2^2(x)\\big)\\,\\mathrm{d}x$."
   },
   {
     "id": "2D435TN43",
@@ -530,7 +530,7 @@ window.tracNghiem2D43 = [
       "$24$ m"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ô tô dừng hẳn khi $v(t)=0\\Leftrightarrow -12t+24=0\\Leftrightarrow t=2$ (giây). Quãng đường đi được là $S=\\displaystyle\\int_0^2 v(t)\\,\\mathrm{d}t=\\displaystyle\\int_0^2(-12t+24)\\,\\mathrm{d}t=\\Big[-6t^2+24t\\Big]_0^2=-24+48=24$ (m)."
   },
   {
     "id": "2D435TN45",
@@ -542,7 +542,7 @@ window.tracNghiem2D43 = [
       "$\\dfrac{27}{4}$ mét"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $v(t)=\\displaystyle\\int a(t)\\,\\mathrm{d}t=\\displaystyle\\int(6-2t)\\,\\mathrm{d}t=6t-t^2+C$. Vì ô tô bắt đầu chuyển động từ trạng thái đứng yên nên $v(0)=0\\Rightarrow C=0$, do đó $v(t)=6t-t^2$. Vận tốc đạt giá trị lớn nhất khi $v'(t)=a(t)=0\\Leftrightarrow t=3$ (giây). Quãng đường đi được là $S=\\displaystyle\\int_0^3v(t)\\,\\mathrm{d}t=\\displaystyle\\int_0^3(6t-t^2)\\,\\mathrm{d}t=\\Big[3t^2-\\dfrac{t^3}{3}\\Big]_0^3=27-9=18$ (mét)."
   },
   {
     "id": "2D435TN46",
@@ -554,7 +554,7 @@ window.tracNghiem2D43 = [
       "$8\\ {\\rm m}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ô tô dừng hẳn khi $v(t)=0\\Leftrightarrow -4t+8=0\\Leftrightarrow t=2$ (giây). Quãng đường đi được là $S=\\displaystyle\\int_0^2v(t)\\,\\mathrm{d}t=\\displaystyle\\int_0^2(-4t+8)\\,\\mathrm{d}t=\\Big[-2t^2+8t\\Big]_0^2=-8+16=8$ (m)."
   },
   {
     "id": "2D435TN47",
@@ -566,7 +566,7 @@ window.tracNghiem2D43 = [
       "$69,75$ m"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $v(t)=\\displaystyle\\int a(t)\\,\\mathrm{d}t=\\displaystyle\\int(t^2+4t)\\,\\mathrm{d}t=\\dfrac{t^3}{3}+2t^2+C$. Vì $v(0)=v_0=15$ nên $C=15$, do đó $v(t)=\\dfrac{t^3}{3}+2t^2+15$. Quãng đường đi được trong $3$ giây là $S=\\displaystyle\\int_0^3v(t)\\,\\mathrm{d}t=\\displaystyle\\int_0^3\\Big(\\dfrac{t^3}{3}+2t^2+15\\Big)\\,\\mathrm{d}t=\\Big[\\dfrac{t^4}{12}+\\dfrac{2t^3}{3}+15t\\Big]_0^3=\\dfrac{81}{12}+18+45=6{,}75+63=69{,}75$ (m)."
   },
   {
     "id": "2D435TN48",
@@ -578,7 +578,7 @@ window.tracNghiem2D43 = [
       "$100\\ \\mathrm{m}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ô tô đạp phanh khi đang chạy với vận tốc $10$ m/s và dừng hẳn khi $v(t)=0\\Leftrightarrow -2t+10=0\\Leftrightarrow t=5$ (giây), tức là quá trình phanh kéo dài $5$ giây. Do đó $7$ giây cuối gồm $2$ giây chạy đều với vận tốc $10$ m/s trước khi đạp phanh và $5$ giây phanh. Quãng đường trong $2$ giây chạy đều là $2\\times10=20$ (m). Quãng đường trong $5$ giây phanh là $\\displaystyle\\int_0^5(-2t+10)\\,\\mathrm{d}t=\\Big[-t^2+10t\\Big]_0^5=-25+50=25$ (m). Vậy quãng đường ô tô đi được trong $7$ giây cuối là $20+25=45$ (m)."
   },
   {
     "id": "2D435TN49",
@@ -590,7 +590,7 @@ window.tracNghiem2D43 = [
       "218,34 m"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Tương tự bài toán trên, $v(t)=\\dfrac{t^3}{3}+2t^2+15$ (với $v_0=15$). Quãng đường đi được trong $5$ giây là $S=\\displaystyle\\int_0^5v(t)\\,\\mathrm{d}t=\\Big[\\dfrac{t^4}{12}+\\dfrac{2t^3}{3}+15t\\Big]_0^5=\\dfrac{625}{12}+\\dfrac{250}{3}+75\\approx52{,}08+83{,}33+75=210{,}42$ (m) (làm tròn đến hàng phần trăm)."
   },
   {
     "id": "2D435TN50",
@@ -602,7 +602,7 @@ window.tracNghiem2D43 = [
       "$v_0=183,2$ (km/h)"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Máy bay dừng hẳn khi $v(t)=0\\Leftrightarrow t=\\dfrac{v_0}{10000}$ (giờ). Quãng đường đi được từ lúc phanh đến khi dừng là $S=\\displaystyle\\int_0^{v_0/10000}(-10000t+v_0)\\,\\mathrm{d}t=\\Big[-5000t^2+v_0t\\Big]_0^{v_0/10000}=-5000\\cdot\\dfrac{v_0^2}{10^8}+\\dfrac{v_0^2}{10000}=\\dfrac{v_0^2}{20000}$. Theo giả thiết $S=1{,}5$ km nên $\\dfrac{v_0^2}{20000}=1{,}5\\Leftrightarrow v_0^2=30000\\Leftrightarrow v_0=\\sqrt{30000}\\approx173{,}2$ (km/h)."
   },
   {
     "id": "2D435TN51",

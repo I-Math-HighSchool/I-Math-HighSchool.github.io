@@ -181,7 +181,7 @@ window.tracNghiem2D61 = [
       "0,4"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}$ nên $P(A\\cap B)=P(A\\mid B)\\cdot P(B)=0{,}25\\cdot 0{,}8=0{,}2$."
   },
   {
     "id": "2D612TN16",
@@ -193,7 +193,7 @@ window.tracNghiem2D61 = [
       "0,75"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Từ câu trên, $P(A\\cap B)=0{,}2$. Do đó $P(B\\mid A)=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{0{,}2}{0{,}4}=0{,}5$."
   },
   {
     "id": "2D612TN17",
@@ -205,7 +205,7 @@ window.tracNghiem2D61 = [
       "1"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $P(A\\cap B)=0{,}2$ nên $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0{,}4+0{,}8-0{,}2=1$.<br>Vì $A\\subset A\\cup B$ nên $A\\cap(A\\cup B)=A$, do đó $P(A\\mid A\\cup B)=\\dfrac{P(A)}{P(A\\cup B)}=\\dfrac{0{,}4}{1}=0{,}4$."
   },
   {
     "id": "2D612TN18",
@@ -217,7 +217,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{7}{16}$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Từ bảng số liệu: số nhân viên nam là $45+12=57$, số nhân viên ủng hộ là $45+35=80$ (trên tổng số $100$ nhân viên).<br>$A$: \"nhân viên là nam\", $B$: \"nhân viên ủng hộ\". Ta có $P(A\\cap B)=\\dfrac{45}{100}$, $P(B)=\\dfrac{80}{100}$.<br>$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{45}{80}=\\dfrac{9}{16}$."
   },
   {
     "id": "2D612TN19",
@@ -229,7 +229,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{7}{16}$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Từ bảng số liệu: số nhân viên nam là $45+12=57$ (trên tổng số $100$ nhân viên), số nhân viên nam ủng hộ là $45$.<br>$P(A)=\\dfrac{57}{100}$, $P(A\\cap B)=\\dfrac{45}{100}$.<br>$P(B\\mid A)=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{45}{57}=\\dfrac{15}{19}$."
   },
   {
     "id": "2D612TN20",
@@ -241,7 +241,7 @@ window.tracNghiem2D61 = [
       "0,92"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Từ bảng số liệu (trên tổng số $100$ nhân viên): $P(A)=\\dfrac{57}{100}$ (nam), $P(B)=\\dfrac{80}{100}$ (ủng hộ), $P(A\\cap B)=\\dfrac{45}{100}$ (nam và ủng hộ).<br>$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=\\dfrac{57+80-45}{100}=\\dfrac{92}{100}=0{,}92$."
   },
   {
     "id": "2D612TN21",
@@ -253,7 +253,7 @@ window.tracNghiem2D61 = [
       "$\\dfrac{1}{6}$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Không gian mẫu gồm $36$ kết quả đồng khả năng $(x,đ)$ với $x,đ\\in\\{1,\\ldots,6\\}$.<br>Gọi $B$: \"tổng số chấm bằng $5$\": các cặp thuận lợi là $(1,4),(2,3),(3,2),(4,1)$, nên $P(B)=\\dfrac{4}{36}$.<br>Gọi $A$: \"xúc xắc xanh ra mặt $1$ chấm\". Kết hợp với tổng bằng $5$ thì đỏ phải ra mặt $4$, chỉ có $1$ cặp $(1,4)$ thỏa cả hai, nên $P(A\\cap B)=\\dfrac{1}{36}$.<br>Vậy $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{1}{4}$."
   },
   {
     "id": "2D612TN22",
@@ -265,6 +265,6 @@ window.tracNghiem2D61 = [
       "$\\dfrac{6}{11}$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Không gian mẫu gồm $36$ kết quả đồng khả năng.<br>Gọi $B$: \"có ít nhất một con xúc xắc ra mặt $6$ chấm\". Số kết quả không có mặt $6$ nào là $5\\times 5=25$, nên số kết quả thuận lợi cho $B$ là $36-25=11$, $P(B)=\\dfrac{11}{36}$.<br>Gọi $A$: \"xúc xắc đỏ ra mặt $6$ chấm\": có $6$ kết quả $(x,6)$ với $x=1,\\ldots,6$, và tất cả các kết quả này đều đã thỏa mãn có ít nhất một mặt $6$ (chính là con đỏ), nên $A\\cap B=A$ và $P(A\\cap B)=\\dfrac{6}{36}$.<br>Vậy $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{6}{11}$."
   }
 ];

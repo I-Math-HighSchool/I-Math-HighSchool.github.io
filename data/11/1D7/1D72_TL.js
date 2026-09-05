@@ -80,7 +80,7 @@ window.traLoiNgan1D72 = [
   {
     "id": "1D726TL13",
     "question": "Một công ty xác định rằng tổng chi phí của họ, tính theo nghìn đô-la, để sản xuất $x$ mặt hàng là $C(x)=\\sqrt{5x^2+60}$, và công ty lên kế hoạch nâng sản lượng trong $t$ tháng kể từ nay theo hàm số $x(t)=20t+40$. Tính tốc độ tăng của chi phí sau $4$ tháng kể từ nay? (Làm tròn kết quả đến hàng phần chục, đơn vị nghìn đô-la trên tháng)",
-    "answer": "44{,}7",
+    "answer": "44,7",
     "explain": "Ta có $C(t)=\\sqrt{5(20t+40)^2+60}=\\sqrt{2000t^2+8000t+8060}$<br>  $C'(t)=\\dfrac{4000t+8000}{2\\sqrt{2000t^2+8000t+8060}}$.<br>  Vậy tốc độ tăng chi phí sau $4$ tháng là $C'(4)=\\dfrac{4000\\cdot 4+8000}{2\\sqrt{2000\\cdot 4^2+8000\\cdot 4+8060}}\\approx 44{,}7$."
   },
   {

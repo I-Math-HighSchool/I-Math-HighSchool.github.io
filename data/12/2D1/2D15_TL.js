@@ -20,7 +20,7 @@ window.traLoiNgan2D15 = [
   {
     "id": "2D151TL3",
     "question": "Cho hàm số bậc ba $y=ax^3+bx^2+c$ có đồ thị $(C)$. Biết $(C)$ đi qua điểm $A(-2;2)$ và nhận điểm $B(2;3)$ làm điểm cực trị. Giá trị của $T=a+b+c$ bằng bao nhiêu? (làm tròn kết quả đến hàng phần trăm).",
-    "answer": "3{,}13",
+    "answer": "3,13",
     "explain": "Ta có $y=ax^3+bx^2+c \\Rightarrow y'=3ax^2+2bx$.<br>  Vì $(C)$ đi qua điểm $A(-2;2)$ nên $y(-2)=2 \\Leftrightarrow -8a+4b+c=2$.<br>  Đồ thị $(C)$ nhận điểm $B(2;3)$ làm điểm cực trị nên $y(2)=3 \\Leftrightarrow 8a+4b+c=3$,<br> và $y'(2)=0 \\Leftrightarrow 12a+4b=0$.<br>  Ta có hệ phương trình $-8a+4b+c=2 \\text{ và } 8a+4b+c=3 \\text{ và } 12a+4b=0 \\Leftrightarrow a=\\dfrac{1}{16} \\text{ và } b=\\dfrac{-3}{16} \\text{ và } c=\\dfrac{13}{4}.$<br>  Khi đó $T=a+b+c = \\dfrac{1}{16} + \\dfrac{-3}{16} + \\dfrac{13}{4} =\\dfrac{25}{8} \\approx 3,13 $."
   },
   {
@@ -86,7 +86,7 @@ window.traLoiNgan2D15 = [
   {
     "id": "2D151TL14",
     "question": "Bạn An có một tấm kính thủy tinh hình vuông, cạnh bằng $4$ dm, An muốn cắt ở bốn góc bốn tứ giác (được tô đậm như trong hình), sau đó gập lại để tạo thành một cái bể cá có dạng hình chóp cụt đều với đáy là hình vuông $A B C D$ có cạnh bằng $1$ dm và miệng bể là một hình vuông có cạnh bằng $x$ dm.   <br><img src=\"data/12/2D1/im2D1/2D15_tikz_064.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">    <br><img src=\"data/12/2D1/im2D1/2D15_tikz_065.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi $x$ bằng bao nhiêu đềcimet thì bể cá có thể tích lớn nhất? (kết quả làm tròn đến hàng phần trăm).",
-    "answer": "3{,}18",
+    "answer": "3,18",
     "explain": "Giả sử tấm kính thủy tinh hình vuông có cạnh là $\\ell$.<br>  Khi đó chiều cao mặt bên của hình chóp cụt đều là $H K=\\dfrac{1}{2}(\\ell-1)$.<br>  Suy ra chiều cao của của hình chóp cụt đều là $O O^{\\prime}=H I=\\left(\\dfrac{l-1}{2}\\right)^2-\\left(\\dfrac{x-1}{2}\\right)^2=\\dfrac{1}{2} \\sqrt{(\\ell-1)^2-(x-1)^2}$.<br>  Vậy thể tích của hình chóp cụt đều là $V=\\dfrac{1}{6} \\sqrt{(\\ell-1)^2-(x-1)^2} \\cdot\\left(1+x+x^2\\right)$.<br>  Với $\\ell=4$ ta có  $V=\\dfrac{1}{6} \\sqrt{(4-1)^2-(x-1)^2} \\cdot\\left(1+x+x^2\\right)=\\dfrac{1}{6} \\sqrt{-x^2+2 x+8} \\cdot\\left(1+x+x^2\\right)$ $(1&lt;x&lt;4)$.<br>  Khảo sát hàm số $V(x)$ trên $\\left(1;4\\right)$ ta được $V_{\\max}\\approx 4{,}91 \\Leftrightarrow x=3{,}18$ dm."
   },
   {
@@ -98,7 +98,7 @@ window.traLoiNgan2D15 = [
   {
     "id": "2D151TL16",
     "question": "Cho hàm số $y=\\dfrac{ax+3}{x+b}$ ($a,~ b \\in \\mathbb{R}$) có bảng biến thiên như sau  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Giá trị của $y(1)$ bằng bao nhiêu (làm tròn kết quả đến hàng phần chục)?",
-    "answer": "2{,}5",
+    "answer": "2,5",
     "explain": "Dựa vào bảng biến thiên đã cho ta suy ra $a=2$, $b=1$.<br>  Khi đó $y=\\dfrac{2x+3}{x+1}$ nên $y(1)=2{,}5$."
   },
   {
@@ -110,7 +110,7 @@ window.traLoiNgan2D15 = [
   {
     "id": "2D151TL18",
     "question": "Cho hàm số $y=f(x)=\\dfrac{ax+1}{cx+d}$, ($a$, $c$, $d \\in \\mathbb{R}$) có đồ thị như hình vẽ dưới đây. Tìm giá trị của $f(9)$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_110.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "1{,}9",
+    "answer": "1,9",
     "explain": "Đồ thị hàm số có tiệm cận đứng $x=-1$ nên $-\\dfrac{d}{c}=-1\\Rightarrow d=c$.<br>  Đồ thị hàm số có tiệm cận ngang $y=2$ nên $\\dfrac{a}{c}=2 \\Rightarrow a=2c$.<br>  Với $d=c$ và $a=2c$, ta có $y=f(x)=\\dfrac{2cx+1}{cx+c}$.<br>  Đồ thị hàm đi qua điểm $(0;1)$ nên $1=\\dfrac{2c\\cdot 0+1}{c\\cdot0+c} \\Rightarrow c=1$.<br>  Với $c=1$, ta có $a=2$ và $d=1$. Suy ra $y=f(x)=\\dfrac{2x+1}{x+1}$.<br>  Khi đó $f(9)=1{,}9$."
   },
   {
@@ -146,7 +146,7 @@ window.traLoiNgan2D15 = [
   {
     "id": "2D151TL1",
     "question": "Chú kiến bị lạc tổ, chú đang loay hoay để tìm tổ. Chú đi theo suy đoán và đặt hệ trục tọa độ $Oxy$ thì đường đi của chú có quỹ đạo là một phần đường cong đồ thị hàm số có công thức $y=f(x)=a(x-b)^2$ (với $a$, $b$ là các số thực dương).<br>  Hàm số $y=f(x)$ có tính chất: Với số thực $k$ gọi hàm số $g(k)=\\max\\limits_{[k;k+2]} f(x)-\\min\\limits_{[k;k+2]} f(x)$. Hàm số $g(k)$ thỏa mãn $g(3)=a \\text{ và } g(2)+g(6)=32.$  Biết tổ của chú nằm ngay tại gốc tọa độ $O$. Thời điểm $9$ h sáng chú đang ở vị trí $A$ như hình vẽ.  Khoảng cách giữa chú kiến và tổ của mình là bao nhiêu (kết quả làm tròn đến hàng phần chục)?<br><img src=\"data/12/2D1/im2D15/loc8_TT_KSCL_Cum_lien_013.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "19{,}3",
+    "answer": "19,3",
     "explain": "Ta có $g(3)=\\max\\limits_{[3;5]} f(x)-\\min\\limits_{[3;5]} f(x)=a \\left[ \\max\\limits_{[3;5]} (x-b)^2-\\min\\limits_{[3;5]} (x-b)^2 \\right]$.<br>  Theo giả thiết $g(3)=a \\Leftrightarrow \\max\\limits_{[3;5]} (x-b)^2-\\min\\limits_{[3;5]} (x-b)^2=1$.<br>  +) Nếu $b \\le 3$ thì hàm số $(x-b)^2$ đồng biến trên $[3;5]$, khi đó  $(5-b)^2-(3-b)^2=1 \\Leftrightarrow -4b+16=1 \\Leftrightarrow b=\\dfrac{15}{4} \\text{ (loại vì } b gt; 3).$  +) Nếu $b \\ge 5$ thì hàm số $(x-b)^2$ nghịch biến trên $[3;5]$, khi đó  $(3-b)^2-(5-b)^2=1 \\Leftrightarrow 4b-16=1 \\Leftrightarrow b=\\dfrac{17}{4} \\text{ (loại vì } b lt; 5).$  +) Nếu $3 &lt; b &lt; 5$ thì $\\min\\limits_{[3;5]} (x-b)^2=0$ tại $x=b$. Khi đó  $\\max \\{(3-b)^2; (5-b)^2\\}=1 \\Leftrightarrow (3-b)^2=1 \\text{ hoặc } (5-b)^2=1 \\Leftrightarrow b=2 \\text{ (loại)} \\text{ hoặc } b=4 \\text{ (nhận)} \\text{ hoặc } b=6 \\text{ (loại).}$  Vậy $b=4$.<br>  Lại có  <br>- $g(2)=a \\left[ \\max\\limits_{[2;4]} (x-4)^2-\\min\\limits_{[2;4]} (x-4)^2 \\right]=a \\left[ (2-4)^2-0 \\right]=4a$.<br>- $g(6)=a \\left[ \\max\\limits_{[6;8]} (x-4)^2-\\min\\limits_{[6;8]} (x-4)^2 \\right]=a \\left[ (8-4)^2-(6-4)^2 \\right]=12a$.  Từ giả thiết $g(2)+g(6)=32 \\Leftrightarrow 4a+12a=32 \\Leftrightarrow 16a=32 \\Leftrightarrow a=2$.<br>  Do đó $f(x)=2(x-4)^2$. <br>  Tại vị trí $A$ có hoành độ $x=7$, suy ra tung độ $y_A=f(7)=2(7-4)^2=18 \\Rightarrow A(7; 18)$.<br>  Khoảng cách giữa chú kiến và tổ (gốc $O$) là  $OA=\\sqrt{7^2+18^2}=\\sqrt{373} \\approx 19{,}3.$"
   },
   {

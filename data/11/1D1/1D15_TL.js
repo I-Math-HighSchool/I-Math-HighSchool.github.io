@@ -50,7 +50,7 @@ window.traLoiNgan1D15 = [
   {
     "id": "1D153TL8",
     "question": "Một cái cổng vào một trung tâm thương mại có hình dạng là một phần của đồ thị hàm số $y=2\\cos \\left(\\dfrac{x}{2}\\right)+2$ (<em>tham khảo hình vẽ bên</em>). Gọi $A$, $B$ là hai điểm nằm trên cổng và $C$, $D$ là hai điểm nằm trên mặt nền của cổng sao cho $ABCD$ là hình chữ nhật. Người quản lí trung tâm thương mại muốn lắp một cái cửa kính tự động vào vị trí của hình chữ nhật $ABCD$. Tính diện tích của cái cửa kính cần lắp (<em>làm tròn kết quả đến hàng phần mười</em>), biết chiều cao của cửa kính là $AD=3$ mét.<br><img src=\"data/11/1D1/im1D15/1D15_tikz_004.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "12{,}6",
+    "answer": "12,6",
     "explain": "Do $AD=3$ m nên tung độ của hai điểm $A$, $B$ là $y_A=y_B=3$.<br>  Vì $A$, $B$ thuộc đồ thị hàm số $y=2\\cos\\left(\\dfrac{x}{2}\\right)+2$ nên ta có  $2\\cos\\left(\\dfrac{x}{2}\\right)+2=3$<br>$\\Leftrightarrow \\cos\\left(\\dfrac{x}{2}\\right)=\\dfrac{1}{2}$<br>$\\Leftrightarrow \\dfrac{x}{2}=\\pm \\dfrac{\\pi}{3}+k2\\pi$<br>$\\Leftrightarrow x=\\pm \\dfrac{2\\pi}{3}+k4\\pi \\text{ (với } k\\in \\mathbb{Z}).$  Giả sử $A\\left(-\\dfrac{2\\pi}{3}; 3\\right)$ và $B\\left(\\dfrac{2\\pi}{3}; 3\\right)$.<br>  Chiều rộng của cửa kính là $CD=AB=\\dfrac{4\\pi}{3}$ (m).<br>  Diện tích của cửa kính hình chữ nhật $ABCD$ là  $S_{ABCD}=AD\\cdot CD=3\\cdot \\dfrac{4\\pi}{3}=4\\pi \\approx 12{,}6 \\text{ (m}^2).$"
   },
   {
@@ -68,7 +68,7 @@ window.traLoiNgan1D15 = [
   {
     "id": "1D156TL11",
     "question": "Một chiếc bánh xe nước có dạng hình tròn bán kính $3{,}5\\, \\text{m}$, trục của nó đặt cách mặt nước $3\\, \\text{m}$ (hình bên dưới). Khi bánh xe nước quay đều, khoảng cách $h$ (mét) tính từ một chiếc gầu gắn tại điểm $A$ trên bánh xe nước đến mặt nước là $h = \\left|y\\right|$, trong đó  $y = 3 + 3{,}5 \\sin\\left(2\\pi x - \\dfrac{\\pi}{2}\\right)$  với $x$ là thời gian quay của bánh xe nước ($x \\geq 0$), tính bằng phút; ta quy ước rằng $y &gt; 0$ khi gầu ở trên mặt nước và $y &lt; 0$ khi gầu ở dưới mặt nước. Hỏi chiếc gầu cách mặt nước $3\\, \\text{m}$ lần đầu tiên khi nào? (kết quả làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy).",
-    "answer": "0{,3}",
+    "answer": "0,3",
     "explain": "Giả thiết ta có $h=|y|=3$.  <br>- Trường hợp 1: $y=3$ suy ra $3 + 3{,}5 \\sin\\left(2\\pi x - \\dfrac{\\pi}{2}\\right)=3 $.<br>  Suy ra $ \\sin\\left(2\\pi x - \\dfrac{\\pi}{2}\\right)=0\\Rightarrow 2\\pi x - \\dfrac{\\pi}{2} = k\\pi\\Rightarrow x=\\dfrac{1}{4}+\\dfrac{k}{2}$ với $k \\in \\mathbb{Z}$.<br>  Lần đầu tiên nên $k=0$ suy ra $x=\\dfrac{1}{4}=0{,}25\\approx 0{,}3$ phút.<br>- Trường hợp 2: $y=-3$ suy ra $3 + 3{,}5 \\sin\\left(2\\pi x - \\dfrac{\\pi}{2}\\right)=-3 $.<br>  Suy ra $ \\sin\\left(2\\pi x - \\dfrac{\\pi}{2}\\right)=\\dfrac{-6}{3{,5}}&lt;-1$ nên phương trình vô nghiệm.<br>  Vậy chiếc gầu cách mặt nước $3\\, \\text{m}$ lần đầu tiên sau khoảng $0{,}3$ phút."
   },
   {
@@ -148,12 +148,6 @@ window.traLoiNgan1D15 = [
     "question": "Tính số nghiệm của phương trình $\\cos 3x=0$ trên nửa khoảng $\\left[\\dfrac{\\pi}{6};\\dfrac{37\\pi}{6}\\right)$.",
     "answer": "18",
     "explain": "Ta có $\\cos 3x = 0 \\Leftrightarrow 3x = \\dfrac{\\pi}{2} + k\\pi \\Leftrightarrow x = \\dfrac{\\pi}{6} + \\dfrac{k\\pi}{3}$ với $k\\in\\mathbb{Z}$.<br>  Do $x\\in \\left[\\dfrac{\\pi}{6};\\dfrac{37\\pi}{6}\\right)$ nên $\\dfrac{\\pi}{6} \\le \\dfrac{\\pi}{6} + \\dfrac{k\\pi}{3} &lt; \\dfrac{37\\pi}{6}$ hay $0\\le k &lt; 18$.<br>  Do $k\\in\\mathbb{Z}$ nên phương trình đã cho có $18$ nghiệm."
-  },
-  {
-    "id": "1D153TL25",
-    "question": "Giải phương trình $\\cos \\left(x+\\dfrac{\\pi}{5} \\right) = \\dfrac{1}{2}$.",
-    "answer": "",
-    "explain": "Ta có  $\\cos \\left(x+\\dfrac{\\pi}{5} \\right) = \\dfrac{1}{2}  \\Leftrightarrow \\cos \\left(x+\\dfrac{\\pi}{5} \\right) =\\cos \\left(\\dfrac{\\pi}{3} \\right)$<br>$\\Leftrightarrow x+\\dfrac{\\pi}{5}=\\dfrac{\\pi}{3}+k2\\pi \\text{ hoặc } x+\\dfrac{\\pi}{5}=-\\dfrac{\\pi}{3}+k2\\pi$<br>$\\Leftrightarrow x=\\dfrac{2\\pi}{15}+k2\\pi \\text{ hoặc } x=-\\dfrac{8\\pi}{15}+k2\\pi, \\quad k \\in \\mathbb{Z}.$"
   },
   {
     "id": "1D153TL26",

@@ -7,7 +7,7 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D135TL1",
     "question": "Cho góc lượng giác $x \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ và có $\\sin x = \\dfrac{1}{3}$. Tính giá trị biểu thức $A = \\cos\\left(\\dfrac{\\pi}{4}+x\\right)$ (làm tròn kết quả đến hàng phần chục).",
-    "answer": "-0{,}9",
+    "answer": "-0,9",
     "explain": "Ta có $A = \\cos\\left(\\dfrac{\\pi}{4}+x\\right) = \\cos \\dfrac{\\pi}{4} \\cdot \\cos x - \\sin \\dfrac{\\pi}{4} \\cdot \\sin x = \\dfrac{\\sqrt{2}}{2} \\cos x - \\dfrac{\\sqrt{2}}{2} \\sin x $.<br>  Ta có $\\sin^2 x + \\cos^2 x = 1 \\Leftrightarrow \\cos^2 x = 1 - \\sin^2 x = 1 - \\left( \\dfrac{1}{3}\\right)^2 = \\dfrac{8}{9}$.<br>  Do $x \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ nên $\\cos x = - \\dfrac{2\\sqrt{2}}{3}$.<br>  Do đó $A = \\dfrac{\\sqrt{2}}{2} \\cdot \\left(- \\dfrac{2\\sqrt{2}}{3}\\right) - \\dfrac{\\sqrt{2}}{2} \\cdot \\dfrac{1}{3} = - \\dfrac{4+ \\sqrt{2}}{2} \\approx -0{,}9$."
   },
   {
@@ -25,25 +25,25 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D135TL4",
     "question": "Cho $\\sin\\alpha =\\dfrac{2}{3}$ và $\\cos\\alpha =\\dfrac{\\sqrt{5}}{3}$. Tính giá trị biểu thức $A =\\sin\\left(\\alpha +\\dfrac{\\pi}{3}\\right)$ (<em>làm tròn kết quả đến hàng phần trăm</em>).",
-    "answer": "0{,}98",
+    "answer": "0,98",
     "explain": "Ta có  $A = \\sin\\alpha \\cdot \\cos\\dfrac{\\pi}{3} + \\cos\\alpha \\cdot \\sin\\dfrac{\\pi}{3}$<br>$= \\dfrac{2}{3} \\cdot \\dfrac{1}{2} + \\dfrac{\\sqrt{5}}{3} \\cdot \\dfrac{\\sqrt{3}}{2}$<br>$= \\dfrac{2 + \\sqrt{15}}{6} \\approx 0{,}98.$"
   },
   {
     "id": "1D133TL5",
     "question": "Cho góc $\\alpha$ thỏa mãn $\\cos \\alpha = \\dfrac{-1}{2}$. Giá trị của $\\cos 2\\alpha$ bằng bao nhiêu? (kết quả làm tròn đến chữ số thập phân thứ nhất).",
-    "answer": "-0{,}5",
+    "answer": "-0,5",
     "explain": "Ta có  $\\cos2\\alpha=2\\cos^2\\alpha-1=2\\cdot\\left(-\\dfrac{1}{2}\\right)^2-1=-\\dfrac{1}{2}.$  Vậy $\\cos2\\alpha=-\\dfrac{1}{2}=-0{,}5$."
   },
   {
     "id": "1D135TL6",
     "question": "Cho góc $\\alpha$ thỏa mãn $\\cos\\alpha = -\\dfrac{5}{13}$ và $\\pi &lt; \\alpha &lt; \\dfrac{3\\pi}{2}$. Tính $\\tan\\alpha$ (<em>làm tròn đến hàng phần mười</em>).",
-    "answer": "2{,}4",
+    "answer": "2,4",
     "explain": "Vì $\\pi&lt;\\alpha&lt;\\dfrac{3\\pi}{2}$ nên $\\alpha$ thuộc góc phần tư thứ III, do đó $\\sin\\alpha&lt;0$, $\\cos\\alpha&lt;0$ và $\\tan\\alpha&gt;0$.<br>   Ta có  \\[  \\sin^2\\alpha=1-\\cos^2\\alpha  =1-\\dfrac{25}{169}=\\dfrac{144}{169}  \\Rightarrow \\sin\\alpha=-\\dfrac{12}{13}.  \\]  Suy ra  \\[  \\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}  =\\dfrac{-12/13}{-5/13}=\\dfrac{12}{5}=2{,}4.  \\]  Vậy $\\tan\\alpha = 2{,}4$."
   },
   {
     "id": "1D135TL7",
     "question": "Biết $\\cos x\\cdot\\cos(60^{\\circ}-x)\\cdot\\cos(60^{\\circ}+x)=k\\cdot\\cos 3x$ với $k\\in\\mathbb{R}$. Giá trị của $\\sin(k\\pi)$ là bao nhiêu (làm tròn kết quả đến hàng phần trăm)?",
-    "answer": "0{,}71",
+    "answer": "0,71",
     "explain": "Ta có  $P = \\cos x \\cdot \\cos(60^{\\circ}-x) \\cdot \\cos(60^{\\circ}+x)$<br>$= \\cos x \\cdot \\dfrac{1}{2} \\left[\\cos(60^{\\circ}-x + 60^{\\circ}+x) + \\cos(60^{\\circ}-x - (60^{\\circ}+x))\\right]$<br>$= \\dfrac{1}{2} \\cos x \\cdot [\\cos 120^{\\circ} + \\cos(-2x)]$<br>$= \\dfrac{1}{2} \\cos x \\cdot \\left( -\\dfrac{1}{2} + \\cos 2x \\right)$<br>$= -\\dfrac{1}{4} \\cos x + \\dfrac{1}{2} \\cos 2x \\cos x$<br>$= -\\dfrac{1}{4} \\cos x + \\dfrac{1}{2} \\cdot \\dfrac{1}{2} (\\cos 3x + \\cos x)$<br>$= -\\dfrac{1}{4} \\cos x + \\dfrac{1}{4} \\cos 3x + \\dfrac{1}{4} \\cos x$<br>$= \\dfrac{1}{4} \\cos 3x.$  Suy ra $k=-\\dfrac{1}{4}$.<br>  Giá trị của $\\sin(k\\pi)=\\sin \\left(\\dfrac{\\pi}{4}\\right)=\\dfrac{\\sqrt{2}}{2}\\approx 0{,}71$."
   },
   {
@@ -91,13 +91,13 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D133TL15",
     "question": "Cho $\\sin x=\\dfrac{2}{3}$. Tính giá trị của biểu thức $A=\\cos 2x+1$ (<em>làm tròn kết quả đến hàng phần trăm</em>).",
-    "answer": "1{,}11",
+    "answer": "1,11",
     "explain": "Ta có $\\cos 2x=1-2\\sin^2x$.<br>  Suy ra $A=\\cos 2x+1=1-2\\sin^2x+1=2-2\\sin^2x$.<br>  Thay $\\sin x=\\dfrac{2}{3}$ vào biểu thức trên, ta được  \\[A=2-2\\cdot\\left(\\dfrac{2}{3}\\right)^2=2-2\\cdot\\dfrac{4}{9}= 2-\\dfrac{8}{9}=\\dfrac{18-8}{9} = \\dfrac{10}{9} \\approx 1{,}11.\\]"
   },
   {
     "id": "1D135TL16",
     "question": "Cho $\\cos x=-\\dfrac{\\sqrt{3}}{3}$ và $-\\pi &lt; x &lt;-\\dfrac{\\pi}{2}$. Giá trị của biểu thức $T=9 \\sin(x+2025\\pi)+\\sqrt{3} \\tan (2025\\pi-x)$ bằng bao nhiêu (<em>làm tròn kết quả đến hàng phần trăm</em>)?",
-    "answer": "4{,}9",
+    "answer": "4,9",
     "explain": "Ta có  $\\sin^2 x+\\cos^2 x=1$<br>$\\Rightarrow \\sin^2 x=1-\\cos^2 x=1-\\left(-\\dfrac{\\sqrt{3}}{3}\\right)^2=1-\\dfrac{1}{3}=\\dfrac{2}{3}$<br>$\\Rightarrow \\sin x=\\sqrt{\\dfrac{2}{3}} \\text{ hoặc } \\sin x=-\\sqrt{\\dfrac{2}{3}}.$  Vì $-\\pi &lt; x &lt;-\\dfrac{\\pi}{2}$ nên $\\sin x=-\\sqrt{\\dfrac{2}{3}}$.<br>  Khi đó  $T = 9 \\sin(x+2025\\pi)+\\sqrt{3} \\tan (2025\\pi-x)$<br>$= 9\\sin(x+\\pi) + \\sqrt{3}\\tan(\\pi-x)$<br>$= -9\\sin x-\\sqrt{3}\\tan x$<br>$= -9\\sin x-\\sqrt{3}\\cdot\\dfrac{\\sin x}{\\cos x}$<br>$= -9\\cdot\\left(-\\sqrt{\\dfrac{2}{3}}\\right)-\\sqrt{3}\\cdot\\dfrac{-\\sqrt{\\dfrac{2}{3}}}{\\dfrac{-\\sqrt{3}}{3}}$<br>$\\approx 4{,}9.$"
   },
   {
@@ -109,7 +109,7 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D137TL18",
     "question": "[Chuyên Vĩnh Phúc - Phú Thọ]  Trong Vật lí, phương trình tổng quát của một vật dao động điều hoà cho bởi công thức $x(t)=A\\cos(\\omega t+\\varphi)$, trong đó $t$ là thời điểm (tính bằng giây), $x(t)$ là li độ của vật tại thời điểm $t$, $A$ là biên độ dao động ($A&gt;0$) và $\\varphi\\in[-\\pi;\\pi]$ là pha ban đầu của dao động. Xét hai dao động điều hoà có phương trình  \\[  x_1(t)=3\\cdot \\cos\\left(\\dfrac{\\pi}{6}t+\\dfrac{\\pi}{6}\\right)\\ \\text{cm},\\quad  x_2(t)=3\\cdot \\cos\\left(\\dfrac{\\pi}{6}t+\\dfrac{\\pi}{4}\\right)\\ \\text{cm}.  \\]  Biết dao động tổng hợp $x(t)=x_1(t)+x_2(t)$. Biên độ của dao động tổng hợp này là <em>(kết quả làm tròn đến hàng phần mười)</em>.",
-    "answer": "5{,}9",
+    "answer": "5,9",
     "explain": "Đặt $\\omega=\\dfrac{\\pi}{6}$, $\\varphi_1=\\dfrac{\\pi}{6}$, $\\varphi_2=\\dfrac{\\pi}{4}$. Khi đó  $x(t) =3\\cos(\\omega t+\\varphi_1)+3\\cos(\\omega t+\\varphi_2).$<br>$=6\\cos\\left(\\dfrac{\\varphi_1-\\varphi_2}{2}\\right) \\cdot\\cos\\left(\\omega t+\\dfrac{\\varphi_1+\\varphi_2}{2}\\right).$  Do đó biên độ dao động là \\[  A=6\\left|\\cos\\left(\\dfrac{\\varphi_1-\\varphi_2}{2}\\right)\\right|  =6\\left|\\cos\\left(\\dfrac{\\dfrac{\\pi}{6}-\\dfrac{\\pi}{4}}{2}\\right)\\right|  =6\\cos\\left(\\dfrac{\\pi}{24}\\right)  \\approx 5{,}9.  \\]  Vậy biên độ của dao động tổng hợp này là $5{,}9$."
   },
   {
@@ -127,7 +127,7 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D133TL21",
     "question": "Cho $\\sin a=\\dfrac{3}{5}$, $0^\\circ&lt;a&lt;90^\\circ$. Giá trị $E=\\sin 2a+\\cos 2a$ bằng bao nhiêu?",
-    "answer": "1{,}24",
+    "answer": "1,24",
     "explain": "Vì $0^\\circ&lt;a&lt;90^\\circ$ nên $\\cos a&gt;0$.  <br>  Ta có $\\cos a=\\sqrt{1-\\sin^2a}=\\sqrt{1-\\left(\\dfrac{3}{5}\\right)^2}=\\dfrac{4}{5}$.  <br>  Tính các giá trị lượng giác của góc $2a$  $\\sin 2a=2\\sin a\\cos a=2\\cdot\\dfrac{3}{5}\\cdot\\dfrac{4}{5}=\\dfrac{24}{25}.$<br>$\\cos 2a=\\cos^2a-\\sin^2a=\\left(\\dfrac{4}{5}\\right)^2-\\left(\\dfrac{3}{5}\\right)^2=\\dfrac{16}{25}-\\dfrac{9}{25}=\\dfrac{7}{25}.$  Giá trị của biểu thức $E$  \\[E=\\dfrac{24}{25}+\\dfrac{7}{25}=\\dfrac{31}{25}=1{,}24. \\]"
   },
   {
@@ -157,7 +157,7 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D133TL26",
     "question": "Biết $\\sin \\alpha=\\dfrac{1}{3}$, khi đó $\\cos 2\\alpha$ có giá trị bằng bao nhiêu? (làm tròn kết quả đến phần mười)",
-    "answer": "0{,}8",
+    "answer": "0,8",
     "explain": "Ta có $\\cos 2\\alpha=1-2\\sin^2\\alpha=1-2\\cdot \\left(\\dfrac{1}{3}\\right)^2=\\dfrac{7}{9}\\approx 0{,}8$."
   },
   {
@@ -169,7 +169,7 @@ window.traLoiNgan1D13 = [
   {
     "id": "1D135TL28",
     "question": "Cho hai góc $\\alpha $ và $\\beta $ thỏa mãn $\\sin\\alpha=\\dfrac{3}{5}$, $\\left(\\dfrac{\\pi}{2}&lt;\\alpha &lt;\\pi\\right)$ và $\\cos\\beta=\\dfrac{12}{13}$, $\\left(0&lt;\\beta &lt;\\dfrac{\\pi}{2}\\right)$. Tính giá trị của $\\sin\\left(\\alpha-\\beta\\right)$. (làm tròn kết quả đến hàng phần trăm)",
-    "answer": "0{,}86",
+    "answer": "0,86",
     "explain": "Ta có $\\sin^2 \\alpha + \\cos^2 \\alpha = 1 \\Rightarrow \\cos^2 \\alpha = 1 - \\left(\\dfrac{3}{5}\\right)^2 = \\dfrac{16}{25}$.<br>  Vì $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$ nên $\\cos \\alpha = -\\dfrac{4}{5}$.<br>  Ta có $\\sin^2 \\beta + \\cos^2 \\beta = 1 \\Rightarrow \\sin^2 \\beta = 1 - \\left(\\dfrac{12}{13}\\right)^2 = \\dfrac{25}{169}$.<br>  Vì $0 &lt; \\beta &lt; \\dfrac{\\pi}{2}$ nên $\\sin \\beta = \\dfrac{5}{13}$.<br>  $\\sin(\\alpha - \\beta) = \\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta = \\dfrac{3}{5} \\cdot \\dfrac{12}{13} - \\left(-\\dfrac{4}{5}\\right) \\cdot \\dfrac{5}{13} = \\dfrac{36}{65} + \\dfrac{20}{65} = \\dfrac{56}{65}\\approx 0{,}86$."
   },
   {

@@ -14,7 +14,7 @@ window.traLoiNgan1H45 = [
   {
     "id": "1H452TL2",
     "question": "Cho hình lăng trụ $ABC.A'B'C'$ có đáy là tam giác đều cạnh $2$.   Hình chiếu vuông góc của $A'$ lên mặt phẳng $(ABC)$ trùng với trọng tâm tam giác $ABC$.   Biết khoảng cách giữa hai đường thẳng $AA'$ và $BC$ bằng $\\dfrac{\\sqrt{3}}{2}$.   Tính thể tích $V$ của khối lăng trụ $ABC.A'B'C'$ (kết quả làm tròn đến hàng phần trăm).",
-    "answer": "1{,}15",
+    "answer": "1,15",
     "explain": "<br><img src=\"data/11/1H4/im1H45/loc8_TT_THPT_Chuyen_B_016.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $G$ là trọng tâm tam giác $ABC$, $I$ là trung điểm $BC$, $K$ và $J$ lần lượt là hình chiếu vuông góc hạ từ $I$ và $G$ xuống $AA'$.<br>  Ta có $BC\\perp AI$ (do $AI$ là đường trung tuyến trong tam giác $ABC$ đều) và $BC\\perp A'G$ nên $BC\\perp (AIA')$, suy ra $BC\\perp IK$. Do đó $IK=\\mathrm{d}(AA',BC)=\\dfrac{\\sqrt{3}}{2}$.<br>  Ta có $AG=\\dfrac{2}{3}AI=\\dfrac{2\\sqrt{3}}{3}$ và $\\dfrac{JG}{IK}=\\dfrac{AG}{AI}=\\dfrac{2}{3}$. Suy ra $JG=\\dfrac{2}{3}IK=\\dfrac{\\sqrt{3}}{3}$.<br>  Xét tam giác $AGA'$ có $\\dfrac{1}{GJ^2}=\\dfrac{1}{GA^2}+\\dfrac{1}{GA'^2}\\Leftrightarrow \\dfrac{1}{\\left( \\dfrac{\\sqrt{3}}{3}\\right)^2 }=\\dfrac{1}{\\left(\\dfrac{2\\sqrt{3}}{3} \\right)^2 }+\\dfrac{1}{GA'^2}$.<br> Suy ra $GA'=\\dfrac{2}{3}$.<br>  Vậy $V_{ABC.A'B'C'}=GA'\\cdot S_{ABC}=\\dfrac{2}{3}\\cdot \\dfrac{\\sqrt{3}}{4}\\cdot 2^2=\\dfrac{2\\sqrt{3}}{3}\\approx 1{,}15$."
   }
 ];

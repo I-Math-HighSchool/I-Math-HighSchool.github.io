@@ -38,7 +38,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle\\int[f(x)+g(x)] \\mathrm{\\,d} x =\\displaystyle \\int f(x) \\mathrm{\\,d} x +\\displaystyle\\int g(x) \\mathrm{\\,d} x$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Các tính chất đúng của nguyên hàm: $\\displaystyle\\int[f(x)+g(x)]\\mathrm{\\,d}x=\\int f(x)\\mathrm{\\,d}x+\\int g(x)\\mathrm{\\,d}x$ (đáp án D đúng), $\\displaystyle\\int k f(x)\\mathrm{\\,d}x=k\\int f(x)\\mathrm{\\,d}x$ với $k\\ne 0$ (đáp án A đúng), $\\displaystyle\\int f'(x)\\mathrm{\\,d}x=f(x)+C$ (đáp án C đúng).<br>Không có công thức nào cho nguyên hàm của một TÍCH bằng tích hai nguyên hàm, nên mệnh đề ở đáp án B là mệnh đề sai."
   },
   {
     "id": "2D411TN4",
@@ -110,7 +110,7 @@ window.tracNghiem2D41 = [
       "\\(\\dfrac{x^3}{3}+3\\ln |x|+\\dfrac{4}{3}\\sqrt{x^3}+C\\)"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int x^2\\,\\mathrm{d}x=\\dfrac{x^3}{3}$, $\\displaystyle\\int \\dfrac{3}{x}\\,\\mathrm{d}x=3\\ln|x|$, $\\displaystyle\\int 2\\sqrt{x}\\,\\mathrm{d}x=\\dfrac{4}{3}\\sqrt{x^3}$.<br>Vậy $\\displaystyle\\int\\left(x^2+\\dfrac{3}{x}-2\\sqrt{x}\\right)\\mathrm{d}x=\\dfrac{x^3}{3}+3\\ln|x|-\\dfrac{4}{3}\\sqrt{x^3}+C$."
   },
   {
     "id": "2D411TN10",
@@ -122,7 +122,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{\\sqrt{\\left( 2x+3 \\right)^3}}{3}+C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Áp dụng công thức $\\displaystyle\\int\\sqrt{ax+b}\\,\\mathrm{d}x=\\dfrac{2}{3a}\\sqrt{(ax+b)^3}+C$ với $a=2,b=3$:<br>$\\displaystyle\\int\\sqrt{2x+3}\\,\\mathrm{d}x=\\dfrac{2}{3\\cdot 2}\\sqrt{(2x+3)^3}+C=\\dfrac{1}{3}\\sqrt{(2x+3)^3}+C=\\dfrac{\\sqrt{(2x+3)^3}}{3}+C$."
   },
   {
     "id": "2D411TN11",
@@ -134,7 +134,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle\\int\\sin 2x\\mathrm{\\,d} x=2\\cos 2x+C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Kiểm tra từng mệnh đề: $\\displaystyle\\int\\dfrac{1}{2x}\\mathrm{\\,d}x=\\dfrac{1}{2}\\ln|x|+C$ (đúng); $\\displaystyle\\int e^{2x}\\mathrm{\\,d}x=\\dfrac{1}{2}e^{2x}+C$ (đúng); $\\displaystyle\\int 3x^2\\mathrm{\\,d}x=x^3+C$ (đúng); còn $\\displaystyle\\int \\sin 2x\\,\\mathrm{d}x=-\\dfrac{1}{2}\\cos 2x+C$, khác với $2\\cos 2x+C$ đã nêu. Vậy mệnh đề sai là đáp án D."
   },
   {
     "id": "2D411TN12",
@@ -146,7 +146,7 @@ window.tracNghiem2D41 = [
       "$ x^{\\sqrt 2 +1}+C$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Áp dụng công thức $\\displaystyle\\int x^{\\alpha}\\mathrm{\\,d}x=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C$ (với $\\alpha\\ne -1$) cho $\\alpha=\\sqrt2$:<br>$\\displaystyle\\int x^{\\sqrt2}\\mathrm{\\,d}x=\\dfrac{x^{\\sqrt2+1}}{\\sqrt2+1}+C$."
   },
   {
     "id": "2D411TN13",
@@ -158,7 +158,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle\\int\\limits g(x) \\textrm{d}x=3.\\ln(4-5x)+C$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Đặt $u=4-5x\\Rightarrow \\mathrm{d}u=-5\\,\\mathrm{d}x$.<br>$\\displaystyle\\int\\dfrac{3}{4-5x}\\mathrm{\\,d}x=\\int\\dfrac{3}{u}\\cdot\\left(-\\dfrac{\\mathrm{d}u}{5}\\right)=-\\dfrac{3}{5}\\int\\dfrac{\\mathrm{d}u}{u}=-\\dfrac{3}{5}\\ln|u|+C=-\\dfrac{3}{5}\\ln|4-5x|+C$."
   },
   {
     "id": "2D411TN14",
@@ -170,7 +170,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{1}{2\\sqrt{2x}}+C$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Đặt $u=2x\\Rightarrow \\mathrm{d}u=2\\,\\mathrm{d}x$.<br>$\\displaystyle\\int\\dfrac{1}{\\sqrt{2x}}\\mathrm{\\,d}x=\\int\\dfrac{1}{\\sqrt u}\\cdot\\dfrac{\\mathrm{d}u}{2}=\\dfrac{1}{2}\\cdot 2\\sqrt u+C=\\sqrt{2x}+C$."
   },
   {
     "id": "2D411TN15",
@@ -182,7 +182,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle \\int f(x) \\, \\textrm{d}x = 3 \\sqrt{x^3}-\\dfrac{1}{x}+C$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle\\int 3\\sqrt{x}\\,\\mathrm{d}x=3\\cdot\\dfrac{2}{3}\\sqrt{x^3}=2\\sqrt{x^3}$ và $\\displaystyle\\int\\left(-\\dfrac{1}{x^2}\\right)\\mathrm{d}x=\\dfrac{1}{x}$.<br>Vậy $\\displaystyle\\int f(x)\\,\\mathrm{d}x=2\\sqrt{x^3}+\\dfrac{1}{x}+C$."
   },
   {
     "id": "2D411TN16",
@@ -266,7 +266,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{1}{3}\\cos(1 - 3x) + C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Đặt $u=1-3x\\Rightarrow \\mathrm{d}u=-3\\,\\mathrm{d}x$.<br>$\\displaystyle\\int\\sin(1-3x)\\mathrm{\\,d}x=\\int \\sin u \\cdot\\left(-\\dfrac{\\mathrm{d}u}{3}\\right)=\\dfrac{1}{3}\\cos u+C=\\dfrac{1}{3}\\cos(1-3x)+C$."
   },
   {
     "id": "2D413TN23",
@@ -362,7 +362,7 @@ window.tracNghiem2D41 = [
       "-539"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Nhân lượng liên hợp: $f'(x)=\\dfrac{9}{\\sqrt{2x+1}-\\sqrt{2x-2}}=\\dfrac{9\\left(\\sqrt{2x+1}+\\sqrt{2x-2}\\right)}{(2x+1)-(2x-2)}=3\\left(\\sqrt{2x+1}+\\sqrt{2x-2}\\right)$.<br>Suy ra $f(x)=(2x+1)\\sqrt{2x+1}\\cdot\\dfrac{1}{3}\\cdot 3+\\ldots$, cụ thể $f(x)=(2x+1)^{3/2}+(2x-2)^{3/2}+C$.<br>Với $x=3$: $f(3)=7^{3/2}+4^{3/2}+C=7\\sqrt7+8+C=7\\sqrt7\\Rightarrow C=-8$.<br>Vậy $f(x)=(2x+1)^{3/2}+(2x-2)^{3/2}-8$, nên $f(1)=3^{3/2}+0-8=3\\sqrt3-8$, tức $a=-8,\\ b=3,\\ c=3$.<br>Vậy $a^3+b^3=(-8)^3+3^3=-512+27=-485$."
   },
   {
     "id": "2D411TN31",
@@ -374,7 +374,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{3}{2}x\\sqrt{x} + \\dfrac{3}{2}(x+2)\\sqrt{x+2} - x+ C$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Nhân lượng liên hợp: $f(x)=\\dfrac{1}{(x+2)\\sqrt x-x\\sqrt{x+2}}=\\dfrac{(x+2)\\sqrt x+x\\sqrt{x+2}}{x(x+2)\\left[(x+2)-x\\right]}=\\dfrac{(x+2)\\sqrt x+x\\sqrt{x+2}}{2x(x+2)}=\\dfrac{1}{2\\sqrt x}+\\dfrac{1}{2\\sqrt{x+2}}$.<br>Suy ra $F(x)=\\sqrt x+\\sqrt{x+2}+C_0$. Với $F(1)=\\sqrt3$: $1+\\sqrt3+C_0=\\sqrt3\\Rightarrow C_0=-1$, nên $F(x)=\\sqrt x+\\sqrt{x+2}-1$.<br>Do đó $\\displaystyle\\int F(x)\\mathrm{\\,d}x=\\int\\left(\\sqrt x+\\sqrt{x+2}-1\\right)\\mathrm{d}x=\\dfrac{2}{3}x\\sqrt x+\\dfrac{2}{3}(x+2)\\sqrt{x+2}-x+C$."
   },
   {
     "id": "2D413TN32",
@@ -398,7 +398,7 @@ window.tracNghiem2D41 = [
       "$ \\ln |3x+2| +C$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Đặt $u=3x+2\\Rightarrow \\mathrm{d}u=3\\,\\mathrm{d}x$.<br>$\\displaystyle\\int\\dfrac{1}{3x+2}\\mathrm{\\,d}x=\\int\\dfrac{1}{u}\\cdot\\dfrac{\\mathrm{d}u}{3}=\\dfrac{1}{3}\\ln|u|+C=\\dfrac{1}{3}\\ln|3x+2|+C$."
   },
   {
     "id": "2D413TN34",
@@ -506,7 +506,7 @@ window.tracNghiem2D41 = [
       "$F(\\pi) =\\pi - 3$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Ta có $F(x)=x^2-3\\sin x+C$.<br>Với $F\\left(\\dfrac{\\pi}{2}\\right)=\\dfrac{\\pi^2}{4}-3\\sin\\dfrac{\\pi}{2}+C=\\dfrac{\\pi^2}{4}-3+C=\\dfrac{\\pi^2}{4}\\Rightarrow C=3$.<br>Vậy $F(x)=x^2-3\\sin x+3$, nên $F(\\pi)=\\pi^2-3\\sin\\pi+3=\\pi^2+3$."
   },
   {
     "id": "2D412TN43",
@@ -578,7 +578,7 @@ window.tracNghiem2D41 = [
       "$f(5)=-2\\ln2 $"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\displaystyle f(x)=\\int\\dfrac{1}{1-x}\\mathrm{\\,d}x=-\\ln|1-x|+C$.<br>Với $f(2)=-\\ln|{-1}|+C=0+C=0\\Rightarrow C=0$, nên $f(x)=-\\ln|1-x|$.<br>Vậy $f(5)=-\\ln|1-5|=-\\ln 4=-2\\ln 2$."
   },
   {
     "id": "2D413TN49",
@@ -686,7 +686,7 @@ window.tracNghiem2D41 = [
       "$I=\\displaystyle\\int u^5 \\mathrm{\\, d} u$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Với $u=4x^4-3\\Rightarrow \\mathrm{d}u=16x^3\\,\\mathrm{d}x\\Rightarrow x^3\\,\\mathrm{d}x=\\dfrac{\\mathrm{d}u}{16}$.<br>$\\displaystyle I=\\int x^3(4x^4-3)^5\\mathrm{\\,d}x=\\int u^5\\cdot\\dfrac{\\mathrm{d}u}{16}=\\dfrac{1}{16}\\int u^5\\,\\mathrm{d}u$."
   },
   {
     "id": "2D415TN58",
@@ -698,7 +698,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{1}{33}{\\left(\\dfrac{x-2}{x+1}\\right)}^{11} +C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{\\mathrm{d}}{\\mathrm{d}x}\\left[\\left(\\dfrac{x-2}{x+1}\\right)^{11}\\right]=11\\left(\\dfrac{x-2}{x+1}\\right)^{10}\\cdot\\dfrac{(x+1)-(x-2)}{(x+1)^2}=11\\left(\\dfrac{x-2}{x+1}\\right)^{10}\\cdot\\dfrac{3}{(x+1)^2}=\\dfrac{33(x-2)^{10}}{(x+1)^{12}}$.<br>Suy ra $\\displaystyle\\int\\dfrac{(x-2)^{10}}{(x+1)^{12}}\\mathrm{\\,d}x=\\dfrac{1}{33}\\left(\\dfrac{x-2}{x+1}\\right)^{11}+C$."
   },
   {
     "id": "2D415TN59",
@@ -794,7 +794,7 @@ window.tracNghiem2D41 = [
       "$-\\dfrac{1}{3}\\ln 2 -2$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Đặt $u=1+3\\cos x\\Rightarrow \\mathrm{d}u=-3\\sin x\\,\\mathrm{d}x$.<br>$\\displaystyle F(x)=\\int\\dfrac{\\sin x}{1+3\\cos x}\\mathrm{\\,d}x=\\int\\dfrac{1}{u}\\cdot\\left(-\\dfrac{\\mathrm{d}u}{3}\\right)=-\\dfrac{1}{3}\\ln|u|+C=-\\dfrac{1}{3}\\ln|1+3\\cos x|+C$.<br>Với $x=\\dfrac{\\pi}{2}$: $\\cos\\dfrac{\\pi}{2}=0$ nên $F\\left(\\dfrac{\\pi}{2}\\right)=-\\dfrac13\\ln 1+C=C=2$.<br>Vậy $F(x)=-\\dfrac13\\ln|1+3\\cos x|+2$, nên $F(0)=-\\dfrac13\\ln4+2=-\\dfrac23\\ln2+2$."
   },
   {
     "id": "2D414TN67",
@@ -950,7 +950,7 @@ window.tracNghiem2D41 = [
       "$\\big(x^2+ x\\big)\\mathrm{e}^{x}$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Thử $F(x)=x^2e^x$: $F'(x)=2xe^x+x^2e^x=(x^2+2x)e^x=f(x)$.<br>Vậy $x^2e^x$ là một nguyên hàm của $f(x)$."
   },
   {
     "id": "2D413TN80",
@@ -1010,7 +1010,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle \\int f(x)\\,dx=\\dfrac{1}{2}\\ln\\biggl|\\dfrac{x+2}{x}\\biggr|+C$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Phân tích $\\dfrac{1}{x(x+2)}=\\dfrac12\\left(\\dfrac1x-\\dfrac1{x+2}\\right)$ (đồng nhất hệ số).<br>$\\displaystyle\\int f(x)\\mathrm{\\,d}x=\\dfrac12\\ln|x|-\\dfrac12\\ln|x+2|+C=\\dfrac12\\ln\\left|\\dfrac{x}{x+2}\\right|+C$."
   },
   {
     "id": "2D412TN85",
@@ -1022,7 +1022,7 @@ window.tracNghiem2D41 = [
       "$x+2\\ln |x| -\\dfrac{1}{x}+C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $\\dfrac{(x+1)^2}{x^2}=\\dfrac{x^2+2x+1}{x^2}=1+\\dfrac2x+\\dfrac1{x^2}$.<br>$\\displaystyle\\int\\left(1+\\dfrac2x+\\dfrac1{x^2}\\right)\\mathrm{d}x=x+2\\ln|x|-\\dfrac1x+C$."
   },
   {
     "id": "2D412TN86",
@@ -1034,7 +1034,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{1}{2} \\ln \\left| \\dfrac{2x+1}{x+1} \\right| +C $"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $2x^2+3x+1=(2x+1)(x+1)$. Phân tích $\\dfrac{1}{(2x+1)(x+1)}=\\dfrac{2}{2x+1}-\\dfrac{1}{x+1}$ (đồng nhất hệ số).<br>$\\displaystyle\\int f(x)\\mathrm{\\,d}x=\\ln|2x+1|-\\ln|x+1|+C=\\ln\\left|\\dfrac{2x+1}{x+1}\\right|+C$."
   },
   {
     "id": "2D412TN87",
@@ -1046,7 +1046,7 @@ window.tracNghiem2D41 = [
       "$\\dfrac{x^2}{2}-x+2\\ln\\left|x+1\\right|+C$"
     ],
     "answer": 2,
-    "explain": ""
+    "explain": "Chia đa thức: $x^2+2x+3=(x+1)^2+2$, nên $\\dfrac{x^2+2x+3}{x+1}=(x+1)+\\dfrac{2}{x+1}$.<br>$\\displaystyle\\int\\left[(x+1)+\\dfrac2{x+1}\\right]\\mathrm{d}x=\\dfrac{(x+1)^2}{2}+2\\ln|x+1|+C$."
   },
   {
     "id": "2D412TN88",
@@ -1058,7 +1058,7 @@ window.tracNghiem2D41 = [
       "$\\ln\\dfrac{1}{x - 2} - \\ln\\dfrac{1}{x - 1} + C$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Ta có $x^2-3x+2=(x-1)(x-2)$. Phân tích $\\dfrac1{(x-1)(x-2)}=\\dfrac{-1}{x-1}+\\dfrac1{x-2}$ (đồng nhất hệ số).<br>$\\displaystyle\\int\\dfrac{\\mathrm{d}x}{x^2-3x+2}=-\\ln|x-1|+\\ln|x-2|+C=\\ln\\left|\\dfrac{x-2}{x-1}\\right|+C$."
   },
   {
     "id": "2D412TN89",
@@ -1070,7 +1070,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle\\int f(x)\\textrm{d}x=\\ln\\left|x^2-16\\right|+C$"
     ],
     "answer": 1,
-    "explain": ""
+    "explain": "Đặt $u=x^2-16\\Rightarrow \\mathrm{d}u=2x\\,\\mathrm{d}x$.<br>$\\displaystyle\\int\\dfrac{x}{x^2-16}\\mathrm{\\,d}x=\\int\\dfrac1u\\cdot\\dfrac{\\mathrm{d}u}{2}=\\dfrac12\\ln|u|+C=\\dfrac12\\ln\\left|x^2-16\\right|+C$."
   },
   {
     "id": "2D412TN90",
@@ -1082,7 +1082,7 @@ window.tracNghiem2D41 = [
       "$F(x) = 2\\ln\\vert x + 1\\vert - \\ln\\vert x + 2\\vert + C$"
     ],
     "answer": 3,
-    "explain": ""
+    "explain": "Ta có $x^2+3x+2=(x+1)(x+2)$. Phân tích $\\dfrac{x+3}{(x+1)(x+2)}=\\dfrac{2}{x+1}-\\dfrac{1}{x+2}$ (đồng nhất hệ số).<br>$\\displaystyle\\int f(x)\\mathrm{\\,d}x=2\\ln|x+1|-\\ln|x+2|+C$."
   },
   {
     "id": "2D412TN91",

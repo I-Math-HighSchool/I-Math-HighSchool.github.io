@@ -38,7 +38,7 @@ window.traLoiNgan2D14 = [
   {
     "id": "2D141TL6",
     "question": "Tiệm cận xiên của đồ thị hàm số $y = \\dfrac{2x^2+3x+2}{x+1}$ có dạng $y = ax+b$, tính $18a+1\\,989b$.",
-    "answer": "2\\,025",
+    "answer": "2025",
     "explain": "Thực hiện phép chia đa thức  \\[  \\dfrac{2x^2+3x+2}{x+1}=2x+1+\\dfrac{1}{x+1}.  \\]  Do đó tiệm cận xiên là $y=2x+1$, suy ra $a=2$, $b=1$.<br>   Vậy $18a+1\\,989b=18\\cdot2+1\\,989\\cdot1=36+1\\,989=2\\,025$."
   },
   {
@@ -104,7 +104,7 @@ window.traLoiNgan2D14 = [
   {
     "id": "2D141TL17",
     "question": "Biết rằng tiệm cận xiên của đồ thị hàm số $y=\\dfrac{2x^2-x+3}{x-1}$ đi qua điểm $A(a;0)$. Giá trị của $a$ bằng bao nhiêu?",
-    "answer": "-0{,}5",
+    "answer": "-0,5",
     "explain": "Điều kiện $x \\ne 1$.<br>  Ta có $y=\\dfrac{2x^2-x+3}{x-1}=2x+1+\\dfrac{4}{x-1}$.<br>  Suy ra $\\lim\\limits_{x \\to +\\infty}[f(x)-(2x+1)]=\\lim\\limits_{x \\to +\\infty}\\dfrac{4}{x-1}=0$.<br>  Do đó $y=2x+1$ là tiệm cận xiên của đồ thị hàm số.<br>  Vì tiệm cận xiên đi qua điểm $A(a;0)$ nên ta có<br>  $0=2a+1 \\Leftrightarrow a=-\\dfrac{1}{2}=-0{,}5$."
   },
   {
@@ -134,7 +134,7 @@ window.traLoiNgan2D14 = [
   {
     "id": "2D144TL22",
     "question": "Số lượng sản phầm bán được của một công ty trong $x$ (tháng) được tính theo công thức $S(x)=250\\left(4-\\dfrac{9}{3+x}\\right)$, trong đó $x \\geq 1$. Khi $x$ càng lớn thì số lượng sản phầm bán được của công ty đó trong $x$ (tháng) sẽ tiến gần đến bao nhiêu sản phảm?",
-    "answer": "1\\,000",
+    "answer": "1000",
     "explain": "Ta có $\\lim\\limits_{x\\to +\\infty} S(x)=\\lim\\limits_{x\\to +\\infty} 250\\left(4-\\dfrac{9}{3+x}\\right)=1\\,000$.<br>  Vậy khi $x$ càng lớn thì số lượng sản phẩm bán được của công ty đó sẽ tiến gần tới $1\\,000$ sản phẩm."
   },
   {

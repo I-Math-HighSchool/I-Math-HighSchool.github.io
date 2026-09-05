@@ -783,7 +783,7 @@ window.tracNghiem2D13 = [
       "$1$"
     ],
     "answer": 0,
-    "explain": ""
+    "explain": "Xét hàm số $y=\\sqrt{4x-x^2}$ với $x\\in[0;4]$.<br>Ta có $4x-x^2=4-(x-2)^2\\le 4$ với mọi $x$, dấu bằng xảy ra khi $x=2\\in[0;4]$.<br>Do đó $y=\\sqrt{4x-x^2}\\le \\sqrt{4}=2$, dấu bằng khi $x=2$.<br>Vậy $\\max_{[0;4]} y=2$, đạt được tại $x=2$."
   },
   {
     "id": "2D131TN66",

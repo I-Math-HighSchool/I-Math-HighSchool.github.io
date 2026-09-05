@@ -12,13 +12,13 @@ window.traLoiNgan1D63 = [
   {
     "id": "1D635TL2",
     "question": "Chị An gửi vào một ngân hàng số tiền $50$ triệu đồng với lãi suất $7{,}2\\%$/năm. Biết rằng chị An không rút tiền ra khỏi ngân hàng thì cứ sau mỗi năm, số tiền lãi được nhập vào vốn ban đầu (người ta gọi đó là lãi kép). Sau $8$ năm gửi tiền, chị An rút được cả lãi lẫn gốc là bao nhiêu triệu đồng. (Kết quả làm tròn đến hàng phần chục).",
-    "answer": "87{,}5",
+    "answer": "87,5",
     "explain": "Áp dụng công thức lãi kép: $P_n = P_0 (1+r)^n$, trong đó:<br>  $P_0$ là số tiền gửi ban đầu.<br>  $r$ là lãi suất hàng năm.<br>  $n$ là số năm gửi.<br>  $P_n$ là tổng số tiền (cả gốc lẫn lãi) sau $n$ năm.<br>  Với $P_0 = 50$ triệu đồng, $r = 7{,}2\\% = 0{,}072$, và $n = 8$ năm.<br>  Số tiền chị An rút được sau $8$ năm là:  $P_8 = 50 (1 + 0{,}072)^8 = 50 (1{,}072)^8\\approx 87{,}5282\\ldots$ (triệu đồng).<br>  Làm tròn đến hàng phần chục (một chữ số thập phân), ta được $P_8 \\approx 87{,}5$ triệu đồng.<br>  Vậy sau $8$ năm, chị An rút được khoảng $87{,}5$ triệu đồng."
   },
   {
     "id": "1D632TL3",
     "question": "Cường độ của một trận động đất (độ Richter) được tính bởi công thức $R=\\log \\dfrac{A}{A_{0}}$, với $A$ là biên độ rung chấn tối đa và $A_{0}$ là một biên độ chuẩn (hằng số). Đầu năm 2024, một trận động đất xảy ra ở Bắc Sulawesi, Indonesia có cường độ $6\\text{,}7$ độ Richter. Trong cùng khoảng thời gian đó, một trận động đất khác ở Ishikawa, Nhật Bản có biên độ rung chấn tối đa mạnh hơn gấp $3$ lần trận động đất tại Indonesia. Hỏi trận động đất ở Nhật Bản có cường độ là bao nhiêu độ Richter (làm tròn kết quả đến hàng phần mười)?",
-    "answer": "7\\text{,}2",
+    "answer": "7,2",
     "explain": "Gọi cường độ của trận động đất ở Indonesia và Nhật Bản lần lượt là $R_{I}$ và $R_{N}$.<br>  Gọi biên độ rung chấn tối đa ở Indonesia và Nhật Bản lần lượt là $A_{I}$ và $A_{N}$.<br>  Theo đề bài ta có $R_{I}=6\\text{,}7$ và $A_{N}=3A_{I}$.  $R_{N}=\\log \\dfrac{A_{N}}{A_{0}}$<br>$\\Leftrightarrow R_{N}=\\log \\dfrac{3A_{I}}{A_{0}}$<br>$\\Leftrightarrow R_{N}=\\log 3 +\\log \\dfrac{A_{N}}{A_{0}}$<br>$\\Leftrightarrow R_{N}=\\log 3 +R_{I}$<br>$\\Leftrightarrow R_{N} =\\log 3 +6\\text{,}7$<br>$\\Leftrightarrow R_{N} \\approx 7\\text{,}2.$  Vậy trận động đất ở Nhật Bản có cường độ là $7\\text{,}2$ độ Richter."
   },
   {

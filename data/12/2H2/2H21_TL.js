@@ -50,19 +50,19 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H212TL8",
     "question": "Cho tứ diện đều $ABCD$, $M$ là trung điểm của cạnh $BC$. Khi đó, $\\cos \\left(\\overrightarrow{AB},\\overrightarrow{DM}\\right)$ bằng bao nhiêu (<em>kết quả làm tròn đến hàng phần trăm</em>)?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_028.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}29",
+    "answer": "0,29",
     "explain": "Gọi $a$ là độ dài cạnh của tứ diện đều $ABCD$.<br>  Vì $ABCD$ là tứ diện đều nên $\\triangle BCD$ đều do đó $AB = a$,<br> $DM = \\dfrac{a\\sqrt{3}}{2}$.<br>  Ta có   $\\overrightarrow{DM} = \\dfrac{1}{2}\\left(\\overrightarrow{DB} + \\overrightarrow{DC}\\right)$<br>$= \\dfrac{1}{2}\\left(\\overrightarrow{AB} - \\overrightarrow{AD} + \\overrightarrow{AC} - \\overrightarrow{AD}\\right)$<br>$= \\dfrac{1}{2}\\overrightarrow{AB} - \\overrightarrow{AD} + \\dfrac{1}{2}\\overrightarrow{AC}.$  Suy ra  $ \\overrightarrow{AB}\\cdot \\overrightarrow{DM} = \\dfrac{1}{2}\\overrightarrow{AB}^2 - \\overrightarrow{AB}\\cdot \\overrightarrow{AD} + \\dfrac{1}{2}\\overrightarrow{AB}.\\overrightarrow{AC} = \\dfrac{1}{2}a^2 - a\\cdot a\\cdot \\cos 60^\\circ + \\dfrac{1}{2}a\\cdot a\\cdot \\cos 60^\\circ = \\dfrac{1}{4}a^2. $  Do đó  $ \\cos\\left(\\overrightarrow{AB}, \\overrightarrow{DM}\\right) = \\dfrac{\\overrightarrow{AB}\\cdot \\overrightarrow{DM}}{\\left|\\overrightarrow{AB}\\right|\\cdot \\left|\\overrightarrow{DM}\\right|} = \\dfrac{\\dfrac{1}{4}a^2}{a\\cdot \\dfrac{a\\sqrt{3}}{2}} = \\dfrac{\\sqrt{3}}{6} \\approx 0{,}29.$"
   },
   {
     "id": "2H212TL9",
     "question": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính $\\cos \\left(\\overrightarrow{CA}, \\overrightarrow{DA'}\\right)$.",
-    "answer": "0{,}5",
+    "answer": "0,5",
     "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{CA}=\\overrightarrow{DA}+\\overrightarrow{CD}$, $\\overrightarrow{DA'}=\\overrightarrow{DA}+\\overrightarrow{DD'}$.<br>  Suy ra $\\overrightarrow{CA}\\cdot \\overrightarrow{DA'}=\\left(\\overrightarrow{DA}+\\overrightarrow{CD}\\right)\\cdot \\left(\\overrightarrow{DA}+\\overrightarrow{DD'}\\right)=\\overrightarrow{DA}^2=DA^2=a^2$.<br>  Từ đó $\\cos\\left(\\overrightarrow{CA}, \\overrightarrow{DA'}\\right)=\\dfrac{\\overrightarrow{CA}\\cdot\\overrightarrow{DA'}}{\\left|\\overrightarrow{CA}\\right|\\cdot\\left|\\overrightarrow{DA'}\\right|}=\\dfrac{a^2}{a\\sqrt{2}\\cdot a\\sqrt{2}}=\\dfrac{1}{2}$."
   },
   {
     "id": "2H212TL10",
     "question": "Cho lăng trụ $ABC.A'B'C'$. Đặt $\\overrightarrow{AB}=\\overrightarrow{a}$, $\\overrightarrow{A C}=\\overrightarrow{b}$, $\\overrightarrow{AA'}=\\overrightarrow{c}$. Gọi $M$ là trung điểm $CC'$. Khi phân tích $\\overrightarrow{BM}=x\\overrightarrow{a}+y \\overrightarrow{b}+z\\overrightarrow{c}$ thì tổng $x+y+z$ bằng bao nhiêu? (ghi kết quả dưới dạng số thập phân).",
-    "answer": "0{,}5",
+    "answer": "0,5",
     "explain": "<br><img src=\"data/12/2D2/im2H2/2H21_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\overrightarrow{BM}=\\overrightarrow{BC}+\\overrightarrow{CM}=\\overrightarrow{BA}+\\overrightarrow{AC}+\\dfrac{1}{2}\\overrightarrow{CC'}=-\\overrightarrow{a}+\\overrightarrow{b}+\\dfrac{1}{2}\\overrightarrow{c}$.<br>  Vậy $x=-1 \\text{ và } y=1 \\text{ và } z=\\dfrac{1}{2}$. Suy ra $x+y+z=0{,}5$."
   },
   {
@@ -80,13 +80,13 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H213TL13",
     "question": "Có ba lực $\\overrightarrow{F}_1$, $\\overrightarrow{F}_2$, $\\overrightarrow{F}_3$ đôi một vuông góc cùng tác động vào một vật với độ lớn lần lượt là $5$ N, $10$ N, $15$ N. Tính độ lớn của hợp lực của ba lực trên (làm tròn kết quả đến hàng phần chục).<br><img src=\"data/12/2D2/im2H2/2H21_tikz_052.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "18{,}7",
+    "answer": "18,7",
     "explain": "Gọi $ \\overrightarrow{F} $ là hợp lực của ba lực $ \\overrightarrow{F}_1 $, $ \\overrightarrow{F}_2 $, $ \\overrightarrow{F}_3 $.<br>  Ta có $ \\overrightarrow{F}=\\overrightarrow{F}_1+\\overrightarrow{F}_2+\\overrightarrow{F}_3$.<br>  Suy ra $F=\\sqrt{F_1^2+F_2^2+F_3^2}=5\\sqrt{14}\\approx 18{,}7$ (N)."
   },
   {
     "id": "2H213TL14",
     "question": "Ba lực $\\overrightarrow{F}_1, \\overrightarrow{F}_2, \\overrightarrow{F}_3$ cùng tác động vào một vật đặt tại điểm $ O $, có phương đôi một vuông góc và có độ lớn lần lượt là $3 \\mathrm{~N}, 2 \\mathrm{~N}, 5 \\mathrm{~N}$. Tính độ lớn hợp lực của ba lực trên (làm tròn kết quả đến hàng phần trăm).<br><img src=\"data/12/2D2/im2H2/2H21_tikz_057.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "6{,}16",
+    "answer": "6,16",
     "explain": "Ta có $ \\left|\\overrightarrow{F_1}\\right| =OA=3$; $ \\left|\\overrightarrow{F_2}\\right| =OB=2$; $ \\left|\\overrightarrow{F_3}\\right| =OC=5$.<br>  Khi đó $ \\left|\\overrightarrow{F}\\right| =OE=\\sqrt{OC^2+OD^2=OC^2+OA^2+OB^2}=\\sqrt{5^2+3^2+2^2}=\\sqrt{38}\\approx 6{,}16$."
   },
   {
@@ -98,7 +98,7 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H213TL16",
     "question": "Ba lực cùng tác động vào một vật. Hai trong ba lực này hợp với nhau một góc $120^\\circ$ và có cùng độ lớn $50\\mathrm{N}$. Lực thứ ba vuông góc với mặt phẳng tạo bởi hai lực đã nêu và có độ lớn là $60\\mathrm{N}$. Hợp lực $F_1+F_2+F_3$ của ba lực trên có độ lớn là bao nhiêu N (làm tròn đến hàng phần mười của $\\mathrm{N}$)?",
-    "answer": "78{,}1",
+    "answer": "78,1",
     "explain": "Gọi $\\vec{F}_1$, $\\vec{F}_2$ là hai lực hợp với nhau một góc $120^\\circ$, mỗi lực có độ lớn $50\\ \\mathrm{N}$, và $\\vec{F}_3$ là lực vuông góc với mặt phẳng chứa $\\vec{F}_1$, $\\vec{F}_2$ có độ lớn $60\\ \\mathrm{N}$.<br>  Trước hết ta tính hợp lực trong mặt phẳng do $\\vec{F}_1$ và $\\vec{F}_2$ tạo ra  \\[  |\\vec{F}_1+\\vec{F}_2|  =\\sqrt{F_1^2+F_2^2+2F_1F_2\\cos 120^\\circ}  =\\sqrt{50^2+50^2+2\\cdot50\\cdot50\\cdot\\cos120^\\circ}.  \\]  Vì $\\cos120^\\circ=-\\dfrac{1}{2}$, nên  \\[  |\\vec{F}_1+\\vec{F}_2|  =\\sqrt{2500+2500+5000\\cdot\\left(-\\dfrac{1}{2}\\right)}  =\\sqrt{5000-2500}  =\\sqrt{2500}=50\\ \\mathrm{N}.  \\]  Do $\\vec{F}_3$ vuông góc với mặt phẳng chứa $\\vec{F}_1+\\vec{F}_2$, độ lớn của hợp lực toàn phần là  \\[  R=\\sqrt{\\,|\\vec{F}_1+\\vec{F}_2|^2+F_3^2\\,}  =\\sqrt{50^2+60^2}  =\\sqrt{2500+3600}  =\\sqrt{6100}=10\\sqrt{61}\\ \\mathrm{N}.  \\]  Làm tròn đến hàng thập phân  \\[  R\\approx 78{,}1\\ \\mathrm{N}.  \\]  Độ lớn hợp lực $F_1+F_2+F_3$ bằng ${10\\sqrt{61}\\ \\mathrm{N}\\approx 78{,}1\\ \\mathrm{N}}$."
   },
   {
@@ -122,7 +122,7 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H213TL20",
     "question": "Có ba lực cùng tác động vào một vật. Hai trong ba lực này hợp với nhau một góc $120^{\\circ}$ và có độ lớn lần lượt là $12$ N và $7$ N. Lực thứ ba vuông góc với mặt phẳng tạo bởi hai lực đã cho và có độ lớn là $15$ N. Tỉnh độ lớn hợp lực của ba lực trên (làm tròn kết quả đến hàng phần mười).",
-    "answer": "18{,}3",
+    "answer": "18,3",
     "explain": "Theo giả thuyết thì $\\left(\\overrightarrow{F}_1,\\overrightarrow{F}_2\\right)=120^\\circ$, $\\left(\\overrightarrow{F}_1,\\overrightarrow{F}_3\\right)=90^\\circ$ và $\\left(\\overrightarrow{F}_2,\\overrightarrow{F}_3\\right)=90^\\circ$.<br>  Độ lớn hợp lực của ba lực trên là $F=\\left|\\overrightarrow{F}\\right|=\\left|\\overrightarrow{F}_1+\\overrightarrow{F}_2+\\overrightarrow{F}_3\\right|$.<br>  Khi đó   $F^2 = \\left(\\overrightarrow{F}_1+\\overrightarrow{F}_2+\\overrightarrow{F}_3\\right)^2$<br>$= \\overrightarrow{F}_1^2+\\overrightarrow{F}_2^2+\\overrightarrow{F}_3^2+2\\overrightarrow{F}_1\\overrightarrow{F}_2+2\\overrightarrow{F}_2\\overrightarrow{F}_3+2\\overrightarrow{F}_1\\overrightarrow{F}_3$<br>$= 12^2+7^2+15^2+2\\cdot12\\cdot7\\cdot\\cos 120^\\circ$<br>$= 334.$  (Vì $\\left(\\overrightarrow{F}_1,\\overrightarrow{F}_3\\right)=90^\\circ$ và $\\left(\\overrightarrow{F}_2,\\overrightarrow{F}_3\\right)=90^\\circ$ nên $\\overrightarrow{F}_2\\overrightarrow{F}_3=0$, $\\overrightarrow{F}_1\\overrightarrow{F}_3=0$).<br>  Suy ra $F=\\sqrt{334}\\approx 18{,}3$ N."
   },
   {
@@ -158,13 +158,13 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H214TL27",
     "question": "Một chiếc máy bay cất cánh tại một điểm trên mặt đất với vận tốc trung bình $200$ (km/h). Sau thời gian $12$ phút bay, chiếc máy bay cách điểm xuất phát về phía Bắc $31$ (km) và về phía Đông $25$ (km). Khi đó máy bay cách mặt đất bao nhiêu $km$ (Làm tròn đến hàng phần trăm). Biết máy bay bay theo một đường thẳng.<br><img src=\"data/12/2D2/im2H21/dlts_12_DLTS8_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "3{,}74",
+    "answer": "3,74",
     "explain": "Giả sử $\\overrightarrow{OB}$ là hướng đông suy ra $\\overrightarrow{OD}$ là hướng bắc.<br>  Suy ra ta có $OB=25$, $OD=31$.<br>  Đổi $12$ phút $=0{,}2$ giờ.<br>  Quãng đường máy bay đi được trong $12$ phút là $OH=0{,}2\\cdot 200=40$ (km).<br>  Khi đó, $HE$ là khoảng cách máy bay cách mặt đất.<br>  Ta có   $  HE=\\sqrt{OH^2-OE^2}=\\sqrt{OH^2-(OB^2+OD^2)}=\\sqrt{40^2-(31^2+25^2)}=\\sqrt{14}\\approx 3{,}74~\\text{(km)}.  $"
   },
   {
     "id": "2H212TL1",
     "question": "Người ta xây dựng một chân tháp bằng bê tông có dạng khối chóp cụt tứ giác đều. Cạnh đáy dưới dài $5$ m, cạnh đáy trên dài $2$ m, cạnh bên dài $3$ m. Biết rằng chân tháp được làm bằng bê tông tươi với giá tiền $1\\,470\\,000$ đồng/m$^3$. Tính số tiền để mua bê tông tươi làm chân tháp theo đơn vị triệu đồng (làm tròn đến hàng phần chục).  <br><img src=\"data/12/2H2/im2H21/loc8_TT_KSCL_Cum_lien_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "40{,}5",
+    "answer": "40,5",
     "explain": "<br><img src=\"data/12/2H2/im2H21/loc8_TT_KSCL_Cum_lien_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Gọi $I$, $J$ lần lượt là hình chiếu vuông góc của $H$, $F$ lên mặt phẳng $(ABCD)$.  $\\Rightarrow BJ = DI=\\dfrac{1}{2}(BD-IJ)=\\dfrac{1}{2}(5\\sqrt{2}-2\\sqrt{2})=\\dfrac{3\\sqrt{2}}{2}.$<br>$\\Rightarrow HI = \\sqrt{DH^2-DI^2}=\\dfrac{3\\sqrt{2}}{2}.$  Thể tích khối bê tông $V=\\dfrac{h}{3}(S+S'+\\sqrt{S \\cdot S'})=\\dfrac{117\\sqrt{2}}{6}$ (m$^3$).<br>  Số tiền $T=\\dfrac{117\\sqrt{2}}{6} \\cdot 1\\,470\\,000=4\\,053\\,8431{,}77$ đồng $\\approx 40{,}5$ triệu đồng."
   },
   {
@@ -182,7 +182,7 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H212TL4",
     "question": "Một chiếc ô tô được đặt trên mặt đáy dưới của một khung sắt dạng hình hộp chữ nhật với đáy trên là hình chữ nhật $ABCD$, mặt phẳng $(ABCD)$ song song với mặt phẳng nằm ngang. Khung sắt đó được đặt vào móc $E$ của chiếc cần cẩu sao cho các đoạn dây cáp $EA$, $EB$, $EC$, $ED$ bằng nhau và cùng tạo với mặt phẳng $(ABCD)$ một góc $\\alpha$. Chiếc cần cẩu kéo khung sắt lên theo phương thẳng đứng. Biết các lực căng $\\overrightarrow{F}_{1}, \\overrightarrow{F}_{2}, \\overrightarrow{F}_{3}, \\overrightarrow{F}_{4}$ đều có cường độ là $4\\,800$ N, trọng lượng của cả khung sắt chứa xe ô tô là $7\\,200\\sqrt{6}$ N. Tính $\\sin\\alpha$ (làm tròn kết quả đến chữ số hàng phần trăm).<br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_011.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "0{,}92",
+    "answer": "0,92",
     "explain": "Gọi $O$ là tâm của hình chữ nhật $ABCD$. Vì $EA=EB=EC=ED$ nên hình chiếu vuông góc của $E$ lên mặt phẳng $(ABCD)$ trùng với tâm $O$.  <br><img src=\"data/12/2H2/im2H21/loc8_TT_THPT_Chuyen_B_012.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $EO \\perp (ABCD)$ và $EO$ có phương thẳng đứng.<br>  Góc giữa dây cáp (ví dụ $EA$) và mặt phẳng $(ABCD)$ là góc giữa $EA$ và $AO$, tức là $\\widehat{EAO} = \\alpha$.<br>  Khung sắt và xe ô tô cân bằng dưới tác dụng của trọng lực $\\overrightarrow{P}$ (hướng thẳng đứng xuống dưới) và $4$ lực căng dây $\\overrightarrow{F}_1, \\overrightarrow{F}_2, \\overrightarrow{F}_3, \\overrightarrow{F}_4$ (có hướng dọc theo các sợi cáp từ đỉnh hình chữ nhật về phía $E$).<br>  Ta có phương trình cân bằng lực  \\[ \\overrightarrow{P} + \\overrightarrow{F}_1 + \\overrightarrow{F}_2 + \\overrightarrow{F}_3 + \\overrightarrow{F}_4 = \\overrightarrow{0} \\Rightarrow \\overrightarrow{F}_1 + \\overrightarrow{F}_2 + \\overrightarrow{F}_3 + \\overrightarrow{F}_4 = -\\overrightarrow{P} \\]  Chiếu phương trình vectơ lên phương thẳng đứng $EO$, các thành phần nằm ngang của $4$ lực căng dây bị triệt tiêu. Thành phần thẳng đứng của mỗi lực căng dây là $\\left|\\overrightarrow{F}_i\\right| \\sin \\alpha$.<br>  Do tính đối xứng và cường độ các lực bằng nhau nên  $4 \\left|\\overrightarrow{F}_1\\right| \\sin \\alpha = \\left|\\overrightarrow{P}\\right|$<br>$\\Leftrightarrow 4 \\cdot 4\\,800 \\cdot \\sin \\alpha = 7\\,200\\sqrt{6}$<br>$\\Leftrightarrow 19\\,200 \\sin \\alpha = 7\\,200\\sqrt{6}$<br>$\\Leftrightarrow \\sin \\alpha = \\dfrac{7\\,200\\sqrt{6}}{19\\,200} = \\dfrac{3\\sqrt{6}}{8} \\approx 0{,}92.$"
   },
   {

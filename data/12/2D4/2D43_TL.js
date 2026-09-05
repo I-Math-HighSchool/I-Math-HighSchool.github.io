@@ -7,7 +7,7 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D431TL1",
     "question": "Điều tra về chiều cao của một nhóm $50$ em học sinh nam lớp $12$ tại một trường trung học phổ thông được ghi lại trong bảng sau  <br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS11_015.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">  Tính khoảng tứ phân vị của bảng số liệu trên.",
-    "answer": "11{,}5",
+    "answer": "11,5",
     "explain": "Tứ phân vị thứ nhất $Q_1$ thuộc lớp $[160 ; 165):\\quad Q_1=160+\\dfrac{12,5-12}{10} \\cdot 5=160{,}25$. <br>  Tứ phân vị thứ ba $Q_3$ thuộc lớp $[170 ; 175): \\quad Q_3=170+\\dfrac{37,5-34}{10}\\cdot5=171{,}75$. <br>  Suy ra khoảng tứ phân vị $\\Delta Q=Q_3-Q_1=11{,}5$."
   },
   {
@@ -37,19 +37,19 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D431TL6",
     "question": "Cho $F(x)$ là một nguyên hàm của $f(x) = 2^x + x + 1$. Biết $F(0) = 1$. Tính $\\left|F(-1) \\right|$ (kết quả làm tròn đến hàng phần trăm).",
-    "answer": "0{,}69",
+    "answer": "0,69",
     "explain": "Ta có $\\displaystyle F(x) = \\displaystyle\\int (2^x + x + 1) \\mathrm{\\,d}x = \\dfrac{2^x}{\\ln 2} + \\dfrac{x^2}{2} + x + C$.<br>  Theo giả thiết $F(0) = 1$ nên $\\dfrac{2^0}{\\ln 2} + \\dfrac{0^2}{2} + 0 + C = 1 \\Leftrightarrow \\dfrac{1}{\\ln 2} + C = 1 \\Leftrightarrow C = 1 - \\dfrac{1}{\\ln 2}.$  Vậy $ F(x) = \\dfrac{2^x}{\\ln 2} + \\dfrac{x^2}{2} + x + 1 - \\dfrac{1}{\\ln 2}$.<br>  Khi đó $\\displaystyle F(-1) = \\dfrac{-1}{2\\ln 2} + \\dfrac{1}{2} \\approx -0{,}22$.  Vậy $|F(-1)| \\approx |-0{,}22| = 0{,}22$."
   },
   {
     "id": "2D431TL7",
     "question": "Cho hình thang cong $(H)$ giới hạn bởi các đường $y = \\mathrm{e}^x$, $y = 0$, $x = 0$, $x = \\ln 4$. Đường thẳng $x = k$ $(0 &lt; k &lt; \\ln 4)$ chia $(H)$ thành hai phần có diện tích là $S_1$ và $S_2$ như hình vẽ bên. Tìm $k$ để $S_1 = 2S_2$ (kết quả làm tròn đến hàng phần chục).<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS24_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "k \\approx 1{,}1",
+    "answer": "1,1",
     "explain": "Diện tích hình thang cong $(H)$ giới hạn bởi $y = \\mathrm{e}^x$, $y = 0$, $x = 0$, $x = \\ln 4$ là  $S = \\displaystyle\\int\\limits_0^{\\ln 4} \\mathrm{e}^x \\mathrm{\\,d}x = \\mathrm{e}^x \\Bigg|_0^{\\ln 4} = \\mathrm{e}^{\\ln 4} - \\mathrm{e}^0 = 4 - 1 = 3.$  Diện tích phần $S_1$ giới hạn bởi $y = \\mathrm{e}^x$, $y = 0$, $x = 0$, $x = k$ là:  $S_1 = \\displaystyle\\int\\limits_0^k \\mathrm{e}^x \\mathrm{\\,d}x = \\mathrm{e}^x \\Bigg|_0^k = \\mathrm{e}^k - \\mathrm{e}^0 = \\mathrm{e}^k - 1.$  Diện tích phần $S_2$ giới hạn bởi $y = \\mathrm{e}^x$, $y = 0$, $x = k$, $x = \\ln 4$ là  $S_2 = \\displaystyle\\int\\limits_k^{\\ln 4} \\mathrm{e}^x \\mathrm{\\,d}x = \\mathrm{e}^x \\Bigg|_k^{\\ln 4} = \\mathrm{e}^{\\ln 4} - \\mathrm{e}^k = 4 - \\mathrm{e}^k.$  Theo đề bài, ta có   $S_1 = 2S_2 \\Leftrightarrow \\mathrm{e}^k - 1 = 2(4 - \\mathrm{e}^k)$<br>$\\Leftrightarrow \\mathrm{e}^k = 3 \\Leftrightarrow k = \\ln 3 \\approx 1{,}0986.$  Làm tròn đến hàng phần chục, ta được $k \\approx 1{,}1$."
   },
   {
     "id": "2D433TL8",
     "question": "Một bình cắm hoa dạng khối tròn xoay với đáy và miệng bình có đường kính lần lượt là $2$ và $4$. Mặt xung quanh của bình là một phần của mặt tròn xoay khi quay đường cong $y = \\sqrt{x-1}$ quay quanh trục $Ox$. Thể tích của bình cắm hoa đó bằng bao nhiêu? (kết quả làm tròn đến hàng phần chục)<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS24_003.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "23{,}6",
+    "answer": "23,6",
     "explain": "Đường cong $y = \\sqrt{x-1}$ được quay quanh trục $Ox$ để tạo thành hình bình cắm hoa.<br>  Đường kính đáy bình là $2$, suy ra bán kính đáy là $r_1 = 1$. <br>  Tại đáy, $y = 1$, nên $1 = \\sqrt{x_1 - 1} \\Leftrightarrow 1 = x_1 - 1 \\Leftrightarrow x_1 = 2$.<br>  Đường kính miệng bình là $4$, suy ra bán kính miệng là $r_2 = 2$. <br>  Tại miệng, $y = 2$, nên $2 = \\sqrt{x_2 - 1} \\Leftrightarrow 4 = x_2 - 1 \\Leftrightarrow x_2 = 5$.<br>  Vậy bình cắm hoa được tạo thành khi quay đường cong $y = \\sqrt{x-1}$ từ $x = 2$ đến $x = 5$ quanh trục $Ox$.<br>   Thể tích của bình cắm hoa được tính bằng công thức thể tích vật thể tròn xoay:  $V = \\pi \\displaystyle\\int\\limits_{x_1}^{x_2} y^2 \\mathrm{\\,d}x = \\pi \\displaystyle\\int\\limits_2^5 \\left(\\sqrt{x-1} \\right)^2 \\mathrm{\\,d}x = \\pi \\displaystyle\\int\\limits_2^5 (x-1) \\mathrm{\\,d}x$<br>$= \\pi \\left[ \\dfrac{x^2}{2} - x \\right] \\Bigg|_2^5 = \\pi \\left[ \\left( \\dfrac{5^2}{2} - 5 \\right) - \\left( \\dfrac{2^2}{2} - 2 \\right) \\right]$<br>$= \\dfrac{15}{2} \\pi \\approx 23{,}6.$"
   },
   {
@@ -67,7 +67,7 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D435TL11",
     "question": "Một chậu cây có chiều cao là $30$ cm và đường kính miệng chậu là $30$ cm. Mặt cắt ngang của chậu cây là một đường parabol (tham khảo hình vẽ). Tính thể tích của chậu cây đó (đơn vị: $\\mathrm{dm}^3$, kết quả làm tròn đến hàng phần chục).<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS25_008.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "10{,}6",
+    "answer": "10,6",
     "explain": "Vì parabol đi qua gốc tộ độ $O$ nên $(P):y=ax^2$.<br>  Vì parabol đi qua điểm $(-15,30)$ và $(15,30)$ nên $a=\\dfrac{y}{x^2}=\\dfrac{30}{15^2}=\\dfrac{2}{15}$.<br>  Suy ra parabol $(P):y=\\dfrac{2}{15}x^2$.<br>  Vì vật thể quay quanh trục $Oy$ nên $(P):x=\\sqrt{\\dfrac{15}{2}y}$.<br>  Thể tích chậu cây là  \\[V=\\pi \\displaystyle\\int\\limits_0^{30}\\left(\\dfrac{15}{2} y\\right) \\mathrm{\\,d}y=3375\\pi\\ \\left(\\mathrm{cm}^3\\right)\\approx 10{,}6\\ \\left(\\mathrm{dm}^3\\right). \\]"
   },
   {
@@ -151,7 +151,7 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D433TL2",
     "question": "Cho hình phẳng $(H)$ giới hạn bởi đồ thị các hàm số $y=\\sqrt{2-x}, y=x$ và trục hoành. Tính thể tích khối tròn xoay khi cho $(H)$ quay xung quanh trục $O x$. Ghi kết quả được làm tròn đến hàng phần trăm.  <br><img src=\"data/12/2D4/im2D43/loc3_2_TL_TN_THPT_Chu_002.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "2{,}62",
+    "answer": "2,62",
     "explain": "Tính thể tích khối tròn xoay khi cho $(H)$ quay xung quanh trục $Ox$.  $V=\\pi \\displaystyle\\int\\limits_0^1 x^2 \\mathrm{\\,d}x+\\pi \\displaystyle\\int\\limits_1^2 \\left(\\sqrt{2-x}\\right)^2 \\mathrm{\\,d}x \\approx 2{,}62.$"
   },
   {

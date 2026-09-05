@@ -13,7 +13,7 @@ window.traLoiNgan0H42 = [
   {
     "id": "0H421TL2",
     "question": "Cho tam giác $ABC$ có $\\widehat{C}$ nhọn và $AC=3$; $BC=4$; $S_{ABC}=3\\sqrt{3}$ (tham khảo hình vẽ). Tính độ dài cạnh $AB$ (kết quả làm tròn đến hàng phần trăm).<br><img src=\"data/10/0H4/im0H42/loc2_0_TN_DS_TLN_THPT_001.png\" alt=\"hinh ve\" style=\"max-width:min(420px,85%);max-height:240px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "3{,}61",
+    "answer": "3,61",
     "explain": "Ta có  $S_{ABC}=3\\sqrt{3} \\Leftrightarrow \\dfrac{1}{2}\\cdot CA\\cdot CB\\cdot \\sin \\widehat{ACB}=3\\sqrt{3}$<br>$\\Leftrightarrow \\dfrac{1}{2}\\cdot 3\\cdot 4\\cdot \\sin \\widehat{ACB}=3\\sqrt{3}$<br>$\\Leftrightarrow \\sin \\widehat{ACB}=\\dfrac{\\sqrt{3}}{2}$<br>$\\Leftrightarrow \\widehat{ACB}=60^\\circ ~(\\text{do}~ \\widehat{C}~ \\text{nhọn}).$  Áp dụng định lí côsin cho tam giác $ABC$ ta có  $AB =\\sqrt{AC^2+BC^2-2\\cdot AC\\cdot BC\\cdot \\cos \\widehat{ACB}}$<br>$=\\sqrt{3^2+4^2-2\\cdot 3\\cdot 4\\cdot \\cos 60^\\circ}$<br>$=\\sqrt{13}$<br>$\\approx 3{,}61.$"
   }
 ];

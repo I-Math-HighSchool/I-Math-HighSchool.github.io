@@ -13,7 +13,7 @@ window.traLoiNgan1D12 = [
   {
     "id": "1D122TL2",
     "question": "Cho $\\tan x = -2$. Tính giá trị của biểu thức $A=\\dfrac{3\\sin x-5\\cos x}{4\\sin x+\\cos x}$ (làm tròn kết quả đến hàng phần trăm).",
-    "answer": "1{,}57",
+    "answer": "1,57",
     "explain": "Chia cả tử và mẫu của biểu thức $A$ cho $\\cos x$, ta được  $ A=\\dfrac{\\dfrac{3\\sin x}{\\cos x}-\\dfrac{5\\cos x}{\\cos x}}{\\dfrac{4\\sin x}{\\cos x}+\\dfrac{\\cos x}{\\cos x}} = \\dfrac{3\\tan x-5}{4\\tan x+1} = \\dfrac{3 \\cdot (-2) - 5}{4 \\cdot (-2) + 1} = \\dfrac{11}{7}\\approx 1{,}57. $  Vậy $A \\approx 1{,}57$."
   },
   {
@@ -67,7 +67,7 @@ window.traLoiNgan1D12 = [
   {
     "id": "1D122TL11",
     "question": "Cho biết $\\cos \\alpha=\\dfrac{3}{5}, 0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$. Giá trị $\\sin \\alpha$ bằng bao nhiêu?",
-    "answer": "0{,}8",
+    "answer": "0,8",
     "explain": "Ta có công thức lượng giác cơ bản là $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$.<br>  Suy ra  $\\sin^2 \\alpha = 1 - \\cos^2 \\alpha = 1 - \\left(\\dfrac{3}{5}\\right)^2 = 1 - \\dfrac{9}{25} = \\dfrac{16}{25}$.<br>  Vì $0 &lt; \\alpha &lt; \\dfrac{\\pi}{2}$ nên $\\sin \\alpha &gt; 0$.<br>  Vậy $\\sin \\alpha = \\sqrt{\\dfrac{16}{25}} = \\dfrac{4}{5}=0{,}8$."
   }
 ];

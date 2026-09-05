@@ -13,7 +13,7 @@ window.traLoiNgan0H41 = [
   {
     "id": "0H412TL1",
     "question": "Cho $\\cos \\alpha = -\\dfrac{3}{5}$ và $90^\\circ &lt; \\alpha &lt; 180^\\circ$. Tính $A = \\cos^2 \\alpha + 2\\sin^2 \\alpha$.",
-    "answer": "1{,}64",
+    "answer": "1,64",
     "explain": "Ta có $\\cos^2 \\alpha + \\sin^2 \\alpha = 1 \\Rightarrow \\sin^2 \\alpha = 1 - \\cos^2 \\alpha = 1 - \\left(-\\dfrac{3}{5}\\right)^2 = 1 - \\dfrac{9}{25} = \\dfrac{16}{25}$.<br>  Vậy $A = \\cos^2 \\alpha + 2\\sin^2 \\alpha = \\left(-\\dfrac{3}{5}\\right)^2 + 2 \\cdot \\dfrac{16}{25}  = \\dfrac{41}{25} = 1{,}64$."
   },
   {

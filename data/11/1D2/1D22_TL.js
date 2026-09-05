@@ -32,7 +32,7 @@ window.traLoiNgan1D22 = [
   {
     "id": "1D222TL5",
     "question": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 1 \\text{ và } u_{n+1} = \\dfrac{u_n}{2u_n+1}$, với $n \\in \\mathbb{N}^*$, $n \\ge 1$. Tính giá trị của $T = \\dfrac{1}{u_1} + \\dfrac{1}{u_2} + \\dfrac{1}{u_3} + \\ldots + \\dfrac{1}{u_{40}}$.",
-    "answer": "1\\,600",
+    "answer": "1600",
     "explain": "Ta có $u_1 = 1$; $u_2 = \\dfrac{1}{3}$; $u_3 = \\dfrac{1}{5}$; $u_4 = \\dfrac{1}{7}$;\\, $\\ldots$.<br>  Suy ra dãy số có số hạng tổng quát là $u_n = \\dfrac{1}{2n-1}$.<br>  Vậy $T = \\dfrac{1}{u_1} + \\dfrac{1}{u_2} + \\dfrac{1}{u_3} + \\ldots + \\dfrac{1}{u_{40}} = 1 + 3 + 5 + 7 + \\ldots + 79$.<br>  Nhận xét $1$; $3$; $5$; $7$; $\\ldots$; $2n-1$ là cấp số cộng có $v_1=1$ và cộng sai $d = 2$. <br>  Do đó $S_{40} = \\dfrac{40\\cdot (2v_1+39\\cdot d)}{2} = \\dfrac{40 (2\\cdot 1 +39 \\cdot 2)}{2} = 1\\,600$."
   },
   {

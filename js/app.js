@@ -407,14 +407,16 @@ function renderQuiz(deThi) {
     if (deThi.traLoiNgan.length > 0) {
         container.innerHTML += `<div class="part-header">PHẦN III. Câu trắc nghiệm trả lời ngắn</div>`;
         deThi.traLoiNgan.forEach((q, idx) => {
+            const soLuongOTL = (q.answer || '').trim().length || 4;
+            const oTraLoiNganHtml = Array.from({ length: soLuongOTL }).map(() =>
+                '<input type="text" maxlength="1" class="form-control text-center fw-bold short-box">'
+            ).join('');
             container.innerHTML += `
                 <div class="question-item">
                     <p class="question-text"><strong>Câu ${idx + 1}. [${q.id}]</strong> ${q.question}</p>
-                    <div class="d-flex gap-2 my-3 raw-input-group" data-qidx="${idx}">
-                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
-                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
-                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
-                        <input type="text" maxlength="1" class="form-control text-center fw-bold short-box">
+                    <div class="d-flex align-items-center gap-2 my-3 raw-input-group" data-qidx="${idx}">
+                        ${oTraLoiNganHtml}
+                        <span class="tl-result-icon"></span>
                     </div>
                     <div class="explain-box"><strong>Lời giải chi tiết:</strong><br>Đáp án: <strong>${q.answer}</strong><br>${q.explain}</div>
                 </div>`;
@@ -588,14 +590,20 @@ function nopBaiVaChamDiem() {
             if (dungRoi) {
                 tongDiem += 0.5;
             }
-            // Tự động điền đáp án đúng vào các ô, tô xanh nếu học sinh làm
-            // đúng, tô đỏ nếu sai, rồi khoá ô lại vì bài đã nộp.
-            const dapAnChars = q.answer.trim().split('');
-            boxes.forEach((input, bIdx) => {
-                input.value = dapAnChars[bIdx] || '';
+            // Giữ nguyên đáp án học sinh đã điền (không tự động điền đáp án
+            // đúng vào ô nữa để học sinh còn xem lại được bài làm của mình),
+            // chỉ tô viền ô và hiện icon tích xanh / x đỏ để báo đúng/sai.
+            boxes.forEach((input) => {
                 input.classList.add(dungRoi ? 'tl-correct' : 'tl-wrong');
                 input.disabled = true;
             });
+            const ketQuaIcon = inputGroup.querySelector('.tl-result-icon');
+            if (ketQuaIcon) {
+                ketQuaIcon.innerHTML = dungRoi
+                    ? '<i class="fa-solid fa-circle-check"></i>'
+                    : '<i class="fa-solid fa-circle-xmark"></i>';
+                ketQuaIcon.classList.add(dungRoi ? 'correct' : 'wrong');
+            }
         }
     });
 
