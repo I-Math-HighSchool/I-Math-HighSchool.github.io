@@ -247,7 +247,7 @@ window.tracNghiem2D13 = [
   },
   {
     "id": "2D131TN21",
-    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $(-4;4)$ và có bảng biến thiên trên $(-4;4)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho hàm số $y=f(x)$ xác định và liên tục trên $(-4;4)$ và có bảng biến thiên trên $(-4;4)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "Hàm số không có GTLN, GTNN trên $(-4;4)$",
       "$\\max\\limits_{(-4;4)} y=0$ và $\\max\\limits_{(-4;4)} y=-4$",

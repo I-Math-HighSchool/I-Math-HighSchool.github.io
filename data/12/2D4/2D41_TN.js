@@ -30,7 +30,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN3",
-    "question": "Khẳng định nào sau đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Khẳng định nào sau đây là <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int k\\ f(x) \\mathrm{\\,d} x =k\\int f(x) \\mathrm{\\,d} x$, $\\left(k\\in \\mathbb{R}\\setminus\\{0\\}\\right)$",
       "$\\displaystyle \\int[f(x).g(x)] {\\rm d} x =\\displaystyle\\int f(x) \\mathrm{\\,d} x .\\int g(x) \\mathrm{\\,d} x$",
@@ -42,7 +42,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN4",
-    "question": "Cho hàm số $ f(x) $ có đạo hàm liên tục trên $ \\mathbb{R} $ và $ k $ là một số thực. Khẳng định nào sau đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho hàm số $ f(x) $ có đạo hàm liên tục trên $ \\mathbb{R} $ và $ k $ là một số thực. Khẳng định nào sau đây là <strong>sai</strong>?",
     "options": [
       "$ \\left [\\displaystyle \\int f(x) \\mathrm{\\,d}x\\right ]'=f(x) $",
       "$ \\displaystyle \\int \\left [f(x)\\right ]' \\mathrm{\\,d}x =f(x)+C $",
@@ -54,7 +54,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN5",
-    "question": "Mệnh đề nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Mệnh đề nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int\\limits\\left[f_{1}(x)+f_{2}(x)\\right] \\mathrm{\\,d}x=\\displaystyle\\int\\limits f_{1}(x) \\mathrm{\\,d}x+\\displaystyle\\int\\limits f_{2}(x) \\mathrm{\\,d}x$",
       "Nếu $F(x)$ và $G(x)$ đều là nguyên hàm của hàm số $f(x)$ thì $F(x)=G(x)$",
@@ -66,7 +66,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN6",
-    "question": "Kí hiệu $ K $ là một khoảng hoặc một nửa khoảng hoặc một đoạn của $ \\mathbb{R} $. Mệnh đề nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Kí hiệu $ K $ là một khoảng hoặc một nửa khoảng hoặc một đoạn của $ \\mathbb{R} $. Mệnh đề nào sau đây <strong>sai</strong>?",
     "options": [
       "Nếu $ f(x) $ và $ g(x) $ bằng nhau trên $ K $ thì nguyên hàm của $ f(x) $ bằng nguyên hàm của $ g(x) $ trên $ K $",
       "Mọi hàm số $ f(x) $ liên tục trên $ K $ đều có nguyên hàm trên $ K $",
@@ -126,7 +126,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN11",
-    "question": "Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong các mệnh đề sau, mệnh đề nào <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int\\dfrac{1}{2x}\\mathrm{\\,d} x=\\dfrac{\\ln \\left| x \\right|}{2}+C$",
       "$\\displaystyle\\int \\textrm{e}^{2x}\\mathrm{\\,d} x=\\dfrac{1}{2}{\\textrm{e}^{2x}}+C$",
@@ -210,7 +210,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN18",
-    "question": "Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Khẳng định nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int\\limits \\ln x \\mathrm{\\,d} x=\\dfrac1{x}+C$",
       "$\\displaystyle\\int\\limits \\mathrm{e}^x \\mathrm{\\,d} x=\\mathrm{e}^x+C$",
@@ -218,7 +218,7 @@ window.tracNghiem2D41 = [
       "$\\displaystyle\\int\\limits \\dfrac1{x} \\mathrm{\\,d} x=\\ln |x|+C$"
     ],
     "answer": 0,
-    "explain": "Khẳng định &lt;strong&gt;sai&lt;/strong&gt; là $\\displaystyle\\int\\limits \\ln x \\mathrm{\\,d} x=\\dfrac1{x}+C$."
+    "explain": "Khẳng định <strong>sai</strong> là $\\displaystyle\\int\\limits \\ln x \\mathrm{\\,d} x=\\dfrac1{x}+C$."
   },
   {
     "id": "2D413TN19",
@@ -546,7 +546,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D413TN46",
-    "question": "Cho hàm số $f(x)$ thỏa mãn $f'(x)=3-5\\sin x$ và $f(0)=1$. Mệnh đề nào dưới đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho hàm số $f(x)$ thỏa mãn $f'(x)=3-5\\sin x$ và $f(0)=1$. Mệnh đề nào dưới đây <strong>đúng</strong>?",
     "options": [
       "$f(x)=3x-5\\cos x+5$",
       "$f(x)=3x+5\\cos x+5$",
@@ -1002,7 +1002,7 @@ window.tracNghiem2D41 = [
   },
   {
     "id": "2D411TN84",
-    "question": "Cho hàm số $f(x)=\\dfrac{1}{x(x+2)}$. Mệnh đề nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho hàm số $f(x)=\\dfrac{1}{x(x+2)}$. Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\displaystyle \\int f(x)\\,dx=\\ln\\biggl|\\dfrac{x}{x+2}\\biggr|+C$",
       "$\\displaystyle \\int f(x)\\,dx=\\dfrac{1}{2}\\ln\\biggl|\\dfrac{x}{x+2}\\biggr|+C$",

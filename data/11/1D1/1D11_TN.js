@@ -114,7 +114,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D111TN10",
-    "question": "Trong các mệnh đề sau, mệnh đề nào là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong các mệnh đề sau, mệnh đề nào là <strong>sai</strong>?",
     "options": [
       "$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad",
       "$250^\\circ = \\dfrac{25\\pi}{18}$\\,rad",
@@ -534,7 +534,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D111TN45",
-    "question": "Chọn khẳng định &lt;strong&gt;đúng&lt;/strong&gt; trong các khẳng định sau:",
+    "question": "Chọn khẳng định <strong>đúng</strong> trong các khẳng định sau:",
     "options": [
       "$1~\\text{rad}=\\left(\\dfrac{180}{\\pi}\\right)^\\circ$",
       "$1~\\text{rad}=180^\\circ$",

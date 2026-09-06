@@ -79,7 +79,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN5",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(\\alpha):x+y+z-6=0$. Điểm nào dưới đây &lt;strong&gt;không&lt;/strong&gt; thuộc $(\\alpha)$?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(\\alpha):x+y+z-6=0$. Điểm nào dưới đây <strong>không</strong> thuộc $(\\alpha)$?",
     "options": [
       "$N(2;2;2)$",
       "$Q(3;3;0)$",
@@ -259,7 +259,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN20",
-    "question": "Mệnh đề nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Mệnh đề nào sau đây <strong>sai</strong>?",
     "options": [
       "Mặt phẳng $(P): 4x+2y+3=0$ song song với mặt phẳng $(Q): 2x+y+5=0$",
       "Mặt phẳng $(P'): 3x-z+2=0$ có tọa độ véc-tơ pháp tuyến là $\\vec{n'}\\left(3;0;-1 \\right)$",
@@ -271,7 +271,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN21",
-    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho điểm $I(2;6;-3)$ và các mặt phẳng $(\\alpha):x-2=0$, $(\\beta):y-6=0$, $(\\gamma):z+2=0$. Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho điểm $I(2;6;-3)$ và các mặt phẳng $(\\alpha):x-2=0$, $(\\beta):y-6=0$, $(\\gamma):z+2=0$. Trong các mệnh đề sau, mệnh đề nào <strong>sai</strong>?",
     "options": [
       "$(\\alpha)\\perp (\\beta)$",
       "$(\\gamma)\\parallel Oz$",
@@ -283,7 +283,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN22",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho điểm $I(2;6;-3)$ và các mặt phẳng $(\\alpha): x-2 =0,(\\beta): y-6=0, (\\gamma ): z+3=0$. Khẳng định nào sau đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho điểm $I(2;6;-3)$ và các mặt phẳng $(\\alpha): x-2 =0,(\\beta): y-6=0, (\\gamma ): z+3=0$. Khẳng định nào sau đây là <strong>sai</strong>?",
     "options": [
       "$(\\beta  ) $ đi qua $I$",
       "$(\\alpha) \\perp (\\beta)$",
@@ -355,7 +355,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H515TN28",
-    "question": "Trong không gian với hệ tọa độ $Oxyz,$ cho mặt phẳng $(P):3x+4y+2z+4=0$ và hai điểm $A(1;-2;3),$ $B(1;1;2).$ Gọi $h_1, h_2$ lần lượt là khoảng cách từ điểm $A$ và $B$ đến mặt phẳng $(P)$. Trong các khẳng định sau khẳng định nào &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz,$ cho mặt phẳng $(P):3x+4y+2z+4=0$ và hai điểm $A(1;-2;3),$ $B(1;1;2).$ Gọi $h_1, h_2$ lần lượt là khoảng cách từ điểm $A$ và $B$ đến mặt phẳng $(P)$. Trong các khẳng định sau khẳng định nào <strong>đúng</strong>?",
     "options": [
       "$h_2=h_1$",
       "$h_2=2h_1$",
@@ -1003,7 +1003,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H511TN82",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho ba điểm $M(-1;0;0)$, $N(0;2;0)$ và $P(0;0;2)$. Mặt phẳng nào dưới đây &lt;strong&gt;không&lt;/strong&gt; đồng thời đi qua cả ba điểm $M$, $N$ và $P$?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho ba điểm $M(-1;0;0)$, $N(0;2;0)$ và $P(0;0;2)$. Mặt phẳng nào dưới đây <strong>không</strong> đồng thời đi qua cả ba điểm $M$, $N$ và $P$?",
     "options": [
       "$2x-y-z+2=0$",
       "$2x+y+z+2=0$",
@@ -1567,7 +1567,7 @@ window.tracNghiem2H51 = [
   },
   {
     "id": "2H512TN129",
-    "question": "Cho mặt phẳng $(P): x+2y-3z+6=0.$ Véctơ nào sau đây &lt;strong&gt;không phải&lt;/strong&gt; là véctơ pháp tuyến của $(P)$?",
+    "question": "Cho mặt phẳng $(P): x+2y-3z+6=0.$ Véctơ nào sau đây <strong>không phải</strong> là véctơ pháp tuyến của $(P)$?",
     "options": [
       "$\\vec{n}=(3;6;-9)$",
       "$\\vec{n}=\\left(1;\\dfrac{1}{2};-\\dfrac{1}{3}\\right)$",

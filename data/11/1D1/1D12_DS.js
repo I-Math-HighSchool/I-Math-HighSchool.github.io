@@ -48,7 +48,7 @@ window.dungSai1D12 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $\\sin (\\pi-x)=\\sin x$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $\\cos \\left(\\dfrac{\\pi}{2}-x\\right)=\\sin x$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có $\\sin (x-2024\\pi)=\\sin x$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  $H=\\dfrac{\\sin (x-2024\\pi)+\\cos \\left(\\dfrac{\\pi}{2}-x\\right)}{\\sin (\\pi-x)+\\sin (\\pi+x)-2}=\\dfrac{\\sin x+\\sin x}{\\sin x-\\sin x-2}=-\\sin x$."
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Ta có $\\sin (\\pi-x)=\\sin x$.<br>- <strong>Đúng</strong>.<br>  Ta có $\\cos \\left(\\dfrac{\\pi}{2}-x\\right)=\\sin x$.<br>- <strong>Sai</strong>.<br>  Ta có $\\sin (x-2024\\pi)=\\sin x$.<br>- <strong>Sai</strong>.<br>  $H=\\dfrac{\\sin (x-2024\\pi)+\\cos \\left(\\dfrac{\\pi}{2}-x\\right)}{\\sin (\\pi-x)+\\sin (\\pi+x)-2}=\\dfrac{\\sin x+\\sin x}{\\sin x-\\sin x-2}=-\\sin x$."
   },
   {
     "id": "1D122DS3",
@@ -94,7 +94,7 @@ window.dungSai1D12 = [
         "answer": true
       }
     ],
-    "explain": "Ta có $\\cos\\alpha=1-\\sin^2\\alpha=1-\\dfrac{1}{9}=\\dfrac{8}{9}\\Rightarrow\\cos\\alpha=-\\dfrac{2\\sqrt{2}}{3}$ (vì $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$)  <br>- &lt;strong&gt;Sai&lt;/strong&gt;. $\\cos2\\alpha=1-2\\sin^2\\alpha=1-\\dfrac{2}{9}=\\dfrac{7}{9}&gt;0$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. $\\sin 2\\alpha =2\\sin \\alpha\\cdot\\cos\\alpha=2\\cdot\\dfrac{1}{3}\\cdot\\dfrac{-2\\sqrt{2}}{3}= -\\dfrac{4\\sqrt{2}}{9}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. $\\tan \\alpha =\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\tfrac{1}{3}}{\\tfrac{-2\\sqrt{2}}{3}}=-\\dfrac{\\sqrt{2}}{4}&lt;0$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $\\cos \\alpha = -\\dfrac{2\\sqrt{2}}{3}$."
+    "explain": "Ta có $\\cos\\alpha=1-\\sin^2\\alpha=1-\\dfrac{1}{9}=\\dfrac{8}{9}\\Rightarrow\\cos\\alpha=-\\dfrac{2\\sqrt{2}}{3}$ (vì $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$)  <br>- <strong>Sai</strong>. $\\cos2\\alpha=1-2\\sin^2\\alpha=1-\\dfrac{2}{9}=\\dfrac{7}{9}&gt;0$.<br>- <strong>Đúng</strong>. $\\sin 2\\alpha =2\\sin \\alpha\\cdot\\cos\\alpha=2\\cdot\\dfrac{1}{3}\\cdot\\dfrac{-2\\sqrt{2}}{3}= -\\dfrac{4\\sqrt{2}}{9}$.<br>- <strong>Sai</strong>. $\\tan \\alpha =\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\tfrac{1}{3}}{\\tfrac{-2\\sqrt{2}}{3}}=-\\dfrac{\\sqrt{2}}{4}&lt;0$.<br>- <strong>Đúng</strong>. Ta có $\\cos \\alpha = -\\dfrac{2\\sqrt{2}}{3}$."
   },
   {
     "id": "1D122DS5",
@@ -117,7 +117,7 @@ window.dungSai1D12 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có  $\\sin^2 \\alpha + \\cos^2 \\alpha =1$<br>$\\Leftrightarrow \\cos^2 \\alpha = 1 - \\sin^2 \\alpha$<br>$\\Leftrightarrow \\cos^2 \\alpha = 1 - \\left(\\dfrac{3}{5}\\right)^2$<br>$\\Leftrightarrow \\cos^2 \\alpha = \\dfrac{16}{25}.$  Do $\\dfrac{\\pi}{2}&lt;\\alpha&lt;\\pi$ nên $\\cos \\alpha &lt; 0 \\Rightarrow \\cos \\alpha = -\\dfrac{4}{5}$. Khi đó $\\sin 2\\alpha = 2\\sin \\alpha \\cos \\alpha = 2\\cdot\\dfrac{3}{5}\\cdot\\left(-\\dfrac{4}{5}\\right) = -\\dfrac{24}{25}.$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $\\sin (x+\\alpha) \\le 1, \\forall x \\in \\mathbb{R}$. Do đó giá trị lớn nhất của $y=\\sin (x+\\alpha)$ là $1$ khi $x = \\dfrac{\\pi}{2} - \\alpha$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có   $\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}\\right)\\cdot\\cos \\left(\\alpha - \\dfrac{\\pi}{12}\\right) =\\dfrac{1}{2}\\left[\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}+\\alpha -\\dfrac{\\pi}{12}\\right)+\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}-\\alpha +\\dfrac{\\pi}{12}\\right)\\right]$<br>$=\\dfrac{1}{2}\\left[\\sin(2\\alpha+10\\pi)+\\sin \\left(\\dfrac{122\\pi}{12}\\right)\\right]$<br>$=\\dfrac{1}{2}\\left[\\sin 2\\alpha+\\dfrac{1}{2}\\right]$<br>$=-\\dfrac{23}{100}.$<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $\\dfrac{\\pi}{2}&lt;\\alpha&lt;\\pi$ nên $\\cos \\alpha &lt; 0$."
+    "explain": "<br>- <strong>Sai</strong>. Ta có  $\\sin^2 \\alpha + \\cos^2 \\alpha =1$<br>$\\Leftrightarrow \\cos^2 \\alpha = 1 - \\sin^2 \\alpha$<br>$\\Leftrightarrow \\cos^2 \\alpha = 1 - \\left(\\dfrac{3}{5}\\right)^2$<br>$\\Leftrightarrow \\cos^2 \\alpha = \\dfrac{16}{25}.$  Do $\\dfrac{\\pi}{2}&lt;\\alpha&lt;\\pi$ nên $\\cos \\alpha &lt; 0 \\Rightarrow \\cos \\alpha = -\\dfrac{4}{5}$. Khi đó $\\sin 2\\alpha = 2\\sin \\alpha \\cos \\alpha = 2\\cdot\\dfrac{3}{5}\\cdot\\left(-\\dfrac{4}{5}\\right) = -\\dfrac{24}{25}.$<br>- <strong>Đúng</strong>. Ta có $\\sin (x+\\alpha) \\le 1, \\forall x \\in \\mathbb{R}$. Do đó giá trị lớn nhất của $y=\\sin (x+\\alpha)$ là $1$ khi $x = \\dfrac{\\pi}{2} - \\alpha$.<br>- <strong>Đúng</strong>. Ta có   $\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}\\right)\\cdot\\cos \\left(\\alpha - \\dfrac{\\pi}{12}\\right) =\\dfrac{1}{2}\\left[\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}+\\alpha -\\dfrac{\\pi}{12}\\right)+\\sin \\left(\\alpha + \\dfrac{121\\pi}{12}-\\alpha +\\dfrac{\\pi}{12}\\right)\\right]$<br>$=\\dfrac{1}{2}\\left[\\sin(2\\alpha+10\\pi)+\\sin \\left(\\dfrac{122\\pi}{12}\\right)\\right]$<br>$=\\dfrac{1}{2}\\left[\\sin 2\\alpha+\\dfrac{1}{2}\\right]$<br>$=-\\dfrac{23}{100}.$<br>- <strong>Sai</strong>. Do $\\dfrac{\\pi}{2}&lt;\\alpha&lt;\\pi$ nên $\\cos \\alpha &lt; 0$."
   },
   {
     "id": "1D122DS6",

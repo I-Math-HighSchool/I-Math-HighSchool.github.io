@@ -6,7 +6,7 @@
 window.tracNghiem2D42 = [
   {
     "id": "2D421TN1",
-    "question": "Cho $F(x)$ là nguyên hàm của hàm số $f(x)$ trên $\\left[ a;b\\right]$. Phát biểu nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho $F(x)$ là nguyên hàm của hàm số $f(x)$ trên $\\left[ a;b\\right]$. Phát biểu nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int\\limits_{a}^{b}f(x)\\mathrm{d}x=F(b)-F(a)$",
       "$\\displaystyle\\int\\limits_{a}^{b}f(x)\\mathrm{d}x\\neq \\displaystyle\\int\\limits_{a}^{b}f(t)\\mathrm{d}t$",
@@ -90,7 +90,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D421TN8",
-    "question": "Cho $f(x)$ là hàm số liên tục trên $\\mathbb{R}$ và các số thực $a&lt;b&lt;c$.   Tìm mệnh đề &lt;strong&gt;sai&lt;/strong&gt;.%Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho $f(x)$ là hàm số liên tục trên $\\mathbb{R}$ và các số thực $a&lt;b&lt;c$.   Tìm mệnh đề <strong>sai</strong>.%Trong các mệnh đề sau, mệnh đề nào <strong>sai</strong>?",
     "options": [
       "$\\displaystyle\\int\\limits_a^cf(x)\\mathrm{d}x=\\int\\limits_a^bf(x)\\mathrm{d}x-\\int\\limits_c^bf(x)\\mathrm{d}x$",
       "$\\displaystyle\\int\\limits_b^cf(x)\\mathrm{d}x=\\int\\limits_a^cf(x)\\mathrm{d}x+\\int\\limits_a^bf(x)\\mathrm{d}x$",
@@ -594,7 +594,7 @@ window.tracNghiem2D42 = [
   },
   {
     "id": "2D421TN50",
-    "question": "Cho tích phân $I=\\displaystyle\\int\\limits_{\\sqrt{3}}^3 \\dfrac{1}{x^2+3}$ $\\textrm{d}x$. Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho tích phân $I=\\displaystyle\\int\\limits_{\\sqrt{3}}^3 \\dfrac{1}{x^2+3}$ $\\textrm{d}x$. Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$I=\\dfrac{\\sqrt{3}}{3}\\displaystyle\\int\\limits_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\textrm{d}t$",
       "$I=\\dfrac{\\sqrt{3}}{3}\\displaystyle\\int\\limits_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} t \\textrm{d}t$",
@@ -638,7 +638,7 @@ window.tracNghiem2D42 = [
       "$ab=2\\pi$"
     ],
     "answer": 0,
-    "explain": "Dựa vào két quả của tích phân đầu ta có thể đoán $a=\\pi$ còn $b$ là giá trị còn lại của tích.<br>  Dùng máy tính casio tính $\\displaystyle\\int\\limits_0^1\\dfrac{1+x^4}{1+x^6}\\,dx$ lưu vào biến $X$.<br>  Nhập vào máy tính biểu thức $X-\\dfrac{A}{B}$ bấm &lt;strong&gt;CALC&lt;/strong&gt; nhập giá trị của $A$ và $B$ bấm bằng. Nếu kết quả nào bằng $0$ thì đó là đáp án đúng."
+    "explain": "Dựa vào két quả của tích phân đầu ta có thể đoán $a=\\pi$ còn $b$ là giá trị còn lại của tích.<br>  Dùng máy tính casio tính $\\displaystyle\\int\\limits_0^1\\dfrac{1+x^4}{1+x^6}\\,dx$ lưu vào biến $X$.<br>  Nhập vào máy tính biểu thức $X-\\dfrac{A}{B}$ bấm <strong>CALC</strong> nhập giá trị của $A$ và $B$ bấm bằng. Nếu kết quả nào bằng $0$ thì đó là đáp án đúng."
   },
   {
     "id": "2D425TN54",

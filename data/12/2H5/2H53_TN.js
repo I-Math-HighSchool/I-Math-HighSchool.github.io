@@ -1429,7 +1429,7 @@ window.tracNghiem2H53 = [
   },
   {
     "id": "2H533TN120",
-    "question": "Trong không gian $Oxyz$, cho $A(2;1;0)$, $B(4;3;2)$. Các kết luận sau kết luận nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong không gian $Oxyz$, cho $A(2;1;0)$, $B(4;3;2)$. Các kết luận sau kết luận nào <strong>sai</strong>?",
     "options": [
       "Véctơ $ \\vec{AB} (2;2;2) $ vuông góc với véctơ $\\vec{u}(1;1;-2)$",
       "Tọa độ véctơ $\\vec{AB}(2;2;2)$",
@@ -1441,7 +1441,7 @@ window.tracNghiem2H53 = [
   },
   {
     "id": "2H531TN121",
-    "question": "Trong không gian với hệ toạ độ $Oxyz$, cho ba véctơ $\\vec{a}=(-1;1;0)$, $\\vec{b}=(1;1;0)$ và $\\vec{c}=(1;1;1)$. Mệnh đề nào dưới đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ toạ độ $Oxyz$, cho ba véctơ $\\vec{a}=(-1;1;0)$, $\\vec{b}=(1;1;0)$ và $\\vec{c}=(1;1;1)$. Mệnh đề nào dưới đây <strong>sai</strong>?",
     "options": [
       "$\\vec{c}\\perp \\vec{b}$",
       "$\\left|\\vec{c}\\right|=\\sqrt{3}$",

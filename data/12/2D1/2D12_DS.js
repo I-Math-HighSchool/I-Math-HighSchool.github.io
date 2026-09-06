@@ -26,7 +26,7 @@ window.dungSai2D12 = [
         "answer": true
       }
     ],
-    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=-3x^2+3$.<br>  $y'=0\\Leftrightarrow -3x^2+3=0\\Leftrightarrow x=\\pm 1$.<br>  Bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Từ bảng biến thiên ta có giá trị cực đại là $7$ và giá trị cực tiểu là $5$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Vì $f'(x)=-3x^2+3$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Từ bảng biến thiên ta có hàm số đạt cực tiểu tại $x=-1$ và đạt cực đại tại $x=1$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Từ bảng biến thiên ta có hàm số đồng biến trên các khoảng $(-\\infty;-1)$ và $(1;+\\infty)$; nghịch biến trên khoảng $(-1;1)$."
+    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=-3x^2+3$.<br>  $y'=0\\Leftrightarrow -3x^2+3=0\\Leftrightarrow x=\\pm 1$.<br>  Bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên ta có giá trị cực đại là $7$ và giá trị cực tiểu là $5$.<br>- <strong>Đúng</strong>. Vì $f'(x)=-3x^2+3$.<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có hàm số đạt cực tiểu tại $x=-1$ và đạt cực đại tại $x=1$.<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có hàm số đồng biến trên các khoảng $(-\\infty;-1)$ và $(1;+\\infty)$; nghịch biến trên khoảng $(-1;1)$."
   },
   {
     "id": "2D121DS2",
@@ -72,7 +72,7 @@ window.dungSai2D12 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số $y=f(x)$ đạt cực đại tại $x=0$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số $y=f(x)$ đồng biến trên khoảng $(-\\infty;0)$ và $(3;+\\infty)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Phương trình đường thẳng qua $2$ điểm cực trị $(0;2)$ và $(3;-4)$ của đồ thị hàm số $y=f(x)$ là $d\\colon y=-2x+2$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Giá trị cực tiểu của hàm số $y=f(x)$ là $y=-4$."
+    "explain": "<br>- <strong>Sai</strong>. Hàm số $y=f(x)$ đạt cực đại tại $x=0$.<br>- <strong>Sai</strong>. Hàm số $y=f(x)$ đồng biến trên khoảng $(-\\infty;0)$ và $(3;+\\infty)$.<br>- <strong>Sai</strong>. Phương trình đường thẳng qua $2$ điểm cực trị $(0;2)$ và $(3;-4)$ của đồ thị hàm số $y=f(x)$ là $d\\colon y=-2x+2$<br>- <strong>Đúng</strong>. Giá trị cực tiểu của hàm số $y=f(x)$ là $y=-4$."
   },
   {
     "id": "2D122DS4",
@@ -118,7 +118,7 @@ window.dungSai2D12 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Hàm số $f(x)=\\log_{\\frac{1}{2}}(x^2-5x+4)$ xác định khi $x^2-5x+4&gt;0\\Rightarrow x&gt;4 \\text{ hoặc } x&lt;1.$<br>  Suy ra tập xác định của hàm số là $\\mathscr{D}=(-\\infty;1)\\cup (4;+\\infty)$.<br>  Do đó hàm số không xác định trên $\\left(-\\infty;\\dfrac{5}{2}\\right)$ nên không đồng biến trên khoảng $\\left(-\\infty;\\dfrac{5}{2}\\right)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  $f(x)=\\log_{\\frac{1}{2}}(x^2-5x+4)\\Rightarrow f'(x)=\\dfrac{(x^2-5x+4)'}{(x^2-5x+4)\\cdot \\ln\\dfrac{1}{2}}=\\dfrac{5-2x}{(x^2-5x+4)\\cdot \\ln2}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có tập xác định của hàm số $y=f(x)$ là $\\mathscr{D}=(-\\infty;1)\\cup (4;+\\infty)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có $\\dfrac{5-2x}{(x^2-5x+4)}\\cdot \\ln2=0\\Rightarrow x=\\dfrac{5}{2}$.<br>  Vì $1&lt;\\dfrac{5}{2}&lt;4$ nên $x=\\dfrac{5}{2}$ không thuộc$\\mathscr{D}$.<br>   Do đó hàm số không đạt cực trị tại $x=\\dfrac{5}{2}$."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Hàm số $f(x)=\\log_{\\frac{1}{2}}(x^2-5x+4)$ xác định khi $x^2-5x+4&gt;0\\Rightarrow x&gt;4 \\text{ hoặc } x&lt;1.$<br>  Suy ra tập xác định của hàm số là $\\mathscr{D}=(-\\infty;1)\\cup (4;+\\infty)$.<br>  Do đó hàm số không xác định trên $\\left(-\\infty;\\dfrac{5}{2}\\right)$ nên không đồng biến trên khoảng $\\left(-\\infty;\\dfrac{5}{2}\\right)$.<br>- <strong>Đúng</strong>.<br>  $f(x)=\\log_{\\frac{1}{2}}(x^2-5x+4)\\Rightarrow f'(x)=\\dfrac{(x^2-5x+4)'}{(x^2-5x+4)\\cdot \\ln\\dfrac{1}{2}}=\\dfrac{5-2x}{(x^2-5x+4)\\cdot \\ln2}$.<br>- <strong>Sai</strong>.<br>  Ta có tập xác định của hàm số $y=f(x)$ là $\\mathscr{D}=(-\\infty;1)\\cup (4;+\\infty)$.<br>- <strong>Sai</strong>.<br>  Ta có $\\dfrac{5-2x}{(x^2-5x+4)}\\cdot \\ln2=0\\Rightarrow x=\\dfrac{5}{2}$.<br>  Vì $1&lt;\\dfrac{5}{2}&lt;4$ nên $x=\\dfrac{5}{2}$ không thuộc$\\mathscr{D}$.<br>   Do đó hàm số không đạt cực trị tại $x=\\dfrac{5}{2}$."
   },
   {
     "id": "2D122DS6",
@@ -141,7 +141,7 @@ window.dungSai2D12 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số $y = f(x)$ đồng biến trên khoảng $(-4; 2)$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số $y = f(x)$ nghịch biến trên các khoảng $(-5; -3)$ và $(2; 5)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số $y = f(x)$ đạt cực tiểu tại $x = -3$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số $y = f(x)$ đạt cực đại tại $x = 2$."
+    "explain": "<br>- <strong>Đúng</strong>. Hàm số $y = f(x)$ đồng biến trên khoảng $(-4; 2)$<br>- <strong>Đúng</strong>. Hàm số $y = f(x)$ nghịch biến trên các khoảng $(-5; -3)$ và $(2; 5)$.<br>- <strong>Đúng</strong>. Hàm số $y = f(x)$ đạt cực tiểu tại $x = -3$.<br>- <strong>Sai</strong>. Hàm số $y = f(x)$ đạt cực đại tại $x = 2$."
   },
   {
     "id": "2D121DS7",
@@ -164,7 +164,7 @@ window.dungSai2D12 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có  $ y'=\\dfrac{(2x-2)(x-1)-\\left(x^2-2x+2\\right)}{(x-1)^2}=\\dfrac{2x^2-4x+2-x^2+2 x-2}{(x-1)^2}=\\dfrac{x^2-2 x}{(x-1)^2}.$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Tập xác định $\\mathscr{D}=\\mathbb{R} \\setminus \\{1\\}$.<br>  Ta có $y'=\\dfrac{x^2-2x}{(x-1)^2}$, cho $y'=0 \\Leftrightarrow x^2-2x=0 \\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta thấy giá trị cực đại của hàm số bằng $-2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Từ bảng biến thiên ta thấy điểm cực tiểu của hàm số bằng $2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Đồ thị hàm số $y=\\dfrac{x^2-2x+2}{x-1}$ có hai điểm cực trị lần lượt là $A(0 ;-2)$, $B(2;2)$.<br>  Phương trình đường thẳng đi qua hai điểm $A$, $B$ là $\\dfrac{x-0}{2-0}=\\dfrac{y+2}{2+2} \\Leftrightarrow y=2x-2$."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Ta có  $ y'=\\dfrac{(2x-2)(x-1)-\\left(x^2-2x+2\\right)}{(x-1)^2}=\\dfrac{2x^2-4x+2-x^2+2 x-2}{(x-1)^2}=\\dfrac{x^2-2 x}{(x-1)^2}.$<br>- <strong>Đúng</strong>.<br>  Tập xác định $\\mathscr{D}=\\mathbb{R} \\setminus \\{1\\}$.<br>  Ta có $y'=\\dfrac{x^2-2x}{(x-1)^2}$, cho $y'=0 \\Leftrightarrow x^2-2x=0 \\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_035.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta thấy giá trị cực đại của hàm số bằng $-2$.<br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên ta thấy điểm cực tiểu của hàm số bằng $2$.<br>- <strong>Đúng</strong>.<br>  Đồ thị hàm số $y=\\dfrac{x^2-2x+2}{x-1}$ có hai điểm cực trị lần lượt là $A(0 ;-2)$, $B(2;2)$.<br>  Phương trình đường thẳng đi qua hai điểm $A$, $B$ là $\\dfrac{x-0}{2-0}=\\dfrac{y+2}{2+2} \\Leftrightarrow y=2x-2$."
   },
   {
     "id": "2D122DS8",
@@ -256,7 +256,7 @@ window.dungSai2D12 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đồ thị hàm số có tâm đối xứng là điểm $I(1;1)$ nên ta có $a+b+c+d=1$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số $y=f(x)$ đồng biến trên khoảng $(0;2)$ nên hàm số $y=f(x)$ đồng biến trên khoảng $(0;1)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Giá trị cực đại của hàm số $f(x)$ bằng $3$<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $3\\cdot 2-1=5$ nên đường thẳng $(d)\\colon y=3x-1$ không đi qua điểm cực đại của đồ thị."
+    "explain": "<br>- <strong>Đúng</strong>. Đồ thị hàm số có tâm đối xứng là điểm $I(1;1)$ nên ta có $a+b+c+d=1$.<br>- <strong>Đúng</strong>. Hàm số $y=f(x)$ đồng biến trên khoảng $(0;2)$ nên hàm số $y=f(x)$ đồng biến trên khoảng $(0;1)$.<br>- <strong>Đúng</strong>. Giá trị cực đại của hàm số $f(x)$ bằng $3$<br>- <strong>Sai</strong>. Do $3\\cdot 2-1=5$ nên đường thẳng $(d)\\colon y=3x-1$ không đi qua điểm cực đại của đồ thị."
   },
   {
     "id": "2D122DS12",
@@ -302,7 +302,7 @@ window.dungSai2D12 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Từ đồ thị hàm số $y=f(x)$, ta có hàm số $f(x)$ đạt cực đại tại $x=-1$, đạt cực tiểu tại $x=1$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Từ đồ thị hàm số $y=f(x)$, ta có hàm số $f(x)$ giảm trên khoảng $(-1;1)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Hàm số có giá trị cực đại là $y_{\\text{CĐ}}=2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $g'(x)=2f(x)\\cdot f'(x)$. Do đó  $g'(x)=0$<br>$\\Leftrightarrow f(x)=0 \\text{ hoặc } f'(x)=0$<br>$\\Leftrightarrow x=a\\in (-2;-1) \\text{ hoặc } x=0 \\text{ hoặc } x=b\\in (1;2) \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_091.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số $g(x)$ có $5$ điểm cực trị."
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Từ đồ thị hàm số $y=f(x)$, ta có hàm số $f(x)$ đạt cực đại tại $x=-1$, đạt cực tiểu tại $x=1$.<br>- <strong>Sai</strong>.<br>  Từ đồ thị hàm số $y=f(x)$, ta có hàm số $f(x)$ giảm trên khoảng $(-1;1)$.<br>- <strong>Sai</strong>.<br>  Hàm số có giá trị cực đại là $y_{\\text{CĐ}}=2$.<br>- <strong>Đúng</strong>.<br>  Ta có $g'(x)=2f(x)\\cdot f'(x)$. Do đó  $g'(x)=0$<br>$\\Leftrightarrow f(x)=0 \\text{ hoặc } f'(x)=0$<br>$\\Leftrightarrow x=a\\in (-2;-1) \\text{ hoặc } x=0 \\text{ hoặc } x=b\\in (1;2) \\text{ hoặc } x=-1 \\text{ hoặc } x=1.$  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_091.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy hàm số $g(x)$ có $5$ điểm cực trị."
   },
   {
     "id": "2D121DS14",
@@ -325,7 +325,7 @@ window.dungSai2D12 = [
         "answer": false
       }
     ],
-    "explain": "Điều kiện xác định $x\\neq 1$, suy ra tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus \\{1\\}$.  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $y' = \\dfrac{\\left(x^2-2x+2\\right)'\\cdot (x-1)-(x-1)'\\cdot \\left(x^2-2x+2\\right)}{x-1)^2}$<br>$= \\dfrac{(2x-2)(x-1)-(x^2-2x+2)}{(x-1)^2}$<br>$= \\dfrac{x^2-2x}{(x-1)^2}.$<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Xét $y'=0\\Leftrightarrow x^2-2x=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy giá trị cực đại của hàm số bằng $-2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Từ bảng biến thiên, ta thấy điểm cực tiểu của hàm số bằng $2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Gọi đường thẳng đi qua hai điểm cực trị đã cho có phương trình là $d\\colon y=ax+b$.<br>  Do $d$ đi qua hai điểm $(0;-2)$ và $(2;2)$ nên ta có hệ phương trình  $b=-2 \\text{ và } 2a+b=2\\Leftrightarrow b=-2 \\text{ và } a=2.$  Vậy phương trình đường thẳng cần tìm là $y=2x-2$."
+    "explain": "Điều kiện xác định $x\\neq 1$, suy ra tập xác định $\\mathscr{D}=\\mathbb{R}\\setminus \\{1\\}$.  <br>- <strong>Đúng</strong>.<br>  Ta có $y' = \\dfrac{\\left(x^2-2x+2\\right)'\\cdot (x-1)-(x-1)'\\cdot \\left(x^2-2x+2\\right)}{x-1)^2}$<br>$= \\dfrac{(2x-2)(x-1)-(x^2-2x+2)}{(x-1)^2}$<br>$= \\dfrac{x^2-2x}{(x-1)^2}.$<br>- <strong>Sai</strong>.<br>  Xét $y'=0\\Leftrightarrow x^2-2x=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên, ta thấy giá trị cực đại của hàm số bằng $-2$.<br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên, ta thấy điểm cực tiểu của hàm số bằng $2$.<br>- <strong>Sai</strong>.<br>  Gọi đường thẳng đi qua hai điểm cực trị đã cho có phương trình là $d\\colon y=ax+b$.<br>  Do $d$ đi qua hai điểm $(0;-2)$ và $(2;2)$ nên ta có hệ phương trình  $b=-2 \\text{ và } 2a+b=2\\Leftrightarrow b=-2 \\text{ và } a=2.$  Vậy phương trình đường thẳng cần tìm là $y=2x-2$."
   },
   {
     "id": "2D122DS15",

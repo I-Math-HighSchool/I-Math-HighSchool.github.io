@@ -26,7 +26,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Chiều dài trang sách là $\\dfrac{384}{x}$ m $(x&gt;0)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích được in chữ  $  A(x) = (x-4)\\left( \\dfrac{384}{x} - 6 \\right) = -6x+408-\\dfrac{1\\,536}{x}.  $  Miền xác định của $A(x)$ là $\\mathscr{D} = (0,+\\infty)$.<br>  Đạo hàm $A'(x) = -6+\\dfrac{1\\,536}{x^2}$.<br>  Cho $A'(x)=0$ ta được $x=16\\sqrt{2}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$ khi $x=16$ cm.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Diện tích để trống là $384-216 = 168$ cm$^2$."
+    "explain": "<br>- <strong>Sai</strong>. Chiều dài trang sách là $\\dfrac{384}{x}$ m $(x&gt;0)$.<br>- <strong>Sai</strong>. Diện tích được in chữ  $  A(x) = (x-4)\\left( \\dfrac{384}{x} - 6 \\right) = -6x+408-\\dfrac{1\\,536}{x}.  $  Miền xác định của $A(x)$ là $\\mathscr{D} = (0,+\\infty)$.<br>  Đạo hàm $A'(x) = -6+\\dfrac{1\\,536}{x^2}$.<br>  Cho $A'(x)=0$ ta được $x=16\\sqrt{2}$.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$.<br>- <strong>Đúng</strong>. Diện tích lớn nhất của trang sách được in chữ là $216$ cm$^2$ khi $x=16$ cm.<br>- <strong>Sai</strong>. Diện tích để trống là $384-216 = 168$ cm$^2$."
   },
   {
     "id": "2D131DS2",
@@ -49,7 +49,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $xy=200$, do đó $y=\\dfrac{200}{x}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $L(x)=2x+\\dfrac{200}{x}, x&gt;0$.<br>  $L'(x)=2-\\dfrac{200}{x^2}$.<br>  $L'(x)=0 \\Leftrightarrow 2-\\dfrac{200}{x^2}=0 \\Leftrightarrow x^2=100 \\Rightarrow x=10$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, $L$ đạt giá trị nhỏ nhất khi $x=10$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $\\min\\limits_{x \\in (0;+\\infty)} L(x) = L(10) =40$, do đó số tiền tối thiểu để mua lưới thép là $40\\cdot250\\,000=10\\,000\\,000$ (đồng).<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Do $L(x)=2x+\\dfrac{200}{x}$."
+    "explain": "<br>- <strong>Đúng</strong>. Ta có $xy=200$, do đó $y=\\dfrac{200}{x}$.<br>- <strong>Đúng</strong>. Ta có $L(x)=2x+\\dfrac{200}{x}, x&gt;0$.<br>  $L'(x)=2-\\dfrac{200}{x^2}$.<br>  $L'(x)=0 \\Leftrightarrow 2-\\dfrac{200}{x^2}=0 \\Leftrightarrow x^2=100 \\Rightarrow x=10$.<br>  Ta có bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_018.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, $L$ đạt giá trị nhỏ nhất khi $x=10$.<br>- <strong>Sai</strong>. Ta có $\\min\\limits_{x \\in (0;+\\infty)} L(x) = L(10) =40$, do đó số tiền tối thiểu để mua lưới thép là $40\\cdot250\\,000=10\\,000\\,000$ (đồng).<br>- <strong>Sai</strong>. Do $L(x)=2x+\\dfrac{200}{x}$."
   },
   {
     "id": "2D132DS3",
@@ -72,7 +72,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = \\dfrac{x^2-2x-1}{(x-1)^2}$ với $x\\in\\mathbb{R}\\setminus\\{1\\}$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(x) = \\dfrac{x^2+x}{x-1} = x+2 + \\dfrac{2}{x-1}$. <br>  Suy ra đường tiệm cận xiên của $(H)$ có phương trình là $y=x+2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $f'(x) = 0\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow x=-\\sqrt{2}+1\\Rightarrow y = -2\\sqrt{2}+3 \\text{ hoặc } x=\\sqrt{2}+1\\Rightarrow y = 2\\sqrt{2}+3.$ <br>  Suy ra $(H)$ có hai điểm cực trị $A\\left(-\\sqrt{2}+1;-2\\sqrt{2}+3\\right)$ và $B\\left(\\sqrt{2}+1;2\\sqrt{2}+3\\right)$. <br>  Do đó, khoảng cách giữa hai điểm cực trị của $(H)$ là $AB = \\sqrt{\\left(2\\sqrt{2}\\right)^2 + \\left(4\\sqrt{2}\\right)^2} = 2\\sqrt{10}.$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có bảng biến thiên của $f(x)$ trên $(1;+\\infty)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị nhỏ nhất của $f(x)$ trên khoảng $(1;+\\infty)$ là $3+2\\sqrt{2}$."
+    "explain": "<br>- <strong>Đúng</strong>. Ta có $f'(x) = \\dfrac{x^2-2x-1}{(x-1)^2}$ với $x\\in\\mathbb{R}\\setminus\\{1\\}$.<br>- <strong>Sai</strong>. Ta có $f(x) = \\dfrac{x^2+x}{x-1} = x+2 + \\dfrac{2}{x-1}$. <br>  Suy ra đường tiệm cận xiên của $(H)$ có phương trình là $y=x+2$.<br>- <strong>Đúng</strong>. Ta có $f'(x) = 0\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow x=-\\sqrt{2}+1\\Rightarrow y = -2\\sqrt{2}+3 \\text{ hoặc } x=\\sqrt{2}+1\\Rightarrow y = 2\\sqrt{2}+3.$ <br>  Suy ra $(H)$ có hai điểm cực trị $A\\left(-\\sqrt{2}+1;-2\\sqrt{2}+3\\right)$ và $B\\left(\\sqrt{2}+1;2\\sqrt{2}+3\\right)$. <br>  Do đó, khoảng cách giữa hai điểm cực trị của $(H)$ là $AB = \\sqrt{\\left(2\\sqrt{2}\\right)^2 + \\left(4\\sqrt{2}\\right)^2} = 2\\sqrt{10}.$<br>- <strong>Đúng</strong>. Ta có bảng biến thiên của $f(x)$ trên $(1;+\\infty)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy giá trị nhỏ nhất của $f(x)$ trên khoảng $(1;+\\infty)$ là $3+2\\sqrt{2}$."
   },
   {
     "id": "2D136DS4",
@@ -95,7 +95,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $x(0) = 4$. <br>  Vậy ban đầu $M$ ở vị trí cách $O$ một khoảng cách bằng $4$ mét.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v(t) = x'(t) = -t^2+ 12t$. <br>  Vậy vận tốc tức thời của $M$ tại thời điểm $t$ giây ($0\\le t\\le 12$) là $v(t) = -t^2+12t$ (mét/giây).<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có $v'(t) = -2t+12$. Khi đó $v'(t) &gt; 0\\Leftrightarrow -2t+12&gt;0\\Leftrightarrow t&lt;6$. <br>  Suy ra $v(t)$ đồng biến trên $[0;6]$. <br>  Vậy trong suốt $6$ giây đầu tiên, vận tốc tức thời của $M$ luôn tăng.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có bảng biến thiên của $v(t)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $M$ có vận tốc tức thời lớn nhất tại $t=6$. <br>  Khi đó $x(6) - x(0) = -\\dfrac{6^3}{3} + 6\\cdot 6^2 + 4 - 4= 144$. <br>  Vậy xét trong $12$ giây đầu tiên, tính từ lúc bắt đầu khảo sát đến lúc $M$ có vận tốc tức thời lớn nhất thì $M$ đi được một quãng đường dài $144$ mét."
+    "explain": "<br>- <strong>Sai</strong>. Ta có $x(0) = 4$. <br>  Vậy ban đầu $M$ ở vị trí cách $O$ một khoảng cách bằng $4$ mét.<br>- <strong>Đúng</strong>. Ta có $v(t) = x'(t) = -t^2+ 12t$. <br>  Vậy vận tốc tức thời của $M$ tại thời điểm $t$ giây ($0\\le t\\le 12$) là $v(t) = -t^2+12t$ (mét/giây).<br>- <strong>Đúng</strong>. Ta có $v'(t) = -2t+12$. Khi đó $v'(t) &gt; 0\\Leftrightarrow -2t+12&gt;0\\Leftrightarrow t&lt;6$. <br>  Suy ra $v(t)$ đồng biến trên $[0;6]$. <br>  Vậy trong suốt $6$ giây đầu tiên, vận tốc tức thời của $M$ luôn tăng.<br>- <strong>Sai</strong>. Ta có bảng biến thiên của $v(t)$ như sau  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_022.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Suy ra $M$ có vận tốc tức thời lớn nhất tại $t=6$. <br>  Khi đó $x(6) - x(0) = -\\dfrac{6^3}{3} + 6\\cdot 6^2 + 4 - 4= 144$. <br>  Vậy xét trong $12$ giây đầu tiên, tính từ lúc bắt đầu khảo sát đến lúc $M$ có vận tốc tức thời lớn nhất thì $M$ đi được một quãng đường dài $144$ mét."
   },
   {
     "id": "2D132DS5",
@@ -118,7 +118,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  $f\\left(-\\dfrac{\\pi}{2}\\right)=\\cos (-\\pi)+\\dfrac{\\pi}{2}=\\dfrac{\\pi}{2}-1$.<br> $f\\left(\\dfrac{\\pi}{2}\\right)=\\cos (\\pi)-\\dfrac{\\pi}{2}=-\\dfrac{\\pi}{2}-1$<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Đạo hàm của hàm số đã cho là $f'(x)=-2\\sin 2x-1$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Ta có $f'(x)=-2\\sin 2x-1=0\\Leftrightarrow \\sin 2x=-\\dfrac{1}{2}\\Leftrightarrow x=-\\dfrac{\\pi}{12}+k\\pi \\text{ hoặc } x=\\dfrac{7\\pi}{12}+k\\pi, k\\in \\mathbb{Z}$.<br>  Vì $x\\in \\left[-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right]$ nên $x\\in \\left\\{-\\dfrac{\\pi}{12};-\\dfrac{5\\pi}{12}\\right\\}$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $f\\left(-\\dfrac{\\pi}{2}\\right)=\\dfrac{\\pi}{2}-1$.<br>  $f\\left(\\dfrac{\\pi}{2}\\right)=-\\dfrac{\\pi}{2}-1$.<br>  $f\\left(-\\dfrac{\\pi}{12}\\right)=\\dfrac{\\pi}{12}+\\dfrac{\\sqrt{3}}{2}$.<br>  $f\\left(-\\dfrac{5\\pi}{12}\\right)=\\dfrac{5\\pi}{12}-\\dfrac{\\sqrt{3}}{2}$.<br>  Vậy giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $\\left[-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right]$ là $-\\dfrac{\\pi}{2}-1$."
+    "explain": "<br>- <strong>Đúng</strong>.<br>  $f\\left(-\\dfrac{\\pi}{2}\\right)=\\cos (-\\pi)+\\dfrac{\\pi}{2}=\\dfrac{\\pi}{2}-1$.<br> $f\\left(\\dfrac{\\pi}{2}\\right)=\\cos (\\pi)-\\dfrac{\\pi}{2}=-\\dfrac{\\pi}{2}-1$<br>- <strong>Sai</strong>.<br>  Đạo hàm của hàm số đã cho là $f'(x)=-2\\sin 2x-1$.<br>- <strong>Sai</strong>.<br>  Ta có $f'(x)=-2\\sin 2x-1=0\\Leftrightarrow \\sin 2x=-\\dfrac{1}{2}\\Leftrightarrow x=-\\dfrac{\\pi}{12}+k\\pi \\text{ hoặc } x=\\dfrac{7\\pi}{12}+k\\pi, k\\in \\mathbb{Z}$.<br>  Vì $x\\in \\left[-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right]$ nên $x\\in \\left\\{-\\dfrac{\\pi}{12};-\\dfrac{5\\pi}{12}\\right\\}$.<br>- <strong>Đúng</strong>.<br>  Ta có $f\\left(-\\dfrac{\\pi}{2}\\right)=\\dfrac{\\pi}{2}-1$.<br>  $f\\left(\\dfrac{\\pi}{2}\\right)=-\\dfrac{\\pi}{2}-1$.<br>  $f\\left(-\\dfrac{\\pi}{12}\\right)=\\dfrac{\\pi}{12}+\\dfrac{\\sqrt{3}}{2}$.<br>  $f\\left(-\\dfrac{5\\pi}{12}\\right)=\\dfrac{5\\pi}{12}-\\dfrac{\\sqrt{3}}{2}$.<br>  Vậy giá trị nhỏ nhất của hàm số $y=f(x)$ trên đoạn $\\left[-\\dfrac{\\pi}{2}; \\dfrac{\\pi}{2}\\right]$ là $-\\dfrac{\\pi}{2}-1$."
   },
   {
     "id": "2D131DS6",
@@ -164,7 +164,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Ta có với $ x=0 $, $ y=2^0+0+1=2 $.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Tập xác định của hàm số là $ \\mathscr{D}=\\mathbb{R} $.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $ y'=2^x\\ln 2+1 $.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Do $ y'=2^x\\ln 2+1&gt;0 $, $ \\forall x \\in [0;1] $ nên hàm số đồng biến trên $ (0;1) $.<br>  Khi đó $ \\max\\limits_{[0;1]}f(x)=f(1)=2^1+1+1=4 $."
+    "explain": "<br>- <strong>Đúng</strong>. Ta có với $ x=0 $, $ y=2^0+0+1=2 $.<br>- <strong>Sai</strong>. Tập xác định của hàm số là $ \\mathscr{D}=\\mathbb{R} $.<br>- <strong>Sai</strong>. Ta có $ y'=2^x\\ln 2+1 $.<br>- <strong>Đúng</strong>. Do $ y'=2^x\\ln 2+1&gt;0 $, $ \\forall x \\in [0;1] $ nên hàm số đồng biến trên $ (0;1) $.<br>  Khi đó $ \\max\\limits_{[0;1]}f(x)=f(1)=2^1+1+1=4 $."
   },
   {
     "id": "2D132DS8",
@@ -279,7 +279,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$ và $f'(x)=3x^2-12x+9$.<br>  Xét $f'(x)=0\\Leftrightarrow 3x^2-12x+9=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Ta có $\\lim\\limits_{x \\to -\\infty} f(x) = -\\infty$ và $\\lim\\limits_{x \\to +\\infty} f(x) = +\\infty$.<br>  Bàng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ bảng biến thiên ta có  <br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Đạo hàm của hàm số $f(x)$ là $f'(x)=3 x^2-12 x+9$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Hàm số nghịch biến trên khoảng $(3 ;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;. Hàm số đạt cực đại tại điểm $x=1$ và giá trị cực đại của hàm số bằng $3$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;. Ta có $f(2)=1$; $f(3)=-1$ và $f(5)=19$. Do đó giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[2; 5]$ bằng $19$."
+    "explain": "Tập xác định $\\mathscr{D}=\\mathbb{R}$ và $f'(x)=3x^2-12x+9$.<br>  Xét $f'(x)=0\\Leftrightarrow 3x^2-12x+9=0\\Leftrightarrow x=1 \\text{ hoặc } x=3.$<br>  Ta có $\\lim\\limits_{x \\to -\\infty} f(x) = -\\infty$ và $\\lim\\limits_{x \\to +\\infty} f(x) = +\\infty$.<br>  Bàng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D13_tikz_061.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">   Từ bảng biến thiên ta có  <br>- <strong>Đúng</strong>. Đạo hàm của hàm số $f(x)$ là $f'(x)=3 x^2-12 x+9$.<br>- <strong>Sai</strong>. Hàm số nghịch biến trên khoảng $(3 ;+\\infty)$.<br>- <strong>Đúng</strong>. Hàm số đạt cực đại tại điểm $x=1$ và giá trị cực đại của hàm số bằng $3$.<br>- <strong>Sai</strong>. Ta có $f(2)=1$; $f(3)=-1$ và $f(5)=19$. Do đó giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[2; 5]$ bằng $19$."
   },
   {
     "id": "2D132DS13",
@@ -302,7 +302,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.  Hàm số đạt cực tiểu tại $x=2$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.  Hàm số nghịch biến trên khoảng $(0;2)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.  Giá trị lớn nhất của hàm số trên đoạn $[0;2]$ bằng $2$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.  Tổng giá trị cực đại và giá trị cực tiểu của hàm số bằng $2-2=0$."
+    "explain": "<br>- <strong>Đúng</strong>.  Hàm số đạt cực tiểu tại $x=2$.<br>- <strong>Đúng</strong>.  Hàm số nghịch biến trên khoảng $(0;2)$.<br>- <strong>Sai</strong>.  Giá trị lớn nhất của hàm số trên đoạn $[0;2]$ bằng $2$.<br>- <strong>Sai</strong>.  Tổng giá trị cực đại và giá trị cực tiểu của hàm số bằng $2-2=0$."
   },
   {
     "id": "2D131DS14",
@@ -440,7 +440,7 @@ window.dungSai2D13 = [
         "answer": true
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Từ bảng biến thiên, ta thấy hàm số đồng biến trên khoảng $(1;3)$ và $(7;+\\infty)$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Do hàm số đồng biến trên khoảng $(1;3)$ nên $2&lt;3$ thì $f(2)&lt;f(3)$.<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Từ bảng biến thiên, ta có hàm số đạt cực đại tại $x=3$.<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Trên đoạn $[5;8]$, giá trị nhỏ nhất của hàm số là $-18$, đạt tại $x=7$."
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên, ta thấy hàm số đồng biến trên khoảng $(1;3)$ và $(7;+\\infty)$.<br>- <strong>Đúng</strong>.<br>  Do hàm số đồng biến trên khoảng $(1;3)$ nên $2&lt;3$ thì $f(2)&lt;f(3)$.<br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên, ta có hàm số đạt cực đại tại $x=3$.<br>- <strong>Đúng</strong>.<br>  Trên đoạn $[5;8]$, giá trị nhỏ nhất của hàm số là $-18$, đạt tại $x=7$."
   },
   {
     "id": "2D136DS20",
@@ -486,7 +486,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là  \\[C(50)=8\\cdot 50^2+40\\cdot 50+1300=23300\\, (\\text{nghìn đồng}).\\]<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Doanh thu khi bán $q$ sản phẩm là   \\[R(q)=q\\cdot P(q)=q\\cdot (1400-2q)=1400-2q^2.\\]  Lợi nhuận khi bán được $q$ sản phẩm là   $F(q)=R(q)-C(q) =(1400-2q^2)-(8q^2+40 q+1300)$<br>$=-10q^2+1360q-1300\\, (\\text{nghìn đồng}).$<br>- &lt;strong&gt;Đúng&lt;/strong&gt;.<br>  Ta có $F(q)$ là hàm số bậc hai có hệ số $a=-10&lt;0$ nên đạt giá trị lớn nhất tại \\[q=-\\dfrac{b}{2a}=-\\dfrac{1360}{2\\cdot (-10)}=68.\\]  Khi đó $F(68)=-10\\cdot 68^2+1360\\cdot 68-1300=44940$\\,(nghìn đồng).<br>- &lt;strong&gt;Sai&lt;/strong&gt;.<br>  Với $q=60$ ta có $F(60)=-10\\cdot 60^2+1360\\cdot 60-1300=44300$\\,(nghìn đồng).<br>  Với $q=60$ ta có $F(70)=-10\\cdot 70^2+1360\\cdot 70-1300=44900$\\,(nghìn đồng).<br>  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44300$ đến $44900$\\,(nghìn đồng)."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là  \\[C(50)=8\\cdot 50^2+40\\cdot 50+1300=23300\\, (\\text{nghìn đồng}).\\]<br>- <strong>Đúng</strong>.<br>  Doanh thu khi bán $q$ sản phẩm là   \\[R(q)=q\\cdot P(q)=q\\cdot (1400-2q)=1400-2q^2.\\]  Lợi nhuận khi bán được $q$ sản phẩm là   $F(q)=R(q)-C(q) =(1400-2q^2)-(8q^2+40 q+1300)$<br>$=-10q^2+1360q-1300\\, (\\text{nghìn đồng}).$<br>- <strong>Đúng</strong>.<br>  Ta có $F(q)$ là hàm số bậc hai có hệ số $a=-10&lt;0$ nên đạt giá trị lớn nhất tại \\[q=-\\dfrac{b}{2a}=-\\dfrac{1360}{2\\cdot (-10)}=68.\\]  Khi đó $F(68)=-10\\cdot 68^2+1360\\cdot 68-1300=44940$\\,(nghìn đồng).<br>- <strong>Sai</strong>.<br>  Với $q=60$ ta có $F(60)=-10\\cdot 60^2+1360\\cdot 60-1300=44300$\\,(nghìn đồng).<br>  Với $q=60$ ta có $F(70)=-10\\cdot 70^2+1360\\cdot 70-1300=44900$\\,(nghìn đồng).<br>  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44300$ đến $44900$\\,(nghìn đồng)."
   },
   {
     "id": "2D132DS22",

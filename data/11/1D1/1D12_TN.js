@@ -30,7 +30,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN3",
-    "question": "Với mọi góc lượng giác $\\alpha$ và số nguyên $k$. Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Với mọi góc lượng giác $\\alpha$ và số nguyên $k$. Khẳng định nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\cos(\\alpha+k 2\\pi)=\\cos \\alpha$",
       "$\\sin(\\alpha+k \\pi)=\\sin \\alpha$",
@@ -174,7 +174,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN15",
-    "question": "Cho góc lượng giác $x$. Đẳng thức lượng nào dưới đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho góc lượng giác $x$. Đẳng thức lượng nào dưới đây <strong>sai</strong>?",
     "options": [
       "$\\sin(\\pi-x)=\\sin x$",
       "$\\tan (\\pi+x)=\\tan x$",
@@ -186,7 +186,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN16",
-    "question": "Cho góc $x$ biết $0 &lt; x &lt; \\dfrac{\\pi}{2}$. Mệnh đề nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho góc $x$ biết $0 &lt; x &lt; \\dfrac{\\pi}{2}$. Mệnh đề nào sau đây <strong>sai</strong>?",
     "options": [
       "$\\tan x &gt; 0$",
       "$\\cos x &gt; 0$",
@@ -198,7 +198,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN17",
-    "question": "Cho $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$. Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho $0&lt; \\alpha &lt; \\dfrac{\\pi}{2}$. Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\cot\\alpha &lt; 0$",
       "$\\sin\\alpha &gt; 0$",
@@ -282,7 +282,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN24",
-    "question": "Khẳng định nào dưới đây &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Khẳng định nào dưới đây <strong>sai</strong>?",
     "options": [
       "$\\cos(\\pi - \\alpha) = -\\cos \\alpha$",
       "$\\tan(\\pi + \\alpha) = \\tan \\alpha$",
@@ -318,7 +318,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN27",
-    "question": "Cho $\\alpha$ thuộc góc phần tư II của đường tròn lượng giác. Khẳng định nào dưới đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho $\\alpha$ thuộc góc phần tư II của đường tròn lượng giác. Khẳng định nào dưới đây <strong>đúng</strong>?",
     "options": [
       "$\\sin \\alpha &gt; 0; \\cot \\alpha &gt; 0$",
       "$\\sin \\alpha &gt; 0; \\cos \\alpha &lt; 0$",
@@ -378,7 +378,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN32",
-    "question": "Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho góc $\\alpha$ thoả mãn $\\dfrac{\\pi}{2} &lt; \\alpha &lt; \\pi$. Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\sin \\alpha &gt; 0$",
       "$\\cos \\alpha &gt; 0$",
@@ -390,7 +390,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D121TN33",
-    "question": "Khẳng định nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Khẳng định nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\sin(-11^\\circ) = \\sin 11^\\circ$",
       "$\\cos(-11^\\circ) = \\cos 11^\\circ$",
@@ -582,7 +582,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN49",
-    "question": "Cho góc $ x$ thoả $0^\\circ &lt; x &lt;90^\\circ$. Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho góc $ x$ thoả $0^\\circ &lt; x &lt;90^\\circ$. Trong các mệnh đề sau, mệnh đề nào <strong>sai</strong>?",
     "options": [
       "$\\cos x &lt; 0$",
       "$\\sin x &gt; 0$",

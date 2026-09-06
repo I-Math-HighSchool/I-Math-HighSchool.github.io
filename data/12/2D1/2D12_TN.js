@@ -31,7 +31,7 @@ window.tracNghiem2D12 = [
   },
   {
     "id": "2D122TN3",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ.  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Khẳng định nào sau đây là <strong>sai</strong>?",
     "options": [
       "Hàm số có giá trị cực đại là $y=2$",
       "Điểm cực tiểu của hàm số là $(1;-2)$",
@@ -39,7 +39,7 @@ window.tracNghiem2D12 = [
       "Hàm số đạt cực đại tại $x=-1$"
     ],
     "answer": 1,
-    "explain": "$(1,-2)$ là điểm cực tiểu của &lt;strong&gt;đồ thị hàm số&lt;/strong&gt;."
+    "explain": "$(1,-2)$ là điểm cực tiểu của <strong>đồ thị hàm số</strong>."
   },
   {
     "id": "2D121TN4",

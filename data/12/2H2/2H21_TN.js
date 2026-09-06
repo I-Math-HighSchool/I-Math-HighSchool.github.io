@@ -103,7 +103,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN9",
-    "question": "Cho tứ diện $ABCD$, gọi $M$, $N$ lần lượt là trung điểm của $AB$, $CD$, $O$ là trung điểm của $MN$. Đẳng thức nào sau đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho tứ diện $ABCD$, gọi $M$, $N$ lần lượt là trung điểm của $AB$, $CD$, $O$ là trung điểm của $MN$. Đẳng thức nào sau đây là <strong>sai</strong>?",
     "options": [
       "$\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AB}+\\overrightarrow{DC}$",
       "$\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\overrightarrow{0}$",
@@ -139,7 +139,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN9",
-    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $AB$, $CD$ và $G$ là trung điểm của $MN$. Trong các khẳng định sau, khẳng định nào &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $AB$, $CD$ và $G$ là trung điểm của $MN$. Trong các khẳng định sau, khẳng định nào <strong>sai</strong>?",
     "options": [
       "$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\overrightarrow{GD}$",
       "$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\overrightarrow{0}$",
@@ -331,7 +331,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN26",
-    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$ là trung điểm của $AB$ và $CD$. Chọn khẳng định &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho tứ diện $ABCD$. Gọi $M$, $N$ là trung điểm của $AB$ và $CD$. Chọn khẳng định <strong>đúng</strong>?",
     "options": [
       "$\\overrightarrow{MN} = \\dfrac{1}{4} (\\overrightarrow{BC} + \\overrightarrow{AD})$",
       "$\\overrightarrow{MN} = \\dfrac{1}{2} (\\overrightarrow{BC} + \\overrightarrow{AD})$",
@@ -475,7 +475,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN38",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$ (tham khảo hình vẽ). Khẳng định nào sau đây <strong>sai</strong>?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_049.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AD}=\\overrightarrow{A'D'}$",
       "$\\overrightarrow{AD}=\\overrightarrow{B'C'}$",
@@ -535,7 +535,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H211TN43",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật tâm $O$ (minh họa như hình bên). Khẳng định nào sau đây &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật tâm $O$ (minh họa như hình bên). Khẳng định nào sau đây <strong>sai</strong>?<br><img src=\"data/12/2D2/im2H2/2H21_tikz_053.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\vec{SA}+\\vec{SC}=\\vec{SB}+\\vec{SD}$",
       "$\\vec{SD}-\\vec{SB}=\\vec{BD}$",
@@ -751,7 +751,7 @@ window.tracNghiem2H21 = [
   },
   {
     "id": "2H212TN61",
-    "question": "Cho hình hộp $ABCD.A_1 B_1 C_1 D_1$.  Tìm khẳng định &lt;strong&gt;sai&lt;/strong&gt; trong các khẳng định dưới đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_083.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A_1 B_1 C_1 D_1$.  Tìm khẳng định <strong>sai</strong> trong các khẳng định dưới đây.<br><img src=\"data/12/2D2/im2H2/2H21_tikz_083.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}$",
       "$\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}$",

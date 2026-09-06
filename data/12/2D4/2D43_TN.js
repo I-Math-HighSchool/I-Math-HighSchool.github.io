@@ -30,7 +30,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN3",
-    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a;b]$ và cắt trục hoành tại điểm $x=c$ (như hình vẽ). Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị của hàm số $y=f(x)$, trục hoành và hai đường thẳng $x=a,x=b$. Khẳng định nào sau đây là khẳng định &lt;strong&gt;đúng&lt;/strong&gt;?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[a;b]$ và cắt trục hoành tại điểm $x=c$ (như hình vẽ). Gọi $S$ là diện tích hình phẳng được giới hạn bởi đồ thị của hàm số $y=f(x)$, trục hoành và hai đường thẳng $x=a,x=b$. Khẳng định nào sau đây là khẳng định <strong>đúng</strong>?<br><img src=\"data/12/2D4/im2D4/2D43_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$S=\\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$",
       "$S=\\displaystyle\\int\\limits_a^c f(x)\\mathrm{\\,d}x-\\displaystyle\\int\\limits_c^b f(x)\\mathrm{\\,d}x$",
@@ -138,7 +138,7 @@ window.tracNghiem2D43 = [
   },
   {
     "id": "2D431TN12",
-    "question": "Gọi $S$ là diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x),$ trục $Ox,$ hai đường thẳng $x = a, x = b.$ Chọn đáp án &lt;strong&gt;đúng&lt;/strong&gt;.",
+    "question": "Gọi $S$ là diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f(x),$ trục $Ox,$ hai đường thẳng $x = a, x = b.$ Chọn đáp án <strong>đúng</strong>.",
     "options": [
       "$S=\\displaystyle \\int\\limits_{a}^{b} f(x) \\; \\mathrm{d}x$",
       "$S=\\displaystyle \\int\\limits_{a}^{b} \\big|f(x)\\big| \\; \\mathrm{d}x$",

@@ -715,7 +715,7 @@ window.tracNghiem2H22 = [
   },
   {
     "id": "2H221TN51",
-    "question": "Trong không gian $Oxyz$, cho $\\vec{a}=(1;-3;3)$, $\\vec{b}=(-2;0;4)$. Khẳng định nào dưới đây là &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Trong không gian $Oxyz$, cho $\\vec{a}=(1;-3;3)$, $\\vec{b}=(-2;0;4)$. Khẳng định nào dưới đây là <strong>sai</strong>?",
     "options": [
       "$\\vec{a}-\\vec{b}=(3;-3;-1)$",
       "$3\\vec{a}=(3;-9;3)$",

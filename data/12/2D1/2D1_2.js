@@ -471,7 +471,7 @@ window.tracNghiem2D11_2 = [
       "$y = x^4 - 2x^2 - 3$"
     ],
     "answer": 2,
-    "explain": "&lt;strong&gt;Xét từng hàm số&lt;/strong&gt;  <br>- Xét hàm số $y = x^3 + 3x^2 + 7x + 5$, ta có $y' = 3x^2 + 6x + 7$.<br>  Vì $y'$ là tam thức bậc hai có $\\Delta = 36 - 84 = -48 &lt; 0$ nên $y' &gt; 0$ với mọi $x \\in \\mathbb{R}$.<br>  Vậy hàm số đồng biến trên $\\mathbb{R}$.<br>- Hàm số $y = \\dfrac{3x - 1}{x - 2}$ xác định với $x \\ne 2$ và  $y' = \\dfrac{-5}{(x - 2)^2} &lt; 0$ với mọi $x \\ne 2$.<br>  Suy ra hàm số nghịch biến trên từng khoảng xác định, nhưng không nghịch biến trên $\\mathbb{R}$.<br>- Hàm số $y = -x^3 - 3x + 4 $ có $y' = -3x^2 - 3 = -3(x^2 + 1) &lt; 0$ với mọi $x \\in \\mathbb{R}$.<br>  Suy ra hàm số luôn nghịch biến trên $\\mathbb{R}$.<br>- Hàm số $y = x^4 - 2x^2 - 3 $ có $ y' = 4x^3 - 4x = 4x(x^2 - 1)$.<br>  Xét dấu $y'$ trên các khoảng: $(-\\infty, -1)$, $(-1, 0)$, $(0, 1)$, $(1, +\\infty)$ thì $y'$ đổi dấu.<br>  Vậy hàm số không nghịch biến trên toàn $\\mathbb{R}$."
+    "explain": "<strong>Xét từng hàm số</strong>  <br>- Xét hàm số $y = x^3 + 3x^2 + 7x + 5$, ta có $y' = 3x^2 + 6x + 7$.<br>  Vì $y'$ là tam thức bậc hai có $\\Delta = 36 - 84 = -48 &lt; 0$ nên $y' &gt; 0$ với mọi $x \\in \\mathbb{R}$.<br>  Vậy hàm số đồng biến trên $\\mathbb{R}$.<br>- Hàm số $y = \\dfrac{3x - 1}{x - 2}$ xác định với $x \\ne 2$ và  $y' = \\dfrac{-5}{(x - 2)^2} &lt; 0$ với mọi $x \\ne 2$.<br>  Suy ra hàm số nghịch biến trên từng khoảng xác định, nhưng không nghịch biến trên $\\mathbb{R}$.<br>- Hàm số $y = -x^3 - 3x + 4 $ có $y' = -3x^2 - 3 = -3(x^2 + 1) &lt; 0$ với mọi $x \\in \\mathbb{R}$.<br>  Suy ra hàm số luôn nghịch biến trên $\\mathbb{R}$.<br>- Hàm số $y = x^4 - 2x^2 - 3 $ có $ y' = 4x^3 - 4x = 4x(x^2 - 1)$.<br>  Xét dấu $y'$ trên các khoảng: $(-\\infty, -1)$, $(-1, 0)$, $(0, 1)$, $(1, +\\infty)$ thì $y'$ đổi dấu.<br>  Vậy hàm số không nghịch biến trên toàn $\\mathbb{R}$."
   },
   {
     "id": "2D112TN59",
@@ -655,7 +655,7 @@ window.tracNghiem2D11_2 = [
   },
   {
     "id": "2D112TN74",
-    "question": "Đạo hàm $f'(x)$ của hàm số $y=f(x)$ có đồ thị như hình bên. Khẳng định nào dưới đây là &lt;strong&gt;sai&lt;/strong&gt;?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Đạo hàm $f'(x)$ của hàm số $y=f(x)$ có đồ thị như hình bên. Khẳng định nào dưới đây là <strong>sai</strong>?<br><img src=\"data/12/2D1/im2D1/2D11_tikz_062.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "Hàm số $y=f(x)$ đồng biến trên $(-2;0)$",
       "Hàm số $y=f(x)$ đồng biến trên $(0;2)$",

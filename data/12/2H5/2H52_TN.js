@@ -187,7 +187,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN16",
-    "question": "Cho $d:\\left\\{\\begin{aligned}  x &= 1+t\\\\  y &= 2-2t\\\\  z &= 3+t  \\end{aligned}\\right.$. Điểm nào sau đây &lt;strong&gt;không&lt;/strong&gt; thuộc đường thẳng $d$?",
+    "question": "Cho $d:\\left\\{\\begin{aligned}  x &= 1+t\\\\  y &= 2-2t\\\\  z &= 3+t  \\end{aligned}\\right.$. Điểm nào sau đây <strong>không</strong> thuộc đường thẳng $d$?",
     "options": [
       "$M(0;4;2)$",
       "$N(1;2;3)$",
@@ -571,7 +571,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H521TN48",
-    "question": "Cho mặt phẳng $(P):3x-2y-5=0$ và đường thẳng $d:\\dfrac{x+2}{2}=\\dfrac{y-1}{3}=\\dfrac{z+1}{1}$. Khẳng định nào sau đây là khẳng định &lt;strong&gt;sai&lt;/strong&gt;?",
+    "question": "Cho mặt phẳng $(P):3x-2y-5=0$ và đường thẳng $d:\\dfrac{x+2}{2}=\\dfrac{y-1}{3}=\\dfrac{z+1}{1}$. Khẳng định nào sau đây là khẳng định <strong>sai</strong>?",
     "options": [
       "$\\overrightarrow{n}=(4;6;2)$ là một véc tơ chỉ phương của $d$",
       "$(P)$ cắt cả ba trục tọa độ",
@@ -643,7 +643,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H521TN54",
-    "question": "Cho đường thẳng $d:\\dfrac{x-3}{4}=\\dfrac{y+1}{-1}=\\dfrac{z-4}{2}$ và mặt phẳng $(P):x+2y-z+3=0$. Chọn mệnh đề &lt;strong&gt;đúng&lt;/strong&gt; trong các mệnh đề sau.",
+    "question": "Cho đường thẳng $d:\\dfrac{x-3}{4}=\\dfrac{y+1}{-1}=\\dfrac{z-4}{2}$ và mặt phẳng $(P):x+2y-z+3=0$. Chọn mệnh đề <strong>đúng</strong> trong các mệnh đề sau.",
     "options": [
       "Đường thẳng $d$ cắt mặt phẳng $(P)$ tại đúng 1 điểm",
       "Đường thẳng $d$ song song với mặt phẳng $(P)$",
@@ -1327,7 +1327,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H524TN111",
-    "question": "Cho hai đường thẳng $d_1:\\left\\{\\begin{aligned} x&=-23+8t \\\\y&=-10+4t\\\\ z&=t \\end{aligned}\\right.$ và $d_2: \\dfrac{x-3}{2}=\\dfrac{y+2}{-2}=\\dfrac{z}{1}$. Gọi $d$ là đường thẳng song song với trục $Oz$ và cắt cả hai đường thẳng $d_1,d_2$. Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Cho hai đường thẳng $d_1:\\left\\{\\begin{aligned} x&=-23+8t \\\\y&=-10+4t\\\\ z&=t \\end{aligned}\\right.$ và $d_2: \\dfrac{x-3}{2}=\\dfrac{y+2}{-2}=\\dfrac{z}{1}$. Gọi $d$ là đường thẳng song song với trục $Oz$ và cắt cả hai đường thẳng $d_1,d_2$. Trong các mệnh đề sau, mệnh đề nào <strong>đúng</strong>?",
     "options": [
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y-3=0$ và $(Q): x+y-1=0$",
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y+3=0$ và $ (Q): x+y-1=0$",
@@ -1335,7 +1335,7 @@ window.tracNghiem2H52 = [
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y+3=0$ và $ (Q): x+y+1=0$"
     ],
     "answer": 1,
-    "explain": "Gọi $ A,B $ lần lượt là các điểm thuộc $ d_1,d_2 $, khi đó $ A(-23+8a; -10+4a;a), B(3+2b,-2-2b,b) $.<br>  Đường thẳng $ d $ song song với $ Oz $ nên $ \\overrightarrow{AB} =m.\\vec{k} \\Rightarrow \\begin{cases} 8a+2b=26\\\\ 4a+2b =8 \\end{cases} \\Rightarrow A(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{17}{6}), B(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{-5}{3})$.<br>  Thay tọa độ $ A,B $ vào các đáp ta chọn được đáp án đúng &lt;strong&gt;B&lt;/strong&gt;."
+    "explain": "Gọi $ A,B $ lần lượt là các điểm thuộc $ d_1,d_2 $, khi đó $ A(-23+8a; -10+4a;a), B(3+2b,-2-2b,b) $.<br>  Đường thẳng $ d $ song song với $ Oz $ nên $ \\overrightarrow{AB} =m.\\vec{k} \\Rightarrow \\begin{cases} 8a+2b=26\\\\ 4a+2b =8 \\end{cases} \\Rightarrow A(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{17}{6}), B(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{-5}{3})$.<br>  Thay tọa độ $ A,B $ vào các đáp ta chọn được đáp án đúng <strong>B</strong>."
   },
   {
     "id": "2H523TN112",
@@ -1807,7 +1807,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN151",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho $d:\\left\\{\\begin{aligned} x &= 1+t\\\\ y &= 2-2t\\\\ z &= 3+t \\end{aligned}\\right.$. Điểm nào sau đây &lt;strong&gt;không&lt;/strong&gt; thuộc đường thẳng $d$?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho $d:\\left\\{\\begin{aligned} x &= 1+t\\\\ y &= 2-2t\\\\ z &= 3+t \\end{aligned}\\right.$. Điểm nào sau đây <strong>không</strong> thuộc đường thẳng $d$?",
     "options": [
       "$M(0;4;2)$",
       "$N(1;2;3)$",
@@ -2311,7 +2311,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H521TN193",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(\\alpha):x+2y+3z-6=0$ và đường thẳng $\\Delta:\\dfrac{x+1}{-1}=\\dfrac{y+1}{-1}=\\dfrac{z-3}{1}$. Mệnh đề nào sau đây &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(\\alpha):x+2y+3z-6=0$ và đường thẳng $\\Delta:\\dfrac{x+1}{-1}=\\dfrac{y+1}{-1}=\\dfrac{z-3}{1}$. Mệnh đề nào sau đây <strong>đúng</strong>?",
     "options": [
       "$\\Delta\\parallel (\\alpha)$",
       "$\\Delta\\subset (\\alpha)$",
@@ -2467,7 +2467,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H524TN206",
-    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho hai đường thẳng $d_1:\\left\\{\\begin{aligned} x&=-23+8t \\\\y&=-10+4t\\\\ z&=t \\end{aligned}\\right.$ và $d_2: \\dfrac{x-3}{2}=\\dfrac{y+2}{-2}=\\dfrac{z}{1}$. Gọi $d$ là đường thẳng song song với trục $Oz$ và cắt cả hai đường thẳng $d_1,d_2$. Trong các mệnh đề sau, mệnh đề nào &lt;strong&gt;đúng&lt;/strong&gt;?",
+    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho hai đường thẳng $d_1:\\left\\{\\begin{aligned} x&=-23+8t \\\\y&=-10+4t\\\\ z&=t \\end{aligned}\\right.$ và $d_2: \\dfrac{x-3}{2}=\\dfrac{y+2}{-2}=\\dfrac{z}{1}$. Gọi $d$ là đường thẳng song song với trục $Oz$ và cắt cả hai đường thẳng $d_1,d_2$. Trong các mệnh đề sau, mệnh đề nào <strong>đúng</strong>?",
     "options": [
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y-3=0$ và $(Q): x+y-1=0$",
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y+3=0$ và $ (Q): x+y-1=0$",
@@ -2475,7 +2475,7 @@ window.tracNghiem2H52 = [
       "$d$ là giao tuyến của hai mặt phẳng $(P):x-2y+3=0$ và $ (Q): x+y+1=0$"
     ],
     "answer": 1,
-    "explain": "Gọi $ A,B $ lần lượt là các điểm thuộc $ d_1,d_2 $, khi đó $ A(-23+8a; -10+4a;a), B(3+2b,-2-2b,b) $.<br> Đường thẳng $ d $ song song với $ Oz $ nên $ \\overrightarrow{AB} =m.\\vec{k} \\Rightarrow \\begin{cases} 8a+2b=26\\\\ 4a+2b =8 \\end{cases} \\Rightarrow A(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{17}{6}), B(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{-5}{3})$.<br> Thay tọa độ $ A,B $ vào các đáp ta chọn được đáp án đúng &lt;strong&gt;B&lt;/strong&gt;."
+    "explain": "Gọi $ A,B $ lần lượt là các điểm thuộc $ d_1,d_2 $, khi đó $ A(-23+8a; -10+4a;a), B(3+2b,-2-2b,b) $.<br> Đường thẳng $ d $ song song với $ Oz $ nên $ \\overrightarrow{AB} =m.\\vec{k} \\Rightarrow \\begin{cases} 8a+2b=26\\\\ 4a+2b =8 \\end{cases} \\Rightarrow A(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{17}{6}), B(\\dfrac{-1}{3};\\dfrac{4}{3};\\dfrac{-5}{3})$.<br> Thay tọa độ $ A,B $ vào các đáp ta chọn được đáp án đúng <strong>B</strong>."
   },
   {
     "id": "2H523TN207",
