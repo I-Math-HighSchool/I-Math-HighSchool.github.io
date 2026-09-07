@@ -162,7 +162,16 @@
             width: auto; height: auto; display: block; margin: 4px auto;
         }
         .form-check-input { width: 1.1rem; height: 1.1rem; flex-shrink: 0; border: 2px solid #64748b; }
-        .form-check-label { color: #334155; margin-left: 8px; font-size: 0.9rem; width: 100%; cursor: pointer; }
+        .form-check-label {
+            color: #334155; margin-left: 8px; font-size: 0.9rem; width: 100%; cursor: pointer;
+            /* .custom-option-wrapper là flex row: nếu không có min-width:0,
+               nhãn đáp án sẽ KHÔNG chịu co lại khi công thức bên trong (VD:
+               phân số \dfrac dài) rộng hơn khung, làm cả khung đáp án (và có
+               khi cả trang) bị đẩy tràn ngang. Thêm overflow-x:auto để công
+               thức quá dài tự cuộn ngang NGAY TRONG đáp án đó thay vì tràn ra
+               ngoài hoặc bị cắt mất chữ. */
+            min-width: 0; overflow-x: auto;
+        }
         .form-check-input:checked ~ .form-check-label { color: #0284c7; font-weight: 700; }
 
         /* Tô màu đáp án đúng/sai sau khi nộp bài (Phần I - trắc nghiệm) */
@@ -184,7 +193,10 @@
         .sub-question-container { background: #f8fafc; border-radius: 10px; padding: 5px 14px; margin-top: 10px; }
         .sub-question-row { padding: 10px 0; display: flex; flex-direction: column; gap: 6px; }
         .sub-question-row:not(:last-child) { border-bottom: 1px solid #e2e8f0; }
-        .sub-question-actions { display: flex; gap: 15px; }
+        .sub-question-actions { display: flex; gap: 15px; flex-shrink: 0; }
+        /* Cùng lý do như .form-check-label ở trên: mệnh đề Đúng/Sai cũng có
+           thể chứa công thức dài, cần được phép co lại + tự cuộn ngang riêng. */
+        .sub-question-text { min-width: 0; overflow-x: auto; }
 
         /* Ô VUÔNG PHẦN III ĐẸP MẮT */
         .short-box {
@@ -193,10 +205,13 @@
         }
         .short-box:focus { border-color: #0284c7; box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15); }
 
-        .explain-box { 
-            display: none; background-color: #f0fdf4; padding: 12px; margin-top: 10px; 
-            border-radius: 8px; font-size: 0.85rem; color: #14532d; border: 1px solid #bbf7d0; 
-            max-width: 100%; overflow-x: hidden; word-wrap: break-word; overflow-wrap: break-word;
+        .explain-box {
+            display: none; background-color: #f0fdf4; padding: 12px; margin-top: 10px;
+            border-radius: 8px; font-size: 0.85rem; color: #14532d; border: 1px solid #bbf7d0;
+            max-width: 100%; overflow-x: auto; word-wrap: break-word; overflow-wrap: break-word;
+            /* Đổi từ "hidden" sang "auto": trước đây nếu công thức bên trong
+               vẫn còn quá dài, phần thừa bị ẨN MẤT (học sinh không đọc được
+               phần cuối lời giải) thay vì cho cuộn ngang để xem tiếp. */
         }
         .explain-box img, .question-text img, .sub-question-text img {
             max-width: 100%; height: auto; display: block; margin: 8px auto;
@@ -259,6 +274,10 @@
             }
             .sidebar-panel {
                 width: 320px;
+                flex-shrink: 0; /* Giữ nguyên 320px, KHÔNG cho flexbox bóp nhỏ
+                    lại để nhường chỗ cho .exam-panel khi đề bài có công thức
+                    quá dài (trước đây thiếu dòng này nên bảng điều khiển bên
+                    trái từng bị co dúm lại chỉ còn vài chục pixel). */
                 position: sticky;
                 top: 82px; /* Ghìm chặt bảng điều khiển bên trái khi cuộn đề bên phải, chừa chỗ cho header (đồng hồ) đã cố định phía trên */
                 max-height: calc(100vh - 112px); /* trừ thêm chiều cao header để không tràn/đơ khi zoom hoặc màn hình thấp */
@@ -267,6 +286,9 @@
             }
             .exam-panel {
                 flex: 1;
+                min-width: 0; /* Cho phép khung đề bài co lại đúng theo không
+                    gian còn lại thay vì bị nội dung bên trong (công thức dài
+                    không chịu xuống dòng) ép rộng ra, kéo lệch cả bố cục 2 cột. */
                 padding: 30px;
             }
             .sub-question-row { flex-direction: row; justify-content: space-between; align-items: center; }
