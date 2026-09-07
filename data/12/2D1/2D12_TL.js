@@ -45,7 +45,7 @@ window.traLoiNgan2D12 = [
     "id": "2D121TL7",
     "question": "Hàm số $y=\\dfrac{x^2-x+1}{x-1}$ có giá trị cực đại và giá trị cực tiểu lần lượt là $a$ và $b$. Tính $3a+2b$.",
     "answer": "3",
-    "explain": "Ta có $y'=\\dfrac{x^2-2x}{(x-1)^2}$, $\\forall x\\ne 1$,  $y'=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên ta có giá trị cực đại của hàm số là $a=-1$ và giá trị cực tiểu của hàm số là $b=3$.<br>  Vậy $2a+3b=3$."
+    "explain": "Ta có $y'=\\dfrac{x^2-2x}{(x-1)^2}$, $\\forall x\\ne 1$,  $y'=0\\Leftrightarrow x=0 \\text{ hoặc } x=2.$<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D12_tikz_025.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên ta có giá trị cực đại của hàm số là $a=-1$ và giá trị cực tiểu của hàm số là $b=3$.<br>  Vậy $3a+2b=3$."
   },
   {
     "id": "2D121TL8",
