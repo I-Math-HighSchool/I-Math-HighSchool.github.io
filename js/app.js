@@ -51,26 +51,32 @@ const DanhMucChuong = {
         { value: "Cuoi_Ki_II", text: "⭐ Đề ôn cuối học kì II (Toàn bộ chương trình Học kì II)" },
         { value: "TONG_HOP", text: "⭐ ĐỀ THI THỬ TỔNG HỢP TOÁN THPT QUỐC GIA" },
 
+        { value: "12_C1_TongOn", text: "🔹 Tổng ôn Chương 1: Ứng dụng đạo hàm để khảo sát hàm số" },
         { value: "2D11", text: "Lớp 12 ➔ C1 ➔ §1. Sự đồng biến và nghịch biến của hàm số" },
         { value: "2D12", text: "Lớp 12 ➔ C1 ➔ §2. Cực trị của hàm số" },
         { value: "2D13", text: "Lớp 12 ➔ C1 ➔ §3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số" },
         { value: "2D14", text: "Lớp 12 ➔ C1 ➔ §4. Đường tiệm cận của đồ thị hàm số" },
         { value: "2D15", text: "Lớp 12 ➔ C1 ➔ §5. Khảo sát sự biến thiên và vẽ đồ thị hàm số" },
 
+        { value: "12_C2_TongOn", text: "🔹 Tổng ôn Chương 2: Vectơ và hệ tọa độ trong không gian" },
         { value: "2H21", text: "Lớp 12 ➔ C2 ➔ §1. Véc-tơ và các phép toán véc-tơ trong không gian" },
         { value: "2H22", text: "Lớp 12 ➔ C2 ➔ §2. Tọa độ của điểm, véc-tơ và các biểu thức tọa độ" },
 
+        { value: "12_C3_TongOn", text: "🔹 Tổng ôn Chương 3: Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm" },
         { value: "2D31", text: "Lớp 12 ➔ C3 ➔ §1. Khoảng biến thiên và khoảng tứ phân vị mẫu số liệu ghép nhóm" },
         { value: "2D32", text: "Lớp 12 ➔ C3 ➔ §2. Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm" },
 
+        { value: "12_C4_TongOn", text: "🔹 Tổng ôn Chương 4: Nguyên hàm và tích phân" },
         { value: "2D41", text: "Lớp 12 ➔ C4 ➔ §1. Nguyên hàm của hàm số cơ bản" },
         { value: "2D42", text: "Lớp 12 ➔ C4 ➔ §2. Tích phân và các phương pháp tính" },
         { value: "2D43", text: "Lớp 12 ➔ C4 ➔ §3. Ứng dụng hình học và thực tế của tích phân" },
 
+        { value: "12_C5_TongOn", text: "🔹 Tổng ôn Chương 5: Phương trình mặt phẳng, đường thẳng, mặt cầu trong không gian Oxyz" },
         { value: "2H51", text: "Lớp 12 ➔ C5 ➔ §1. Phương trình mặt phẳng trong không gian Oxyz" },
         { value: "2H52", text: "Lớp 12 ➔ C5 ➔ §2. Phương trình đường thẳng trong không gian Oxyz" },
         { value: "2H53", text: "Lớp 12 ➔ C5 ➔ §3. Phương trình mặt cầu trong không gian Oxyz" },
 
+        { value: "12_C6_TongOn", text: "🔹 Tổng ôn Chương 6: Xác suất có điều kiện và công thức Bayes" },
         { value: "2D61", text: "Lớp 12 ➔ C6 ➔ §1. Xác suất có điều kiện" },
         { value: "2D62", text: "Lớp 12 ➔ C6 ➔ §2. Công thức xác suất toàn phần và công thức Bayes" },
     ],
@@ -332,12 +338,23 @@ const NHOM_MA_CHUONG_DAC_BIET = {
 };
 
 // =========================================================================
-// 3b. ĐỀ "TỔNG ÔN MỖI CHƯƠNG" (Lớp 10 & Lớp 11): mỗi bài trong chương góp
-// ngẫu nhiên đúng 1 câu (tỉ lệ chia đều theo bài), nếu số bài nhiều hơn số
-// câu mục tiêu (12 TN / 4 DS / 6 TLN) thì random chọn bài nào được đóng góp.
+// 3b. ĐỀ "TỔNG ÔN MỖI CHƯƠNG" (Lớp 10, 11 & 12): chia câu hỏi theo kiểu
+// round-robin cho từng bài trong chương (mỗi vòng mỗi bài góp thêm đúng 1
+// câu, xáo thứ tự bài mỗi vòng để không thiên vị), lặp đến khi đủ số câu
+// mục tiêu (12 TN / 4 DS / 6 TLN) hoặc đã lấy hết toàn bộ kho của chương
+// (chương có ít bài vẫn cố gắng đủ 22 câu bằng cách lấy thêm câu 2, 3...
+// của cùng bài, thay vì luôn dừng ở đúng 1 câu/bài như trước).
 // Khác với NHOM_MA_CHUONG_DAC_BIET (gộp toàn bộ kho rồi random thuần tuý).
 // =========================================================================
 const CHUONG_TONG_ON_DAC_BIET = {
+    // ===== LỚP 12 =====
+    "12_C1_TongOn": ["2D11", "2D12", "2D13", "2D14", "2D15"],
+    "12_C2_TongOn": ["2H21", "2H22"],
+    "12_C3_TongOn": ["2D31", "2D32"],
+    "12_C4_TongOn": ["2D41", "2D42", "2D43"],
+    "12_C5_TongOn": ["2H51", "2H52", "2H53"],
+    "12_C6_TongOn": ["2D61", "2D62"],
+
     // ===== LỚP 11 =====
     "11_C1_TongOn": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16"],
     "11_C2_TongOn": ["1D21", "1D22", "1D23"],
@@ -363,26 +380,41 @@ const CHUONG_TONG_ON_DAC_BIET = {
 };
 
 /**
- * Tạo đề "Tổng ôn chương": với mỗi loại câu hỏi (TN/ĐS/TLN), lấy ngẫu nhiên
- * tối đa TARGET bài trong chương (nếu chương có nhiều bài hơn TARGET thì
- * random chọn bài nào được lấy), mỗi bài được chọn đóng góp đúng 1 câu ngẫu
- * nhiên. Nếu chương có ít bài hơn TARGET thì đề sẽ có ít câu hơn (không ép đủ).
+ * Tạo đề "Tổng ôn chương": với mỗi loại câu hỏi (TN/ĐS/TLN), chia đều câu hỏi
+ * cho các bài trong chương theo kiểu round-robin — mỗi vòng, các bài (đã xáo
+ * thứ tự ngẫu nhiên) lần lượt góp thêm đúng 1 câu chưa được chọn, lặp lại
+ * nhiều vòng cho đến khi đủ số câu mục tiêu (TARGET) hoặc đã lấy hết sạch
+ * kho câu hỏi của cả chương (khi đó đề sẽ có ít câu hơn TARGET vì không có
+ * dữ liệu, không ép đủ). Cách này đảm bảo chương có ít bài (ví dụ chỉ 2-3
+ * bài) vẫn được lấy đủ 22 câu như đề chuẩn, miễn là các bài trong chương có
+ * đủ tổng số câu hỏi cần thiết, thay vì luôn dừng lại ở 1 câu/bài như trước.
  */
 function taoDeTongOnTheoChuong(danhSachMaBai) {
     const TARGET = { tracNghiem: 12, dungSai: 4, traLoiNgan: 6 };
     const ketQua = { tracNghiem: [], dungSai: [], traLoiNgan: [] };
 
     ['tracNghiem', 'dungSai', 'traLoiNgan'].forEach(loai => {
-        // Chỉ xét các bài trong chương có ít nhất 1 câu thuộc loại này
-        const baiCoDuLieu = danhSachMaBai
-            .map(ma => ({ ma, cauHoi: layKhoCauHoiTheoMaID(ma)[loai] }))
-            .filter(b => b.cauHoi && b.cauHoi.length > 0);
+        // Kho câu hỏi riêng cho từng bài, xáo trộn sẵn để lấy dần từ cuối
+        // mảng (pop) không bị thiên vị theo thứ tự gốc trong file dữ liệu.
+        const khoTheoBai = danhSachMaBai
+            .map(ma => tronMang(layKhoCauHoiTheoMaID(ma)[loai] || []))
+            .filter(kho => kho.length > 0);
 
-        // Random chọn tối đa TARGET[loai] bài để mỗi bài góp đúng 1 câu
-        const baiDuocChon = tronMang(baiCoDuLieu).slice(0, TARGET[loai]);
+        const target = TARGET[loai];
+        const cauHoiDaChon = [];
 
-        // Mỗi bài được chọn -> lấy ngẫu nhiên đúng 1 câu trong bài đó
-        const cauHoiDaChon = baiDuocChon.map(b => tronMang(b.cauHoi)[0]);
+        // Round-robin: mỗi vòng lặp, các bài còn câu hỏi (theo thứ tự xáo
+        // ngẫu nhiên riêng của vòng đó) mỗi bài góp thêm đúng 1 câu; lặp lại
+        // cho đến khi đủ target hoặc toàn bộ kho của chương đã lấy hết.
+        while (cauHoiDaChon.length < target && khoTheoBai.some(kho => kho.length > 0)) {
+            const thuTuBai = tronMang(khoTheoBai.map((_, i) => i));
+            for (const i of thuTuBai) {
+                if (cauHoiDaChon.length >= target) break;
+                if (khoTheoBai[i].length > 0) {
+                    cauHoiDaChon.push(khoTheoBai[i].pop());
+                }
+            }
+        }
 
         ketQua[loai] = tronMang(cauHoiDaChon); // xáo lại thứ tự hiển thị cuối cùng
     });
