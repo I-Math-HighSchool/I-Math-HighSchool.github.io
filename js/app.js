@@ -722,8 +722,19 @@ function nopBaiVaChamDiem() {
     
     if (LINK_WEB_APP && LINK_WEB_APP.includes("http")) {
         const thamSo = `?hoTen=${encodeURIComponent(hoTenHocSinh)}&diemSo=${encodeURIComponent(tongDiem.toFixed(2) + "/10")}&chuong=${encodeURIComponent(chuongHoc)}`;
-        const anhGuiTin = new Image();
-        anhGuiTin.src = LINK_WEB_APP + thamSo;
+        // Trước đây dùng mẹo "giả làm ảnh" (new Image().src = ...) để gửi
+        // điểm ngầm, nhưng cách này rất giống hành vi của 1 pixel theo dõi
+        // (tracking pixel) nên một số trình chặn quảng cáo / bảo vệ riêng
+        // tư (uBlock, AdBlock, chặn theo dõi của Cốc Cốc, Safari...) chặn
+        // âm thầm request loại "image" tới các domain như script.google.com,
+        // khiến điểm không được ghi mà không ai biết. Đổi sang fetch() với
+        // keepalive:true: (1) không mang hình dạng "ảnh" nên các luật chặn
+        // theo resource-type "image" thường không áp dụng, (2) keepalive
+        // đảm bảo trình duyệt vẫn gửi xong request kể cả khi học sinh thoát
+        // trang ngay sau khi bấm Nộp bài. mode:'no-cors' vì ta không cần
+        // đọc phản hồi, chỉ cần gửi đi (giữ đúng logic "gửi rồi thôi" như cũ).
+        fetch(LINK_WEB_APP + thamSo, { method: "GET", mode: "no-cors", keepalive: true })
+            .catch((err) => console.warn("Không gửi được điểm lên hệ thống thống kê:", err));
     }
 }
 
