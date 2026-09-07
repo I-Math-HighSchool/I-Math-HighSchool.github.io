@@ -116,10 +116,10 @@ window.tracNghiem0D32 = [
     "id": "0D323TN4",
     "question": "Bảng biến thiên của hàm số $y=-2x^2+4x+1$ là bảng nào sau đây?  \\def\\dotEX{}",
     "options": [
-      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_006.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_007.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_005.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_006.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_007.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_008.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">"
     ],
     "answer": 0,
     "explain": "Ta có $y=-2x^2+4x+1$ nên $a=-2$, $b=4$, $c=1$.  <br>   Suy ra $  \\Delta=b^2-4ac=4^2-4\\cdot\\left(-2\\right)\\cdot 1=16+8=24  $. <br>  Từ đó, tọa độ đỉnh của parabol là  $  x_I=-\\dfrac{b}{2a}=-\\dfrac{4}{2\\cdot\\left(-2\\right)}=1,\\qquad   y_I=-\\dfrac{\\Delta}{4a}=-\\dfrac{24}{4\\cdot\\left(-2\\right)}=3.  $  Suy ra parabol có đỉnh $I\\left(1;3\\right)$. <br>   Vì $a&lt;0$ nên hàm số đồng biến trên khoảng $\\left(-\\infty;1\\right)$ và nghịch biến trên khoảng $\\left(1;+\\infty\\right)$. <br>  Do đó, hàm số $y=-2x^2+4x+1$ có bảng biến thiên như sau  <br><img src=\"data/10/0D3/im0D32/loc3_0_TN_DS_THPT_chu_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"

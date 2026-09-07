@@ -657,10 +657,10 @@ window.tracNghiem2D15 = [
     "id": "2D151TN55",
     "question": "Đồ thị của hàm số $y=\\dfrac{x^2+2x+2}{x+1}$ là đường cong nào trong các đường cong sau?",
     "options": [
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_100.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_097.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_098.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_099.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
+      "<br><img src=\"data/12/2D1/im2D1/2D15_tikz_100.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">"
     ],
     "answer": 1,
     "explain": "Đồ thị hàm số $y=\\dfrac{x^2+2x+2}{x+1}$ có tiệm cận đứng $x=-1$. <br>  Ta có $y=\\dfrac{x^2+2x+2}{x+1}=x+1+\\dfrac{1}{x+1}$. <br>  Vì $\\lim\\limits_{x\\to-\\infty} \\left(\\dfrac{x^2+2x+2}{x+1}-(x+1)\\right)=\\lim\\limits_{x\\to-\\infty} \\dfrac{1}{x+1}=0$ nên đồ thị hàm số có đường tiệm cận xiên là $y=x+1$."
