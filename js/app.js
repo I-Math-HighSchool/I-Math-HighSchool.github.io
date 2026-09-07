@@ -718,7 +718,7 @@ function nopBaiVaChamDiem() {
     resultBox.scrollIntoView({ behavior: 'smooth' });
 
     const chuongHoc = selectChuong.options[selectChuong.selectedIndex].text;
-    const LINK_WEB_APP = "https://script.google.com/macros/s/AKfycbz8CyLzl6KG2x-yDVSevq1KITO72KJPTojBxY5lbgTx0mhl9MwHdYJ5hFM0_6V2tRFXZg/exec"; 
+    const LINK_WEB_APP = "https://script.google.com/macros/s/AKfycbyuMPofmbxUO2ji2H3i7DncnFrnk2WU-00yBzfJHDeby0OoN_x1Y3SueBRPY4gcWLagjg/exec"; 
     
     if (LINK_WEB_APP && LINK_WEB_APP.includes("http")) {
         const thamSo = `?hoTen=${encodeURIComponent(hoTenHocSinh)}&diemSo=${encodeURIComponent(tongDiem.toFixed(2) + "/10")}&chuong=${encodeURIComponent(chuongHoc)}`;
