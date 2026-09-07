@@ -33,6 +33,11 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
             color: #1e293b;
             min-height: 100vh;
+            overflow-x: hidden; /* Chặn tràn ngang toàn trang khi một công thức
+               toán inline (VD: tổng nhiều vectơ như T1+T2+T3+P=0) render ra
+               SVG rộng hơn vùng chứa - trước đây quy tắc này chỉ áp dụng cho
+               màn hình điện thoại (<=576px) nên máy tính/tablet vẫn bị "tràn"
+               ngang khi gặp công thức dài. */
         }
         
         /* HEADER TỔNG */
