@@ -718,23 +718,33 @@ function nopBaiVaChamDiem() {
     resultBox.scrollIntoView({ behavior: 'smooth' });
 
     const chuongHoc = selectChuong.options[selectChuong.selectedIndex].text;
-    const LINK_WEB_APP = "https://script.google.com/macros/s/AKfycbyuMPofmbxUO2ji2H3i7DncnFrnk2WU-00yBzfJHDeby0OoN_x1Y3SueBRPY4gcWLagjg/exec"; 
-    
-    if (LINK_WEB_APP && LINK_WEB_APP.includes("http")) {
-        const thamSo = `?hoTen=${encodeURIComponent(hoTenHocSinh)}&diemSo=${encodeURIComponent(tongDiem.toFixed(2) + "/10")}&chuong=${encodeURIComponent(chuongHoc)}`;
-        // Trước đây dùng mẹo "giả làm ảnh" (new Image().src = ...) để gửi
-        // điểm ngầm, nhưng cách này rất giống hành vi của 1 pixel theo dõi
-        // (tracking pixel) nên một số trình chặn quảng cáo / bảo vệ riêng
-        // tư (uBlock, AdBlock, chặn theo dõi của Cốc Cốc, Safari...) chặn
-        // âm thầm request loại "image" tới các domain như script.google.com,
-        // khiến điểm không được ghi mà không ai biết. Đổi sang fetch() với
-        // keepalive:true: (1) không mang hình dạng "ảnh" nên các luật chặn
-        // theo resource-type "image" thường không áp dụng, (2) keepalive
-        // đảm bảo trình duyệt vẫn gửi xong request kể cả khi học sinh thoát
-        // trang ngay sau khi bấm Nộp bài. mode:'no-cors' vì ta không cần
-        // đọc phản hồi, chỉ cần gửi đi (giữ đúng logic "gửi rồi thôi" như cũ).
-        fetch(LINK_WEB_APP + thamSo, { method: "GET", mode: "no-cors", keepalive: true })
-            .catch((err) => console.warn("Không gửi được điểm lên hệ thống thống kê:", err));
+    // Gui diem ngam qua Google Form (thay cho Apps Script cu) vi domain
+    // "docs.google.com/forms" rat pho bien (ai cung dung de khao sat,
+    // dang ky...) nen hau nhu khong bi cac phan mem chan quang cao / chan
+    // theo doi (uBlock, AdBlock, Coc Coc, DNS chan quang cao...) chan,
+    // khac voi "script.google.com/macros/.../exec" truoc day hay bi liet
+    // vao danh sach chan vi hay duoc dung lam beacon theo doi an. Form
+    // nay khong hien thi cho hoc sinh thay, chi dung de luu du lieu; cau
+    // tra loi cua Form tu dong do vao sheet "Form Responses 1" trong
+    // cung file NganhangDe_KetQua.
+    const FORM_ID = "1FAIpQLSeboOc56VfYw_UocEDXPSjUshblSemy8sbhv_nPI9EO5rMKwg";
+    const FORM_ENTRY_HOTEN = "entry.221773696";
+    const FORM_ENTRY_CHUONG = "entry.2054750297";
+    const FORM_ENTRY_DIEM = "entry.496918271";
+
+    if (FORM_ID) {
+        const duLieuGui = new URLSearchParams();
+        duLieuGui.append(FORM_ENTRY_HOTEN, hoTenHocSinh);
+        duLieuGui.append(FORM_ENTRY_CHUONG, chuongHoc);
+        duLieuGui.append(FORM_ENTRY_DIEM, tongDiem.toFixed(2) + "/10");
+
+        fetch(`https://docs.google.com/forms/d/e/${FORM_ID}/formResponse`, {
+            method: "POST",
+            mode: "no-cors",
+            keepalive: true,
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: duLieuGui.toString()
+        }).catch((err) => console.warn("Khong gui duoc diem len he thong thong ke:", err));
     }
 }
 
