@@ -214,8 +214,7 @@ window.QuyUocID = {
     // =========================================================================
     // TOÀN BỘ DANH MỤC ID TOÁN LỚP 11
     // =========================================================================
-    lop11: {
-        "1D1": {
+    lop11: {"1D1": {
             tenChuong: "Chương 1. Hàm số lượng giác và phương trình lượng giác",
             baiHoc: {
                 "1": {
@@ -331,48 +330,8 @@ window.QuyUocID = {
                 }
             }
         },
-        "1D3": {
-            tenChuong: "Chương 3. Giới hạn. Hàm số liên tục",
-            baiHoc: {
-                "1": {
-                    tenBai: "§1. Giới hạn của dãy số",
-                    dangBai: {
-                        "1": "Câu hỏi lý thuyết",
-                        "2": "Phương pháp đặt thừa số chung (lim hữu hạn)",
-                        "3": "Phương pháp lượng liên hợp (lim hữu hạn)",
-                        "4": "Giới hạn vô cực",
-                        "5": "Cấp số nhân lùi vô hạn",
-                        "6": "Toán thực tế áp dụng giới hạn của dãy số"
-                    }
-                },
-                "2": {
-                    tenBai: "§2. Giới hạn của hàm số",
-                    dangBai: {
-                        "1": "Câu hỏi lý thuyết",
-                        "2": "Thay số trực tiếp",
-                        "3": "PP đặt thừa số chung, kết quả hữu hạn",
-                        "4": "PP đặt thừa số chung, kết quả vô cực",
-                        "5": "PP lượng liên hợp, kết quả hữu hạn",
-                        "6": "PP lượng liên hợp, kết quả vô cực",
-                        "7": "Giới hạn một bên",
-                        "8": "Toán thực tế áp dụng giới hạn của hàm số"
-                    }
-                },
-                "3": {
-                    tenBai: "§3. Hàm số liên tục",
-                    dangBai: {
-                        "1": "Câu hỏi lý thuyết",
-                        "2": "Tính liên tục thể hiện qua đồ thị",
-                        "3": "Hàm số liên tục tại một điểm",
-                        "4": "Hàm số liên tục trên khoảng, đoạn",
-                        "5": "Bài toán phương trình có nghiệm",
-                        "6": "Toán thực tế áp dụng hàm số liên tục"
-                    }
-                }
-            }
-        },
         "1D5": {
-            tenChuong: "Chương 5. Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm",
+            tenChuong: "Chương 3. Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm",
             baiHoc: {
                 "1": {
                     tenBai: "§1. Số trung bình và mốt của mẫu số liệu ghép nhóm",
@@ -389,121 +348,6 @@ window.QuyUocID = {
                         "1": "Câu hỏi lý thuyết",
                         "2": "Trung vị",
                         "3": "Tứ phân vị"
-                    }
-                }
-            }
-        },
-        "1D6": {
-            tenChuong: "Chương 6. Hàm số mũ và hàm số lôgarít",
-            baiHoc: {
-                "1": {
-                    tenBai: "§1. Phép tính luỹ thừa",
-                    dangBai: {
-                        "1": "Tính giá trị của biểu thức chứa lũy thừa",
-                        "2": "Biến đổi, rút gọn biểu thức chứa lũy thừa",
-                        "3": "Điều kiện cho luỹ thừa, căn thức",
-                        "4": "So sánh các lũy thừa"
-                    }
-                },
-                "2": {
-                    tenBai: "§2. Phép tính lôgarít",
-                    dangBai: {
-                        "1": "Tính giá trị biểu thức chứa lôgarít",
-                        "2": "Biến đổi, biểu diễn biểu thức chứa lôgarít",
-                        "3": "Rút gọn, chứng minh biểu thức lôgarít",
-                        "4": "Số e và bài toán lãi kép",
-                        "5": "Toán thực tế áp dụng phép tính lôgarít"
-                    }
-                },
-                "3": {
-                    tenBai: "§3. Hàm số mũ. Hàm số lôgarít",
-                    dangBai: {
-                        "1": "Câu hỏi lý thuyết hàm số lũy thừa, mũ, lôgarít",
-                        "2": "Tập xác định của hàm số",
-                        "3": "Sự biến thiên và đồ thị của hàm số mũ, lôgarít",
-                        "4": "So sánh các luỹ thừa và lôgarít",
-                        "5": "Toán thực tế áp dụng hàm số mũ, lôgarít"
-                    }
-                },
-                "4": {
-                    tenBai: "§4. Phương trình, bất phương trình mũ và lôgarít",
-                    dangBai: {
-                        "1": "Điều kiện có nghiệm",
-                        "2": "Phương trình mũ, lôgarít cơ bản",
-                        "3": "Bất phương trình mũ, lôgarít cơ bản",
-                        "4": "Phương trình mũ, lôgarít đưa về cùng cơ số",
-                        "5": "Bất phương trình mũ, lôgarít đưa về cùng cơ số",
-                        "6": "Toán thực tế áp dụng phương trình mũ, lôgarít"
-                    }
-                },
-                "5": {
-                    tenBai: "§5. [Giảm] Các phương pháp giải được giảm tải",
-                    dangBai: {
-                        "1": "Phương pháp đặt ẩn phụ cho PT mũ, lôgarít",
-                        "2": "Phương pháp lôgarít hóa, mũ cho PT mũ, lôgarít",
-                        "3": "Phương pháp hàm số, đánh giá cho PT mũ, lôgarít",
-                        "4": "Hệ PT mũ, lôgarít",
-                        "5": "Toán thực tế áp dụng phương trình mũ, lôgarít"
-                    }
-                }
-            }
-        },
-        "1D7": {
-            tenChuong: "Chương 7. Đạo hàm",
-            baiHoc: {
-                "1": {
-                    tenBai: "§1. Đạo hàm",
-                    dangBai: {
-                        "1": "Tính đạo hàm bằng định nghĩa",
-                        "2": "Số gia hàm số, số gia biến số",
-                        "3": "Ý nghĩa Hình học của đạo hàm",
-                        "4": "Ý nghĩa Vật lý của đạo hàm",
-                        "5": "Toán thực tế khác áp dụng định nghĩa đạo hàm"
-                    }
-                },
-                "2": {
-                    tenBai: "§2. Các quy tắc đạo hàm",
-                    dangBai: {
-                        "1": "Tính đạo hàm",
-                        "2": "Đẳng thức có y và y'",
-                        "3": "Tiếp tuyến tại một điểm",
-                        "4": " Tiếp tuyến biết trước hệ số góc",
-                        "5": "Tiếp tuyến chưa biết tiếp điểm và hệ số góc",
-                        "6": "Giới hạn hàm số lượng giác, hàm số mũ, lôgarít",
-                        "7": "Dùng đạo hàm cho nhị thức Newton",
-                        "8": "Toán thực tế áp dụng quy tắc đạo hàm"
-                    }
-                },
-                "3": {
-                    tenBai: "§3. Đạo hàm cấp hai",
-                    dangBai: {
-                        "1": "Tính đạo hàm cấp hai",
-                        "2": "Đẳng thức có y và (y', y'')",
-                        "3": "Toán thực tế và Ý nghĩa Vật lý của đạo hàm cấp hai"
-                    }
-                }
-            }
-        },
-        "1D9": {
-            tenChuong: "Chương 9. Xác suất",
-            baiHoc: {
-                "1": {
-                    tenBai: "§1. Biến cố giao và quy tắc nhân xác suất",
-                    dangBai: {
-                        "1": "Câu hỏi lí thuyết",
-                        "2": "Xác định và đếm số phần tử biến cố giao",
-                        "3": "Công thức nhân xác suất cho 2 biến cố độc lập",
-                        "4": "Tính xác suất biến cố giao bằng sơ đồ hình cây"
-                    }
-                },
-                "2": {
-                    tenBai: "§2. Biến cố hợp và quy tắc cộng xác suất",
-                    dangBai: {
-                        "1": "Câu hỏi lí thuyết",
-                        "2": "Xác định và đếm số phần tử biến cố hợp",
-                        "3": "Quy tắc cộng cho hai biến cố xung khắc",
-                        "4": "Quy tắc cộng cho hai biến cố bất kì",
-                        "5": "Tính xác suất biến cố hợp bằng sơ đồ hình cây"
                     }
                 }
             }
@@ -582,8 +426,103 @@ window.QuyUocID = {
                 }
             }
         },
+        "1D3": {
+            tenChuong: "Chương 5. Giới hạn. Hàm số liên tục",
+            baiHoc: {
+                "1": {
+                    tenBai: "§1. Giới hạn của dãy số",
+                    dangBai: {
+                        "1": "Câu hỏi lý thuyết",
+                        "2": "Phương pháp đặt thừa số chung (lim hữu hạn)",
+                        "3": "Phương pháp lượng liên hợp (lim hữu hạn)",
+                        "4": "Giới hạn vô cực",
+                        "5": "Cấp số nhân lùi vô hạn",
+                        "6": "Toán thực tế áp dụng giới hạn của dãy số"
+                    }
+                },
+                "2": {
+                    tenBai: "§2. Giới hạn của hàm số",
+                    dangBai: {
+                        "1": "Câu hỏi lý thuyết",
+                        "2": "Thay số trực tiếp",
+                        "3": "PP đặt thừa số chung, kết quả hữu hạn",
+                        "4": "PP đặt thừa số chung, kết quả vô cực",
+                        "5": "PP lượng liên hợp, kết quả hữu hạn",
+                        "6": "PP lượng liên hợp, kết quả vô cực",
+                        "7": "Giới hạn một bên",
+                        "8": "Toán thực tế áp dụng giới hạn của hàm số"
+                    }
+                },
+                "3": {
+                    tenBai: "§3. Hàm số liên tục",
+                    dangBai: {
+                        "1": "Câu hỏi lý thuyết",
+                        "2": "Tính liên tục thể hiện qua đồ thị",
+                        "3": "Hàm số liên tục tại một điểm",
+                        "4": "Hàm số liên tục trên khoảng, đoạn",
+                        "5": "Bài toán phương trình có nghiệm",
+                        "6": "Toán thực tế áp dụng hàm số liên tục"
+                    }
+                }
+            }
+        },
+        "1D6": {
+            tenChuong: "Chương 6. Hàm số mũ và hàm số lôgarít",
+            baiHoc: {
+                "1": {
+                    tenBai: "§1. Phép tính luỹ thừa",
+                    dangBai: {
+                        "1": "Tính giá trị của biểu thức chứa lũy thừa",
+                        "2": "Biến đổi, rút gọn biểu thức chứa lũy thừa",
+                        "3": "Điều kiện cho luỹ thừa, căn thức",
+                        "4": "So sánh các lũy thừa"
+                    }
+                },
+                "2": {
+                    tenBai: "§2. Phép tính lôgarít",
+                    dangBai: {
+                        "1": "Tính giá trị biểu thức chứa lôgarít",
+                        "2": "Biến đổi, biểu diễn biểu thức chứa lôgarít",
+                        "3": "Rút gọn, chứng minh biểu thức lôgarít",
+                        "4": "Số e và bài toán lãi kép",
+                        "5": "Toán thực tế áp dụng phép tính lôgarít"
+                    }
+                },
+                "3": {
+                    tenBai: "§3. Hàm số mũ. Hàm số lôgarít",
+                    dangBai: {
+                        "1": "Câu hỏi lý thuyết hàm số lũy thừa, mũ, lôgarít",
+                        "2": "Tập xác định của hàm số",
+                        "3": "Sự biến thiên và đồ thị của hàm số mũ, lôgarít",
+                        "4": "So sánh các luỹ thừa và lôgarít",
+                        "5": "Toán thực tế áp dụng hàm số mũ, lôgarít"
+                    }
+                },
+                "4": {
+                    tenBai: "§4. Phương trình, bất phương trình mũ và lôgarít",
+                    dangBai: {
+                        "1": "Điều kiện có nghiệm",
+                        "2": "Phương trình mũ, lôgarít cơ bản",
+                        "3": "Bất phương trình mũ, lôgarít cơ bản",
+                        "4": "Phương trình mũ, lôgarít đưa về cùng cơ số",
+                        "5": "Bất phương trình mũ, lôgarít đưa về cùng cơ số",
+                        "6": "Toán thực tế áp dụng phương trình mũ, lôgarít"
+                    }
+                },
+                "5": {
+                    tenBai: "§5. [Giảm] Các phương pháp giải được giảm tải",
+                    dangBai: {
+                        "1": "Phương pháp đặt ẩn phụ cho PT mũ, lôgarít",
+                        "2": "Phương pháp lôgarít hóa, mũ cho PT mũ, lôgarít",
+                        "3": "Phương pháp hàm số, đánh giá cho PT mũ, lôgarít",
+                        "4": "Hệ PT mũ, lôgarít",
+                        "5": "Toán thực tế áp dụng phương trình mũ, lôgarít"
+                    }
+                }
+            }
+        },
         "1H8": {
-            tenChuong: "Chương 8. Quan hệ vuông góc trong không gian",
+            tenChuong: "Chương 7. Quan hệ vuông góc trong không gian",
             baiHoc: {
                 "1": {
                     tenBai: "§1. Hai đường thẳng vuông góc",
@@ -660,6 +599,66 @@ window.QuyUocID = {
                         "7": "Tỉ số thể tích",
                         "8": "Ứng dụng thể tích tính góc, khoảng cách...",
                         "9": "Toán thực tế hình lăng trụ đứng, chóp đều, thể tích"
+                    }
+                }
+            }
+        },
+        "1D9": {
+            tenChuong: "Chương 8. Xác suất",
+            baiHoc: {
+                "1": {
+                    tenBai: "§1. Biến cố giao và quy tắc nhân xác suất",
+                    dangBai: {
+                        "1": "Câu hỏi lí thuyết",
+                        "2": "Xác định và đếm số phần tử biến cố giao",
+                        "3": "Công thức nhân xác suất cho 2 biến cố độc lập",
+                        "4": "Tính xác suất biến cố giao bằng sơ đồ hình cây"
+                    }
+                },
+                "2": {
+                    tenBai: "§2. Biến cố hợp và quy tắc cộng xác suất",
+                    dangBai: {
+                        "1": "Câu hỏi lí thuyết",
+                        "2": "Xác định và đếm số phần tử biến cố hợp",
+                        "3": "Quy tắc cộng cho hai biến cố xung khắc",
+                        "4": "Quy tắc cộng cho hai biến cố bất kì",
+                        "5": "Tính xác suất biến cố hợp bằng sơ đồ hình cây"
+                    }
+                }
+            }
+        },
+        "1D7": {
+            tenChuong: "Chương 9. Đạo hàm",
+            baiHoc: {
+                "1": {
+                    tenBai: "§1. Đạo hàm",
+                    dangBai: {
+                        "1": "Tính đạo hàm bằng định nghĩa",
+                        "2": "Số gia hàm số, số gia biến số",
+                        "3": "Ý nghĩa Hình học của đạo hàm",
+                        "4": "Ý nghĩa Vật lý của đạo hàm",
+                        "5": "Toán thực tế khác áp dụng định nghĩa đạo hàm"
+                    }
+                },
+                "2": {
+                    tenBai: "§2. Các quy tắc đạo hàm",
+                    dangBai: {
+                        "1": "Tính đạo hàm",
+                        "2": "Đẳng thức có y và y'",
+                        "3": "Tiếp tuyến tại một điểm",
+                        "4": " Tiếp tuyến biết trước hệ số góc",
+                        "5": "Tiếp tuyến chưa biết tiếp điểm và hệ số góc",
+                        "6": "Giới hạn hàm số lượng giác, hàm số mũ, lôgarít",
+                        "7": "Dùng đạo hàm cho nhị thức Newton",
+                        "8": "Toán thực tế áp dụng quy tắc đạo hàm"
+                    }
+                },
+                "3": {
+                    tenBai: "§3. Đạo hàm cấp hai",
+                    dangBai: {
+                        "1": "Tính đạo hàm cấp hai",
+                        "2": "Đẳng thức có y và (y', y'')",
+                        "3": "Toán thực tế và Ý nghĩa Vật lý của đạo hàm cấp hai"
                     }
                 }
             }

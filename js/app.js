@@ -76,9 +76,9 @@ const DanhMucChuong = {
     ],
     lop11: [
         { value: "11_Giua_Ki_I", text: "⭐ Đề ôn giữa học kì I (Chương 1, 2)" },
-        { value: "11_Cuoi_Ki_I", text: "⭐ Đề ôn cuối học kì I (Chương 1 → 4)" },
-        { value: "11_Giua_Ki_II", text: "⭐ Đề ôn giữa học kì II (Chương 5, 6)" },
-        { value: "11_Cuoi_Ki_II", text: "⭐ Đề ôn cuối học kì II (Chương 5 → 9)" },
+        { value: "11_Cuoi_Ki_I", text: "⭐ Đề ôn cuối học kì I (Chương 1 → 5)" },
+        { value: "11_Giua_Ki_II", text: "⭐ Đề ôn giữa học kì II (Chương 6)" },
+        { value: "11_Cuoi_Ki_II", text: "⭐ Đề ôn cuối học kì II (Chương 6 → 9)" },
         { value: "11_TONG_HOP", text: "⭐ ĐỀ THI THỬ TỔNG HỢP TOÁN LỚP 11" },
 
         { value: "1D11", text: "Lớp 11 ➔ C1 ➔ §1. Góc lượng giác" },
@@ -92,9 +92,8 @@ const DanhMucChuong = {
         { value: "1D22", text: "Lớp 11 ➔ C2 ➔ §2. Cấp số cộng" },
         { value: "1D23", text: "Lớp 11 ➔ C2 ➔ §3. Cấp số nhân" },
 
-        { value: "1D31", text: "Lớp 11 ➔ C3 ➔ §1. Giới hạn của dãy số" },
-        { value: "1D32", text: "Lớp 11 ➔ C3 ➔ §2. Giới hạn của hàm số" },
-        { value: "1D33", text: "Lớp 11 ➔ C3 ➔ §3. Hàm số liên tục" },
+        { value: "1D51", text: "Lớp 11 ➔ C3 ➔ §1. Số trung bình và mốt của mẫu số liệu ghép nhóm" },
+        { value: "1D52", text: "Lớp 11 ➔ C3 ➔ §2. Trung vị và tứ phân vị của mẫu số liệu ghép nhóm" },
 
         { value: "1H41", text: "Lớp 11 ➔ C4 ➔ §1. Điểm, đường thẳng và mặt phẳng trong không gian" },
         { value: "1H42", text: "Lớp 11 ➔ C4 ➔ §2. Hai đường thẳng song song" },
@@ -103,8 +102,9 @@ const DanhMucChuong = {
         { value: "1H45", text: "Lớp 11 ➔ C4 ➔ §5. Hình lăng trụ và hình hộp" },
         { value: "1H46", text: "Lớp 11 ➔ C4 ➔ §6. Phép chiếu song song" },
 
-        { value: "1D51", text: "Lớp 11 ➔ C5 ➔ §1. Số trung bình và mốt của mẫu số liệu ghép nhóm" },
-        { value: "1D52", text: "Lớp 11 ➔ C5 ➔ §2. Trung vị và tứ phân vị của mẫu số liệu ghép nhóm" },
+        { value: "1D31", text: "Lớp 11 ➔ C5 ➔ §1. Giới hạn của dãy số" },
+        { value: "1D32", text: "Lớp 11 ➔ C5 ➔ §2. Giới hạn của hàm số" },
+        { value: "1D33", text: "Lớp 11 ➔ C5 ➔ §3. Hàm số liên tục" },
 
         { value: "1D61", text: "Lớp 11 ➔ C6 ➔ §1. Phép tính luỹ thừa" },
         { value: "1D62", text: "Lớp 11 ➔ C6 ➔ §2. Phép tính lôgarít" },
@@ -112,20 +112,20 @@ const DanhMucChuong = {
         { value: "1D64", text: "Lớp 11 ➔ C6 ➔ §4. Phương trình, bất phương trình mũ và lôgarít" },
         { value: "1D65", text: "Lớp 11 ➔ C6 ➔ §5. Các phương pháp giải biến đổi nâng cao" },
 
-        { value: "1D71", text: "Lớp 11 ➔ C7 ➔ §1. Định nghĩa đạo hàm và ý nghĩa hình học" },
-        { value: "1D72", text: "Lớp 11 ➔ C7 ➔ §2. Các quy tắc tính đạo hàm" },
-        { value: "1D73", text: "Lớp 11 ➔ C7 ➔ §3. Đạo hàm cấp hai" },
+        { value: "1H81", text: "Lớp 11 ➔ C7 ➔ §1. Hai đường thẳng vuông góc" },
+        { value: "1H82", text: "Lớp 11 ➔ C7 ➔ §2. Đường thẳng vuông góc với mặt phẳng" },
+        { value: "1H83", text: "Lớp 11 ➔ C7 ➔ §3. Phép chiếu vuông góc" },
+        { value: "1H84", text: "Lớp 11 ➔ C7 ➔ §4. Hai mặt phẳng vuông góc" },
+        { value: "1H85", text: "Lớp 11 ➔ C7 ➔ §5. Khoảng cách trong không gian" },
+        { value: "1H86", text: "Lớp 11 ➔ C7 ➔ §6. Góc giữa đường thẳng và mặt phẳng. Góc nhị diện" },
+        { value: "1H87", text: "Lớp 11 ➔ C7 ➔ §7. Hình lăng trụ đứng. Hình chóp đều. Thể tích khối đa diện" },
 
-        { value: "1H81", text: "Lớp 11 ➔ C8 ➔ §1. Hai đường thẳng vuông góc" },
-        { value: "1H82", text: "Lớp 11 ➔ C8 ➔ §2. Đường thẳng vuông góc với mặt phẳng" },
-        { value: "1H83", text: "Lớp 11 ➔ C8 ➔ §3. Phép chiếu vuông góc" },
-        { value: "1H84", text: "Lớp 11 ➔ C8 ➔ §4. Hai mặt phẳng vuông góc" },
-        { value: "1H85", text: "Lớp 11 ➔ C8 ➔ §5. Khoảng cách trong không gian" },
-        { value: "1H86", text: "Lớp 11 ➔ C8 ➔ §6. Góc giữa đường thẳng và mặt phẳng. Góc nhị diện" },
-        { value: "1H87", text: "Lớp 11 ➔ C8 ➔ §7. Hình lăng trụ đứng. Hình chóp đều. Thể tích khối đa diện" },
+        { value: "1D91", text: "Lớp 11 ➔ C8 ➔ §1. Biến cố giao và quy tắc nhân xác suất" },
+        { value: "1D92", text: "Lớp 11 ➔ C8 ➔ §2. Biến cố hợp và quy tắc cộng xác suất" },
 
-        { value: "1D91", text: "Lớp 11 ➔ C9 ➔ §1. Biến cố giao và quy tắc nhân xác suất" },
-        { value: "1D92", text: "Lớp 11 ➔ C9 ➔ §2. Biến cố hợp và quy tắc cộng xác suất" },
+        { value: "1D71", text: "Lớp 11 ➔ C9 ➔ §1. Định nghĩa đạo hàm và ý nghĩa hình học" },
+        { value: "1D72", text: "Lớp 11 ➔ C9 ➔ §2. Các quy tắc tính đạo hàm" },
+        { value: "1D73", text: "Lớp 11 ➔ C9 ➔ §3. Đạo hàm cấp hai" },
 
         { value: "1C11", text: "Chuyên đề 11 ➔ C1 ➔ Phép biến hình phẳng" },
         { value: "1C21", text: "Chuyên đề 11 ➔ C2 ➔ Lý thuyết đồ thị" },
@@ -306,9 +306,9 @@ const NHOM_MA_CHUONG_DAC_BIET = {
 
     // ===== LỚP 11 ===== (HK1: C1-C4, HK2: C5-C9, không tính Chuyên đề 1C11/1C21/1C31)
     "11_Giua_Ki_I": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16", "1D21", "1D22", "1D23"],
-    "11_Cuoi_Ki_I": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16", "1D21", "1D22", "1D23", "1D31", "1D32", "1D33", "1H41", "1H42", "1H43", "1H44", "1H45", "1H46"],
-    "11_Giua_Ki_II": ["1D51", "1D52", "1D61", "1D62", "1D63", "1D64", "1D65"],
-    "11_Cuoi_Ki_II": ["1D51", "1D52", "1D61", "1D62", "1D63", "1D64", "1D65", "1D71", "1D72", "1D73", "1H81", "1H82", "1H83", "1H84", "1H85", "1H86", "1H87", "1D91", "1D92"],
+    "11_Cuoi_Ki_I": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16", "1D21", "1D22", "1D23", "1D51", "1D52", "1H41", "1H42", "1H43", "1H44", "1H45", "1H46", "1D31", "1D32", "1D33"],
+    "11_Giua_Ki_II": ["1D61", "1D62", "1D63", "1D64", "1D65"],
+    "11_Cuoi_Ki_II": ["1D61", "1D62", "1D63", "1D64", "1D65", "1H81", "1H82", "1H83", "1H84", "1H85", "1H86", "1H87", "1D91", "1D92", "1D71", "1D72", "1D73"],
     "11_TONG_HOP": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16", "1D21", "1D22", "1D23", "1D31", "1D32", "1D33", "1H41", "1H42", "1H43", "1H44", "1H45", "1H46", "1D51", "1D52", "1D61", "1D62", "1D63", "1D64", "1D65", "1D71", "1D72", "1D73", "1H81", "1H82", "1H83", "1H84", "1H85", "1H86", "1H87", "1D91", "1D92"]
 };
 
