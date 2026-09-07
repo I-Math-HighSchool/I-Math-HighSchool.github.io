@@ -2,19 +2,7 @@
 // KHỐI DỮ LIỆU: window.tracNghiem
 // =========================================================================
 window.tracNghiem2D11_legacy = [
-  {
-    "id": "2D112TN1",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị là đường cong trong hình bên. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
-    "options": [
-      "$(0;1)$",
-      "$(-\\infty;0)$",
-      "$(0;+\\infty)$",
-      "$(-1;1)$"
-    ],
-    "answer": 0,
-    "explain": "Dựa vào đồ thị đã cho, ta thấy trên khoảng $(0;1)$, đồ thị hàm số đi xuống từ trái sang phải. Do đó, hàm số $y=f(x)$ nghịch biến trên khoảng $(0;1)$."
-  },
-  {
+    {
     "id": "2D115TN2",
     "question": "Một công ty sản xuất và bán một loại sản phẩm với lợi nhuận biểu diễn bởi hàm số $P(x)=50x-x^2$ (với $x$ là số lượng sản phẩm). Khẳng định nào sau đây là đúng về sự biến thiên của hàm số?",
     "options": [
@@ -26,19 +14,7 @@ window.tracNghiem2D11_legacy = [
     "answer": 3,
     "explain": "Ta có $P'(x)=50-2x$. Cho $P'(x)=0 \\Rightarrow 50-2x=0 \\Rightarrow x=25$. Với $x \\in (0;25)$ thì $P'(x) &gt; 0$, hàm số đồng biến. Với $x \\in (25;+\\infty)$ thì $P'(x) &lt; 0$, hàm số nghịch biến. Vậy hàm số đồng biến trên $(0;25)$ và nghịch biến trên $(25;+\\infty)$."
   },
-  {
-    "id": "2D112TN3",
-    "question": "Cho hàm số $y=f(x)$ có đồ thị là đường cong trong hình bên. Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
-    "options": [
-      "$(-1;1)$",
-      "$(-\\infty;0)$",
-      "$(0;1)$",
-      "$(0;+\\infty)$"
-    ],
-    "answer": 2,
-    "explain": "Dựa vào đồ thị, ta thấy trên khoảng $(0;1)$, đồ thị đi lên từ trái sang phải, tương ứng với hàm số đồng biến. Vậy hàm số đã cho đồng biến trên $(0;1)$."
-  },
-  {
+    {
     "id": "2D115TN4",
     "question": "Một công ty sản xuất và bán một loại sản phẩm với lợi nhuận biểu diễn bởi hàm số $P(x)=100x-x^2$ (với $x$ là số lượng sản phẩm). Khẳng định nào sau đây là đúng?",
     "options": [
@@ -357,13 +333,7 @@ window.dungSai2D11_legacy = [
 // KHỐI DỮ LIỆU: window.traLoiNgan
 // =========================================================================
 window.traLoiNgan2D11_legacy = [
-  {
-    "id": "2D112TL1",
-    "question": "Cho hàm số $y = f(x)$ liên tục và có đồ thị như hình vẽ. Nếu hàm số nghịch biến trên khoảng $(a;b)$ với khoảng nghịch biến là duy nhất và có độ dài hữu hạn thì hiệu số $b-a$ bằng bao nhiêu?",
-    "answer": "3",
-    "explain": "Dựa vào đồ thị hàm số cubic tăng giảm, ta thấy đồ thị đi xuống trong khoảng từ điểm cực đại có hoành độ $x=1$ đến điểm cực tiểu có hoành độ $x=4$. Do đó, khoảng nghịch biến của hàm số là $(1;4)$, suy ra $a=1, b=4$. Hiệu số $b-a = 4-1 = 3$."
-  },
-  {
+    {
     "id": "2D115TL2",
     "question": "Kính viễn vọng không gian Hubble được điều khiển với vận tốc tàu con thoi cho bởi hàm số $v(t) = 0{,}001302t^3 - 0{,}09029t^2+23$ (với $t \\in [0; 126]$). Gia tốc của tàu được tính bằng $a(t)=v'(t)$. Biết gia tốc tăng liên tục trong khoảng thời gian $(a;b)$. Hãy tính giá trị tổng $a+b$ (quy tròn đến hàng đơn vị).",
     "answer": "149",

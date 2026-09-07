@@ -391,7 +391,7 @@ window.tracNghiem1D14 = [
   },
   {
     "id": "1D147TN33",
-    "question": "Đường cong trong hình vẽ dưới đây là đồ thị của hàm số nào trong các hàm số sau?",
+    "question": "Đường cong trong hình vẽ dưới đây là đồ thị của hàm số nào trong các hàm số sau?  <br><img src=\"data/11/1D1/im1D14/1D14_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$y=\\sin x$",
       "$y=\\cos x$",

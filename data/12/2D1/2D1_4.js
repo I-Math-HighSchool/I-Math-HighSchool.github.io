@@ -1,5 +1,6 @@
 // =========================================================================
-// KHỐI DỮ LIỆU: window.traLoiNgan2D11_2 = [
+// KHỐI DỮ LIỆU: window.traLoiNgan (batch 2)
+window.traLoiNgan2D11_2 = [
   {
     "id": "2D115TL7",
     "question": "Người ta thấy rằng trong $36$ tháng tính từ đầu năm 2020, giá thành $P$ của một loại sản phẩm vào tháng thứ $t$ thay đổi theo công thức $P(t)=80t^3-4\\,200t^2+60\\,000t+200\\,000$ (đồng) với $0\\le t\\le 36$. Biết giá thành đạt cực đại vào thời điểm $t_1$ và giá thành đạt cực tiểu vào thời điểm $t_2$. Tìm $2t_1-t_2$.",

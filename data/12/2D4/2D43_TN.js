@@ -616,19 +616,7 @@ window.tracNghiem2D43 = [
     "answer": 2,
     "explain": "- Ta có $v(t)=-\\dfrac{3}{4}t^2+3t+6.$<br>  - Quãng đường đi được $s=\\displaystyle\\int\\limits_0^3v(t)\\mathrm{\\,d}t=24,75.$"
   },
-  {
-    "id": "2D435TN52",
-    "question": "Tốc độ chuyển động $v\\,\\mathrm{(m/s)}$ của ca nô trong khoảng thời gian $40$ giây được thể hiện như Hình $1$. Quãng đường đi được của ca nô trong khoảng thời gian này là",
-    "options": [
-      "$400 m$",
-      "$350 m$",
-      "$310 m$",
-      "$200 m$"
-    ],
-    "answer": 2,
-    "explain": "Quãng đường đi được của ca nô trong $40$ giây là<br>  $S=\\displaystyle\\int\\limits_{0}^{8} \\dfrac{10}{8}x\\mathrm{\\,d}x+\\displaystyle\\int\\limits_{8}^{30} 10\\mathrm{\\,d}x+\\displaystyle\\int\\limits_{30}^{40} (-x+40)\\mathrm{\\,d}x=\\dfrac{5x^2}{8}\\bigg|_{0}^{8}+10x\\bigg|_{8}^{30}+\\left(-\\dfrac{x^2}{2}+40x\\right)\\bigg|_{30}^{40}=310m$"
-  },
-  {
+    {
     "id": "2D432TN53",
     "question": "Một con lắc lò xo dao động theo phương ngang trên mặt phẳng không ma sát có vận tốc tức thời tại thời điểm $t$ giây là $v(t)=4 \\cos t$ (cm/s) (<em>Hình 4.32</em>). Tại thời điểm $t=0$, con lắc đó ở vị trí cân bằng. Phương trình chuyển động của con lắc đó được tính bằng cách nào?  Tìm li độ của con lắc tại thời điểm $t=\\dfrac{2 \\pi}{3}$ giây, biết khi $t=\\dfrac{\\pi}{2}$ giây thì con lắc có li độ $x=4$ cm.<br><img src=\"data/12/2D4/im2D4/2D43_tikz_033.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
