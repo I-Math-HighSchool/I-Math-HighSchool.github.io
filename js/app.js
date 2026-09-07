@@ -81,6 +81,7 @@ const DanhMucChuong = {
         { value: "11_Cuoi_Ki_II", text: "⭐ Đề ôn cuối học kì II (Chương 6 → 9)" },
         { value: "11_TONG_HOP", text: "⭐ ĐỀ THI THỬ TỔNG HỢP TOÁN LỚP 11" },
 
+        { value: "11_C1_TongOn", text: "🔹 Tổng ôn Chương 1: Hàm số lượng giác và phương trình lượng giác" },
         { value: "1D11", text: "Lớp 11 ➔ C1 ➔ §1. Góc lượng giác" },
         { value: "1D12", text: "Lớp 11 ➔ C1 ➔ §2. Giá trị lượng giác của một góc lượng giác" },
         { value: "1D13", text: "Lớp 11 ➔ C1 ➔ §3. Các công thức lượng giác" },
@@ -88,13 +89,16 @@ const DanhMucChuong = {
         { value: "1D15", text: "Lớp 11 ➔ C1 ➔ §5. Phương trình lượng giác cơ bản" },
         { value: "1D16", text: "Lớp 11 ➔ C1 ➔ §6. Phương trình lượng giác thường gặp" },
 
+        { value: "11_C2_TongOn", text: "🔹 Tổng ôn Chương 2: Dãy số. Cấp số cộng. Cấp số nhân" },
         { value: "1D21", text: "Lớp 11 ➔ C2 ➔ §1. Dãy số" },
         { value: "1D22", text: "Lớp 11 ➔ C2 ➔ §2. Cấp số cộng" },
         { value: "1D23", text: "Lớp 11 ➔ C2 ➔ §3. Cấp số nhân" },
 
+        { value: "11_C3_TongOn", text: "🔹 Tổng ôn Chương 3: Các số đặc trưng đo xu thế trung tâm" },
         { value: "1D51", text: "Lớp 11 ➔ C3 ➔ §1. Số trung bình và mốt của mẫu số liệu ghép nhóm" },
         { value: "1D52", text: "Lớp 11 ➔ C3 ➔ §2. Trung vị và tứ phân vị của mẫu số liệu ghép nhóm" },
 
+        { value: "11_C4_TongOn", text: "🔹 Tổng ôn Chương 4: Đường thẳng, mặt phẳng. Quan hệ song song" },
         { value: "1H41", text: "Lớp 11 ➔ C4 ➔ §1. Điểm, đường thẳng và mặt phẳng trong không gian" },
         { value: "1H42", text: "Lớp 11 ➔ C4 ➔ §2. Hai đường thẳng song song" },
         { value: "1H43", text: "Lớp 11 ➔ C4 ➔ §3. Đường thẳng và mặt phẳng song song" },
@@ -102,16 +106,19 @@ const DanhMucChuong = {
         { value: "1H45", text: "Lớp 11 ➔ C4 ➔ §5. Hình lăng trụ và hình hộp" },
         { value: "1H46", text: "Lớp 11 ➔ C4 ➔ §6. Phép chiếu song song" },
 
+        { value: "11_C5_TongOn", text: "🔹 Tổng ôn Chương 5: Giới hạn. Hàm số liên tục" },
         { value: "1D31", text: "Lớp 11 ➔ C5 ➔ §1. Giới hạn của dãy số" },
         { value: "1D32", text: "Lớp 11 ➔ C5 ➔ §2. Giới hạn của hàm số" },
         { value: "1D33", text: "Lớp 11 ➔ C5 ➔ §3. Hàm số liên tục" },
 
+        { value: "11_C6_TongOn", text: "🔹 Tổng ôn Chương 6: Hàm số mũ và hàm số lôgarít" },
         { value: "1D61", text: "Lớp 11 ➔ C6 ➔ §1. Phép tính luỹ thừa" },
         { value: "1D62", text: "Lớp 11 ➔ C6 ➔ §2. Phép tính lôgarít" },
         { value: "1D63", text: "Lớp 11 ➔ C6 ➔ §3. Hàm số mũ. Hàm số lôgarít" },
         { value: "1D64", text: "Lớp 11 ➔ C6 ➔ §4. Phương trình, bất phương trình mũ và lôgarít" },
         { value: "1D65", text: "Lớp 11 ➔ C6 ➔ §5. Các phương pháp giải biến đổi nâng cao" },
 
+        { value: "11_C7_TongOn", text: "🔹 Tổng ôn Chương 7: Quan hệ vuông góc trong không gian" },
         { value: "1H81", text: "Lớp 11 ➔ C7 ➔ §1. Hai đường thẳng vuông góc" },
         { value: "1H82", text: "Lớp 11 ➔ C7 ➔ §2. Đường thẳng vuông góc với mặt phẳng" },
         { value: "1H83", text: "Lớp 11 ➔ C7 ➔ §3. Phép chiếu vuông góc" },
@@ -120,9 +127,11 @@ const DanhMucChuong = {
         { value: "1H86", text: "Lớp 11 ➔ C7 ➔ §6. Góc giữa đường thẳng và mặt phẳng. Góc nhị diện" },
         { value: "1H87", text: "Lớp 11 ➔ C7 ➔ §7. Hình lăng trụ đứng. Hình chóp đều. Thể tích khối đa diện" },
 
+        { value: "11_C8_TongOn", text: "🔹 Tổng ôn Chương 8: Xác suất" },
         { value: "1D91", text: "Lớp 11 ➔ C8 ➔ §1. Biến cố giao và quy tắc nhân xác suất" },
         { value: "1D92", text: "Lớp 11 ➔ C8 ➔ §2. Biến cố hợp và quy tắc cộng xác suất" },
 
+        { value: "11_C9_TongOn", text: "🔹 Tổng ôn Chương 9: Đạo hàm" },
         { value: "1D71", text: "Lớp 11 ➔ C9 ➔ §1. Định nghĩa đạo hàm và ý nghĩa hình học" },
         { value: "1D72", text: "Lớp 11 ➔ C9 ➔ §2. Các quy tắc tính đạo hàm" },
         { value: "1D73", text: "Lớp 11 ➔ C9 ➔ §3. Đạo hàm cấp hai" },
@@ -138,44 +147,54 @@ const DanhMucChuong = {
         { value: "10_Cuoi_Ki_II", text: "⭐ Đề ôn cuối học kì II (Chương 7 → 10)" },
         { value: "10_TONG_HOP", text: "⭐ ĐỀ THI THỬ TỔNG HỢP TOÁN LỚP 10" },
 
+        { value: "10_C1_TongOn", text: "🔹 Tổng ôn Chương 1: Mệnh đề. Tập hợp" },
         { value: "0D11", text: "Lớp 10 ➔ C1 ➔ §1. Mệnh đề" },
         { value: "0D12", text: "Lớp 10 ➔ C1 ➔ §2. Tập hợp" },
         { value: "0D13", text: "Lớp 10 ➔ C1 ➔ §3. Các phép toán tập hợp" },
 
+        { value: "10_C2_TongOn", text: "🔹 Tổng ôn Chương 2: BPT và hệ BPT bậc nhất hai ẩn" },
         { value: "0D21", text: "Lớp 10 ➔ C2 ➔ §1. Bất phương trình bậc nhất hai ẩn" },
         { value: "0D22", text: "Lớp 10 ➔ C2 ➔ §2. Hệ bất phương trình bậc nhất hai ẩn" },
 
+        { value: "10_C3_TongOn", text: "🔹 Tổng ôn Chương 3: Hàm số bậc hai và đồ thị" },
         { value: "0D31", text: "Lớp 10 ➔ C3 ➔ §1. Hàm số và đồ thị" },
         { value: "0D32", text: "Lớp 10 ➔ C3 ➔ §2. Hàm số bậc hai" },
 
+        { value: "10_C4_TongOn", text: "🔹 Tổng ôn Chương 4: Hệ thức lượng trong tam giác" },
         { value: "0H41", text: "Lớp 10 ➔ C4 ➔ §1. Giá trị lượng giác của một góc từ 0° đến 180°" },
         { value: "0H42", text: "Lớp 10 ➔ C4 ➔ §2. Định lý sin và định lý côsin trong tam giác" },
         { value: "0H43", text: "Lớp 10 ➔ C4 ➔ §3. Giải tam giác và ứng dụng thực tế" },
 
+        { value: "10_C5_TongOn", text: "🔹 Tổng ôn Chương 5: Véctơ" },
         { value: "0H51", text: "Lớp 10 ➔ C5 ➔ §1. Khái niệm véc-tơ" },
         { value: "0H52", text: "Lớp 10 ➔ C5 ➔ §2. Tổng và hiệu của hai véc-tơ" },
         { value: "0H53", text: "Lớp 10 ➔ C5 ➔ §3. Tích của một số với véc-tơ" },
         { value: "0H54", text: "Lớp 10 ➔ C5 ➔ §4. Tích vô hướng của hai véc-tơ" },
 
+        { value: "10_C6_TongOn", text: "🔹 Tổng ôn Chương 6: Thống kê" },
         { value: "0D61", text: "Lớp 10 ➔ C6 ➔ §1. Số gần đúng. Sai số" },
         { value: "0D62", text: "Lớp 10 ➔ C6 ➔ §2. Mô tả và biểu diễn dữ liệu bảng, biểu đồ" },
         { value: "0D63", text: "Lớp 10 ➔ C6 ➔ §3. Các số đặc trưng đo xu thế trung tâm mẫu số liệu" },
         { value: "0D64", text: "Lớp 10 ➔ C6 ➔ §4. Các số đặc trưng đo mức độ phân tán mẫu số liệu" },
 
+        { value: "10_C7_TongOn", text: "🔹 Tổng ôn Chương 7: Bất phương trình bậc 2 một ẩn" },
         { value: "0D71", text: "Lớp 10 ➔ C7 ➔ §1. Dấu của tam thức bậc hai" },
         { value: "0D72", text: "Lớp 10 ➔ C7 ➔ §2. Giải bất phương trình bậc hai một ẩn" },
         { value: "0D73", text: "Lớp 10 ➔ C7 ➔ §3. Phương trình quy về phương trình bậc hai" },
 
+        { value: "10_C8_TongOn", text: "🔹 Tổng ôn Chương 8: Đại số tổ hợp" },
         { value: "0D81", text: "Lớp 10 ➔ C8 ➔ §1. Quy tắc cộng và quy tắc nhân. Sơ đồ hình cây" },
         { value: "0D82", text: "Lớp 10 ➔ C8 ➔ §2. Hoán vị. Chỉnh hợp. Tổ hợp" },
         { value: "0D83", text: "Lớp 10 ➔ C8 ➔ §3. Nhị thức Newton" },
 
+        { value: "10_C9_TongOn", text: "🔹 Tổng ôn Chương 9: Phương pháp toạ độ trong mặt phẳng (Oxy)" },
         { value: "0H91", text: "Lớp 10 ➔ C9 ➔ §1. Toạ độ của véc-tơ đối với hệ trục Oxy" },
         { value: "0H92", text: "Lớp 10 ➔ C9 ➔ §2. Biểu thức tọa độ của các phép toán véc-tơ" },
         { value: "0H93", text: "Lớp 10 ➔ C9 ➔ §3. Đường thẳng trong mặt phẳng toạ độ" },
         { value: "0H94", text: "Lớp 10 ➔ C9 ➔ §4. Đường tròn trong mặt phẳng toạ độ" },
         { value: "0H95", text: "Lớp 10 ➔ C9 ➔ §5. Ba đường conic trong mặt phẳng toạ độ" },
 
+        { value: "10_C10_TongOn", text: "🔹 Tổng ôn Chương 10: Xác suất" },
         { value: "0D01", text: "Lớp 10 ➔ C10 ➔ §1. Không gian mẫu và biến cố" },
         { value: "0D02", text: "Lớp 10 ➔ C10 ➔ §2. Xác suất của biến cố" },
 
@@ -312,9 +331,84 @@ const NHOM_MA_CHUONG_DAC_BIET = {
     "11_TONG_HOP": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16", "1D21", "1D22", "1D23", "1D31", "1D32", "1D33", "1H41", "1H42", "1H43", "1H44", "1H45", "1H46", "1D51", "1D52", "1D61", "1D62", "1D63", "1D64", "1D65", "1D71", "1D72", "1D73", "1H81", "1H82", "1H83", "1H84", "1H85", "1H86", "1H87", "1D91", "1D92"]
 };
 
+// =========================================================================
+// 3b. ĐỀ "TỔNG ÔN MỖI CHƯƠNG" (Lớp 10 & Lớp 11): mỗi bài trong chương góp
+// ngẫu nhiên đúng 1 câu (tỉ lệ chia đều theo bài), nếu số bài nhiều hơn số
+// câu mục tiêu (12 TN / 4 DS / 6 TLN) thì random chọn bài nào được đóng góp.
+// Khác với NHOM_MA_CHUONG_DAC_BIET (gộp toàn bộ kho rồi random thuần tuý).
+// =========================================================================
+const CHUONG_TONG_ON_DAC_BIET = {
+    // ===== LỚP 11 =====
+    "11_C1_TongOn": ["1D11", "1D12", "1D13", "1D14", "1D15", "1D16"],
+    "11_C2_TongOn": ["1D21", "1D22", "1D23"],
+    "11_C3_TongOn": ["1D51", "1D52"],
+    "11_C4_TongOn": ["1H41", "1H42", "1H43", "1H44", "1H45", "1H46"],
+    "11_C5_TongOn": ["1D31", "1D32", "1D33"],
+    "11_C6_TongOn": ["1D61", "1D62", "1D63", "1D64", "1D65"],
+    "11_C7_TongOn": ["1H81", "1H82", "1H83", "1H84", "1H85", "1H86", "1H87"],
+    "11_C8_TongOn": ["1D91", "1D92"],
+    "11_C9_TongOn": ["1D71", "1D72", "1D73"],
+
+    // ===== LỚP 10 =====
+    "10_C1_TongOn": ["0D11", "0D12", "0D13"],
+    "10_C2_TongOn": ["0D21", "0D22"],
+    "10_C3_TongOn": ["0D31", "0D32"],
+    "10_C4_TongOn": ["0H41", "0H42", "0H43"],
+    "10_C5_TongOn": ["0H51", "0H52", "0H53", "0H54"],
+    "10_C6_TongOn": ["0D61", "0D62", "0D63", "0D64"],
+    "10_C7_TongOn": ["0D71", "0D72", "0D73"],
+    "10_C8_TongOn": ["0D81", "0D82", "0D83"],
+    "10_C9_TongOn": ["0H91", "0H92", "0H93", "0H94", "0H95"],
+    "10_C10_TongOn": ["0D01", "0D02"]
+};
+
+/**
+ * Tạo đề "Tổng ôn chương": với mỗi loại câu hỏi (TN/ĐS/TLN), lấy ngẫu nhiên
+ * tối đa TARGET bài trong chương (nếu chương có nhiều bài hơn TARGET thì
+ * random chọn bài nào được lấy), mỗi bài được chọn đóng góp đúng 1 câu ngẫu
+ * nhiên. Nếu chương có ít bài hơn TARGET thì đề sẽ có ít câu hơn (không ép đủ).
+ */
+function taoDeTongOnTheoChuong(danhSachMaBai) {
+    const TARGET = { tracNghiem: 12, dungSai: 4, traLoiNgan: 6 };
+    const ketQua = { tracNghiem: [], dungSai: [], traLoiNgan: [] };
+
+    ['tracNghiem', 'dungSai', 'traLoiNgan'].forEach(loai => {
+        // Chỉ xét các bài trong chương có ít nhất 1 câu thuộc loại này
+        const baiCoDuLieu = danhSachMaBai
+            .map(ma => ({ ma, cauHoi: layKhoCauHoiTheoMaID(ma)[loai] }))
+            .filter(b => b.cauHoi && b.cauHoi.length > 0);
+
+        // Random chọn tối đa TARGET[loai] bài để mỗi bài góp đúng 1 câu
+        const baiDuocChon = tronMang(baiCoDuLieu).slice(0, TARGET[loai]);
+
+        // Mỗi bài được chọn -> lấy ngẫu nhiên đúng 1 câu trong bài đó
+        const cauHoiDaChon = baiDuocChon.map(b => tronMang(b.cauHoi)[0]);
+
+        ketQua[loai] = tronMang(cauHoiDaChon); // xáo lại thứ tự hiển thị cuối cùng
+    });
+
+    return ketQua;
+}
+
 document.getElementById('btn-generate').addEventListener('click', () => {
     const maChuongDuocChon = selectChuong.value;
-    
+
+    // 🌟 ĐỀ "TỔNG ÔN MỖI CHƯƠNG" (mỗi bài góp đều 1 câu) - xử lý riêng, không
+    // đụng vào logic NHOM_MA_CHUONG_DAC_BIET / đơn bài phía dưới.
+    const nhomTongOnChuong = CHUONG_TONG_ON_DAC_BIET[maChuongDuocChon];
+    if (nhomTongOnChuong) {
+        deThiHienTai = taoDeTongOnTheoChuong(nhomTongOnChuong);
+        if (deThiHienTai.tracNghiem.length === 0 && deThiHienTai.dungSai.length === 0 && deThiHienTai.traLoiNgan.length === 0) {
+            alert("⚠️ Không có dữ liệu câu hỏi!");
+            return;
+        }
+        renderQuiz(deThiHienTai);
+        startTimer();
+        document.getElementById('result-box').classList.add('d-none');
+        document.getElementById('btn-submit').classList.remove('d-none');
+        return;
+    }
+
     let khoTracNghiem = [];
     let khoDungSai = [];
     let khoTraLoiNgan = [];
