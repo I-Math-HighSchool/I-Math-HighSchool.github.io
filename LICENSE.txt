@@ -1,0 +1,49 @@
+I-MATH-HIGHSCHOOL — Ngân hàng đề thi Toán THPT
+Copyright (c) 2026 ThS. Trương Trần Thu Thủy. Bảo lưu mọi quyền chưa được
+cấp phép rõ ràng dưới đây.
+
+Toàn bộ nội dung trong kho lưu trữ này — bao gồm nhưng không giới hạn ở:
+mã nguồn website (index.html, các file trong thư mục js/), toàn bộ ngân
+hàng câu hỏi (các file trong thư mục data/, bao gồm đề bài, đáp án, lời
+giải chi tiết) và toàn bộ hình ảnh minh họa (các file .png trong thư mục
+data/) — được cấp phép theo giấy phép:
+
+    Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+    International (CC BY-NC-ND 4.0)
+
+Tóm tắt (bản đầy đủ, có giá trị pháp lý, xem tại các liên kết bên dưới):
+
+  Bạn ĐƯỢC PHÉP:
+    - Chia sẻ — sao chép và phân phối lại nội dung dưới mọi hình thức,
+      mọi định dạng, cho bất kỳ mục đích phi thương mại nào (ví dụ: học
+      sinh chia sẻ link cho nhau để ôn tập, giáo viên khác giới thiệu
+      cho học sinh của mình).
+
+  Với điều kiện:
+    - Ghi nhận công lao (Attribution) — Phải ghi rõ nguồn là
+      "I-MATH-HIGHSCHOOL — ThS. Trương Trần Thu Thủy" kèm liên kết đến
+      trang gốc, và không được ngụ ý rằng tác giả gốc chứng thực/ủng hộ
+      việc sử dụng lại của bạn.
+    - Phi thương mại (NonCommercial) — KHÔNG được sử dụng nội dung này
+      cho bất kỳ mục đích thương mại nào (bán lại, thu phí truy cập,
+      chèn quảng cáo để kiếm lợi nhuận, đưa vào sản phẩm/dịch vụ trả
+      phí, v.v.) dưới bất kỳ hình thức nào nếu chưa có sự đồng ý bằng
+      văn bản của tác giả.
+    - Không phái sinh (NoDerivatives) — Nếu bạn phối lại, chuyển đổi,
+      hoặc xây dựng nội dung dựa trên tài liệu này, bạn KHÔNG được phép
+      phân phối lại phiên bản đã chỉnh sửa đó.
+
+Giấy phép này áp dụng cho TOÀN BỘ nội dung trong kho lưu trữ này kể từ
+ngày phát hành, bất kể nội dung đó có được tải xuống qua git clone,
+"Download ZIP" trên GitHub, hay sao chép trực tiếp từ website đang chạy
+trực tuyến (bao gồm việc xem mã nguồn trang, lưu hình ảnh, hoặc tải các
+file dữ liệu .js trong thư mục data/).
+
+Văn bản pháp lý đầy đủ (tiếng Anh, có giá trị ràng buộc):
+    https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Bản tóm tắt dễ đọc (tiếng Việt):
+    https://creativecommons.org/licenses/by-nc-nd/4.0/deed.vi
+
+Mọi yêu cầu sử dụng ngoài phạm vi giấy phép trên (đặc biệt là mục đích
+thương mại), vui lòng liên hệ: thuthuy611103@gmail.com
