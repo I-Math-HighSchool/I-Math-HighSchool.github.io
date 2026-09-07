@@ -1065,10 +1065,10 @@ window.tracNghiem1D14 = [
     "id": "1D147TN89",
     "question": "Bảng biến thiên của hàm số $y=f(x)=\\cos 2x$ trên đoạn $\\left[-\\dfrac{\\pi}{2};\\dfrac{3\\pi}{2}\\right]$ là",
     "options": [
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_037.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_038.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_039.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_040.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">"
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_037.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_038.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_039.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/11/1D1/im1D14/1D14_tikz_040.png\" alt=\"hinh ve\" class=\"option-graph-img\">"
     ],
     "answer": 0,
     "explain": "Thay $x=0$ vào hàm số $y=f(x)=\\cos 2x$, ta có $f(0)=\\cos 0=1$."

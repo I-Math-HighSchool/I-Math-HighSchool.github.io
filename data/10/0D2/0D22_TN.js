@@ -210,7 +210,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN14",
-    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ dưới đây (không kể đường thẳng), biểu diễn tập nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  \\def\\dotEX{}<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Phần <strong>không bị gạch</strong> trong hình vẽ dưới đây (không kể đường thẳng), biểu diễn tập nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?<br><img src=\"data/10/0D2/im0D22/dlts_sbh_ds10cd145_021.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$-2x+3y \\leq 12 \\text{ và } 2x+y \\geq -4.$",
       "$2x-3y &gt; -12 \\text{ và } 2x+y &gt; -4.$",
@@ -558,7 +558,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D221TN13",
-    "question": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?  \\def\\dotEX{}",
+    "question": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
     "options": [
       "$3x-y&gt;5 \\text{ và } x&lt;6+4y.$",
       "$x-5y=1 \\text{ và } x+y=5.$",
@@ -570,7 +570,7 @@ window.tracNghiem0D22 = [
   },
   {
     "id": "0D222TN30",
-    "question": "Phần <strong>không tô đậm</strong> trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  \\def\\dotEX{}",
+    "question": "Phần <strong>không tô đậm</strong> trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?  <br><img src=\"data/10/0D2/im0D22/loc3_0_TN_DS_THPT_chu_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$x-y\\ge 0 \\text{ và } 2x-y\\ge 1.$",
       "$x-y&lt;0 \\text{ và } 2x-3y&gt;1.$",

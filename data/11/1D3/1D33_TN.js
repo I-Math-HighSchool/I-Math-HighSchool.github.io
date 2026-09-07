@@ -91,7 +91,7 @@ window.tracNghiem1D33 = [
   },
   {
     "id": "1D332TN8",
-    "question": "Hàm số nào sau đây liên tục tại $ x=1$?  \\def\\dotEX{}",
+    "question": "Hàm số nào sau đây liên tục tại $ x=1$?",
     "options": [
       "$ f( x )=\\dfrac{{x^2}-1}{x-1}\\text{ khi }x&lt;1 \\text{ và } 2x+1\\text{ khi }x\\ge 1.$",
       "$ f( x )=\\dfrac{{x^2}-1}{x-1} \\text{ khi }x&lt;1 \\text{ và } 2x \\text{ khi }x\\ge 1.$",

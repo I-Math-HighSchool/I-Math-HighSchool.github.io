@@ -29,7 +29,7 @@ window.dungSai1D14 = [
   },
   {
     "id": "1D141DS2",
-    "question": "Cho hàm số $y=f(x)=\\cos x$.  \\def\\dotEX{}",
+    "question": "Cho hàm số $y=f(x)=\\cos x$.",
     "subQuestions": [
       {
         "text": "Giá trị của $f\\left(\\dfrac{\\pi}{3}\\right)$ là một số nguyên.",

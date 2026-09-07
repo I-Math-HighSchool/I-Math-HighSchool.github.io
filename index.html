@@ -153,6 +153,14 @@
             padding: 10px 14px; margin-top: 8px; cursor: pointer; display: flex; align-items: center;
         }
         .custom-option-wrapper:hover { background: #f1f5f9; border-color: #cbd5e1; }
+        /* Cau ma moi dap an la 1 hinh ve rieng (vd: chon dung bang bien
+           thien / do thi trong 4 hinh) - giam padding cua khung dap an de
+           bot ton dong khi 4 hinh xep chong nhau. */
+        .custom-option-wrapper:has(img) { padding: 4px 10px; }
+        .option-graph-img {
+            max-width: min(240px, 60%); max-height: 130px;
+            width: auto; height: auto; display: block; margin: 4px auto;
+        }
         .form-check-input { width: 1.1rem; height: 1.1rem; flex-shrink: 0; border: 2px solid #64748b; }
         .form-check-label { color: #334155; margin-left: 8px; font-size: 0.9rem; width: 100%; cursor: pointer; }
         .form-check-input:checked ~ .form-check-label { color: #0284c7; font-weight: 700; }
@@ -326,6 +334,11 @@
         .social-tiktok { background: #000000; }
         .social-yt { background: #FF0000; }
         .social-gmail { background: #EA4335; }
+        .author-modal-email {
+            display: inline-block; margin-top: 8px; font-size: 0.85rem;
+            font-weight: 700; color: #0284c7; text-decoration: none; word-break: break-all;
+        }
+        .author-modal-email:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -400,6 +413,7 @@
         <div class="author-modal-name">ThS. Trương Trần Thu Thủy</div>
         <div class="author-modal-cred">🎓 Thạc sĩ Toán ứng dụng - Đại học Khoa học Tự nhiên</div>
         <div class="author-modal-cred">🎓 Cử nhân Sư phạm Toán học - Đại học Sư phạm Thành phố Hồ Chí Minh</div>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thuthuy611103@gmail.com" target="_blank" rel="noopener" class="author-modal-email"><i class="fa-solid fa-envelope me-1"></i>thuthuy611103@gmail.com</a>
         <div class="author-modal-socials">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thuthuy611103@gmail.com" target="_blank" rel="noopener" class="social-gmail" title="Gmail (mở hộp thư trên trình duyệt)"><i class="fa-solid fa-envelope"></i></a>
             <a href="https://www.facebook.com/thuthuy.math" target="_blank" rel="noopener" class="social-fb" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>

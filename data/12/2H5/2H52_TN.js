@@ -955,7 +955,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN80",
-    "question": "Phương trình nào dưới đây là phương trình đường thẳng đi qua điểm $A(2; 3; 0)$ và vuông góc với mặt phẳng $(P):x+3y-z+5=0$?  \\def\\dotEX{}",
+    "question": "Phương trình nào dưới đây là phương trình đường thẳng đi qua điểm $A(2; 3; 0)$ và vuông góc với mặt phẳng $(P):x+3y-z+5=0$?",
     "options": [
       "$x=1+3t \\text{ và } y=3t \\text{ và } z=1-t.$",
       "$x=1+t \\text{ và } y=3t \\text{ và } z=1-t.$",
@@ -1039,7 +1039,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H524TN87",
-    "question": "Cho hai đường thẳng $d_1:\\dfrac{x-2}{1}=\\dfrac{y+2}{-2}=\\dfrac{z}{2}$ và $d_2:\\dfrac{x}{2}=\\dfrac{y+3}{1}=\\dfrac{z-2}{-2}.$ Biết rằng $d_1$ và $d_2$ cắt nhau, một trong hai đường phân giác của các góc tạo bởi $d_1,$ $d_2$ là  \\def\\dotEX{}",
+    "question": "Cho hai đường thẳng $d_1:\\dfrac{x-2}{1}=\\dfrac{y+2}{-2}=\\dfrac{z}{2}$ và $d_2:\\dfrac{x}{2}=\\dfrac{y+3}{1}=\\dfrac{z-2}{-2}.$ Biết rằng $d_1$ và $d_2$ cắt nhau, một trong hai đường phân giác của các góc tạo bởi $d_1,$ $d_2$ là",
     "options": [
       "$\\dfrac{x}{1}=\\dfrac{y+3}{3}=\\dfrac{z-2}{-4}.$",
       "$\\left\\{\\begin{aligned}x&=t,\\\\y&=-3-3t,\\\\z&=2-4t.\\end{aligned}\\right.$",
@@ -1075,7 +1075,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN90",
-    "question": "Cho điểm $A(1; - 2; 3)$ và hai mặt phẳng  $(P): x + y + z + 1 = 0$, $(Q): x - y + z - 2 = 0$. Phương trình nào dưới đây là phương trình đường thẳng đi qua $A$, song song với $(P)$ và $(Q)$?  \\def\\dotEX{}",
+    "question": "Cho điểm $A(1; - 2; 3)$ và hai mặt phẳng  $(P): x + y + z + 1 = 0$, $(Q): x - y + z - 2 = 0$. Phương trình nào dưới đây là phương trình đường thẳng đi qua $A$, song song với $(P)$ và $(Q)$?",
     "options": [
       "$x =-1+t \\text{ và } y =2 \\text{ và } z =-3-t.$",
       "$x =1 \\text{ và } y =-2 \\text{ và } z =3-2t.$",
@@ -2023,7 +2023,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H524TN169",
-    "question": "Trong không gian với hệ tọa độ $Oxyz,$ cho hai đường thẳng $d_1:\\dfrac{x-2}{1}=\\dfrac{y+2}{-2}=\\dfrac{z}{2}$ và $d_2:\\dfrac{x}{2}=\\dfrac{y+3}{1}=\\dfrac{z-2}{-2}.$ Biết rằng $d_1$ và $d_2$ cắt nhau, một trong hai đường phân giác của các góc tạo bởi $d_1,$ $d_2$ là \\def\\dotEX{}",
+    "question": "Trong không gian với hệ tọa độ $Oxyz,$ cho hai đường thẳng $d_1:\\dfrac{x-2}{1}=\\dfrac{y+2}{-2}=\\dfrac{z}{2}$ và $d_2:\\dfrac{x}{2}=\\dfrac{y+3}{1}=\\dfrac{z-2}{-2}.$ Biết rằng $d_1$ và $d_2$ cắt nhau, một trong hai đường phân giác của các góc tạo bởi $d_1,$ $d_2$ là",
     "options": [
       "$\\dfrac{x}{1}=\\dfrac{y+3}{3}=\\dfrac{z-2}{-4}.$",
       "$\\left\\{\\begin{aligned}x&=t,\\\\y&=-3-3t,\\\\z&=2-4t.\\end{aligned}\\right.$",
@@ -3319,7 +3319,7 @@ window.tracNghiem2H52 = [
   },
   {
     "id": "2H523TN275",
-    "question": "Trong không gian $Oxyz$. Đường thẳng đi qua $H(3;-1;0)$ và vuông góc với mặt phẳng $Oxz$ có phương trình là  \\def\\dotEX{}",
+    "question": "Trong không gian $Oxyz$. Đường thẳng đi qua $H(3;-1;0)$ và vuông góc với mặt phẳng $Oxz$ có phương trình là",
     "options": [
       "$x=3 \\text{ và } y=-1 \\text{ và } z=t.$",
       "$x=3+t \\text{ và } y=-1 \\text{ và } z=0.$",

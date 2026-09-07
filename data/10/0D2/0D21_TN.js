@@ -104,10 +104,10 @@ window.tracNghiem0D21 = [
     "id": "0D212TN7",
     "question": "Miền nghiệm của bất phương trình $x+y \\leq 2$ là phần không bị gạch sọc của hình vẽ nào trong các hình sau?",
     "options": [
-      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_009.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_010.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_011.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_012.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">"
+      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_009.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_010.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_011.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/dlts_sbh_ds10cd145_012.png\" alt=\"hinh ve\" class=\"option-graph-img\">"
     ],
     "answer": 0,
     "explain": ""
@@ -236,10 +236,10 @@ window.tracNghiem0D21 = [
     "id": "0D212TN18",
     "question": "Miền nghiệm của bất phương trình $3x - 2y &gt; -6$ là phần tô đậm (không kể bờ) trong hình vẽ nào sau đây?",
     "options": [
-      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_002.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_003.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_004.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">",
-      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_005.png\" alt=\"hinh ve\" style=\"max-width:min(300px,70%);max-height:170px;width:auto;height:auto;display:block;margin:6px auto;\">"
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_002.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_003.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_004.png\" alt=\"hinh ve\" class=\"option-graph-img\">",
+      "<br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_005.png\" alt=\"hinh ve\" class=\"option-graph-img\">"
     ],
     "answer": 2,
     "explain": "Đường thẳng $3x-2y=-6$ đi qua hai điểm $\\left(-2;0\\right),\\left(0;3\\right)$.<br>  Thay toạ độ điểm $O$ vào bất phương trình ta có $3\\cdot 0-2\\cdot 0&lt;-6$.<br>  Miền nghiệm của bất phương trình là phần mặt phẳng chứa điểm $O$ (phần bị gạch đậm) không kể bờ đường thẳng $3x-2y=-6$.<br>  Miền nghiệm của bất phương trình được biểu diễn ở hình bên dưới  <br><img src=\"data/10/0D2/im0D21/loc_ghk1hv_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">"

@@ -198,7 +198,7 @@ window.tracNghiem0D11 = [
   },
   {
     "id": "0D111TN7",
-    "question": "Phát biểu nào sau đây là mệnh đề?  \\def\\dotEX{}",
+    "question": "Phát biểu nào sau đây là mệnh đề?",
     "options": [
       "$\\sqrt{x}$ có phải là số vô tỉ?",
       "$ 3$ là số nguyên tố.",
