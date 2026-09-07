@@ -43,7 +43,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H442TN4",
-    "question": "Cho hình lập phương $ABCD.A'BC'D'$. Góc giữa mặt phẳng $\\left(ABCD\\right)$ và $\\left(ACC'A'\\right)$ bằng<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình lập phương $ABCD.A'BC'D'$. Góc giữa mặt phẳng $\\left(ABCD\\right)$ và $\\left(ACC'A'\\right)$ bằng<br><img src=\"data/11/1H4/im1H44/dlts_11_DLTS30_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$45^{\\circ}$",
       "$60^{\\circ}$",
@@ -55,7 +55,7 @@ window.tracNghiem1H44 = [
   },
   {
     "id": "1H442TN5",
-    "question": "Một kệ để đồ bằng gỗ có mâm tầng dưới $(ABCD)$ và mâm tầng trên $(EFGH)$ song song với nhau. Bác thợ mộc đo được $AE=117$ cm, $CG=135$ cm và muốn đóng thêm mâm tầng giữa $(IJKL)$ song song với hai mâm tầng trên, tầng dưới và $EI=39$ cm. Tính độ dài đoạn thẳng $KG$.<br><img src=\"data/11/1D4/im1H44/dlts_11_DLTS6_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Một kệ để đồ bằng gỗ có mâm tầng dưới $(ABCD)$ và mâm tầng trên $(EFGH)$ song song với nhau. Bác thợ mộc đo được $AE=117$ cm, $CG=135$ cm và muốn đóng thêm mâm tầng giữa $(IJKL)$ song song với hai mâm tầng trên, tầng dưới và $EI=39$ cm. Tính độ dài đoạn thẳng $KG$.<br><img src=\"data/11/1H4/im1H44/dlts_11_DLTS6_005.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$90$ cm",
       "$48$ cm",

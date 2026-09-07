@@ -18,9 +18,9 @@ window.traLoiNgan1D11 = [
   },
   {
     "id": "1D116TL3",
-    "question": "Một chiếc đu quay hình tròn được thiết kế với đường kính $80$\\,m để có thể ngắm toàn cảnh thành phố. Các kĩ sư đã tính toán bố trí cứ cách nhau $3$\\,m trên vành tròn của xích đu thì gắn $1$ ghế ngồi. Hỏi có thể gắn tối đa bao nhiêu ghế trong một cung tròn của đu quay có số đo $60^\\circ$ (không làm tròn các phép tính trung gian, làm tròn kết quả cuối cùng đến hàng đơn vị)?",
+    "question": "Một chiếc đu quay hình tròn được thiết kế với đường kính $80$ m để có thể ngắm toàn cảnh thành phố. Các kĩ sư đã tính toán bố trí cứ cách nhau $3$ m trên vành tròn của xích đu thì gắn $1$ ghế ngồi. Hỏi có thể gắn tối đa bao nhiêu ghế trong một cung tròn của đu quay có số đo $60^\\circ$ (không làm tròn các phép tính trung gian, làm tròn kết quả cuối cùng đến hàng đơn vị)?",
     "answer": "14",
-    "explain": "Bán kính của chiếc đu quay là $R=\\dfrac{80}{2}=40$\\,m.<br>  Cung tròn $60^\\circ$ có số đo theo đơn vị radian là $\\alpha=\\dfrac{60}{180}\\cdot\\pi=\\dfrac{\\pi}{3}$.<br>  Độ dài của cung tròn có số đo $60^\\circ$ là $\\ell=R\\cdot\\alpha=\\dfrac{40\\pi}{3}$.<br>  Số cung tròn có độ dài $3$\\,m có thể tạo ra là $n=\\dfrac{\\ell}{3}=\\dfrac{40\\pi}{9}\\approx13{,}9$.<br>  Do cách $3$\\,m thì có một ghế ngồi nên có thể đặt tối đa $14$ ghế lên cung tròn đề bài yêu cầu."
+    "explain": "Bán kính của chiếc đu quay là $R=\\dfrac{80}{2}=40$ m.<br>  Cung tròn $60^\\circ$ có số đo theo đơn vị radian là $\\alpha=\\dfrac{60}{180}\\cdot\\pi=\\dfrac{\\pi}{3}$.<br>  Độ dài của cung tròn có số đo $60^\\circ$ là $\\ell=R\\cdot\\alpha=\\dfrac{40\\pi}{3}$.<br>  Số cung tròn có độ dài $3$ m có thể tạo ra là $n=\\dfrac{\\ell}{3}=\\dfrac{40\\pi}{9}\\approx13{,}9$.<br>  Do cách $3$ m thì có một ghế ngồi nên có thể đặt tối đa $14$ ghế lên cung tròn đề bài yêu cầu."
   },
   {
     "id": "1D114TL4",
@@ -48,9 +48,9 @@ window.traLoiNgan1D11 = [
   },
   {
     "id": "1D116TL8",
-    "question": "Một bánh xe đạp có đường kính $50$ cm (kể cả lốp). Nếu chạy với vận tốc $12$ km/h thì trong $21$\\,s bánh xe quay được bao nhiêu vòng (làm tròn đến hàng đơn vị)?",
+    "question": "Một bánh xe đạp có đường kính $50$ cm (kể cả lốp). Nếu chạy với vận tốc $12$ km/h thì trong $21$ s bánh xe quay được bao nhiêu vòng (làm tròn đến hàng đơn vị)?",
     "answer": "45",
-    "explain": "Đường kính bánh xe là $0{,}5$\\,m nên chu vi là  \\[  C=\\pi\\cdot0{,}5=0{,}5\\pi\\ \\text{(m)}.  \\]  Vận tốc $12$ km/h $= \\dfrac{12\\,000}{3\\,600}= \\dfrac{10}{3}$ m/s.  Quãng đường đi trong $21$\\,s là  \\[  s=\\dfrac{10}{3}\\cdot21=70\\ \\text{m}.  \\]  Số vòng quay của bánh xe là  \\[  n=\\dfrac{70}{0{,}5\\pi}=\\dfrac{140}{\\pi}\\approx44{,}56.  \\]  Làm tròn đến hàng đơn vị, bánh xe quay được $45$ vòng."
+    "explain": "Đường kính bánh xe là $0{,}5$ m nên chu vi là  \\[  C=\\pi\\cdot0{,}5=0{,}5\\pi\\ \\text{(m)}.  \\]  Vận tốc $12$ km/h $= \\dfrac{12\\,000}{3\\,600}= \\dfrac{10}{3}$ m/s.  Quãng đường đi trong $21$ s là  \\[  s=\\dfrac{10}{3}\\cdot21=70\\ \\text{m}.  \\]  Số vòng quay của bánh xe là  \\[  n=\\dfrac{70}{0{,}5\\pi}=\\dfrac{140}{\\pi}\\approx44{,}56.  \\]  Làm tròn đến hàng đơn vị, bánh xe quay được $45$ vòng."
   },
   {
     "id": "1D116TL9",

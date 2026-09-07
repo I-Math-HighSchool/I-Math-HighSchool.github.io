@@ -138,7 +138,7 @@ window.traLoiNgan1D14 = [
   },
   {
     "id": "1D148TL23",
-    "question": "Hằng ngày mực nước của con kênh lên xuống theo thủy triều. Độ sâu $h(t)$\\,(mét) của mực nước trong kênh được tính tại thời điểm $t$\\,(giờ) trong một ngày bởi công thức $h(t)=3 \\cos \\left(\\dfrac{\\pi t}{8}\\right)+12$. Mực nước của kênh cao nhất vào lúc mấy giờ trong ngày?",
+    "question": "Hằng ngày mực nước của con kênh lên xuống theo thủy triều. Độ sâu $h(t)$ (mét) của mực nước trong kênh được tính tại thời điểm $t$ (giờ) trong một ngày bởi công thức $h(t)=3 \\cos \\left(\\dfrac{\\pi t}{8}\\right)+12$. Mực nước của kênh cao nhất vào lúc mấy giờ trong ngày?",
     "answer": "16",
     "explain": "Ta có $-1\\leq \\cos \\left(\\dfrac{\\pi t}{8}\\right)\\leq 1$.<br>  Khi đó hàm số $h = 3\\cos\\left(\\dfrac{\\pi t}{8}\\right) + 12$ đạt giá trị lớn nhất khi $\\cos\\left(\\dfrac{\\pi t}{8}\\right) = 1$.<br>  Khi đó $\\dfrac{\\pi t}{8} = k2\\pi$, với $k$ là số nguyên.<br>  Suy ra $t = 16k$.<br>  Vì $t$ là thời điểm trong một ngày nên $0 \\leq t \\leq 24$.<br>  Với $k = 0$, ta có $t = 0$.<br>  Với $k = 1$, ta có $t = 16$.<br>  Vậy mực nước của kênh cao nhất vào lúc $0$ giờ và $16$ giờ."
   },

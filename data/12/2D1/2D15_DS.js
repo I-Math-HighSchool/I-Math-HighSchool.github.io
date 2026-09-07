@@ -424,23 +424,23 @@ window.dungSai2D15 = [
     "question": "Một chất điểm chuyển động theo phương trình $s(t)=t^3-3t^2+8t+1$, trong đó $t$ tính bằng giây và $s(t)$ tính bằng mét. Các phát biểu sau đúng hay sai",
     "subQuestions": [
       {
-        "text": "Vận tốc nhỏ nhất của chất điểm là $5$\\,m/s",
+        "text": "Vận tốc nhỏ nhất của chất điểm là $5$ m/s",
         "answer": true
       },
       {
-        "text": "Tại thời điểm mà chất điểm di chuyển được $13$\\,m, vận tốc khi đó bằng $8$\\,m/s",
+        "text": "Tại thời điểm mà chất điểm di chuyển được $13$ m, vận tốc khi đó bằng $8$ m/s",
         "answer": true
       },
       {
-        "text": "Gia tốc tại thời điểm chất điểm đạt vận tốc nhỏ nhất bằng $2$\\,m/s$^2$",
+        "text": "Gia tốc tại thời điểm chất điểm đạt vận tốc nhỏ nhất bằng $2$ m/s$^2$",
         "answer": false
       },
       {
-        "text": "Vận tốc của chất điểm tại thời điểm $t=3$\\,s bằng $8$\\,m/s",
+        "text": "Vận tốc của chất điểm tại thời điểm $t=3$ s bằng $8$ m/s",
         "answer": false
       }
     ],
-    "explain": "<br>- <strong>Đúng</strong>. <br>  Ta có $v(t)=s'(t)=3t^2-6t+8$. Suy ra $v'(t)=6t-6$.<br>  Cho $v'(t)=0 \\Leftrightarrow t=1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc nhỏ nhất của chất điểm là $5$\\,m/s.<br>- <strong>Đúng</strong>.<br>  Ta có $s(t)=13 \\Leftrightarrow t^3-3t^2+8t+1=13 \\Leftrightarrow t=2$.<br>  khi đó $v(2)=8$.<br>- <strong>Sai</strong>.<br>  Ta có $a(t)=v'(t)=6t-6$.<br>  Thời điểm chất điểm đạt vận tốc nhỏ nhất là $t=1$ nên $a(1)=0$\\,m/s$^2$.<br>- <strong>Sai</strong>.<br>  $v(3)=17$\\,m/s."
+    "explain": "<br>- <strong>Đúng</strong>. <br>  Ta có $v(t)=s'(t)=3t^2-6t+8$. Suy ra $v'(t)=6t-6$.<br>  Cho $v'(t)=0 \\Leftrightarrow t=1$.  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_074.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, vận tốc nhỏ nhất của chất điểm là $5$ m/s.<br>- <strong>Đúng</strong>.<br>  Ta có $s(t)=13 \\Leftrightarrow t^3-3t^2+8t+1=13 \\Leftrightarrow t=2$.<br>  khi đó $v(2)=8$.<br>- <strong>Sai</strong>.<br>  Ta có $a(t)=v'(t)=6t-6$.<br>  Thời điểm chất điểm đạt vận tốc nhỏ nhất là $t=1$ nên $a(1)=0$ m/s$^2$.<br>- <strong>Sai</strong>.<br>  $v(3)=17$ m/s."
   },
   {
     "id": "2D151DS20",

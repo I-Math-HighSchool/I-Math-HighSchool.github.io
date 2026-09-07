@@ -29,7 +29,7 @@ window.dungSai2D32 = [
   },
   {
     "id": "2D323DS2",
-    "question": "Thời gian chạy tập luyện cự li $100$\\,m của hai vận động viên $A$ và $B$ được cho trong bảng sau  <br><img src=\"data/12/2D3/im2D32/dlts_12_DLTS10_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
+    "question": "Thời gian chạy tập luyện cự li $100$ m của hai vận động viên $A$ và $B$ được cho trong bảng sau  <br><img src=\"data/12/2D3/im2D32/dlts_12_DLTS10_011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Xét tính đúng sai của các khẳng định sau",
     "subQuestions": [
       {
         "text": "Tổng số lần chạy của $B$ là $25$",

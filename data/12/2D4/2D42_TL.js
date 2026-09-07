@@ -12,7 +12,7 @@ window.traLoiNgan2D42 = [
   },
   {
     "id": "2D427TL2",
-    "question": "Một vật chuyển động với tốc độ $v(t)=3t+4$\\,(m/s), với thời gian $t$ tính theo giây, $t\\in[0;5]$. Tính quãng đường (đơn vị: mét) vật đi được trong khoảng thời gian từ $t=0$ đến $t=5$.",
+    "question": "Một vật chuyển động với tốc độ $v(t)=3t+4$ (m/s), với thời gian $t$ tính theo giây, $t\\in[0;5]$. Tính quãng đường (đơn vị: mét) vật đi được trong khoảng thời gian từ $t=0$ đến $t=5$.",
     "answer": "57,5",
     "explain": "Quãng đường (đơn vị: mét) vật đi được trong khoảng thời gian từ $t=0$ đến $t=5$ là  \\[S=\\displaystyle\\int\\limits_0^5v(t)\\mathrm{\\,d}t=\\displaystyle\\int\\limits_0^5(3t+4)\\mathrm{\\,d}t=\\dfrac{115}{2}=57{,}5\\text{\\,m.}\\]"
   },

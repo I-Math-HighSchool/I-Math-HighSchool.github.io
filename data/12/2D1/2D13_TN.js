@@ -633,13 +633,13 @@ window.tracNghiem2D13 = [
     "id": "2D136TN53",
     "question": "Một chất điểm chuyển động theo quy luật $s(t)=6t^2-t^3$ (trong đó $t$ tính bằng giây và $s(t)$ tính bằng m). Trong khoảng từ $0$ giây đến $4$ giây vận tốc $v(t)$ của chất điểm đạt giá trị lớn nhất bằng",
     "options": [
-      "$12$\\,(m/s)",
-      "$24$\\,(m/s)",
-      "$2$\\,(m/s)",
-      "$6$\\,(m/s)"
+      "$12$ (m/s)",
+      "$24$ (m/s)",
+      "$2$ (m/s)",
+      "$6$ (m/s)"
     ],
     "answer": 0,
-    "explain": "Ta có $v(t)=s'(t)=12t-3t^2$.<br>  Xét hàm số $f(t)=12t-3t^2$ với $0\\le t \\le 4 $.<br>  Ta có $f'(t)=12-6t$.<br> Suy ra $f'(t)=0\\Leftrightarrow t=2\\in [0;4] $.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có $\\max\\limits_{t\\in[0;4] } f(t)=f(2)=12$. <br>  Vậy trong khoảng từ $0$ giây đến $4$ giây vận tốc $v(t)$ của chất điểm đạt giá trị lớn nhất bằng $12$\\,(m/s)."
+    "explain": "Ta có $v(t)=s'(t)=12t-3t^2$.<br>  Xét hàm số $f(t)=12t-3t^2$ với $0\\le t \\le 4 $.<br>  Ta có $f'(t)=12-6t$.<br> Suy ra $f'(t)=0\\Leftrightarrow t=2\\in [0;4] $.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_105.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Từ bảng biến thiên ta có $\\max\\limits_{t\\in[0;4] } f(t)=f(2)=12$. <br>  Vậy trong khoảng từ $0$ giây đến $4$ giây vận tốc $v(t)$ của chất điểm đạt giá trị lớn nhất bằng $12$ (m/s)."
   },
   {
     "id": "2D131TN54",

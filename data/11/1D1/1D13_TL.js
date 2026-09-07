@@ -144,7 +144,7 @@ window.traLoiNgan1D13 = [
   },
   {
     "id": "1D135TL24",
-    "question": "Từ một vị trí $A$, người ta buộc hai sợi cáp $AB$ và $AC$ đến một cái trụ cao $15$\\,m, được dựng vuông góc với mặt đất, chân trụ ở vị trí $D$. Biết $CD=9$\\,m và $AD=12$\\,m. Biết góc nhọn $\\alpha=\\widehat{BAC}$ và $\\tan \\alpha=\\dfrac{a}{b}$, với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=2a-3b$?",
+    "question": "Từ một vị trí $A$, người ta buộc hai sợi cáp $AB$ và $AC$ đến một cái trụ cao $15$ m, được dựng vuông góc với mặt đất, chân trụ ở vị trí $D$. Biết $CD=9$ m và $AD=12$ m. Biết góc nhọn $\\alpha=\\widehat{BAC}$ và $\\tan \\alpha=\\dfrac{a}{b}$, với $\\dfrac{a}{b}$ là phân số tối giản. Tính $T=2a-3b$?",
     "answer": "-77",
     "explain": "<br><img src=\"data/11/1D1/im1D13/1D13_tikz_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Tam giác $ABD$ vuông tại $D$ có $\\tan\\widehat{BAD}=\\dfrac{BD}{AD}=\\dfrac{5}{4}$.<br>- Tam giác $ACD$ vuông tại $D$ có $\\tan\\widehat{BAC}=\\dfrac{CD}{AD}=\\dfrac{3}{4}$.<br>- Mà $\\alpha=\\widehat{BAD}-\\widehat{CAD}$ nên   $\\tan \\alpha = \\tan\\left(\\widehat{BAD}-\\widehat{CAD}\\right)$<br>$= \\dfrac{\\tan\\widehat{BAD}-\\tan\\widehat{CAD}}{1+\\tan\\widehat{BAD}\\cdot\\tan\\widehat{CAD}}$<br>$= \\dfrac{\\tfrac{5}{4}-\\tfrac{3}{4}}{1+\\tfrac{5}{4}\\cdot\\tfrac{3}{4}}$<br>$= \\dfrac{8}{31}.$  Suy ra $a=8$, $b=31$.  Khi đó $T=2\\cdot 8-3\\cdot 31=-77$."
   },

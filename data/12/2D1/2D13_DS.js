@@ -375,10 +375,10 @@ window.dungSai2D13 = [
   },
   {
     "id": "2D131DS17",
-    "question": "Người ta bơm xăng vào bình xăng của một xe ô tô, biết rằng thể tích $V$\\,(lít) của lượng xăng trong bình xăng được tính theo thời gian bơm xăng $t$\\,(phút) được cho bởi công thức  \\[V(t)=300\\left(t^2-t^3\\right)+4\\text{ với }0\\le t\\le0{,}5.\\]  Gọi $V'(t)$ là tốc độ tăng thể tích tại thời điểm $t$, với $0\\le t\\le0{,}5$.",
+    "question": "Người ta bơm xăng vào bình xăng của một xe ô tô, biết rằng thể tích $V$ (lít) của lượng xăng trong bình xăng được tính theo thời gian bơm xăng $t$ (phút) được cho bởi công thức  \\[V(t)=300\\left(t^2-t^3\\right)+4\\text{ với }0\\le t\\le0{,}5.\\]  Gọi $V'(t)$ là tốc độ tăng thể tích tại thời điểm $t$, với $0\\le t\\le0{,}5$.",
     "subQuestions": [
       {
-        "text": "Lượng xăng ban đầu trong bình là $1$\\,lít",
+        "text": "Lượng xăng ban đầu trong bình là $1$ lít",
         "answer": false
       },
       {
@@ -390,11 +390,11 @@ window.dungSai2D13 = [
         "answer": false
       },
       {
-        "text": "Lượng xăng lớn nhất bơm vào bình xăng là $41{,}5$\\,lít",
+        "text": "Lượng xăng lớn nhất bơm vào bình xăng là $41{,}5$ lít",
         "answer": true
       }
     ],
-    "explain": "<br>- Lượng xăng ban đầu trong bình là $V(0)=4$\\,lít.<br>- Ta có $V'(t)=300\\left(2t-3t^2\\right)$, với $0\\le t\\le0{,}5$.<br>- Ta có $V''(t)=300(2-6t)$, $V''(t)=0\\Leftrightarrow t=\\dfrac{1}{6}$.<br>  Bảng biến thiên của $V'(t)$ như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy tại thời điểm $t=\\dfrac{1}{6}$\\,(phút)$=10$\\,(giây) thì tốc độ tăng thể tích là lớn nhất.<br>- Ta có $V'(t)=300t(2-3t)&gt;0$, $\\forall t\\in[0;0{,}5]$ nên $V(t)$ đồng biến trên đoạn $[0;0{,}5]$.<br>  Suy ra lượng xăng lớn nhất bơm vào bình xăng là $V(0{,}5)=41{,}5$\\,lít."
+    "explain": "<br>- Lượng xăng ban đầu trong bình là $V(0)=4$ lít.<br>- Ta có $V'(t)=300\\left(2t-3t^2\\right)$, với $0\\le t\\le0{,}5$.<br>- Ta có $V''(t)=300(2-6t)$, $V''(t)=0\\Leftrightarrow t=\\dfrac{1}{6}$.<br>  Bảng biến thiên của $V'(t)$ như hình vẽ  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_094.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy tại thời điểm $t=\\dfrac{1}{6}$ (phút)$=10$ (giây) thì tốc độ tăng thể tích là lớn nhất.<br>- Ta có $V'(t)=300t(2-3t)&gt;0$, $\\forall t\\in[0;0{,}5]$ nên $V(t)$ đồng biến trên đoạn $[0;0{,}5]$.<br>  Suy ra lượng xăng lớn nhất bơm vào bình xăng là $V(0{,}5)=41{,}5$ lít."
   },
   {
     "id": "2D132DS18",
@@ -486,7 +486,7 @@ window.dungSai2D13 = [
         "answer": false
       }
     ],
-    "explain": "<br>- <strong>Sai</strong>.<br>  Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là  \\[C(50)=8\\cdot 50^2+40\\cdot 50+1300=23300\\, (\\text{nghìn đồng}).\\]<br>- <strong>Đúng</strong>.<br>  Doanh thu khi bán $q$ sản phẩm là   \\[R(q)=q\\cdot P(q)=q\\cdot (1400-2q)=1400-2q^2.\\]  Lợi nhuận khi bán được $q$ sản phẩm là   $F(q)=R(q)-C(q) =(1400-2q^2)-(8q^2+40 q+1300)$<br>$=-10q^2+1360q-1300\\, (\\text{nghìn đồng}).$<br>- <strong>Đúng</strong>.<br>  Ta có $F(q)$ là hàm số bậc hai có hệ số $a=-10&lt;0$ nên đạt giá trị lớn nhất tại \\[q=-\\dfrac{b}{2a}=-\\dfrac{1360}{2\\cdot (-10)}=68.\\]  Khi đó $F(68)=-10\\cdot 68^2+1360\\cdot 68-1300=44940$\\,(nghìn đồng).<br>- <strong>Sai</strong>.<br>  Với $q=60$ ta có $F(60)=-10\\cdot 60^2+1360\\cdot 60-1300=44300$\\,(nghìn đồng).<br>  Với $q=60$ ta có $F(70)=-10\\cdot 70^2+1360\\cdot 70-1300=44900$\\,(nghìn đồng).<br>  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44300$ đến $44900$\\,(nghìn đồng)."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Chi phí mỗi tháng công ty phải bỏ ra để sản xuất $50$ sản phẩm là  \\[C(50)=8\\cdot 50^2+40\\cdot 50+1300=23300\\, (\\text{nghìn đồng}).\\]<br>- <strong>Đúng</strong>.<br>  Doanh thu khi bán $q$ sản phẩm là   \\[R(q)=q\\cdot P(q)=q\\cdot (1400-2q)=1400-2q^2.\\]  Lợi nhuận khi bán được $q$ sản phẩm là   $F(q)=R(q)-C(q) =(1400-2q^2)-(8q^2+40 q+1300)$<br>$=-10q^2+1360q-1300\\, (\\text{nghìn đồng}).$<br>- <strong>Đúng</strong>.<br>  Ta có $F(q)$ là hàm số bậc hai có hệ số $a=-10&lt;0$ nên đạt giá trị lớn nhất tại \\[q=-\\dfrac{b}{2a}=-\\dfrac{1360}{2\\cdot (-10)}=68.\\]  Khi đó $F(68)=-10\\cdot 68^2+1360\\cdot 68-1300=44940$ (nghìn đồng).<br>- <strong>Sai</strong>.<br>  Với $q=60$ ta có $F(60)=-10\\cdot 60^2+1360\\cdot 60-1300=44300$ (nghìn đồng).<br>  Với $q=60$ ta có $F(70)=-10\\cdot 70^2+1360\\cdot 70-1300=44900$ (nghìn đồng).<br>  Vậy nếu số lượng sản phẩm bán ra trong một tháng nằm trong khoảng từ $60$ đến $70$ thì lợi nhuận sẽ được ước tính trong khoảng $44300$ đến $44900$ (nghìn đồng)."
   },
   {
     "id": "2D132DS22",

@@ -377,11 +377,11 @@ window.dungSai1D14 = [
     "question": "Hằng ngày, mực nước của con kênh lên xuống theo thủy triều. Độ sâu $h(m)$ của mực nước trong kênh tại thời điểm $t(h)(0 \\leq t \\leq 24)$ được cho bởi công thức  $h=3 \\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)+12.$",
     "subQuestions": [
       {
-        "text": "Độ sâu của mực nước trong kênh nhỏ nhất bằng $9$\\,m",
+        "text": "Độ sâu của mực nước trong kênh nhỏ nhất bằng $9$ m",
         "answer": true
       },
       {
-        "text": "Độ sâu của mực nước trong kênh lớn nhất bằng $15$\\,m",
+        "text": "Độ sâu của mực nước trong kênh lớn nhất bằng $15$ m",
         "answer": true
       },
       {
@@ -389,11 +389,11 @@ window.dungSai1D14 = [
         "answer": false
       },
       {
-        "text": "Độ sâu của mực nước trong kênh tại thời điểm $12$ (h) bằng $13$\\,m",
+        "text": "Độ sâu của mực nước trong kênh tại thời điểm $12$ (h) bằng $13$ m",
         "answer": false
       }
     ],
-    "explain": "$\\forall x\\in \\mathbb{R}$, ta có $-1\\le \\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)\\le 1$<br>$\\Leftrightarrow -3\\le 3\\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)\\le 3$<br>$\\Leftrightarrow -3+12\\le 3 \\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)+12\\le 3+12$<br>$\\Leftrightarrow 9\\le h\\le 15\\quad (*).$  <br>- Từ $(*)$ suy ra độ sâu của mực nước trong kênh nhỏ nhất bằng $9$\\,m.<br>- Từ $(*)$ suy ra độ sâu của mực nước trong kênh lớn nhất bằng $15$\\,m.<br>- Độ sâu của mực nước trong kênh lớn nhất bằng $15$\\,m khi  $\\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)=1$<br>$\\Leftrightarrow \\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}=k2\\pi$<br>$\\Leftrightarrow t=-2+12k,\\,k\\in\\mathbb{Z}.$  Vì $0\\le t\\le 24$ nên $0\\le -2+12k\\le 24$ hay $\\dfrac{1}{6}\\le k\\le \\dfrac{13}{6}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k\\in\\{1;2\\}$. <br>  Vậy trong $1$ ngày có đúng $2$ thời điểm mà độ sâu của mực nước trong kênh đạt giá trị lớn nhất.<br>- Độ sâu của mực nước trong kênh tại thời điểm $12$ (h) là  \\[h=3 \\cos \\left(\\dfrac{12\\pi }{6}+\\dfrac{\\pi}{3}\\right)+12=\\dfrac{27}{2}\\ne 13.\\]"
+    "explain": "$\\forall x\\in \\mathbb{R}$, ta có $-1\\le \\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)\\le 1$<br>$\\Leftrightarrow -3\\le 3\\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)\\le 3$<br>$\\Leftrightarrow -3+12\\le 3 \\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)+12\\le 3+12$<br>$\\Leftrightarrow 9\\le h\\le 15\\quad (*).$  <br>- Từ $(*)$ suy ra độ sâu của mực nước trong kênh nhỏ nhất bằng $9$ m.<br>- Từ $(*)$ suy ra độ sâu của mực nước trong kênh lớn nhất bằng $15$ m.<br>- Độ sâu của mực nước trong kênh lớn nhất bằng $15$ m khi  $\\cos \\left(\\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}\\right)=1$<br>$\\Leftrightarrow \\dfrac{\\pi t}{6}+\\dfrac{\\pi}{3}=k2\\pi$<br>$\\Leftrightarrow t=-2+12k,\\,k\\in\\mathbb{Z}.$  Vì $0\\le t\\le 24$ nên $0\\le -2+12k\\le 24$ hay $\\dfrac{1}{6}\\le k\\le \\dfrac{13}{6}$.<br>  Mà $k\\in\\mathbb{Z}$ nên $k\\in\\{1;2\\}$. <br>  Vậy trong $1$ ngày có đúng $2$ thời điểm mà độ sâu của mực nước trong kênh đạt giá trị lớn nhất.<br>- Độ sâu của mực nước trong kênh tại thời điểm $12$ (h) là  \\[h=3 \\cos \\left(\\dfrac{12\\pi }{6}+\\dfrac{\\pi}{3}\\right)+12=\\dfrac{27}{2}\\ne 13.\\]"
   },
   {
     "id": "1D141DS18",

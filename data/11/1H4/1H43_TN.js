@@ -27,7 +27,7 @@ window.tracNghiem1H43 = [
       "$AC \\parallel \\left(SBD\\right)$"
     ],
     "answer": 0,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS11_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CD\\parallel AB \\text{ và } AB\\subset (SAB) \\text{ và } CD\\not\\subset (SAB)\\Rightarrow CD\\parallel (SAB)$."
+    "explain": "<br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS11_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $CD\\parallel AB \\text{ và } AB\\subset (SAB) \\text{ và } CD\\not\\subset (SAB)\\Rightarrow CD\\parallel (SAB)$."
   },
   {
     "id": "1H431TN3",
@@ -55,7 +55,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H432TN5",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, $AB \\parallel CD$ (tham khảo hình minh họa). Đường thẳng $CD$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS18_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, $AB \\parallel CD$ (tham khảo hình minh họa). Đường thẳng $CD$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS18_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(SAB)$",
       "$(SAC)$",
@@ -67,7 +67,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H431TN6",
-    "question": "Cho hình chóp $S.ABCD$. Gọi $M$ và $N$ lần lượt là trung điểm  của $AB$ và $AD$. Khẳng định nào sau đây đúng?  <br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS19_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình chóp $S.ABCD$. Gọi $M$ và $N$ lần lượt là trung điểm  của $AB$ và $AD$. Khẳng định nào sau đây đúng?  <br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS19_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$MN\\parallel (ABCD)$",
       "$MN\\parallel (SCD)$",
@@ -79,7 +79,7 @@ window.tracNghiem1H43 = [
   },
   {
     "id": "1H432TN7",
-    "question": "Cho tứ diện $ABCD$ có các điểm $M$, $N$ lần lượt là trung điểm của các cạnh $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$ có các điểm $M$, $N$ lần lượt là trung điểm của các cạnh $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS5_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "options": [
       "$(BCD)$",
       "$(ACD)$",
@@ -99,7 +99,7 @@ window.tracNghiem1H43 = [
       "$MN \\parallel BC$"
     ],
     "answer": 3,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS6_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Xét khẳng định: $MP \\parallel (ABCD)$<br>  Do $M$ và $P$ lần lượt là trung điểm của $SA$ và $SC$.<br>  $\\Rightarrow MP$ là đường trung bình của tam giác $SAC$ và $MP \\parallel AC$.<br>  Mà $AC \\subset (ABCD)$ nên $MP \\parallel (ABCD)$. (1)<br>- Xét khẳng định: $(MNP) \\parallel (ABCD)$<br>  Do $M$ và $N$ lần lượt là trung điểm của $SA$ và $SB$.<br>  $\\Rightarrow MN$ là đường trung bình của tam giác $SAB$ và $MN \\parallel AB$.<br>  Mà $AB \\subset (ABCD)$ nên $MN \\parallel (ABCD)$. (2)<br>  Từ (1) và (2) suy ra $(MNP) \\parallel (ABCD)$.<br>- Xét khẳng định: $PN \\parallel BC$<br>  Do $P$ và $N$ lần lượt là trung điểm của $SC$ và $SB$.<br>  $\\Rightarrow PN \\parallel BC$ mà $BC \\parallel AD$ (do $ABCD$ là hình bình hành) nên $PN \\parallel AD$. <br>  Từ các chứng minh trên nên $MN \\parallel BC$ là sai."
+    "explain": "<br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS6_004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Xét khẳng định: $MP \\parallel (ABCD)$<br>  Do $M$ và $P$ lần lượt là trung điểm của $SA$ và $SC$.<br>  $\\Rightarrow MP$ là đường trung bình của tam giác $SAC$ và $MP \\parallel AC$.<br>  Mà $AC \\subset (ABCD)$ nên $MP \\parallel (ABCD)$. (1)<br>- Xét khẳng định: $(MNP) \\parallel (ABCD)$<br>  Do $M$ và $N$ lần lượt là trung điểm của $SA$ và $SB$.<br>  $\\Rightarrow MN$ là đường trung bình của tam giác $SAB$ và $MN \\parallel AB$.<br>  Mà $AB \\subset (ABCD)$ nên $MN \\parallel (ABCD)$. (2)<br>  Từ (1) và (2) suy ra $(MNP) \\parallel (ABCD)$.<br>- Xét khẳng định: $PN \\parallel BC$<br>  Do $P$ và $N$ lần lượt là trung điểm của $SC$ và $SB$.<br>  $\\Rightarrow PN \\parallel BC$ mà $BC \\parallel AD$ (do $ABCD$ là hình bình hành) nên $PN \\parallel AD$. <br>  Từ các chứng minh trên nên $MN \\parallel BC$ là sai."
   },
   {
     "id": "1H431TN9",
@@ -111,11 +111,11 @@ window.tracNghiem1H43 = [
       "$MN // \\left(SAB\\right)$"
     ],
     "answer": 2,
-    "explain": "<br><img src=\"data/11/1D4/im1H43/dlts_11_DLTS9_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $MN$ là đường trung bình của tam giác $SBD$ nên $MN//BD\\subset \\left(ABCD\\right)$.<br>  Vậy $MN//\\left(ABCD\\right)$"
+    "explain": "<br><img src=\"data/11/1H4/im1H43/dlts_11_DLTS9_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vì $MN$ là đường trung bình của tam giác $SBD$ nên $MN//BD\\subset \\left(ABCD\\right)$.<br>  Vậy $MN//\\left(ABCD\\right)$"
   },
   {
     "id": "1H432TN8",
-    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $A'C'$ song song với mặt phẳng nào sau đây?<br><img src=\"data/11/1H4/im1H43/loc_ghk1nq_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $A'C'$ song song với mặt phẳng nào sau đây?<br>",
     "options": [
       "$(A'AC)$",
       "$(BDB')$",

@@ -506,7 +506,7 @@ window.tracNghiem1D12 = [
       "$\\sin (\\pi-\\alpha)=\\sin \\alpha$"
     ],
     "answer": 3,
-    "explain": "Ta có \\True $\\sin (\\pi-\\alpha)=\\sin \\alpha$."
+    "explain": "Ta có $\\sin (\\pi-\\alpha)=\\sin \\alpha$."
   },
   {
     "id": "1D122TN43",
@@ -618,7 +618,7 @@ window.tracNghiem1D12 = [
   },
   {
     "id": "1D122TN52",
-    "question": "Bạn An đứng ở vị trí $A$, bạn Bình đứng ở vị trí $B$ và giữa họ có cột đèn ở vị trí $O$ mà $A$, $O$, $B$ nằm trên một đường thẳng. Trong điều kiện buổi tối và đèn tỏa ánh sáng ở vị trí $T$, thì có thể thấy bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng (xem hình minh họa bên dưới).  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi nếu biết $\\widehat{TAO}=55^\\circ, \\widehat{TBO}=65^\\circ$, khoảng cách giữa hai bạn An và Bình là $AB=10$\\,m và bạn An cao $AX=1{,}78$\\,m thì tỉ số $\\dfrac{MO}{MA}$ có giá trị thuộc khoảng nào sau đây?",
+    "question": "Bạn An đứng ở vị trí $A$, bạn Bình đứng ở vị trí $B$ và giữa họ có cột đèn ở vị trí $O$ mà $A$, $O$, $B$ nằm trên một đường thẳng. Trong điều kiện buổi tối và đèn tỏa ánh sáng ở vị trí $T$, thì có thể thấy bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng (xem hình minh họa bên dưới).  <br><img src=\"data/11/1D1/im1D1/1D12_tikz_003.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Hỏi nếu biết $\\widehat{TAO}=55^\\circ, \\widehat{TBO}=65^\\circ$, khoảng cách giữa hai bạn An và Bình là $AB=10$ m và bạn An cao $AX=1{,}78$ m thì tỉ số $\\dfrac{MO}{MA}$ có giá trị thuộc khoảng nào sau đây?",
     "options": [
       "$(4;5)$",
       "$(2;3)$",
@@ -626,7 +626,7 @@ window.tracNghiem1D12 = [
       "$(3;4)$"
     ],
     "answer": 0,
-    "explain": "Đặt $OA=x_1$; $OB=x_2$ và $OT=h$.<br>  Vì $\\triangle TAO$ vuông tại $O$ nên ta có $OT=OA\\cdot \\tan\\widehat{TAO}$ hay $h=x_1\\cdot \\tan 55^\\circ\\Rightarrow x_1=\\dfrac{h}{\\tan 55^\\circ}$.  <br>  Tương tự với $\\triangle TBO$, ta cũng có $x_2=\\dfrac{h}{\\tan 65^\\circ}$.  <br>  Vì $AB=AO+OB=10$\\,m nên ta có  $x_1+x_2=10$<br>$\\Leftrightarrow \\dfrac{h}{\\tan 55^\\circ}+\\dfrac{h}{\\tan 65^\\circ}=10$<br>$\\Leftrightarrow h\\left(\\dfrac{1}{\\tan 55^\\circ}+\\dfrac{1}{\\tan 65^\\circ}\\right)=10$<br>$\\Leftrightarrow h=\\dfrac{10}{\\dfrac{1}{\\tan 55^\\circ}+\\dfrac{1}{\\tan 65^\\circ}}\\ (\\text{m}).$  Vì bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng nên ta có \\[\\dfrac{MO}{MA}=\\dfrac{OT}{TA}=\\dfrac{h}{1{,}78}\\approx 4{,}8 \\in (4;5).\\]"
+    "explain": "Đặt $OA=x_1$; $OB=x_2$ và $OT=h$.<br>  Vì $\\triangle TAO$ vuông tại $O$ nên ta có $OT=OA\\cdot \\tan\\widehat{TAO}$ hay $h=x_1\\cdot \\tan 55^\\circ\\Rightarrow x_1=\\dfrac{h}{\\tan 55^\\circ}$.  <br>  Tương tự với $\\triangle TBO$, ta cũng có $x_2=\\dfrac{h}{\\tan 65^\\circ}$.  <br>  Vì $AB=AO+OB=10$ m nên ta có  $x_1+x_2=10$<br>$\\Leftrightarrow \\dfrac{h}{\\tan 55^\\circ}+\\dfrac{h}{\\tan 65^\\circ}=10$<br>$\\Leftrightarrow h\\left(\\dfrac{1}{\\tan 55^\\circ}+\\dfrac{1}{\\tan 65^\\circ}\\right)=10$<br>$\\Leftrightarrow h=\\dfrac{10}{\\dfrac{1}{\\tan 55^\\circ}+\\dfrac{1}{\\tan 65^\\circ}}\\ (\\text{m}).$  Vì bóng đổ $AM$ của bạn An trên mặt đất với $M$, $A$, $O$ thẳng hàng nên ta có \\[\\dfrac{MO}{MA}=\\dfrac{OT}{TA}=\\dfrac{h}{1{,}78}\\approx 4{,}8 \\in (4;5).\\]"
   },
   {
     "id": "1D122TN53",

@@ -66,7 +66,7 @@ window.tracNghiem1H42 = [
   },
   {
     "id": "1H422TN1",
-    "question": "Cho tứ diện $ABCD$, gọi $M$ và $N$ lần lượt là trung điểm của $AC$ và $AD$. Đường thẳng $MN$ song song với đường nào?<br><img src=\"data/11/1H4/im1H42/loc_ghk1nq_002.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
+    "question": "Cho tứ diện $ABCD$, gọi $M$ và $N$ lần lượt là trung điểm của $AC$ và $AD$. Đường thẳng $MN$ song song với đường nào?<br>",
     "options": [
       "$AB$",
       "$BC$",

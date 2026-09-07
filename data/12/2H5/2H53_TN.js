@@ -1741,7 +1741,7 @@ window.tracNghiem2H53 = [
   },
   {
     "id": "2H532TN146",
-    "question": "Trong không gian $Oxyz$ (đơn vị trên mỗi trục là km), một trạm thu phát sóng điện thoại di động được đặt ở vị trí $I(4; -3; 6)$. Sử dụng mặt cầu để mô tả ranh giới bên ngoài của vùng phủ sóng trong không gian, biết rằng trạm thu phát sóng đó thiết kế với bán kính phủ sóng là $4$\\,km. Người dùng điện thoại ở vị trí nào sau đây thì có thể sử dụng được dịch vụ của trạm này?",
+    "question": "Trong không gian $Oxyz$ (đơn vị trên mỗi trục là km), một trạm thu phát sóng điện thoại di động được đặt ở vị trí $I(4; -3; 6)$. Sử dụng mặt cầu để mô tả ranh giới bên ngoài của vùng phủ sóng trong không gian, biết rằng trạm thu phát sóng đó thiết kế với bán kính phủ sóng là $4$ km. Người dùng điện thoại ở vị trí nào sau đây thì có thể sử dụng được dịch vụ của trạm này?",
     "options": [
       "$A(6;2;-1)$",
       "$B(-4;1;3)$",
@@ -1749,7 +1749,7 @@ window.tracNghiem2H53 = [
       "$D(-2;-1;6)$"
     ],
     "answer": 2,
-    "explain": "Trạm được đặt tại $I(4;-3;6)$, bán kính phủ sóng là $4$\\,km. <br>  Ta có<br>  $IA = \\sqrt{(6-4)^2+(2+3)^2+(-1-6)^2} = \\sqrt{4+25+49} = \\sqrt{78} &gt; 4$ <br>  $IB = \\sqrt{(-4-4)^2+(1+3)^2+(3-6)^2} = \\sqrt{64+16+9} = \\sqrt{89} &gt; 4$ <br>  $IC = \\sqrt{(1-4)^2+(-2+3)^2+(5-6)^2} = \\sqrt{9+1+1} = \\sqrt{11} &lt; 4$ <br>  $ID = \\sqrt{(-2-4)^2+(-1+3)^2+(6-6)^2} = \\sqrt{36+4} = \\sqrt{40} &gt; 4$ <br>  Chỉ điểm $C$ nằm trong vùng phủ sóng."
+    "explain": "Trạm được đặt tại $I(4;-3;6)$, bán kính phủ sóng là $4$ km. <br>  Ta có<br>  $IA = \\sqrt{(6-4)^2+(2+3)^2+(-1-6)^2} = \\sqrt{4+25+49} = \\sqrt{78} &gt; 4$ <br>  $IB = \\sqrt{(-4-4)^2+(1+3)^2+(3-6)^2} = \\sqrt{64+16+9} = \\sqrt{89} &gt; 4$ <br>  $IC = \\sqrt{(1-4)^2+(-2+3)^2+(5-6)^2} = \\sqrt{9+1+1} = \\sqrt{11} &lt; 4$ <br>  $ID = \\sqrt{(-2-4)^2+(-1+3)^2+(6-6)^2} = \\sqrt{36+4} = \\sqrt{40} &gt; 4$ <br>  Chỉ điểm $C$ nằm trong vùng phủ sóng."
   },
   {
     "id": "2H532TN147",

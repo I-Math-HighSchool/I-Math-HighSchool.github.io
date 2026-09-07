@@ -335,7 +335,7 @@ window.dungSai2D42 = [
         "answer": false
       },
       {
-        "text": "Nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$\\,mg/l tại thời điểm $2$ phút sau khi tiêm",
+        "text": "Nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$ mg/l tại thời điểm $2$ phút sau khi tiêm",
         "answer": true
       },
       {
@@ -343,11 +343,11 @@ window.dungSai2D42 = [
         "answer": false
       },
       {
-        "text": "Nồng độ trung bình của thuốc $A$ (làm tròn đến hàng phần trăm) trong khoảng thời gian $30$ phút từ khi bắt đầu tiêm là $2{,}71$\\,mg/l",
+        "text": "Nồng độ trung bình của thuốc $A$ (làm tròn đến hàng phần trăm) trong khoảng thời gian $30$ phút từ khi bắt đầu tiêm là $2{,}71$ mg/l",
         "answer": true
       }
     ],
-    "explain": "<br>- <strong>Sai</strong>.<br>  Ta có $10$ ngày = $14\\,400$ phút.<br>  Ta tính $f(14\\,400)=f(14400)=\\dfrac{30 \\cdot 14\\,400}{14\\,400^2+4}\\approx 0{,}002083&gt;0{,}002$.<br>- <strong>Đúng</strong>.<br>  Xét hàm số $f(x)=\\dfrac{30x}{x^2+4}$ có $f'(x)=\\dfrac{30(-x^2+4)}{\\left(x^2+4\\right)^2}$.<br>  Ta có $f'(x)=0 \\Leftrightarrow -x^2+4=0 \\Leftrightarrow x=2 \\text{ hoặc } x=-2.$<br>  Do $x&gt;0$ nên ta nhận $x=2$, khi đó ta có bảng biến thiên sau  <br><img src=\"data/12/2D4/im2D42/loc3_2_TL_TN_THPT_Chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$\\,mg/l tại thời điểm $2$ phút sau khi tiêm.<br>- <strong>Sai</strong>.<br>  Xét $F(x)=10\\ln \\left(x^2+4\\right)$, ta tính đạo hàm  \\[  F'(x)=\\left[10\\ln (x^2+4)\\right]=\\dfrac{20x}{x^2+4} \\ne \\dfrac{30x}{x^2+4} = f(x).  \\]<br>- <strong>Đúng</strong>.<br>  Ta có $A=\\dfrac{1}{30-0}\\displaystyle\\int\\limits_{0}^{30} f(x) \\mathrm{\\,d}x \\approx 2{,}71$."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Ta có $10$ ngày = $14\\,400$ phút.<br>  Ta tính $f(14\\,400)=f(14400)=\\dfrac{30 \\cdot 14\\,400}{14\\,400^2+4}\\approx 0{,}002083&gt;0{,}002$.<br>- <strong>Đúng</strong>.<br>  Xét hàm số $f(x)=\\dfrac{30x}{x^2+4}$ có $f'(x)=\\dfrac{30(-x^2+4)}{\\left(x^2+4\\right)^2}$.<br>  Ta có $f'(x)=0 \\Leftrightarrow -x^2+4=0 \\Leftrightarrow x=2 \\text{ hoặc } x=-2.$<br>  Do $x&gt;0$ nên ta nhận $x=2$, khi đó ta có bảng biến thiên sau  <br><img src=\"data/12/2D4/im2D42/loc3_2_TL_TN_THPT_Chu_000.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Vậy nồng độ thuốc trong máu đạt giá trị lớn nhất là $7{,}5$ mg/l tại thời điểm $2$ phút sau khi tiêm.<br>- <strong>Sai</strong>.<br>  Xét $F(x)=10\\ln \\left(x^2+4\\right)$, ta tính đạo hàm  \\[  F'(x)=\\left[10\\ln (x^2+4)\\right]=\\dfrac{20x}{x^2+4} \\ne \\dfrac{30x}{x^2+4} = f(x).  \\]<br>- <strong>Đúng</strong>.<br>  Ta có $A=\\dfrac{1}{30-0}\\displaystyle\\int\\limits_{0}^{30} f(x) \\mathrm{\\,d}x \\approx 2{,}71$."
   },
   {
     "id": "2D422DS6",

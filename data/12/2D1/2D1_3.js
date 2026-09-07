@@ -56,7 +56,7 @@ window.dungSai2D11_2 = [
     "question": "Một hạt chuyển động trên một trục thẳng đứng chiều dương hướng lên trên sao cho tọa độ của hạt (đơn vị mét) tại thời điểm $t$ giây là $s=\\dfrac{2}{3}t^3-18t+5$, $t\\ge0$.",
     "subQuestions": [
       {
-        "text": "Quãng đường hạt đi được trong $6$ giây đầu tiên là $108$\\,m",
+        "text": "Quãng đường hạt đi được trong $6$ giây đầu tiên là $108$ m",
         "answer": true
       },
       {
@@ -64,7 +64,7 @@ window.dungSai2D11_2 = [
         "answer": false
       },
       {
-        "text": "Vận tốc của hạt theo thời gian $t$ là $v=2t^2-18t$\\,(m/s)",
+        "text": "Vận tốc của hạt theo thời gian $t$ là $v=2t^2-18t$ (m/s)",
         "answer": false
       },
       {
@@ -72,7 +72,7 @@ window.dungSai2D11_2 = [
         "answer": false
       }
     ],
-    "explain": "<br>- Ta có $s'(t)=2t^2-18$, $s'(t)=0\\Leftrightarrow t=3$. Bảng biến thiên của $s(t)$ như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Quãng đường hạt đi được trong $3$ giây đầu tiên là $\\left|s(3)-s(0)\\right|=|5-(-31)|=36$\\,m.<br>  Quãng đường hạt đi được trong $3$ giây tiếp theo là $\\left|s(6)-s(3)\\right|=|41-(-31)|=72$\\,m.<br>  Quãng đường hạt đi được trong $6$ giây đầu tiên là $S=36+72=108$\\,m<br>- Trong $3$ giây đầu tiên hạt chuyển động từ vị trí $s(0)=5$\\,m đến vị trí $s(3)=-31$\\,m nên hạt chuyển động xuống.<br>- Vận tốc của hạt theo thời gian $t$ là $v(t)=s'(t)=2t^2-18$\\,(m/s).<br>- Ta có $v(t)=0\\Leftrightarrow t=3$. Bảng biến thiên của $v(t)$ như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy trong $3$ giấy đầu tiên, hạt chuyển động chậm dần từ $18$\\,m/s xuống $0$\\,m/s."
+    "explain": "<br>- Ta có $s'(t)=2t^2-18$, $s'(t)=0\\Leftrightarrow t=3$. Bảng biến thiên của $s(t)$ như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_050.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Quãng đường hạt đi được trong $3$ giây đầu tiên là $\\left|s(3)-s(0)\\right|=|5-(-31)|=36$ m.<br>  Quãng đường hạt đi được trong $3$ giây tiếp theo là $\\left|s(6)-s(3)\\right|=|41-(-31)|=72$ m.<br>  Quãng đường hạt đi được trong $6$ giây đầu tiên là $S=36+72=108$ m<br>- Trong $3$ giây đầu tiên hạt chuyển động từ vị trí $s(0)=5$ m đến vị trí $s(3)=-31$ m nên hạt chuyển động xuống.<br>- Vận tốc của hạt theo thời gian $t$ là $v(t)=s'(t)=2t^2-18$ (m/s).<br>- Ta có $v(t)=0\\Leftrightarrow t=3$. Bảng biến thiên của $v(t)$ như hình vẽ bên dưới  <br><img src=\"data/12/2D1/im2D1/2D11_tikz_051.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy trong $3$ giấy đầu tiên, hạt chuyển động chậm dần từ $18$ m/s xuống $0$ m/s."
   },
   {
     "id": "2D111DS9",

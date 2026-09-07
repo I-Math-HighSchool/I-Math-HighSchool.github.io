@@ -116,13 +116,13 @@ window.tracNghiem1D11 = [
     "id": "1D111TN10",
     "question": "Trong các mệnh đề sau, mệnh đề nào là <strong>sai</strong>?",
     "options": [
-      "$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad",
-      "$250^\\circ = \\dfrac{25\\pi}{18}$\\,rad",
-      "$135^\\circ = \\dfrac{3\\pi}{4}$\\,rad",
-      "$300^\\circ = \\dfrac{5\\pi}{3}$\\,rad"
+      "$120^\\circ = \\dfrac{2\\pi}{9}$ rad",
+      "$250^\\circ = \\dfrac{25\\pi}{18}$ rad",
+      "$135^\\circ = \\dfrac{3\\pi}{4}$ rad",
+      "$300^\\circ = \\dfrac{5\\pi}{3}$ rad"
     ],
     "answer": 0,
-    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad”~ là mệnh đề sai."
+    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$ rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$ rad”~ là mệnh đề sai."
   },
   {
     "id": "1D112TN11",
@@ -210,7 +210,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D112TN18",
-    "question": "Góc có số đo $7\\pi$\\,(rad) khi đổi theo đơn vị độ là",
+    "question": "Góc có số đo $7\\pi$ (rad) khi đổi theo đơn vị độ là",
     "options": [
       "$\\left(\\dfrac{7\\pi}{180}\\right)^\\circ$",
       "$7\\pi^\\circ$",
@@ -218,7 +218,7 @@ window.tracNghiem1D11 = [
       "$1\\,260^\\circ$"
     ],
     "answer": 3,
-    "explain": "Góc có số đo $7\\pi$\\,(rad) khi đổi theo đơn vị độ là $a^\\circ=\\dfrac{7\\pi}{\\pi}\\cdot180^\\circ=1\\,260^\\circ$."
+    "explain": "Góc có số đo $7\\pi$ (rad) khi đổi theo đơn vị độ là $a^\\circ=\\dfrac{7\\pi}{\\pi}\\cdot180^\\circ=1\\,260^\\circ$."
   },
   {
     "id": "1D115TN19",
@@ -438,7 +438,7 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D114TN37",
-    "question": "Một đường tròn có bán kính bằng $20$\\,cm. Cung trên đường tròn đó có số đo là $269^\\circ$ thì có độ dài bằng",
+    "question": "Một đường tròn có bán kính bằng $20$ cm. Cung trên đường tròn đó có số đo là $269^\\circ$ thì có độ dài bằng",
     "options": [
       "$\\dfrac{2\\,959\\pi}{90}$",
       "$\\dfrac{269\\pi}{9}$",
@@ -786,15 +786,15 @@ window.tracNghiem1D11 = [
   },
   {
     "id": "1D114TN66",
-    "question": "Trên đường tròn đường kính $10$\\,cm, một cung tròn có số đo $2$\\,rad thì có độ dài là",
+    "question": "Trên đường tròn đường kính $10$ cm, một cung tròn có số đo $2$ rad thì có độ dài là",
     "options": [
-      "$10$\\,cm",
-      "$20$\\,cm",
-      "$2$\\,cm",
-      "$5$\\,cm"
+      "$10$ cm",
+      "$20$ cm",
+      "$2$ cm",
+      "$5$ cm"
     ],
     "answer": 0,
-    "explain": "Bán kính của đường tròn là $R = \\dfrac{10}{2}=5$ (cm).<br>  Độ dài cung tròn có số đo $2$\\,rad là $\\ell=R\\alpha = 5 \\cdot 2 = 10$ (cm)."
+    "explain": "Bán kính của đường tròn là $R = \\dfrac{10}{2}=5$ (cm).<br>  Độ dài cung tròn có số đo $2$ rad là $\\ell=R\\alpha = 5 \\cdot 2 = 10$ (cm)."
   },
   {
     "id": "1D112TN67",
@@ -860,13 +860,13 @@ window.tracNghiem1D11 = [
     "id": "1D111TN46",
     "question": "Trong các mệnh đề sau, mệnh đề nào là <strong>sai</strong>?",
     "options": [
-      "$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad",
-      "$250^\\circ = \\dfrac{25\\pi}{18}$\\,rad",
-      "$135^\\circ = \\dfrac{3\\pi}{4}$\\,rad",
-      "$300^\\circ = \\dfrac{5\\pi}{3}$\\,rad"
+      "$120^\\circ = \\dfrac{2\\pi}{9}$ rad",
+      "$250^\\circ = \\dfrac{25\\pi}{18}$ rad",
+      "$135^\\circ = \\dfrac{3\\pi}{4}$ rad",
+      "$300^\\circ = \\dfrac{5\\pi}{3}$ rad"
     ],
     "answer": 0,
-    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$\\,rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$\\,rad”~ là mệnh đề sai."
+    "explain": "Vì $120^\\circ = \\dfrac{2\\pi}{3}$ rad nên mệnh đề “$120^\\circ = \\dfrac{2\\pi}{9}$ rad”~ là mệnh đề sai."
   },
   {
     "id": "1D111TN44",

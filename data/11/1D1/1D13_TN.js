@@ -681,7 +681,7 @@ window.tracNghiem1D13 = [
     "id": "1D135TN57",
     "question": "Cho $\\tan \\alpha=2$. Tính $\\tan\\left(\\alpha -\\dfrac{\\pi}{4}\\right)$.",
     "options": [
-      "$\\True \\dfrac{1}{3}$",
+      "$\\dfrac{1}{3}$",
       "$-\\dfrac{1}{3}$",
       "$1$",
       "$\\dfrac{2}{3}$"

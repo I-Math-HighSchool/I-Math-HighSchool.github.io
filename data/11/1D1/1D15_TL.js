@@ -7,7 +7,7 @@
 window.traLoiNgan1D15 = [
   {
     "id": "1D156TL1",
-    "question": "Vận tốc của một con lắc đơn $v$\\,(cm/s) được cho bởi công thức $v(t)=2\\sin\\left(2t+\\dfrac{\\pi}{6}\\right)$. Lần đầu tiên vận tốc của con lắc đơn bằng $2$\\,(cm/s) là tại thời điểm $t=\\dfrac{\\pi}{a}$\\,(s). Hãy tìm $a$.",
+    "question": "Vận tốc của một con lắc đơn $v$ (cm/s) được cho bởi công thức $v(t)=2\\sin\\left(2t+\\dfrac{\\pi}{6}\\right)$. Lần đầu tiên vận tốc của con lắc đơn bằng $2$ (cm/s) là tại thời điểm $t=\\dfrac{\\pi}{a}$ (s). Hãy tìm $a$.",
     "answer": "6",
     "explain": "Ta có $2\\sin\\left(2t+\\dfrac{\\pi}{6}\\right) = 2\\Leftrightarrow \\sin\\left(2t+\\dfrac{\\pi}{6}\\right) = 1\\Leftrightarrow 2t+\\dfrac{\\pi}{6}=\\dfrac{\\pi}{2}+k2\\pi\\Leftrightarrow t=\\dfrac{\\pi}{6}+k\\dfrac{2\\pi}{3}$, $k\\in\\mathbb{Z}$.<br>  Lần đầu tiên vận tốc của con lắc đơn bằng $2$cm/s, ta cần tìm giá trị nhỏ nhất của $t$ lớn hơn $0$. Điều này xảy ra khi $k=0$ hay $t=\\dfrac{\\pi}{6}$.<br>  Vậy $a=6$."
   },

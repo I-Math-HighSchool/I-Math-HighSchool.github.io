@@ -210,7 +210,7 @@ window.dungSai2H22 = [
         "answer": false
       }
     ],
-    "explain": "<br>- <strong>Sai</strong>.<br>  Theo giả thiết, ra đa ở vị trí có toạ độ $(0;0;0{,}08)$.<br>- <strong>Đúng</strong>.<br>  Vì điểm $A(300;200;10)$.<br>- <strong>Sai</strong>.<br>  Khoảng cách từ máy bay đến ra đa là  $\\sqrt{(300-0)^2+(200-0)^2+(10-0{,}08)^2} \\approx 360{,}69$\\,(km).<br>- <strong>Sai</strong>.<br>  Vì $360{,}69&lt; 500$ nên ra đa của trung tâm kiểm soát không lưu có phát hiện được máy bay tại vị trí $A$."
+    "explain": "<br>- <strong>Sai</strong>.<br>  Theo giả thiết, ra đa ở vị trí có toạ độ $(0;0;0{,}08)$.<br>- <strong>Đúng</strong>.<br>  Vì điểm $A(300;200;10)$.<br>- <strong>Sai</strong>.<br>  Khoảng cách từ máy bay đến ra đa là  $\\sqrt{(300-0)^2+(200-0)^2+(10-0{,}08)^2} \\approx 360{,}69$ (km).<br>- <strong>Sai</strong>.<br>  Vì $360{,}69&lt; 500$ nên ra đa của trung tâm kiểm soát không lưu có phát hiện được máy bay tại vị trí $A$."
   },
   {
     "id": "2H223DS8",
@@ -953,7 +953,7 @@ window.dungSai2H22 = [
     "question": "Hình vẽ sau mô tả vị trí của máy bay vào thời điểm $9$ giờ $30$ phút. Biết các đơn vị trên hình tính theo đơn vị km.  <br><img src=\"data/12/2H2/im2H22/loc8_TT_THPT_AnDuong__011.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "subQuestions": [
       {
-        "text": "Phi công để máy bay ở chế độ tự động với vận tốc theo hướng đông là $750$\\,km/h, độ cao không đổi. Biết rằng gió thỏi theo hướng đông với vận tốc $10$\\,m/s. Giả sử vận tốc và hướng gió không đổi thì lúc $10$ giờ $30$ phút máy bay ở tọa độ $(150;1\\,086;9)$",
+        "text": "Phi công để máy bay ở chế độ tự động với vận tốc theo hướng đông là $750$ km/h, độ cao không đổi. Biết rằng gió thỏi theo hướng đông với vận tốc $10$ m/s. Giả sử vận tốc và hướng gió không đổi thì lúc $10$ giờ $30$ phút máy bay ở tọa độ $(150;1\\,086;9)$",
         "answer": true
       },
       {
@@ -961,15 +961,15 @@ window.dungSai2H22 = [
         "answer": false
       },
       {
-        "text": "Vào thời điểm $9$ giờ $30$ phút máy bay ở độ cao $9$\\,km",
+        "text": "Vào thời điểm $9$ giờ $30$ phút máy bay ở độ cao $9$ km",
         "answer": true
       },
       {
-        "text": "Sau khi bay đến vị trí lúc $10$ giờ $30$ phút thì máy bay bay ngược lại với vận tốc $800$\\,km/h với độ cao không đổi, biết lúc đó trời lặng gió thì lúc $11$ giờ máy bay ở tọa độ $(686;150;9)$",
+        "text": "Sau khi bay đến vị trí lúc $10$ giờ $30$ phút thì máy bay bay ngược lại với vận tốc $800$ km/h với độ cao không đổi, biết lúc đó trời lặng gió thì lúc $11$ giờ máy bay ở tọa độ $(686;150;9)$",
         "answer": false
       }
     ],
-    "explain": "<br>- <strong>Đúng</strong>.<br>  Ta có $v=10\\,m/s=10\\cdot3,6=36\\,km/h$.<br>  Lại có tọa độ máy bay theo hình vẽ là $(150;300;9)$.<br>  Vì cả máy bay và gió đều cùng hướng Đóng nên vận tốc tổng là $v=750+36=786$\\,km/h.<br>  Quãng đường máy bay bay từ $9$ giờ $30$ phút đến $10$ giờ $30$ phút là $s=786\\cdot 1=786$\\,km.<br>  Khi đó máy bay đã di chuyển được thêm được theo hướng Đông là $300+786=1\\,086$\\,km.<br>  Vậy tọa độ máy bay lúc $10$ giờ $30$ phút là $(150;1\\,086;9)$<br>- <strong>Sai</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay đang ở tọa độ $(150;300;9)$.<br>- <strong>Đúng</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay vào lúc $9$ giờ $30$ phút đang ở độ cao $9$\\,km.<br>- <strong>Sai</strong>.<br>  Quãng đường máy bay quay ngược lại từ $10$ giờ $30$ phút đến $11$ giờ là $s=v\\cdot t=800\\cdot0{,}5=400$\\,km.<br>  Vì lúc đó trời lặng gió và máy bay ở độ cao không đổi nên vị trí máy bay quay người lại là $1\\,086-400=686$\\,km.<br>  Vậy tọa độ của máy bay lúc $11$ giờ là $(150;686;9)$."
+    "explain": "<br>- <strong>Đúng</strong>.<br>  Ta có $v=10\\,m/s=10\\cdot3,6=36\\,km/h$.<br>  Lại có tọa độ máy bay theo hình vẽ là $(150;300;9)$.<br>  Vì cả máy bay và gió đều cùng hướng Đóng nên vận tốc tổng là $v=750+36=786$ km/h.<br>  Quãng đường máy bay bay từ $9$ giờ $30$ phút đến $10$ giờ $30$ phút là $s=786\\cdot 1=786$ km.<br>  Khi đó máy bay đã di chuyển được thêm được theo hướng Đông là $300+786=1\\,086$ km.<br>  Vậy tọa độ máy bay lúc $10$ giờ $30$ phút là $(150;1\\,086;9)$<br>- <strong>Sai</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay đang ở tọa độ $(150;300;9)$.<br>- <strong>Đúng</strong>.<br>  Dựa vào hình mô tả, ta thấy máy bay vào lúc $9$ giờ $30$ phút đang ở độ cao $9$ km.<br>- <strong>Sai</strong>.<br>  Quãng đường máy bay quay ngược lại từ $10$ giờ $30$ phút đến $11$ giờ là $s=v\\cdot t=800\\cdot0{,}5=400$ km.<br>  Vì lúc đó trời lặng gió và máy bay ở độ cao không đổi nên vị trí máy bay quay người lại là $1\\,086-400=686$ km.<br>  Vậy tọa độ của máy bay lúc $11$ giờ là $(150;686;9)$."
   },
   {
     "id": "2H223DS42",

@@ -13,6 +13,6 @@ window.traLoiNgan1D73 = [
     "id": "1D733TL2",
     "question": "Một chất điểm chuyển động có phương trình $s(t)=-t^3+3t^2+t+4$, trong đó $t$ được tính bằng giây và $s$ được tính bằng mét. Tính gia tốc của chuyển động tại thời điểm vận tốc đạt giá trị lớn nhất.",
     "answer": "0",
-    "explain": "Vận tốc tức thời của chuyển động tại thời điểm $t$ là  \\[v(t)=s'(t)=-3t^2+6t+1=-3(t-1)^2+4\\le4.\\]  Vậy vận tốc của chuyển động đạt giá trị lớn nhất bằng $4$\\,m/s tại thời điểm $t=1$\\,(giây).<br>  Gia tốc của chuyển động tại thời điểm $t$ là $a(t)=v'(t)=-6t+6$.<br>  Gia tốc của chuyển động tại thời điểm vận tốc đạt giá trị lớn nhất là $a(1)=-6\\cdot1+6=0$\\,m/s$^2$."
+    "explain": "Vận tốc tức thời của chuyển động tại thời điểm $t$ là  \\[v(t)=s'(t)=-3t^2+6t+1=-3(t-1)^2+4\\le4.\\]  Vậy vận tốc của chuyển động đạt giá trị lớn nhất bằng $4$ m/s tại thời điểm $t=1$ (giây).<br>  Gia tốc của chuyển động tại thời điểm $t$ là $a(t)=v'(t)=-6t+6$.<br>  Gia tốc của chuyển động tại thời điểm vận tốc đạt giá trị lớn nhất là $a(1)=-6\\cdot1+6=0$ m/s$^2$."
   }
 ];
