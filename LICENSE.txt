@@ -1,4 +1,4 @@
-I-MATH-HIGHSCHOOL — Ngân hàng đề thi Toán THPT
+Hệ thống luyện thi THPTQG — Ngân hàng đề thi Toán THPT
 Copyright (c) 2026 ThS. Trương Trần Thu Thủy. Bảo lưu mọi quyền chưa được
 cấp phép rõ ràng dưới đây.
 
@@ -21,7 +21,7 @@ Tóm tắt (bản đầy đủ, có giá trị pháp lý, xem tại các liên k
 
   Với điều kiện:
     - Ghi nhận công lao (Attribution) — Phải ghi rõ nguồn là
-      "I-MATH-HIGHSCHOOL — ThS. Trương Trần Thu Thủy" kèm liên kết đến
+      "Hệ thống luyện thi THPTQG — ThS. Trương Trần Thu Thủy" kèm liên kết đến
       trang gốc, và không được ngụ ý rằng tác giả gốc chứng thực/ủng hộ
       việc sử dụng lại của bạn.
     - Phi thương mại (NonCommercial) — KHÔNG được sử dụng nội dung này
