@@ -38,7 +38,7 @@ async function napToanBoNganHangCauHoi() {
         if (btnGenerate) btnGenerate.disabled = false;
     }
 }
-napToanBoNganHangCauHoi();
+napToanBoNganHangCauHoi().then(renderXemLaiBaiLamNeuCo);
 
 // =========================================================================
 // 1. DANH MỤC CHƯƠNG THEO TỪNG KHỐI LỚP (Mã chuẩn 4 ký tự đồng bộ QuyUocID)
@@ -272,10 +272,25 @@ function layKhoCauHoiTheoMaID(maChuong) {
     };
 }
 
+/**
+ * Tim chinh xac 1 cau hoi theo ID day du (vd "1D161TN8"), dung cho tinh
+ * nang "Xem lai bai lam": biet truoc loai cau hoi (tracNghiem/dungSai/
+ * traLoiNgan) va ID, tra ve dung object cau hoi hien tai trong ngan hang
+ * (luon la ban moi nhat, neu cau hoi da duoc sua sau nay thi xem lai se
+ * hien ban da sua, khong phai ban cu luc nop bai).
+ */
+function timCauHoiTheoID(loai, id) {
+    dongBoKhoDuLieuToanCuc();
+    const maChuong = id.substring(0, 4);
+    const ds = (window.IKhoCauHoi[loai] && window.IKhoCauHoi[loai][maChuong]) || [];
+    return ds.find(q => q.id === id) || null;
+}
+
 // KHỞI TẠO BIẾN TRẠNG THÁI HỆ THỐNG
 let deThiHienTai = { tracNghiem: [], dungSai: [], traLoiNgan: [] };
 let thoiGianConLai = 90 * 60; 
 let boDemThoiGian = null;
+let thoiDiemBatDauLamBai = null; // Luu Date.now() luc bat dau lam de tinh thoi gian hoan thanh khi nop bai
 
 function tronMang(array) { return [...array].sort(() => 0.5 - Math.random()); }
 
@@ -292,6 +307,7 @@ capNhatDanhSachChuong();
 
 function startTimer() {
     thoiGianConLai = 90 * 60; 
+    thoiDiemBatDauLamBai = Date.now();
     const timerElement = document.getElementById('exam-timer');
     timerElement.style.display = 'block';
     clearInterval(boDemThoiGian);
@@ -661,6 +677,9 @@ function nopBaiVaChamDiem() {
     document.getElementById('exam-timer').style.display = 'none';
 
     let tongDiem = 0;
+    // Ghi lai chinh xac hoc sinh da chon gi cho tung cau, de sau nay dung
+    // cho link "Xem lai bai lam" (dung lai dung bo de + dap an da chon).
+    const duLieuXemLai = { tn: [], ds: [], tl: [] };
 
     // Chấm điểm Phần I
     deThiHienTai.tracNghiem.forEach((q, idx) => {
@@ -679,14 +698,17 @@ function nopBaiVaChamDiem() {
             const wrongWrapper = selected.closest('.custom-option-wrapper');
             if (wrongWrapper) wrongWrapper.classList.add('option-wrong');
         }
+        duLieuXemLai.tn.push({ id: q.id, chon: selected ? parseInt(selected.value) : null });
     });
 
     // Chấm điểm Phần II
     deThiHienTai.dungSai.forEach((q, idx) => {
         let soY_Dung = 0;
+        const chonMangDS = [];
         q.subQuestions.forEach((sub, sIdx) => {
             let selected = document.querySelector(`input[name="ds_${idx}_${sIdx}"]:checked`);
             let userAns = selected ? (selected.value === "true") : null;
+            chonMangDS.push(userAns);
             if (userAns === sub.answer) soY_Dung++;
 
             // Tô màu: ô đáp án đúng (Đúng/Sai) luôn tô xanh, ô học sinh
@@ -702,6 +724,7 @@ function nopBaiVaChamDiem() {
                 if (wrongWrap) wrongWrap.classList.add('ds-wrong-pick');
             }
         });
+        duLieuXemLai.ds.push({ id: q.id, chon: chonMangDS });
         
         if (soY_Dung === 1) tongDiem += 0.1;
         else if (soY_Dung === 2) tongDiem += 0.25;
@@ -712,8 +735,8 @@ function nopBaiVaChamDiem() {
     // Chấm điểm Phần III
     deThiHienTai.traLoiNgan.forEach((q, idx) => {
         let inputGroup = document.querySelector(`.raw-input-group[data-qidx="${idx}"]`);
+        let fullUserAnswer = "";
         if (inputGroup) {
-            let fullUserAnswer = "";
             const boxes = inputGroup.querySelectorAll('.short-box');
             boxes.forEach(input => {
                 if (input.value.trim() !== "") {
@@ -739,6 +762,7 @@ function nopBaiVaChamDiem() {
                 ketQuaIcon.classList.add(dungRoi ? 'correct' : 'wrong');
             }
         }
+        duLieuXemLai.tl.push({ id: q.id, chon: fullUserAnswer });
     });
 
     const resultBox = document.getElementById('result-box');
@@ -763,12 +787,36 @@ function nopBaiVaChamDiem() {
     const FORM_ENTRY_HOTEN = "entry.221773696";
     const FORM_ENTRY_CHUONG = "entry.2054750297";
     const FORM_ENTRY_DIEM = "entry.496918271";
+    const FORM_ENTRY_THOIGIAN = "entry.737917606";
+    const FORM_ENTRY_LINK = "entry.1632202624";
+
+    // Tinh thoi gian lam bai thuc te = luc nop bai - luc bam "Phat de tinh
+    // gio". Neu vi ly do nao do khong ghi nhan duoc moc bat dau (vi du nop
+    // bai ma chua tung bam Phat de - khong xay ra trong luong binh thuong)
+    // thi de trong thay vi hien so sai.
+    const thoiGianLamBaiText = thoiDiemBatDauLamBai
+        ? (() => {
+            const tongGiay = Math.max(0, Math.round((Date.now() - thoiDiemBatDauLamBai) / 1000));
+            const phut = Math.floor(tongGiay / 60);
+            const giay = tongGiay % 60;
+            return `${phut} phút ${giay} giây`;
+          })()
+        : "";
+
+    // Link xem lai bai lam: ma hoa gon (base64) danh sach ID cau hoi + dap
+    // an hoc sinh da chon, KHONG chua noi dung cau hoi (da co san trong
+    // ngan hang cau hoi tren trang, khong can luu lai). Bam link se dung
+    // lai dung bo de + to mau dung/sai giong luc vua nop bai.
+    const linkXemLaiBaiLam = window.location.origin + window.location.pathname
+        + '?xem=' + encodeURIComponent(maHoaXemLaiBaiLam(duLieuXemLai));
 
     if (FORM_ID) {
         const duLieuGui = new URLSearchParams();
         duLieuGui.append(FORM_ENTRY_HOTEN, hoTenHocSinh);
         duLieuGui.append(FORM_ENTRY_CHUONG, chuongHoc);
         duLieuGui.append(FORM_ENTRY_DIEM, tongDiem.toFixed(2) + "/10");
+        duLieuGui.append(FORM_ENTRY_THOIGIAN, thoiGianLamBaiText);
+        duLieuGui.append(FORM_ENTRY_LINK, linkXemLaiBaiLam);
 
         fetch(`https://docs.google.com/forms/d/e/${FORM_ID}/formResponse`, {
             method: "POST",
@@ -781,3 +829,159 @@ function nopBaiVaChamDiem() {
 }
 
 document.getElementById('btn-submit').addEventListener('click', nopBaiVaChamDiem);
+
+// =========================================================================
+// 6. TINH NANG "XEM LAI BAI LAM" QUA LINK (?xem=...)
+// Khong luu lai noi dung cau hoi (da co san trong ngan hang cau hoi), chi
+// luu ID cau hoi + dap an hoc sinh da chon, ma hoa gon bang base64. Khi mo
+// link co ?xem=..., trang se dung lai dung bo de cu (tra ID tu ngan hang
+// hien tai) va to mau dung/sai y het luc vua nop bai, nhung KHONG gui lai
+// len Form va KHONG tinh gio (chi de xem lai, khong lam lai duoc).
+// =========================================================================
+function maHoaXemLaiBaiLam(duLieuXemLai) {
+    // Dung mang khong ten truong de chuoi ma hoa gon hon (bot ky tu):
+    // t = [[id, chiSoDaChonHoacNull], ...] (TN)
+    // d = [[id, [dung/sai/null cho tung y a,b,c,d]], ...] (DS)
+    // l = [[id, chuoiDapAnDaGo], ...] (TLN)
+    const nen = {
+        t: duLieuXemLai.tn.map(x => [x.id, x.chon]),
+        d: duLieuXemLai.ds.map(x => [x.id, x.chon.map(b => b === null ? null : (b ? 1 : 0))]),
+        l: duLieuXemLai.tl.map(x => [x.id, x.chon])
+    };
+    const json = JSON.stringify(nen);
+    // Bao boc qua encodeURIComponent/unescape truoc khi btoa de an toan voi
+    // moi ky tu Unicode (vi du dap an co dau), tranh loi "characters out of
+    // range" cua btoa voi chuoi khong thuan ASCII.
+    return btoa(unescape(encodeURIComponent(json)));
+}
+
+function giaiMaXemLaiBaiLam(maBase64) {
+    const json = decodeURIComponent(escape(atob(maBase64)));
+    const nen = JSON.parse(json);
+    return {
+        tn: (nen.t || []).map(([id, chon]) => ({ id, chon })),
+        ds: (nen.d || []).map(([id, chon]) => ({ id, chon: (chon || []).map(b => b === null ? null : !!b) })),
+        tl: (nen.l || []).map(([id, chon]) => ({ id, chon }))
+    };
+}
+
+function renderXemLaiBaiLamNeuCo() {
+    const thamSoUrl = new URLSearchParams(window.location.search);
+    const maXemLai = thamSoUrl.get('xem');
+    if (!maXemLai) return; // Khong phai link xem lai -> khong lam gi ca
+
+    let duLieuXemLai;
+    try {
+        duLieuXemLai = giaiMaXemLaiBaiLam(maXemLai);
+    } catch (e) {
+        console.error('Khong doc duoc du lieu xem lai bai lam:', e);
+        alert('⚠️ Link xem lại bài làm không hợp lệ hoặc đã hỏng.');
+        return;
+    }
+
+    const deThi = {
+        tracNghiem: duLieuXemLai.tn.map(x => timCauHoiTheoID('tracNghiem', x.id)).filter(Boolean),
+        dungSai: duLieuXemLai.ds.map(x => timCauHoiTheoID('dungSai', x.id)).filter(Boolean),
+        traLoiNgan: duLieuXemLai.tl.map(x => timCauHoiTheoID('traLoiNgan', x.id)).filter(Boolean)
+    };
+
+    if (deThi.tracNghiem.length === 0 && deThi.dungSai.length === 0 && deThi.traLoiNgan.length === 0) {
+        alert('⚠️ Không tìm thấy câu hỏi để xem lại (có thể ngân hàng câu hỏi đã thay đổi mã câu).');
+        return;
+    }
+
+    deThiHienTai = deThi;
+    renderQuiz(deThi);
+
+    // Banner bao hieu day la che do xem lai, khong phai bai thi that
+    const container = document.getElementById('quiz-content');
+    const banner = document.createElement('div');
+    banner.className = 'alert alert-info text-center fw-bold';
+    banner.style.marginBottom = '16px';
+    banner.innerHTML = '📋 Đang xem lại bài làm cũ — không tính giờ, không nộp lại được.';
+    container.prepend(banner);
+
+    document.getElementById('exam-timer').style.display = 'none';
+    document.getElementById('btn-submit').classList.add('d-none');
+
+    let tongDiem = 0;
+
+    deThi.tracNghiem.forEach((q, idx) => {
+        const banGhi = duLieuXemLai.tn[idx] || {};
+        const chon = (banGhi.chon === undefined) ? null : banGhi.chon;
+        if (chon !== null) {
+            const radio = document.getElementById(`tn_${idx}_${chon}`);
+            if (radio) radio.checked = true;
+        }
+        if (chon === q.answer) tongDiem += 0.25;
+        const correctInput = document.getElementById(`tn_${idx}_${q.answer}`);
+        if (correctInput) {
+            const correctWrapper = correctInput.closest('.custom-option-wrapper');
+            if (correctWrapper) correctWrapper.classList.add('option-correct');
+        }
+        if (chon !== null && chon !== q.answer) {
+            const chonInput = document.getElementById(`tn_${idx}_${chon}`);
+            const wrongWrapper = chonInput ? chonInput.closest('.custom-option-wrapper') : null;
+            if (wrongWrapper) wrongWrapper.classList.add('option-wrong');
+        }
+    });
+
+    deThi.dungSai.forEach((q, idx) => {
+        const banGhi = duLieuXemLai.ds[idx] || {};
+        const chonMang = banGhi.chon || [];
+        let soY_Dung = 0;
+        q.subQuestions.forEach((sub, sIdx) => {
+            const userAns = (chonMang[sIdx] === undefined) ? null : chonMang[sIdx];
+            if (userAns !== null) {
+                const radio = document.getElementById(`ds_${idx}_${sIdx}_${userAns ? 'D' : 'S'}`);
+                if (radio) radio.checked = true;
+            }
+            if (userAns === sub.answer) soY_Dung++;
+            const correctId = `ds_${idx}_${sIdx}_${sub.answer ? 'D' : 'S'}`;
+            const correctInput = document.getElementById(correctId);
+            if (correctInput) {
+                const correctWrap = correctInput.closest('.form-check');
+                if (correctWrap) correctWrap.classList.add('ds-correct-pick');
+            }
+            if (userAns !== null && userAns !== sub.answer) {
+                const wrongId = `ds_${idx}_${sIdx}_${userAns ? 'D' : 'S'}`;
+                const wrongInput = document.getElementById(wrongId);
+                const wrongWrap = wrongInput ? wrongInput.closest('.form-check') : null;
+                if (wrongWrap) wrongWrap.classList.add('ds-wrong-pick');
+            }
+        });
+        if (soY_Dung === 1) tongDiem += 0.1;
+        else if (soY_Dung === 2) tongDiem += 0.25;
+        else if (soY_Dung === 3) tongDiem += 0.5;
+        else if (soY_Dung === 4) tongDiem += 1.0;
+    });
+
+    deThi.traLoiNgan.forEach((q, idx) => {
+        const banGhi = duLieuXemLai.tl[idx] || {};
+        const dapAnHocSinh = banGhi.chon || "";
+        const inputGroup = document.querySelector(`.raw-input-group[data-qidx="${idx}"]`);
+        if (inputGroup) {
+            const boxes = inputGroup.querySelectorAll('.short-box');
+            boxes.forEach((input, iIdx) => {
+                input.value = dapAnHocSinh[iIdx] || "";
+                input.disabled = true;
+            });
+            const dungRoi = dapAnHocSinh === q.answer.trim();
+            if (dungRoi) tongDiem += 0.5;
+            boxes.forEach((input) => input.classList.add(dungRoi ? 'tl-correct' : 'tl-wrong'));
+            const ketQuaIcon = inputGroup.querySelector('.tl-result-icon');
+            if (ketQuaIcon) {
+                ketQuaIcon.innerHTML = dungRoi
+                    ? '<i class="fa-solid fa-circle-check"></i>'
+                    : '<i class="fa-solid fa-circle-xmark"></i>';
+                ketQuaIcon.classList.add(dungRoi ? 'correct' : 'wrong');
+            }
+        }
+    });
+
+    const resultBox = document.getElementById('result-box');
+    resultBox.innerHTML = `📋 Xem lại bài làm cũ<br>Tổng điểm: <span style="font-size:1.6rem; color:#ef4444;"><strong>${tongDiem.toFixed(2)}</strong></span> / 10 điểm!`;
+    resultBox.classList.remove('d-none');
+    document.querySelectorAll('.explain-box').forEach(box => box.style.display = 'block');
+    resultBox.scrollIntoView({ behavior: 'smooth' });
+}
