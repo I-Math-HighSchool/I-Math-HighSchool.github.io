@@ -24,7 +24,7 @@ window.traLoiNgan2D62 = [
   {
     "id": "2D622TL4",
     "question": "Một hộp chứa $10$ viên bi xanh và $5$ viên bi đỏ. Bạn An lấy ra ngẫu nhiên $1$ viên bi từ hộp, xem màu, rồi bỏ ra ngoài. Nếu viên bi An lấy ra có màu xanh, bạn Bình sẽ lấy ra ngẫu nhiên $2$ viên bi từ hộp; còn nếu viên bi An lấy ra có màu đỏ, bạn Bình sẽ lấy ra ngẫu nhiên $3$ viên bi từ hộp. Tính xác suất để An lấy được viên bi màu xanh, biết rằng tất cả các viên bi được hai bạn chọn ra đều có đủ cả hai màu.",
-    "answer": "0.55",
+    "answer": "0,55",
     "explain": "Giải bằng sơ đồ cây."
   },
   {
@@ -54,7 +54,7 @@ window.traLoiNgan2D62 = [
   {
     "id": "2D622TL9",
     "question": "Nhân dịp kỷ niệm $50$ năm ngày thành lập trường, các học sinh lựa chọn tham gia thi đấu thể thao hoặc biểu diễn văn nghệ. Lớp 12A có $60\\%$ số học sinh tham gia thi đấu thể thao và còn lại $40\\%$ số học sinh tham gia biểu diễn văn nghệ. Biết rằng các bạn nữ đều tham gia biểu diễn văn nghệ. Trong số các bạn nam có $20\\%$ tham gia văn nghệ và $80\\%$ tham gia thi đấu thể thao. Chọn ngẫu nhiên 1 học sinh trong lớp. Biết rằng học sinh này tham gia biểu diễn văn nghệ, xác suất để học sinh này là nữ là bao nhiêu phần trăm?",
-    "answer": "62.5",
+    "answer": "62,5",
     "explain": "Gọi xác suất chọn được một học sinh nam trong lớp là $\\mathrm{P}(A)=a$. <br>  Vậy xác suất chọn được một học sinh nữ trong lớp là $\\mathrm{P}\\left(\\overline{A}\\right)=1-a$. <br>  Gọi $B$ là biến cố “ Học sinh được chọn tham gia thi đấu thể thao”. <br>  Vậy $\\overline{B}$ là biến cố “ Học sinh được chọn tham gia biểu diễn văn nghệ”. <br>  Theo đề bài, ta có $\\mathrm{P}(B|A)=0{,}8$, $\\mathrm{P}(\\overline{B}|A)=0{,}2$, $\\mathrm{P}(B|\\overline{A})=0$, $\\mathrm{P}(\\overline{B}|\\overline{A})=1$. <br>  Lập sơ đồ cây xác suất  <br><img src=\"data/12/2D5/im2H52/dlts_12_DLTS36_017.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Ta có $\\mathrm{P}(B)=0{,}6$. Áp dụng công thức xác suất toàn phần ta có  $\\mathrm{P}(B)=\\mathrm{P}(A)\\cdot \\mathrm{P}\\left(B\\mid A\\right)+\\mathrm{P}\\left(\\overline{A}\\right)+\\mathrm{P}\\left(B\\mid \\overline{A}\\right)\\Leftrightarrow 0{,}6=0{,}8a+0(1-a)\\Leftrightarrow a=0{,}75.$  Vậy $\\mathrm{P}(A)=0{,}75$ và $\\mathrm{P}\\left(\\overline{A}\\right)=0{,}25$. <br>  Yêu cầu bài toán là tính xác suất $\\mathrm{P}\\left(\\overline{A}\\mid\\overline{B}\\right)$. <br>  Áp dụng công thức xác suất Bayes, ta có  $\\mathrm{P}\\left(\\overline{A}\\mid\\overline{B}\\right)=\\dfrac{\\mathrm{P}\\left(\\overline{B}\\mid\\overline{A}\\right)\\cdot\\mathrm{P}\\left(\\overline{A}\\right)}{\\mathrm{P}\\left(\\overline{B}\\right)}=\\dfrac{1\\cdot 0{,}25}{1-0{,}6}=0{,}625.$  Vậy xác suất chọn được một bạn nữ biết rằng bạn đó tham gia văn nghệ là $62{,}5\\%$."
   },
   {

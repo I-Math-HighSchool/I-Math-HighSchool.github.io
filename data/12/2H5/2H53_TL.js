@@ -2,19 +2,19 @@ window.traLoiNgan2H53 = [
   {
     "id": "2H533TL1",
     "question": "Cho $A(4;0;2)$, $B(4;5;8)$, $C(5;5;4)$, $D(7;1;16)$; vị trí $M(a; b; c)$ thỏa mãn $MA = 3$, $MB = 6$, $MC = 5$, $MD = 13$. Khoảng cách từ điểm $K$ đến điểm $O$ bằng bao nhiêu? (Kết quả làm tròn đến hàng phần trăm)",
-    "answer": "4.58",
+    "answer": "4,58",
     "explain": "Giải ra điểm $M(2;1;4) \\Rightarrow OM=\\sqrt{2^2+1^2+4^2} = \\sqrt{21} \\approx 4,58$."
   },
   {
     "id": "2H533TL2",
     "question": "Cho $M(2;8;8)$, $N(2;3;2)$, $P(5;4;16)$, $Q(3;8;4)$; vị trí $K(a; b; c)$ thỏa mãn   $KM = 6$, $KN = 3$, $KP = 13$, $KQ = 5$. Khoảng cách từ điểm $K$ đến điểm $O$ bằng bao nhiêu? (Kết quả làm tròn đến hàng phần trăm)",
-    "answer": "5.66",
-    "explain": "Giải ra điểm $K(0;4;4) \\Rightarrow OK=\\sqrt{2^2+1^2+4^2} = \\sqrt{21} \\approx 5,66$."
+    "answer": "5,66",
+    "explain": "Giải ra điểm $K(0;4;4) \\Rightarrow OK=\\sqrt{0^2+4^2+4^2} = \\sqrt{32} \\approx 5,66$."
   },
   {
     "id": "2H533TL3",
     "question": "Cho $A(-3;2;0)$, $B(2;4;-1)$, $C(-2;0;3)$, $D(10;-4;12)$; vị trí $M(a; b; c)$ thỏa mãn $MA = \\sqrt{53}$, ${MB = \\sqrt{61}}$, ${MC = 3\\sqrt{13}}$, $MD = 3\\sqrt{66}$. Khoảng cách từ điểm $M$ đến điểm $O$ bằng bao nhiêu? (Kết quả làm tròn đến hàng phần trăm)",
-    "answer": "8.60",
+    "answer": "8,60",
     "explain": "Giải ra điểm $M(-3;4;-7) \\Rightarrow OM= \\sqrt{74} \\approx 8,60$."
   },
   {

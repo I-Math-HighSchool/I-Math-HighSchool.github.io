@@ -56,7 +56,7 @@ window.traLoiNgan2H52 = [
   {
     "id": "2H523TL12",
     "question": "Trong không gian với hệ toạ độ $Oxyz$ (đơn vị trên mỗi trục tọa độ là kilomet) một máy bay đang ở vị trí $A(3{,}5; -2; 0{,}4)$ và sẽ hạ cánh ở vị trí $B(3{,}5; 5{,}5; 0)$ trên đường băng $EG$. Có một lớp mây được mô phỏng bởi một mặt phẳng đi qua ba điểm $M$, $N$, $P$ có phương trình $2x-4y+5z-1=0$. Tọa độ của điểm $C (a;b;c)$ là vị trí mà máy bay xuyên qua đám mây để hạ cánh. Tính $\\dfrac{a-b}{c}$.",
-    "answer": "8.75",
+    "answer": "8,75",
     "explain": "Véc-tơ chỉ phương của đường thẳng $AB$ là $\\overrightarrow{AB}=(3{,}5-3{,}5; 5{,}5-(-2); 0-0{,}4)=(0; 7{,}5; -0{,}4)$.<br>  Phương trình của đường thẳng $AB$ là $x=3{,}5 \\text{ và } y=-2+7{,}5t \\text{ và } z=0{,}4-0{,}4t$.<br>  Điểm $C$ là giao điểm của đường thẳng $AB$ và mặt phẳng mây $(P)\\colon 2x-4y+5z-1=0$.<br>  Tọa độ điểm $C$ ứng với giá trị $t$ thỏa mãn phương trình:  $2(3{,}5)-4(-2+7{,}5t)+5(0{,}4-0{,}4t)-1=0$<br>$\\Leftrightarrow 7+8-30t+2-2t-1=0$<br>$\\Leftrightarrow 16-32t=0$<br>$\\Leftrightarrow t=\\dfrac{1}{2}.$  $\\Rightarrow x_C=3{,}5 \\text{ và } y_C=-2+7{,}5\\left(\\dfrac{1}{2}\\right)=-2+3{,}75=1{,}75 \\text{ và } z_C=0{,}4-0{,}4\\left(\\dfrac{1}{2}\\right)=0{,}4-0{,}2=0{,}2$.<br>  Vậy vị trí máy bay xuyên qua đám mây là $C(3{,}5; 1{,}75; 0{,}2)$."
   },
   {

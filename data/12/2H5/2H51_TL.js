@@ -43,7 +43,7 @@ window.traLoiNgan2H51 = [
   {
     "id": "2H511TL7",
     "question": "Trong không gian $Oxyz$, một camera an ninh đặt tại vị trí điểm $C(7;1;4)$ quay với góc quan sát ngang là $120^\\circ$ và tạo trên mặt phẳng $(P)\\colon x+2y+2z-3=0$ là một hình tròn.",
-    "answer": "8.1",
+    "answer": "8,1",
     "explain": "Khoảng cách từ $C(7;1;4)$ đến $(P)$ là $d(C,(P))=\\dfrac{|1\\cdot 7+2-2\\cdot 1+2\\cdot 4-3|}{\\sqrt{1^2+2^2+2^2}}=\\dfrac{14}{3}$.<br>  Ta có $\\tan 60^\\circ=\\dfrac{r}{d}\\Rightarrow r=d\\cdot \\tan 60^\\circ=\\dfrac{14\\sqrt{3}}{3}$.<br>  Vậy bán kính đường tròn là $r=\\dfrac{14\\sqrt{3}}{3}$"
   },
   {

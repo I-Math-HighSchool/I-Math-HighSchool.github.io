@@ -368,10 +368,10 @@ window.dungSai2D15 = [
       },
       {
         "text": "Hàm số không có cực trị",
-        "answer": true
+        "answer": false
       }
     ],
-    "explain": "Ta có $y=f(x)=\\dfrac{x^2+3 x+5}{x+2}=x+1+\\dfrac{3}{x+2}$. Suy ra $y'=f'(x)=1-\\dfrac{3}{(x+2)^2}$.  <br>- <strong>Đúng</strong>. Ta có $\\mathop{\\lim}\\limits_{x\\rightarrow -2^-}y=+\\infty$ và $\\mathop{\\lim}\\limits_{x\\rightarrow -2^+}y=-\\infty$.<br>  Vậy đồ thị hàm số có hai đường tiệm cận đứng là $x=-2$.<br>- <strong>Đúng</strong>.Do $\\lim\\limits_{x \\to \\infty} [f(x) - (x + 1)] = \\lim\\limits_{x \\to \\infty} \\dfrac{1}{x + 1} = 0$ nên đường thẳng $y = x + 1$ là đường tiệm cận xiên của đồ thị hàm số đã cho.<br>- <strong>Đúng</strong>. Tâm đối xứng $I(-2 ;-1)$ của đồ thị làm giao điểm của tiệm cận đứng và tiện cận xiên có phương trình $x=-2$ và $y=x+1$.<br>- <strong>Đúng</strong>. Ta có $y=0\\Leftrightarrow 1-\\dfrac{3}{(x+2)^2}\\Leftrightarrow \\dfrac{3}{(x+2)^2}=1\\Leftrightarrow x=-3-\\sqrt{2} \\text{ hoặc } x=3-\\sqrt{2}$."
+    "explain": "Ta có $y=f(x)=\\dfrac{x^2+3 x+5}{x+2}=x+1+\\dfrac{3}{x+2}$. Suy ra $y'=f'(x)=1-\\dfrac{3}{(x+2)^2}$.  <br>- <strong>Đúng</strong>. Ta có $\\mathop{\\lim}\\limits_{x\\rightarrow -2^-}y=+\\infty$ và $\\mathop{\\lim}\\limits_{x\\rightarrow -2^+}y=-\\infty$.<br>  Vậy đồ thị hàm số có hai đường tiệm cận đứng là $x=-2$.<br>- <strong>Đúng</strong>.Do $\\lim\\limits_{x \\to \\infty} [f(x) - (x + 1)] = \\lim\\limits_{x \\to \\infty} \\dfrac{1}{x + 1} = 0$ nên đường thẳng $y = x + 1$ là đường tiệm cận xiên của đồ thị hàm số đã cho.<br>- <strong>Đúng</strong>. Tâm đối xứng $I(-2 ;-1)$ của đồ thị làm giao điểm của tiệm cận đứng và tiện cận xiên có phương trình $x=-2$ và $y=x+1$.<br>- <strong>Sai</strong>. Ta có $y'=0\\Leftrightarrow 1-\\dfrac{3}{(x+2)^2}=0\\Leftrightarrow (x+2)^2=3\\Leftrightarrow x=-2+\\sqrt{3} \\text{ hoặc } x=-2-\\sqrt{3}$.<br>  Do $y'$ đổi dấu khi $x$ đi qua hai giá trị này nên hàm số có hai điểm cực trị, tức là mệnh đề trên sai."
   },
   {
     "id": "2D151DS17",

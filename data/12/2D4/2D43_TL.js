@@ -121,7 +121,7 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D435TL20",
     "question": "Cho phần vật thể $(\\Im)$ giới hạn bởi hai mặt phẳng có phương trình $x=0$ và $x=2$. Cắt phần vật thể $(\\Im)$ bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ $x$ ($0\\le x\\le 2$), ta được thiết diện là một tam giác đều có độ dài cạnh bằng $x\\sqrt{2-x}$. Tính thể tích $V$ của phần vật thể $(\\Im)$. (Kết quả làm tròn đến hàng phần trăm)",
-    "answer": "0.58",
+    "answer": "0,58",
     "explain": "Diện tích của thiết diện  \\[S(x)=\\dfrac{\\left(x\\sqrt{2-x}\\right)^2\\sqrt{3}}{4}=\\dfrac{x^2(2-x)\\sqrt{3}}{4}=\\dfrac{\\sqrt{3}}{4}(-x^3+2x^2).\\]  Thể tích của vật thể $(\\Im)$ là  \\[  V = \\int\\limits_0^2 S(x)\\mathrm{\\,d}x = \\int\\limits_0^2 \\dfrac{\\sqrt{3}}{4}(-x^3+2x^2)\\mathrm{\\,d}x=\\dfrac{\\sqrt{3}}{3}.  \\]"
   },
   {
@@ -139,7 +139,7 @@ window.traLoiNgan2D43 = [
   {
     "id": "2D431TL23",
     "question": "Cho đồ thị hàm số $y=\\cos x$ và hình phẳng được tô màu như hình vẽ. Tính diện tích hình phẳng đó (viết kết quả dưới dạng số thập phân và làm tròn đến hàng phần mười).<br><img src=\"data/12/2D4/im2D43/dlts_12_DLTS36_015.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
-    "answer": "4.7",
+    "answer": "4,7",
     "explain": "Hình phẳng đã cho được giới hạn bởi các đồ thị hàm số $y=\\cos x$, $y=x$ và hai đường thẳng $x=1$, $x=3$. <br>  Khi đó, diện tích hình phẳng là  $S = \\displaystyle\\int\\limits_{1}^{3} |x-\\cos x|\\mathrm{\\,d}x \\approx 4{,}7$ (Bấm máy, để đơn vị radian). <br>  Giới thiệu cách giải tay <br>  Từ đồ thị ta có $x\\geqslant\\cos x$, $\\forall x\\in[1;3]$. <br>  Do đó $S=\\displaystyle\\int\\limits_{1}^{3} (x-\\cos x)\\mathrm{\\,d}x=\\left(\\dfrac{x^2}{2}-\\sin x\\right)\\bigg|_{1}^{3}=4-\\sin3+\\sin1 \\approx4{,}7$."
   },
   {
