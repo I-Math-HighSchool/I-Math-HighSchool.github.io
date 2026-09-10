@@ -61,7 +61,7 @@ window.traLoiNgan2D13 = [
   },
   {
     "id": "2D131TL10",
-    "question": "Từ một miếng bìa có độ dài hai cạnh là $0{,}9$ m và $1{,}5$ m như hình bên. Bạn Minh cắt đi phần tô màu xám và gấp lại để được một hình hộp chữ nhật. Tìm $x$ để hình hộp tạo thành có thể tích lớn nhất.",
+    "question": "Từ một miếng bìa có độ dài hai cạnh là $0{,}9$ m và $1{,}5$ m như hình bên. Bạn Minh cắt đi phần tô màu xám và gấp lại để được một hình hộp chữ nhật. Tìm $x$ để hình hộp tạo thành có thể tích lớn nhất.<br><img src=\"data/12/2D1/im2D1/2D131TL10.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "0,3",
     "explain": "Theo đề bài, ta có  <br>- Chiều dài đáy của hình hộp chữ nhật là $0{,}9 - 2x$ (m).<br>- Chiều rộng đáy của hình hộp chữ nhật là $x$ (m).<br>- Chiều cao của hình hộp chữ nhật là $x$ (m).  Thể tích của hình hộp chữ nhật là  $ V = x^2(0{,}9 - 2x) \\text{ (m$^3$).} $  Xét hàm số $V(x) = x^2(0{,}9 - 2x)$.<br>  Ta có $V'(x) = -6x^2 + 1{,}8x$.<br>  Suy ra $V'(x) = 0 \\Leftrightarrow -6x^2 + 1{,}8x = 0 \\Leftrightarrow x = 0 \\text{ hoặc } x = 0{,}3.$<br>  Vì miếng bìa có chiều rộng là $0{,}9$ m nên $0 &lt; x &lt; \\dfrac{9}{2} = 0{,}45$ nên $x = 0{,}3$ thỏa mãn.<br>  Bảng biến thiên  <br><img src=\"data/12/2D1/im2D1/2D13_tikz_029.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  Dựa vào bảng biến thiên, ta thấy hàm số $V(x)$ đạt giá trị lớn nhất là $0{,}027$ tại $x = 0{,}3$.<br>  Vậy $x = 0{,}3$ m thì thể tích của hình hộp chữ nhật tạo thành là lớn nhất."
   },
