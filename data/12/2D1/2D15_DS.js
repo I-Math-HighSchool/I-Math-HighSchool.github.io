@@ -571,11 +571,11 @@ window.dungSai2D15 = [
       },
       {
         "text": "Hàm số $y = f(x)$ đồng biến trên khoảng $(-\\infty;-2)$",
-        "answer": true
+        "answer": false
       },
       {
         "text": "$f'(1) = 0$",
-        "answer": false
+        "answer": true
       }
     ],
     "explain": "Ta có $f'(x) = 0 \\Leftrightarrow x^3 - 3x + 2 = 0 \\Leftrightarrow x = 1 \\text{ hoặc } x = -2.$<br>  Bảng biến thiên của hàm số $y = f(x)$  <br><img src=\"data/12/2D1/im2D1/2D15_tikz_090.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>. Dựa vào đồ thị của $f'(x)$, ta thấy điểm cực đại của đồ thị hàm số $y = f'(x)$ là $(-1;4)$.<br>- <strong>Sai</strong>. Vì phương trình $f'(x)$ chỉ đổi dấu từ âm sang dương khi đi qua $x = -2$ nên chỉ có $x = -2$ là cực trị của hàm số.<br>  Vậy hàm số $y = f(x)$ chỉ có một điểm cực trị.<br>- <strong>Sai</strong>. Dựa vào bảng biến thiên, ta thấy hàm số $y = f(x)$ đồng biến trên $(-2;+\\infty)$.<br>- <strong>Đúng</strong>. Dựa vào kết quả tìm nghiệm từ phương trình $f'(x) = 0$, ta thấy $f'(1) = 0$."

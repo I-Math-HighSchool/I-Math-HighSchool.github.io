@@ -128,8 +128,8 @@ window.traLoiNgan2H21 = [
   {
     "id": "2H213TL22",
     "question": "Trong không gian, cho hai vec-tơ $\\overrightarrow{a}$ và $\\overrightarrow{b}$ có cùng độ dài bằng $2$. Biết rằng góc giữa hai vec-tơ đó là $30^\\circ$. Tính $\\overrightarrow{a} \\cdot \\overrightarrow{b}$.",
-    "answer": "2",
-    "explain": "Ta có $\\overrightarrow{a} \\cdot \\overrightarrow{b}= \\left| \\overrightarrow{a}\\right| \\cdot \\left| \\overrightarrow{b}\\right|\\cdot  \\cos \\left(\\overrightarrow{a},\\overrightarrow{b} \\right) = 2\\cdot 2 \\cdot \\cos 30^\\circ = 2$."
+    "answer": "3,46",
+    "explain": "Ta có $\\overrightarrow{a} \\cdot \\overrightarrow{b}= \\left| \\overrightarrow{a}\\right| \\cdot \\left| \\overrightarrow{b}\\right|\\cdot  \\cos \\left(\\overrightarrow{a},\\overrightarrow{b} \\right) = 2\\cdot 2 \\cdot \\cos 30^\\circ = 2\\sqrt{3} $."
   },
   {
     "id": "2H213TL23",
