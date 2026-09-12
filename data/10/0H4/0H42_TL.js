@@ -15,5 +15,11 @@ window.traLoiNgan0H42 = [
     "question": "Cho tam giác $ABC$ có $\\widehat{C}$ nhọn và $AC=3$; $BC=4$; $S_{ABC}=3\\sqrt{3}$ (tham khảo hình vẽ). Tính độ dài cạnh $AB$ (kết quả làm tròn đến hàng phần trăm).<br><img src=\"data/10/0H4/im0H42/loc2_0_TN_DS_TLN_THPT_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">",
     "answer": "3,61",
     "explain": "Ta có  $S_{ABC}=3\\sqrt{3} \\Leftrightarrow \\dfrac{1}{2}\\cdot CA\\cdot CB\\cdot \\sin \\widehat{ACB}=3\\sqrt{3}$<br>$\\Leftrightarrow \\dfrac{1}{2}\\cdot 3\\cdot 4\\cdot \\sin \\widehat{ACB}=3\\sqrt{3}$<br>$\\Leftrightarrow \\sin \\widehat{ACB}=\\dfrac{\\sqrt{3}}{2}$<br>$\\Leftrightarrow \\widehat{ACB}=60^\\circ ~(\\text{do}~ \\widehat{C}~ \\text{nhọn}).$  Áp dụng định lí côsin cho tam giác $ABC$ ta có  $AB =\\sqrt{AC^2+BC^2-2\\cdot AC\\cdot BC\\cdot \\cos \\widehat{ACB}}$<br>$=\\sqrt{3^2+4^2-2\\cdot 3\\cdot 4\\cdot \\cos 60^\\circ}$<br>$=\\sqrt{13}$<br>$\\approx 3{,}61.$"
+  },
+  {
+    "id": "0H421TL3",
+    "question": "Cho tam giác $ABC$ có $AB=10$, $AC=20$, $\\widehat{BAC}=60^\\circ$. Tính diện tích tam giác $ABC$ (kết quả làm tròn đến hàng phần mười).",
+    "answer": "86,6",
+    "explain": "Diện tích tam giác $ABC$ là $S_{\\triangle ABC}=\\dfrac{1}{2}\\cdot AB\\cdot AC\\cdot \\sin \\widehat{BAC}=\\dfrac{1}{2}\\cdot 10\\cdot 20\\cdot \\sin 60^\\circ=50\\sqrt{3}\\approx 86{,}6.$"
   }
 ];
