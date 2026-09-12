@@ -56,13 +56,13 @@ window.tracNghiem0D11 = [
     "id": "0D115TN3",
     "question": "Cho mệnh đề ``$\\exists x \\in \\mathbb{R}, 2 x^{2}-3 x-5&lt;0$''. Mệnh đề phủ định sẽ là",
     "options": [
-      "``$\\forall x \\in \\mathbb{R}, 2 x^{2}+3 x-5 \\geq 0$''",
-      "``$\\forall x \\in \\mathbb{R}, 2 x^{2}+3 x-5&gt;0$''",
-      "``$\\exists x \\in \\mathbb{R}: 2 x^{2}+3 x-5&gt;0$''",
-      "``$\\exists x \\in \\mathbb{R}: 2 x^{2}+3 x-5 \\geq 0$''"
+      "``$\\forall x \\in \\mathbb{R}, 2 x^{2}-3 x-5 \\geq 0$''",
+      "``$\\forall x \\in \\mathbb{R}, 2 x^{2}-3 x-5&gt;0$''",
+      "``$\\exists x \\in \\mathbb{R}: 2 x^{2}-3 x-5&gt;0$''",
+      "``$\\exists x \\in \\mathbb{R}: 2 x^{2}-3 x-5 \\geq 0$''"
     ],
     "answer": 0,
-    "explain": "Mệnh đề phủ định của mệnh đề đã cho là ``$\\forall x \\in \\mathbb{R}, 2 x^{2}+3 x-5 \\geq 0$''."
+    "explain": "Mệnh đề phủ định của mệnh đề đã cho là ``$\\forall x \\in \\mathbb{R}, 2 x^{2}-3 x-5 \\geq 0$''."
   },
   {
     "id": "0D115TN4",

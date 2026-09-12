@@ -11,7 +11,7 @@ window.dungSai2D12 = [
     "subQuestions": [
       {
         "text": "Hàm số có giá trị cực đại là $7$, giá trị cực tiểu là $3$",
-        "answer": false
+        "answer": true
       },
       {
         "text": "$f'(x)=-3x^2+3$",
@@ -23,10 +23,10 @@ window.dungSai2D12 = [
       },
       {
         "text": "Hàm số đồng biến trên các khoảng $(-\\infty;-1)$ và $(1;+\\infty)$; nghịch biến trên khoảng $(-1;1)$",
-        "answer": true
+        "answer": false
       }
     ],
-    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=-3x^2+3$.<br>  $y'=0\\Leftrightarrow -3x^2+3=0\\Leftrightarrow x=\\pm 1$.<br>  Bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên ta có giá trị cực đại là $7$ và giá trị cực tiểu là $5$.<br>- <strong>Đúng</strong>. Vì $f'(x)=-3x^2+3$.<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có hàm số đạt cực tiểu tại $x=-1$ và đạt cực đại tại $x=1$.<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có hàm số đồng biến trên các khoảng $(-\\infty;-1)$ và $(1;+\\infty)$; nghịch biến trên khoảng $(-1;1)$."
+    "explain": "Tập xác định của hàm số $\\mathscr{D}=\\mathbb{R}$.<br>  Ta có $y'=-3x^2+3$.<br>  $y'=0\\Leftrightarrow -3x^2+3=0\\Leftrightarrow x=\\pm 1$.<br>  Bảng biến thiên   <br><img src=\"data/12/2D1/im2D1/2D12_tikz_001.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có giá trị cực đại là $f(1)=7$ và giá trị cực tiểu là $f(-1)=3$.<br>- <strong>Đúng</strong>. Vì $f'(x)=-3x^2+3$.<br>- <strong>Đúng</strong>.<br>  Từ bảng biến thiên ta có hàm số đạt cực tiểu tại $x=-1$ và đạt cực đại tại $x=1$.<br>- <strong>Sai</strong>.<br>  Từ bảng biến thiên ta có hàm số đồng biến trên khoảng $(-1;1)$; nghịch biến trên các khoảng $(-\\infty;-1)$ và $(1;+\\infty)$ (ngược với chiều biến thiên nêu trong mệnh đề)."
   },
   {
     "id": "2D121DS2",
