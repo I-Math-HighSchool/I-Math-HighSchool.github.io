@@ -293,32 +293,34 @@ let boDemThoiGian = null;
 let thoiDiemBatDauLamBai = null; // Luu Date.now() luc bat dau lam de tinh thoi gian hoan thanh khi nop bai
 
 // =========================================================================
-// TIỆN ÍCH: MÃ THIẾT BỊ (dùng cho tính năng "Xem lịch sử làm bài")
-// Mỗi trình duyệt/thiết bị tự sinh 1 mã ngẫu nhiên, lưu trong localStorage.
-// Mã này được gửi kèm mỗi lần nộp bài, và khi bấm "Xem lịch sử làm bài",
-// trang chỉ hỏi lại đúng các lượt nộp có cùng mã này -> mỗi học sinh chỉ
-// xem được lịch sử làm bài trên CHÍNH thiết bị/trình duyệt của mình, không
-// cần đăng nhập và không lộ dữ liệu của bạn khác. Nếu đổi máy/trình duyệt
-// khác hoặc xoá dữ liệu duyệt web thì sẽ có mã mới (mất lịch sử cũ trên
-// máy đó, đây là đánh đổi chấp nhận được để không cần tài khoản/mật khẩu).
+// TIỆN ÍCH: LỊCH SỬ LÀM BÀI (lưu ngay trên trình duyệt bằng localStorage)
+// Đây là lịch sử RIÊNG của từng trình duyệt/thiết bị - trình duyệt nào làm
+// bài thì chỉ trình duyệt đó xem lại được lịch sử của mình, không đồng bộ
+// qua trình duyệt/máy khác, không cần đăng nhập. Sheet chủ vẫn nhận đầy đủ
+// bài nộp từ TẤT CẢ trình duyệt như cũ (không đổi gì ở phần đó) - đây chỉ
+// là một bản ghi phụ, riêng tư, lưu cục bộ để mỗi học sinh tự xem lại.
 // =========================================================================
-function layMaThietBi() {
-    const KHOA_LUU = "irismath_ma_thiet_bi";
-    let ma;
-    try { ma = localStorage.getItem(KHOA_LUU); } catch (err) { ma = null; }
-    if (!ma) {
-        ma = (window.crypto && crypto.randomUUID)
-            ? crypto.randomUUID()
-            : ('tb-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10));
-        try { localStorage.setItem(KHOA_LUU, ma); } catch (err) { /* trinh duyet chan storage - bo qua, tinh nang lich su se khong hoat dong nhung khong anh huong nop bai */ }
+const KHOA_LICH_SU_LAM_BAI = "irismath_lich_su_lam_bai";
+const SO_LUONG_LICH_SU_TOI_DA = 100;
+
+function luuLichSuLamBai(banGhi) {
+    try {
+        const ds = JSON.parse(localStorage.getItem(KHOA_LICH_SU_LAM_BAI) || "[]");
+        ds.unshift(banGhi); // moi nhat len dau
+        if (ds.length > SO_LUONG_LICH_SU_TOI_DA) ds.length = SO_LUONG_LICH_SU_TOI_DA;
+        localStorage.setItem(KHOA_LICH_SU_LAM_BAI, JSON.stringify(ds));
+    } catch (err) {
+        console.warn("Khong luu duoc lich su lam bai (trinh duyet chan localStorage?):", err);
     }
-    return ma;
 }
 
-// URL Web App (Apps Script) dùng để ĐỌC lịch sử làm bài theo mã thiết bị.
-// Đây là endpoint CHỈ ĐỌC, riêng biệt hoàn toàn với việc nộp điểm (vẫn qua
-// Google Form như cũ). Dán URL kết thúc bằng "/exec" sau khi triển khai.
-const WEBAPP_LICH_SU_URL = "";
+function docLichSuLamBai() {
+    try {
+        return JSON.parse(localStorage.getItem(KHOA_LICH_SU_LAM_BAI) || "[]");
+    } catch (err) {
+        return [];
+    }
+}
 
 function tronMang(array) { return [...array].sort(() => 0.5 - Math.random()); }
 
@@ -817,9 +819,6 @@ function nopBaiVaChamDiem() {
     const FORM_ENTRY_DIEM = "entry.496918271";
     const FORM_ENTRY_THOIGIAN = "entry.737917606";
     const FORM_ENTRY_LINK = "entry.1632202624";
-    // TODO: thay bằng entry ID thật của câu hỏi "Mã thiết bị" sau khi thêm
-    // câu hỏi này vào Google Form (xem hướng dẫn đã gửi kèm).
-    const FORM_ENTRY_DEVICE = "";
 
     // Tinh thoi gian lam bai thuc te = luc nop bai - luc bam "Phat de tinh
     // gio". Neu vi ly do nao do khong ghi nhan duoc moc bat dau (vi du nop
@@ -841,6 +840,16 @@ function nopBaiVaChamDiem() {
     const linkXemLaiBaiLam = window.location.origin + window.location.pathname
         + '?xem=' + encodeURIComponent(maHoaXemLaiBaiLam(duLieuXemLai));
 
+    // Luu lich su lam bai vao localStorage cua CHINH trinh duyet nay, de
+    // dung cho tinh nang "Xem lich su lam bai" - doc lap voi viec gui diem
+    // len Sheet chu ben duoi.
+    luuLichSuLamBai({
+        ngayGio: new Date().toLocaleString('vi-VN', { hour12: false }),
+        chuyenDe: chuongHoc,
+        thoiGianLamBai: thoiGianLamBaiText,
+        link: linkXemLaiBaiLam
+    });
+
     if (FORM_ID) {
         const duLieuGui = new URLSearchParams();
         duLieuGui.append(FORM_ENTRY_HOTEN, hoTenHocSinh);
@@ -848,7 +857,6 @@ function nopBaiVaChamDiem() {
         duLieuGui.append(FORM_ENTRY_DIEM, tongDiem.toFixed(2) + "/10");
         duLieuGui.append(FORM_ENTRY_THOIGIAN, thoiGianLamBaiText);
         duLieuGui.append(FORM_ENTRY_LINK, linkXemLaiBaiLam);
-        if (FORM_ENTRY_DEVICE) duLieuGui.append(FORM_ENTRY_DEVICE, layMaThietBi());
 
         fetch(`https://docs.google.com/forms/d/e/${FORM_ID}/formResponse`, {
             method: "POST",
@@ -863,9 +871,8 @@ function nopBaiVaChamDiem() {
 document.getElementById('btn-submit').addEventListener('click', nopBaiVaChamDiem);
 
 // =========================================================================
-// TÍNH NĂNG "XEM LỊCH SỬ LÀM BÀI" (theo mã thiết bị/trình duyệt hiện tại)
-// Gọi 1 Web App (Apps Script) CHỈ ĐỌC, tách biệt hoàn toàn với việc nộp
-// điểm (vẫn qua Google Form như cũ, không đổi gì ở phần đó).
+// TÍNH NĂNG "XEM LỊCH SỬ LÀM BÀI" (đọc từ localStorage của chính trình
+// duyệt này - không gọi lên Sheet, không cần Apps Script/Web App gì cả).
 // =========================================================================
 function moModalLichSu() {
     document.getElementById('history-modal-overlay').classList.add('show');
@@ -874,46 +881,34 @@ function dongModalLichSu() {
     document.getElementById('history-modal-overlay').classList.remove('show');
 }
 
-async function xemLichSuLamBai() {
+function xemLichSuLamBai() {
     const noiDung = document.getElementById('history-modal-content');
     moModalLichSu();
 
-    if (!WEBAPP_LICH_SU_URL) {
-        noiDung.innerHTML = `<div class="text-center text-muted py-4">Tính năng đang được cấu hình, vui lòng quay lại sau.</div>`;
+    const danhSach = docLichSuLamBai();
+
+    if (danhSach.length === 0) {
+        noiDung.innerHTML = `<div class="text-center text-muted py-4">Chưa có lịch sử làm bài nào trên trình duyệt này.</div>`;
         return;
     }
 
-    noiDung.innerHTML = `<div class="text-center text-muted py-4"><i class="fa-solid fa-spinner fa-spin me-2"></i>Đang tải...</div>`;
-
-    try {
-        const res = await fetch(`${WEBAPP_LICH_SU_URL}?device=${encodeURIComponent(layMaThietBi())}`);
-        const danhSach = await res.json();
-
-        if (!Array.isArray(danhSach) || danhSach.length === 0) {
-            noiDung.innerHTML = `<div class="text-center text-muted py-4">Chưa có lịch sử làm bài nào được ghi nhận trên thiết bị này.</div>`;
-            return;
-        }
-
-        noiDung.innerHTML = `
-            <div class="table-responsive">
-            <table class="table table-sm history-table">
-                <thead><tr><th>Ngày - Giờ</th><th>Chuyên đề</th><th>Thời gian làm bài</th><th>Xem lại</th></tr></thead>
-                <tbody>
-                    ${danhSach.map(b => `
-                        <tr>
-                            <td>${b.ngayGio || ''}</td>
-                            <td>${b.chuyenDe || ''}</td>
-                            <td>${b.thoiGianLamBai || ''}</td>
-                            <td>${b.link ? `<a href="${b.link}" target="_blank" rel="noopener">Xem lại</a>` : ''}</td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-            </div>`;
-    } catch (err) {
-        console.warn("Khong tai duoc lich su lam bai:", err);
-        noiDung.innerHTML = `<div class="text-center text-danger py-4">Không tải được lịch sử làm bài. Vui lòng thử lại sau.</div>`;
-    }
+    noiDung.innerHTML = `
+        <div class="table-responsive">
+        <table class="table table-sm history-table">
+            <thead><tr><th>Ngày - Giờ</th><th>Chuyên đề</th><th>Thời gian làm bài</th><th>Xem lại</th></tr></thead>
+            <tbody>
+                ${danhSach.map(b => `
+                    <tr>
+                        <td>${b.ngayGio || ''}</td>
+                        <td>${b.chuyenDe || ''}</td>
+                        <td>${b.thoiGianLamBai || ''}</td>
+                        <td>${b.link ? `<a href="${b.link}" target="_blank" rel="noopener">Xem lại</a>` : ''}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+        </div>
+        <div class="small text-muted mt-2">Lịch sử này chỉ lưu trên trình duyệt hiện tại. Nếu đổi máy/trình duyệt khác hoặc xoá dữ liệu duyệt web, lịch sử sẽ không còn.</div>`;
 }
 
 document.getElementById('btn-xem-lich-su').addEventListener('click', xemLichSuLamBai);
