@@ -38,7 +38,10 @@ async function napToanBoNganHangCauHoi() {
         if (btnGenerate) btnGenerate.disabled = false;
     }
 }
-napToanBoNganHangCauHoi().then(renderXemLaiBaiLamNeuCo);
+napToanBoNganHangCauHoi().then(() => {
+    renderXemLaiBaiLamNeuCo();
+    khoiPhucBaiLamNeuCo();
+});
 
 // =========================================================================
 // 1. DANH MỤC CHƯƠNG THEO TỪNG KHỐI LỚP (Mã chuẩn 4 ký tự đồng bộ QuyUocID)
@@ -322,6 +325,70 @@ function docLichSuLamBai() {
     }
 }
 
+// =========================================================================
+// TỰ ĐỘNG LƯU & KHÔI PHỤC BÀI ĐANG LÀM DỞ (chống mất bài khi lỡ F5/tải lại
+// trang giữa chừng). Khác với KHOA_LICH_SU_LAM_BAI (lưu bài ĐÃ nộp xong):
+// đây chỉ lưu 1 bài DUY NHẤT đang làm dở, tự xoá ngay khi nộp bài thành
+// công hoặc khi đã quá 90 phút kể từ lúc bắt đầu (coi như đã hết hạn).
+// Chỉ lưu ID câu hỏi + đáp án đã chọn (không lưu nội dung câu hỏi) để dữ
+// liệu nhẹ, giống cách "Xem lại bài làm" đang làm.
+// =========================================================================
+const KHOA_BAI_DANG_LAM = "irismath_bai_dang_lam";
+
+function luuTienDoBaiLam() {
+    try {
+        if (!deThiHienTai || (deThiHienTai.tracNghiem.length === 0 && deThiHienTai.dungSai.length === 0 && deThiHienTai.traLoiNgan.length === 0)) {
+            return;
+        }
+        const traLoi = { tn: [], ds: [], tl: [] };
+
+        deThiHienTai.tracNghiem.forEach((q, idx) => {
+            const selected = document.querySelector(`input[name="tn_${idx}"]:checked`);
+            traLoi.tn.push(selected ? parseInt(selected.value) : null);
+        });
+
+        deThiHienTai.dungSai.forEach((q, idx) => {
+            const hang = [];
+            q.subQuestions.forEach((sub, sIdx) => {
+                const selected = document.querySelector(`input[name="ds_${idx}_${sIdx}"]:checked`);
+                hang.push(selected ? (selected.value === "true") : null);
+            });
+            traLoi.ds.push(hang);
+        });
+
+        deThiHienTai.traLoiNgan.forEach((q, idx) => {
+            const inputGroup = document.querySelector(`.raw-input-group[data-qidx="${idx}"]`);
+            const hang = [];
+            if (inputGroup) {
+                inputGroup.querySelectorAll('.short-box').forEach(inp => hang.push(inp.value || ""));
+            }
+            traLoi.tl.push(hang);
+        });
+
+        const banGhi = {
+            v: 1,
+            savedAt: Date.now(),
+            lop: selectLop.value,
+            chuong: selectChuong.value,
+            hoTen: document.getElementById('student-name').value,
+            batDau: thoiDiemBatDauLamBai,
+            deIds: {
+                tn: deThiHienTai.tracNghiem.map(q => q.id),
+                ds: deThiHienTai.dungSai.map(q => q.id),
+                tl: deThiHienTai.traLoiNgan.map(q => q.id)
+            },
+            traLoi
+        };
+        localStorage.setItem(KHOA_BAI_DANG_LAM, JSON.stringify(banGhi));
+    } catch (err) {
+        console.warn("Khong luu duoc tien do bai lam dang do (trinh duyet chan localStorage?):", err);
+    }
+}
+
+function xoaTienDoBaiLamDaLuu() {
+    try { localStorage.removeItem(KHOA_BAI_DANG_LAM); } catch (err) { /* bo qua */ }
+}
+
 function tronMang(array) { return [...array].sort(() => 0.5 - Math.random()); }
 
 const selectLop = document.getElementById('select-lop');
@@ -335,9 +402,13 @@ function capNhatDanhSachChuong() {
 selectLop.addEventListener('change', capNhatDanhSachChuong);
 capNhatDanhSachChuong();
 
-function startTimer() {
-    thoiGianConLai = 90 * 60; 
-    thoiDiemBatDauLamBai = Date.now();
+function startTimer(soGiayKhoiTao, thoiDiemBatDauGoc) {
+    // soGiayKhoiTao/thoiDiemBatDauGoc chỉ được truyền vào khi KHÔI PHỤC một
+    // bài đang làm dở (xem khoiPhucBaiLamNeuCo) - giữ nguyên mốc thời gian
+    // bắt đầu gốc để tính đúng "thời gian làm bài" lúc nộp, và đếm tiếp từ
+    // đúng số giây còn lại thay vì reset lại 90 phút từ đầu.
+    thoiGianConLai = (typeof soGiayKhoiTao === 'number' && soGiayKhoiTao > 0) ? soGiayKhoiTao : 90 * 60;
+    thoiDiemBatDauLamBai = thoiDiemBatDauGoc || Date.now();
     const timerElement = document.getElementById('exam-timer');
     timerElement.style.display = 'block';
     clearInterval(boDemThoiGian);
@@ -482,6 +553,7 @@ document.getElementById('btn-generate').addEventListener('click', () => {
         }
         renderQuiz(deThiHienTai);
         startTimer();
+        luuTienDoBaiLam();
         document.getElementById('result-box').classList.add('d-none');
         document.getElementById('btn-submit').classList.remove('d-none');
         return;
@@ -524,6 +596,7 @@ document.getElementById('btn-generate').addEventListener('click', () => {
     deThiHienTai = deThiTron;
     renderQuiz(deThiHienTai);
     startTimer();
+    luuTienDoBaiLam();
 
     document.getElementById('result-box').classList.add('d-none');
     document.getElementById('btn-submit').classList.remove('d-none');
@@ -675,6 +748,7 @@ function XayDungLuoiTienDoTachBiet(deThi) {
 
         item.addEventListener('change', () => {
             document.getElementById(`prog-box-${cauSo}`).classList.add('answered');
+            luuTienDoBaiLam(); // tự lưu tiến độ mỗi khi học sinh chọn/đổi đáp án
         });
 
         const inputsPhan3 = item.querySelectorAll('.short-box');
@@ -684,8 +758,9 @@ function XayDungLuoiTienDoTachBiet(deThi) {
                     let daNhap = false;
                     inputsPhan3.forEach(inp => { if(inp.value.trim() !== "") daNhap = true; });
                     const oTienDo = document.getElementById(`prog-box-${cauSo}`);
-                    if (daNhap) oTienDo.classList.add('answered'); 
+                    if (daNhap) oTienDo.classList.add('answered');
                     else oTienDo.classList.remove('answered');
+                    luuTienDoBaiLam(); // tự lưu tiến độ mỗi khi học sinh gõ đáp án
                 });
             });
         }
@@ -703,8 +778,9 @@ function nopBaiVaChamDiem() {
         return; 
     }
 
-    clearInterval(boDemThoiGian); 
+    clearInterval(boDemThoiGian);
     document.getElementById('exam-timer').style.display = 'none';
+    xoaTienDoBaiLamDaLuu(); // da nop bai thanh cong, khong can khoi phuc ban dang lam nay nua
 
     let tongDiem = 0;
     // Ghi lai chinh xac hoc sinh da chon gi cho tung cau, de sau nay dung
@@ -1071,4 +1147,114 @@ function renderXemLaiBaiLamNeuCo() {
     resultBox.classList.remove('d-none');
     document.querySelectorAll('.explain-box').forEach(box => box.style.display = 'block');
     resultBox.scrollIntoView({ behavior: 'smooth' });
+}
+
+// =========================================================================
+// KHÔI PHỤC BÀI ĐANG LÀM DỞ NẾU CÓ (chống mất bài khi lỡ F5/tải lại trang
+// giữa lúc đang làm). Đọc bản ghi lưu bởi luuTienDoBaiLam(), tự động dựng
+// lại ĐÚNG bộ đề cũ (theo ID) + đáp án đã chọn + đồng hồ chạy tiếp đúng từ
+// mốc bắt đầu gốc. Không chạy nếu đang ở chế độ "xem lại bài làm cũ" qua
+// link (?xem=...), và tự bỏ qua/xoá nếu bài đã lưu đã quá hạn 90 phút.
+// =========================================================================
+function danhDauDaTraLoiKhoiPhuc(soThuTuToanCuc1Based) {
+    const box = document.getElementById(`prog-box-${soThuTuToanCuc1Based}`);
+    if (box) box.classList.add('answered');
+}
+
+function khoiPhucBaiLamNeuCo() {
+    const thamSoUrl = new URLSearchParams(window.location.search);
+    if (thamSoUrl.get('xem')) return; // dang xem lai bai cu qua link, khong khoi phuc bai dang lam
+
+    let banGhi;
+    try {
+        const raw = localStorage.getItem(KHOA_BAI_DANG_LAM);
+        if (!raw) return;
+        banGhi = JSON.parse(raw);
+    } catch (err) {
+        return;
+    }
+    if (!banGhi || !banGhi.deIds || !banGhi.batDau) {
+        xoaTienDoBaiLamDaLuu();
+        return;
+    }
+
+    const daTroiQuaGiay = Math.floor((Date.now() - banGhi.batDau) / 1000);
+    const conLaiGiay = 90 * 60 - daTroiQuaGiay;
+    if (conLaiGiay <= 0) {
+        xoaTienDoBaiLamDaLuu(); // bai da luu qua han 90 phut, khong khoi phuc nua
+        return;
+    }
+
+    const deThi = {
+        tracNghiem: (banGhi.deIds.tn || []).map(id => timCauHoiTheoID('tracNghiem', id)).filter(Boolean),
+        dungSai: (banGhi.deIds.ds || []).map(id => timCauHoiTheoID('dungSai', id)).filter(Boolean),
+        traLoiNgan: (banGhi.deIds.tl || []).map(id => timCauHoiTheoID('traLoiNgan', id)).filter(Boolean)
+    };
+    if (deThi.tracNghiem.length === 0 && deThi.dungSai.length === 0 && deThi.traLoiNgan.length === 0) {
+        xoaTienDoBaiLamDaLuu(); // co the ngan hang cau hoi da doi ma, khong dung lai duoc nua
+        return;
+    }
+
+    // Khôi phục lựa chọn Khối lớp / Chuyên đề trên giao diện cho khớp với
+    // lúc bắt đầu (để lúc nộp bài, tên chuyên đề ghi lại đúng như cũ).
+    if (banGhi.lop) {
+        selectLop.value = banGhi.lop;
+        capNhatDanhSachChuong();
+        if (banGhi.chuong) selectChuong.value = banGhi.chuong;
+    }
+    if (banGhi.hoTen) document.getElementById('student-name').value = banGhi.hoTen;
+
+    deThiHienTai = deThi;
+    renderQuiz(deThi);
+    startTimer(conLaiGiay, banGhi.batDau);
+
+    document.getElementById('result-box').classList.add('d-none');
+    document.getElementById('btn-submit').classList.remove('d-none');
+
+    // Khôi phục lại đúng các đáp án học sinh đã chọn trước khi bị tải lại
+    const traLoi = banGhi.traLoi || {};
+    deThi.tracNghiem.forEach((q, idx) => {
+        const chon = (traLoi.tn && traLoi.tn[idx] !== undefined) ? traLoi.tn[idx] : null;
+        if (chon !== null && chon !== undefined) {
+            const radio = document.getElementById(`tn_${idx}_${chon}`);
+            if (radio) { radio.checked = true; danhDauDaTraLoiKhoiPhuc(idx + 1); }
+        }
+    });
+    deThi.dungSai.forEach((q, idx) => {
+        const hang = (traLoi.ds && traLoi.ds[idx]) || [];
+        let coChon = false;
+        q.subQuestions.forEach((sub, sIdx) => {
+            const val = hang[sIdx];
+            if (val === true || val === false) {
+                const radio = document.getElementById(`ds_${idx}_${sIdx}_${val ? 'D' : 'S'}`);
+                if (radio) { radio.checked = true; coChon = true; }
+            }
+        });
+        if (coChon) danhDauDaTraLoiKhoiPhuc(deThi.tracNghiem.length + idx + 1);
+    });
+    deThi.traLoiNgan.forEach((q, idx) => {
+        const hang = (traLoi.tl && traLoi.tl[idx]) || [];
+        const inputGroup = document.querySelector(`.raw-input-group[data-qidx="${idx}"]`);
+        let coNhap = false;
+        if (inputGroup) {
+            const boxes = inputGroup.querySelectorAll('.short-box');
+            boxes.forEach((inp, i) => {
+                inp.value = hang[i] || "";
+                if (inp.value.trim() !== "") coNhap = true;
+            });
+        }
+        if (coNhap) danhDauDaTraLoiKhoiPhuc(deThi.tracNghiem.length + deThi.dungSai.length + idx + 1);
+    });
+
+    // Banner báo cho học sinh biết đây là bài được tự động khôi phục
+    const container = document.getElementById('quiz-content');
+    const banner = document.createElement('div');
+    banner.className = 'alert alert-warning text-center fw-bold';
+    banner.style.marginBottom = '16px';
+    banner.innerHTML = '🔄 Trang vừa được tải lại — hệ thống đã tự động khôi phục lại đúng bài bạn đang làm dở (đồng hồ vẫn chạy tiếp, không bị reset).';
+    container.prepend(banner);
+
+    if (window.MathJax && typeof MathJax.typesetPromise === "function") {
+        MathJax.typesetPromise();
+    }
 }
