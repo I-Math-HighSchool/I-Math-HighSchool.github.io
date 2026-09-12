@@ -14,8 +14,8 @@ window.traLoiNgan2H22 = [
   {
     "id": "2H222TL2",
     "question": "Trong không gian $Oxyz$ cho hình hộp $ABCD.A'B'C'D'$ với $A\\equiv O$, $B\\in Ox$, $D\\in Oy$, $A'\\in Oz$. Biết tọa độ các điểm $B(25;0;0)$, $D(0;35;0)$, $A'(0;0;16)$ và tọa độ điểm $C'(a;b;c)$. Tính tổng $a+b+c$.",
-    "answer": "66",
-    "explain": "Giả sử $C(x;y;z)$. Ta có $\\overrightarrow{AD}=(0;35;0)$, $\\overrightarrow{BC}=(x-25;y;z)$.<br>  Vì $ABCD$ là hình bình hành nên  $\\overrightarrow{AD}=\\overrightarrow{BC}\\Leftrightarrow x-25=0 \\text{ và } y=35 \\text{ và } z=0\\Leftrightarrow x=25 \\text{ và } y=35 \\text{ và } z=0\\Rightarrow C(25;35;0)$.<br>  Ta có $\\overrightarrow{AA'}=(0;0;16)$, $\\overrightarrow{CC'}=(a-25;b-35;c)$.<br>  Vì $ACC'A'$ là hình bình hành nên  $\\overrightarrow{CC'}=\\overrightarrow{AA'}\\Leftrightarrow a-25=0 \\text{ và } b-25=0 \\text{ và } c=16\\Leftrightarrow a=25 \\text{ và } b=25 \\text{ và } c=16.$<br>  Vậy $a+b+c=25+25+16=66$."
+    "answer": "76",
+    "explain": "Giả sử $C(x;y;z)$. Ta có $\\overrightarrow{AD}=(0;35;0)$, $\\overrightarrow{BC}=(x-25;y;z)$.<br>  Vì $ABCD$ là hình bình hành nên  $\\overrightarrow{AD}=\\overrightarrow{BC}\\Leftrightarrow x-25=0 \\text{ và } y=35 \\text{ và } z=0\\Leftrightarrow x=25 \\text{ và } y=35 \\text{ và } z=0\\Rightarrow C(25;35;0)$.<br>  Ta có $\\overrightarrow{AA'}=(0;0;16)$, $\\overrightarrow{CC'}=(a-25;b-35;c)$.<br>  Vì $ACC'A'$ là hình bình hành nên  $\\overrightarrow{CC'}=\\overrightarrow{AA'}\\Leftrightarrow a-25=0 \\text{ và } b-35=0 \\text{ và } c=16\\Leftrightarrow a=25 \\text{ và } b=35 \\text{ và } c=16.$<br>  Vậy $a+b+c=25+35+16=76$."
   },
   {
     "id": "2H224TL3",

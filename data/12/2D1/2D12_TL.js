@@ -158,7 +158,7 @@ window.traLoiNgan2D12 = [
   {
     "id": "2D121TL26",
     "question": "Để giảm nhiệt độ phòng từ $28^\\circ$C, một hệ thống làm mát được phép hoạt động trong $ 10 $ phút. Gọi $T$ (đơn vị $^\\circ$C) là nhiệt độ phòng ở phút thứ $t$ được cho bởi công thức $T= - 0{,}008t^{3} - 0{,}16t + 28$ $(t \\in [1;10])$. Tìm nhiệt độ thấp nhất trong phòng đạt được trong $ 10 $ phút kể từ khi hệ thống làm mát bắt đầu hoạt động.",
-    "answer": "32,6",
+    "answer": "18,4",
     "explain": "Yêu cầu đề bài là tìm giá trị nhỏ nhất của $T(t) = -0{,}008t^{3} - 0{,}16t + 28$ trong $ [1;10] $.<br>  Ta có $ T'(t) = -0{,}024t^2 - 0{,}16 &lt;0$, $ \\forall t \\in [0;10] $.<br>  Dẫn đến $ T $ là hàm nghịch biến trên $ [0;10] $.<br>  Vậy nhiệt độ thấp nhất là $T(10)= 18{,}4 ^\\circ$C."
   },
   {
