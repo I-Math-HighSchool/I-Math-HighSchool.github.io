@@ -48,5 +48,51 @@ window.dungSai1H46 = [
       }
     ],
     "explain": "<br><img src=\"data/11/1H4/im1H46/dlts_11_DLTS6_008.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- Giao tuyến của hai mặt phẳng $\\left(AB'C'\\right)$ và $\\left(A'BC\\right)$ đi qua giao điểm của hai đường thẳng $AM'$ và $A'M$.<br>- Vì $AMM'A'$ là hình bình hành nên $AM\\parallel A'M'$.<br>- Vì $\\left(ABC\\right)\\parallel\\left(A'B'C'\\right)$ nên hai mặt đáy của hình lăng trụ nằm trên hai mặt phẳng song song.<br>- Điểm $A'$ là hình chiếu của điểm $A$ trên mặt phẳng $\\left(A'B'C'\\right)$ theo phương $CC'$ hoặc $BB'$."
+  },
+  {
+    "id": "1H461DS1",
+    "question": "Cho hình lăng trụ $ABC.A'B'C'$. Khi đó",
+    "subQuestions": [
+      {
+        "text": "$AA'\\parallel CC'$",
+        "answer": true
+      },
+      {
+        "text": "$A'$ là hình chiếu của $A$ trên mặt phẳng $(A'B'C')$ theo phép chiếu song song theo phương $CC'$",
+        "answer": true
+      },
+      {
+        "text": "Gọi $M$ là một điểm trên đoạn thẳng $AB$. Hình chiếu của $M$ trên mặt phẳng $(A'B'C')$ qua phép chiếu song song theo phương $BB'$ là điểm $M'\\in A'B'$",
+        "answer": true
+      },
+      {
+        "text": "Gọi $O$ là tâm của hình bình hành $BCC'B'$. Ảnh của $O$ qua phép chiếu song song theo phương $AA'$ trên mặt phẳng $(A'B'C')$ là trung điểm của $B'C'$",
+        "answer": true
+      }
+    ],
+    "explain": "- Vì $ABC.A'B'C'$ là hình lăng trụ nên các cạnh bên song song với nhau, do đó $AA'\\parallel CC'$. Vậy khẳng định này đúng.<br>- Vì $AA'\\parallel CC'$ nên phép chiếu song song theo phương $CC'$ biến điểm $A$ thành giao điểm của đường thẳng qua $A$ song song $CC'$ (tức đường thẳng $AA'$) với mặt phẳng $(A'B'C')$, mà giao điểm đó chính là $A'$. Vậy khẳng định này đúng.<br>- Kẻ đường thẳng qua $M$ song song với $BB'$; vì $M\\in AB$ nên đường thẳng này nằm trong mặt phẳng $(ABB'A')$, mà mặt phẳng $(ABB'A')$ cắt $(A'B'C')$ theo giao tuyến $A'B'$, nên giao điểm $M'$ của đường thẳng đó với $(A'B'C')$ thuộc $A'B'$. Vậy khẳng định này đúng.<br>- Gọi $I$ là trung điểm của $B'C'$. Vì $O$ là tâm của hình bình hành $BCC'B'$ nên $O$ cũng là trung điểm của đường chéo $BC'$. Trong tam giác $BB'C'$, hai điểm $O$ và $I$ lần lượt là trung điểm của hai cạnh $BC'$ và $B'C'$ (cùng xuất phát từ đỉnh $C'$), nên $OI$ là đường trung bình ứng với cạnh còn lại, suy ra $OI\\parallel BB'$; mà $BB'\\parallel AA'$ (tính chất lăng trụ) nên $OI\\parallel AA'$. Vì $I\\in(A'B'C')$ nên $I$ chính là ảnh của $O$ qua phép chiếu song song theo phương $AA'$ lên mặt phẳng $(A'B'C')$. Vậy khẳng định này đúng."
+  },
+  {
+    "id": "1H461DS2",
+    "question": "Cho các đoạn thẳng và đường thẳng không song song hoặc không trùng với phương chiếu. Cho biết tính đúng sai của các mệnh đề sau (nếu mệnh đề sai thì hãy phát biểu lại cho đúng):",
+    "subQuestions": [
+      {
+        "text": "Phép chiếu song song bảo toàn thứ tự ba điểm thẳng hàng",
+        "answer": true
+      },
+      {
+        "text": "Phép chiếu song song không làm thay đổi tỉ số độ dài của hai đoạn thẳng",
+        "answer": false
+      },
+      {
+        "text": "Hình chiếu của hai đường thẳng song song là hai đường thẳng song song hoặc trùng nhau",
+        "answer": true
+      },
+      {
+        "text": "Hình chiếu song song của một đường thẳng là một đường thẳng",
+        "answer": true
+      }
+    ],
+    "explain": "- Đây là một tính chất của phép chiếu song song: phép chiếu song song bảo toàn thứ tự ba điểm thẳng hàng. Khẳng định này đúng.<br>- Khẳng định \"Phép chiếu song song không làm thay đổi tỉ số độ dài của hai đoạn thẳng\" là sai vì tính chất đúng phải kèm điều kiện hai đoạn thẳng đó cùng nằm trên một đường thẳng hoặc nằm trên hai đường thẳng song song. Phát biểu đúng là: \"Phép chiếu song song không làm thay đổi tỉ số độ dài của hai đoạn thẳng cùng nằm trên một đường thẳng hoặc nằm trên hai đường thẳng song song\".<br>- Đây là một tính chất của phép chiếu song song: hình chiếu của hai đường thẳng song song là hai đường thẳng song song hoặc trùng nhau. Khẳng định này đúng.<br>- Đây là một tính chất của phép chiếu song song: hình chiếu song song của một đường thẳng (không song song hoặc trùng với phương chiếu) là một đường thẳng. Khẳng định này đúng."
   }
 ];

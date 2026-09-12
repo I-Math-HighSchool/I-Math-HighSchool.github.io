@@ -152,6 +152,7 @@ window.NGAN_HANG_MANIFEST = [
   "11/1H4/1H44_DS.js",
   "11/1H4/1H44_TL.js",
   "11/1H4/1H45_TN.js",
+  "11/1H4/1H45_DS.js",
   "11/1H4/1H46_TN.js",
   "11/1H4/1H46_DS.js",
   "11/1H4/1H46_TL.js",

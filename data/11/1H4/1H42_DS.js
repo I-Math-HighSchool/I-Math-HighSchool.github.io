@@ -72,5 +72,28 @@ window.dungSai1H42 = [
       }
     ],
     "explain": "<br><img src=\"data/11/1H4/im1H42/loc2_1_TN_DS_TL_THPT__004.png\" alt=\"hinh ve\" style=\"max-width:min(560px,90%);max-height:300px;width:auto;height:auto;display:block;margin:8px auto;\">  <br>- <strong>Đúng</strong>.<br>  $ABCD$ là hình thang có $CD$ là đáy lớn nên $AB \\parallel CD$.<br>- <strong>Sai</strong>.<br>  Ta có $S \\in (SAB) \\cap (SCD) \\text{ và } AB \\parallel CD \\text{ và } AB \\subset (SAB) \\text{ và } CD \\subset (SCD) \\Rightarrow (SAB) \\cap (SCD)=Sx$ ($Sx \\parallel AB \\parallel CD$).<br>- <strong>Sai</strong>.<br>  Ta có $M \\in (MAB) \\cap (SCD) \\text{ và } AB \\parallel CD \\text{ và } AB \\subset (MAB) \\text{ và } CD \\subset (SCD) \\Rightarrow (MAB) \\cap (SCD)=My$ ($My \\parallel AB \\parallel CD$).<br>- <strong>Đúng</strong>.<br>  $SB$ và $DC$ chéo nhau vì $S$, $B$, $D$, $C$ không đồng phẳng."
+  },
+  {
+    "id": "1H423DS2",
+    "question": "Cho hình chóp $S.ABCD$ có đáy là hình thang, $AD$ là đáy lớn và $AD=2BC$. Gọi $E$ là giao điểm của $AB$ và $CD$, $F$ là trung điểm $AD$.",
+    "subQuestions": [
+      {
+        "text": "Giao tuyến của $(SAC)$ và $(SAD)$ là đường thẳng $SA$",
+        "answer": true
+      },
+      {
+        "text": "Giao tuyến của $(SAB)$ và $(SCD)$ là đường thẳng $SE$",
+        "answer": true
+      },
+      {
+        "text": "Giao tuyến của $(SAD)$ và $(SBC)$ là đường thẳng $d$ đi qua $S$ và song song cạnh $CD$",
+        "answer": false
+      },
+      {
+        "text": "Giao tuyến của $(SAB)$ và $(SFC)$ là đường thẳng $d'$ đi qua $S$ và song song cạnh $CD$",
+        "answer": false
+      }
+    ],
+    "explain": "- Ta có $S$ và $A$ là hai điểm chung của $(SAC)$ và $(SAD)$ nên giao tuyến của hai mặt phẳng này là đường thẳng $SA$.<br>- Ta có $S\\in (SAB)\\cap (SCD)$. Trong mặt phẳng đáy, $AB\\cap CD=E$, mà $AB\\subset (SAB)$ và $CD\\subset (SCD)$ nên $E\\in (SAB)\\cap (SCD)$. Vậy giao tuyến của $(SAB)$ và $(SCD)$ là đường thẳng $SE$.<br>- Ta có $S\\in (SAD)\\cap (SBC)$, mà $AD\\subset (SAD)$, $BC\\subset (SBC)$ và $AD\\parallel BC$ nên $(SAD)\\cap (SBC)=d$ với $d$ đi qua $S$ và song song với $AD$ (và song song $BC$), chứ không song song với $CD$. Do đó khẳng định trên là sai.<br>- Vì $F$ là trung điểm $AD$ nên $AF=\\dfrac{1}{2}AD=BC$; mà $BC\\parallel AD$ nên $BC\\parallel AF$. Tứ giác $ABCF$ có $BC=AF$ và $BC\\parallel AF$ nên $ABCF$ là hình bình hành, suy ra $AB\\parallel FC$. Ta có $S\\in (SAB)\\cap (SFC)$, mà $AB\\subset (SAB)$, $FC\\subset (SFC)$ và $AB\\parallel FC$ nên $(SAB)\\cap (SFC)=d'$ với $d'$ đi qua $S$ và song song với $AB$, chứ không song song với $CD$. Do đó khẳng định trên là sai."
   }
 ];
